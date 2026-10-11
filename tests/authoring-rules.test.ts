@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { parseRecipe, renderCompact, renderCode, renderHtml, Vocabulary } from '../src/index.ts';
 import { auditConversion } from '../src/conversion-quality.ts';
-import { method, ingredient } from '../scripts/public-domain-conversion.ts';
+import { method, ingredient } from '../tools/public-domain-conversion.ts';
 const vocabulary = new Vocabulary([
   ...['water','salt','garlic','onion','rice','oil','chicken','chicken breast'].map(id => ({id,kind:'ingredient' as const,names:{en:id}})),
   ...['pot','pan','bowl','plate'].map(id => ({id,kind:'equipment' as const,names:{en:id}})),

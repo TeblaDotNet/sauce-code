@@ -102,18 +102,3 @@ test('malformed explicit thing structure reports a diagnostic without losing sou
     assert.ok(renderCode(r).includes(raw));
   }
 });
-test('every embedded source matches verified local Markdown, with only documented fence newline additions', async () => {
-  const records = JSON.parse(await readFile('draft8-migration.json', 'utf8'));
-  assert.equal(records.length,117);
-  const embedded = records.filter((r: { sourcePath?: string }) => r.sourcePath);
-  assert.equal(embedded.length,98);
-  for (const item of embedded) {
-    const original = await readFile(item.sourcePath, 'utf8');
-    const hash = createHash('sha256').update(original).digest('hex');
-    // The repository's existing text=auto eol=lf policy normalizes CRLF at commit.
-    assert.ok(hash === item.sha256 || hash === item.lfSha256, item.recipe);
-    const r = parseRecipe(await readFile(item.file, 'utf8'));
-    assert.equal(renderOriginalSource(r), original + (original.endsWith('\n') ? '' : '\n'), item.recipe);
-    assert.equal(renderOriginalSource(parseRecipe(renderCode(r))), renderOriginalSource(r), item.recipe);
-  }
-});

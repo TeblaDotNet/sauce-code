@@ -4,7 +4,7 @@ import { readFile } from 'node:fs/promises';
 import { parseRecipe, renderCode, renderCompact, renderHtml, Vocabulary, createReferencePage, buildUsageIndex } from '../src/index.ts';
 import { loadVocabulary } from '../src/vocabulary/node.ts';
 import type { Node, Statement } from '../src/model/index.ts';
-const vocabulary = await loadVocabulary('.');
+const vocabulary = await loadVocabulary('knowledge');
 const source = (instructions: string) => '::recipe\nname: Test\n::ingredients\n(onion) 1\n(butter) 100g\n(sugar) 100g\n(egg) 1\n(milk) 100ml\n::instructions\n' + instructions + '\n';
 const statements = (nodes: Node[]): Statement[] => nodes.flatMap(n => n.kind === 'statement' ? [n, ...statements(n.children)] : n.kind === 'group' ? statements(n.children) : []);
 const instructions = (s: string) => {
@@ -144,15 +144,4 @@ test('reference classification is validated data and survives browser serializat
   assert.equal(copy.resolve('add', 'process')[0].reference, false);
   assert.throws(() => new Vocabulary([{ id: 'bad', kind: 'ingredient', names: { en: 'bad' }, reference: false }]), /reference must/);
   assert.throws(() => new Vocabulary([{ id: 'bad', kind: 'process', names: { en: 'bad' }, reference: 'no' as never }]), /reference must/);
-});
-test('existing orange colour family covers light/dark and colour-off without adding a semantic colour', async () => {
-  const css = await readFile('demo/style.css', 'utf8');
-  assert.match(css, /os-syntax-value/);
-  assert.match(css, /body\[data-colour="off"\]/);
-  assert.match(css, /html\.dark-mode/);
-  assert.ok(css.includes('--os-value: var(--tebla-ochre)'));
-  const { recipe } = instructions('<roast> ?= golden');
-  const html = renderHtml(recipe, { syntaxSpans: true });
-  assert.match(html, /class="os-syntax-value">\?= golden/);
-  assert.ok(!html.includes('os-syntax-judgement'));
 });

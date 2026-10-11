@@ -1,12 +1,9 @@
-import {restoreCorpusRepairs, repairedRecipeCount} from './helpers/corpus-quality-unattended.ts';
+
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import { readFile } from 'node:fs/promises';
 import { parseRecipe, renderCode, renderHtml, recipeCategories, dietaryDisclaimer } from '../src/index.ts';
-import { recipeFiles } from '../scripts/corpus.ts';
 import { loadVocabulary } from '../src/vocabulary/node.ts';
-import { restoreRecipeClassification } from './helpers/recipe-classification.ts';
-import { restoreRecipePublication } from './helpers/recipe-publication.ts';
 
 for (const category of recipeCategories) test('optional category: ' + category, () => {
   const source = '::recipe\nname: Example\ncategory: ' + category + '\n';
@@ -72,65 +69,4 @@ test('dietary HTML carries advisory wording in Code and Compact; values stay esc
     assert.match(html, /Check ingredients, substitutions and product labels/);
   }
   assert.ok(!renderHtml(parseRecipe('::recipe\nname: Example')).includes('os-dietary-notice'));
-});
-test('classification docs explain optionality and dietary limitations', async () => {
-  for (const path of ['README.md', 'SPEC.md', 'CONTRIBUTING.md']) {
-    const doc = await readFile(path, 'utf8');
-    assert.match(doc, /minimal recipe remains valid without/);
-    assert.match(doc, /not a guarantee of suitability/);
-    assert.match(doc, /No corpus-wide dietary, cuisine or region inference/);
-  }
-});
-test('corpus classification changes only category metadata; culinary/source bytes stay protected', async () => {
-  const vocabulary = await loadVocabulary('.');
-  const files = await recipeFiles('examples/public-domain-recipes');
-  assert.equal(files.length, 410);
-  let categories = 0, changed = 0, dietary = 0, cuisine = 0, region = 0;
-  const counts = {initial: 0, reworked: 0, blocked: 0};
-  for (const file of files) {
-    const source = restoreCorpusRepairs(await readFile(file, 'utf8'),file);
-    const before = restoreRecipeClassification(source, file);
-    if (before !== source) changed++;
-    // This existing adapter verifies the full pre-publication SHA256 from its committed ledger.
-    restoreRecipePublication(source, file);
-    const r = parseRecipe(source, {vocabulary}), b = parseRecipe(before, {vocabulary});
-    assert.equal(r.diagnostics.filter(d => d.severity === 'error' || d.code === 'INVALID_CATEGORY').length, 0, file);
-    assert.equal(r.conversionStage, b.conversionStage);
-    counts[r.conversionStage!]++;
-    assert.deepEqual(r.curation, b.curation);
-    assert.deepEqual(r.dietary, b.dietary);
-    assert.equal(r.cuisine, b.cuisine); assert.equal(r.region, b.region);
-    assert.deepEqual(r.sections.filter(s => s.originalSource).map(s => s.originalSource!.text), b.sections.filter(s => s.originalSource).map(s => s.originalSource!.text));
-    const fields = r.sections.filter(s => s.name === 'recipe').flatMap(s => s.children).filter(n => n.kind === 'metadata' && n.key === 'category');
-    assert.equal(fields.length, r.category ? 1 : 0);
-    if (r.category) categories++;
-    if (r.dietary) dietary++;
-    if (r.cuisine) cuisine++;
-    if (r.region) region++;
-  }
-  assert.deepEqual({categories, changed, dietary, cuisine, region}, {categories:410, changed:399, dietary:11, cuisine:0, region:0});
-  assert.deepEqual(counts, {initial:184, reworked:216, blocked:10});
-});
-
-
-test('soups and stews retain dish identity rather than a serving-course category', async () => {
-  for (const slug of ['stracciatella-soup', 'miso-soup', 'clam-chowder', 'beef-stew', 'beef-goulash', 'ratatouille', 'tuhu']) {
-    const recipe = parseRecipe(await readFile(`examples/public-domain-recipes/${slug}/${slug}.opensauce`, 'utf8'));
-    assert.equal(recipe.category, 'soup/stew', slug);
-  }
-  for (const [slug, expected] of [['chicken-stock-bone-broth', 'sauce/seasoning/stock'], ['grilled-mackerel-with-miso-soup-and-squash', 'main'], ['sardine-cakes', 'starter'], ['gooseberry-pudding', 'dessert']]) {
-    const recipe = parseRecipe(await readFile(`examples/public-domain-recipes/${slug}/${slug}.opensauce`, 'utf8'));
-    assert.equal(recipe.category, expected, slug);
-  }
-});
-
-
-test('final taxonomy distinguishes components from residual fresh cheese preparations', async () => {
-  assert.equal(recipeCategories.length, 12);
-  for (const slug of ['garam-masala', 'fajita-seasoning', 'zaatar', 'chicken-stock-bone-broth', 'guacamole', 'hummus', 'peanut-butter', 'dulce-de-leche', 'ragu-napoletano', 'cream-cheese', 'ricotta-lasagna-filling']) {
-    assert.equal(parseRecipe(await readFile(`examples/public-domain-recipes/${slug}/${slug}.opensauce`, 'utf8')).category, 'sauce/seasoning/stock', slug);
-  }
-  for (const slug of ['ricotta', 'cheese']) {
-    assert.equal(parseRecipe(await readFile(`examples/public-domain-recipes/${slug}/${slug}.opensauce`, 'utf8')).category, 'miscellaneous', slug);
-  }
 });

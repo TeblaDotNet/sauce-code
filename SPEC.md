@@ -155,7 +155,7 @@ One says which part of the egg. The other says something about its current prepa
 
 The knowledge base can understand these relationships without requiring every combination to become its own separate ingredient.
 
-Qualifiers stay authored text. Explicit recognised preparation states may be annotated by the knowledge base; no implicit state transition is inferred. See [the vocabulary schema](VOCABULARY-SCHEMA.md) for the implemented relationship model.
+Qualifiers stay authored text. Explicit recognised preparation states may be annotated by the knowledge base; no implicit state transition is inferred. See [the vocabulary schema](docs/knowledge.md) for the implemented relationship model.
 
 ## Results
 

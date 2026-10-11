@@ -1,11 +1,10 @@
-import { restoreRecipePublication } from './helpers/recipe-publication.ts';
+
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import { readFile, readdir } from 'node:fs/promises';
 import { parseRecipe, renderCode, renderCompact, Vocabulary } from '../src/index.ts';
 import type { Node, Recipe, Statement } from '../src/index.ts';
 import { loadVocabulary } from '../src/vocabulary/node.ts';
-import { recipeFiles } from '../scripts/corpus.ts';
 
 function statements(recipe: Recipe): Statement[] {
   const result: Statement[] = [];
@@ -43,23 +42,6 @@ for (const file of (await readdir('tests/fixtures')).filter(f => f.endsWith('.op
     assert.ok(compact.includes('Instructions:'));
   });
 }
-
-test('complete live corpus: no syntax errors, lossless token spans and working renderers', async () => {
-  const files = await recipeFiles('.');
-  const imported = JSON.parse(await readFile('public-domain-import.json', 'utf8'));
-  assert.ok(files.length >= imported.summary.finalPromoted);
-  assert.equal(files.filter(f => f.replaceAll('\\', '/').startsWith('examples/public-domain-recipes/')).length, imported.summary.finalPromoted);
-  const vocabulary = await loadVocabulary('.');
-  for (const file of files) {
-    const source = await readFile(file, 'utf8');
-    const recipe = parseRecipe(source, { vocabulary });
-    assert.deepEqual(errors(recipe), [], file);
-    assert.ok(renderCompact(recipe).length, file);
-    const code = renderCode(recipe, { comments: true });
-    assert.deepEqual(errors(parseRecipe(code)), [], file);
-    for (const n of statements(recipe)) for (const t of n.tokens) assert.equal(source.slice(t.span.start, t.span.end), t.raw, file);
-  }
-});
 
 test('inherited subject is scoped to indentation and group', () => {
   const r = instruction('{cake mix} <spoon, loaf tin>\n    <level surface>\n    <bake, 50-55m>\n{cake} <cool, slightly>\n    <pierce, top>\nMeanwhile [\n    <wait>\n]\n<serve>');
@@ -162,7 +144,7 @@ test('vocabulary uses explicit aliases only and preserves source spelling', asyn
   const r = parseRecipe('::ingredients\n(zucchini) 1', { vocabulary });
   assert.equal(statements(r)[0].tokens[0].canonicalId, 'courgette');
   assert.match(renderCode(r), /\(zucchini\)/);
-  const current = await loadVocabulary('.');
+  const current = await loadVocabulary('knowledge');
   assert.equal(current.entries.length, 746);
   assert.equal(current.resolve('zucchini', 'ingredient').length, 1);
   assert.equal(current.resolve('courgette', 'ingredient')[0].id, current.resolve('zucchini', 'ingredient')[0].id);
@@ -178,16 +160,8 @@ test('CRLF, Unicode and tabs keep exact token offsets', () => {
   for (const n of nodes) for (const t of n.tokens) assert.equal(r.source.slice(t.span.start, t.span.end), t.raw);
 });
 
-test('fixture copies match the promoted recipes', async () => {
-  for (const file of (await readdir('tests/fixtures')).filter(f => f.endsWith('.opensauce'))) {
-    const name = file.replace('.opensauce', '');
-    assert.equal((await readFile(`tests/fixtures/${file}`, 'utf8')).replaceAll('\r\n', '\n'),
-      restoreRecipePublication(await readFile(`examples/public-domain-recipes/${name}/${file}`, 'utf8'), name).replaceAll('\r\n', '\n'));
-  }
-});
-
 test('canonical aliases resolve local references without rewriting names or phrases', async () => {
-  const vocabulary = await loadVocabulary('.');
+  const vocabulary = await loadVocabulary('knowledge');
   const r = parseRecipe('::ingredients\n(courgette) 1\n::equipment\n(baking tray)\n::instructions\n(zucchini) <bring to boil>\n(baking sheet) <remove from heat>', { vocabulary });
   const [vegetable, tray] = statements(r).slice(-2);
   assert.equal(vegetable.tokens[0].thingKind, 'ingredient');
@@ -197,12 +171,6 @@ test('canonical aliases resolve local references without rewriting names or phra
   assert.equal(tray.tokens.find(t => t.kind === 'process')?.canonicalId, 'remove');
   assert.match(renderCompact(r), /Remove from heat/);
   assert.match(renderCode(r), /\(zucchini\) <bring to boil>/);
-});
-
-test('raw observations can be loaded separately without creating aliases', async () => {
-  const raw = await loadVocabulary('vocabulary-raw/draft6-seed');
-  assert.equal(raw.resolve('zucchini', 'ingredient')[0].id, 'zucchini');
-  assert.equal(raw.resolve('courgette', 'ingredient')[0].id, 'courgette');
 });
 
 test('conditions attach to nested Repeat blocks once', () => {

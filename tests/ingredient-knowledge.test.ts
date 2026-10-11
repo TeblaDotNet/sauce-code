@@ -5,7 +5,7 @@ import { parseRecipe, renderCompact, renderHtml, renderCode, Vocabulary } from '
 import type { Statement, VocabularyEntry } from '../src/index.ts';
 import { loadVocabulary } from '../src/vocabulary/node.ts';
 
-const vocabulary = await loadVocabulary('.');
+const vocabulary = await loadVocabulary('knowledge');
 const egg = vocabulary.resolve('egg', 'ingredient')[0];
 const recipe = (instructions: string, ingredients = '(egg) 4') => parseRecipe(`::ingredients\n${ingredients}\n::instructions\n${instructions}`, { vocabulary });
 const pair = '(egg: yolk) <separate>\n(egg: white) <separate>';
@@ -71,19 +71,6 @@ for (const [label, fields] of [
 ] as const) test(`knowledge validation rejects ${label}`, () => {
   assert.throws(() => new Vocabulary([{ id: 'test', kind: 'ingredient', names: { en: 'test' }, ...fields } as unknown as VocabularyEntry]), /Invalid ingredient knowledge/);
 });
-test('egg separation uses explicit grouping and preserves AST, code text and HTML anchors', async () => {
-  const r = parseRecipe(await readFile('examples/public-domain-recipes/tiramisu/tiramisu.opensauce', 'utf8'), { vocabulary });
-  const before = JSON.stringify(r), code = renderCode(r);
-  assert.match(renderCompact(r, { vocabulary }), /Separate the eggs into yolks and whites\./);
-  assert.match(renderCompact(r), /Separate the egg yolk\.\nSeparate the egg white\./);
-  const html = renderHtml(r, { vocabulary, view: 'compact' });
-  assert.match(html, /data-known-part-path="\[&quot;yolk&quot;\]" data-parts-complete="true"/);
-  const separating = (r.sections.find(s => s.name === 'instructions')!.children as Statement[]).filter(n => n.kind === 'statement' && n.tokens.some(t => t.name === 'separate'));
-  for (const n of separating) assert.ok(html.includes(`id="os-${n.id}"`));
-  assert.ok(!html.includes('undefined'));
-  assert.equal(JSON.stringify(r), before); assert.equal(renderCode(r), code);
-  assert.match(renderCompact(recipe(pair, '(egg) 1'), { vocabulary }), /Separate the egg into yolk and white\./);
-});
 for (const [label, source, ingredients] of [
   ['duplicate parts', pair.replace('white', 'yolk'), '(egg) 4'],
   ['unknown part', pair.replace('white', 'unknown'), '(egg) 4'],
@@ -109,13 +96,6 @@ test('no inferred grouping without metadata or with custom display hooks', () =>
   const r = recipe(pair);
   assert.doesNotMatch(renderCompact(r, { vocabulary: sparse }), /Separate the eggs into/);
   assert.doesNotMatch(renderCompact(r, { vocabulary, formatTerm: t => t.name! }), /Separate the eggs into/);
-});
-test('Apple Pie inherited addition places destination before purpose and keeps ice-cold state', async () => {
-  const source = await readFile('examples/public-domain-recipes/apple-pie/apple-pie.opensauce', 'utf8');
-  const r = parseRecipe(source, { vocabulary }), before = JSON.stringify(r);
-  assert.match(renderCompact(r), /Add enough ice-cold water to the crust to make the dough hold together\./);
-  assert.match(renderHtml(r, { view: 'compact' }).replace(/<[^>]+>/g, ''), /Add enough ice-cold water to the crust to make the dough hold together\./);
-  assert.equal(JSON.stringify(r), before);
 });
 test('addition retains arbitrary suffixes, amounts and unresolved role text without guessing', () => {
   const r = recipe('{mix} <stir>\n    + (water) enigmatic & <strange>\n    + (water) 20ml\n    + (water) enough to coat everything', '(water) 50ml');

@@ -4,8 +4,7 @@ import { readFile } from 'node:fs/promises';
 import { Vocabulary, parseRecipe, semanticTokens, createReferencePage, renderReferenceHtml } from '../src/index.ts';
 import type { VocabularyEntry, Node, Recipe, Token } from '../src/index.ts';
 import { loadVocabulary } from '../src/vocabulary/node.ts';
-import { recipeFiles } from '../scripts/corpus.ts';
-const vocabulary = await loadVocabulary('.');
+const vocabulary = await loadVocabulary('knowledge');
 const tokens = (r: Recipe): Token[] => {
   const visit = (nodes: Node[]): Token[] => nodes.flatMap(n => [
     ...(n.kind === 'statement' ? semanticTokens(n.tokens) : []),
@@ -78,27 +77,6 @@ test('states are restricted to ingredient roots and survive JSON transport', () 
   assert.match(html, /&lt;dry&gt;/); assert.match(html, /&lt;alias&gt;/); assert.doesNotMatch(html, /<dry>|<alias>/);
 });
 
-test('all 410 corpus ASTs differ only by deliberate source-preserving lentil state annotations', async () => {
-  const before = new Vocabulary(vocabulary.entries.map(e => {
-    const copy = {...e}; if (['lentils', 'brown-lentils'].includes(e.id)) delete copy.states;
-    if (copy.id === 'brown-lentils') delete copy.type_of;
-    return copy;
-  }));
-  const files = await recipeFiles('examples/public-domain-recipes'); assert.equal(files.length, 410);
-  let annotated = 0;
-  for (const file of files) {
-    const source = await readFile(file, 'utf8');
-    const r = parseRecipe(source, {vocabulary});
-    for (const t of tokens(r)) if (t.stateResolution && ['lentils','brown-lentils'].includes(t.canonicalId!)) {
-      assert.ok(['lentils','brown-lentils'].includes(t.canonicalId!));
-      for (const s of t.stateResolution) assert.equal(source.slice(s.span.start,s.span.end), s.raw);
-      annotated++; delete t.stateResolution;
-    }
-    assert.deepEqual(r, parseRecipe(source, {vocabulary: before}), file);
-  }
-  assert.equal(annotated, 1);
-});
-
 
 test('chickpea states are evidenced, local, exact and source-preserving', () => {
   const entry = vocabulary.resolve('chickpeas', 'ingredient')[0];
@@ -130,32 +108,4 @@ test('chickpea states are evidenced, local, exact and source-preserving', () => 
   assert.match(html, /States \/ preparations/);
   assert.match(html, /cooked/);
   assert.match(html, /tinned \/ canned/);
-});
-
-test('all 410 corpus ASTs gain exactly four chickpea annotations and nothing else', async () => {
-  const before = new Vocabulary(vocabulary.entries.map(e => {
-    const copy = {...e}; if (e.kind === 'ingredient' && e.id === 'chickpeas') delete copy.states;
-    return copy;
-  }));
-  const files = await recipeFiles('examples/public-domain-recipes');
-  assert.equal(files.length, 410);
-  const added: {recipe: string; line: number; id: string; raw: string}[] = [];
-  for (const file of files) {
-    const source = await readFile(file, 'utf8');
-    const r = parseRecipe(source, {vocabulary});
-    for (const t of tokens(r)) if (t.canonicalId === 'chickpeas' && t.stateResolution) {
-      for (const s of t.stateResolution) {
-        assert.equal(source.slice(s.span.start, s.span.end), s.raw);
-        added.push({recipe: file.replaceAll('\\', '/').split('/').at(-2)!, line: s.span.line, id: s.id, raw: s.raw});
-      }
-      delete t.stateResolution;
-    }
-    assert.deepEqual(r, parseRecipe(source, {vocabulary: before}), file);
-  }
-  assert.deepEqual(added, [
-    {recipe: 'cooked-chickpeas', line: 22, id: 'tinned', raw: ' canned'},
-    {recipe: 'fall-vegetable-and-chickpea-curry', line: 27, id: 'tinned', raw: ' canned'},
-    {recipe: 'gypsy-soup', line: 30, id: 'cooked', raw: ' cooked'},
-    {recipe: 'hummus', line: 18, id: 'tinned', raw: ' canned'},
-  ]);
 });

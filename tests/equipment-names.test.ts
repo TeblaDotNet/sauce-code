@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import test from 'node:test';
 import { parseRecipe, renderHtml, buildUsageIndex, createReferencePage, recipeReferenceUrl } from '../src/index.ts';
 import { loadVocabulary } from '../src/vocabulary/node.ts';
-const vocabulary = await loadVocabulary('.');
+const vocabulary = await loadVocabulary('knowledge');
 const names = [
   ['fridge', 'refrigerator'], ['sheet pan', 'baking-tray'], ['oven tray', 'baking-tray'],
   ['kitchen twine', 'butchers-twine'], ['hand blender', 'immersion-blender'], ['stick blender', 'immersion-blender'],

@@ -1,12 +1,11 @@
-import {restoreCorpusRepairs, repairedRecipeCount} from './helpers/corpus-quality-unattended.ts';
+
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import {readFile} from 'node:fs/promises';
 import {Vocabulary, parseRecipe, semanticTokens, renderHtml, createReferencePage, buildUsageIndex} from '../src/index.ts';
 import type {Node, Recipe, Token} from '../src/index.ts';
 import {loadVocabulary} from '../src/vocabulary/node.ts';
-import {recipeFiles} from '../scripts/corpus.ts';
-const vocabulary = await loadVocabulary('.');
+const vocabulary = await loadVocabulary('knowledge');
 const demoted = ['transfer','pour','reserve','set-aside','serve','arrange','cover','uncover'];
 const aliases = {'air-fry':'air fry','hard-boil':'hard boil',thaw:'defrost'};
 const added = {blanch:'blanch',braise:'braise',julienne:'julienne',confit:'confit',flambe:'flambé',render:'render'};
@@ -62,42 +61,4 @@ test('unknown actions and existing techniques keep their established behavior', 
   assert.equal(vocabulary.resolve('slash','process')[0].id,'slash');
   assert.equal(vocabulary.resolve('barbecue','process').length,0);
   assert.equal(vocabulary.resolve('bbq','process').length,0);
-});
-
-test('410 corpus ASTs change only by the approved process resolution and eligibility fields', async () => {
-  const before = new Vocabulary(vocabulary.entries.filter(e => !(e.kind === 'process' && e.id in added)).map(e => {
-    const copy = {...e};
-    if (e.kind === 'process' && demoted.includes(e.id)) delete copy.reference;
-    if (e.kind === 'process' && e.id in aliases) delete copy.aliases;
-    return copy;
-  }));
-  const files = await recipeFiles('examples/public-domain-recipes'); assert.equal(files.length,410);
-  const changed: string[] = [];
-  let demotions = 0;
-  for (const file of files) {
-    const text = restoreCorpusRepairs(await readFile(file,'utf8'),file), r = parseRecipe(text,{vocabulary}), old = parseRecipe(text,{vocabulary:before});
-    const ts = tokens(r), bs = tokens(old); assert.equal(ts.length,bs.length);
-    for (let i=0;i<ts.length;i++) {
-      const t = ts[i], b = bs[i];
-      if (t.kind !== 'process') continue;
-      if (t.canonicalId !== b.canonicalId) {
-        assert.equal(b.canonicalId,undefined);
-        assert.ok(t.canonicalId! in aliases || t.canonicalId! in added);
-        changed.push(file.replaceAll('\\','/').split('/').at(-2) + ':' + t.span.line + ':' + t.name + '->' + t.canonicalId);
-        delete t.canonicalId;
-      }
-      if (t.reference !== b.reference) {
-        assert.ok(demoted.includes(t.canonicalId!)); assert.equal(b.reference,undefined); assert.equal(t.reference,false);
-        delete t.reference; demotions++;
-      }
-    }
-    assert.deepEqual(r,old,file);
-  }
-  assert.deepEqual(changed,[
-    'bebek-mropol:43:render->render', 'chimichanga:55:air fry->air-fry',
-    'guobaorou:52:julienne->julienne', 'hoisin-pork-belly:47:confit->confit',
-    'lobster-bisque:56:blanch->blanch', 'lobster-bisque:70:flambé->flambe',
-    'mapo-tofu:62:braise->braise', 'okroshka:38:hard boil->hard-boil', 'seafood-pasta:40:defrost->thaw',
-  ]);
-  assert.ok(demotions > 0);
 });

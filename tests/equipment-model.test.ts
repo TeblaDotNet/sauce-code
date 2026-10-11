@@ -9,7 +9,7 @@ const walk = (nodes: Node[]): ReturnType<typeof semanticTokens> => nodes.flatMap
   ...(n.kind === 'statement' ? semanticTokens(n.tokens) : []), ...('children' in n ? walk(n.children) : []),
   ...(n.kind === 'group' && n.condition ? walk([n.condition]) : [])]);
 const tokens = (r: Recipe) => [...walk(r.preamble), ...r.sections.flatMap(s => walk(s.children))];
-const vocabulary = await loadVocabulary('.');
+const vocabulary = await loadVocabulary('knowledge');
 for (const [label, entries] of [
   ['missing parent', [equipment('child', { type_of: 'missing' })]],
   ['ingredient parent', [equipment('child', { type_of: 'parent' }), { id: 'parent', kind: 'ingredient', names: { en: 'parent' } }]],

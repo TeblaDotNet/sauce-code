@@ -21,22 +21,19 @@
     "node": ">=24"
   },
   "scripts": {
-    "test": "node --test tests/*.test.ts",
-    "build": "tsc -p tsconfig.build.json",
-    "demo": "tsc -p tsconfig.build.json && node scripts/demo-server.ts",
     "check": "tsc --noEmit",
-    "corpus": "node scripts/corpus.ts",
-    "quality:audit": "node scripts/quality-audit.ts",
-    "site:build": "node scripts/site-build.ts",
-    "site:validate": "node scripts/site-validate.ts",
-    "site:preview": "node scripts/site-preview.ts"
+    "build": "tsc -p tsconfig.build.json",
+    "test": "node --test tests/*.test.ts",
+    "corpus": "node tools/corpus.ts",
+    "quality:audit": "node tools/quality-audit.ts",
+    "docs:check": "node tools/check-docs.ts",
+    "source:check": "node tools/check-public-source.ts"
   },
   "dependencies": {
     "yaml": "^2.8.0"
   },
   "devDependencies": {
     "@types/node": "^24.0.0",
-    "marked": "18.1.0",
     "typescript": "^5.9.0"
   },
   "packageManager": "pnpm@11.25.0",

@@ -1,0 +1,62 @@
+{
+  "sourceCommit": "04c3d1c44f05686bb16729fb926acdde86f43047",
+  "policy": "Pinned feature examples; full mutable corpus has a separate owner. Maturity/review unchanged.",
+  "recipes": [
+    {
+      "path": "examples/public-domain-recipes/apple-pie/apple-pie.opensauce",
+      "sha256": "a1b0962719e2a7c7af574b0f244c9842e65f1c831b0a253e839c7fc036abad76"
+    },
+    {
+      "path": "examples/public-domain-recipes/banana-bread/banana-bread.opensauce",
+      "sha256": "30349ecd0550d56119e46852f9826931a1f0c828d5b3de69d24a4779b459cf5a"
+    },
+    {
+      "path": "examples/public-domain-recipes/basic-waffles/basic-waffles.opensauce",
+      "sha256": "b65b3eff0df912f0a41adcacbf88714bea5cd3e3690e571c3c48301fd8d85f85"
+    },
+    {
+      "path": "examples/public-domain-recipes/carbonara/carbonara.opensauce",
+      "sha256": "83d19a5e65df03b84e5c48e157802752b3579e378f7cd403fc55507464f4b15a"
+    },
+    {
+      "path": "examples/public-domain-recipes/ginger-garlic-broccoli/ginger-garlic-broccoli.opensauce",
+      "sha256": "fc35e18d19db132f2ef527f59e89f6401e7fda53701a2d0c6eae4caed1bf041a"
+    },
+    {
+      "path": "examples/public-domain-recipes/gooseberry-pudding/gooseberry-pudding.opensauce",
+      "sha256": "7ff30613a4a3a6b0db576067bc39f0df325aabcff152bbdf690a14918f2e98bb"
+    },
+    {
+      "path": "examples/public-domain-recipes/hakka-style-meatballs/hakka-style-meatballs.opensauce",
+      "sha256": "c622cabc60a4f420fc03636ce1052ccc58ec9037275013a6fcb7d81688843b3f"
+    },
+    {
+      "path": "examples/public-domain-recipes/hummus/hummus.opensauce",
+      "sha256": "e3f5e86c97665bf81300c0f6868457b950435b36ada999457e8f9c699784d37c"
+    },
+    {
+      "path": "examples/public-domain-recipes/medieval-beef-soup/medieval-beef-soup.opensauce",
+      "sha256": "7a593a445ea5b1457cd459b2f9063bfaa3658e3d1d0133c6a84c9a35a710f19b"
+    },
+    {
+      "path": "examples/public-domain-recipes/no-knead-bread/no-knead-bread.opensauce",
+      "sha256": "9f9fbc055a39767411664ee7a3d0f0091a8ef5b91802d5a29392156679a85993"
+    },
+    {
+      "path": "examples/public-domain-recipes/pavlova/pavlova.opensauce",
+      "sha256": "265a1ab798e8da6deffc088abd1065f616228aa0160d9725408adc82446ef427"
+    },
+    {
+      "path": "examples/public-domain-recipes/ravioli/ravioli.opensauce",
+      "sha256": "b473840d3fccc760e63e9c3c5fcf3f7566aef104b5a2e21f65682564c218ac1b"
+    },
+    {
+      "path": "examples/public-domain-recipes/red-lentil-dahl/red-lentil-dahl.opensauce",
+      "sha256": "760648eee82b0d3b82c9c6ae314a916ee26c793051f755f1c8859d96fbb7e85f"
+    },
+    {
+      "path": "examples/public-domain-recipes/tiramisu/tiramisu.opensauce",
+      "sha256": "b3c89949690f9ad3c98dbf0d7d1ae45a7bb9331019b166ff89f1998f10d2b1da"
+    }
+  ]
+}

@@ -4,9 +4,8 @@ import { readFile } from 'node:fs/promises';
 import { Vocabulary, parseRecipe, buildUsageIndex, createReferencePage, renderReferenceHtml, renderHtml, recipeReferenceUrl, partAnchor } from '../src/index.ts';
 import type { VocabularyEntry } from '../src/index.ts';
 import { loadVocabulary } from '../src/vocabulary/node.ts';
-import { recipeFiles } from '../scripts/corpus.ts';
 
-const vocabulary = await loadVocabulary('.');
+const vocabulary = await loadVocabulary('knowledge');
 const ingredient = (id: string, extra: object = {}): VocabularyEntry => ({id, kind: 'ingredient', names: {en: id}, ...extra});
 
 for (const [label, entries] of [
@@ -98,16 +97,4 @@ test('relationship labels and custom URLs retain HTML escaping and URL safety', 
     assert.doesNotMatch(html, /<family>|<child>|href="javascript:/);
     assert.match(html, /&lt;family&gt;/); assert.match(html, /&lt;child&gt;/);
   }
-});
-
-test('family metadata changes no corpus ASTs, local roles, or standalone compound resolution', async () => {
-  const before = new Vocabulary(vocabulary.entries.map(entry => ['wheat-flour', 'olive-oil'].includes(entry.id) ? {...entry, type_of: undefined} : entry));
-  for (const file of await recipeFiles('examples/public-domain-recipes')) {
-    const source = await readFile(file, 'utf8');
-    assert.deepEqual(parseRecipe(source, {vocabulary}), parseRecipe(source, {vocabulary: before}), file);
-  }
-  for (const id of ['egg-yolk', 'egg-white', 'chicken-breast'])
-    assert.equal(vocabulary.resolve(id, 'ingredient')[0].id, id);
-  for (const term of ['heat seasoning', 'frying fat', 'seasoning', 'sweetener', 'sauce choice'])
-    assert.deepEqual(vocabulary.resolve(term, 'ingredient'), []);
 });

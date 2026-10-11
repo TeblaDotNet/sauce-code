@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import {parseRecipe,renderCode,Vocabulary} from '../src/index.ts';
 import {classifyProse,proseEvidence} from '../src/prose-classification.ts';
 import {auditConversion,qualityModel} from '../src/conversion-quality.ts';
-import {method} from '../scripts/public-domain-conversion.ts';
+import {method} from '../tools/public-domain-conversion.ts';
 const vocabulary=new Vocabulary([]);
 const source=(body:string)=>'::recipe\nname: Prose\n::instructions\n'+body+'\n';
 const findings=(body:string)=>proseEvidence(parseRecipe(source(body)));

@@ -1,9 +1,0 @@
-id: cupcake-tin
-kind: equipment
-names:
-  en: cupcake tin
-observed_forms:
-- syntax: cupcake tin
-  count: 1
-seen_in:
-- examples/public-domain-recipes/lavacake/lavacake.opensauce

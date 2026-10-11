@@ -3,7 +3,6 @@ import test from 'node:test';
 import { readFile } from 'node:fs/promises';
 import { parseRecipe, renderHtml, renderCompact, safeUrl, Vocabulary } from '../src/index.ts';
 import { loadVocabulary } from '../src/vocabulary/node.ts';
-import { demoRecipes, createDemoServer } from '../scripts/demo-server.ts';
 
 const vocabulary = new Vocabulary([
   { id: 'courgette', kind: 'ingredient', names: { en: 'courgette' }, aliases: ['zucchini'] },
@@ -124,34 +123,4 @@ test('shared Compact phrasing retains text renderer behavior and token names', (
   assert.match(html, /data-kind="process">cool<\/span> slightly/);
 });
 
-const canonical = await loadVocabulary('.');
-for (const recipe of demoRecipes) test(`HTML demo fixture: ${recipe.name}`, async () => {
-  const r = parseRecipe(await readFile(`examples/public-domain-recipes/${recipe.id}/${recipe.id}.opensauce`, 'utf8'), { vocabulary: canonical });
-  for (const view of ['compact', 'code'] as const) {
-    const html = renderHtml(r, { view, comments: true });
-    assert.match(html, /data-section="ingredients"/);
-    assert.match(html, /data-section="equipment"/);
-    assert.match(html, /data-section="instructions"/);
-    assert.match(html, /data-canonical-id=/);
-    assert.doesNotMatch(html, /undefined|null/);
-  }
-});
-
-test('local demo serves selected sources and modules, denies unrelated files and mutation', async () => {
-  const server = await createDemoServer();
-  await new Promise<void>(resolve => server.listen(0, '127.0.0.1', resolve));
-  const address = server.address();
-  assert.ok(address && typeof address !== 'string');
-  const base = `http://127.0.0.1:${address.port}`;
-  try {
-    const page = await fetch(base);
-    assert.equal(page.status, 200);
-    assert.match(await page.text(), /Original recipe source/);
-    assert.match(page.headers.get('content-security-policy')!, /object-src 'none'/);
-    assert.equal((await (await fetch(base + '/api/recipes')).json()).length, demoRecipes.length);
-    assert.equal((await fetch(base + '/examples/public-domain-recipes/tiramisu/tiramisu.opensauce')).status, 200);
-    for (const path of ['/package.json', '/.git/config', '/demo/../package.json', '/dist/%2e%2e/package.json', '/examples/public-domain-recipes/apple-pie/../../../src/index.ts'])
-      assert.equal((await fetch(base + path)).status, 404, path);
-    assert.equal((await fetch(base + '/', { method: 'POST' })).status, 405);
-  } finally { await new Promise<void>((resolve, reject) => server.close(error => error ? reject(error) : resolve())); }
-});
+const canonical = await loadVocabulary('knowledge');

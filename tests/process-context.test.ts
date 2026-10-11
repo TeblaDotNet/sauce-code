@@ -4,7 +4,7 @@ import {parseRecipe,renderCode,renderCompact,renderHtml,semanticTokens,Vocabular
 import type {Statement,Token} from '../src/index.ts';
 import {loadVocabulary} from '../src/vocabulary/node.ts';
 import {auditConversion} from '../src/conversion-quality.ts';
-const vocabulary=await loadVocabulary('.');
+const vocabulary=await loadVocabulary('knowledge');
 const line='{ravioli} <cook, 1-2m, in (water, boiling) + (salt)> ?= they float to the top';
 const prefix='::recipe\nname: Context\n::ingredients\n(water)\n(salt)\n(oil)\n(onion)\n::equipment\n(plastic wrap)\n(pan)\n::instructions\n';
 const source=prefix+line+'\n{dough} <cover, with (plastic wrap)>\n(onion) <fry, in (pan) + (oil)>\n';

@@ -1,9 +1,0 @@
-id: broccoli
-kind: ingredient
-names:
-  en: broccoli
-observed_forms:
-- syntax: broccoli
-  count: 1
-seen_in:
-- examples/public-domain-recipes/baked-pasta-with-broccoli/baked-pasta-with-broccoli.opensauce
