@@ -165,3 +165,270 @@
   checked_at: 2026-10-11
   review_scope: text
   notes: Archived mechanism explanation; no universal cooking threshold adopted.
+
+- id: kab-salt
+  title: Is there a best salt for baking?
+  url: https://www.kingarthurbaking.com/blog/2021/06/17/kosher-salt-best-salts-for-baking
+  publisher: King Arthur Baking
+  type: article
+  checked_at: 2026-10-11
+  review_scope: text
+  commercial_context: Manufacturer/retailer source; product examples are not endorsements.
+  notes: Crystal size and measuring differences; no density adopted.
+- id: kab-butter
+  title: Butter for baking
+  url: https://www.kingarthurbaking.com/blog/2016/08/18/butter-baking
+  publisher: King Arthur Baking
+  type: article
+  checked_at: 2026-10-11
+  review_scope: text
+  commercial_context: Manufacturer/retailer source; product examples are not endorsements.
+  notes: Baking guidance and salted/unsalted distinction; recipe-specific preferences.
+- id: kab-success
+  title: Recipe Success Guide
+  url: https://www.kingarthurbaking.com/recipes/resources/recipe-success-guide
+  publisher: King Arthur Baking
+  type: article
+  checked_at: 2026-10-11
+  review_scope: text
+  commercial_context: Manufacturer/retailer source; product examples are not endorsements.
+  notes: Written measuring and ingredient-temperature guidance. No unit equivalences imported.
+- id: usu-tomato
+  title: How to Preserve Tomatoes
+  url: https://extension.usu.edu/preserve-the-harvest/research/tomatoes
+  publisher: Utah State University Extension
+  type: article
+  checked_at: 2026-10-11
+  review_scope: text
+  notes: Ripening, freezing texture and culinary preservation uses; no canning procedure reproduced.
+- id: ioc-oil
+  title: Olive oils
+  url: https://www.internationaloliveoil.org/olive-world/olive-oil/
+  publisher: International Olive Council
+  type: article
+  checked_at: 2026-10-11
+  review_scope: text
+  notes: Product categories, culinary use and storage. Legal thresholds and health claims not reproduced.
+- id: pulses-cook
+  title: Cooking Guide
+  url: https://usapulses.org/how-to-prepare/
+  publisher: USA Pulses
+  type: article
+  checked_at: 2026-10-11
+  review_scope: text
+  notes: "Industry educational source: dry versus cooked/tinned chickpeas. Page has differing timing examples;
+    no universal timings or cup yields imported."
+- id: dairy-cheddar
+  title: Cheddar Cheese
+  url: https://www.dairy.com.au/products-and-recipes/dairy-products/cheese/cheddar-cheese
+  publisher: Dairy Australia
+  type: article
+  checked_at: 2026-10-11
+  review_scope: text
+  notes: Industry source; maturity/flavour and production, not universal ageing labels or dietary assurance.
+- id: fsis-chicken
+  title: Chicken from Farm to Table
+  url: https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/poultry/chicken-farm-table
+  publisher: USDA Food Safety and Inspection Service
+  type: article
+  checked_at: 2026-10-11
+  review_scope: text
+  notes: Household handling and thermometer-based cooking guidance; not a substitute for a complete food-safety
+    procedure.
+- id: cia-stock
+  title: A No-Rules Guide for Rich Chicken Stock
+  url: https://www.ciafoodies.com/a-no-rules-guide-for-rich-chicken-stock/
+  publisher: Culinary Institute of America
+  type: article
+  checked_at: 2026-10-11
+  review_scope: text
+  notes: Culinary use of carcasses and bones; no claim that bones are eaten directly.
+- id: usu-coriander
+  title: Cilantro/Coriander in the Garden
+  url: https://extension.usu.edu/yardandgarden/research/cilantro-coriander-in-the-garden
+  publisher: Utah State University Extension
+  type: article
+  checked_at: 2026-10-11
+  review_scope: text
+  notes: US leaf/seed names and harvesting/storage distinction; gardening quantities not imported.
+- id: rhs-coriander
+  title: How to grow coriander
+  url: https://www.rhs.org.uk/herbs/coriander/grow-your-own?type=h
+  publisher: Royal Horticultural Society
+  type: article
+  checked_at: 2026-10-11
+  review_scope: text
+  notes: UK herb/seed terminology and culinary context; no resolver equivalence implied.
+- id: cia-techniques
+  title: The Essential Cooking Techniques
+  url: https://www.ciafoodies.com/the-essential-cooking-techniques/
+  publisher: Culinary Institute of America
+  type: article
+  checked_at: 2026-10-11
+  review_scope: text
+  notes: Dry heat and moist cooking distinctions; method-dependent judgement, not universal temperatures or timings.
+- id: rouxbe-dice
+  title: How do you best dice an onion?
+  url: https://www.rouxbe.com/knowledge-base/3491
+  publisher: Rouxbe / Eric Wynkoop
+  type: article
+  checked_at: 2026-10-11
+  review_scope: text
+  notes: Written answer/transcript inspected. Embedded video was not watched; no playback or duration claim.
+- id: nchfp-blanch
+  title: Blanching Vegetables
+  url: https://nchfp.uga.edu/how/freeze/freeze-general-information/blanching-vegetables/
+  publisher: National Center for Home Food Preservation
+  type: article
+  checked_at: 2026-10-11
+  review_scope: text
+  notes: Vegetable freezing context, enzyme control, size-dependent times and cooling.
+- id: isapp-ferment
+  title: Creating a scientific definition of fermented foods
+  url: https://isappscience.org/creating-a-scientific-definition-of-fermented-foods/
+  publisher: ISAPP / Maria Marco
+  type: article
+  checked_at: 2026-10-11
+  review_scope: text
+  notes: Broad culinary definition, including aerobic processes. No health or nutrition claims imported.
+- id: umn-ferment
+  title: "Preserving food at home: Fermentation"
+  url: https://extension.umn.edu/food/preparing/cooking-at-home/food-preservation/fermentation
+  publisher: University of Minnesota Extension
+  type: article
+  checked_at: 2026-10-11
+  review_scope: text
+  notes: Produce/lactic-acid fermentation only. Overview links to tested procedures; no standalone brine formula
+    supplied.
+- id: nchfp-pickle
+  title: General Information on Pickling
+  url: https://nchfp.uga.edu/how/pickle/general-information-pickling/general-information-on-pickling/
+  publisher: National Center for Home Food Preservation
+  type: article
+  checked_at: 2026-10-11
+  review_scope: text
+  notes: Fermented versus fresh-pack pickles, tested proportions and preservation scope.
+- id: umn-pickle
+  title: "Preserving food at home: Pickling produce"
+  url: https://extension.umn.edu/food/preparing/cooking-at-home/food-preservation/pickling
+  publisher: University of Minnesota Extension
+  type: article
+  checked_at: 2026-10-11
+  review_scope: text
+  notes: Acidified produce and tested canning recipes; no assumed shelf stability.
+- id: oxo-ladle
+  title: Stainless Steel Ladle
+  url: https://www.oxo.com/shop/kitchenware/utensils/sets-holders-accessories/stainless-steel-ladle.html
+  publisher: OXO
+  type: article
+  checked_at: 2026-10-11
+  review_scope: text
+  commercial_context: Manufacturer/retailer source; product examples are not endorsements.
+  notes: One product example supports soup/sauce serving and spout design; dishwasher claim applies to this model.
+- id: oxo-spoons
+  title: 7 Piece Plastic Measuring Spoons
+  url: https://www.oxo.com/7-piece-plastic-measuring-spoons-black.html
+  publisher: OXO
+  type: article
+  checked_at: 2026-10-11
+  review_scope: text
+  commercial_context: Manufacturer/retailer source; product examples are not endorsements.
+  notes: Marked capacities and included scraper inspected; not a global tablespoon definition.
+- id: allclad-saucepans
+  title: Sauce Pans & Sauciers
+  url: https://www.all-clad.com/cookware/categories/sauce-pans-sauciers.html
+  publisher: All-Clad
+  type: article
+  checked_at: 2026-10-11
+  review_scope: text
+  commercial_context: Manufacturer/retailer source; product examples are not endorsements.
+  notes: Manufacturer examples of saucepan tasks, sizes and materials; no product ranking.
+- id: kitchenaid-blenders
+  title: "3 Types of Blenders: A Buying Guide"
+  url: https://www.kitchenaid.com/content/kitchenaid/en_us/pinch-of-help/countertop-appliances/how-to-choose-a-blender.html
+  publisher: KitchenAid
+  type: article
+  checked_at: 2026-10-11
+  review_scope: text
+  commercial_context: Manufacturer/retailer source; product examples are not endorsements.
+  notes: Countertop, personal and immersion examples; capabilities are product-specific.
+- id: kitchenaid-use
+  title: How to Use a Blender
+  url: https://www.kitchenaid.com/pinch-of-help/countertop-appliances/how-to-use-a-blender.html.html
+  publisher: KitchenAid
+  type: article
+  checked_at: 2026-10-11
+  review_scope: text
+  commercial_context: Manufacturer/retailer source; product examples are not endorsements.
+  notes: Written guidance checked; hot-liquid and cleaning instructions must follow the actual model manual.
+- id: kab-scale
+  title: A digital kitchen scale is an essential baking tool
+  url: https://www.kingarthurbaking.com/blog/2022/02/18/digital-kitchen-scale
+  publisher: King Arthur Baking
+  type: article
+  checked_at: 2026-10-11
+  review_scope: text
+  commercial_context: Manufacturer/retailer source; product examples are not endorsements.
+  notes: Tare, capacity and small-quantity limitations. Informal coin checks are not adopted as calibration
+    certification.
+- id: presto-use
+  title: "Pressure Cooking: How to Use"
+  url: https://www.gopresto.com/content/pressure-cooking/pressure-cooking-how-to-use
+  publisher: Presto
+  type: article
+  checked_at: 2026-10-11
+  review_scope: text
+  commercial_context: Manufacturer/retailer source; product examples are not endorsements.
+  notes: Stovetop manufacturer guidance only. Embedded video not watched; no release method transferred to
+    electric appliances.
+- id: presto-faq
+  title: "Pressure Cooking: Frequently Asked Questions"
+  url: https://www.gopresto.com/content/pressure-cooking/pressure-cooking-faq
+  publisher: Presto
+  type: article
+  checked_at: 2026-10-11
+  review_scope: text
+  commercial_context: Manufacturer/retailer source; product examples are not endorsements.
+  notes: Cooking-liquid and pressure principles; operating details remain model-specific.
+- id: nchfp-pressure
+  title: Canning in Pressure Cookers
+  url: https://nchfp.uga.edu/newsflash/canning-in-pressure-cookers
+  publisher: National Center for Home Food Preservation
+  type: article
+  checked_at: 2026-10-11
+  review_scope: text
+  notes: USDA/NCHFP canning processes are not transferable to small pressure cookers.
+- id: presto-manual
+  title: "Pressure Cookers: Instructions and Recipes (72-856D)"
+  url: https://www.gopresto.com/uploads/72856D_AL_SS_Cookers_Eng_Web_Instructions.pdf
+  publisher: Presto
+  type: article
+  checked_at: 2026-10-11
+  review_scope: text
+  commercial_context: Manufacturer manual for the listed stovetop models; not universal operating instructions.
+  notes: Safeguards, fill limits, vent checks and opening under pressure. No model-specific quantities are
+    generalised.
+- id: kitchenaid-clean
+  title: Cleaning the Blender and Its Accessories
+  url: https://producthelp.kitchenaid.com/Countertop_Appliances/Blenders_and_Hand_Blender/K150_Series_Blender/Cleaning_and_Maintenance/Cleaning_the_Blender_and_Its_Accessories
+  publisher: KitchenAid
+  type: article
+  checked_at: 2026-10-11
+  review_scope: text
+  commercial_context: K150 manufacturer care guidance; follow the manual for your own appliance.
+- id: oxo-whisk
+  title: 9-inch Whisk
+  url: https://www.oxo.com/more-oxo/9-whisk-393.html
+  publisher: OXO
+  type: article
+  checked_at: 2026-10-11
+  review_scope: text
+  commercial_context: Manufacturer product examples; not a brand recommendation.
+- id: oxo-silicone-whisk
+  title: 2 Piece Silicone Whisk Set
+  url: https://www.oxo.com/oxo-gg-2-pc-silicone-whisk-set.html
+  publisher: OXO
+  type: article
+  checked_at: 2026-10-11
+  review_scope: text
+  commercial_context: Manufacturer product examples; not a brand recommendation.

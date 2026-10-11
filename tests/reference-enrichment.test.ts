@@ -121,8 +121,9 @@ test('gram-authored mass remains unchanged without density, even with conflictin
   assert.deepEqual(convert({from:'g',to:'g',amount:213,approximate:true},[observation(),observation()]),{ok:true,value:213,unit:'g',approximate:true});
 });
 
-test('only six exemplar enrichments load; all draft records stay below human review',()=>{
-  assert.deepEqual(vocabulary.enrichments.map(e=>e.target.id).sort(),['brown-sugar','chef-knife','egg','emulsify','frying-pan','sear']);
+test('thirty pilot enrichments load; all draft records stay below human review',()=>{
+  assert.deepEqual(vocabulary.enrichments.map(e=>e.target.id).sort(),['brown-sugar','egg','salt','butter','tomato','olive-oil','chickpeas','cheddar-cheese','chicken','coriander','emulsify','sear','slice','chop','dice','roast','blanch','braise','ferment','pickle','chef-knife','frying-pan','whisk','ladle','measuring-spoon','saucepan','blender','kitchen-scale','knife','pressure-cooker'].sort());
+  for(const kind of ['ingredient','process','equipment']) assert.equal(vocabulary.enrichments.filter(e=>e.target.kind===kind).length,10);
   assert.equal(vocabulary.entries.length,766);
   for(const e of vocabulary.enrichments){assert.equal(e.review_version,0.1);for(const r of [...e.editorial??[],...e.resources??[],...e.associations??[],...e.measurements??[]])assert.equal(r.review_version,0.1);assert.ok(renderReferenceHtml(createReferencePage(vocabulary,e.target.kind,e.target.id)!).includes('Version 0.1 — machine generated, not yet human reviewed'));}
 });
@@ -180,7 +181,7 @@ test('projection is detached from source enrichment and source resource metadata
 
 const hero = vocabulary.enrichments.find(e => e.target.id === 'egg')!.hero!;
 test('hero metadata stays optional and does not alter resolver identity', () => {
-  assert.equal(vocabulary.enrichments.filter(e => e.hero).length, 6);
+  assert.equal(vocabulary.enrichments.filter(e => e.hero).length, 19);
   const v = make({hero}); assert.equal(v.resolve('food','ingredient')[0].id,'food');
   assert.ok(!renderReferenceHtml(page(v)).includes('ref-hero'));
   assert.ok(!renderReferenceHtml(page(make()),{heroUrl:p=>'/assets/'+p}).includes('ref-hero'));
@@ -199,7 +200,7 @@ for(const patch of [{asset:'../private.jpg'},{asset:'https://example.org/image.j
 test('selected images retain provenance, local bytes and source checksums', async()=>{
   const {createHash}=await import('node:crypto');
   const register=JSON.parse(await readFile('assets/references/selection.json','utf8'));
-  for(const e of vocabulary.enrichments){
+  for(const e of vocabulary.enrichments.filter(e=>e.hero)){
     const h=e.hero!;const bytes=await readFile('assets/'+h.asset);
     assert.equal(bytes[0],255);assert.equal(bytes[1],216);
     const selected=register.candidates.find((c:{concept:string;selected:boolean})=>c.concept===e.target.id&&c.selected);
@@ -235,4 +236,19 @@ test('egg keeps visible part anchors with shallow unused parts and readable cont
   assert.ok(!html.includes('Used in 0 recipes'));
   assert.ok(html.indexOf('ref-record-details')<html.indexOf('separated_contents'));
   assert.ok(html.includes('href="/?recipe=r"'));
+});
+
+
+test('pilot depth varies without missing sources, empty prose or repeated maturity labels',()=>{
+  const short=vocabulary.enrichments.find(e=>e.target.id==='slice')!;
+  const deep=vocabulary.enrichments.find(e=>e.target.id==='ferment')!;
+  assert.equal(short.editorial?.length,2);
+  assert.ok(deep.editorial!.length>short.editorial!.length*2);
+  for(const e of vocabulary.enrichments){
+    for(const b of e.editorial??[]){assert.ok(b.text.trim());if(e.target.id!=='egg'||b.id!=='parts')assert.ok(b.sources?.length);}
+    const html=renderReferenceHtml(createReferencePage(vocabulary,e.target.kind,e.target.id)!,{heroUrl:p=>'/assets/'+p});
+    assert.equal((html.match(/class="ref-content-review"/g)??[]).length,1,e.target.id);
+    assert.equal(html.includes('class="ref-hero"'),!!e.hero,e.target.id);
+    assert.doesNotMatch(html,/<h[2-6][^>]*>\s*<\/h[2-6]>/);
+  }
 });

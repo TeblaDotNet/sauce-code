@@ -610,3 +610,1343 @@
         - allclad-care
         - cia-sear
       review_version: 0.1
+
+- target:
+    kind: ingredient
+    id: salt
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Salt seasons food. Fine crystals, coarse grains and flakes behave differently when measured by spoon.
+      sources:
+        - kab-salt
+      review_version: 0.1
+    - id: context
+      role: context
+      text: Use the salt type and measuring method specified by the recipe. Equal spoonfuls of different salts need
+        not contain the same amount; finishing flakes also contribute a distinct crunch.
+      sources:
+        - kab-salt
+      review_version: 0.1
+  resources:
+    - resource: kab-salt
+      role: introduction
+      order: 1
+      review_version: 0.1
+  hero:
+    asset: references/salt.jpg
+    title: Table salt with salt shaker V1.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Table_salt_with_salt_shaker_V1.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/a/ad/Table_salt_with_salt_shaker_V1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    creator: Poyraz 72
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    attribution_text: Table salt with salt shaker V1.jpg — Poyraz 72
+    alt: White salt crystals beside a glass salt shaker.
+    reviewed_at: 2026-10-11
+    width: 960
+    height: 796
+    changes: Resized by Wikimedia Commons; full frame retained.
+    caption: White salt crystals beside a glass salt shaker.
+- target:
+    kind: ingredient
+    id: butter
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Butter brings dairy flavour and fat to baking. Salted butter also contributes salt, so check which kind
+        the recipe expects.
+      sources:
+        - kab-butter
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: Cold, softened and melted butter are not interchangeable instructions. Follow the recipe’s stated
+        temperature and method rather than melting butter simply to make it easier to mix.
+      sources:
+        - kab-success
+      review_version: 0.1
+  resources:
+    - resource: kab-butter
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: kab-success
+      role: specialist-reference
+      order: 2
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: tomato
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Tomatoes can be used fresh or cooked down into juice, purée and sauces. Choose the form for the texture
+        wanted in the dish.
+      sources:
+        - usu-tomato
+      review_version: 0.1
+    - id: storage
+      role: storage
+      text: Allow unripe tomatoes to ripen out of direct sunlight before refrigerating them. Refrigeration slows
+        ripening; storage advice depends on how ripe the fruit already is.
+      sources:
+        - usu-tomato
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: Freezing softens tomato texture. Thawed tomatoes are useful in cooked dishes such as soups and
+        casseroles, rather than where a firm fresh slice matters.
+      sources:
+        - usu-tomato
+      review_version: 0.1
+    - id: context
+      role: context
+      text: Reducing a purée removes water and concentrates it. Fresh tomato and concentrated tomato products
+        therefore need different treatment in a recipe; they are not equal-volume replacements.
+      sources:
+        - usu-tomato
+      review_version: 0.1
+  resources:
+    - resource: usu-tomato
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: ingredient
+        id: tomato-paste
+      note: A concentrated product rather than a fresh tomato.
+      sources:
+        - usu-tomato
+      review_version: 0.1
+  hero:
+    asset: references/tomato.jpg
+    title: Organic home-grown tomatoes - unripe to ripe.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Organic_home-grown_tomatoes_-_unripe_to_ripe.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/c/c3/Organic_home-grown_tomatoes_-_unripe_to_ripe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    creator: Michal Klajban
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    attribution_text: Organic home-grown tomatoes - unripe to ripe.jpg — Michal Klajban
+    alt: Tomatoes at several stages of ripeness, from green to red.
+    reviewed_at: 2026-10-11
+    width: 960
+    height: 960
+    changes: Resized by Wikimedia Commons; full frame retained.
+    caption: Tomatoes at several stages of ripeness, from green to red.
+- target:
+    kind: ingredient
+    id: olive-oil
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: "Olive oil is obtained from olives and used in dressings and cooking. The label matters: extra virgin
+        and refined-oil blends are different product categories."
+      sources:
+        - ioc-oil
+      review_version: 0.1
+    - id: context
+      role: context
+      text: Virgin oils are produced by mechanical or physical methods. Under International Olive Council
+        terminology, the category labelled olive oil is a blend of refined and virgin olive oils; retail
+        wording can vary by country.
+      sources:
+        - ioc-oil
+      review_version: 0.1
+    - id: selection
+      role: selection
+      text: Choose the oil for its flavour and intended use rather than assuming every bottle behaves identically.
+        The general name alone does not establish a universal frying temperature.
+      sources:
+        - ioc-oil
+      review_version: 0.1
+    - id: storage
+      role: storage
+      text: Keep the container closed and protect it from light and excessive heat. Buy an amount that suits how
+        quickly you use it.
+      sources:
+        - ioc-oil
+      review_version: 0.1
+  resources:
+    - resource: ioc-oil
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: ingredient
+        id: extra-virgin-olive-oil
+      note: Check the product category when choosing flavour and use.
+      sources:
+        - ioc-oil
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: chickpeas
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Chickpeas are pulses sold dried or already cooked, including in tins. Tinned chickpeas can be drained
+        and used; dried chickpeas need the preparation required by the recipe.
+      sources:
+        - pulses-cook
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: Cooked chickpeas can remain whole or be mashed into a softer mixture. Choose the finished tenderness for
+        the dish instead of applying one cooking time to every batch.
+      sources:
+        - pulses-cook
+      review_version: 0.1
+    - id: context
+      role: context
+      text: Soaked is not the same as cooked. When swapping dried and tinned chickpeas, check whether the recipe’s
+        quantity describes the dry ingredient or the cooked, drained amount.
+      sources:
+        - pulses-cook
+      review_version: 0.1
+    - id: storage
+      role: storage
+      text: For refrigerated or frozen cooked chickpeas, retaining some cooking liquid helps prevent drying. Follow
+        appropriate cooling and storage guidance for the prepared dish.
+      sources:
+        - pulses-cook
+      review_version: 0.1
+  resources:
+    - resource: pulses-cook
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: commonly-used-with
+      target:
+        kind: equipment
+        id: pressure-cooker
+      note: One cooking option for dried chickpeas; follow the cooker’s pulse instructions and fill limits.
+      sources:
+        - pulses-cook
+      review_version: 0.1
+  hero:
+    asset: references/chickpeas.jpg
+    title: Dried chickpeas for sale - market in Israel.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Dried_chickpeas_for_sale_-_market_in_Israel.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/4/48/Dried_chickpeas_for_sale_-_market_in_Israel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    creator: Danielrosehill
+    licence: CC BY 4.0
+    licence_url: https://creativecommons.org/licenses/by/4.0
+    attribution_text: Dried chickpeas for sale - market in Israel.jpg — Danielrosehill
+    alt: Dried chickpeas in a market sack with a metal scoop.
+    reviewed_at: 2026-10-11
+    width: 960
+    height: 720
+    changes: Resized by Wikimedia Commons; full frame retained.
+    caption: Dried chickpeas in a market sack with a metal scoop.
+- target:
+    kind: ingredient
+    id: cheddar-cheese
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Cheddar is a firm cheese made by working and pressing curd, then maturing it. The name covers a range of
+        ages and textures.
+      sources:
+        - dairy-cheddar
+      review_version: 0.1
+    - id: sensory
+      role: sensory
+      text: Younger cheddar is milder and generally slices more readily; older cheddar can be sharper and more
+        crumbly. Choose according to the flavour and texture wanted.
+      sources:
+        - dairy-cheddar
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: A mild slicing cheese and a crumbly mature piece offer different results on the plate. Age words are
+        useful clues, but check the particular cheese rather than treating them as identical across producers.
+      sources:
+        - dairy-cheddar
+      review_version: 0.1
+    - id: context
+      role: context
+      text: Clothbound, waxed and rindless cheeses mature in different coverings. These are product distinctions,
+        not proof that one style is best for every use.
+      sources:
+        - dairy-cheddar
+      review_version: 0.1
+  resources:
+    - resource: dairy-cheddar
+      role: introduction
+      order: 1
+      review_version: 0.1
+  hero:
+    asset: references/cheddar-cheese.jpg
+    title: White cheddar cheese.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:White_cheddar_cheese.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/b/bf/White_cheddar_cheese.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    creator: Jon Sullivan
+    licence: Public domain
+    licence_url: https://commons.wikimedia.org/wiki/Template:PD-author
+    attribution_text: White cheddar cheese.jpg — Jon Sullivan
+    alt: White cheddar cheese with crackers.
+    reviewed_at: 2026-10-11
+    width: 960
+    height: 720
+    changes: Resized by Wikimedia Commons; full frame retained.
+    caption: White cheddar cheese with crackers.
+- target:
+    kind: ingredient
+    id: chicken
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Chicken is sold as a whole bird or in cuts, including breast and thigh. A recipe’s cut, size and bone-in
+        or boneless instruction matter when choosing a method.
+      sources:
+        - fsis-chicken
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: A whole bird and separate pieces need different handling and cooking checks. Do not use a time given for
+        one cut as evidence that another is cooked through.
+      sources:
+        - fsis-chicken
+      review_version: 0.1
+    - id: context
+      role: context
+      text: Bones and the carcass can be useful for stock; they are not simply waste. Keep this separate from the
+        meat served in the finished dish, and strain the stock as the method directs.
+      sources:
+        - cia-stock
+      review_version: 0.1
+    - id: judgement
+      role: judgement
+      text: Use a food thermometer rather than colour alone. USDA household guidance specifies a minimum internal
+        temperature of 165°F (about 74°C); check the thickest parts and follow the linked guidance for a whole
+        bird.
+      sources:
+        - fsis-chicken
+      review_version: 0.1
+    - id: storage
+      role: storage
+      text: Keep raw chicken refrigerated and separate from ready-to-eat foods. Prevent leaking juices from
+        contaminating other food; thaw using a safe method rather than on the kitchen counter.
+      sources:
+        - fsis-chicken
+      review_version: 0.1
+    - id: mistakes
+      role: mistakes
+      text: A browned surface or clear-looking juices do not establish a safe internal temperature. Cooking and
+        storage decisions need more than the appearance of the meat.
+      sources:
+        - fsis-chicken
+      review_version: 0.1
+  resources:
+    - resource: fsis-chicken
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: cia-stock
+      role: specialist-reference
+      order: 2
+      review_version: 0.1
+  associations:
+    - relation: commonly-used-with
+      target:
+        kind: process
+        id: roast
+      note: One method for a whole bird or suitable pieces.
+      sources:
+        - fsis-chicken
+      review_version: 0.1
+    - relation: contrast-with
+      target:
+        kind: ingredient
+        id: chicken-stock
+      note: Stock is a prepared cooking liquid, not a replacement for chicken meat.
+      sources:
+        - cia-stock
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: coriander
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: "Coriander supplies both a leafy herb and an aromatic seed spice. A recipe that says only coriander
+        needs to be read in context: leaves, whole seeds and ground seeds are different ingredients to cook
+        with."
+      sources:
+        - usu-coriander
+        - rhs-coriander
+      review_version: 0.1
+    - id: context
+      role: context
+      text: US sources commonly call the leaves cilantro and the seeds coriander. UK herb guidance uses coriander
+        for the plant and its leaves as well as discussing the seeds. Look for an explicit part or preparation
+        when following a recipe from another region.
+      sources:
+        - usu-coriander
+        - rhs-coriander
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: Fresh leaves are used as a herb; seeds are harvested separately and may be used whole or ground. Do not
+        replace a handful of leaves with the same amount of seed spice.
+      sources:
+        - rhs-coriander
+      review_version: 0.1
+    - id: storage
+      role: storage
+      text: "The forms need different storage: harvested seeds can be dried and kept in sealed containers, while
+        leaves may be used fresh or preserved by freezing or drying."
+      sources:
+        - usu-coriander
+      review_version: 0.1
+    - id: selection
+      role: selection
+      text: Before buying or measuring, establish which form the recipe means. A chopped garnish suggests a
+        different preparation from a spice ground into a mixture; if the wording still leaves doubt, ask the
+        author.
+      sources:
+        - usu-coriander
+        - rhs-coriander
+      review_version: 0.1
+  resources:
+    - resource: usu-coriander
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: rhs-coriander
+      role: specialist-reference
+      order: 2
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: ingredient
+        id: coriander-leaves
+      note: The leafy herb, often called cilantro in US usage.
+      sources:
+        - usu-coriander
+      review_version: 0.1
+    - relation: contrast-with
+      target:
+        kind: ingredient
+        id: coriander-powder
+      note: Ground seed spice; not chopped fresh leaves.
+      sources:
+        - rhs-coriander
+      review_version: 0.1
+- target:
+    kind: process
+    id: slice
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Slice means to cut food into pieces across a surface, often of fairly even thickness. The recipe
+        determines how thick.
+      sources:
+        - cia-knives
+      review_version: 0.1
+    - id: judgement
+      role: judgement
+      text: Keep the food stable and aim for the thickness needed; a slice need not be a cube or a fine chop.
+      sources:
+        - cia-knives
+      review_version: 0.1
+  resources:
+    - resource: cia-knives
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: chop
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Chop means to cut food into smaller pieces. Roughly chopped and finely chopped call for different
+        results.
+      sources:
+        - cia-knives
+      review_version: 0.1
+    - id: context
+      role: context
+      text: The pieces need not be precise cubes. Follow any size instruction rather than treating chop, dice and
+        mince as identical.
+      sources:
+        - cia-knives
+      review_version: 0.1
+  resources:
+    - resource: cia-knives
+      role: introduction
+      order: 1
+      review_version: 0.1
+  hero:
+    asset: references/chop.jpg
+    title: Chopping Welsh onion (Allium fistulosum) on a wooden cutting board.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Chopping_Welsh_onion_(Allium_fistulosum)_on_a_wooden_cutting_board.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/7/76/Chopping_Welsh_onion_%28Allium_fistulosum%29_on_a_wooden_cutting_board.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    creator: Sarah5252
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    attribution_text: Chopping Welsh onion (Allium fistulosum) on a wooden cutting board.jpg — Sarah5252
+    alt: Chopped spring onion beside uncut stalks and a knife.
+    reviewed_at: 2026-10-11
+    width: 960
+    height: 540
+    changes: Resized by Wikimedia Commons; full frame retained.
+    caption: Chopped spring onion beside uncut stalks and a knife.
+- target:
+    kind: process
+    id: dice
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Dice means to cut food into roughly cube-shaped pieces. Size follows the recipe rather than one
+        universal dimension.
+      sources:
+        - rouxbe-dice
+      review_version: 0.1
+    - id: judgement
+      role: judgement
+      text: Aim for reasonably even pieces. With an onion, cuts in different directions turn slices into dice.
+      sources:
+        - rouxbe-dice
+      review_version: 0.1
+  resources:
+    - resource: rouxbe-dice
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: process
+        id: chop
+      note: Dicing specifies a shape more closely than general chopping.
+      sources:
+        - rouxbe-dice
+      review_version: 0.1
+- target:
+    kind: process
+    id: roast
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Roasting cooks food with dry heat, commonly in an oven. It is useful for larger pieces of meat and
+        poultry as well as vegetables.
+      sources:
+        - cia-techniques
+      review_version: 0.1
+    - id: purpose
+      role: purpose
+      text: The exposed surface can brown while the interior cooks. Choose the method for the food and desired
+        finish rather than assuming a single oven setting.
+      sources:
+        - cia-techniques
+      review_version: 0.1
+    - id: judgement
+      role: judgement
+      text: Judge both the surface and the interior. For poultry, use the safe internal-temperature guidance rather
+        than taking browned skin as proof of doneness.
+      sources:
+        - fsis-chicken
+      review_version: 0.1
+    - id: near-neighbours
+      role: near-neighbours
+      text: A covered braise includes cooking liquid; roasting normally gives the surface more exposure to dry heat.
+      sources:
+        - cia-techniques
+      review_version: 0.1
+  resources:
+    - resource: cia-techniques
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: fsis-chicken
+      role: specialist-reference
+      order: 2
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: process
+        id: braise
+      note: A moist, covered cooking context.
+      sources:
+        - cia-techniques
+      review_version: 0.1
+  hero:
+    asset: references/roast.jpg
+    title: Roasted chicken with vegetables.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Roasted_chicken_with_vegetables.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/9/9d/Roasted_chicken_with_vegetables.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    creator: Phoebe
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    attribution_text: Roasted chicken with vegetables.jpg — Phoebe
+    alt: Roasted chicken on a rack above vegetables.
+    reviewed_at: 2026-10-11
+    width: 960
+    height: 540
+    changes: Resized by Wikimedia Commons; full frame retained.
+    caption: Roasted chicken on a rack above vegetables.
+- target:
+    kind: process
+    id: blanch
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Blanching briefly heats food in boiling water or steam. In vegetable freezing, it controls enzyme
+        activity that would otherwise harm quality.
+      sources:
+        - nchfp-blanch
+      review_version: 0.1
+    - id: judgement
+      role: judgement
+      text: Use the schedule for the vegetable and piece size. A single time for every vegetable is not reliable.
+      sources:
+        - nchfp-blanch
+      review_version: 0.1
+    - id: mistakes
+      role: mistakes
+      text: Too little blanching can leave troublesome enzyme activity; too much can damage texture and flavour.
+        Blanching for freezing is a specific preparation step, not a complete meal-cooking instruction.
+      sources:
+        - nchfp-blanch
+      review_version: 0.1
+    - id: context
+      role: context
+      text: For freezing, cool the vegetables promptly after blanching to stop further cooking, then drain well.
+        Other recipes may use the heated food immediately.
+      sources:
+        - nchfp-blanch
+      review_version: 0.1
+  resources:
+    - resource: nchfp-blanch
+      role: introduction
+      order: 1
+      review_version: 0.1
+  hero:
+    asset: references/blanch.jpg
+    title: Shock blanched vegetables in cold water (1041479893).jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Shock_blanched_vegetables_in_cold_water_(1041479893).jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/f/f3/Shock_blanched_vegetables_in_cold_water_%281041479893%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    creator: ilovebutter from Houston, TX, USA
+    licence: CC BY 2.0
+    licence_url: https://creativecommons.org/licenses/by/2.0
+    attribution_text: Shock blanched vegetables in cold water (1041479893).jpg — ilovebutter from Houston, TX, USA
+    alt: Blanched green vegetables being cooled in a bowl of water.
+    reviewed_at: 2026-10-11
+    width: 960
+    height: 636
+    changes: Resized by Wikimedia Commons; full frame retained.
+    caption: Blanched green vegetables being cooled in a bowl of water.
+- target:
+    kind: process
+    id: braise
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Braising cooks food gently with some liquid in a covered vessel. Tougher cuts can become tender during
+        the longer cooking.
+      sources:
+        - cia-techniques
+      review_version: 0.1
+    - id: purpose
+      role: purpose
+      text: Browning first can build flavour, but the covered cooking stage does different work from searing.
+      sources:
+        - cia-sear
+      review_version: 0.1
+    - id: judgement
+      role: judgement
+      text: For a meat braise, look for the tenderness the recipe describes and keep the liquid at a gentle simmer.
+        Surface colour alone is not the finishing test.
+      sources:
+        - cia-techniques
+      review_version: 0.1
+    - id: near-neighbours
+      role: near-neighbours
+      text: Stews commonly cover the ingredients with liquid; braises often use larger pieces only partly submerged.
+        Follow the particular method rather than imposing a universal liquid ratio.
+      sources:
+        - cia-techniques
+      review_version: 0.1
+  resources:
+    - resource: cia-techniques
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: cia-sear
+      role: specialist-reference
+      order: 2
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: process
+        id: sear
+      note: Browning may precede braising but does not replace the covered cooking.
+      sources:
+        - cia-sear
+      review_version: 0.1
+- target:
+    kind: process
+    id: ferment
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Fermentation changes food through the activity of selected or encouraged microorganisms. Bacteria,
+        yeasts and moulds can contribute, depending on the food and method.
+      sources:
+        - isapp-ferment
+      review_version: 0.1
+    - id: purpose
+      role: purpose
+      text: The changes can create characteristic flavours and textures. Bread dough, cultured milk and fermented
+        vegetables are different culinary contexts, not variations of one interchangeable procedure.
+      sources:
+        - isapp-ferment
+      review_version: 0.1
+    - id: mechanism
+      role: mechanism
+      text: "Microorganisms transform components of the food. Some processes produce acids or gas. The culinary term
+        is broader than a strict no-oxygen definition: koji and vinegar production also fall within
+        food-fermentation practice."
+      sources:
+        - isapp-ferment
+      review_version: 0.1
+    - id: context
+      role: context
+      text: For lactic-acid vegetable fermentation, the produce, salt, temperature and contact with brine all
+        matter. Use a tested method for the particular food; the linked vegetable guidance is not a method for
+        meat, dairy or every other ferment.
+      sources:
+        - umn-ferment
+      review_version: 0.1
+    - id: judgement
+      role: judgement
+      text: Follow the chosen method’s checks and completion criteria. Bubbles or a sour aroma can be observations,
+        but do not establish safety or shelf stability on their own.
+      sources:
+        - umn-ferment
+      review_version: 0.1
+    - id: mistakes
+      role: mistakes
+      text: Do not casually reduce salt in a tested fermented-pickle recipe. Salt helps select the desired microbial
+        activity as well as influencing texture and flavour. This page gives context, not a standalone
+        preservation recipe.
+      sources:
+        - nchfp-pickle
+      review_version: 0.1
+    - id: near-neighbours
+      role: near-neighbours
+      text: Adding vinegar makes food acidic without necessarily fermenting it. Ferment and pickle overlap in some
+        traditions and methods, but one does not always imply the other.
+      sources:
+        - nchfp-pickle
+      review_version: 0.1
+  resources:
+    - resource: isapp-ferment
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: umn-ferment
+      role: specialist-reference
+      order: 2
+      review_version: 0.1
+    - resource: nchfp-pickle
+      role: specialist-reference
+      order: 3
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: process
+        id: pickle
+      note: Some pickles ferment; others are acidified directly.
+      sources:
+        - nchfp-pickle
+      review_version: 0.1
+    - relation: commonly-used-with
+      target:
+        kind: equipment
+        id: fermentation-crock
+      note: A suitable food-safe vessel is one option for vegetable ferments.
+      sources:
+        - umn-ferment
+      review_version: 0.1
+- target:
+    kind: process
+    id: pickle
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Pickling gives food an acidic environment. Some pickles develop acid through fermentation; others use
+        added vinegar or another acid specified by the recipe.
+      sources:
+        - nchfp-pickle
+      review_version: 0.1
+    - id: purpose
+      role: purpose
+      text: The method changes flavour and texture. Refrigerator pickles and products processed for shelf storage
+        require different handling; the word pickled does not tell you how a jar should be stored.
+      sources:
+        - umn-pickle
+      review_version: 0.1
+    - id: mechanism
+      role: mechanism
+      text: In fermented vegetable pickles, microorganisms produce acid over time. Fresh-pack pickles use a prepared
+        acidic mixture instead; they need not go through fermentation.
+      sources:
+        - nchfp-pickle
+      review_version: 0.1
+    - id: judgement
+      role: judgement
+      text: For preservation, use a research-tested recipe and its stated ingredient proportions, acid strength,
+        preparation and processing instructions. Pleasant sourness is not a substitute for those controls.
+      sources:
+        - umn-pickle
+      review_version: 0.1
+    - id: mistakes
+      role: mistakes
+      text: Do not dilute the vinegar or change the food-to-liquid proportions of a tested canning recipe. A sealed
+        lid by itself does not prove that improvised pickles are safe for the cupboard.
+      sources:
+        - nchfp-pickle
+        - umn-pickle
+      review_version: 0.1
+    - id: context
+      role: context
+      text: Choose a method appropriate to the actual fruit or vegetable and intended storage. Keep refrigerator
+        methods and shelf-stable canning procedures distinct. This overview does not supply a universal brine.
+      sources:
+        - umn-pickle
+      review_version: 0.1
+  resources:
+    - resource: nchfp-pickle
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: umn-pickle
+      role: specialist-reference
+      order: 2
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: process
+        id: ferment
+      note: Fermentation is one route to acidity, not a requirement for every pickle.
+      sources:
+        - nchfp-pickle
+      review_version: 0.1
+  hero:
+    asset: references/pickle.jpg
+    title: Processed jars of pickled asparagus.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Processed_jars_of_pickled_asparagus.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/7/75/Processed_jars_of_pickled_asparagus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    creator: Nutrition, Food Safety & Health
+    licence: CC0
+    licence_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+    attribution_text: Processed jars of pickled asparagus.jpg — Nutrition, Food Safety & Health
+    alt: Jars of pickled asparagus.
+    reviewed_at: 2026-10-11
+    width: 960
+    height: 720
+    changes: Resized by Wikimedia Commons; full frame retained.
+    caption: Jars of pickled asparagus.
+- target:
+    kind: equipment
+    id: whisk
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A hand whisk mixes liquids and light mixtures. Common tasks include beating eggs, stirring batter or
+        sauces, and whipping cream.
+      sources:
+        - oxo-whisk
+      review_version: 0.1
+    - id: selection
+      role: selection
+      text: Choose a comfortable size for the bowl and batch. Wire and silicone-covered designs are available;
+        follow the maker’s care guidance for the particular tool.
+      sources:
+        - oxo-whisk
+        - oxo-silicone-whisk
+      review_version: 0.1
+  resources:
+    - resource: oxo-whisk
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: used-for
+      target:
+        kind: process
+        id: whisk
+      note: The hand tool used for whisking.
+      sources:
+        - oxo-whisk
+      review_version: 0.1
+  hero:
+    asset: references/whisk.jpg
+    title: Balloon spiral ball whisks.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Balloon_spiral_ball_whisks.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/1/1c/Balloon_spiral_ball_whisks.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    creator: Marie-Lan Nguyen
+    licence: CC BY 2.5
+    licence_url: https://creativecommons.org/licenses/by/2.5
+    attribution_text: Balloon spiral ball whisks.jpg — Marie-Lan Nguyen
+    alt: Balloon, spiral and ball whisks with metal handles.
+    reviewed_at: 2026-10-11
+    width: 960
+    height: 720
+    changes: Resized by Wikimedia Commons; full frame retained.
+    caption: Balloon, spiral and ball whisks.
+- target:
+    kind: equipment
+    id: ladle
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A ladle scoops and serves liquids such as soup, stew or sauce. Its deep bowl carries more liquid than a
+        shallow serving spoon.
+      sources:
+        - oxo-ladle
+      review_version: 0.1
+    - id: selection
+      role: selection
+      text: Choose a comfortable handle and a bowl size suited to the pot and serving dish. A pouring lip can help
+        direct liquid; check care instructions for the actual material.
+      sources:
+        - oxo-ladle
+      review_version: 0.1
+  resources:
+    - resource: oxo-ladle
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: used-for
+      target:
+        kind: process
+        id: ladle
+      note: Useful for transferring soup or sauce.
+      sources:
+        - oxo-ladle
+      review_version: 0.1
+  hero:
+    asset: references/ladle.jpg
+    title: Ladle steel 18j07.JPG
+    source_page: https://commons.wikimedia.org/wiki/File:Ladle_steel_18j07.JPG
+    source_file: https://upload.wikimedia.org/wikipedia/commons/c/c4/Ladle_steel_18j07.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    creator: Snowmanradio
+    licence: Public domain
+    licence_url: https://commons.wikimedia.org/wiki/Template:PD-self
+    attribution_text: Ladle steel 18j07.JPG — Snowmanradio
+    alt: A steel ladle on a gridded background.
+    reviewed_at: 2026-10-11
+    width: 960
+    height: 290
+    changes: Resized by Wikimedia Commons; full frame retained.
+    caption: A steel ladle on a gridded background.
+- target:
+    kind: equipment
+    id: measuring-spoon
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A measuring spoon supplies a labelled volume for small quantities. Read the marking rather than treating
+        an eating spoon as a measured teaspoon.
+      sources:
+        - oxo-spoons
+      review_version: 0.1
+    - id: context
+      role: context
+      text: Use the recipe’s stated measuring method, including whether the spoonful is level or heaped. Check the
+        marked units; a spoon measure is not an ingredient weight.
+      sources:
+        - oxo-spoons
+        - kab-success
+      review_version: 0.1
+  resources:
+    - resource: oxo-spoons
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: kab-success
+      role: specialist-reference
+      order: 2
+      review_version: 0.1
+  hero:
+    asset: references/measuring-spoon.jpg
+    title: Measuring spoons.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Measuring_spoons.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/6/6c/Measuring_spoons.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    creator: Jersyko
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0/
+    attribution_text: Measuring spoons.jpg — Jersyko
+    alt: A set of labelled plastic measuring spoons.
+    reviewed_at: 2026-10-11
+    width: 960
+    height: 694
+    changes: Resized by Wikimedia Commons; full frame retained.
+    caption: A set of labelled plastic measuring spoons.
+- target:
+    kind: equipment
+    id: saucepan
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A saucepan is useful for heating liquids and making sauces. Choose a capacity that leaves room for
+        stirring and bubbling.
+      sources:
+        - allclad-saucepans
+      review_version: 0.1
+    - id: selection
+      role: selection
+      text: Consider batch size, handle comfort, lid fit and compatibility with your hob. A suitable pot you already
+        own may do the job; no single saucepan size suits every recipe.
+      sources:
+        - allclad-saucepans
+      review_version: 0.1
+    - id: context
+      role: context
+      text: Material and construction affect how a pan responds to heat. Treat advice for a stainless-steel model as
+        advice for that product, rather than automatically applying it to coated cookware.
+      sources:
+        - allclad-care
+      review_version: 0.1
+    - id: care
+      role: care
+      text: Follow the manufacturer’s cleaning instructions. All-Clad recommends warm water, detergent and a sponge
+        for its cookware; permitted cleaners and dishwasher use vary by collection.
+      sources:
+        - allclad-care
+      review_version: 0.1
+  resources:
+    - resource: allclad-saucepans
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: allclad-care
+      role: specialist-reference
+      order: 2
+      review_version: 0.1
+  associations:
+    - relation: used-for
+      target:
+        kind: process
+        id: simmer
+      note: A common vessel for gentle liquid cooking when the size suits.
+      sources:
+        - allclad-saucepans
+      review_version: 0.1
+  hero:
+    asset: references/saucepan.jpg
+    title: Steam-boiling green asparagus.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Steam-boiling_green_asparagus.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/e/e7/Steam-boiling_green_asparagus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    creator: W.carter
+    licence: CC0
+    licence_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+    attribution_text: Steam-boiling green asparagus.jpg — W.carter
+    alt: Asparagus cooking in a stainless-steel saucepan.
+    reviewed_at: 2026-10-11
+    width: 960
+    height: 1130
+    changes: Resized by Wikimedia Commons; full frame retained.
+    caption: Asparagus cooking in a stainless-steel saucepan.
+- target:
+    kind: equipment
+    id: blender
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A blender uses moving blades to combine or purée ingredients. Countertop jugs, personal containers and
+        immersion tools suit different quantities and ways of working.
+      sources:
+        - kitchenaid-blenders
+      review_version: 0.1
+    - id: selection
+      role: selection
+      text: Choose for the food and batch size, not power claims alone. An immersion blender works in a suitable
+        vessel; a countertop machine has its own jug and capacity limits.
+      sources:
+        - kitchenaid-blenders
+      review_version: 0.1
+    - id: mistakes
+      role: mistakes
+      text: Do not assume a sealed personal cup or any ordinary blender is suitable for hot liquid. Check the exact
+        model’s temperature, fill and venting instructions before blending soup.
+      sources:
+        - kitchenaid-use
+      review_version: 0.1
+    - id: care
+      role: care
+      text: Disconnect power before handling blades or cleaning parts by hand, and follow the model’s disassembly
+        and washing instructions. Dishwasher suitability is not universal.
+      sources:
+        - kitchenaid-use
+        - kitchenaid-clean
+      review_version: 0.1
+  resources:
+    - resource: kitchenaid-blenders
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: kitchenaid-use
+      role: specialist-reference
+      order: 2
+      review_version: 0.1
+  associations:
+    - relation: used-for
+      target:
+        kind: process
+        id: blend
+      note: Use a suitable appliance when the recipe calls for mechanical blending.
+      sources:
+        - kitchenaid-blenders
+      review_version: 0.1
+    - relation: contrast-with
+      target:
+        kind: equipment
+        id: immersion-blender
+      note: A handheld format for working directly in a suitable vessel.
+      sources:
+        - kitchenaid-blenders
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: kitchen-scale
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A kitchen scale measures ingredient mass. It avoids some variation from scooping ingredients into a
+        volume measure.
+      sources:
+        - kab-scale
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: Set a bowl on the platform and tare to zero before adding the ingredient. Taring again lets you weigh
+        another addition without counting the bowl or previous ingredients.
+      sources:
+        - kab-scale
+      review_version: 0.1
+    - id: selection
+      role: selection
+      text: Check capacity, readability and performance with small quantities. A display with fine increments does
+        not by itself guarantee reliable measurement of a tiny pinch.
+      sources:
+        - kab-scale
+      review_version: 0.1
+    - id: context
+      role: context
+      text: Keep weighing separate from volume conversion. A gram reading does not tell you the volume of an
+        ingredient unless suitable ingredient-specific evidence is available.
+      sources:
+        - kab-scale
+      review_version: 0.1
+  resources:
+    - resource: kab-scale
+      role: introduction
+      order: 1
+      review_version: 0.1
+  hero:
+    asset: references/kitchen-scale.jpg
+    title: 2023 Elektroniczna waga kuchenna.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:2023_Elektroniczna_waga_kuchenna.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/6/6c/2023_Elektroniczna_waga_kuchenna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    creator: Jacek Halicki
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    attribution_text: 2023 Elektroniczna waga kuchenna.jpg — Jacek Halicki
+    alt: A tomato on a digital kitchen scale.
+    reviewed_at: 2026-10-11
+    width: 960
+    height: 1089
+    changes: Resized by Wikimedia Commons; full frame retained.
+    caption: A tomato on a digital kitchen scale.
+- target:
+    kind: equipment
+    id: knife
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Kitchen knives cut and prepare food. A larger chef knife and small paring knife offer different ways to
+        approach a task.
+      sources:
+        - cia-knives
+      review_version: 0.1
+    - id: selection
+      role: selection
+      text: Choose a blade and grip that suit the food and the person using it. A comfortable, controlled tool
+        matters more than having a large collection.
+      sources:
+        - cia-knives
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: Slicing, chopping and dicing call for control of the food and blade. Keep the work surface stable and
+        learn the grip and cutting motion before concentrating on speed.
+      sources:
+        - cia-knives
+      review_version: 0.1
+    - id: context
+      role: context
+      text: Honing and sharpening are different maintenance tasks. Do not apply one sharpening angle or tool to
+        every blade; use guidance appropriate to its construction.
+      sources:
+        - cia-knives
+        - wusthof-care
+      review_version: 0.1
+    - id: care
+      role: care
+      text: Wash and dry carefully, then store with the edge protected. WUSTHOF’s care guidance is for its knives;
+        consult the maker of your own knife for material-specific instructions.
+      sources:
+        - wusthof-care
+      review_version: 0.1
+  resources:
+    - resource: cia-knives
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: wusthof-care
+      role: specialist-reference
+      order: 2
+      review_version: 0.1
+  associations:
+    - relation: used-for
+      target:
+        kind: process
+        id: slice
+      note: Select a suitable blade for the food.
+      sources:
+        - cia-knives
+      review_version: 0.1
+    - relation: used-for
+      target:
+        kind: process
+        id: dice
+      note: A controlled cut rather than a required knife brand.
+      sources:
+        - rouxbe-dice
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: pressure-cooker
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A pressure cooker holds steam under pressure to cook food. It needs cooking liquid and a properly
+        functioning lid, seal and pressure-control system.
+      sources:
+        - presto-faq
+        - presto-use
+      review_version: 0.1
+    - id: mechanism
+      role: mechanism
+      text: The cooking environment differs from an open saucepan. Establish and maintain pressure as the appliance
+        instructions require; the time to reach pressure is distinct from the timed cooking stage.
+      sources:
+        - presto-use
+      review_version: 0.1
+    - id: selection
+      role: selection
+      text: Stovetop and electric models have different controls and operating procedures. Choose a size suited to
+        the batch and follow that model’s minimum-liquid and maximum-fill instructions, including special
+        limits for expanding foods.
+      sources:
+        - presto-faq
+        - presto-manual
+      review_version: 0.1
+    - id: judgement
+      role: judgement
+      text: Use the pressure indicator and release procedure specified for the appliance and recipe. Never force
+        open a pressurised cooker. Quick release and natural cooling are not interchangeable for every food.
+      sources:
+        - presto-use
+        - presto-manual
+      review_version: 0.1
+    - id: care
+      role: care
+      text: Check and maintain the seal, vent and safety devices according to the manual. A blocked vent or damaged
+        component is a reason to stop using the cooker until the problem is corrected.
+      sources:
+        - presto-use
+        - presto-manual
+      review_version: 0.1
+    - id: context
+      role: context
+      text: "Pressure cooking a meal is not the same as pressure canning. USDA/NCHFP canning schedules are not
+        designed for small pressure cookers: vessel size and heating and cooling behaviour affect the
+        process."
+      sources:
+        - nchfp-pressure
+      review_version: 0.1
+    - id: mistakes
+      role: mistakes
+      text: Do not use an ordinary pressure-cooking programme as proof that sealed jars are safe for shelf storage.
+        Use suitable canning equipment and a validated preservation procedure for that separate task.
+      sources:
+        - nchfp-pressure
+      review_version: 0.1
+  resources:
+    - resource: presto-use
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: presto-faq
+      role: specialist-reference
+      order: 2
+      review_version: 0.1
+    - resource: nchfp-pressure
+      role: specialist-reference
+      order: 3
+      review_version: 0.1
+    - resource: presto-manual
+      role: maintenance
+      order: 4
+      review_version: 0.1
+  associations:
+    - relation: used-for
+      target:
+        kind: process
+        id: pressure-cook
+      note: Use the appliance’s own operating and release instructions.
+      sources:
+        - presto-use
+      review_version: 0.1
