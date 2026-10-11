@@ -1,0 +1,12 @@
+id: deep-fry
+kind: process
+canonical_name: deep fry
+names:
+  en: deep fry
+reference: true
+curation:
+  origin: generated
+  review: unchecked
+scope: "Cook food immersed in hot fat. This is a specific frying technique, not a synonym for every use of fry."
+categories:
+- frying

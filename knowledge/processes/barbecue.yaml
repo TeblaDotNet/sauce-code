@@ -1,0 +1,14 @@
+id: barbecue
+kind: process
+canonical_name: barbecue
+names:
+  en: barbecue
+reference: true
+curation:
+  origin: generated
+  review: unchecked
+aliases:
+- bbq
+scope: "A broad family of cooking practices whose meaning varies by region and tradition. Depending on context it may involve live fire, smoke, barbecue equipment, grilling, smoking or slower covered cooking. It is not a global synonym for either grill or smoke and does not imply one universal method."
+categories:
+- fire-and-smoke

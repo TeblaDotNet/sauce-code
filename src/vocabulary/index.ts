@@ -3,10 +3,15 @@ import { readCuration } from '../curation.ts';
 import type { Curation } from '../curation.ts';
 import type { IngredientKnowledge, IngredientPart, PartGroup } from './knowledge.ts';
 export * from './knowledge.ts';
+export const processCategories = ['mixing-and-emulsifying', 'coating-and-breading', 'frying', 'moist-heat-cooking', 'preparation-and-cutting', 'baking-and-pastry', 'preservation-and-fermentation', 'fire-and-smoke', 'modernist'] as const;
+export type ProcessCategory = typeof processCategories[number];
 export interface IngredientState { names: Record<string, string>; aliases?: string[] }
 export interface VocabularyEntry extends IngredientKnowledge {
   /** Explicit local states of this whole ingredient/type; never inherited. */
   states?: Record<string, IngredientState>;
+  /** Process-only editorial scope and browsing categories; never resolution or inheritance. */
+  scope?: string;
+  categories?: ProcessCategory[];
   /** One direct same-domain ingredient/equipment parent; no inheritance or alias expansion. */
   type_of?: string;
   curation?: Curation;
@@ -44,6 +49,11 @@ export class Vocabulary {
         throw new Error('reference must be a boolean on a process or equipment entry: ' + entry.id);
       if (entry.type_of !== undefined && (!['ingredient', 'equipment'].includes(entry.kind) || typeof entry.type_of !== 'string' || !/^[a-z][a-z0-9_-]*$/.test(entry.type_of)))
         throw new Error(`Invalid type_of on ${entry.id}: expected one canonical ingredient or equipment ID`);
+      if (entry.scope !== undefined && (entry.kind !== 'process' || typeof entry.scope !== 'string' || !entry.scope.trim()))
+        throw new Error('Invalid process scope on ' + entry.id);
+      if (entry.categories !== undefined && (entry.kind !== 'process' || !Array.isArray(entry.categories) ||
+          entry.categories.some(c => !processCategories.includes(c)) || new Set(entry.categories).size !== entry.categories.length))
+        throw new Error('Invalid process categories on ' + entry.id);
       validateIngredientKnowledge(entry, entry.id);
       if (entry.kind !== 'ingredient' && ['states', 'variants', 'parts', 'part_groups', 'typical_mass', 'reference_density', 'nutrition'].some(k => Object.hasOwn(entry, k)))
         throw new Error(`Ingredient knowledge on non-ingredient: ${entry.id}`);

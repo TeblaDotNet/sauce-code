@@ -1,0 +1,12 @@
+id: emulsify
+kind: process
+canonical_name: emulsify
+names:
+  en: emulsify
+reference: true
+curation:
+  origin: generated
+  review: unchecked
+scope: "Disperse one liquid through another that does not readily mix with it, such as oil and water. Mixing or whisking may help form an emulsion but is not itself a guarantee of emulsification."
+categories:
+- mixing-and-emulsifying

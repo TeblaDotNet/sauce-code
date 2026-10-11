@@ -26,6 +26,6 @@ Equipment subtype relationships express identity, not suitability guarantees. Pr
 
 Follow the adjacent entries and the typed model in src/vocabulary/index.ts for exact field shapes; tests exercise validation and rendering. Keep IDs stable, update the domain index deliberately and run core checks. The Node loader takes the directory containing ingredients/equipment/processes; pass knowledge/ in this repository. Its generic root contract is unchanged.
 
-Human browsing categories are a future direction for all domains. They will be separate from type_of and other semantic relationships. Process/equipment categories are not implemented here; ingredient taxonomy awaits research.
+Processes may have optional multi-valued `categories` for human browsing and a concise `scope` explanation. Categories are validated against the exported processCategories list, never aliases, inheritance, type_of or parser legality. Only the approved first process tranche is categorised; equipment categories remain future work and ingredient taxonomy awaits research. A public process page may have discovery value or explanation value, including regional or contextual ambiguity. Bare temper and proof remain unaliased because resolution is not context-scoped.
 
 Historical evidence paths inside unchanged knowledge records are corpus-relative provenance identifiers. Resolve examples/public-domain-recipes paths against the full corpus project, not the curated core sample. The extraction deliberately does not rewrite evidence or identities.

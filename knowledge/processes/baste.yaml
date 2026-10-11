@@ -1,0 +1,12 @@
+id: baste
+kind: process
+canonical_name: baste
+names:
+  en: baste
+reference: true
+curation:
+  origin: generated
+  review: unchecked
+scope: "Moisten the surface of food during cooking with fat, juices or another liquid. This surface treatment is distinct from soaking in a marinade."
+categories:
+- preparation-and-cutting

@@ -1,0 +1,13 @@
+id: sous-vide
+kind: process
+canonical_name: sous vide
+names:
+  en: sous vide
+reference: true
+curation:
+  origin: generated
+  review: unchecked
+scope: "Cook food with controlled temperature in a surrounding water bath or comparable controlled environment, commonly in a sealed container or bag. Vacuum sealing is a separate packaging action, not the cooking technique."
+categories:
+- modernist
+- moist-heat-cooking

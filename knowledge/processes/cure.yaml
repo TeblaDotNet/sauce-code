@@ -1,0 +1,12 @@
+id: cure
+kind: process
+canonical_name: cure
+names:
+  en: cure
+reference: true
+curation:
+  origin: generated
+  review: unchecked
+scope: "Preserve or transform food through combinations such as salt, sugar, drying, nitrates or nitrites, fermentation or smoke, depending on the food and tradition. Curing is distinct from brining, pickling and smoking, though practices may overlap. This description is not a preservation recipe and makes no shelf-stability claim."
+categories:
+- preservation-and-fermentation

@@ -3,7 +3,7 @@ schema_version: '0.3'
 status: draft8-vocabulary-review-pass-1
 current_recipe_count: 410
 legacy_evidence: bbc-food-10 vocabulary observations retained; recipe texts not distributed
-canonical_concept_count: 216
+canonical_concept_count: 236
 entries:
 - id: add
   canonical_name: add
@@ -868,4 +868,84 @@ entries:
 - id: age
   canonical_name: age
   file: age.yaml
+  aliases: 0
+- id: autolyse
+  canonical_name: autolyse
+  file: autolyse.yaml
+  aliases: 0
+- id: barbecue
+  canonical_name: barbecue
+  file: barbecue.yaml
+  aliases: 1
+- id: baste
+  canonical_name: baste
+  file: baste.yaml
+  aliases: 0
+- id: blind-bake
+  canonical_name: blind bake
+  file: blind-bake.yaml
+  aliases: 0
+- id: brine
+  canonical_name: brine
+  file: brine.yaml
+  aliases: 0
+- id: cure
+  canonical_name: cure
+  file: cure.yaml
+  aliases: 0
+- id: deep-fry
+  canonical_name: deep fry
+  file: deep-fry.yaml
+  aliases: 0
+- id: dredge
+  canonical_name: dredge
+  file: dredge.yaml
+  aliases: 0
+- id: emulsify
+  canonical_name: emulsify
+  file: emulsify.yaml
+  aliases: 0
+- id: fillet
+  canonical_name: fillet
+  file: fillet.yaml
+  aliases: 0
+- id: lacto-ferment
+  canonical_name: lacto ferment
+  file: lacto-ferment.yaml
+  aliases: 0
+- id: parboil
+  canonical_name: parboil
+  file: parboil.yaml
+  aliases: 0
+- id: pickle
+  canonical_name: pickle
+  file: pickle.yaml
+  aliases: 0
+- id: pressure-cook
+  canonical_name: pressure cook
+  file: pressure-cook.yaml
+  aliases: 0
+- id: shallow-fry
+  canonical_name: shallow fry
+  file: shallow-fry.yaml
+  aliases: 0
+- id: shock
+  canonical_name: shock
+  file: shock.yaml
+  aliases: 0
+- id: sous-vide
+  canonical_name: sous vide
+  file: sous-vide.yaml
+  aliases: 0
+- id: temper-chocolate
+  canonical_name: temper chocolate
+  file: temper-chocolate.yaml
+  aliases: 0
+- id: temper-eggs
+  canonical_name: temper eggs
+  file: temper-eggs.yaml
+  aliases: 0
+- id: temper-spices
+  canonical_name: temper spices
+  file: temper-spices.yaml
   aliases: 0

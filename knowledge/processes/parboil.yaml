@@ -1,0 +1,12 @@
+id: parboil
+kind: process
+canonical_name: parboil
+names:
+  en: parboil
+reference: true
+curation:
+  origin: generated
+  review: unchecked
+scope: "Partially cook food in boiling water before another stage of preparation or cooking. Unlike blanching, the defining purpose is partial cooking; a separate cooling step is not implied."
+categories:
+- moist-heat-cooking
