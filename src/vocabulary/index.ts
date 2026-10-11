@@ -1,3 +1,7 @@
+import { validateEnrichment } from './enrichment.ts';
+import type { EnrichmentData, ExternalResource, ReferenceEnrichment } from './enrichment.ts';
+export * from './enrichment.ts';
+export * from './measurement.ts';
 import { matchesLocale, validateNames } from './localisation.ts';
 import type { ExactIngredientName, RegionalMapping, CanonicalIngredientTarget } from './localisation.ts';
 export * from './localisation.ts';
@@ -49,7 +53,9 @@ export class Vocabulary {
   private readonly partLexemes = new Map<string, { entry: VocabularyEntry; parts: string[] }>();
   readonly diagnostics: { severity: 'warning'; code: 'INVALID_CURATION'; entryId: string; message: string }[] = [];
   readonly entries: readonly VocabularyEntry[];
-  constructor(entries: readonly VocabularyEntry[]) {
+  readonly resources: readonly ExternalResource[];
+  readonly enrichments: readonly ReferenceEnrichment[];
+  constructor(entries: readonly VocabularyEntry[], enrichment: EnrichmentData = {}) {
     for (const entry of entries) {
       for (const message of readCuration(entry.curation).warnings)
         this.diagnostics.push({ severity: 'warning', code: 'INVALID_CURATION', entryId: entry.id, message });
@@ -120,6 +126,16 @@ export class Vocabulary {
       };
       visit(entry.parts, []);
     }
+    validateEnrichment(enrichment, target => {
+      const matches = entries.filter(e => e.kind === target.kind && e.id === target.id);
+      if (matches.length !== 1 || matches[0].canonical_target) return false;
+      if (!target.parts?.length) return true;
+      if (target.kind !== 'ingredient') return false;
+      const path = this.resolvePartPath(target.id, target.parts);
+      return path.complete && path.ids.every((id, i) => id === target.parts![i]);
+    });
+    this.resources = structuredClone(enrichment.resources ?? []);
+    this.enrichments = structuredClone(enrichment.enrichments ?? []);
   }
   /** Parts are relative IDs at each level, never global ingredient aliases. */
   resolvePartPath(baseId: string, terms: readonly string[]): { ids: string[]; parts: IngredientPart[]; complete: boolean } {

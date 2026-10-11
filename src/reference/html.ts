@@ -1,3 +1,4 @@
+import { renderReferenceEnrichment } from './enrichment-html.ts';
 import { readCuration, curationLabel } from '../curation.ts';
 import { escapeHtml as escape, safeUrl } from '../renderer/html.ts';
 import type { Provenance, SourcedQuantity } from '../vocabulary/index.ts';
@@ -51,6 +52,7 @@ export function renderReferenceHtml(page: ReferencePage, options: ReferenceHtmlO
       (f.canonicalParts ?? f.parts).length ? `part: ${(f.canonicalParts ?? f.parts).join(' › ')}` : 'base reference', f.variant ? `variant: ${f.variant}` : ''
     ].filter(Boolean).join(' · '))).join('; ')}</div>` : ''}`)) || '<p>No resolved uses in this corpus.</p>'));
   return `<article class="os-reference" data-kind="${escape(page.kind)}" data-colour="${options.colour === false ? 'off' : 'on'}"><header><h1>${escape(page.name)}</h1><p>${escape(page.kind)} · canonical ID: <code>${escape(page.id)}</code>${page.status ? ` · ${escape(page.status)}` : ''}</p>${readCuration(page.curation).curation ? `<p class="os-curation"><small>Curation: ${escape(curationLabel(page.curation!))}</small></p>` : ''}${page.canonicalName && page.canonicalName !== page.name ? `<p>Canonical name: ${escape(page.canonicalName)}</p>` : ''}</header>` +
+    renderReferenceEnrichment(page) +
     (page.scope ? section('Scope', `<p>${escape(page.scope)}</p>`) : '') +
     section('Browsing categories', list((page.categories ?? []).map(c => escape(c.replaceAll('-', ' '))))) +
     (page.typeOf ? `<p>Type of: ${link(page.typeOf.url, page.typeOf.name)}</p>` : '') +

@@ -1,0 +1,167 @@
+- id: kab-weight
+  title: Ingredient Weight Chart
+  url: https://www.kingarthurbaking.com/learn/ingredient-weight-chart
+  publisher: King Arthur Baking
+  type: reference
+  checked_at: 2026-10-11
+  review_scope: text
+  commercial_context: Manufacturer/retailer educational source
+  notes: Packed light/dark brown sugar equivalence; cup volume and empirical uncertainty not specified.
+- id: ch-pack
+  title: How To Measure and Pack Brown Sugar
+  url: https://www.chsugar.com/baking-tips-how-tos/how-measure-and-pack-brown-sugar
+  publisher: C&H Sugar
+  type: tutorial
+  checked_at: 2026-10-11
+  review_scope: text
+  commercial_context: Manufacturer/retailer educational source
+  notes: Written method and linked video identified; playback not reviewed. Direct video fetch failed.
+    Manufacturer source.
+- id: billingtons-range
+  title: Our Products
+  url: https://www.billingtons.co.uk/our-products
+  publisher: Billington’s
+  type: reference
+  checked_at: 2026-10-11
+  review_scope: text
+  commercial_context: Manufacturer/retailer educational source
+  notes: UK product distinctions; commercial descriptions are not a global identity or substitution crosswalk.
+- id: domino-faq
+  title: Domino Sugar Product FAQs
+  url: https://www.dominosugar.com/baking-tips-how-tos/domino-sugar-product-faqs
+  publisher: Domino Sugar
+  type: article
+  checked_at: 2026-10-11
+  review_scope: text
+  commercial_context: Manufacturer/retailer educational source
+  notes: Manufacturer-specific light/dark characteristics; do not generalise certification claims.
+- id: domino-storage
+  title: Baking & Product FAQs
+  url: https://www.dominosugar.com/baking-tips-how-tos/baking-product-faqs
+  publisher: Domino Sugar
+  type: article
+  checked_at: 2026-10-11
+  review_scope: text
+  commercial_context: Manufacturer/retailer educational source
+  notes: Brown sugar storage and moisture; not a validated density experiment.
+- id: aocs-emulsion
+  title: "Emulsions: making oil and water mix"
+  url: https://www.aocs.org/resource/emulsions-making-oil-and-water-mix/
+  publisher: AOCS
+  type: article
+  checked_at: 2026-10-11
+  review_scope: text
+  commercial_context: No affiliate relationship used
+  notes: Food/industrial science overview; select culinary explanation rather than import technical formulation
+    machinery.
+- id: exploratorium-emulsion
+  title: "Hollandaise Sauce: What’s Going On?"
+  url: https://annex.exploratorium.edu/cooking/eggs/hollandaise-pop.html
+  publisher: Exploratorium
+  type: article
+  checked_at: 2026-10-11
+  review_scope: text
+  commercial_context: No affiliate relationship used
+  notes: Archived educational source. Mechanism useful; historical storage/rescue advice is not adopted as
+    modern universal food-safety guidance.
+- id: cia-mayo
+  title: Mayonnaise
+  url: https://www.ciafoodies.com/mayonnaise/
+  publisher: Culinary Institute of America
+  type: article
+  checked_at: 2026-10-11
+  review_scope: text
+  commercial_context: No affiliate relationship used
+  notes: Text inspected. One worked formulation; not the universal definition of emulsify and not reproduced in
+    the prototype.
+- id: cia-knives
+  title: Five Knife Skills Every Chef Must Have!
+  url: https://www.ciachef.edu/blog/5-knife-skills-every-chef-must/
+  publisher: Culinary Institute of America / David Kamen
+  type: article
+  checked_at: 2026-10-11
+  review_scope: text
+  commercial_context: No affiliate relationship used
+  notes: Task distinctions useful. Do not generalise its sharpening angle to all knives.
+- id: wusthof-care
+  title: Clean Your WUSTHOF Knives
+  url: https://wusthof.com/blogs/the-chefs-table/how-to-clean-your-wusthof-knives
+  publisher: WUSTHOF
+  type: article
+  checked_at: 2026-10-11
+  review_scope: text
+  commercial_context: Manufacturer/retailer educational source
+  notes: Manufacturer source; no endorsement, price comparison or affiliate link.
+- id: cia-tutorials
+  title: "Online Resources: Cutting Carrots; Sharpen Your Knife Skills"
+  url: https://www.ciachef.edu/online-resources/
+  publisher: Culinary Institute of America
+  type: tutorial
+  checked_at: 2026-10-11
+  review_scope: landing-page
+  commercial_context: No affiliate relationship used
+  notes: Landing-page topics verified. Individual playback, durations and captions require review.
+- id: egg-emulsion
+  title: Emulsification
+  url: https://www.incredibleegg.org/professionals/manufacturers/real-egg-functionality/emulsification/
+  publisher: American Egg Board
+  type: article
+  checked_at: 2026-10-11
+  review_scope: text
+  notes: Industry educational source; culinary function, not dietary assurance.
+- id: egg-foam
+  title: Aeration / Foaming / Structure
+  url: https://www.incredibleegg.org/professionals/manufacturers/real-egg-functionality/aeration-foaming-structure/
+  publisher: American Egg Board
+  type: article
+  checked_at: 2026-10-11
+  review_scope: text
+  notes: Industry educational source; no nutrition or universal substitution claims adopted.
+- id: cia-sear
+  title: Tips for Saving Your Sear
+  url: https://www.ciafoodies.com/troubleshooting-searing-meat-for-stews-and-braises/
+  publisher: Culinary Institute of America
+  type: article
+  checked_at: 2026-10-11
+  review_scope: text
+  notes: Braise example; not a universal time or temperature specification.
+- id: sear-myth
+  title: "Myth: Searing Steaks Seals In The Juices"
+  url: https://amazingribs.com/more-technique-and-science/more-cooking-science/myth-searing-steaks-seals-juices/
+  publisher: Meathead / AmazingRibs
+  type: article
+  checked_at: 2026-10-11
+  review_scope: text
+  notes: Culinary testing and explanation; commercial publication, no product ranking adopted.
+- id: tefal-care
+  title: How To Care For Your Cookware
+  url: https://blog.tefal.co.uk/2021/04/13/how-to-care-for-your-cookware/
+  publisher: Tefal
+  type: article
+  checked_at: 2026-10-11
+  review_scope: text
+  notes: Manufacturer guidance; specific product instructions take precedence.
+- id: lodge-care
+  title: Beginner’s Guide to Cast Iron
+  url: https://www.lodgecastiron.com/blogs/story/beginners-guide-cast-iron
+  publisher: Lodge Cast Iron
+  type: article
+  checked_at: 2026-10-11
+  review_scope: text
+  notes: Manufacturer guidance for seasoned cast iron, not every pan material.
+- id: allclad-care
+  title: Use and Care Guide
+  url: https://www.all-clad.com/care-use
+  publisher: All-Clad
+  type: article
+  checked_at: 2026-10-11
+  review_scope: text
+  notes: Manufacturer guidance; material and collection instructions differ.
+- id: caramelisation
+  title: Caramelization and Caramels
+  url: https://annex.exploratorium.edu/cooking/bread/caramels-story.html
+  publisher: Exploratorium
+  type: article
+  checked_at: 2026-10-11
+  review_scope: text
+  notes: Archived mechanism explanation; no universal cooking threshold adopted.

@@ -29,5 +29,13 @@ export async function loadVocabulary(root: string): Promise<Vocabulary> {
       entries.push(entry);
     }
   }
-  return new Vocabulary(entries);
+  const optional = async (file: string) => {
+    try { return parse(await readFile(join(root, file), 'utf8')); }
+    catch (error) { if ((error as NodeJS.ErrnoException).code === 'ENOENT') return undefined; throw error; }
+  };
+  const resources = await optional('resources.yaml');
+  const enrichments = await optional('enrichment.yaml');
+  if (resources !== undefined && !Array.isArray(resources)) throw new Error('Invalid resource registry');
+  if (enrichments !== undefined && !Array.isArray(enrichments)) throw new Error('Invalid enrichment registry');
+  return new Vocabulary(entries, {resources, enrichments});
 }

@@ -1,0 +1,523 @@
+- target:
+    kind: ingredient
+    id: brown-sugar
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Brown sugar adds sweetness and a molasses-associated flavour. This measurement example concerns soft
+        light or dark brown sugar, not every product sold under a brown-sugar name.
+      sources:
+        - domino-faq
+      review_version: 0.1
+    - id: sensory
+      role: sensory
+      text: Light soft brown sugar offers a gentler molasses character; a dark style gives a stronger flavour.
+        Choose according to the intended recipe rather than treating colour as an identity rule.
+      sources:
+        - domino-faq
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: Soft brown sugars are used in baking, glazes and sweet-savoury sauces. Product and recipe differences
+        matter when considering alternatives.
+      sources:
+        - domino-faq
+      review_version: 0.1
+    - id: storage
+      role: storage
+      text: Keep brown sugar tightly covered in a cool place. Moisture loss can harden it; hard lumps are not a
+        reproducible packed measure.
+      sources:
+        - domino-storage
+      review_version: 0.1
+    - id: scope
+      role: context
+      text: UK product ranges distinguish light and dark soft brown sugar from muscovado and demerara. These names
+        are not automatically exact aliases or interchangeable measurements.
+      sources:
+        - billingtons-range
+      review_version: 0.1
+    - id: packing
+      role: context
+      text: For a packed measure, spoon sugar into the vessel, press down, repeat to fill, and level the top.
+        Packing is a measuring method, not a new ingredient or preparation identity; an authored gram amount
+        needs no packing conversion.
+      sources:
+        - ch-pack
+      review_version: 0.1
+  resources:
+    - resource: kab-weight
+      role: measurement-reference
+      order: 1
+      review_version: 0.1
+    - resource: ch-pack
+      role: technique-demonstration
+      order: 2
+      note: Written method checked; linked video playback and duration not verified.
+      review_version: 0.1
+    - resource: billingtons-range
+      role: specialist-reference
+      order: 3
+      note: UK terminology comparison, not a buying recommendation.
+      review_version: 0.1
+  measurements:
+    - id: packed-kab
+      target:
+        kind: ingredient
+        id: brown-sugar
+      product_scope: Soft light/dark brown sugar represented by the source chart
+      condition: packed
+      original: 213 g per 1 cup, brown sugar (dark or light, packed).
+      source: kab-weight
+      locator: Brown sugar (dark or light, packed) row
+      accessed: 2026-10-11
+      unit: g/mL
+      approximate: true
+      uncertainty:
+        basis: "Unknown: no replicate measurements or numerical uncertainty supplied."
+      normalisation: "Not performed: the source row does not establish the cup volume in mL. No cup definition is assumed."
+      review_version: 0.1
+      conversion_eligible: false
+- target:
+    kind: ingredient
+    id: egg
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Eggs have several culinary functions, including helping form emulsions and incorporating air. Whole egg,
+        yolk and white have different roles in a recipe.
+      sources:
+        - egg-emulsion
+        - egg-foam
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: Yolk is useful in emulsified sauces; whites can form foams used in meringues and baking. These examples
+        do not imply that every emulsion requires egg or that parts can replace one another without changing a
+        recipe.
+      sources:
+        - egg-emulsion
+        - egg-foam
+      review_version: 0.1
+    - id: parts
+      role: context
+      text: Yolk, white and shell remain parts of the whole egg identity. Compound egg-yolk and egg-white wording
+        uses the same canonical part targets. The shell is not part of the separated-contents culinary group.
+      review_version: 0.1
+  resources:
+    - resource: egg-emulsion
+      role: deeper-explanation
+      order: 1
+      review_version: 0.1
+    - resource: egg-foam
+      role: specialist-reference
+      order: 2
+      review_version: 0.1
+  associations:
+    - relation: used-for
+      target:
+        kind: process
+        id: emulsify
+      note: Yolk contributes to stabilising familiar egg-based sauces.
+      sources:
+        - egg-emulsion
+      review_version: 0.1
+    - relation: used-for
+      target:
+        kind: process
+        id: whisk
+      note: Whisking can introduce air into whites; it is not synonymous with emulsification.
+      sources:
+        - egg-foam
+      review_version: 0.1
+    - relation: used-for
+      target:
+        kind: process
+        id: separate
+      note: The existing separated-contents group connects yolk and white under the whole egg; shell remains outside
+        that culinary group.
+      review_version: 0.1
+- target:
+    kind: process
+    id: emulsify
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Emulsifying disperses droplets of one liquid through another liquid with which it does not readily mix.
+        The result can be temporary or stabilised.
+      sources:
+        - aocs-emulsion
+      review_version: 0.1
+    - id: purpose
+      role: purpose
+      text: Use emulsification to distribute fat through a sauce or dressing and develop the desired texture.
+        Mayonnaise is one example, not the definition of the process.
+      sources:
+        - cia-mayo
+      review_version: 0.1
+    - id: mechanism
+      role: mechanism
+      text: Mechanical action breaks up droplets. Emulsifying components help resist their joining together again;
+        egg yolk supplies such components in familiar sauces.
+      sources:
+        - exploratorium-emulsion
+      review_version: 0.1
+    - id: judgement
+      role: judgement
+      text: For a mayonnaise-like sauce, look for a uniform creamy mixture rather than free oil. Addition rate,
+        formulation, tool and temperature matter; there is no universal duration or mixing speed.
+      sources:
+        - cia-mayo
+        - exploratorium-emulsion
+      review_version: 0.1
+    - id: mistakes
+      role: mistakes
+      text: Do not assume more whisking repairs every separated sauce. Overheating an egg sauce may coagulate
+        proteins as well as disrupt the emulsion.
+      sources:
+        - exploratorium-emulsion
+      review_version: 0.1
+    - id: neighbours
+      role: near-neighbours
+      text: Mixing and blending may produce emulsions but need not. Whisking can emulsify or aerate; whipping
+        commonly concerns foam. None of these action names is an identity alias for emulsify.
+      sources:
+        - aocs-emulsion
+        - egg-foam
+      review_version: 0.1
+  resources:
+    - resource: aocs-emulsion
+      role: deeper-explanation
+      order: 1
+      review_version: 0.1
+    - resource: exploratorium-emulsion
+      role: introduction
+      order: 2
+      review_version: 0.1
+    - resource: cia-mayo
+      role: technique-demonstration
+      order: 3
+      note: Worked written example; not a universal recipe.
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: process
+        id: mix
+      note: Related action, not equivalent identity.
+      sources:
+        - aocs-emulsion
+      review_version: 0.1
+    - relation: contrast-with
+      target:
+        kind: process
+        id: whisk
+      note: Related action, not equivalent identity.
+      sources:
+        - aocs-emulsion
+      review_version: 0.1
+    - relation: contrast-with
+      target:
+        kind: process
+        id: blend
+      note: Related action, not equivalent identity.
+      sources:
+        - aocs-emulsion
+      review_version: 0.1
+    - relation: contrast-with
+      target:
+        kind: process
+        id: whip
+      note: Related action, not equivalent identity.
+      sources:
+        - aocs-emulsion
+      review_version: 0.1
+    - relation: commonly-used-with
+      target:
+        kind: ingredient
+        id: egg
+        parts:
+          - yolk
+      note: Yolk is useful in some emulsified sauces, not a mandatory ingredient.
+      sources:
+        - egg-emulsion
+      review_version: 0.1
+    - relation: commonly-used-with
+      target:
+        kind: equipment
+        id: whisk
+      note: One possible tool; method and batch determine suitability.
+      sources:
+        - cia-mayo
+      review_version: 0.1
+- target:
+    kind: process
+    id: sear
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Searing develops a browned surface and flavour. It may be one stage of a longer cooking method rather
+        than sufficient cooking by itself.
+      sources:
+        - cia-sear
+      review_version: 0.1
+    - id: judgement
+      role: judgement
+      text: Look for the intended browned surface and distinguish useful brown pan deposits from burnt, bitter
+        residue. Adjust to the food, cookware and method; no single pan temperature or duration applies.
+      sources:
+        - cia-sear
+      review_version: 0.1
+    - id: mistakes
+      role: mistakes
+      text: Searing does not seal in juices. A browned exterior is neither a moisture barrier nor proof that the
+        interior has reached the desired condition.
+      sources:
+        - sear-myth
+      review_version: 0.1
+    - id: neighbours
+      role: near-neighbours
+      text: Brown describes a wider colour/flavour outcome. Grilling and pan-frying are cooking methods that can
+        produce a sear. Caramelisation concerns sugar transformations and should not be used as a blanket
+        explanation for every browned surface.
+      sources:
+        - cia-sear
+        - caramelisation
+      review_version: 0.1
+  resources:
+    - resource: cia-sear
+      role: technique-demonstration
+      order: 1
+      note: Written braising example.
+      review_version: 0.1
+    - resource: sear-myth
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: process
+        id: brown
+      note: Overlapping culinary context, not an exact action alias.
+      sources:
+        - cia-sear
+        - caramelisation
+      review_version: 0.1
+    - relation: contrast-with
+      target:
+        kind: process
+        id: grill
+      note: Overlapping culinary context, not an exact action alias.
+      sources:
+        - cia-sear
+        - caramelisation
+      review_version: 0.1
+    - relation: contrast-with
+      target:
+        kind: process
+        id: pan-fry
+      note: Overlapping culinary context, not an exact action alias.
+      sources:
+        - cia-sear
+        - caramelisation
+      review_version: 0.1
+    - relation: contrast-with
+      target:
+        kind: process
+        id: caramelise
+      note: Overlapping culinary context, not an exact action alias.
+      sources:
+        - cia-sear
+        - caramelisation
+      review_version: 0.1
+    - relation: commonly-used-with
+      target:
+        kind: equipment
+        id: frying-pan
+      note: A suitable pan is one option; material and product heat limits matter.
+      sources:
+        - cia-sear
+        - tefal-care
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: chef-knife
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A chef knife is a general-purpose preparation knife used for many chopping and slicing tasks. Its longer
+        blade can suit larger ingredients; smaller delicate work may suit a paring knife.
+      sources:
+        - cia-knives
+      review_version: 0.1
+    - id: selection
+      role: selection
+      text: Choose for the task, a comfortable secure grip and maintainability. A recipe does not require purchasing
+        this exact knife pattern if an appropriate tool is already available. Construction labels alone do not
+        establish a universal quality ranking.
+      sources:
+        - cia-knives
+      review_version: 0.1
+    - id: care
+      role: care
+      text: Manufacturer guidance recommends prompt hand-washing, careful drying and protected storage. Follow the
+        instructions for your own knife; do not generalise a sharpening angle or care schedule to every
+        material.
+      sources:
+        - wusthof-care
+      review_version: 0.1
+    - id: tasks
+      role: uses
+      text: Chopping, slicing, dicing and mincing are useful learning topics. These associations are discovery
+        links, not evidence that every recipe using those actions requires a chef knife.
+      sources:
+        - cia-knives
+      review_version: 0.1
+  resources:
+    - resource: cia-knives
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: wusthof-care
+      role: maintenance
+      order: 2
+      note: Manufacturer care source; not a product recommendation.
+      review_version: 0.1
+    - resource: cia-tutorials
+      role: technique-demonstration
+      order: 3
+      note: Landing-page topics checked. Individual videos not watched; duration and captions unverified.
+      review_version: 0.1
+  associations:
+    - relation: used-for
+      target:
+        kind: process
+        id: chop
+      note: A common task, not mandatory equipment.
+      sources:
+        - cia-knives
+      review_version: 0.1
+    - relation: used-for
+      target:
+        kind: process
+        id: slice
+      note: A common task, not mandatory equipment.
+      sources:
+        - cia-knives
+      review_version: 0.1
+    - relation: used-for
+      target:
+        kind: process
+        id: dice
+      note: A common task, not mandatory equipment.
+      sources:
+        - cia-knives
+      review_version: 0.1
+    - relation: used-for
+      target:
+        kind: process
+        id: mince
+      note: A common task, not mandatory equipment.
+      sources:
+        - cia-knives
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: frying-pan
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A frying pan provides a cooking surface for tasks such as frying and browning. Choose a pan suited to
+        the food, heat source and intended method.
+      sources:
+        - allclad-care
+      review_version: 0.1
+    - id: materials
+      role: context
+      text: The existing family includes cast-iron, carbon-steel, stainless-steel and non-stick frying pans. These
+        are distinct types, not a universal substitution list. Cooking surface, construction and product
+        limits matter; no material is best for every task.
+      sources:
+        - allclad-care
+        - tefal-care
+        - lodge-care
+      review_version: 0.1
+    - id: selection
+      role: selection
+      text: For a sear or a delicate sticking-prone food, consider the intended surface behaviour and the pan
+        instructions. A non-stick coating does not grant unlimited heat tolerance. Another suitable vessel may
+        work for a particular recipe, but equivalence is task-dependent.
+      sources:
+        - tefal-care
+        - cia-sear
+      review_version: 0.1
+    - id: care
+      role: care
+      text: Seasoned cast iron has seasoning-specific care. Stainless and coated cookware require their own cleaning
+        guidance; prolonged overheating can damage non-stick performance. Follow the material and collection
+        instructions rather than one rule for all frying pans.
+      sources:
+        - lodge-care
+        - allclad-care
+        - tefal-care
+      review_version: 0.1
+  resources:
+    - resource: allclad-care
+      role: maintenance
+      order: 1
+      note: Manufacturer guidance; select the relevant material/collection.
+      review_version: 0.1
+    - resource: lodge-care
+      role: specialist-reference
+      order: 2
+      note: Seasoned cast iron only.
+      review_version: 0.1
+    - resource: tefal-care
+      role: maintenance
+      order: 3
+      note: Coating and product limits, not a ranking.
+      review_version: 0.1
+  associations:
+    - relation: used-for
+      target:
+        kind: process
+        id: fry
+      note: Possible use when pan, food and method are suitable; not a mandatory dependency.
+      sources:
+        - allclad-care
+        - cia-sear
+      review_version: 0.1
+    - relation: used-for
+      target:
+        kind: process
+        id: shallow-fry
+      note: Possible use when pan, food and method are suitable; not a mandatory dependency.
+      sources:
+        - allclad-care
+        - cia-sear
+      review_version: 0.1
+    - relation: used-for
+      target:
+        kind: process
+        id: saute
+      note: Possible use when pan, food and method are suitable; not a mandatory dependency.
+      sources:
+        - allclad-care
+        - cia-sear
+      review_version: 0.1
+    - relation: used-for
+      target:
+        kind: process
+        id: sear
+      note: Possible use when pan, food and method are suitable; not a mandatory dependency.
+      sources:
+        - allclad-care
+        - cia-sear
+      review_version: 0.1

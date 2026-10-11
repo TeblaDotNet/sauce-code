@@ -71,6 +71,9 @@ export interface ReferencePart extends ReferenceKnowledge {
 export interface ReferenceKnowledge extends QuantitativeKnowledge { parts: ReferencePart[]; groups: ReferenceGroup[] }
 export interface ReferenceRelation { id: string; name: string; url?: string }
 export interface ReferencePage extends ReferenceKnowledge {
+  enrichment?: import('../vocabulary/enrichment.ts').ReferenceEnrichment;
+  resources?: import('../vocabulary/enrichment.ts').ExternalResource[];
+  contextualLinks?: { name: string; url?: string }[];
   exactNames?: VocabularyEntry['exact_names'];
   regionalMappings?: VocabularyEntry['regional_mappings'];
   canonicalTarget?: VocabularyEntry['canonical_target'];
@@ -96,6 +99,7 @@ export function createReferencePage(vocabulary: Vocabulary, kind: ReferenceKind,
   const matches = vocabulary.entries.filter(e => e.kind === kind && e.id === id);
   if (matches.length !== 1) return undefined;
   const entry = matches[0];
+  const enrichment = vocabulary.enrichments.find(e => e.target.kind === kind && e.target.id === id);
   if (entry.reference === false) return undefined;
   const canonical = entry.canonical_target;
   const conceptUsage = usage ? canonical
@@ -125,6 +129,16 @@ export function createReferencePage(vocabulary: Vocabulary, kind: ReferenceKind,
     })
   });
   return structuredClone({ ...knowledge(entry, []), id, kind, name: displayName(entry.names, entry.canonical_name ?? id),
+    enrichment,
+    resources: enrichment ? vocabulary.resources.filter(r =>
+      [...(enrichment.editorial ?? []).flatMap(b => b.sources ?? []), ...(enrichment.resources ?? []).map(a => a.resource),
+       ...(enrichment.associations ?? []).flatMap(a => a.sources ?? []), ...(enrichment.measurements ?? []).map(m => m.source)].includes(r.id)) : undefined,
+    contextualLinks: enrichment?.associations?.map(a => {
+      const target = vocabulary.entries.find(e => e.kind === a.target.kind && e.id === a.target.id)!;
+      const base = target.reference === false ? undefined : (options.referenceUrl ?? referencePath)(target.kind, target.id);
+      return {name: [displayName(target.names, target.id), ...(a.target.parts ?? [])].join(' › '),
+        url: base ? base + (a.target.parts?.length ? '#' + partAnchor(a.target.parts) : '') : undefined};
+    }),
     exactNames: entry.exact_names, regionalMappings: entry.regional_mappings, canonicalTarget: entry.canonical_target,
     states: entry.states, scope: entry.scope, categories: entry.categories,
     typeOf: parent ? relation(parent) : undefined,
