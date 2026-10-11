@@ -37,13 +37,13 @@ test('enrichment maturity and prose never change resolver identity or parser leg
 });
 test('missing optional sections omit empty enrichment headings; legacy pages still render', () => {
   const html=renderReferenceHtml(page(make()));
-  for(const heading of ['About','Learning resources','Contextual associations','Measurement observations','Source details'])assert.ok(!html.includes('<h2>'+heading+'</h2>'));
+  for(const heading of ['about','learn','connections','measure','sources'])assert.ok(!html.includes('>::'+heading+'</h2>'));
   assert.ok(renderReferenceHtml(page(new Vocabulary(entries))).includes('food'));
 });
 test('editorial role order is deterministic and prose/source metadata are escaped', () => {
   const v=make({editorial:[block({id:'care',role:'care',text:'Care second'}),block({text:'<script>alert("x")</script> & text',sources:['source']})]},[{...resource,title:'<source>'}]);
   const html=renderReferenceHtml(page(v));
-  assert.ok(html.indexOf('<h2>About')<html.indexOf('<h2>Care'));
+  assert.ok(html.indexOf('>::about</h2>')<html.indexOf('>::care</h2>'));
   assert.ok(html.includes('&lt;script&gt;'));assert.ok(!html.includes('<script>'));assert.ok(html.includes('&lt;source&gt;'));
   assert.equal(html,renderReferenceHtml(page(v)));
 });
@@ -124,13 +124,13 @@ test('gram-authored mass remains unchanged without density, even with conflictin
 test('only six exemplar enrichments load; all draft records stay below human review',()=>{
   assert.deepEqual(vocabulary.enrichments.map(e=>e.target.id).sort(),['brown-sugar','chef-knife','egg','emulsify','frying-pan','sear']);
   assert.equal(vocabulary.entries.length,766);
-  for(const e of vocabulary.enrichments){assert.equal(e.review_version,0.1);for(const r of [...e.editorial??[],...e.resources??[],...e.associations??[],...e.measurements??[]])assert.equal(r.review_version,0.1);assert.ok(renderReferenceHtml(createReferencePage(vocabulary,e.target.kind,e.target.id)!).includes('Content review 0.1'));}
+  for(const e of vocabulary.enrichments){assert.equal(e.review_version,0.1);for(const r of [...e.editorial??[],...e.resources??[],...e.associations??[],...e.measurements??[]])assert.equal(r.review_version,0.1);assert.ok(renderReferenceHtml(createReferencePage(vocabulary,e.target.kind,e.target.id)!).includes('Version 0.1 — machine generated, not yet human reviewed'));}
 });
 test('brown sugar original observation has no density number or executable conversion',()=>{
   const e=vocabulary.enrichments.find(e=>e.target.id==='brown-sugar')!;const m=e.measurements![0];
   assert.equal(m.value,undefined);assert.equal(m.source_volume_ml,undefined);assert.equal(m.conversion_eligible,false);
   const html=renderReferenceHtml(createReferencePage(vocabulary,'ingredient','brown-sugar')!);
-  assert.ok(html.includes('213 g per 1 cup'));assert.ok(html.includes('not eligible for automatic conversion'));assert.ok(!html.includes('Culinary / bulk density:'));
+  assert.ok(html.includes('213 g per 1 cup'));assert.ok(html.includes('Not currently used for automatic conversion'));assert.ok(!html.includes('Culinary / bulk density:'));
 });
 test('egg links and usage converge on canonical parts; contextual links do not infer usage',()=>{
   const eggHtml=renderReferenceHtml(createReferencePage(vocabulary,'ingredient','egg')!);
@@ -146,7 +146,7 @@ test('equipment family navigation stays canonical; material associations are not
   assert.equal(createReferencePage(vocabulary,'equipment','chef-knife')?.typeOf?.id,'knife');
   const pan=createReferencePage(vocabulary,'equipment','frying-pan')!;
   assert.deepEqual(pan.types?.map(t=>t.id).sort(),['carbon-steel-frying-pan','cast-iron-frying-pan','non-stick-frying-pan','stainless-steel-frying-pan']);
-  assert.ok(pan.enrichment?.editorial?.some(b=>b.text.includes('not a universal substitution')));
+  assert.ok(pan.enrichment?.editorial?.some(b=>b.text.includes('cooking and care needs differ')));
   assert.ok(pan.enrichment?.associations?.every(a=>a.relation==='used-for'));
 });
 test('all legacy identities are identical without enrichment; retained samples parse identically',async()=>{
@@ -176,4 +176,63 @@ test('projection is detached from source enrichment and source resource metadata
   const before=JSON.stringify({e:vocabulary.enrichments,r:vocabulary.resources});
   p.enrichment!.editorial![0].text='changed';p.resources![0].title='changed';
   assert.equal(JSON.stringify({e:vocabulary.enrichments,r:vocabulary.resources}),before);
+});
+
+const hero = vocabulary.enrichments.find(e => e.target.id === 'egg')!.hero!;
+test('hero metadata stays optional and does not alter resolver identity', () => {
+  assert.equal(vocabulary.enrichments.filter(e => e.hero).length, 6);
+  const v = make({hero}); assert.equal(v.resolve('food','ingredient')[0].id,'food');
+  assert.ok(!renderReferenceHtml(page(v)).includes('ref-hero'));
+  assert.ok(!renderReferenceHtml(page(make()),{heroUrl:p=>'/assets/'+p}).includes('ref-hero'));
+});
+test('hero renders after maturity, with escaped text, explicit size and image rights', () => {
+  const v=make({hero:{...hero,alt:'<img onerror="bad">',attribution_text:'A & B',caption:'<script>bad</script>'}});
+  const html=renderReferenceHtml(page(v),{heroUrl:p=>'/assets/'+p});
+  assert.ok(html.indexOf('ref-content-review') < html.indexOf('ref-hero'));
+  assert.match(html,/alt="&lt;img onerror=&quot;bad&quot;&gt;"/);
+  assert.ok(html.includes('A &amp; B')); assert.ok(html.includes('&lt;script&gt;bad&lt;/script&gt;'));
+  assert.ok(html.includes('width="960"'));assert.ok(html.includes('rel="license"'));
+  assert.ok(!renderReferenceHtml(page(v),{heroUrl:()=> 'javascript:alert(1)'}).includes('ref-hero'));
+});
+for(const patch of [{asset:'../private.jpg'},{asset:'https://example.org/image.jpg'},{asset:'references/../x.jpg'},{asset:'references/%2e%2e.jpg'},{source_page:'javascript:bad'},{licence_url:'http://example.org'},{alt:''},{creator:''},{width:0},{height:1.5},{reviewed_at:'2026-02-30'}])
+  test('reject invalid hero metadata '+JSON.stringify(patch),()=>assert.throws(()=>make({hero:{...hero,...patch}}),/hero image/));
+test('selected images retain provenance, local bytes and source checksums', async()=>{
+  const {createHash}=await import('node:crypto');
+  const register=JSON.parse(await readFile('assets/references/selection.json','utf8'));
+  for(const e of vocabulary.enrichments){
+    const h=e.hero!;const bytes=await readFile('assets/'+h.asset);
+    assert.equal(bytes[0],255);assert.equal(bytes[1],216);
+    const selected=register.candidates.find((c:{concept:string;selected:boolean})=>c.concept===e.target.id&&c.selected);
+    assert.equal(createHash('sha256').update(bytes).digest('hex'),selected.asset_sha256);
+    assert.equal(h.source_page,selected.source_page);assert.equal(h.licence,selected.licence);
+  }
+});
+
+test('page maturity is prominent and matching field labels are suppressed',()=>{
+  const html=renderReferenceHtml(page(make({editorial:[block()],resources:[{resource:'source',role:'introduction',order:1,review_version:0.1}]})));
+  assert.equal((html.match(/Version 0.1/g)??[]).length,1);
+  assert.ok(!html.includes('enrichment only'));
+  assert.match(html,/<header><h1>food<\/h1><\/header><aside class="ref-content-review"/);
+  const different=renderReferenceHtml(page(make({review_version:1,editorial:[block()]})));
+  assert.match(different,/Version 1 — human reviewed/);
+  assert.match(different,/class="ref-field-review">Version 0.1 — machine generated, not yet human reviewed/);
+});
+test('measurement technical metadata remains inside expandable details',()=>{
+  const html=renderReferenceHtml(createReferencePage(vocabulary,'ingredient','brown-sugar')!);
+  assert.match(html,/<h3>Packed brown sugar<\/h3>/);
+  assert.match(html,/Published reference: 213 g per 1 cup/);
+  assert.match(html,/Not currently used for automatic conversion because the source does not define the cup volume/);
+  assert.ok(html.indexOf('ref-measure-details')<html.indexOf('Normalisation:'));
+  assert.ok(html.indexOf('ref-measure-details')<html.indexOf('Uncertainty:'));
+  assert.match(html,/Source location: Brown sugar/);
+  assert.ok(!html.includes('Culinary / bulk density:'));
+});
+test('egg keeps visible part anchors with shallow unused parts and readable context',()=>{
+  const usage=buildUsageIndex([{id:'r',name:'Recipe',recipe:parseRecipe('::ingredients\n(egg: yolk)',{vocabulary})}]);
+  const html=renderReferenceHtml(createReferencePage(vocabulary,'ingredient','egg',usage)!);
+  assert.match(html,/Shell is also part of an egg, but is not normally used as a culinary ingredient/);
+  for(const part of ['yolk','white','shell'])assert.match(html,new RegExp('<section class="ref-part" id="part-'+part+'"'));
+  assert.ok(!html.includes('Used in 0 recipes'));
+  assert.ok(html.indexOf('ref-record-details')<html.indexOf('separated_contents'));
+  assert.ok(html.includes('href="/?recipe=r"'));
 });

@@ -32,7 +32,18 @@ export interface MeasurementObservation extends Review {
   source_volume_ml?: number;
   conversion_eligible: boolean;
 }
+/** Optional locally hosted image; rights remain attached to the individual photograph. */
+export interface ReferenceHero {
+  asset: string; title: string; source_page: string; source_file: string;
+  creator: string; licence: string; licence_url: string; attribution_text: string;
+  alt: string; reviewed_at: string; width: number; height: number;
+  changes: string; caption?: string;
+}
+export function safeHeroAsset(value: unknown): value is string {
+  return typeof value === 'string' && /^references\/[a-z0-9]+(?:-[a-z0-9]+)*\.(?:jpg|png|webp)$/.test(value);
+}
 export interface ReferenceEnrichment extends Review {
+  hero?: ReferenceHero;
   target: ConceptTarget;
   editorial?: EditorialBlock[];
   resources?: ResourceAttachment[];
@@ -93,6 +104,14 @@ export function validateEnrichment(data: EnrichmentData, validTarget: (target: C
   for (const e of enrichments) {
     if (!record(e)) fail('entry'); review(e); target(e.target);
     if (e.target.parts?.length) fail('entry enrichment must target a whole concept');
+    if (e.hero !== undefined) {
+      const h = e.hero;
+      if (!record(h) || !safeHeroAsset(h.asset) ||
+          !['title','creator','licence','attribution_text','alt','changes'].every(k => text(h[k])) ||
+          !['source_page','source_file','licence_url'].every(k => safeResourceUrl(h[k])) ||
+          !date(h.reviewed_at) || ![h.width,h.height].every(n => Number.isSafeInteger(n) && n > 0)) fail('hero image');
+      optionalText(h, ['caption']);
+    }
     const blocks = e.editorial === undefined ? [] : array(e.editorial);
     unique(blocks.map(b => b?.id), 'editorial block ID');
     for (const b of blocks) {

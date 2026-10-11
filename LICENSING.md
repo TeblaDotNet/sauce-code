@@ -52,3 +52,7 @@ Licence texts: [GNU GPL 2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.htm
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode),
 [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/legalcode).
 The unmodified texts are retained locally; the GPL “or later” option is granted above.
+
+## Reference hero photographs
+
+Optional images in `assets/references/` retain their individual public-domain, CC0, CC BY or CC BY-SA terms. They are not relicensed under the knowledge CC0 grant. See [image credits](assets/references/ATTRIBUTION.md) and the adjacent selection register for creators, source pages, licence links and derivative details.

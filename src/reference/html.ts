@@ -7,13 +7,15 @@ import type { ReferencePage, ReferenceKnowledge, ReferencePart } from './index.t
 
 export interface ReferenceHtmlOptions {
   colour?: boolean;
+  /** Resolve an optional image asset through the host application; absent means no image. */
+  heroUrl?: (asset: string) => string | undefined;
   recipeUrl?: (id: string) => string | undefined;
   recipeLabel?: (id: string, name: string) => string;
   nutrition?: boolean;
 }
 const link = (url: string | undefined, label: string) => url && safeUrl(url)
   ? `<a href="${escape(url)}">${escape(label)}</a>` : escape(label);
-const section = (title: string, body: string) => body ? `<section><h2>${escape(title)}</h2>${body}</section>` : '';
+const section = (title: string, body: string, motif = false) => body ? `<section><h2${motif ? ' class="ref-section-heading"' : ''}>${motif ? '::' : ''}${escape(title)}</h2>${body}</section>` : '';
 const list = (items: string[]) => items.length ? `<ul>${items.map(item => `<li>${item}</li>`).join('')}</ul>` : '';
 function names(names: Record<string, string>, plurals?: Record<string, string>): string {
   return `<dl class="ref-names">${Object.entries(names).map(([locale, name]) => `<dt>${escape(locale)}</dt><dd>${escape(name)}</dd>`).join('')}${Object.entries(plurals ?? {}).map(([locale, name]) => `<dt>${escape(locale)} plural</dt><dd>${escape(name)}</dd>`).join('')}</dl>`;
@@ -31,14 +33,14 @@ function knowledge(data: ReferenceKnowledge, options: ReferenceHtmlOptions): str
     section('Reference density', list((data.reference_density ?? []).map(quantity))) +
     (options.nutrition === false ? '' : section('Nutrition per 100 g', list(Object.entries(data.nutrition?.per_100g ?? {}).map(([nutrient, q]) => `${escape(nutrient)}: ${quantity(q)}`))));
 }
-function renderPart(part: ReferencePart, parents: string[], options: ReferenceHtmlOptions): string {
-  const usage = part.usage === undefined ? '' :
+function renderPart(part: ReferencePart, parents: string[], options: ReferenceHtmlOptions, enriched = false): string {
+  const usage = part.usage === undefined || (enriched && !part.usage.length) ? '' :
     `<h4>Used in ${part.usage.length} recipe${part.usage.length === 1 ? '' : 's'}</h4>` +
     (list(part.usage.map(r => link((options.recipeUrl ?? recipePath)(r.id), options.recipeLabel?.(r.id, r.name) ?? r.name))) ||
       '<p>No resolved uses of this part in this corpus.</p>');
   const context = [...parents, part.name];
   const heading = context.map((name, i) => `<span class="os-syntax-${i ? 'specificity' : 'ingredient'}">${escape(name)}</span>`).join(' › ');
-  return `<section class="ref-part" id="${escape(part.anchor)}" tabindex="-1"><h3>${heading}</h3><p>Local part path: <code>${escape(part.path.join(' / '))}</code></p>${names(part.names, part.pluralNames)}${part.aliases.length ? `<p>Aliases: ${part.aliases.map(escape).join(', ')}</p>` : ''}${knowledge(part, options)}${usage}${part.parts.map(p => renderPart(p, context, options)).join('')}</section>`;
+  return `<section class="ref-part" id="${escape(part.anchor)}" tabindex="-1"><h3>${heading}</h3>${enriched ? '<details><summary>Part names and reference details</summary>' : ''}<p>Local part path: <code>${escape(part.path.join(' / '))}</code></p>${names(part.names, part.pluralNames)}${part.aliases.length ? `<p>Aliases: ${part.aliases.map(escape).join(', ')}</p>` : ''}${knowledge(part, options)}${enriched ? '</details>' : ''}${usage}${part.parts.map(p => renderPart(p, context, options, enriched)).join('')}</section>`;
 }
 
 /** Safe document fragment; colour is presentation only, never the source of meaning. */
@@ -46,23 +48,32 @@ export function renderReferenceHtml(page: ReferencePage, options: ReferenceHtmlO
   const evidence = { ...(page.evidence ? { evidence: page.evidence } : {}),
     ...(page.observations.parameters?.length ? { observed_parameters: page.observations.parameters } : {}),
     ...(page.observations.qualifiers?.length ? { observed_qualifiers: page.observations.qualifiers } : {}) };
-  const usage = page.usage === undefined ? '' : section(`Used in ${page.usage.length} recipe${page.usage.length === 1 ? '' : 's'}`,
-    `<p>Resolved references across ${page.corpusSize} indexed recipes. Counts include declarations and explicit actions; each recipe counts once.</p>` +
+  const enriched = !!page.enrichment;
+  const usageTitle = page.usage === undefined ? '' : `Used in ${page.usage.length} recipe${page.usage.length === 1 ? '' : 's'}`;
+  const usage = page.usage === undefined ? '' : section(enriched ? 'recipes' : usageTitle,
+    (enriched ? `<p>${usageTitle}</p>` : '') +
+    (page.enrichment ? `<p>From the ${page.corpusSize} recipes shown here.</p>` : `<p>Resolved references across ${page.corpusSize} indexed recipes. Counts include declarations and explicit actions; each recipe counts once.</p>`) +
     (list(page.usage.map(r => `${link((options.recipeUrl ?? recipePath)(r.id), options.recipeLabel?.(r.id, r.name) ?? r.name)}${page.kind === 'ingredient' ? `<div class="ref-forms">${r.forms.map(f => escape([
-      (f.canonicalParts ?? f.parts).length ? `part: ${(f.canonicalParts ?? f.parts).join(' › ')}` : 'base reference', f.variant ? `variant: ${f.variant}` : ''
-    ].filter(Boolean).join(' · '))).join('; ')}</div>` : ''}`)) || '<p>No resolved uses in this corpus.</p>'));
-  return `<article class="os-reference" data-kind="${escape(page.kind)}" data-colour="${options.colour === false ? 'off' : 'on'}"><header><h1>${escape(page.name)}</h1><p>${escape(page.kind)} · canonical ID: <code>${escape(page.id)}</code>${page.status ? ` · ${escape(page.status)}` : ''}</p>${readCuration(page.curation).curation ? `<p class="os-curation"><small>Curation: ${escape(curationLabel(page.curation!))}</small></p>` : ''}${page.canonicalName && page.canonicalName !== page.name ? `<p>Canonical name: ${escape(page.canonicalName)}</p>` : ''}</header>` +
-    renderReferenceEnrichment(page) +
+      (f.canonicalParts ?? f.parts).length ? `part: ${(f.canonicalParts ?? f.parts).join(' › ')}` : enriched ? 'whole' : 'base reference', f.variant ? `variant: ${f.variant}` : ''
+    ].filter(Boolean).join(' · '))).join('; ')}</div>` : ''}`)) || (enriched ? '<p>No recipes listed yet.</p>' : '<p>No resolved uses in this corpus.</p>')), enriched);
+  const identity = `<p>${escape(page.kind)} · canonical ID: <code>${escape(page.id)}</code>${page.status ? ` · ${escape(page.status)}` : ''}</p>${readCuration(page.curation).curation ? `<p class="os-curation"><small>Curation: ${escape(curationLabel(page.curation!))}</small></p>` : ''}${page.canonicalName && page.canonicalName !== page.name ? `<p>Canonical name: ${escape(page.canonicalName)}</p>` : ''}`;
+
+  return `<article class="os-reference" data-kind="${escape(page.kind)}" data-colour="${options.colour === false ? 'off' : 'on'}"><header><h1>${escape(page.name)}</h1>${enriched ? '' : identity}</header>` +
+    renderReferenceEnrichment(page, options.heroUrl) +
+    (enriched && page.typeOf ? `<p>A kind of ${link(page.typeOf.url, page.typeOf.name)}.</p>` : '') +
+    (enriched ? section('types', list((page.types ?? []).map(t => link(t.url, t.name))), true) : '') +
+    (enriched ? '<details class="ref-record-details"><summary>Names and reference details</summary>' + identity : '') +
     (page.scope ? section('Scope', `<p>${escape(page.scope)}</p>`) : '') +
     section('Browsing categories', list((page.categories ?? []).map(c => escape(c.replaceAll('-', ' '))))) +
-    (page.typeOf ? `<p>Type of: ${link(page.typeOf.url, page.typeOf.name)}</p>` : '') +
-    section('Types', list((page.types ?? []).map(t => link(t.url, t.name)))) +
+    (!enriched && page.typeOf ? `<p>Type of: ${link(page.typeOf.url, page.typeOf.name)}</p>` : '') +
+    (enriched ? '' : section('Types', list((page.types ?? []).map(t => link(t.url, t.name))))) +
     section('States / preparations', list(Object.entries(page.states ?? {}).map(([id, state]) =>
       `<strong>${escape(id)}</strong>: ${[...new Set([...Object.values(state.names), ...(state.aliases ?? [])])].map(escape).join(' / ')}`))) +
     section('Names', names(page.names, page.pluralNames)) +
     section('Variants', list(Object.values(page.variants ?? {}).map(v => `<span class="os-syntax-specificity">${Object.values(v.names).map(escape).join(' / ')}</span>`))) +
     section('Aliases', list(page.aliases.map(a => `${escape(a.name)}${a.type ? ` · ${escape(a.type)}` : ''}${a.observed_count !== undefined ? ` · recorded observations: ${escape(String(a.observed_count))}` : ''}`))) +
-    section('Parts / Products', page.parts.length ? `<nav aria-label="Ingredient parts">${page.parts.map(p => link('#' + p.anchor, `${page.name} › ${p.name}`)).join(' · ')}</nav>${page.parts.map(p => renderPart(p, [page.name], options)).join('')}` : '') +
-    knowledge(page, options) + usage +
+    (enriched ? knowledge(page, options) + '</details>' : '') +
+    section(enriched ? 'parts' : 'Parts / Products', page.parts.length ? `<nav aria-label="Ingredient parts">${page.parts.map(p => link('#' + p.anchor, `${page.name} › ${p.name}`)).join(' · ')}</nav>${page.parts.map(p => renderPart(p, [page.name], options, enriched)).join('')}` : '', enriched) +
+    (enriched ? '' : knowledge(page, options)) + usage +
     (Object.keys(evidence).length ? `<details class="ref-evidence"><summary>Recorded vocabulary evidence</summary><p>Historical observations from YAML, not the live usage count above. Observed parameters and qualifiers are examples, not semantic signatures.</p><pre>${escape(JSON.stringify(evidence, null, 2))}</pre></details>` : '') + '</article>';
 }

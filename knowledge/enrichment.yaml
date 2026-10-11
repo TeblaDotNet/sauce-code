@@ -2,18 +2,33 @@
     kind: ingredient
     id: brown-sugar
   review_version: 0.1
+  hero:
+    asset: "references/brown-sugar.jpg"
+    title: "Brown sugar examples 1.jpg"
+    source_page: "https://commons.wikimedia.org/wiki/File:Brown_sugar_examples_1.jpg"
+    source_file: "https://upload.wikimedia.org/wikipedia/commons/0/03/Brown_sugar_examples_1.jpg"
+    creator: "Moe Rubenzahl"
+    licence: "CC BY-SA 4.0"
+    licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+    attribution_text: "Brown sugar examples 1.jpg — Moe Rubenzahl"
+    alt: "Light and dark brown sugar in separate piles."
+    reviewed_at: "2026-10-11"
+    width: 960
+    height: 720
+    changes: "Resized by Wikimedia Commons; full frame retained."
+    caption: "Light and dark brown sugar."
   editorial:
     - id: summary
       role: summary
-      text: Brown sugar adds sweetness and a molasses-associated flavour. This measurement example concerns soft
-        light or dark brown sugar, not every product sold under a brown-sugar name.
+      text: Brown sugar adds sweetness and a molasses-associated flavour. Here, brown sugar means soft
+        light or dark brown sugar; other products sold under that name can differ.
       sources:
         - domino-faq
       review_version: 0.1
     - id: sensory
       role: sensory
       text: Light soft brown sugar offers a gentler molasses character; a dark style gives a stronger flavour.
-        Choose according to the intended recipe rather than treating colour as an identity rule.
+        Choose according to the flavour wanted in the recipe.
       sources:
         - domino-faq
       review_version: 0.1
@@ -33,15 +48,15 @@
       review_version: 0.1
     - id: scope
       role: context
-      text: UK product ranges distinguish light and dark soft brown sugar from muscovado and demerara. These names
-        are not automatically exact aliases or interchangeable measurements.
+      text: UK product ranges distinguish light and dark soft brown sugar from muscovado and demerara. These sugars
+        differ; do not assume equal cup measures or identical results.
       sources:
         - billingtons-range
       review_version: 0.1
     - id: packing
       role: context
       text: For a packed measure, spoon sugar into the vessel, press down, repeat to fill, and level the top.
-        Packing is a measuring method, not a new ingredient or preparation identity; an authored gram amount
+        Packing describes how you fill the vessel; a quantity given in grams
         needs no packing conversion.
       sources:
         - ch-pack
@@ -83,6 +98,21 @@
     kind: ingredient
     id: egg
   review_version: 0.1
+  hero:
+    asset: "references/egg.jpg"
+    title: "Egg on white background.jpg"
+    source_page: "https://commons.wikimedia.org/wiki/File:Egg_on_white_background.jpg"
+    source_file: "https://upload.wikimedia.org/wikipedia/commons/6/67/Egg_on_white_background.jpg"
+    creator: "Paolo Neo"
+    licence: "Public domain"
+    licence_url: "https://commons.wikimedia.org/wiki/Template:PD-author"
+    attribution_text: "Egg on white background.jpg — Paolo Neo"
+    alt: "A whole brown chicken egg on a white background."
+    reviewed_at: "2026-10-11"
+    width: 960
+    height: 720
+    changes: "Resized by Wikimedia Commons; full frame retained."
+    caption: "A whole chicken egg."
   editorial:
     - id: summary
       role: summary
@@ -103,8 +133,8 @@
       review_version: 0.1
     - id: parts
       role: context
-      text: Yolk, white and shell remain parts of the whole egg identity. Compound egg-yolk and egg-white wording
-        uses the same canonical part targets. The shell is not part of the separated-contents culinary group.
+      text: Yolk and white are the main parts normally separated for cooking. Shell is also part of an egg,
+        but is not normally used as a culinary ingredient.
       review_version: 0.1
   resources:
     - resource: egg-emulsion
@@ -136,13 +166,27 @@
       target:
         kind: process
         id: separate
-      note: The existing separated-contents group connects yolk and white under the whole egg; shell remains outside
-        that culinary group.
+      note: Separate the yolk and white when the recipe calls for them individually.
       review_version: 0.1
 - target:
     kind: process
     id: emulsify
   review_version: 0.1
+  hero:
+    asset: "references/emulsify.jpg"
+    title: "Homemade mayonnaise.jpg"
+    source_page: "https://commons.wikimedia.org/wiki/File:Homemade_mayonnaise.jpg"
+    source_file: "https://upload.wikimedia.org/wikipedia/commons/7/79/Homemade_mayonnaise.jpg"
+    creator: "Jason Terk from Somerville, MA, US"
+    licence: "CC BY 2.0"
+    licence_url: "https://creativecommons.org/licenses/by/2.0"
+    attribution_text: "Homemade mayonnaise.jpg — Jason Terk from Somerville, MA, US"
+    alt: "A whisk surrounded by thick, pale yellow homemade mayonnaise."
+    reviewed_at: "2026-10-11"
+    width: 960
+    height: 640
+    changes: "Resized by Wikimedia Commons; full frame retained."
+    caption: "A whisk and the texture of homemade mayonnaise."
   editorial:
     - id: summary
       role: summary
@@ -183,7 +227,7 @@
     - id: neighbours
       role: near-neighbours
       text: Mixing and blending may produce emulsions but need not. Whisking can emulsify or aerate; whipping
-        commonly concerns foam. None of these action names is an identity alias for emulsify.
+        commonly concerns foam. These actions do not always produce an emulsion.
       sources:
         - aocs-emulsion
         - egg-foam
@@ -207,7 +251,7 @@
       target:
         kind: process
         id: mix
-      note: Related action, not equivalent identity.
+      note: A related action that may serve a different purpose.
       sources:
         - aocs-emulsion
       review_version: 0.1
@@ -215,7 +259,7 @@
       target:
         kind: process
         id: whisk
-      note: Related action, not equivalent identity.
+      note: A related action that may serve a different purpose.
       sources:
         - aocs-emulsion
       review_version: 0.1
@@ -223,7 +267,7 @@
       target:
         kind: process
         id: blend
-      note: Related action, not equivalent identity.
+      note: A related action that may serve a different purpose.
       sources:
         - aocs-emulsion
       review_version: 0.1
@@ -231,7 +275,7 @@
       target:
         kind: process
         id: whip
-      note: Related action, not equivalent identity.
+      note: A related action that may serve a different purpose.
       sources:
         - aocs-emulsion
       review_version: 0.1
@@ -257,6 +301,21 @@
     kind: process
     id: sear
   review_version: 0.1
+  hero:
+    asset: "references/sear.jpg"
+    title: "Searing of a Steak.jpg"
+    source_page: "https://commons.wikimedia.org/wiki/File:Searing_of_a_Steak.jpg"
+    source_file: "https://upload.wikimedia.org/wikipedia/commons/0/05/Searing_of_a_Steak.jpg"
+    creator: "Flo2323"
+    licence: "CC0"
+    licence_url: "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    attribution_text: "Searing of a Steak.jpg — Flo2323"
+    alt: "A browned steak searing over a hot grill with smoke and flame."
+    reviewed_at: "2026-10-11"
+    width: 960
+    height: 640
+    changes: "Resized by Wikimedia Commons; full frame retained."
+    caption: "One example of searing: a browned steak on a grill."
   editorial:
     - id: summary
       role: summary
@@ -303,7 +362,7 @@
       target:
         kind: process
         id: brown
-      note: Overlapping culinary context, not an exact action alias.
+      note: Related, but not the same cooking method.
       sources:
         - cia-sear
         - caramelisation
@@ -312,7 +371,7 @@
       target:
         kind: process
         id: grill
-      note: Overlapping culinary context, not an exact action alias.
+      note: Related, but not the same cooking method.
       sources:
         - cia-sear
         - caramelisation
@@ -321,7 +380,7 @@
       target:
         kind: process
         id: pan-fry
-      note: Overlapping culinary context, not an exact action alias.
+      note: Related, but not the same cooking method.
       sources:
         - cia-sear
         - caramelisation
@@ -330,7 +389,7 @@
       target:
         kind: process
         id: caramelise
-      note: Overlapping culinary context, not an exact action alias.
+      note: Related, but not the same cooking method.
       sources:
         - cia-sear
         - caramelisation
@@ -348,6 +407,21 @@
     kind: equipment
     id: chef-knife
   review_version: 0.1
+  hero:
+    asset: "references/chef-knife.jpg"
+    title: "Chef's Knife.jpg"
+    source_page: "https://commons.wikimedia.org/wiki/File:Chef%27s_Knife.jpg"
+    source_file: "https://upload.wikimedia.org/wikipedia/commons/4/4d/Chef%27s_Knife.jpg"
+    creator: "Donovan Govan"
+    licence: "CC BY-SA 3.0"
+    licence_url: "https://creativecommons.org/licenses/by-sa/3.0/"
+    attribution_text: "Chef's Knife.jpg — Donovan Govan"
+    alt: "A chef knife with a broad steel blade and black riveted handle."
+    reviewed_at: "2026-10-11"
+    width: 960
+    height: 158
+    changes: "Resized by Wikimedia Commons; full frame retained."
+    caption: "A representative chef knife."
   editorial:
     - id: summary
       role: summary
@@ -374,8 +448,8 @@
       review_version: 0.1
     - id: tasks
       role: uses
-      text: Chopping, slicing, dicing and mincing are useful learning topics. These associations are discovery
-        links, not evidence that every recipe using those actions requires a chef knife.
+      text: A chef knife can suit chopping, slicing, dicing and mincing. Choose another suitable tool
+        when the task calls for it.
       sources:
         - cia-knives
       review_version: 0.1
@@ -431,6 +505,21 @@
     kind: equipment
     id: frying-pan
   review_version: 0.1
+  hero:
+    asset: "references/frying-pan.jpg"
+    title: "Frying pan with black handle.jpg"
+    source_page: "https://commons.wikimedia.org/wiki/File:Frying_pan_with_black_handle.jpg"
+    source_file: "https://upload.wikimedia.org/wikipedia/commons/1/1b/Frying_pan_with_black_handle.jpg"
+    creator: "Lcarsdata"
+    licence: "CC BY-SA 3.0"
+    licence_url: "https://creativecommons.org/licenses/by-sa/3.0/"
+    attribution_text: "Frying pan with black handle.jpg — Lcarsdata"
+    alt: "An empty frying pan with a dark cooking surface and black handle."
+    reviewed_at: "2026-10-11"
+    width: 960
+    height: 620
+    changes: "Resized by Wikimedia Commons; full frame retained."
+    caption: "A representative frying pan."
   editorial:
     - id: summary
       role: summary
@@ -441,8 +530,8 @@
       review_version: 0.1
     - id: materials
       role: context
-      text: The existing family includes cast-iron, carbon-steel, stainless-steel and non-stick frying pans. These
-        are distinct types, not a universal substitution list. Cooking surface, construction and product
+      text: Frying pans come in cast-iron, carbon-steel, stainless-steel and non-stick designs. Their
+        cooking and care needs differ. Cooking surface, construction and product
         limits matter; no material is best for every task.
       sources:
         - allclad-care
@@ -489,7 +578,7 @@
       target:
         kind: process
         id: fry
-      note: Possible use when pan, food and method are suitable; not a mandatory dependency.
+      note: Use when the pan suits the food and method.
       sources:
         - allclad-care
         - cia-sear
@@ -498,7 +587,7 @@
       target:
         kind: process
         id: shallow-fry
-      note: Possible use when pan, food and method are suitable; not a mandatory dependency.
+      note: Use when the pan suits the food and method.
       sources:
         - allclad-care
         - cia-sear
@@ -507,7 +596,7 @@
       target:
         kind: process
         id: saute
-      note: Possible use when pan, food and method are suitable; not a mandatory dependency.
+      note: Use when the pan suits the food and method.
       sources:
         - allclad-care
         - cia-sear
@@ -516,7 +605,7 @@
       target:
         kind: process
         id: sear
-      note: Possible use when pan, food and method are suitable; not a mandatory dependency.
+      note: Use when the pan suits the food and method.
       sources:
         - allclad-care
         - cia-sear

@@ -74,7 +74,7 @@ test('egg and lemon parts have stable anchors and exact distinct-recipe backlink
   assert.equal(partAnchor(['thigh', 'skin']), 'part-thigh/skin');
   assert.match(renderHtml(corpus[1].recipe, {referenceUrl: recipeReferenceUrl}), /href="\/reference\/ingredient\/lemon#part-juice"/);
   const html = renderReferenceHtml(egg, {recipeUrl: id => `/recipes/${id}/`});
-  assert.match(html, /Parts \/ Products/);
+  assert.match(html, /<h2 class="ref-section-heading">::parts<\/h2>/);
   const yolkSection = html.split('id="part-yolk"')[1].split('</section>')[0];
   assert.match(yolkSection, /href="\/recipes\/yolk\/"/);
   assert.doesNotMatch(yolkSection, /href="\/recipes\/context\/"/);

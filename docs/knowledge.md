@@ -90,3 +90,17 @@ The pure convertIngredientMeasurement helper accepts validated observations and 
 The brown-sugar observation retains the published 213 g per packed cup, but has no value or source_volume_ml and remains conversion-ineligible. No 236.6/240/250 mL assumption is made. Other conditions or product scopes receive no inferred density. Provisional evidence renders distinctly from eligible observations; eligible does not mean every recipe request is applicable.
 
 Nutrition, dietary guarantees, automatic substitution, full translation/taxonomy, commerce, thermal modelling, process execution and global Reading settings UI remain deferred. Core reference projection and escaped HTML expose the new content without modifying the sibling site or inferring usage from associations.
+
+Reference enrichment may optionally include `hero` metadata: a local `references/` asset,
+source page/file, creator, licence and licence URL, attribution, alt text, dimensions,
+review date and derivative changes. Images never determine publication eligibility.
+The host supplies `heroUrl` when rendering and copies the corresponding asset locally;
+without that callback the image is omitted. Image selection evidence and separate
+third-party terms live in `assets/references/`. Image review dates do not promote
+culinary content maturity.
+
+Enriched reference pages show the page review version in a banner, retaining field
+versions in data and displaying them only when different or inside provenance.
+The `::` section labels are presentation, not recipe grammar. Image credits,
+measurement evidence and source-check scope remain available in expandable details;
+canonical identity metadata and part anchors are retained.
