@@ -488,6 +488,10 @@ Most of this metadata is optional. A minimal recipe remains valid without catego
 
 Dietary labels are author-supplied guidance, not a guarantee of suitability. Ingredients and product labels still need checking.
 
+### Optional authoring locale
+
+Within `::recipe`, `locale: en-GB` (or another valid language tag such as en-US) declares the locale used to interpret ingredient names. It is optional and does not change token grammar or authored wording. The model retains it independently of reader presentation preferences. Invalid or duplicate declarations warn and are not applied. See [ingredient naming and identity](docs/knowledge.md#ingredient-naming-authoring-locale-and-identity) for exact-name scoping and compatibility rules.
+
 ## Original source preservation
 
 Imported recipes can retain the original source text verbatim:

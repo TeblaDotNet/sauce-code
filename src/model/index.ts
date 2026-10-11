@@ -56,6 +56,8 @@ export type Node = Statement | Group | Metadata | Prose;
 export interface OriginalSourcePayload { text: string; span: Span; closed: boolean }
 export interface Section { name: string; span: Span; comment?: string; children: Node[]; originalSource?: OriginalSourcePayload }
 export interface Recipe {
+  /** Authored interpretation locale; never a reader display preference. */
+  locale?: string;
   /** Optional classification; raw metadata nodes and source remain unchanged. */
   category?: import('../classification.ts').RecipeCategory;
   dietary?: string[];

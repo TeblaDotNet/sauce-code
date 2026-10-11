@@ -736,7 +736,7 @@ entries:
 - id: self-raising-flour
   canonical_name: self-raising flour
   file: self-raising-flour.yaml
-  aliases: 1
+  aliases: 2
 - id: lemon-peel
   canonical_name: lemon peel
   file: lemon-peel.yaml

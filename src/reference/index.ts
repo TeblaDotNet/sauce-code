@@ -71,6 +71,9 @@ export interface ReferencePart extends ReferenceKnowledge {
 export interface ReferenceKnowledge extends QuantitativeKnowledge { parts: ReferencePart[]; groups: ReferenceGroup[] }
 export interface ReferenceRelation { id: string; name: string; url?: string }
 export interface ReferencePage extends ReferenceKnowledge {
+  exactNames?: VocabularyEntry['exact_names'];
+  regionalMappings?: VocabularyEntry['regional_mappings'];
+  canonicalTarget?: VocabularyEntry['canonical_target'];
   states?: VocabularyEntry['states'];
   scope?: string;
   categories?: VocabularyEntry['categories'];
@@ -80,7 +83,7 @@ export interface ReferencePage extends ReferenceKnowledge {
   curation?: import('../curation.ts').Curation;
   id: string; kind: ReferenceKind; name: string; canonicalName?: string;
   names: Record<string, string>; pluralNames?: Record<string, string>;
-  aliases: { name: string; type?: string; observed_count?: number }[];
+  aliases: { name: string; type?: string; observed_count?: number; warning?: string }[];
   status?: string; evidence?: Record<string, unknown>;
   observations: { parameters?: VocabularyEntry['observed_parameters']; qualifiers?: VocabularyEntry['observed_qualifiers'] };
   /** Undefined means no index was supplied; an empty array means indexed, with no resolved uses. */
@@ -94,7 +97,13 @@ export function createReferencePage(vocabulary: Vocabulary, kind: ReferenceKind,
   if (matches.length !== 1) return undefined;
   const entry = matches[0];
   if (entry.reference === false) return undefined;
-  const conceptUsage = usage ? usage.concepts[key(kind, id)] ?? [] : undefined;
+  const canonical = entry.canonical_target;
+  const conceptUsage = usage ? canonical
+    ? (usage.concepts[key(kind, canonical.ingredient)] ?? []).flatMap(r => {
+        const forms = r.forms.filter(f => JSON.stringify(f.canonicalParts) === JSON.stringify(canonical.parts));
+        return forms.length ? [{ ...r, forms }] : [];
+      })
+    : usage.concepts[key(kind, id)] ?? [] : undefined;
   const relation = (e: VocabularyEntry): ReferenceRelation => ({ id: e.id,
     name: displayName(e.names, e.canonical_name ?? e.id), url: e.reference === false ? undefined : (options.referenceUrl ?? referencePath)(e.kind, e.id) });
   const parent = entry.type_of ? vocabulary.entries.find(e => e.kind === kind && e.id === entry.type_of) : undefined;
@@ -116,6 +125,7 @@ export function createReferencePage(vocabulary: Vocabulary, kind: ReferenceKind,
     })
   });
   return structuredClone({ ...knowledge(entry, []), id, kind, name: displayName(entry.names, entry.canonical_name ?? id),
+    exactNames: entry.exact_names, regionalMappings: entry.regional_mappings, canonicalTarget: entry.canonical_target,
     states: entry.states, scope: entry.scope, categories: entry.categories,
     typeOf: parent ? relation(parent) : undefined,
     types: kind === 'ingredient' || kind === 'equipment' ? vocabulary.entries.filter(e => e.kind === kind && e.type_of === id)

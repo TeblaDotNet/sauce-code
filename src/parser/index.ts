@@ -1,3 +1,4 @@
+import { validLocale } from '../vocabulary/localisation.ts';
 import { semanticTokens } from '../model/index.ts';
 import type { Diagnostic, Group, Node, Recipe, Section, Span, Statement, Token } from '../model/index.ts';
 import type { Vocabulary } from '../vocabulary/index.ts';
@@ -275,6 +276,12 @@ export function parseRecipe(source: string, options: ParseOptions = {}): Recipe 
   }
   recipe.sections.forEach(s => validateAlternatives(s.children));
 
+  const locales = recipe.sections.filter(s => s.name === 'recipe').flatMap(s => s.children)
+    .filter(n => n.kind === 'metadata' && n.key === 'locale');
+  if (locales.length === 1 && locales[0].kind === 'metadata' && validLocale(locales[0].value.trim()))
+    recipe.locale = locales[0].value.trim();
+  else for (const node of locales) report('warning', 'INVALID_LOCALE', 'Expected one valid authoring locale; wording retained and locale not applied.', node.span);
+
   const declarations = new Map<string, { token: Token; node: Statement; kind: 'ingredient' | 'equipment' | 'choice' }[]>();
   const visit = (nodes: Node[], fn: (s: Statement) => void): void => {
     for (const n of nodes) {
@@ -295,7 +302,7 @@ export function parseRecipe(source: string, options: ParseOptions = {}): Recipe 
     });
   }
   const ingredientTarget = (t: Token) => {
-    const targets = options.vocabulary?.resolveIngredient(t.name!, t.variant, t.parts) ?? [];
+    const targets = options.vocabulary?.resolveIngredient(t.name!, t.variant, t.parts, recipe.locale) ?? [];
     return targets.length === 1 ? targets[0] : undefined;
   };
   const results = new Set<string>();
@@ -381,13 +388,15 @@ export function parseRecipe(source: string, options: ParseOptions = {}): Recipe 
       const kind = t.kind === 'process' ? 'process' : t.thingKind === 'equipment' ? 'equipment' : t.thingKind === 'ingredient' ? 'ingredient' : undefined;
       if (kind && options.vocabulary) {
         const targets = kind === 'ingredient'
-          ? (inheritedIngredientTarget ? [inheritedIngredientTarget] : options.vocabulary.resolveIngredient(t.name!, t.variant, t.parts))
+          ? (inheritedIngredientTarget ? [inheritedIngredientTarget] : options.vocabulary.resolveIngredient(t.name!, t.variant, t.parts, recipe.locale))
           : options.vocabulary.resolve(t.name!, kind).map(entry => ({ entry, partResolution: undefined }));
         if (targets.length === 1) {
           t.canonicalId = targets[0].entry.id;
           if (targets[0].entry.reference === false) t.reference = false;
           if (targets[0].partResolution) t.partResolution = targets[0].partResolution;
           const target = targets[0];
+          if ('warnings' in target) for (const warning of target.warnings ?? [])
+            report('warning', 'INGREDIENT_COMPATIBILITY', warning, t.span);
           // Whole ingredients only; an unresolved local variant has no explicit state scope.
           if (kind === 'ingredient' && !t.partResolution && !('variant' in target && target.variant)) {
             const states: NonNullable<Token['stateResolution']> = [];

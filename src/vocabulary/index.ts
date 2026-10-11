@@ -1,3 +1,6 @@
+import { matchesLocale, validateNames } from './localisation.ts';
+import type { ExactIngredientName, RegionalMapping, CanonicalIngredientTarget } from './localisation.ts';
+export * from './localisation.ts';
 import { validateIngredientKnowledge } from './knowledge.ts';
 import { readCuration } from '../curation.ts';
 import type { Curation } from '../curation.ts';
@@ -7,6 +10,10 @@ export const processCategories = ['mixing-and-emulsifying', 'coating-and-breadin
 export type ProcessCategory = typeof processCategories[number];
 export interface IngredientState { names: Record<string, string>; aliases?: string[] }
 export interface VocabularyEntry extends IngredientKnowledge {
+  exact_names?: ExactIngredientName[];
+  regional_mappings?: RegionalMapping[];
+  /** Legacy identity delegates to a single existing nested part. No chains. */
+  canonical_target?: CanonicalIngredientTarget;
   /** Explicit local states of this whole ingredient/type; never inherited. */
   states?: Record<string, IngredientState>;
   /** Process-only editorial scope and browsing categories; never resolution or inheritance. */
@@ -21,7 +28,7 @@ export interface VocabularyEntry extends IngredientKnowledge {
   canonical_name?: string;
   names: Record<string, string>;
   plural_names?: Record<string, string>;
-  aliases?: (string | { name: string; type?: string; observed_count?: number })[];
+  aliases?: (string | { name: string; type?: string; observed_count?: number; warning?: string })[];
   /** Recorded editorial/observation metadata, not live usage or resolution rules. */
   status?: string;
   evidence?: Record<string, unknown>;
@@ -34,6 +41,7 @@ export interface IngredientTarget {
   parts: string[];
   variant?: string;
   compatibility: boolean;
+  warnings?: string[];
   partResolution?: { ids: string[]; complete: boolean };
 }
 /** Multiple matches are returned, never resolved by insertion order. */
@@ -54,6 +62,12 @@ export class Vocabulary {
       if (entry.categories !== undefined && (entry.kind !== 'process' || !Array.isArray(entry.categories) ||
           entry.categories.some(c => !processCategories.includes(c)) || new Set(entry.categories).size !== entry.categories.length))
         throw new Error('Invalid process categories on ' + entry.id);
+      for (const field of ['exact_names', 'regional_mappings', 'canonical_target'] as const)
+        if (entry[field] !== undefined && entry.kind !== 'ingredient') throw new Error('Ingredient localisation on non-ingredient: ' + entry.id);
+      if (entry.exact_names !== undefined) validateNames(entry.exact_names);
+      if (entry.regional_mappings !== undefined) validateNames(entry.regional_mappings, true);
+      for (const alias of entry.aliases ?? []) if (typeof alias !== 'string' && alias.warning !== undefined &&
+        (entry.kind !== 'ingredient' || typeof alias.warning !== 'string' || !alias.warning.trim())) throw new Error('Invalid alias warning');
       validateIngredientKnowledge(entry, entry.id);
       if (entry.kind !== 'ingredient' && ['states', 'variants', 'parts', 'part_groups', 'typical_mass', 'reference_density', 'nutrition'].some(k => Object.hasOwn(entry, k)))
         throw new Error(`Ingredient knowledge on non-ingredient: ${entry.id}`);
@@ -71,6 +85,20 @@ export class Vocabulary {
       }
     }
     this.entries = entries;
+    for (const entry of entries) {
+      for (const mapping of entry.regional_mappings ?? []) if (mapping.target !== undefined &&
+        entries.filter(e => e.kind === 'ingredient' && e.id === mapping.target).length !== 1)
+        throw new Error('Invalid regional mapping target on ' + entry.id);
+      const target = entry.canonical_target;
+      if (target !== undefined) {
+        if (!target || typeof target.ingredient !== 'string' || !Array.isArray(target.parts) || !target.parts.length ||
+            target.parts.some(p => typeof p !== 'string' || !p.trim())) throw new Error('Invalid canonical_target on ' + entry.id);
+        const bases = entries.filter(e => e.kind === 'ingredient' && e.id === target.ingredient);
+        const path = this.resolvePartPath(target.ingredient, target.parts);
+        if (bases.length !== 1 || bases[0] === entry || bases[0].canonical_target || !path.complete ||
+            path.ids.some((id, i) => id !== target.parts[i])) throw new Error('Invalid canonical_target on ' + entry.id);
+      }
+    }
     for (const entry of entries) {
       if ('lexical_names' in entry) throw new Error('lexical_names belongs on an ingredient part');
       for (const variant of Object.values(entry.variants ?? {})) if (variant.canonical_id !== undefined) {
@@ -108,10 +136,10 @@ export class Vocabulary {
     return { ids, parts, complete: entries.length === 1 && ids.length === terms.length };
   }
   /** Resolve full compound names and explicitly promoted variants without rewriting source. */
-  resolveIngredient(name: string, variant?: string, parts: readonly string[] = []): IngredientTarget[] {
+  resolveIngredient(name: string, variant?: string, parts: readonly string[] = [], locale?: string): IngredientTarget[] {
     const norm = (s: string) => s.trim().toLowerCase();
     const lexical = this.partLexemes.get(norm(name));
-    const bases = lexical ? [lexical.entry] : this.resolve(name, 'ingredient');
+    const bases = lexical ? [lexical.entry] : this.resolve(name, 'ingredient', locale);
     return bases.flatMap(base => {
       const variants = variant && !lexical ? Object.entries(base.variants ?? {}).filter(([id, v]) =>
         [id, ...Object.values(v.names), ...(v.aliases ?? [])].some(n => norm(n) === norm(variant))) : [];
@@ -121,10 +149,14 @@ export class Vocabulary {
         promoted: !!v.canonical_id
       })) : [{ entry: base, promoted: false }];
       return targets.map(({entry, promoted}) => {
-        const effective = [...(lexical?.parts ?? []), ...parts];
+        const canonical = entry.canonical_target;
+        if (canonical) entry = this.entries.find(e => e.kind === 'ingredient' && e.id === canonical.ingredient)!;
+        const effective = [...(canonical?.parts ?? lexical?.parts ?? []), ...parts];
+        const warnings = (base.aliases ?? []).flatMap(a => typeof a !== 'string' && a.warning && norm(a.name) === norm(name) ? [a.warning] : []);
         const resolved = effective.length ? this.resolvePartPath(entry.id, effective) : undefined;
         return { entry, parts: resolved?.complete ? resolved.ids : effective,
-          variant: promoted ? undefined : variant, compatibility: !!lexical || promoted,
+          variant: promoted ? undefined : variant, compatibility: !!lexical || promoted || !!canonical,
+          ...(warnings.length ? {warnings} : {}),
           partResolution: resolved ? { ids: resolved.ids, complete: resolved.complete } : undefined };
       });
     });
@@ -143,10 +175,11 @@ export class Vocabulary {
     const scope = parentParts.length ? resolved.parts.at(-1) : this.entries.find(e => e.kind === 'ingredient' && e.id === baseId);
     return Object.entries(scope?.part_groups ?? {}).map(([id, group]) => ({ id, group }));
   }
-  resolve(term: string, kind: VocabularyEntry['kind']): VocabularyEntry[] {
+  resolve(term: string, kind: VocabularyEntry['kind'], locale?: string): VocabularyEntry[] {
     const key = term.trim().toLowerCase();
     return this.entries.filter(e => e.kind === kind &&
       [e.id, e.canonical_name ?? '', ...Object.values(e.names), ...Object.values(e.plural_names ?? {}),
-        ...(e.aliases ?? []).map(a => typeof a === 'string' ? a : a.name)].some(n => n.toLowerCase() === key));
+        ...(e.aliases ?? []).map(a => typeof a === 'string' ? a : a.name),
+        ...(e.exact_names ?? []).filter(n => matchesLocale(n.locale, locale)).map(n => n.name.trim())].some(n => n.toLowerCase() === key));
   }
 }

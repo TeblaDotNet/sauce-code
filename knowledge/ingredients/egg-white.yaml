@@ -1,5 +1,8 @@
 id: egg-white
 kind: ingredient
+canonical_target:
+  ingredient: egg
+  parts: [white]
 canonical_name: egg white
 names:
   en: egg white

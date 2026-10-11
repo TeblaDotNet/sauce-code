@@ -1,5 +1,9 @@
 id: icing-sugar
 kind: ingredient
+exact_names:
+  - name: powdered sugar
+    locale: en-US
+    scope: Exact regional culinary name.
 canonical_name: icing sugar
 names:
   en: icing sugar

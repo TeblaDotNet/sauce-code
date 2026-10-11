@@ -1,5 +1,8 @@
 id: egg-yolk
 kind: ingredient
+canonical_target:
+  ingredient: egg
+  parts: [yolk]
 canonical_name: egg yolk
 names:
   en: egg yolk
