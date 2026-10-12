@@ -3285,21 +3285,32 @@
   editorial:
     - id: summary
       role: summary
-      text: Straining is passing a mixture through a perforated or mesh barrier to separate liquid from larger
-        solids.
+      text: Straining is passing a mixture through a perforated or mesh barrier to
+        separate liquid from larger solids.
       sources:
         - cia-stock
       review_version: 0.1
     - id: uses
       role: uses
-      text: For stock, strain the cooked liquid away from the bones and vegetables. Choose a finer barrier when
-        smaller particles need to be held back.
+      text: For stock, strain the cooked liquid away from the bones and vegetables.
+        Choose a finer barrier when smaller particles need to be held back.
       sources:
         - cia-stock
+      review_version: 0.1
+    - id: cocktail-context
+      role: context
+      text: In bar service, a primary strainer retains mixing ice. Fine straining adds
+        a mesh stage when the spec calls for smaller fragments to be removed.
+      sources:
+        - cf-fine-strain
       review_version: 0.1
   resources:
     - resource: cia-stock
       role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: cf-fine-strain
+      role: specialist-reference
       order: 1
       review_version: 0.1
 - target:
@@ -6479,9 +6490,21 @@
       sources:
         - clubhouse-cooking-terms
       review_version: 0.1
+    - id: cocktail-context
+      role: uses
+      text: For drinks such as the Dry Martini, stir the measured ingredients with ice
+        in a mixing glass, then strain into the serving glass. The vessel and
+        strainer are equipment choices, not new meanings of stir.
+      sources:
+        - cf-martini
+      review_version: 0.1
   resources:
     - resource: clubhouse-cooking-terms
       role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: cf-martini
+      role: specialist-reference
       order: 1
       review_version: 0.1
 - target:
@@ -7535,25 +7558,41 @@
   editorial:
     - id: summary
       role: summary
-      text: A Boston shaker is a two-piece cocktail shaker formed by fitting a large tin over a smaller tin or mixing glass. It is used to shake drinks with ice before straining them.
+      text: A Boston shaker is a two-piece cocktail shaker formed by fitting a large
+        tin over a smaller tin or mixing glass. It is used to shake drinks with
+        ice before straining them.
       sources:
         - difford-two-piece
       review_version: 0.1
     - id: mechanism
       role: mechanism
-      text: The fitted pieces form a temporary seal. Hold both securely while shaking, then release the seal before pouring through a separate strainer.
+      text: The fitted pieces form a temporary seal. Hold both securely while shaking,
+        then release the seal before pouring through a separate strainer.
       sources:
         - difford-two-piece
       review_version: 0.1
     - id: judgement
       role: judgement
-      text: Opening the seal takes practice. Inspect glass components for damage and use pieces intended to fit together.
+      text: Opening the seal takes practice. Inspect glass components for damage and
+        use pieces intended to fit together.
       sources:
         - difford-two-piece
+      review_version: 0.1
+    - id: cocktail-context
+      role: uses
+      text: The two fitted vessels are separated after shaking so the drink can be
+        poured through the appropriate strainer. They share the general
+        cocktail-shaker identity hierarchy.
+      sources:
+        - difford-bar-kit
       review_version: 0.1
   resources:
     - resource: difford-two-piece
       role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: difford-bar-kit
+      role: specialist-reference
       order: 1
       review_version: 0.1
 - target:
@@ -7563,19 +7602,33 @@
   editorial:
     - id: summary
       role: summary
-      text: A cocktail shaker is a closable vessel for mixing drinks by shaking. It is used to combine, chill and dilute cocktail ingredients with ice.
+      text: A cocktail shaker is a closable vessel for mixing drinks by shaking. It is
+        used to combine, chill and dilute cocktail ingredients with ice.
       sources:
         - difford-two-piece
       review_version: 0.1
     - id: selection
       role: selection
-      text: Two-piece shakers need a separate strainer. Three-piece cobbler shakers include a straining section and cap; their assembly differs from a Boston shaker.
+      text: Two-piece shakers need a separate strainer. Three-piece cobbler shakers
+        include a straining section and cap; their assembly differs from a
+        Boston shaker.
       sources:
         - difford-two-piece
+      review_version: 0.1
+    - id: cocktail-context
+      role: uses
+      text: Use the vessel to contain ingredients and ice during shaking. Select a
+        compatible strainer; a fine-mesh stage is an additional method choice.
+      sources:
+        - difford-bar-kit
       review_version: 0.1
   resources:
     - resource: difford-two-piece
       role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: difford-bar-kit
+      role: specialist-reference
       order: 1
       review_version: 0.1
 - target:
@@ -7641,19 +7694,35 @@
   editorial:
     - id: summary
       role: summary
-      text: A mesh strainer is a supported mesh bowl or screen through which liquid or fine particles can pass. It is used to strain liquids, rinse small foods and sift dry ingredients.
+      text: A mesh strainer is a supported mesh bowl or screen through which liquid or
+        fine particles can pass. It is used to strain liquids, rinse small foods
+        and sift dry ingredients.
       sources:
         - oxo-sieve
       review_version: 0.1
     - id: selection
       role: selection
-      text: Mesh fineness determines what is retained. Choose a size that holds the food securely over the receiving bowl, and clean trapped particles from the mesh after use.
+      text: Mesh fineness determines what is retained. Choose a size that holds the
+        food securely over the receiving bowl, and clean trapped particles from
+        the mesh after use.
       sources:
         - oxo-sieve
+      review_version: 0.1
+    - id: cocktail-context
+      role: context
+      text: In cocktail service, fine mesh can catch small ice and ingredient
+        fragments after the primary strainer. A fine strainer remains this
+        shared tool, not a duplicate bar-only identity.
+      sources:
+        - cf-fine-strain
       review_version: 0.1
   resources:
     - resource: oxo-sieve
       role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: cf-fine-strain
+      role: specialist-reference
       order: 1
       review_version: 0.1
 - target:
@@ -9569,7 +9638,8 @@
   editorial:
     - id: summary
       role: summary
-      text: Shaking is moving a closed vessel briskly back and forth to mix its contents.
+      text: Shaking is moving a closed vessel briskly back and forth to mix its
+        contents.
       sources:
         - difford-two-piece
       review_version: 0.1
@@ -9581,13 +9651,26 @@
       review_version: 0.1
     - id: care
       role: care
-      text: Secure the shaker before moving it and keep a firm hold on both parts. Use equipment intended for the mixture being shaken.
+      text: Secure the shaker before moving it and keep a firm hold on both parts. Use
+        equipment intended for the mixture being shaken.
       sources:
         - difford-two-piece
+      review_version: 0.1
+    - id: cocktail-context
+      role: context
+      text: Bar shaking mixes a drink with ice; a separately authored dry shake omits
+        ice for that stage. Preserve the sequence rather than treating all
+        shaking instructions as identical.
+      sources:
+        - difford-bar-kit
       review_version: 0.1
   resources:
     - resource: difford-two-piece
       role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: difford-bar-kit
+      role: specialist-reference
       order: 1
       review_version: 0.1
 - target:
@@ -10120,19 +10203,34 @@
   editorial:
     - id: summary
       role: summary
-      text: A Hawthorne strainer is a bar strainer with a spring around its edge. It holds back ice and larger particles while a mixed drink is poured from a shaker.
+      text: A Hawthorne strainer is a bar strainer with a spring around its edge. It
+        holds back ice and larger particles while a mixed drink is poured from a
+        shaker.
       sources:
         - difford-bar-kit
       review_version: 0.1
     - id: judgement
       role: judgement
-      text: A fine strainer can catch smaller fragments that pass through. The two tools do not have identical filtering action.
+      text: A fine strainer can catch smaller fragments that pass through. The two
+        tools do not have identical filtering action.
       sources:
         - difford-bar-kit
+      review_version: 0.1
+    - id: cocktail-context
+      role: uses
+      text: A primary bar strainer holds back larger ice during pouring; use an
+        additional mesh strainer when the method explicitly calls for fine
+        straining.
+      sources:
+        - cf-fine-strain
       review_version: 0.1
   resources:
     - resource: difford-bar-kit
       role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: cf-fine-strain
+      role: specialist-reference
       order: 1
       review_version: 0.1
 - target:
@@ -10810,4 +10908,704 @@
     - resource: gbc-blowtorch
       role: introduction
       order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: gin
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Gin is a distilled spirit whose defining botanical flavour is juniper. It
+        provides an aromatic base for Martinis, Negronis, highballs and sours.
+      sources: &a1
+        - cf-gin
+        - cf-old-tom
+        - cf-martini
+        - cf-wset
+        - cf-london-dry
+      review_version: 0.1
+    - id: types
+      role: types
+      text: London dry and Old Tom describe styles, not individual bottles. Old Tom is
+        commonly sweeter, though interpretations vary. Contemporary botanical
+        emphasis is descriptive rather than one uniform specification. Plymouth
+        and genever need their own historical and production context; they are
+        not automatic synonyms for London dry.
+      sources: *a1
+      review_version: 0.1
+    - id: sensory
+      role: sensory
+      text: Juniper supplies the central character; the accompanying botanicals change
+        the balance of citrus, spice and herbal aromas.
+      sources: *a1
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: In a Martini, the gin and vermouth remain readily apparent. Record the
+        requested style as well as any named bottle so another reader can
+        understand that choice.
+      sources: *a1
+      review_version: 0.1
+    - id: brands
+      role: brands
+      text: Tanqueray describes its London dry gin through juniper, coriander,
+        angelica and liquorice. This is a formulation example, not a ranking.
+        Products within the gin category can differ materially in flavour
+        profile; a bottle name alone establishes neither interchangeability nor
+        an exact requirement.
+      sources:
+        - cf-tanqueray
+      review_version: 0.1
+    - id: context
+      role: context
+      text: Keep a source’s named style separate from its product selection. A modern
+        botanical-led gin is not silently interchangeable with an expressly
+        requested London dry.
+      sources: *a1
+      review_version: 0.1
+  resources:
+    - resource: cf-gin
+      role: introduction
+      order: 0
+      review_version: 0.1
+    - resource: cf-old-tom
+      role: specialist-reference
+      order: 1
+      review_version: 0.1
+    - resource: cf-martini
+      role: specialist-reference
+      order: 2
+      review_version: 0.1
+    - resource: cf-wset
+      role: specialist-reference
+      order: 3
+      review_version: 0.1
+    - resource: cf-tanqueray
+      role: specialist-reference
+      order: 4
+      review_version: 0.1
+    - resource: cf-london-dry
+      role: specialist-reference
+      order: 5
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: vodka
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Vodka is a distilled spirit generally made for a comparatively restrained
+        flavour profile. It supplies the spirit base in drinks such as the
+        Moscow Mule and Espresso Martini.
+      sources: &a1
+        - cf-vodka
+        - cf-martini
+        - cf-wset
+      review_version: 0.1
+    - id: types
+      role: types
+      text: Unflavoured vodka and flavoured products have different roles. A named
+        flavour is not implied by the plain ingredient name.
+      sources: *a1
+      review_version: 0.1
+    - id: sensory
+      role: sensory
+      text: Restrained flavour does not mean every bottle is identical; the raw
+        material and production choices still matter.
+      sources: *a1
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: Preserve the source quantity and named product, if any. Do not silently
+        substitute a flavoured bottle in a spec calling simply for vodka.
+      sources: *a1
+      review_version: 0.1
+    - id: context
+      role: context
+      text: Absolut describes its own vodka as wheat-based. That producer-specific
+        fact must not become a claim about every vodka.
+      sources: *a1
+      review_version: 0.1
+  resources:
+    - resource: cf-vodka
+      role: introduction
+      order: 0
+      review_version: 0.1
+    - resource: cf-martini
+      role: specialist-reference
+      order: 1
+      review_version: 0.1
+    - resource: cf-wset
+      role: specialist-reference
+      order: 2
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: rum
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Rum is a spirit distilled from fermented sugar-cane material. It supplies
+        the base and aromatic character in Daiquiris, highballs and many tiki
+        drinks.
+      sources: &a1
+        - cf-rum
+        - cf-rum-assess
+        - cf-wset
+      review_version: 0.1
+    - id: types
+      role: types
+      text: White, gold and dark are useful bottle descriptions, but colour alone does
+        not establish production method or interchangeability. Regional and
+        production descriptors in a spec should remain explicit.
+      sources: *a1
+      review_version: 0.1
+    - id: sensory
+      role: sensory
+      text: Fermentation can contribute fruit-like aromas, while wood ageing can add
+        vanilla, toast and tannin. Added sweetness can also change the apparent
+        body.
+      sources: *a1
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: A multi-rum formula may rely on contrasting components. Keep those lines
+        separate instead of combining their quantities into one generic rum
+        measure.
+      sources: *a1
+      review_version: 0.1
+    - id: context
+      role: context
+      text: "The IBA Mai Tai specifies Martinique molasses rum: do not automatically
+        rewrite that as agricole. A product’s colour is not enough evidence to
+        infer its age or expression."
+      sources: *a1
+      review_version: 0.1
+  resources:
+    - resource: cf-rum
+      role: introduction
+      order: 0
+      review_version: 0.1
+    - resource: cf-rum-assess
+      role: specialist-reference
+      order: 1
+      review_version: 0.1
+    - resource: cf-wset
+      role: specialist-reference
+      order: 2
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: rye-whiskey
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Rye whiskey is a grain spirit identified with rye in its production and
+        character. It is used in Manhattans, Sazeracs and other whiskey-led
+        cocktails.
+      sources: &a1
+        - cf-rye
+        - cf-manhattan
+        - cf-wset
+      review_version: 0.1
+    - id: types
+      role: types
+      text: Retain a source’s straight, proof or regional wording rather than treating
+        all rye-labelled whiskey as one identical formulation.
+      sources: *a1
+      review_version: 0.1
+    - id: sensory
+      role: sensory
+      text: The grain character, ageing and bottling strength influence how the
+        whiskey combines with sweeteners and bitters.
+      sources: *a1
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: The IBA Manhattan specifies rye with sweet red vermouth and bitters. Where
+        a source instead permits bourbon or rye, write the alternatives
+        explicitly.
+      sources: *a1
+      review_version: 0.1
+    - id: context
+      role: context
+      text: A higher-proof rye changes the initial alcohol concentration. Preserve a
+        source’s proof or alcohol-by-volume qualifier without inventing a
+        conversion or substitute.
+      sources: *a1
+      review_version: 0.1
+  resources:
+    - resource: cf-rye
+      role: introduction
+      order: 0
+      review_version: 0.1
+    - resource: cf-manhattan
+      role: specialist-reference
+      order: 1
+      review_version: 0.1
+    - resource: cf-wset
+      role: specialist-reference
+      order: 2
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: vermouth
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Vermouth is an aromatised wine flavoured with botanicals. It supplies wine
+        character, sweetness and herbal complexity in Martinis, Manhattans and
+        aperitif drinks.
+      sources: &a5
+        - cf-vermouth
+        - cf-martini
+        - cf-manhattan
+      review_version: 0.1
+    - id: types
+      role: types
+      text: "Dry, sweet red and blanc are useful distinctions. White colour alone does
+        not mean dry: a blanc vermouth can occupy a sweeter role. Keep the
+        source’s style explicit."
+      sources: *a5
+      review_version: 0.1
+    - id: sensory
+      role: sensory
+      text: Wine and botanicals contribute aroma alongside the product’s sweetness.
+        These characteristics affect a drink even when vermouth is the smaller
+        measure.
+      sources: *a5
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: Dry Martini and Manhattan formulas illustrate different vermouth roles.
+        Replacing dry with sweet red changes the formula rather than merely
+        changing the bottle.
+      sources: *a5
+      review_version: 0.1
+    - id: brands
+      role: brands
+      text: Dolin produces distinct dry, blanc and rouge vermouths. A producer name
+        alone is therefore insufficient to identify the expression. Named
+        products are examples, not a ranked list or a promise of
+        interchangeability.
+      sources: *a5
+      review_version: 0.1
+    - id: context
+      role: context
+      text: Lillet Blanc is not silently classified as vermouth here. An aperitif wine
+        label and vermouth are not interchangeable identity claims.
+      sources: *a5
+      review_version: 0.1
+  resources:
+    - resource: cf-vermouth
+      role: introduction
+      order: 0
+      review_version: 0.1
+    - resource: cf-martini
+      role: specialist-reference
+      order: 1
+      review_version: 0.1
+    - resource: cf-manhattan
+      role: specialist-reference
+      order: 2
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: simple-syrup
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Simple syrup is sugar dissolved in water to make a pourable sweetener. It
+        sweetens cocktails without requiring crystals to dissolve in the
+        finished drink.
+      sources: &a6
+        - cf-syrup
+      review_version: 0.1
+    - id: types
+      role: types
+      text: One-to-one and rich two-to-one syrups differ in concentration. Record
+        whether a stated ratio is by mass or volume when the source supplies
+        that information; the two methods are not equivalent.
+      sources: *a6
+      review_version: 0.1
+    - id: sensory
+      role: sensory
+      text: The sugar choice can contribute flavour as well as sweetness. A darker
+        sugar syrup is not merely a colour change.
+      sources: *a6
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: Use the source’s stated concentration and quantity together. Twice the
+        sugar-to-water ratio does not mean twice the sweetness per unit of
+        finished syrup.
+      sources: *a6
+      review_version: 0.1
+    - id: context
+      role: context
+      text: This entry also covers the ordinary name sugar syrup, with concentration
+        left to the recipe. An unspecified syrup must not acquire an invented
+        1:1 ratio.
+      sources: *a6
+      review_version: 0.1
+  resources:
+    - resource: cf-syrup
+      role: introduction
+      order: 0
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: bitters
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Cocktail bitters are concentrated botanical flavourings used to season
+        drinks. They add aromatic and bitter accents in small measures, or a
+        larger flavour component in some modern specs.
+      sources: &a7
+        - cf-bitters
+      review_version: 0.1
+    - id: types
+      role: types
+      text: Aromatic and orange bitters describe different flavour directions. They
+        are not two names for one preparation.
+      sources: *a7
+      review_version: 0.1
+    - id: sensory
+      role: sensory
+      text: Botanicals and formulation determine the balance of bitter, spicy and
+        citrus notes.
+      sources: *a7
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: Keep dash quantities as authored rather than assigning an invented
+        universal volume. Larger measures, as in a Trinidad Sour, make product
+        differences particularly consequential.
+      sources: *a7
+      review_version: 0.1
+    - id: brands
+      role: brands
+      text: Angostura aromatic and orange bitters are different formulations. A named
+        bitters product is not an alias for the whole category, and a bottle
+        mention alone does not prove an exact requirement.
+      sources: *a7
+      review_version: 0.1
+    - id: context
+      role: context
+      text: Here bitters means cocktail seasoning bitters, not every potable bitter
+        aperitif or amaro. Those drink-sized ingredients remain distinct
+        culinary targets.
+      sources: *a7
+      review_version: 0.1
+  resources:
+    - resource: cf-bitters
+      role: introduction
+      order: 0
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: absinthe
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Absinthe is a botanical spirit associated with wormwood, anise and fennel.
+        It is used in cocktails as a measured component or a small aromatic
+        rinse.
+      sources: &a8
+        - cf-absinthe
+      review_version: 0.1
+    - id: types
+      role: types
+      text: Green and clear absinthes differ in presentation and production details. A
+        colour description does not identify a commercial expression.
+      sources: *a8
+      review_version: 0.1
+    - id: sensory
+      role: sensory
+      text: Anise-like aromas can be prominent even in a small quantity.
+      sources: *a8
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: A rinse coats the serving vessel; the amount poured into the vessel and
+        the amount retained are not necessarily equal. Preserve instructions to
+        discard excess.
+      sources: *a8
+      review_version: 0.1
+    - id: brands
+      role: brands
+      text: La Fée Parisienne is a named absinthe expression. Preserve that label when
+        a source supplies it, without making it a synonym for absinthe or
+        declaring other products equivalent.
+      sources: *a8
+      review_version: 0.1
+    - id: context
+      role: context
+      text: An explicitly offered Herbsaint alternative remains an authored choice. It
+        does not make Herbsaint an absinthe alias.
+      sources: *a8
+      review_version: 0.1
+  resources:
+    - resource: cf-absinthe
+      role: introduction
+      order: 0
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: amaro
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Amaro is a family of bittersweet botanical liqueurs. It is used as a drink
+        component and as an after-meal serve.
+      sources: &a9
+        - cf-amaro
+        - cf-averna
+      review_version: 0.1
+    - id: types
+      role: types
+      text: This broad family is not one standard formulation. Product-specific
+        recipes can rely on a particular balance rather than a universal amaro
+        flavour.
+      sources: *a9
+      review_version: 0.1
+    - id: sensory
+      role: sensory
+      text: Amari can vary greatly in bitterness, sweetness, botanicals and overall
+        flavour. Similar colour is weak evidence of a similar role.
+      sources: *a9
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: Treat a substitution as a new authored decision requiring judgement,
+        especially in a short equal-parts formula.
+      sources: *a9
+      review_version: 0.1
+    - id: brands
+      role: brands
+      text: Nonino describes its Quintessentia with aged grape distillate, while
+        Averna describes citrus oils and an herbal infusion. These examples
+        explain formulation differences; they are neither rankings nor
+        interchangeable equivalents.
+      sources: *a9
+      review_version: 0.1
+    - id: context
+      role: context
+      text: A source saying only Amaro Nonino does not necessarily specify the
+        complete expression hierarchy. Keep uncertain product details
+        unresolved.
+      sources: *a9
+      review_version: 0.1
+  resources:
+    - resource: cf-amaro
+      role: introduction
+      order: 0
+      review_version: 0.1
+    - resource: cf-averna
+      role: specialist-reference
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: muddle
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Muddling presses ingredients to release juice or aroma into a drink.
+      sources: &a10
+        - cf-muddle
+      review_version: 0.1
+    - id: purpose
+      role: purpose
+      text: It extracts flavour from fruit, herbs or spices before the other mixing
+        steps.
+      sources: *a10
+      review_version: 0.1
+    - id: mechanism
+      role: mechanism
+      text: Press with a blunt muddler, using controlled pressure and a small twisting
+        movement.
+      sources: *a10
+      review_version: 0.1
+    - id: judgement
+      role: judgement
+      text: Match the pressure to the ingredient and the requested result. Releasing
+        aroma and pulverising every solid are different endpoints.
+      sources: *a10
+      review_version: 0.1
+    - id: mistakes
+      role: mistakes
+      text: Do not force hard fruit against fragile glass. A sturdy vessel or
+        stainless shaker avoids relying on thin glass to resist heavy pressure.
+      sources: *a10
+      review_version: 0.1
+  resources:
+    - resource: cf-muddle
+      role: introduction
+      order: 0
+      review_version: 0.1
+- target:
+    kind: process
+    id: fine-strain
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Fine straining passes a mixed drink through fine mesh as it leaves the
+        mixing vessel.
+      sources: &a11
+        - cf-fine-strain
+      review_version: 0.1
+    - id: purpose
+      role: purpose
+      text: It catches small fragments that a primary cocktail strainer may allow
+        through.
+      sources: *a11
+      review_version: 0.1
+    - id: mechanism
+      role: mechanism
+      text: Use the primary strainer to retain large ice while pouring through a
+        second fine-mesh strainer into the serving glass.
+      sources: *a11
+      review_version: 0.1
+    - id: judgement
+      role: judgement
+      text: Choose it when the spec calls for a smoother drink without small ice
+        shards or ingredient debris.
+      sources: *a11
+      review_version: 0.1
+    - id: mistakes
+      role: mistakes
+      text: Do not assume every strained drink requires this extra step. It changes
+        the particles reaching the glass and should follow the authored method.
+      sources: *a11
+      review_version: 0.1
+  resources:
+    - resource: cf-fine-strain
+      role: introduction
+      order: 0
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: mixing-glass
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A mixing glass is a vessel used to stir drinks with ice before straining.
+      sources: &a12
+        - difford-bar-kit
+        - cf-martini
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: It holds the ingredients and ice while a bar spoon circulates the mixture.
+      sources: *a12
+      review_version: 0.1
+    - id: selection
+      role: selection
+      text: Choose a stable vessel with room for the intended drink and ice, and a rim
+        compatible with the strainer.
+      sources: *a12
+      review_version: 0.1
+    - id: care
+      role: care
+      text: Inspect glass for chips and clean it before use. Follow the maker’s
+        cleaning instructions.
+      sources: *a12
+      review_version: 0.1
+  resources:
+    - resource: difford-bar-kit
+      role: introduction
+      order: 0
+      review_version: 0.1
+    - resource: cf-martini
+      role: specialist-reference
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: bar-spoon
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A bar spoon is a long-handled spoon for mixing drinks.
+      sources: &a13
+        - difford-bar-kit
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: Its reach helps stir within a mixing glass or tall serving vessel.
+      sources: *a13
+      review_version: 0.1
+    - id: selection
+      role: selection
+      text: Choose a comfortable handle and a length suited to the vessel.
+      sources: *a13
+      review_version: 0.1
+    - id: context
+      role: context
+      text: A recipe’s bar-spoon measure is not proof that every bar spoon holds an
+        identical volume.
+      sources: *a13
+      review_version: 0.1
+    - id: care
+      role: care
+      text: Clean and dry the spoon after use, especially after sticky syrups.
+      sources: *a13
+      review_version: 0.1
+  resources:
+    - resource: difford-bar-kit
+      role: introduction
+      order: 0
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: jigger
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A jigger is a small measuring vessel used for drink ingredients.
+      sources: &a14
+        - difford-bar-kit
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: It helps reproduce a spec’s measured liquid quantities.
+      sources: *a14
+      review_version: 0.1
+    - id: types
+      role: types
+      text: Different sizes and marked designs offer different measurement increments.
+      sources: *a14
+      review_version: 0.1
+    - id: selection
+      role: selection
+      text: Check the actual markings and units instead of assuming a nominal jigger
+        always means the same capacity.
+      sources: *a14
+      review_version: 0.1
+    - id: care
+      role: care
+      text: Rinse between ingredients when flavour carry-over matters and keep
+        markings readable.
+      sources: *a14
+      review_version: 0.1
+  resources:
+    - resource: difford-bar-kit
+      role: introduction
+      order: 0
       review_version: 0.1

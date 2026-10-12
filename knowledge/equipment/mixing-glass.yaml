@@ -1,0 +1,18 @@
+id: mixing-glass
+kind: equipment
+canonical_name: mixing glass
+names:
+  en: mixing glass
+curation:
+  origin: generated
+  review: unchecked
+categories:
+  - coffee-and-bar
+evidence:
+  review_note: Cocktail Foundation v1; source-informed generated identity and
+    prose, not human reviewed.
+  sources:
+    - title: Basic cocktail equipment
+      url: https://www.diffordsguide.com/g/1150/how-to-make-cocktails/basic-cocktail-equipment
+    - title: Dry Martini
+      url: https://iba-world.com/iba-cocktail/dry-martini/

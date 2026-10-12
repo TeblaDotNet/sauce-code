@@ -1,0 +1,18 @@
+id: vodka
+kind: ingredient
+canonical_name: vodka
+names:
+  en: vodka
+curation:
+  origin: generated
+  review: unchecked
+categories:
+  - beverages
+evidence:
+  review_note: Cocktail Foundation v1; source-informed generated identity and
+    prose, not human reviewed.
+  sources:
+    - title: Absolut vodka questions
+      url: https://www.absolut.com/en-us/faq/
+    - title: Dry Martini
+      url: https://iba-world.com/iba-cocktail/dry-martini/

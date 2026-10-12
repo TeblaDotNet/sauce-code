@@ -1,0 +1,19 @@
+id: fine-strain
+kind: process
+canonical_name: fine strain
+names:
+  en: fine strain
+curation:
+  origin: generated
+  review: unchecked
+categories:
+  - beverage-and-bar
+evidence:
+  review_note: Cocktail Foundation v1; source-informed generated identity and
+    prose, not human reviewed.
+  sources:
+    - title: Fine / double straining
+      url: https://www.diffordsguide.com/g/1150/how-to-make-cocktails/fine-double-straining
+aliases:
+  - fine strain
+  - double strain

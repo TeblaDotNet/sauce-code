@@ -2293,3 +2293,154 @@
   type: reference
   checked_at: 2026-10-12
   review_scope: text
+- id: cf-gin
+  title: What is gin?
+  url: https://www.theginguild.com/about-the-gin-guild/what-is-gin/
+  publisher: The Gin Guild
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Producer or specialist source; cited for explanation, not endorsement.
+- id: cf-old-tom
+  title: Old Tom gin
+  url: https://www.theginguild.com/about-the-gin-guild/what-is-gin/old-tom-gin/
+  publisher: The Gin Guild
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Producer or specialist source; cited for explanation, not endorsement.
+- id: cf-vodka
+  title: Absolut vodka questions
+  url: https://www.absolut.com/en-us/faq/
+  publisher: Absolut
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Producer or specialist source; cited for explanation, not endorsement.
+- id: cf-rum
+  title: Dark and gold rums
+  url: https://www.bacardi.com/us/en/dark-gold-rums/
+  publisher: Bacardi
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Producer or specialist source; cited for explanation, not endorsement.
+- id: cf-rum-assess
+  title: Appreciating and assessing rum
+  url: https://www.diffordsguide.com/bws/1257/rum/assessing
+  publisher: Difford’s Guide
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Producer or specialist source; cited for explanation, not endorsement.
+- id: cf-rye
+  title: Rye whiskey cocktails
+  url: https://www.whistlepigwhiskey.com/cocktails
+  publisher: WhistlePig
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Producer or specialist source; cited for explanation, not endorsement.
+- id: cf-vermouth
+  title: Our vermouths
+  url: https://www.dolin.fr/en/range/our-vermouths/
+  publisher: Dolin
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Producer or specialist source; cited for explanation, not endorsement.
+- id: cf-syrup
+  title: Rich versus simple syrup
+  url: https://www.diffordsguide.com/encyclopedia/3593/cocktails/2-to-1-rich-sugar-syrup-versus-1-to-1-simple-syrup
+  publisher: Difford’s Guide
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Producer or specialist source; cited for explanation, not endorsement.
+- id: cf-bitters
+  title: Bitters 101
+  url: https://angosturabitters.com/bitters-101/
+  publisher: Angostura
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Producer or specialist source; cited for explanation, not endorsement.
+- id: cf-absinthe
+  title: La Fée Parisienne Absinthe Supérieure
+  url: https://lafee.com/la-fee-parisienne-absinthe-superieure/
+  publisher: La Fée
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Producer or specialist source; cited for explanation, not endorsement.
+- id: cf-amaro
+  title: Amaro Nonino Quintessentia
+  url: https://www.grappanonino.it/en/amaro-and-liqueurs/amaro-nonino-quintessentia/
+  publisher: Nonino
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Producer or specialist source; cited for explanation, not endorsement.
+- id: cf-averna
+  title: Averna product
+  url: https://www.amaroaverna.com/int/product/
+  publisher: Averna
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Producer or specialist source; cited for explanation, not endorsement.
+- id: cf-muddle
+  title: How to muddle a cocktail
+  url: https://www.diffordsguide.com/g/1150/how-to-make-cocktails/how-to-muddle
+  publisher: Difford’s Guide
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Producer or specialist source; cited for explanation, not endorsement.
+- id: cf-fine-strain
+  title: Fine / double straining
+  url: https://www.diffordsguide.com/g/1150/how-to-make-cocktails/fine-double-straining
+  publisher: Difford’s Guide
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Producer or specialist source; cited for explanation, not endorsement.
+- id: cf-martini
+  title: Dry Martini
+  url: https://iba-world.com/iba-cocktail/dry-martini/
+  publisher: IBA
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Producer or specialist source; cited for explanation, not endorsement.
+- id: cf-manhattan
+  title: Manhattan
+  url: https://iba-world.com/iba-cocktail/manhattan/
+  publisher: IBA
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Producer or specialist source; cited for explanation, not endorsement.
+- id: cf-wset
+  title: Level 1 Award in Spirits — specification, pp. 4–6
+  url: https://www.wsetglobal.com/media/8422/wset_l1spirits_specification_en_jul2020_issue12.pdf
+  publisher: Wine & Spirit Education Trust
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  notes: Category and raw-material context; no legal or health advice.
+- id: cf-tanqueray
+  title: Tanqueray London Dry Gin
+  url: https://www.tanqueray.com/en-gb/tanqueray-london-dry-gin
+  publisher: Tanqueray
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Producer description, not endorsement.
+- id: cf-london-dry
+  title: London dry gin
+  url: https://www.diffordsguide.com/g/1108/gin/london-dry-gin
+  publisher: Difford’s Guide
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text

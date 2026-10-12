@@ -1,0 +1,28 @@
+id: bitters
+kind: ingredient
+canonical_name: bitters
+names:
+  en: bitters
+curation:
+  origin: generated
+  review: unchecked
+categories:
+  - beverages
+evidence:
+  review_note: Cocktail Foundation v1; source-informed generated identity and
+    prose, not human reviewed.
+  sources:
+    - title: Bitters 101
+      url: https://angosturabitters.com/bitters-101/
+variants:
+  aromatic:
+    names:
+      en: aromatic
+  orange:
+    names:
+      en: orange
+  creole-style:
+    names:
+      en: Creole-style
+aliases:
+  - cocktail bitters

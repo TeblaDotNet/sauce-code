@@ -1,0 +1,19 @@
+id: simple-syrup
+kind: ingredient
+canonical_name: simple syrup
+names:
+  en: simple syrup
+curation:
+  origin: generated
+  review: unchecked
+categories:
+  - beverages
+  - sugars-and-sweeteners
+evidence:
+  review_note: Cocktail Foundation v1; source-informed generated identity and
+    prose, not human reviewed.
+  sources:
+    - title: Rich versus simple syrup
+      url: https://www.diffordsguide.com/encyclopedia/3593/cocktails/2-to-1-rich-sugar-syrup-versus-1-to-1-simple-syrup
+aliases:
+  - sugar syrup

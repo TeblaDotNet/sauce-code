@@ -1,5 +1,5 @@
 /** Reference enrichment is separate from canonical identity and resolver data. */
-export const editorialRoles = ['summary', 'purpose', 'mechanism', 'sensory', 'uses', 'storage', 'judgement', 'mistakes', 'selection', 'care', 'context', 'near-neighbours'] as const;
+export const editorialRoles = ['summary', 'types', 'purpose', 'mechanism', 'sensory', 'uses', 'storage', 'judgement', 'mistakes', 'selection', 'care', 'context', 'brands', 'near-neighbours'] as const;
 export const resourceRoles = ['introduction', 'technique-demonstration', 'deeper-explanation', 'specialist-reference', 'maintenance', 'measurement-reference'] as const;
 export const associationRelations = ['commonly-used-with', 'used-for', 'contrast-with'] as const;
 export interface Review { review_version: number; reviewed_at?: string }

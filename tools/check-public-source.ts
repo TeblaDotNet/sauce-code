@@ -16,7 +16,7 @@ for(const f of files){if(!/\.(md|json|yaml|yml|ts|js|html|css|opensauce|txt)$/.t
  assert.ok(!/-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----|gh[pousr]_[A-Za-z0-9]{30,}|AKIA[0-9A-Z]{16}/.test(text),'Credential pattern: '+f);
  if(!f.endsWith('release-exclusions.json'))assert.ok(!excluded.some(s=>text.includes(s)),'Excluded identifier: '+f);
 }
-const v=await loadVocabulary('knowledge');assert.equal(v.entries.length,766);
+const v=await loadVocabulary('knowledge');assert.equal(v.entries.length,780);
 const samples=JSON.parse(readFileSync('tests/fixtures/curated-examples.json','utf8')).recipes as {path:string;sha256:string}[];
 for(const x of samples)assert.equal(createHash('sha256').update(readFileSync(x.path)).digest('hex'),x.sha256,x.path);
 assert.equal(files.filter(f=>f.replaceAll('\\','/').startsWith('examples/public-domain-recipes/')&&f.endsWith('.opensauce')).length,samples.length);

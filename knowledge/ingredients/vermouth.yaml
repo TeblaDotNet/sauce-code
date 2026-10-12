@@ -1,0 +1,30 @@
+id: vermouth
+kind: ingredient
+canonical_name: vermouth
+names:
+  en: vermouth
+curation:
+  origin: generated
+  review: unchecked
+categories:
+  - beverages
+evidence:
+  review_note: Cocktail Foundation v1; source-informed generated identity and
+    prose, not human reviewed.
+  sources:
+    - title: Our vermouths
+      url: https://www.dolin.fr/en/range/our-vermouths/
+    - title: Dry Martini
+      url: https://iba-world.com/iba-cocktail/dry-martini/
+    - title: Manhattan
+      url: https://iba-world.com/iba-cocktail/manhattan/
+variants:
+  dry:
+    names:
+      en: dry
+  sweet-red:
+    names:
+      en: sweet red
+  blanc:
+    names:
+      en: blanc

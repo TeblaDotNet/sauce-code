@@ -1,7 +1,7 @@
 import { escapeHtml as escape, safeUrl } from '../renderer/html.ts';
 import { editorialRoles, safeResourceUrl, safeHeroAsset } from '../vocabulary/enrichment.ts';
 import type { ReferencePage } from './index.ts';
-const titles: Record<string, string> = {summary:'about', purpose:'purpose', mechanism:'how it works', sensory:'flavour', uses:'uses', storage:'storage', judgement:'judgement', mistakes:'mistakes', selection:'selection', care:'care', context:'context', 'near-neighbours':'related'};
+const titles: Record<string, string> = {summary:'about', types:'types', brands:'brands', purpose:'purpose', mechanism:'how it works', sensory:'flavour', uses:'uses', storage:'storage', judgement:'judgement', mistakes:'mistakes', selection:'selection', care:'care', context:'context', 'near-neighbours':'related'};
 export const reviewBannerText = (v: number) => 'Version ' + v + ' — ' + (v < 1 ? 'machine generated, not yet human reviewed' : v === 1 ? 'human reviewed' : v === 2 ? 'in-depth human review' : 'expert reviewed');
 const maturity = (v: number) => '<small class="ref-field-review">' + escape(reviewBannerText(v)) + '</small>';
 const section = (title: string, body: string) => body ? '<section class="ref-enrichment"><h2 class="ref-section-heading">::' + escape(title) + '</h2>' + body + '</section>' : '';

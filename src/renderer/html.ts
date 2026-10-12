@@ -17,6 +17,8 @@ export interface HtmlRenderOptions extends RenderOptions {
   syntaxSpans?: boolean;
   /** Page shells can provide a persistent title/curation header. */
   header?: boolean;
+  /** Contextual prose headings; Sauce Code section names remain authored syntax. */
+  sectionLabels?: Readonly<Record<string, string>>;
   /** Optional native disclosures for low-priority sections in a page layout. */
   collapsedSections?: readonly string[];
   /** Code is the default. Original recipe source is literal provenance, not rendered Code. */
@@ -161,9 +163,9 @@ export function renderHtml(recipe: Recipe, options: HtmlRenderOptions = {}): str
     if (s.name === 'story' && options.story === false) return '';
     if (s.name === 'notes' && options.notes === false) return '';
     const collapse = options.collapsedSections?.includes(s.name);
-    const disclose = (html: string) => collapse ? `<details class="os-section-details" data-section="${e(s.name)}"><summary>${e(s.name === 'recipe' ? 'Recipe metadata' : s.name === 'source' ? 'Source material' : s.name === 'story' ? 'Story' : s.name)}</summary>${html.replace(` data-section="${e(s.name)}"`, '')}</details>` : html;
+    const disclose = (html: string) => collapse ? `<details class="os-section-details" data-section="${e(s.name)}"><summary>${e(options.sectionLabels?.[s.name] ?? (s.name === 'recipe' ? 'Recipe metadata' : s.name === 'source' ? 'Source material' : s.name === 'story' ? 'Story' : s.name))}</summary>${html.replace(` data-section="${e(s.name)}"`, '')}</details>` : html;
     if (s.name === 'source') return code && s.originalSource ? disclose(`<section class="os-section" data-section="source"><h2>::source</h2><pre class="os-original-source">${e('<<<\n' + s.originalSource.text + (s.originalSource.closed ? '>>>' : ''))}</pre></section>`) : '';
-    const heading = s.name === 'recipe' ? 'Recipe details' : s.name.charAt(0).toUpperCase() + s.name.slice(1);
+    const heading = options.sectionLabels?.[s.name] ?? (s.name === 'recipe' ? 'Recipe details' : s.name.charAt(0).toUpperCase() + s.name.slice(1));
     const images = collapse && s.name === 'recipe' ? s.children.filter(n => n.kind === 'metadata' && n.key === 'image') : [];
     return nodes(images, s.name) + disclose(`<section class="os-section" data-section="${e(s.name)}" aria-labelledby="${prefix}-section-${i}"><h2 id="${prefix}-section-${i}">${e(code ? '::' + s.name : heading)}</h2>${comment(s.comment)}${nodes(s.children.filter(n => !images.includes(n)), s.name)}</section>`);
   }).join('')}</article>`;

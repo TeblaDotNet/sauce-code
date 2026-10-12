@@ -1,0 +1,18 @@
+id: rye-whiskey
+kind: ingredient
+canonical_name: rye whiskey
+names:
+  en: rye whiskey
+curation:
+  origin: generated
+  review: unchecked
+categories:
+  - beverages
+evidence:
+  review_note: Cocktail Foundation v1; source-informed generated identity and
+    prose, not human reviewed.
+  sources:
+    - title: Rye whiskey cocktails
+      url: https://www.whistlepigwhiskey.com/cocktails
+    - title: Manhattan
+      url: https://iba-world.com/iba-cocktail/manhattan/

@@ -122,3 +122,7 @@ The site exposes non-empty public category pages at /ingredients/category/{id}/,
 ## Authored commercial selection
 
 Ingredient tokens may carry `product: { name, strength, raw, span }`, with strength `specified`, `approximate` or `exact`. This is recipe occurrence data, not an ingredient vocabulary field. See [commercial selection syntax](../SPEC.md#commercial-product-and-expression-selection). A product label and an ingredient type/part remain separate; resolution of the culinary identity does not consume the product name. There is no product registry, inferred brand hierarchy, alias or substitution rule in v1. HTML reference links continue to identify the culinary ingredient.
+
+### Cocktail foundation prose
+
+Optional `types` and `brands` editorial roles provide explanatory prose. Types describe styles; brands explain named formulations without rankings, inferred equivalence or resolver aliases. These roles do not create canonical types or commercial identities. All new cocktail enrichment is version 0.1 and remains machine generated and not human reviewed. The existing Beverages, Beverage & bar and Coffee & bar browsing categories are reused.
