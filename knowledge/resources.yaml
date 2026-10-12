@@ -165,7 +165,6 @@
   checked_at: 2026-10-11
   review_scope: text
   notes: Archived mechanism explanation; no universal cooking threshold adopted.
-
 - id: kab-salt
   title: Is there a best salt for baking?
   url: https://www.kingarthurbaking.com/blog/2021/06/17/kosher-salt-best-salts-for-baking
@@ -432,3 +431,718 @@
   checked_at: 2026-10-11
   review_scope: text
   commercial_context: Manufacturer product examples; not a brand recommendation.
+- id: tetrapak-butter
+  title: Butter
+  url: https://dairyprocessinghandbook.tetrapak.com/chapter/butter
+  publisher: Tetra Pak Dairy Processing Handbook
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Dairy-processing equipment manufacturer; used for the production description, not product recommendations.
+- id: kew-chickpea
+  title: Chickpea
+  url: https://www.kew.org/plants/chickpea
+  publisher: Royal Botanic Gardens, Kew
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: kab-water
+  title: Water
+  url: https://www.kingarthurbaking.com/pro/reference/water
+  publisher: King Arthur Baking
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Baking educator and flour supplier; used for water in bread dough.
+- id: usu-onion
+  title: How to Grow Onions in Your Garden
+  url: https://extension.usu.edu/yardandgarden/research/onions-in-the-garden
+  publisher: Utah State University Extension
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: purdue-potato
+  title: Potato — FoodLink
+  url: https://extension.purdue.edu/foodlink/food.php?food=potato
+  publisher: Purdue Extension
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: purdue-garlic
+  title: Garlic — FoodLink
+  url: https://extension.purdue.edu/foodlink/food.php?food=garlic
+  publisher: Purdue Extension
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: purdue-broccoli
+  title: Broccoli — FoodLink
+  url: https://extension.purdue.edu/foodlink/food.php?food=broccoli
+  publisher: Purdue Extension
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: purdue-spinach
+  title: Spinach — FoodLink
+  url: https://extension.purdue.edu/foodlink/food.php?food=spinach
+  publisher: Purdue Extension
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: purdue-eggplant
+  title: Eggplant — FoodLink
+  url: https://extension.purdue.edu/foodlink/food.php?food=eggplant
+  publisher: Purdue Extension
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: purdue-apple
+  title: Apple — FoodLink
+  url: https://extension.purdue.edu/foodlink/food.php?food=apple
+  publisher: Purdue Extension
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: usu-carrots
+  title: "Fruit and Vegetable Guide: carrots"
+  url: https://extension.usu.edu/nutrition/research/carrots
+  publisher: Utah State University Extension
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: usu-lemons
+  title: "Fruit and Vegetable Guide: lemons"
+  url: https://extension.usu.edu/nutrition/research/lemons
+  publisher: Utah State University Extension
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: usu-bananas
+  title: "Fruit and Vegetable Guide: bananas"
+  url: https://extension.usu.edu/nutrition/research/bananas
+  publisher: Utah State University Extension
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: usu-zucchini
+  title: "Fruit and Vegetable Guide: zucchini"
+  url: https://extension.usu.edu/nutrition/research/zucchini
+  publisher: Utah State University Extension
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: kew-ginger
+  title: Ginger
+  url: https://www.kew.org/plants/ginger
+  publisher: Royal Botanic Gardens, Kew
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: kew-pepper
+  title: Piper nigrum — Kew Species Profile
+  url: https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A682369-1/general-information
+  publisher: Royal Botanic Gardens, Kew
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: kew-basil
+  title: Brilliant basil
+  url: https://www.kew.org/read-and-watch/brilliant-basil
+  publisher: Royal Botanic Gardens, Kew
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: kab-flours
+  title: How do you choose the right flour?
+  url: https://www.kingarthurbaking.com/blog/2019/07/12/types-of-flour
+  publisher: King Arthur Baking
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Culinary education from a commercial producer; product examples are not universal specifications.
+- id: wholegrains-az
+  title: Whole Grains A to Z
+  url: https://wholegrainscouncil.org/whole-grains-101/whole-grains-z
+  publisher: Oldways Whole Grains Council
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: lentils-about
+  title: About Lentils
+  url: https://www.lentils.org/about-lentils/
+  publisher: Lentils.org
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: dairy-milk
+  title: Milk
+  url: https://www.dairy.com.au/products-and-recipes/dairy-products/milk
+  publisher: Dairy Australia
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: dairy-cream
+  title: Cream
+  url: https://www.dairy.com.au/products-and-recipes/dairy-products/cream
+  publisher: Dairy Australia
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: tetrapak-yoghurt
+  title: Fermented Milk Products
+  url: https://dairyprocessinghandbook.tetrapak.com/chapter/fermented-milk-products
+  publisher: Tetra Pak Dairy Processing Handbook
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Industrial processing explanation; not a home fermentation recipe.
+- id: dairy-hard-cheese
+  title: Hard Cheese
+  url: https://www.dairy.com.au/products-and-recipes/dairy-products/cheese/hard-cheese
+  publisher: Dairy Australia
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: tetrapak-coconut
+  title: Coconut Food Production
+  url: https://coconuthandbook.tetrapak.com/chapter/coconut-food-production
+  publisher: Tetra Pak Coconut Handbook
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Used for coconut extraction and product distinctions, not its health claims.
+- id: illinois-tofu
+  title: Tofu Should Not Scare You
+  url: https://extension.illinois.edu/blogs/simply-nutritious-quick-and-delicious/2016-04-01-tofu-shouldnt-scare-you
+  publisher: University of Illinois Extension
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: kab-leaveners
+  title: Baking soda vs. baking powder
+  url: https://www.kingarthurbaking.com/blog/2021/09/10/baking-soda-vs-baking-powder-substitutions
+  publisher: King Arthur Baking
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Culinary education from a commercial producer; product examples are not universal specifications.
+- id: kab-leavener-freshness
+  title: How to test yeast, baking powder, and baking soda for freshness
+  url: https://www.kingarthurbaking.com/blog/2015/11/05/test-yeast-baking-powder-baking-soda-freshness
+  publisher: King Arthur Baking
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Culinary education from a commercial producer; product examples are not universal specifications.
+- id: honey-making
+  title: "The Honey Files: How Honey Is Made"
+  url: https://honey.com/images/files/2020-Educational-Materials-Honey-22x34-Poster.pdf
+  publisher: National Honey Board
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  notes: Reviewed from search-indexed source text because the research fetch was blocked or failed; verify live
+    access during human review.
+- id: honey-crystals
+  title: Breaking Down Honey Testing Myths
+  url: https://honey.com/images/files/NHB-Test-Myths.pdf
+  publisher: National Honey Board
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: honey-cooking
+  title: "Elevate Your Menu: Honey Infusions"
+  url: https://honey.com/images/files/NHB-FS-Honey-Infusions-Booklet.pdf
+  publisher: National Honey Board
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: meat-structure
+  title: Is that cut tough or tender?
+  url: https://goodmeatproject.org/resources/is-that-cut-tough-or-tender
+  publisher: Good Meat Project
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: beef-cuts
+  title: Beef Cut Collections
+  url: https://www.beefitswhatsfordinner.com/cuts/collection
+  publisher: Beef. It’s What’s For Dinner.
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Beef-industry education; cut names and examples use US terminology.
+- id: alaska-salmon
+  title: Cooking with Wild Alaska Salmon
+  url: https://seasia.alaskaseafood.org/cooking/
+  publisher: Alaska Seafood Marketing Institute
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Wild Alaska species and cooking examples; not a claim about all salmon.
+- id: alaska-species
+  title: Seafood Species
+  url: https://www.alaskaseafood.org/alaska-seafood-101/types-of-seafood/
+  publisher: Alaska Seafood Marketing Institute
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: kikkoman-brew
+  title: Brewing Process
+  url: https://www.kikkoman.eu/about-kikkoman/kikkoman-quality/brewing-process
+  publisher: Kikkoman
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Culinary education from a commercial producer; product examples are not universal specifications.
+- id: kikkoman-sauce-types
+  title: The Power of Fermentation
+  url: https://www.kikkoman.com/en/kiifc/journal/pdf/no34_e_008-011.pdf
+  publisher: Kikkoman Institute for International Food Culture
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Manufacturer-hosted technical article used only for Japanese sauce styles and production
+    categories; health and allergy claims are not adopted.
+- id: sendai-miso
+  title: What Is Miso?
+  url: https://www.omiso.or.jp/en/what.html
+  publisher: Miyagi Prefecture Miso and Soy Sauce Industrial Cooperative
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: marukome-miso
+  title: Miso Products
+  url: https://www.marukome.co.jp/global/en/products/miso/
+  publisher: Marukome
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Manufacturer range used to demonstrate product forms and added seasoning, not a universal miso formula.
+- id: kab-yeast-guide
+  title: A comprehensive guide to baking with yeast
+  url: https://www.kingarthurbaking.com/blog/2023/05/10/guide-to-baking-with-yeast
+  publisher: King Arthur Baking
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Culinary education from a commercial producer; product examples are not universal specifications.
+- id: kab-yeast
+  title: Yeast
+  url: https://www.kingarthurbaking.com/pro/reference/yeast
+  publisher: King Arthur Baking
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Culinary education from a commercial producer; product examples are not universal specifications.
+- id: kab-cocoa-types
+  title: Types of cocoa, explained
+  url: https://www.kingarthurbaking.com/blog/2022/10/20/types-of-cocoa-explained
+  publisher: King Arthur Baking
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Culinary education from a commercial producer; product examples are not universal specifications.
+- id: kab-cocoa-compare
+  title: Dutch-process vs. natural cocoa
+  url: https://www.kingarthurbaking.com/blog/2020/07/15/dutch-process-vs-natural-cocoa
+  publisher: King Arthur Baking
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Culinary education from a commercial producer; product examples are not universal specifications.
+- id: cia-prep
+  title: "Home School: Prepping Vegetables"
+  url: https://www.ciafoodies.com/home-school-prepping-vegetables/
+  publisher: Culinary Institute of America
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: oxo-graters
+  title: Which Grater Is Right For You?
+  url: https://www.oxo.com/blog/cooking-and-baking/which-grater-is-right-for-you
+  publisher: OXO
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Manufacturer examples illustrate cutting surfaces; not a product recommendation.
+- id: oxo-masher
+  title: Smooth Potato Masher
+  url: https://www.oxo.com/shop/kitchenware/utensils/whisks-mashers/smooth-potato-masher-449.html
+  publisher: OXO
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Product example of a perforated-plate masher; performance claims are not generalised.
+- id: lc-mortar
+  title: Stoneware Pestle and Mortar
+  url: https://www.lecreuset.co.uk/en_GB/p/stoneware-pestle-and-mortar/81209304440003.html
+  publisher: Le Creuset
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Stoneware product example; material and care claims apply to the specified product.
+- id: kab-cake-mixing
+  title: A breakdown of all the different cake mixing methods
+  url: https://www.kingarthurbaking.com/blog/2017/04/28/cake-mixing-methods
+  publisher: King Arthur Baking
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: cia-moist-heat
+  title: "Cooking Principles: Poaching, Steaming, Boiling and Simmering"
+  url: https://www.ciaconsulting.org/wp-content/uploads/2025/04/Cooking-principles-I-Day-4-Poaching-Steaming-En-Papillote-Boiling-Simmering-CP.pdf
+  publisher: Culinary Institute of America
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: cia-poaching
+  title: "Deep Poaching: A Healthy Technique for Delicious Foods"
+  url: https://www.ciafoodies.com/deep-poaching-a-healthy-technique-for-delicious-foods/
+  publisher: Culinary Institute of America
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: cia-frying
+  title: Tips for Frying on the Stove
+  url: https://www.ciafoodies.com/tips-for-frying-on-the-stove/
+  publisher: Culinary Institute of America
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: kab-kneading
+  title: Bake for Good Recipe Booklet
+  url: https://www.kingarthurbaking.com/sites/default/files/2023-11/Bake%20for%20Good%20Recipe%20Booklet%202023.pdf
+  publisher: King Arthur Baking
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: kab-windowpane
+  title: What is the windowpane test for bread dough?
+  url: https://www.kingarthurbaking.com/blog/2022/10/14/what-is-the-windowpane-test-for-bread-dough
+  publisher: King Arthur Baking
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: kab-prove
+  title: How to tell if bread dough has risen enough
+  url: https://www.kingarthurbaking.com/blog/2022/08/22/how-to-tell-if-bread-dough-has-risen-enough
+  publisher: King Arthur Baking
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: kab-cream-method
+  title: Building a better butter cake
+  url: https://www.kingarthurbaking.com/blog/2015/03/16/building-better-butter-cake
+  publisher: King Arthur Baking
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: kab-whip
+  title: How to make whipped cream
+  url: https://www.kingarthurbaking.com/blog/2015/07/19/how-to-whip-cream
+  publisher: King Arthur Baking
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: kab-blind-bake
+  title: How to blind bake pie crust
+  url: https://www.kingarthurbaking.com/blog/2015/11/23/blind-bake-pie-crust
+  publisher: King Arthur Baking
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: cia-reduce
+  title: Lid or No Lid?
+  url: https://www.ciafoodies.com/lid-or-no-lid/
+  publisher: Culinary Institute of America
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: kab-caramel
+  title: How to make caramel
+  url: https://www.kingarthurbaking.com/blog/2022/12/12/how-to-make-caramel
+  publisher: King Arthur Baking
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: cia-confit
+  title: Duck Confit
+  url: https://www.ciafoodies.com/duck-confit/
+  publisher: Culinary Institute of America
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: fsis-brine
+  title: "Poultry: Basting, Brining, and Marinating"
+  url: https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/poultry/poultry-basting-brining-and-marinating
+  publisher: USDA Food Safety and Inspection Service
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  notes: Reviewed from search-indexed source text because the research fetch was blocked or failed; verify live
+    access during human review.
+- id: fsis-smoke
+  title: Smoking Meat and Poultry
+  url: https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/smoking-meat-and-poultry
+  publisher: USDA Food Safety and Inspection Service
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  notes: Reviewed from search-indexed source text because the research fetch was blocked or failed; verify live
+    access during human review.
+- id: baldwin-sous-vide
+  title: A Practical Guide to Sous Vide Cooking
+  url: https://douglasbaldwin.com/sous-vide.html
+  publisher: Douglas Baldwin
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: nsw-sous-vide
+  title: Sous vide
+  url: https://www.foodauthority.nsw.gov.au/about-us/science/food-risk-studies/sous-vide
+  publisher: NSW Food Authority
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: callebaut-temper
+  title: How to Work with the 5 Colours of Chocolate
+  url: https://www.callebaut.com/en/how-work-5-colours-chocolate
+  publisher: Callebaut
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Manufacturer tempering curves concern specific chocolates; no universal temperature schedule is inferred.
+- id: weber-zones
+  title: Mastering Direct, Indirect, and 2-Zone Grilling
+  url: https://amer.weber.com/en-us/blogs/tips-techniques/how-to-cook-anything-on-your-grill-mastering-direct-indirect-and-2-zone-grilling
+  publisher: Weber
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Manufacturer examples of heat arrangements; equipment-specific settings are not universal.
+- id: weber-charcoal
+  title: How to control the temperature of your charcoal barbecue
+  url: https://www.weber.com/GB/en/blog/charcoal-barbecuing/how-to-control-the-temperature-of-your-charcoal-barbecue/weber-257648.html
+  publisher: Weber
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Charcoal barbecue operation; consult the instructions for the actual appliance.
+- id: fsis-boards
+  title: Preventing cross-contamination with cutting boards
+  url: https://ask.fsis.usda.gov/article/How-can-I-prevent-cross-contamination-when-using-cutting-boards
+  publisher: USDA Food Safety and Inspection Service
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: wusthof-three
+  title: The Top Three Knives Every Kitchen Needs
+  url: https://wusthof.com/blogs/the-chefs-table/the-top-three-knives-every-kitchen-needs
+  publisher: WÜSTHOF
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Manufacturer product or care example; specifications apply to that example, not every tool in the category.
+- id: oxo-peelers
+  title: "Behind the Design: OXO Prep Peelers"
+  url: https://www.oxo.com/blog/behind-the-scenes/oxo-prep-peelers
+  publisher: OXO
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Manufacturer product or care example; specifications apply to that example, not every tool in the category.
+- id: oxo-wooden-spoon
+  title: Wooden Spoon
+  url: https://www.oxouk.com/products/all/wooden-spoon/
+  publisher: OXO
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Manufacturer product or care example; specifications apply to that example, not every tool in the category.
+- id: oxo-tongs
+  title: "Behind the Design: Grilling Tools"
+  url: https://www.oxo.com/blog/behind-the-scenes/behind-design-grill-tools
+  publisher: OXO
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Manufacturer product or care example; specifications apply to that example, not every tool in the category.
+- id: oxo-draining
+  title: Colanders, Steamers and Strainers
+  url: https://www.oxo.com/shop/kitchenware/tools-gadgets/colanders-streamers-strainers.html
+  publisher: OXO
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Manufacturer product or care example; specifications apply to that example, not every tool in the category.
+- id: oxo-sieve
+  title: 8-inch Double Rod Strainer
+  url: https://www.oxo.com/8-strainer.html
+  publisher: OXO
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Manufacturer product or care example; specifications apply to that example, not every tool in the category.
+- id: kab-pin
+  title: The best rolling pin, based on what you like to bake
+  url: https://www.kingarthurbaking.com/blog/2024/10/30/best-rolling-pin
+  publisher: King Arthur Baking
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Baking educator and retailer; used for pin shapes, not rankings.
+- id: kab-pans
+  title: Your complete guide to baking pans
+  url: https://www.kingarthurbaking.com/blog/2023/06/05/your-complete-guide-to-baking-pans
+  publisher: King Arthur Baking
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: allclad-rack
+  title: Cooling and Baking Racks
+  url: https://www.all-clad.com/bakeware/categories/cooling-baking-racks.html
+  publisher: All-Clad
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Manufacturer product or care example; specifications apply to that example, not every tool in the category.
+- id: oxo-cup
+  title: 4-Cup Angled Measuring Cup
+  url: https://www.oxo.com/4-cup-angled-measuring-cup.html
+  publisher: OXO
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Manufacturer product or care example; specifications apply to that example, not every tool in the category.
+- id: allclad-stockpot
+  title: D3 Stainless Stockpot
+  url: https://www.all-clad.com/d3-stainless-3-ply-bonded-cookware-stockpot-with-lid-8-quart.html
+  publisher: All-Clad
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Manufacturer example; use the instructions for the actual model. No brand recommendation
+    or universal specification is implied.
+- id: allclad-saute
+  title: D3 Everyday Sauté Pan
+  url: https://www.all-clad.com/d3-stainless-everyday-3-ply-bonded-cookware-saute-pan-with-glass-lid-3-qt.html
+  publisher: All-Clad
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Manufacturer example; use the instructions for the actual model. No brand recommendation
+    or universal specification is implied.
+- id: allclad-roaster
+  title: Roaster with Rack
+  url: https://www.all-clad.com/specialty-cookware-stainless-steel-nonstick-large-roaster-with-rack-13-x-16-inch.html
+  publisher: All-Clad
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Manufacturer example; use the instructions for the actual model. No brand recommendation
+    or universal specification is implied.
+- id: kab-pie-pan
+  title: From metal to glass to ceramic, how does your pie plate affect your crust?
+  url: https://www.kingarthurbaking.com/blog/2022/11/04/best-pie-plate
+  publisher: King Arthur Baking
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: ka-mixers
+  title: Stand mixer vs. hand mixer
+  url: https://www.kitchenaid.com/countertop-appliances/pinch-of-help/stand-mixer-vs-hand-mixer
+  publisher: KitchenAid
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Manufacturer example; use the instructions for the actual model. No brand recommendation
+    or universal specification is implied.
+- id: ka-processor
+  title: Immersion blender vs. food processor
+  url: https://www.kitchenaid.com/countertop-appliances/pinch-of-help/immersion-blender-vs-food-processor-whats-the-difference
+  publisher: KitchenAid
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Manufacturer example; use the instructions for the actual model. No brand recommendation
+    or universal specification is implied.
+- id: ka-beaters
+  title: Which Beater Do I Use?
+  url: https://producthelp.kitchenaid.com/Countertop_Appliances/Stand_Mixers/Product_Info/Stand_Mixer_Tips_and_Tricks/Which_Beater_do_I_Use%3F
+  publisher: KitchenAid
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Manufacturer example; use the instructions for the actual model. No brand recommendation
+    or universal specification is implied.
+- id: fsis-thermometers
+  title: Food Thermometers
+  url: https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/food-thermometers
+  publisher: USDA Food Safety and Inspection Service
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: lodge-enamel
+  title: "Cleaning and Care: Enameled Cast Iron"
+  url: https://www.lodgecastiron.com/pages/cleaning-care-enameled-cast-iron
+  publisher: Lodge
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Manufacturer example; use the instructions for the actual model. No brand recommendation
+    or universal specification is implied.
+- id: lodge-guide
+  title: Cast Iron Product Guide
+  url: https://www.lodgecastiron.com/pages/lodge-cast-iron-product-guide-1
+  publisher: Lodge
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Manufacturer example; use the instructions for the actual model. No brand recommendation
+    or universal specification is implied.
+- id: wok-season
+  title: How to Season a Wok
+  url: https://schoolofwok.co.uk/blog/show/how-to-season-a-wok
+  publisher: School of Wok
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Cookery school and wok retailer; seasoning instructions concern uncoated carbon steel, not
+    non-stick surfaces.
+- id: wok-round
+  title: Round-Bottomed Carbon Steel Wok
+  url: https://schoolofwok.co.uk/shop/woks/13-pre-seasoned-round-bottomed-carbon-steel-wok-12322046
+  publisher: School of Wok
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Manufacturer example; use the instructions for the actual model. No brand recommendation
+    or universal specification is implied.
+- id: oxo-mandoline
+  title: V-Blade Mandoline Slicer Instructions
+  url: https://www.oxo.com/media/manuals/gg_1155700_booklet4.pdf
+  publisher: OXO
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Manufacturer example; use the instructions for the actual model. No brand recommendation
+    or universal specification is implied.
+- id: marcato-roller
+  title: Atlas Slide
+  url: https://www.marcato.it/products/atlas-slide
+  publisher: Marcato
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Manufacturer example; use the instructions for the actual model. No brand recommendation
+    or universal specification is implied.
+- id: marcato-clean
+  title: What is the most effective way to clean the pasta machines?
+  url: https://helpcenter.marcato.it/hc/en-150/articles/29788192101009-What-is-the-most-effective-way-to-clean-the-pasta-machines
+  publisher: Marcato
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Manufacturer example; use the instructions for the actual model. No brand recommendation
+    or universal specification is implied.

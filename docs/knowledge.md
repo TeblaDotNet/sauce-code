@@ -69,6 +69,14 @@ Optional knowledge/enrichment.yaml contains content records targeting existing c
 
 An enrichment record contains review_version and optional editorial, resources, associations and measurements arrays. Plain-text editorial blocks have stable IDs and typed roles (summary, purpose, mechanism, sensory, uses, storage, judgement, mistakes, selection, care, context and near-neighbours), optional source IDs and their own review_version. Rendering escapes text, uses the fixed role order, preserves authored order within a role and omits empty sections. It never executes authored HTML or interprets prose as parser rules. Existing observation evidence stays separate.
 
+### Writing and selection guidance
+
+Before research, verify canonical existence, public-reference eligibility, absence of duplicate enrichment and fit with the current model. A canonical entry with reference:false is not a candidate public page.
+
+Ingredient ::about openings use two sentences: first identify what the ingredient is, then explain its culinary use. Process ::about starts with a direct definition; ::purpose explains the intended result and ::how it works explains the mechanism or method. Use original, source-supported prose rather than copied definitions. Keep identity separate from advice and avoid taxonomy that does not help the cook.
+
+Depth follows explanatory need. Short concepts stay short; complex methods need useful distinctions and scoped evidence. Do not pad pages to match a template. Every new statement retains review_version 0.1 and appropriate sources; generated content is not human reviewed. Check source scope and publication eligibility before investing in optional images. Images may be omitted when finding a suitable, clearly licensed example would dominate the work.
+
 ### Content maturity
 
 review_version is content maturity, not edit count, schema version, Git revision or publication version. Values from 0 inclusive to below 1 are draft/generated; 1 means basic human review, 2 deeper subject/source review, and 3 mature/expert review. Other values are rejected. Integer advancement requires explicit human review; an edit or automated check is not that review. New exemplar enrichment is 0.1 throughout. An entry's enrichment maturity is independent of existing canonical identity curation. Evidence-bearing blocks, resource attachments, associations and measurements carry their own maturity; optional reviewed_at uses an ISO calendar date. Display labels are derived, not stored as a second maturity enum.

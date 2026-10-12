@@ -121,9 +121,11 @@ test('gram-authored mass remains unchanged without density, even with conflictin
   assert.deepEqual(convert({from:'g',to:'g',amount:213,approximate:true},[observation(),observation()]),{ok:true,value:213,unit:'g',approximate:true});
 });
 
-test('thirty pilot enrichments load; all draft records stay below human review',()=>{
-  assert.deepEqual(vocabulary.enrichments.map(e=>e.target.id).sort(),['brown-sugar','egg','salt','butter','tomato','olive-oil','chickpeas','cheddar-cheese','chicken','coriander','emulsify','sear','slice','chop','dice','roast','blanch','braise','ferment','pickle','chef-knife','frying-pan','whisk','ladle','measuring-spoon','saucepan','blender','kitchen-scale','knife','pressure-cooker'].sort());
-  for(const kind of ['ingredient','process','equipment']) assert.equal(vocabulary.enrichments.filter(e=>e.target.kind===kind).length,10);
+test('130 enrichments load with unique eligible targets; all draft records stay below human review',()=>{
+  assert.equal(vocabulary.enrichments.length,130);
+  assert.equal(new Set(vocabulary.enrichments.map(e=>e.target.kind+':'+e.target.id)).size,130);
+  for(const item of vocabulary.enrichments) assert.ok(createReferencePage(vocabulary,item.target.kind,item.target.id),item.target.id);
+  for(const [kind,count] of [['ingredient',45],['process',45],['equipment',40]] as const) assert.equal(vocabulary.enrichments.filter(e=>e.target.kind===kind).length,count);
   assert.equal(vocabulary.entries.length,766);
   for(const e of vocabulary.enrichments){assert.equal(e.review_version,0.1);for(const r of [...e.editorial??[],...e.resources??[],...e.associations??[],...e.measurements??[]])assert.equal(r.review_version,0.1);assert.ok(renderReferenceHtml(createReferencePage(vocabulary,e.target.kind,e.target.id)!).includes('Version 0.1 — machine generated, not yet human reviewed'));}
 });
@@ -250,5 +252,17 @@ test('pilot depth varies without missing sources, empty prose or repeated maturi
     assert.equal((html.match(/class="ref-content-review"/g)??[]).length,1,e.target.id);
     assert.equal(html.includes('class="ref-hero"'),!!e.hero,e.target.id);
     assert.doesNotMatch(html,/<h[2-6][^>]*>\s*<\/h[2-6]>/);
+  }
+});
+
+test('enrichment resource URLs are shared without duplicate registry records',()=>{
+  assert.equal(new Set(vocabulary.resources.map(r=>r.url)).size,vocabulary.resources.length);
+});
+test('ingredient introductions identify the food then give culinary use; process introductions define the action',()=>{
+  for(const e of vocabulary.enrichments){
+    const intro=e.editorial?.find(b=>b.role==='summary')?.text;
+    assert.ok(intro,e.target.id);
+    if(e.target.kind==='ingredient') assert.equal(intro.split(/(?<=[.!?])\s+/).length,2,e.target.id);
+    if(e.target.kind==='process' && ['poach','sear','ferment','pickle'].includes(e.target.id)) assert.match(intro.split('.')[0],/\bis\b/,e.target.id);
   }
 });
