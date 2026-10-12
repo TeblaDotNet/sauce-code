@@ -9,6 +9,16 @@ import { isRecipeCategory, recipeCategories } from '../classification.ts';
 export interface ParseOptions { filename?: string; vocabulary?: Vocabulary }
 const standard = new Set(['recipe', 'ingredients', 'equipment', 'instructions', 'story', 'notes', 'source']);
 
+/** Product is last in the identity head; commas still introduce loose qualifiers. */
+function thingStructure(head: string) {
+  const at = head.indexOf('@');
+  const identity = at < 0 ? head : head.slice(0, at);
+  const structure = identity.match(/^([^;:]+?)(?:\s*;\s*([^;:]+))?((?:\s*:\s*[^;:]+)*)$/);
+  const selection = at < 0 ? undefined : head.slice(at + 1).trim().match(/^([!~])?\s*([^\s!~@].*)$/);
+  if (!structure || !structure[1].trim() || (at >= 0 && (!selection || selection[2].includes('@')))) return undefined;
+  return { structure, at, selection };
+}
+
 /** Parse with recovery. Errors are returned in diagnostics; source is never discarded. */
 export function parseRecipe(source: string, options: ParseOptions = {}): Recipe {
   const recipe: Recipe = { modelVersion: 1, source, filename: options.filename, preamble: [], sections: [], diagnostics: [] };
@@ -68,12 +78,21 @@ export function parseRecipe(source: string, options: ParseOptions = {}): Recipe 
         const token: Token = { kind, raw, span: loc(start, p), name: kind === 'result' ? raw.slice(1, -1).trim() : parts[0] };
         if (kind === 'thing') {
           token.qualifiers = parts.slice(1);
-          const structure = parts[0].match(/^([^;:]+?)(?:\s*;\s*([^;:]+))?((?:\s*:\s*[^;:]+)*)$/);
-          if (structure) {
+          const parsed = thingStructure(parts[0]);
+          const structure = parsed?.structure;
+          if (parsed && structure) {
+            if (parsed.selection) {
+              const body = raw.slice(1, -1), at = body.indexOf('@');
+              const end = body.indexOf(',', at) < 0 ? body.length : body.indexOf(',', at);
+              const productRaw = body.slice(at, end).trimEnd();
+              token.product = { name: parsed.selection[2].trim(),
+                strength: parsed.selection[1] === '!' ? 'exact' : parsed.selection[1] === '~' ? 'approximate' : 'specified',
+                raw: productRaw, span: loc(start + 1 + at, start + 1 + at + productRaw.length) };
+            }
             token.name = structure[1].trim();
             if (structure[2]) token.variant = structure[2].trim();
             token.parts = structure[3] ? structure[3].split(':').slice(1).map(p => p.trim()) : [];
-          } else report('error', 'INVALID_THING_STRUCTURE', 'Expected base, optional ; variant, then nonempty : parts before comma qualifiers.', token.span);
+          } else report('error', 'INVALID_THING_STRUCTURE', 'Expected base, optional ; variant, : parts, then @ product with optional ~ or ! before comma qualifiers.', token.span);
         }
         if (kind === 'process') {
           token.parameters = parts.slice(1);
@@ -94,13 +113,14 @@ export function parseRecipe(source: string, options: ParseOptions = {}): Recipe 
                 if (b > a) children.push({ kind: 'text', raw: value.slice(a, b), span: loc(start + part.start + a, start + part.start + b) });
               };
               // Only explicit context positions opt in. Incidental parenthetical prose stays opaque.
-              for (const match of value.matchAll(/\(([^(){}<>\[\]!?=]+)\)/g)) {
+              for (const match of value.matchAll(/\(([^(){}<>\[\]?=]+)\)/g)) {
                 const at = match.index!, before = value.slice(cursor, at);
                 const positioned = /\b(?:in|into|with|using|on|onto|from|over)\s*$/.test(before) ||
                   (referenceSeen && /^\s*\+\s*$/.test(before));
                 const head = match[1].split(',')[0];
-                if (!positioned || /^\s*(?:!|~~|~)?\d+(?:[.\/–-]\d+)*\s*(?:s|m|h|seconds?|minutes?|hours?|mm|cm|inches?|g|kg|ml|l)\s*$/i.test(head) || !/[\p{L}]/u.test(head) || /[.!?]/.test(head) ||
-                    !/^([^;:]+?)(?:\s*;\s*([^;:]+))?((?:\s*:\s*[^;:]+)*)$/.test(head)) continue;
+                const identity = head.split('@')[0];
+                if (!positioned || /^\s*(?:!|~~|~)?\d+(?:[.\/–-]\d+)*\s*(?:s|m|h|seconds?|minutes?|hours?|mm|cm|inches?|g|kg|ml|l)\s*$/i.test(head) || !/[\p{L}]/u.test(head) || /[.!?]/.test(identity) ||
+                    !thingStructure(head)) continue;
                 if (referenceSeen && /^\s*\+\s*$/.test(before)) {
                   const plus = cursor + before.indexOf('+'); literal(cursor, plus);
                   children.push({ kind: 'operator', raw: '+', span: loc(start + part.start + plus, start + part.start + plus + 1) });
@@ -346,6 +366,8 @@ export function parseRecipe(source: string, options: ParseOptions = {}): Recipe 
         // Compare effective compatibility targets without changing authored structure.
         const refTarget = ingredientTarget(t);
         matches = matches.filter(d => {
+          // Product text discriminates local declarations, never vocabulary identities or substitutes.
+          if (t.product && d.token.product && key(t.product.name) !== key(d.token.product.name)) return false;
           const declared = d.kind === 'ingredient' ? ingredientTarget(d.token) : undefined;
           if (refTarget && declared && (refTarget.compatibility || declared.compatibility)) {
             // Explicit variant syntax may still refine an unqualified base declaration.
@@ -361,6 +383,7 @@ export function parseRecipe(source: string, options: ParseOptions = {}): Recipe 
               (d.token.parts ?? []).every((p, i) => key(p) === key(t.parts?.[i] ?? '')));
         });
         const exact = matches.filter(d => {
+          if (key(t.product?.name ?? '') !== key(d.token.product?.name ?? '')) return false;
           const declared = d.kind === 'ingredient' ? ingredientTarget(d.token) : undefined;
           if (refTarget && declared && (refTarget.compatibility || declared.compatibility))
             return refTarget.entry.id === declared.entry.id && key(refTarget.variant ?? '') === key(declared.variant ?? '') &&

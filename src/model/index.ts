@@ -5,12 +5,21 @@ export type ThingKind = 'ingredient' | 'equipment' | 'choice' | 'unresolved' | '
 export type Precision = 'unspecified' | 'high' | 'approximate' | 'very-approximate';
 /** Unevaluated numeric quantity expression, never a computed measurement. */
 export interface Quantity { raw: string; value: string; precision: Precision; span: Span }
+/** Authored commercial selection, independent of culinary identity and quantity precision. */
+export interface ProductSelection {
+  name: string;
+  strength: 'specified' | 'approximate' | 'exact';
+  /** Exact @ selection (including marker/spacing), with absolute source offsets. */
+  raw: string;
+  span: Span;
+}
 export interface Token {
   kind: 'thing' | 'result' | 'process' | 'operator' | 'text' | 'image' | 'judgement';
   raw: string;
   span: Span;
   name?: string;
   variant?: string;
+  product?: ProductSelection;
   parts?: string[];
   qualifiers?: string[];
   /** Explicit recognised qualifier occurrences; raw includes surrounding whitespace.

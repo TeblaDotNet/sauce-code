@@ -36,7 +36,7 @@ export function thingLabeler(recipe: Recipe): (t: Token, instruction: boolean) =
   return (t, instruction) => {
     const name = t.name ?? '';
     const qs = t.qualifiers ?? [];
-    const label = (qualifiers: readonly string[]) => {
+    const baseLabel = (qualifiers: readonly string[]) => {
       if (!t.variant && !t.parts?.length) return naturalThingLabel(name, qualifiers);
       // Explicit syntax is language-neutral. This renderer supplies English order.
       const prep = qualifiers.filter(q => preparation.test(q));
@@ -44,10 +44,13 @@ export function thingLabeler(recipe: Recipe): (t: Token, instruction: boolean) =
       return [...prep, ...(t.variant ? [t.variant] : []), name, ...(t.parts ?? [])].join(' ') +
         (rest.length ? ` (${rest.join('; ')})` : '');
     };
+    const label = (qualifiers: readonly string[]) => baseLabel(qualifiers) + (t.product
+      ? ` @ ${t.product.strength === 'exact' ? '!' : t.product.strength === 'approximate' ? '~' : ''}${t.product.name}` : '');
     if (!instruction || t.kind !== 'thing' || t.thingKind === 'ambiguous' || !t.declarationIds?.length)
       return label(qs);
     const peers = declarations.filter(d => (key(d.token.name!) === key(name) ||
       (t.canonicalId && d.token.canonicalId === t.canonicalId)) &&
+      key(d.token.product?.name ?? '') === key(t.product?.name ?? '') &&
       (d.token.variant ?? '') === (t.variant ?? '') && JSON.stringify(d.token.parts ?? []) === JSON.stringify(t.parts ?? []));
     const targets = peers.filter(d => t.declarationIds!.includes(d.id) && qs.every(q => d.token.qualifiers?.includes(q)));
     if (targets.length !== 1) return label(qs);

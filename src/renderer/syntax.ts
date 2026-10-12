@@ -40,7 +40,11 @@ export function syntaxLabel(t: Token, label: string | undefined, escape: (s: str
     if (label === undefined) {
       const start = value.indexOf(t.name!, 1); add(start, start + t.name!.length, thingRole!);
       // Only explicit ; and : fields, stopping before loose comma qualifiers.
-      const headEnd = value.indexOf(',') < 0 ? value.lastIndexOf(')') : value.indexOf(',');
+      const headEnd = t.product ? value.indexOf('@') : value.indexOf(',') < 0 ? value.lastIndexOf(')') : value.indexOf(',');
+      if (t.product) {
+        const start = t.product.span.start - t.span.start;
+        add(start, start + t.product.raw.length, 'specificity');
+      }
       for (const m of value.slice(0, headEnd).matchAll(/[;:]\s*([^;:]+?)(?=\s*[;:]|$)/g)) {
         const word = m[1].trim(), offset = m.index! + m[0].indexOf(word);
         add(offset, offset + word.length, 'specificity');
