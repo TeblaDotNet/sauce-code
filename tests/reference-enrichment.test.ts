@@ -121,11 +121,11 @@ test('gram-authored mass remains unchanged without density, even with conflictin
   assert.deepEqual(convert({from:'g',to:'g',amount:213,approximate:true},[observation(),observation()]),{ok:true,value:213,unit:'g',approximate:true});
 });
 
-test('130 enrichments load with unique eligible targets; all draft records stay below human review',()=>{
-  assert.equal(vocabulary.enrichments.length,130);
-  assert.equal(new Set(vocabulary.enrichments.map(e=>e.target.kind+':'+e.target.id)).size,130);
+test('230 enrichments load with unique eligible targets; all draft records stay below human review',()=>{
+  assert.equal(vocabulary.enrichments.length,230);
+  assert.equal(new Set(vocabulary.enrichments.map(e=>e.target.kind+':'+e.target.id)).size,230);
   for(const item of vocabulary.enrichments) assert.ok(createReferencePage(vocabulary,item.target.kind,item.target.id),item.target.id);
-  for(const [kind,count] of [['ingredient',45],['process',45],['equipment',40]] as const) assert.equal(vocabulary.enrichments.filter(e=>e.target.kind===kind).length,count);
+  for(const [kind,count] of [['ingredient',80],['process',80],['equipment',70]] as const) assert.equal(vocabulary.enrichments.filter(e=>e.target.kind===kind).length,count);
   assert.equal(vocabulary.entries.length,766);
   for(const e of vocabulary.enrichments){assert.equal(e.review_version,0.1);for(const r of [...e.editorial??[],...e.resources??[],...e.associations??[],...e.measurements??[]])assert.equal(r.review_version,0.1);assert.ok(renderReferenceHtml(createReferencePage(vocabulary,e.target.kind,e.target.id)!).includes('Version 0.1 — machine generated, not yet human reviewed'));}
 });
@@ -264,5 +264,20 @@ test('ingredient introductions identify the food then give culinary use; process
     assert.ok(intro,e.target.id);
     if(e.target.kind==='ingredient') assert.equal(intro.split(/(?<=[.!?])\s+/).length,2,e.target.id);
     if(e.target.kind==='process' && ['poach','sear','ferment','pickle'].includes(e.target.id)) assert.match(intro.split('.')[0],/\bis\b/,e.target.id);
+  }
+});
+
+test('next tranche equipment defines the object then use; processes open with direct definitions',()=>{
+  for(const id of 'butter-knife cheesecloth chopstick coffee-filter fork jug kitchen-shears meat-mallet slotted-spoon zester baking-dish baking-paper boston-shaker cake-tin cocktail-shaker double-boiler mesh-strainer paella-pan ramekin silicone-spatula springform-tin stainless-steel-frying-pan air-fryer airlock-lid carbon-steel-frying-pan fermentation-crock mason-jar moka-pot refrigerator slow-cooker'.split(' ')){
+    const item=vocabulary.enrichments.find(e=>e.target.kind==='equipment'&&e.target.id===id)!;
+    assert.ok(item,id);
+    const intro=item.editorial!.find(b=>b.role==='summary')!.text;
+    assert.equal(intro.split(/(?<=[.!?])\s+/).length,2,id);
+  }
+  for(const id of 'beat blend coat core cube deseed dissolve drain dredge fluff grind layer melt stir toss air-fry baste broil brown butterfly dry-roast glaze hard-boil infuse parboil pulse puree rub-in sweat autolyse freeze marinate pressure-cook temper-eggs thaw'.split(' ')){
+    const item=vocabulary.enrichments.find(e=>e.target.kind==='process'&&e.target.id===id)!;
+    assert.ok(item,id);
+    const intro=item.editorial!.find(b=>b.role==='summary')!.text;
+    assert.match(intro.split('.')[0],/\bis\b/,id);
   }
 });
