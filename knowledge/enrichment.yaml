@@ -8136,3 +8136,2678 @@
       role: deeper-explanation
       order: 2
       review_version: 0.1
+- target:
+    kind: ingredient
+    id: artichoke
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A globe artichoke is the unopened flower head of a cultivated thistle. Its tender leaf bases and heart are eaten after boiling, steaming, baking or grilling.
+      sources:
+        - goodfood-artichoke
+      review_version: 0.1
+    - id: selection
+      role: selection
+      text: Choose compact heads with firm leaves. Remove the fibrous central choke in mature heads; the tender heart underneath is useful food, not waste.
+      sources:
+        - goodfood-artichoke
+      review_version: 0.1
+  resources:
+    - resource: goodfood-artichoke
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: avocado
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Avocado is a fleshy fruit with a large central seed and a creamy edible interior. It is eaten sliced in salads and sandwiches or mashed into dips.
+      sources:
+        - cac-avocado
+        - goodfood-guacamole-method
+      review_version: 0.1
+    - id: judgement
+      role: judgement
+      text: Ripe fruit yields gently to pressure. Skin colour alone is unreliable because varieties differ; heating a hard avocado does not reproduce ripening.
+      sources:
+        - cac-avocado
+      review_version: 0.1
+  resources:
+    - resource: cac-avocado
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: goodfood-guacamole-method
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: butternut-squash
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Butternut squash is a winter squash with a firm rind and orange flesh. It is roasted, baked, mashed or cooked in soups.
+      sources:
+        - usu-winter-squash
+      review_version: 0.1
+    - id: selection
+      role: selection
+      text: Choose a firm squash without soft or damaged patches. Refrigerate cut pieces; the storage behaviour of an intact squash does not apply once it is cut.
+      sources:
+        - usu-winter-squash
+      review_version: 0.1
+  resources:
+    - resource: usu-winter-squash
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: cucumber
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Cucumber is a crisp, juicy fruit commonly eaten as a vegetable. It is used raw in salads and dips and in pickles.
+      sources:
+        - purdue-cucumber
+      review_version: 0.1
+    - id: selection
+      role: selection
+      text: Skin thickness and seed development differ between varieties. Peeling and removing seeds are preparation choices, not requirements for every cucumber.
+      sources:
+        - purdue-cucumber
+      review_version: 0.1
+  resources:
+    - resource: purdue-cucumber
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: leek
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Leek is an onion-family vegetable with overlapping leaf bases forming a pale shaft. It is cooked in soups, braises, pies and side dishes.
+      sources:
+        - purdue-leek
+      review_version: 0.1
+    - id: care
+      role: care
+      text: Split the shaft lengthways and rinse between the layers to remove trapped soil. Trim tough portions according to the dish rather than treating the whole green top as tender.
+      sources:
+        - purdue-leek
+      review_version: 0.1
+  resources:
+    - resource: purdue-leek
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: radish
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Radish is a crisp edible root with a peppery flavour that varies by variety. It is eaten raw, pickled or cooked by roasting, braising and other methods.
+      sources:
+        - purdue-radish
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: Fresh radish greens also have culinary uses. Remove them before storing the roots and prepare the greens separately.
+      sources:
+        - purdue-radish
+      review_version: 0.1
+  resources:
+    - resource: purdue-radish
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: sweet-potato
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Sweet potato is a starchy edible root from a plant in the morning-glory family. It is baked, roasted, boiled or mashed for sweet and savoury dishes.
+      sources:
+        - purdue-sweet-potato
+      review_version: 0.1
+    - id: context
+      role: context
+      text: Sweet potatoes are distinct from true yams. Varieties also differ in texture after cooking, so orange flesh alone does not describe every sweet potato.
+      sources:
+        - purdue-sweet-potato
+      review_version: 0.1
+  resources:
+    - resource: purdue-sweet-potato
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: mint
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Mint is an aromatic leafy herb with several culinary varieties, including spearmint and peppermint. It flavours drinks, jellies and savoury dishes such as lamb.
+      sources:
+        - illinois-mint
+      review_version: 0.1
+    - id: selection
+      role: selection
+      text: Varieties have distinct flavours. Choose the mint intended by the dish rather than assuming all mint tastes alike.
+      sources:
+        - illinois-mint
+      review_version: 0.1
+  resources:
+    - resource: illinois-mint
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: oregano
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Oregano is an aromatic culinary herb used fresh or dried. It seasons tomato dishes, sauces, soups and pizza.
+      sources:
+        - illinois-oregano
+      review_version: 0.1
+    - id: context
+      role: context
+      text: Several plants are sold under oregano names. Greek oregano and Mexican oregano are not the same plant; regional naming does not establish exact equivalence.
+      sources:
+        - illinois-oregano
+      review_version: 0.1
+  resources:
+    - resource: illinois-oregano
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: parsley
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Parsley is a leafy culinary herb sold in flat-leaf and curled forms. It is used to flavour dishes and as a garnish.
+      sources:
+        - illinois-parsley
+      review_version: 0.1
+    - id: selection
+      role: selection
+      text: Flat-leaf and curled parsley differ in leaf texture and flavour. Choose sound fresh leaves appropriate to the preparation.
+      sources:
+        - illinois-parsley
+      review_version: 0.1
+  resources:
+    - resource: illinois-parsley
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: thyme
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Thyme is an aromatic small-leaved herb with woody stems. It is used fresh or dried in soups, stews, stuffing and poultry dishes.
+      sources:
+        - illinois-thyme
+      review_version: 0.1
+    - id: context
+      role: context
+      text: Citrus-scented varieties differ from ordinary culinary thyme. Leaves and tender growth are more useful in the finished dish than stiff woody stems.
+      sources:
+        - illinois-thyme
+      review_version: 0.1
+  resources:
+    - resource: illinois-thyme
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: peanut
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Peanut is the edible seed of a legume whose pods develop underground. It is eaten roasted and used in peanut butter, sauces and cooked dishes.
+      sources:
+        - kew-peanut
+      review_version: 0.1
+  resources:
+    - resource: kew-peanut
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: pecan
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Pecan is an edible tree nut with a ridged kernel inside a shell. It is used in baking, snacks and savoury preparations such as dips.
+      sources:
+        - pecans-overview
+      review_version: 0.1
+  resources:
+    - resource: pecans-overview
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: granulated-sugar
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Granulated sugar is crystalline sucrose commonly refined from cane or sugar beet. It sweetens foods and drinks and is widely used in baking.
+      sources:
+        - sugar-types
+      review_version: 0.1
+    - id: context
+      role: context
+      text: Crystal size affects dissolution and handling. Powdered sugar and larger decorating crystals are different forms and should not be substituted indiscriminately.
+      sources:
+        - sugar-types
+      review_version: 0.1
+  resources:
+    - resource: sugar-types
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: apple-juice
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Apple juice is the liquid extracted from apples. It is drunk as a beverage and used in cooking for apple flavour and sweetness.
+      sources:
+        - ksu-apples
+      review_version: 0.1
+    - id: context
+      role: context
+      text: Cloudy and clear products differ in suspended solids. Read the label rather than assuming the word cider means the same product in every country.
+      sources:
+        - ksu-apples
+      review_version: 0.1
+  resources:
+    - resource: ksu-apples
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: beef-brisket
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Beef brisket is a cut from the breast or lower chest of cattle. It is commonly braised or slow-cooked and served sliced or shredded.
+      sources:
+        - beef-brisket-flat
+      review_version: 0.1
+    - id: selection
+      role: selection
+      text: The flat is the leaner portion of a brisket. A recipe for a flat is not necessarily timed for a whole brisket; check the cut and size being used.
+      sources:
+        - beef-brisket-flat
+      review_version: 0.1
+  resources:
+    - resource: beef-brisket-flat
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: chicken-thigh
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Chicken thigh is the upper portion of a chicken leg. It is roasted, grilled or braised, including in casseroles.
+      sources:
+        - fsis-chicken
+        - goodfood-thigh-casserole
+      review_version: 0.1
+    - id: selection
+      role: selection
+      text: Thighs may be sold with or without bones and skin. Match the form to the recipe rather than assuming a boneless piece will cook like a bone-in one.
+      sources:
+        - fsis-chicken
+      review_version: 0.1
+  resources:
+    - resource: fsis-chicken
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: goodfood-thigh-casserole
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: shrimp
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Shrimp are small edible crustaceans sold raw or cooked, with or without their shells. They are used in fried, grilled and poached dishes.
+      sources:
+        - gbc-prawns
+      review_version: 0.1
+    - id: context
+      role: context
+      text: Shrimp and prawn naming varies by region; British shrimp often means the small brown kind. A name alone does not establish size or whether a product is already cooked.
+      sources:
+        - gbc-shrimp
+        - gbc-prawns
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: Shells removed during preparation can flavour a seafood stock. Prepare them as food ingredients rather than automatically discarding them.
+      sources:
+        - gbc-prawns
+      review_version: 0.1
+  resources:
+    - resource: gbc-shrimp
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: gbc-prawns
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: feta
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Feta is a brined Greek cheese made from sheep milk or a mixture of sheep and goat milk. It is crumbled into salads and other prepared dishes.
+      sources:
+        - eu-feta
+        - goodfood-feta-salad
+      review_version: 0.1
+    - id: context
+      role: context
+      text: Feta PDO identifies cheese made within the protected Greek production specification. Other white brined cheeses may be useful in cooking, but the broad resemblance does not make them the same named product.
+      sources:
+        - eu-feta
+      review_version: 0.1
+  resources:
+    - resource: eu-feta
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: goodfood-feta-salad
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: mascarpone
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Mascarpone is a rich fresh cheese made from cream. It is used in tiramisu and other desserts or as a spread.
+      sources:
+        - cheesemaking-mascarpone
+        - dairy-fresh-cheese
+      review_version: 0.1
+    - id: storage
+      role: storage
+      text: Keep mascarpone refrigerated. It is a fresh cheese, not a hard cheese that can be treated as a pantry ingredient.
+      sources:
+        - dairy-fresh-cheese
+      review_version: 0.1
+  resources:
+    - resource: dairy-fresh-cheese
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: cheesemaking-mascarpone
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: brown-lentils
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Brown lentils are edible pulse seeds with a brown seed coat, generally sold whole. They are cooked in soups and stews or used in salads.
+      sources:
+        - lentils-about
+        - lentils-faq
+        - pulses-visual-guide
+      review_version: 0.1
+    - id: judgement
+      role: judgement
+      text: Whole and split lentils cook differently. Judge tenderness for the intended dish rather than using the timing for split lentils as a rule for whole ones.
+      sources:
+        - lentils-faq
+      review_version: 0.1
+  resources:
+    - resource: lentils-about
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: lentils-faq
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1
+    - resource: pulses-visual-guide
+      role: deeper-explanation
+      order: 3
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: maple-syrup
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Maple syrup is maple sap concentrated by boiling away water. It sweetens baking, sauces and dressings and is poured over foods such as pancakes.
+      sources:
+        - maple-cookbook
+      review_version: 0.1
+    - id: selection
+      role: selection
+      text: Colour grades also give an indication of flavour intensity. A darker syrup can bring a more pronounced maple flavour; pancake syrup on a label does not necessarily mean pure maple syrup.
+      sources:
+        - maple-cookbook
+      review_version: 0.1
+  resources:
+    - resource: maple-cookbook
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: lard
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Lard is rendered pig fat. It is used in pastry and other baking where a solid cooking fat is wanted.
+      sources:
+        - bbc-rub-in
+      review_version: 0.1
+    - id: context
+      role: context
+      text: Lard is an animal fat, not a general name for every shortening. Choose the fat specified by the recipe when its flavour or dietary suitability matters.
+      sources:
+        - bbc-rub-in
+      review_version: 0.1
+  resources:
+    - resource: bbc-rub-in
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: sesame-oil
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Sesame oil is oil extracted from sesame seeds. It is used for cooking and for flavouring dressings, marinades and finished dishes.
+      sources:
+        - kadoya-sesame
+      review_version: 0.1
+    - id: selection
+      role: selection
+      text: Roasted and unroasted oils differ markedly in aroma. Kadoya’s roasted oil is brown and fragrant, whereas its unroasted white oil is much less aromatic; check the product rather than assuming all sesame oil has the same flavour.
+      sources:
+        - kadoya-sesame
+      review_version: 0.1
+  resources:
+    - resource: kadoya-sesame
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: green-tea
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Green tea is tea processed with heat to limit leaf oxidation. It is infused in water to make hot or cold drinks.
+      sources:
+        - uktea-types
+        - uktea-brew
+      review_version: 0.1
+    - id: context
+      role: context
+      text: Steaming and pan heating are different ways of stopping oxidation. Green tea is not simply black tea harvested early, and different green teas need not have the same taste.
+      sources:
+        - uktea-types
+      review_version: 0.1
+  resources:
+    - resource: uktea-types
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: uktea-brew
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: nori
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Nori is edible seaweed commonly processed into thin dried sheets. It is used to wrap sushi and rice balls or cut into garnishes.
+      sources:
+        - kikkoman-nori
+      review_version: 0.1
+    - id: selection
+      role: selection
+      text: Products may be plain, roasted or seasoned. Keep sheets dry and use the form intended by the dish rather than treating every seaweed product as interchangeable.
+      sources:
+        - kikkoman-nori
+      review_version: 0.1
+  resources:
+    - resource: kikkoman-nori
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: fish-sauce
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Fish sauce is a salty liquid seasoning made through fermentation of fish with salt. It seasons cooked dishes and dipping sauces.
+      sources:
+        - redboat-process
+        - lebovitz-fish-sauce
+      review_version: 0.1
+    - id: context
+      role: context
+      text: Red Boat describes an anchovy-and-salt sauce fermented in wooden barrels. That is one producer’s method, not a universal ingredient list or a home-fermentation recipe.
+      sources:
+        - redboat-process
+      review_version: 0.1
+    - id: judgement
+      role: judgement
+      text: Use the actual product’s flavour and saltiness when seasoning. Its production history does not mean an improvised fish fermentation is safe.
+      sources:
+        - lebovitz-fish-sauce
+      review_version: 0.1
+  resources:
+    - resource: lebovitz-fish-sauce
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: redboat-process
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: instant-yeast
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Instant yeast is dried baker’s yeast supplied in small granules. It leavens bread and other yeast doughs.
+      sources:
+        - kab-yeast
+        - kab-yeast-guide
+      review_version: 0.1
+    - id: mechanism
+      role: mechanism
+      text: Yeast produces gas during fermentation, helping dough expand. Instant yeast can usually be mixed with dry ingredients; check the product and recipe rather than assuming it needs a separate proofing step.
+      sources:
+        - kab-yeast
+        - kab-yeast-guide
+      review_version: 0.1
+    - id: context
+      role: context
+      text: Instant and active dry yeast differ in processing and handling. Special formulations for sweet doughs are not a reason to treat all yeast products as identical.
+      sources:
+        - kab-yeast
+        - kab-yeast-guide
+      review_version: 0.1
+  resources:
+    - resource: kab-yeast
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: kab-yeast-guide
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: chorizo
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Chorizo is a family of seasoned sausages that includes fresh and cured forms. It is cooked into dishes or, when sold ready to eat, sliced and served.
+      sources:
+        - goodfood-chorizo
+        - fsis-sausages
+      review_version: 0.1
+    - id: context
+      role: context
+      text: Spanish-style cured chorizo and fresh Mexican chorizo are different preparations. Bayless’s enchilada recipe cooks crumbled fresh chorizo; that use should not be read as instructions for every product sold under the name.
+      sources:
+        - goodfood-chorizo
+        - bayless-chorizo
+      review_version: 0.1
+    - id: selection
+      role: selection
+      text: Check whether the package requires cooking and refrigeration. A sausage may look cooked or be smoked yet still require cooking; colour and firmness are not reliable substitutes for the label.
+      sources:
+        - fsis-sausages
+      review_version: 0.1
+    - id: care
+      role: care
+      text: Cured does not automatically mean shelf-stable or ready to eat. Follow the product’s handling directions rather than inferring safety from the word chorizo.
+      sources:
+        - fsis-sausages
+      review_version: 0.1
+  resources:
+    - resource: goodfood-chorizo
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: bayless-chorizo
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1
+    - resource: fsis-sausages
+      role: deeper-explanation
+      order: 3
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: creme-fraiche
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Crème fraîche is dairy cream thickened and mildly soured by a starter culture. It is spooned onto sweet or savoury dishes and stirred into sauces.
+      sources:
+        - goodfood-creme-fraiche
+      review_version: 0.1
+    - id: mechanism
+      role: mechanism
+      text: Culturing acidifies the cream and changes its texture. The finished ingredient has a gentle tang as well as richness; the name does not mean ordinary uncultured pouring cream.
+      sources:
+        - goodfood-creme-fraiche
+      review_version: 0.1
+    - id: selection
+      role: selection
+      text: Full-fat and reduced-fat products are sold. Their composition differs, so a recipe developed for one should not be assumed to behave identically with the other.
+      sources:
+        - goodfood-creme-fraiche
+      review_version: 0.1
+    - id: context
+      role: context
+      text: Sour cream is a related cultured product, but its acidity and richness can differ. A possible culinary substitution does not make the two ingredients identical.
+      sources:
+        - goodfood-creme-fraiche
+      review_version: 0.1
+  resources:
+    - resource: goodfood-creme-fraiche
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: cornflour
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Cornflour here means the fine starch extracted from maize, also called cornstarch. It is used to thicken sauces, gravies and other cooked mixtures.
+      sources:
+        - argo-starch-faq
+        - goodfood-thicken-stew
+      review_version: 0.1
+    - id: context
+      role: context
+      text: This page describes the starch used in British cornflour terminology. It does not describe whole ground maize flour or cornmeal; check a regional recipe’s intended ingredient before substituting.
+      sources:
+        - nigella-cornflour
+      review_version: 0.1
+    - id: mechanism
+      role: mechanism
+      text: Mix the starch with a little cool liquid before adding it to a hot mixture. Heating develops its thickening effect; adding dry powder straight to a hot sauce can leave lumps.
+      sources:
+        - goodfood-thicken-stew
+      review_version: 0.1
+    - id: judgement
+      role: judgement
+      text: Use the recipe’s thickening method and assess the cooked consistency. The pale dry powder is not a direct replacement for every wheat-flour thickener.
+      sources:
+        - goodfood-thicken-stew
+      review_version: 0.1
+  resources:
+    - resource: argo-starch-faq
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: goodfood-thicken-stew
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1
+    - resource: nigella-cornflour
+      role: deeper-explanation
+      order: 3
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: grits
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Grits are coarsely ground corn, with hominy versions made from treated corn. They are cooked into a soft dish served on its own or alongside foods such as eggs, greens and seafood.
+      sources:
+        - anson-coarse-grits
+        - anson-hominy-grits
+      review_version: 0.1
+    - id: context
+      role: context
+      text: The name covers products with different milling and processing histories. Hominy grits and ordinary coarse corn grits should not be treated as proof that every grits product has undergone the same treatment.
+      sources:
+        - anson-coarse-grits
+        - anson-hominy-grits
+      review_version: 0.1
+    - id: judgement
+      role: judgement
+      text: Particle size affects texture and cooking time. Anson Mills’ coarse product needs a longer cook than its quick grits; follow the chosen product rather than a universal time.
+      sources:
+        - anson-coarse-grits
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: Cooked grits can also be cooled into cakes. This is a different use of the cooked mixture, not a different raw grain.
+      sources:
+        - anson-coarse-grits
+      review_version: 0.1
+  resources:
+    - resource: anson-coarse-grits
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: anson-hominy-grits
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: self-raising-flour
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Self-raising flour is flour with raising agents already mixed in. It is used in cakes, scones and other baking recipes designed for it.
+      sources:
+        - nigella-self-rising
+      review_version: 0.1
+    - id: context
+      role: context
+      text: British self-raising flour normally has no added salt, while American self-rising flour commonly includes salt. Similar names do not guarantee the same formulation.
+      sources:
+        - nigella-self-rising
+      review_version: 0.1
+    - id: selection
+      role: selection
+      text: Check both the recipe’s regional context and the packet ingredients. Adding the full raising-agent allowance for plain flour as well can change the result.
+      sources:
+        - nigella-self-rising
+      review_version: 0.1
+    - id: judgement
+      role: judgement
+      text: A substitution must account for the raising agents and, where present, salt. Extra bicarbonate of soda is a separate recipe decision, not an automatic addition to every replacement.
+      sources:
+        - nigella-self-rising
+      review_version: 0.1
+  resources:
+    - resource: nigella-self-rising
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: white-vinegar
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Distilled white vinegar is a clear vinegar made by fermenting alcohol into acetic acid. It is used in dressings, sauces and pickling recipes.
+      sources:
+        - psu-vinegar
+        - nchfp-pickle
+      review_version: 0.1
+    - id: selection
+      role: selection
+      text: For preservation, the labelled acidity matters. Use the vinegar strength specified by a tested recipe rather than treating all clear vinegars as equivalent.
+      sources:
+        - psu-vinegar
+        - nchfp-pickle
+      review_version: 0.1
+    - id: care
+      role: care
+      text: Do not replace a specified pickling vinegar with homemade vinegar of unknown acidity. Nor should the recipe’s vinegar be diluted just to make the flavour milder.
+      sources:
+        - psu-vinegar
+        - nchfp-pickle
+      review_version: 0.1
+    - id: context
+      role: context
+      text: Adding vinegar to food does not by itself establish shelf stability. The complete tested preservation method determines preparation and storage requirements.
+      sources:
+        - psu-vinegar
+        - nchfp-pickle
+      review_version: 0.1
+  resources:
+    - resource: psu-vinegar
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: nchfp-pickle
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: kombucha-scoby
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A kombucha SCOBY is a mixed culture of bacteria and yeasts. It is used to ferment sweetened tea into kombucha.
+      sources:
+        - uga-kombucha
+      review_version: 0.1
+    - id: mechanism
+      role: mechanism
+      text: Yeasts convert sugar into alcohol, which acetic acid bacteria can then convert into acid. The culture is a community of microorganisms, not a single mushroom.
+      sources:
+        - uga-kombucha
+      review_version: 0.1
+    - id: care
+      role: care
+      text: Use a validated recipe and suitable clean food-contact equipment. Visible mould is a reason to discard both the tea and culture; do not try to rescue the batch by removing only the affected patch.
+      sources:
+        - uga-kombucha
+      review_version: 0.1
+    - id: context
+      role: context
+      text: Fermentation can leave alcohol in the drink, and acidity alone is not a complete safety assessment. This description supplies neither a brewing protocol nor a promise of shelf stability.
+      sources:
+        - uga-kombucha
+      review_version: 0.1
+  resources:
+    - resource: uga-kombucha
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: quarter
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Quartering is cutting food into four portions. The direction of the cuts depends on the ingredient and the recipe.
+      sources:
+        - landolakes-terms
+      review_version: 0.1
+  resources:
+    - resource: landolakes-terms
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: tear
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Tearing is pulling food apart into pieces by hand. It produces irregular pieces rather than the clean edges of a knife cut.
+      sources:
+        - landolakes-terms
+      review_version: 0.1
+  resources:
+    - resource: landolakes-terms
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: trim
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Trimming is cutting away portions that are not wanted for the current preparation. A trimming may still have another culinary use.
+      sources:
+        - landolakes-terms
+      review_version: 0.1
+  resources:
+    - resource: landolakes-terms
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: dip
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Dipping is briefly putting food into a liquid or soft mixture, often to coat its surface.
+      sources:
+        - landolakes-terms
+      review_version: 0.1
+  resources:
+    - resource: landolakes-terms
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: spread
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Spreading is distributing a soft ingredient or mixture across a surface.
+      sources:
+        - landolakes-terms
+      review_version: 0.1
+  resources:
+    - resource: landolakes-terms
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: whisk
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Whisking is beating or mixing ingredients with a whisk. It can combine ingredients or incorporate air, depending on the mixture and the motion.
+      sources:
+        - landolakes-terms
+      review_version: 0.1
+  resources:
+    - resource: landolakes-terms
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: shred
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Shredding is cutting or pulling food into thin strips or small strands.
+      sources:
+        - clubhouse-cooking-terms
+      review_version: 0.1
+    - id: mechanism
+      role: mechanism
+      text: A knife or grater can shred vegetables; cooked meat can be pulled apart with forks. Choose the method that suits the ingredient.
+      sources:
+        - clubhouse-cooking-terms
+      review_version: 0.1
+  resources:
+    - resource: clubhouse-cooking-terms
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: squeeze
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Squeezing is compressing food to force out liquid.
+      sources:
+        - goodfood-guacamole-method
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: Squeezing lime releases juice for guacamole; straining or picking out seeds is a separate step.
+      sources:
+        - goodfood-guacamole-method
+      review_version: 0.1
+  resources:
+    - resource: goodfood-guacamole-method
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: swirl
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Swirling is moving a liquid or mixture in a circular motion.
+      sources:
+        - chefsapprentice-glossary
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: A gentle swirl can distribute an addition through a sauce or soup without vigorous beating.
+      sources:
+        - chefsapprentice-glossary
+      review_version: 0.1
+  resources:
+    - resource: chefsapprentice-glossary
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: ladle
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Ladling is lifting and transferring liquid or loose food with a deep-bowled ladle. It is useful for serving soup or portioning a sauce.
+      sources:
+        - oxo-ladle
+      review_version: 0.1
+  resources:
+    - resource: oxo-ladle
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: scoop
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Scooping is gathering and lifting a portion of food with a spoon or scoop.
+      sources:
+        - kab-scoops
+      review_version: 0.1
+    - id: purpose
+      role: purpose
+      text: A portioning scoop helps make cookies or other pieces similar in size. The scoop size must still suit the recipe.
+      sources:
+        - kab-scoops
+      review_version: 0.1
+  resources:
+    - resource: kab-scoops
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: line
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Lining is fitting a covering inside or over the cooking surface of a tin or tray.
+      sources:
+        - kab-parchment
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: Baking parchment can reduce sticking and make baked food easier to lift out. Use a lining suitable for the recipe and heat source.
+      sources:
+        - kab-parchment
+      review_version: 0.1
+  resources:
+    - resource: kab-parchment
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: preheat
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Preheating is bringing an oven to the required temperature before putting the food inside.
+      sources:
+        - purdue-cooking-terms
+      review_version: 0.1
+  resources:
+    - resource: purdue-cooking-terms
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: weigh
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Weighing is measuring an ingredient’s mass with a scale.
+      sources:
+        - kab-scale
+      review_version: 0.1
+    - id: mechanism
+      role: mechanism
+      text: Set the scale to the required unit and tare the container before adding the ingredient. A weight is not a volume measurement.
+      sources:
+        - kab-scale
+      review_version: 0.1
+  resources:
+    - resource: kab-scale
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: crack
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Cracking an egg is breaking its shell so the contents can be released.
+      sources:
+        - kab-crack-eggs
+      review_version: 0.1
+    - id: judgement
+      role: judgement
+      text: Use a controlled tap and open the shell carefully. Check for fragments rather than assuming a particular tapping method eliminates them.
+      sources:
+        - kab-crack-eggs
+      review_version: 0.1
+  resources:
+    - resource: kab-crack-eggs
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: braid
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Braiding is interlacing strands of dough to form a loaf or other shaped bake.
+      sources:
+        - kab-kneading
+      review_version: 0.1
+    - id: mechanism
+      role: mechanism
+      text: Divide and roll the dough into strands, join them at one end and cross them in the chosen sequence.
+      sources:
+        - kab-kneading
+      review_version: 0.1
+    - id: judgement
+      role: judgement
+      text: Use a pattern suited to the number of strands. A braid is a shaping method, not a separate kind of dough.
+      sources:
+        - kab-kneading
+      review_version: 0.1
+  resources:
+    - resource: kab-kneading
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: churn
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Churning is repeatedly agitating cream or another mixture in a churn or similar device.
+      sources:
+        - kab-make-butter
+      review_version: 0.1
+    - id: mechanism
+      role: mechanism
+      text: In butter-making, continued agitation takes cream beyond a whipped foam until butter separates from the liquid. This is a different endpoint from whipped cream.
+      sources:
+        - kab-make-butter
+      review_version: 0.1
+    - id: context
+      role: context
+      text: An ice-cream machine also churns, but there the mixture is agitated while freezing. The word describes the movement, not one universal result.
+      sources:
+        - cuisinart-icecream
+      review_version: 0.1
+  resources:
+    - resource: kab-make-butter
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: cuisinart-icecream
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1
+- target:
+    kind: process
+    id: debone
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Deboning is removing bones from meat, poultry or fish.
+      sources:
+        - landolakes-terms
+      review_version: 0.1
+    - id: mechanism
+      role: mechanism
+      text: For a chicken thigh, expose the bone and cut close to it to release the surrounding flesh. Keep the supporting hand away from the blade.
+      sources:
+        - gbc-chicken-thighs
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: Deboning leaves a piece that can be stuffed, rolled or cooked without its central bone. It does not necessarily require removing the skin.
+      sources:
+        - gbc-chicken-thighs
+      review_version: 0.1
+  resources:
+    - resource: gbc-chicken-thighs
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: landolakes-terms
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1
+- target:
+    kind: process
+    id: fillet
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Filleting is cutting a length of flesh away from the bones of a fish or other animal.
+      sources:
+        - gbc-fish-prep
+      review_version: 0.1
+    - id: mechanism
+      role: mechanism
+      text: "Fish shape determines the cuts: round and flat fish have different structures. Follow the anatomy rather than treating one cutting pattern as universal."
+      sources:
+        - gbc-fish-prep
+      review_version: 0.1
+    - id: judgement
+      role: judgement
+      text: Removing a fillet does not guarantee that all small bones are gone. Check the finished portion before cooking or serving.
+      sources:
+        - gbc-fish-prep
+      review_version: 0.1
+  resources:
+    - resource: gbc-fish-prep
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: flatten
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Flattening is pressing, rolling or pounding food to reduce its thickness.
+      sources:
+        - oxo-meat-tenderizer
+        - goodfood-butterfly
+      review_version: 0.1
+    - id: purpose
+      role: purpose
+      text: A flatter, more even piece of meat can cook more evenly than a thick piece with a thin edge.
+      sources:
+        - oxo-meat-tenderizer
+        - goodfood-butterfly
+      review_version: 0.1
+    - id: mechanism
+      role: mechanism
+      text: A mallet’s smooth face can flatten a cutlet. Work towards the required thickness rather than continuing until the flesh tears.
+      sources:
+        - oxo-meat-tenderizer
+        - goodfood-butterfly
+      review_version: 0.1
+  resources:
+    - resource: oxo-meat-tenderizer
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: goodfood-butterfly
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1
+- target:
+    kind: process
+    id: pound
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Pounding is striking food repeatedly with a suitable tool.
+      sources:
+        - oxo-meat-tenderizer
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: A meat mallet can flatten a cutlet or tenderise it. Its smooth and textured faces have different uses; pounding does not always mean tearing the meat apart.
+      sources:
+        - oxo-meat-tenderizer
+      review_version: 0.1
+  resources:
+    - resource: oxo-meat-tenderizer
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: score
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Scoring is making shallow cuts in the surface of food.
+      sources:
+        - clubhouse-cooking-terms
+      review_version: 0.1
+    - id: purpose
+      role: purpose
+      text: The cuts can help control curling or create a pattern. Their depth and spacing depend on the food; scoring does not mean cutting it into separate portions.
+      sources:
+        - clubhouse-cooking-terms
+      review_version: 0.1
+  resources:
+    - resource: clubhouse-cooking-terms
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: shake
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Shaking is moving a closed vessel briskly back and forth to mix its contents.
+      sources:
+        - difford-two-piece
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: Cocktail shaking mixes, chills and aerates a drink with ice.
+      sources:
+        - difford-two-piece
+      review_version: 0.1
+    - id: care
+      role: care
+      text: Secure the shaker before moving it and keep a firm hold on both parts. Use equipment intended for the mixture being shaken.
+      sources:
+        - difford-two-piece
+      review_version: 0.1
+  resources:
+    - resource: difford-two-piece
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: shape
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Shaping is forming a mixture or piece of food into its intended outline.
+      sources:
+        - kab-sourdough-folds
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: For bread, shaping organises the dough into a loaf with a supported surface. Handle it without tearing that surface or flattening out all the gas.
+      sources:
+        - kab-sourdough-folds
+      review_version: 0.1
+  resources:
+    - resource: kab-sourdough-folds
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: steep
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Steeping is leaving an ingredient in liquid so flavour or other soluble material transfers into it.
+      sources:
+        - uktea-brew
+      review_version: 0.1
+    - id: judgement
+      role: judgement
+      text: For tea, the water temperature and contact time depend on the variety. Remove the leaves at the intended endpoint rather than treating every tea alike.
+      sources:
+        - uktea-brew
+      review_version: 0.1
+  resources:
+    - resource: uktea-brew
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: stretch-and-fold
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Stretching and folding is lifting part of a dough, extending it and folding it back over the rest.
+      sources:
+        - kab-sourdough-folds
+      review_version: 0.1
+    - id: purpose
+      role: purpose
+      text: Repeated folds during a dough’s rest can build strength and help the baker judge its development.
+      sources:
+        - kab-sourdough-folds
+      review_version: 0.1
+    - id: judgement
+      role: judgement
+      text: Handle the dough without tearing it. Use the recipe’s folding schedule rather than assuming more force or more folds always improve the loaf.
+      sources:
+        - kab-sourdough-folds
+      review_version: 0.1
+  resources:
+    - resource: kab-sourdough-folds
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: toast
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Toasting is heating food until it develops a toasted aroma, colour or crispness.
+      sources:
+        - landolakes-terms
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: Whole spices can be toasted in a dry pan before grinding. Bread is another familiar application, with a different texture goal.
+      sources:
+        - gbc-toast-spices
+        - landolakes-terms
+      review_version: 0.1
+    - id: judgement
+      role: judgement
+      text: Move small spices for even heating and take them out of the hot pan when ready. Residual heat can carry them from fragrant to burnt.
+      sources:
+        - gbc-toast-spices
+      review_version: 0.1
+  resources:
+    - resource: gbc-toast-spices
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: landolakes-terms
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1
+- target:
+    kind: process
+    id: render
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Rendering is heating fatty tissue to release and separate its fat.
+      sources:
+        - pryles-render
+      review_version: 0.1
+    - id: purpose
+      role: purpose
+      text: It produces a cooking fat from trimmings, with solid tissue left behind.
+      sources:
+        - pryles-render
+      review_version: 0.1
+    - id: mechanism
+      role: mechanism
+      text: Gentle heating releases liquid fat, which can be strained away from the solids. Melting an already rendered fat is a simpler change and does not repeat the whole process.
+      sources:
+        - pryles-render
+      review_version: 0.1
+  resources:
+    - resource: pryles-render
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: scald
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Scalding a liquid is heating it to just below boiling.
+      sources:
+        - clubhouse-cooking-terms
+      review_version: 0.1
+    - id: judgement
+      role: judgement
+      text: For milk, look for small bubbles forming rather than a rolling boil. If the recipe requires cooled scalded milk, let it reach the specified stage before combining it with other ingredients.
+      sources:
+        - purdue-cooking-terms
+        - kab-scalded-milk
+      review_version: 0.1
+    - id: context
+      role: context
+      text: Some recipes also use scald for a brief boiling-water treatment of food. Read the object and surrounding instructions; the word alone does not specify one treatment for everything.
+      sources:
+        - clubhouse-cooking-terms
+      review_version: 0.1
+  resources:
+    - resource: purdue-cooking-terms
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: clubhouse-cooking-terms
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1
+    - resource: kab-scalded-milk
+      role: deeper-explanation
+      order: 3
+      review_version: 0.1
+- target:
+    kind: process
+    id: cure
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Curing is treating food with salt and, in some meat preparations, a specified curing mixture containing nitrite or nitrate.
+      sources:
+        - uga-curing
+      review_version: 0.1
+    - id: purpose
+      role: purpose
+      text: It changes flavour, colour and keeping properties. Dry application and brining are different ways of bringing a cure into contact with food.
+      sources:
+        - uga-curing
+      review_version: 0.1
+    - id: care
+      role: care
+      text: Curing salts are not ordinary table salt, and different mixtures are not interchangeable. Use an authoritative tested method and its exact ingredients; this overview gives no cure proportions or processing schedule.
+      sources:
+        - uga-curing
+      review_version: 0.1
+    - id: judgement
+      role: judgement
+      text: Cured food may still need cooking and refrigeration. The word cured is not proof that a product is ready to eat or shelf-stable.
+      sources:
+        - fsis-sausages
+      review_version: 0.1
+  resources:
+    - resource: uga-curing
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: fsis-sausages
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1
+- target:
+    kind: process
+    id: lacto-ferment
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Lacto-fermenting is fermenting food through the activity of lactic acid bacteria.
+      sources:
+        - umn-ferment
+      review_version: 0.1
+    - id: mechanism
+      role: mechanism
+      text: For vegetables, bacteria use available sugars and produce acid. This differs from quick pickling, where acid is added directly.
+      sources:
+        - umn-ferment
+      review_version: 0.1
+    - id: care
+      role: care
+      text: Use a tested recipe with its specified salt, temperature and storage conditions. Keep vegetables submerged as directed; salt levels are part of the method, not simply a seasoning preference.
+      sources:
+        - umn-ferment
+        - illinois-ferment-faq
+      review_version: 0.1
+    - id: judgement
+      role: judgement
+      text: Bubbles or a sour smell alone do not prove safe fermentation. Discard produce that is slimy or smells spoiled, and follow the tested method’s endpoint and storage instructions.
+      sources:
+        - umn-ferment
+        - illinois-ferment-faq
+      review_version: 0.1
+  resources:
+    - resource: umn-ferment
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: illinois-ferment-faq
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1
+- target:
+    kind: process
+    id: dry
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Drying is removing moisture from food.
+      sources:
+        - umn-drying
+      review_version: 0.1
+    - id: purpose
+      role: purpose
+      text: In preservation, enough moisture must be removed to limit microbial growth. A food that merely feels dry on the surface has not necessarily reached that state.
+      sources:
+        - umn-drying
+      review_version: 0.1
+    - id: mechanism
+      role: mechanism
+      text: Food type, piece thickness, airflow and the drying method affect the result. Excessive heat can dry the outside while leaving moisture inside.
+      sources:
+        - umn-drying
+      review_version: 0.1
+    - id: care
+      role: care
+      text: Follow food-specific tested guidance for preparation, drying and storage. Meat jerky needs an appropriate heat treatment as well as drying; this overview does not establish a shelf life.
+      sources:
+        - illinois-drying
+      review_version: 0.1
+    - id: context
+      role: context
+      text: A recipe may instead mean blotting a surface dry before cooking. That short preparation step should not be read as preservation.
+      sources:
+        - cia-sear
+      review_version: 0.1
+  resources:
+    - resource: umn-drying
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: illinois-drying
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1
+    - resource: cia-sear
+      role: deeper-explanation
+      order: 3
+      review_version: 0.1
+- target:
+    kind: process
+    id: sun-dry
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Sun drying is using outdoor solar heat to remove moisture from food.
+      sources:
+        - umn-drying
+      review_version: 0.1
+    - id: mechanism
+      role: mechanism
+      text: The process depends on the weather and air movement. Slow drying in humid conditions can allow food to spoil before it dries sufficiently.
+      sources:
+        - umn-drying
+      review_version: 0.1
+    - id: care
+      role: care
+      text: Illinois Extension limits suitable home sun-drying conditions to fruits, not vegetables or meat. A commercial sun-dried ingredient does not establish a safe home method for the same food.
+      sources:
+        - illinois-drying
+      review_version: 0.1
+    - id: judgement
+      role: judgement
+      text: Outdoor-dried fruit also needs the guidance’s insect-control treatment before storage. Follow a complete tested method; sunny weather alone is not a preservation plan.
+      sources:
+        - illinois-drying
+      review_version: 0.1
+  resources:
+    - resource: illinois-drying
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: umn-drying
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1
+- target:
+    kind: process
+    id: reheat
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Reheating is heating previously cooked food again.
+      sources:
+        - fsis-slow-cooker
+      review_version: 0.1
+    - id: judgement
+      role: judgement
+      text: Warm edges do not establish that the centre is hot enough. Use a thermometer and the appropriate food-safety guidance for the food and method.
+      sources:
+        - fsis-foodborne
+      review_version: 0.1
+    - id: care
+      role: care
+      text: "Reheating does not reliably rescue food that has been stored unsafely: some bacterial toxins resist heat. Keep cooling and storage separate from the decision to reheat."
+      sources:
+        - fsis-foodborne
+      review_version: 0.1
+    - id: context
+      role: context
+      text: USDA does not recommend reheating leftovers in a slow cooker. Reheating promptly and holding already-hot food are different tasks.
+      sources:
+        - fsis-slow-cooker
+      review_version: 0.1
+  resources:
+    - resource: fsis-foodborne
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: fsis-slow-cooker
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1
+- target:
+    kind: process
+    id: flambe
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Flambéing is igniting alcohol added to a hot dish or pan.
+      sources:
+        - ice-flambe
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: It appears in pan sauces and desserts such as crêpes Suzette. It is a controlled flame technique, distinct from simply adding a spirit for flavour.
+      sources:
+        - ice-flambe
+      review_version: 0.1
+    - id: care
+      role: care
+      text: Do not pour spirits directly from a bottle into a hot or flaming pan. Measure separately, remove the pan from direct heat before adding alcohol, and keep the area clear of combustible items.
+      sources:
+        - ice-flambe
+      review_version: 0.1
+    - id: context
+      role: context
+      text: Flaming does not remove all alcohol from a dish. Choose another preparation when avoiding alcohol matters; a brief visible flame is not evidence of an alcohol-free result.
+      sources:
+        - usda-retention
+      review_version: 0.1
+  resources:
+    - resource: ice-flambe
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: usda-retention
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: butchers-twine
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Butcher’s twine is food-safe string intended for tying food. It is used to bind roasts or truss poultry during cooking.
+      sources:
+        - recteq-twine
+      review_version: 0.1
+    - id: selection
+      role: selection
+      text: Choose twine sold for the cooking task. Recteq’s example is cotton; ordinary craft string is not established as a substitute by that specification.
+      sources:
+        - recteq-twine
+      review_version: 0.1
+  resources:
+    - resource: recteq-twine
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: paper-towel
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A paper towel is an absorbent disposable paper sheet. In food preparation it is used for tasks such as patting washed greens dry.
+      sources:
+        - landolakes-equipment
+      review_version: 0.1
+  resources:
+    - resource: landolakes-equipment
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: skewer
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A skewer is a long pointed rod, commonly made from wood or metal. It holds pieces of food together for cooking or serving.
+      sources:
+        - clubhouse-cooking-terms
+      review_version: 0.1
+  resources:
+    - resource: clubhouse-cooking-terms
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: toothpick
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A toothpick is a small pointed pick. In baking it is used to probe cakes and quick breads for the recipe’s doneness cue.
+      sources:
+        - landolakes-equipment
+      review_version: 0.1
+    - id: judgement
+      role: judgement
+      text: Use a clean pick for each check; old batter on it can confuse the result.
+      sources:
+        - landolakes-equipment
+      review_version: 0.1
+  resources:
+    - resource: landolakes-equipment
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: spoon
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A spoon is a utensil with a bowl-shaped end and a handle. It is used to stir, mix, transfer or serve food.
+      sources:
+        - landolakes-equipment
+      review_version: 0.1
+  resources:
+    - resource: landolakes-equipment
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: tea-strainer
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A tea strainer is a small perforated or mesh utensil that catches loose tea leaves. It is used when pouring brewed tea into a cup.
+      sources:
+        - fortnum-tea-strainer
+        - uktea-brew
+      review_version: 0.1
+  resources:
+    - resource: fortnum-tea-strainer
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: uktea-brew
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: hawthorne-strainer
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A Hawthorne strainer is a bar strainer with a spring around its edge. It holds back ice and larger particles while a mixed drink is poured from a shaker.
+      sources:
+        - difford-bar-kit
+      review_version: 0.1
+    - id: judgement
+      role: judgement
+      text: A fine strainer can catch smaller fragments that pass through. The two tools do not have identical filtering action.
+      sources:
+        - difford-bar-kit
+      review_version: 0.1
+  resources:
+    - resource: difford-bar-kit
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: beaker
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A kitchen beaker is a tall open vessel for holding ingredients. It is commonly used with a compatible hand blender to mix small quantities.
+      sources:
+        - braun-beaker
+      review_version: 0.1
+    - id: selection
+      role: selection
+      text: Match the vessel to the blender head and intended task. A beaker’s appearance alone does not establish heat resistance or appliance compatibility.
+      sources:
+        - braun-beaker
+      review_version: 0.1
+  resources:
+    - resource: braun-beaker
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: scraper
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A kitchen scraper is a tool with an edge used against a work surface or bowl. It gathers or portions dough and helps remove clinging mixture.
+      sources:
+        - oxo-scraper
+        - kab-bowl-scraper
+      review_version: 0.1
+    - id: context
+      role: context
+      text: A rigid bench scraper can divide dough. That particular design should not be assumed when a recipe calls for a flexible bowl scraper.
+      sources:
+        - oxo-scraper
+        - kab-bowl-scraper
+      review_version: 0.1
+  resources:
+    - resource: oxo-scraper
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: kab-bowl-scraper
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: roasting-tray
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A roasting tray is an oven tray with sides that contain food and cooking juices. It is used for roasting meat and vegetables.
+      sources:
+        - allclad-roaster
+        - allclad-care
+      review_version: 0.1
+    - id: selection
+      role: selection
+      text: Allow enough room for the food and its juices. Check the tray’s supported heat sources before using it on a hob for gravy.
+      sources:
+        - allclad-roaster
+        - allclad-care
+      review_version: 0.1
+  resources:
+    - resource: allclad-roaster
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: allclad-care
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: aluminium-foil
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Aluminium foil is a thin flexible sheet of aluminium. It is used to wrap food, cover dishes and line suitable cooking trays.
+      sources:
+        - reynolds-foil
+      review_version: 0.1
+    - id: context
+      role: context
+      text: Reynolds says either face of its standard foil can contact food; its non-stick foil has a designated food-contact side. Shiny versus dull is not a universal instruction across all foil products.
+      sources:
+        - reynolds-foil
+      review_version: 0.1
+    - id: care
+      role: care
+      text: Acidic or salty foods can cause discolouration or small holes in foil. Use the product’s guidance for the food and appliance rather than assuming every use is suitable.
+      sources:
+        - reynolds-foil
+      review_version: 0.1
+  resources:
+    - resource: reynolds-foil
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: casserole-dish
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A casserole dish is an ovenproof vessel for baking a dish of food. It is used for casseroles, lasagne and similar bakes.
+      sources:
+        - landolakes-equipment
+      review_version: 0.1
+    - id: selection
+      role: selection
+      text: Material, depth and capacity vary. Oven suitability does not establish that a dish can also be heated directly on a hob.
+      sources:
+        - landolakes-equipment
+      review_version: 0.1
+  resources:
+    - resource: landolakes-equipment
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: cookie-sheet
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A cookie sheet is a broad flat baking surface with little or no raised rim. It is used to bake cookies and other small items.
+      sources:
+        - kab-pans
+      review_version: 0.1
+    - id: context
+      role: context
+      text: A rimmed sheet pan can contain juices that a rimless sheet cannot. Choose the shape and material intended by the recipe.
+      sources:
+        - kab-pans
+      review_version: 0.1
+  resources:
+    - resource: kab-pans
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: food-container
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A food container is a vessel intended to hold food during storage. It is used to keep ingredients or prepared dishes covered and separated.
+      sources:
+        - fda-food-storage
+      review_version: 0.1
+    - id: care
+      role: care
+      text: Cover refrigerated food and use prompt, appropriate refrigeration. A sealed container does not remove the need to control storage time and temperature.
+      sources:
+        - fda-food-storage
+      review_version: 0.1
+  resources:
+    - resource: fda-food-storage
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: plastic-wrap
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Plastic wrap is a thin flexible food-wrapping film that clings around food or containers. It is used to cover prepared ingredients and protect food during storage.
+      sources:
+        - glad-wrap-au
+      review_version: 0.1
+    - id: care
+      role: care
+      text: For microwave use, choose wrap labelled for that purpose, vent it and keep it clear of the food. Storage wrapping and microwave suitability are different permissions; follow the actual product directions.
+      sources:
+        - fsis-microwave-wrap
+      review_version: 0.1
+  resources:
+    - resource: glad-wrap-au
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: fsis-microwave-wrap
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: proving-basket
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A proving basket is a shaped basket that supports bread dough during its final rise. It is used to help a free-standing loaf keep its form before baking.
+      sources:
+        - kab-sourdough-folds
+      review_version: 0.1
+    - id: mechanism
+      role: mechanism
+      text: Flour the basket or its liner as the method directs to reduce sticking. The dough is turned out for baking; the basket provides support during proving.
+      sources:
+        - kab-sourdough-folds
+      review_version: 0.1
+  resources:
+    - resource: kab-sourdough-folds
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: steaming-basket
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A steaming basket is a perforated insert that holds food above boiling water. It is used to cook food in steam inside a covered pan.
+      sources:
+        - landolakes-equipment
+      review_version: 0.1
+  resources:
+    - resource: landolakes-equipment
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: thermos
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A thermos is an insulated vessel designed to slow temperature change in its contents. It is used to carry hot or cold drinks and, in suitable food-jar forms, prepared food.
+      sources:
+        - thermos-faq
+      review_version: 0.1
+    - id: care
+      role: care
+      text: Thermos advises preheating suitable food jars and filling them with already-hot food. The vessel retains heat; it is not an active reheating appliance.
+      sources:
+        - thermos-faq
+      review_version: 0.1
+    - id: selection
+      role: selection
+      text: Follow the particular model’s permitted contents, cleaning and holding guidance. Do not transfer a quoted retention time from one bottle or food jar to another.
+      sources:
+        - thermos-faq
+      review_version: 0.1
+  resources:
+    - resource: thermos-faq
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: toaster
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A pop-up toaster is an electric appliance with heated slots for bread. It is used to brown and crisp slices.
+      sources:
+        - dualit-toaster-care
+      review_version: 0.1
+    - id: care
+      role: care
+      text: Attend the toaster while it is operating and unplug it before cleaning. Use its instructions for removing crumbs or stuck food; do not improvise with metal utensils in a live appliance.
+      sources:
+        - dualit-toaster-care
+      review_version: 0.1
+  resources:
+    - resource: dualit-toaster-care
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: waffle-maker
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A waffle maker is an appliance with two patterned heated plates. It cooks batter between them to form waffles.
+      sources:
+        - cuisinart-waffle
+      review_version: 0.1
+    - id: judgement
+      role: judgement
+      text: Batter expands as it cooks, so use the fill guidance for the model. Plate shape and depth affect the waffle produced.
+      sources:
+        - cuisinart-waffle
+      review_version: 0.1
+    - id: care
+      role: care
+      text: Switch off, unplug and cool before cleaning. Cuisinart’s WAF1U has removable washable plates; that permission does not mean a whole appliance or another model can be immersed.
+      sources:
+        - cuisinart-waffle
+      review_version: 0.1
+  resources:
+    - resource: cuisinart-waffle
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: ice-cream-maker
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: An ice-cream maker is a device that agitates a mixture while it freezes. It is used to make ice cream, sorbet and related frozen desserts.
+      sources:
+        - cuisinart-icecream
+      review_version: 0.1
+    - id: mechanism
+      role: mechanism
+      text: Freezer-bowl models such as Cuisinart’s ICE-21C require the bowl to be frozen in advance. Do not assume that preparation step applies to every machine design.
+      sources:
+        - cuisinart-icecream
+      review_version: 0.1
+    - id: care
+      role: care
+      text: Churning is not a cooking or pasteurising step. Prepare the base as the recipe requires, and follow the model’s cleaning directions without immersing its motor base.
+      sources:
+        - cuisinart-icecream
+      review_version: 0.1
+  resources:
+    - resource: cuisinart-icecream
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: mixer
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A kitchen mixer is a powered appliance that moves beaters or other attachments through ingredients. It is used for mixing, beating and, with suitable equipment, kneading.
+      sources:
+        - ka-mixers
+        - ka-beaters
+      review_version: 0.1
+    - id: selection
+      role: selection
+      text: Hand and stand mixers differ in support, capacity and available attachments. A dough hook is a specific attachment, not a capability guaranteed by the word mixer.
+      sources:
+        - ka-mixers
+        - ka-beaters
+      review_version: 0.1
+    - id: judgement
+      role: judgement
+      text: Choose the attachment and load allowed by the model. A whisk and a flat beater perform different jobs even when they fit the same machine.
+      sources:
+        - ka-mixers
+        - ka-beaters
+      review_version: 0.1
+  resources:
+    - resource: ka-mixers
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: ka-beaters
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: cast-iron-frying-pan
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A cast-iron frying pan is a shallow pan made from cast iron. It is used for frying, searing and suitable oven cooking.
+      sources:
+        - lodge-care
+      review_version: 0.1
+    - id: mechanism
+      role: mechanism
+      text: Cast iron holds heat well and responds less quickly to heat changes than a light pan. Preheat patiently and adjust the burner rather than assuming the highest setting gives the best result.
+      sources:
+        - lodge-care
+      review_version: 0.1
+    - id: care
+      role: care
+      text: For its seasoned iron, Lodge recommends cooling, hand washing, thorough drying and a light application of oil. Soap is permitted in that guidance; the seasoning is a bonded oil layer, not a reason to leave food residue behind.
+      sources:
+        - lodge-care
+      review_version: 0.1
+    - id: context
+      role: context
+      text: Seasoned bare iron and enamelled cast iron have different surfaces. Follow the actual pan’s care and heat-source instructions, especially when coatings or handle materials differ.
+      sources:
+        - lodge-guide
+      review_version: 0.1
+  resources:
+    - resource: lodge-care
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: lodge-guide
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: non-stick-frying-pan
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A non-stick frying pan is a shallow pan with a surface designed to reduce sticking. It is used for frying foods that can be difficult to release, such as eggs.
+      sources:
+        - tefal-care
+      review_version: 0.1
+    - id: care
+      role: care
+      text: Tefal advises against prolonged high heat and recommends cooling its pans before washing with a soft sponge. Those instructions do not establish the maximum temperature or dishwasher suitability of another manufacturer’s coating.
+      sources:
+        - tefal-care
+      review_version: 0.1
+    - id: selection
+      role: selection
+      text: Check the particular pan’s permitted utensils, hob types and oven use. A coating, handle or lid can impose different limits from the metal body.
+      sources:
+        - allclad-care
+      review_version: 0.1
+    - id: judgement
+      role: judgement
+      text: Do not apply bare cast-iron seasoning routines automatically to a coated pan. Follow the manufacturer’s directions if the coating is damaged rather than improvising a repair.
+      sources:
+        - tefal-care
+        - allclad-care
+      review_version: 0.1
+  resources:
+    - resource: tefal-care
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: allclad-care
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: reynolds-oven-bag
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A Reynolds oven bag is a heat-resistant nylon cooking bag made by Reynolds Kitchens. It is used to roast meat and vegetables while containing juices.
+      sources:
+        - reynolds-oven-bags
+      review_version: 0.1
+    - id: care
+      role: care
+      text: Use the package directions for the supporting pan, flour or approved alternative, steam slits and oven clearance. These are parts of the method, not optional decorations.
+      sources:
+        - reynolds-oven-bags
+      review_version: 0.1
+    - id: selection
+      role: selection
+      text: Reynolds excludes grills, toaster ovens and countertop roaster or convection ovens from the stated uses. Its oven bags and slow-cooker liners are different products.
+      sources:
+        - reynolds-oven-bags
+      review_version: 0.1
+    - id: context
+      role: context
+      text: The manufacturer also advises against using an oven bag as a brining container or reusing it for storing or reheating leftovers. Do not infer extra uses from the bag’s heat resistance.
+      sources:
+        - reynolds-oven-bags
+      review_version: 0.1
+  resources:
+    - resource: reynolds-oven-bags
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: ziplock-bag
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A ziplock-style bag is a flexible storage bag with a resealable press-together closure. It is used to contain food for storage and, where specified, freezing.
+      sources:
+        - ziploc-faq
+      review_version: 0.1
+    - id: context
+      role: context
+      text: The generic closure description does not identify a material or heat rating. Ziploc is a brand with several different product lines, not proof that every similarly named bag has the same permissions.
+      sources:
+        - ziploc-faq
+      review_version: 0.1
+    - id: care
+      role: care
+      text: Ziploc’s current guidance allows microwave defrosting or reheating of its appropriate bags with venting, but distinguishes those uses from cooking. Check the exact package rather than heating an unspecified storage bag.
+      sources:
+        - ziploc-faq
+      review_version: 0.1
+    - id: selection
+      role: selection
+      text: The brand excludes its polyethylene bags from sous-vide use and identifies its silicone Endurables separately. A closure that seals well does not by itself establish cooking suitability.
+      sources:
+        - ziploc-faq
+      review_version: 0.1
+  resources:
+    - resource: ziploc-faq
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: sous-vide-circulator
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A sous-vide circulator is a device that heats and circulates water at a controlled temperature. It is used to cook suitably packaged food in a water bath.
+      sources:
+        - baldwin-sous-vide
+      review_version: 0.1
+    - id: mechanism
+      role: mechanism
+      text: Circulation helps distribute heat through the bath. The displayed water temperature is not an instant measurement of the food’s centre.
+      sources:
+        - baldwin-sous-vide
+      review_version: 0.1
+    - id: care
+      role: care
+      text: Follow the model’s water-level limits and keep its electrical parts out of the bath. Anova One instructions require unplugging before disassembly or cleaning; do not assume another model dismantles in the same way.
+      sources:
+        - anova-one-safety
+      review_version: 0.1
+    - id: judgement
+      role: judgement
+      text: Equipment precision does not replace a validated time-and-temperature method. Food thickness, packaging, cooling and subsequent storage still matter; this page supplies no pasteurisation or shelf-life schedule.
+      sources:
+        - nsw-sous-vide
+        - baldwin-sous-vide
+      review_version: 0.1
+  resources:
+    - resource: baldwin-sous-vide
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: anova-one-safety
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1
+    - resource: nsw-sous-vide
+      role: deeper-explanation
+      order: 3
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: smoker
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A smoker is an enclosed cooking device that exposes food to smoke and controlled heat. It is used for foods such as meat and poultry.
+      sources:
+        - fsis-smoke
+      review_version: 0.1
+    - id: mechanism
+      role: mechanism
+      text: Hot smoking combines cooking with smoke flavour. Smoke production and the temperature at the food are separate things to monitor.
+      sources:
+        - fsis-smoke
+      review_version: 0.1
+    - id: judgement
+      role: judgement
+      text: USDA recommends monitoring both the smoker’s air temperature and the food’s internal temperature. A smoky surface or colour does not establish doneness.
+      sources:
+        - fsis-smoke
+      review_version: 0.1
+    - id: care
+      role: care
+      text: Follow the smoker’s operating instructions and a food-specific cooking method. Refrigerate cooked food promptly; ordinary hot smoking does not make it shelf-stable.
+      sources:
+        - fsis-smoke
+      review_version: 0.1
+  resources:
+    - resource: fsis-smoke
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: grill
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A grill is an appliance or cooking surface that applies strong direct radiant heat to food. It is used to brown and cook meats, vegetables and other foods.
+      sources:
+        - cia-techniques
+        - weber-zones
+      review_version: 0.1
+    - id: context
+      role: context
+      text: Check whether the appliance heats from above or below the food. The direction and distance of the heat source affect how a surface browns.
+      sources:
+        - cia-techniques
+      review_version: 0.1
+    - id: mechanism
+      role: mechanism
+      text: On an outdoor barbecue, direct heat places food over the heat source; indirect heat places it to one side. Weber’s guidance uses these zones for different stages of cooking.
+      sources:
+        - weber-zones
+      review_version: 0.1
+    - id: care
+      role: care
+      text: Use the appliance only in its permitted setting and follow its ventilation and fuel instructions. Outdoor fuel-burning grills must not be moved indoors.
+      sources:
+        - weber-grill-safety
+      review_version: 0.1
+  resources:
+    - resource: cia-techniques
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: weber-zones
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1
+    - resource: weber-grill-safety
+      role: deeper-explanation
+      order: 3
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: blowtorch
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A kitchen blowtorch is a hand-held burner that directs a small flame onto food. It is used to brown surfaces, caramelise sugar and toast toppings.
+      sources:
+        - gbc-blowtorch
+      review_version: 0.1
+    - id: mechanism
+      role: mechanism
+      text: A moving flame heats a small surface area intensely. Keep it sweeping rather than holding it over one patch until the food burns.
+      sources:
+        - gbc-blowtorch
+      review_version: 0.1
+    - id: care
+      role: care
+      text: Work over a suitable metal tray with flammable materials and alcohol clear of the area. Check that the gas is off after use; follow the particular torch’s fuel, lighting and refill instructions.
+      sources:
+        - gbc-blowtorch
+      review_version: 0.1
+    - id: judgement
+      role: judgement
+      text: Surface browning is the torch’s main culinary role. A browned exterior should not be treated as proof that a raw centre has been cooked through.
+      sources:
+        - gbc-blowtorch
+      review_version: 0.1
+  resources:
+    - resource: gbc-blowtorch
+      role: introduction
+      order: 1
+      review_version: 0.1

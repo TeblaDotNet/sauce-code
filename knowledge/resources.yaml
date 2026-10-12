@@ -1723,3 +1723,573 @@
   checked_at: 2026-10-12
   review_scope: text
   commercial_context: Industry association; culinary forms and applications.
+- id: goodfood-artichoke
+  title: Artichoke
+  url: https://www.bbcgoodfood.com/glossary/globe-artichoke-glossary
+  publisher: Good Food
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: cac-avocado
+  title: How to Choose a Ripe Avocado
+  url: https://californiaavocado.com/how-to/how-to-choose-and-use-an-avocado/
+  publisher: California Avocado Commission
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Industry association; selection and handling guidance, not nutritional or purchasing claims.
+- id: usu-winter-squash
+  title: "Fruit and Vegetable Guide: Winter Squash"
+  url: https://extension.usu.edu/nutrition/research/winter-squash
+  publisher: Utah State University Extension
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: purdue-cucumber
+  title: Cucumber — FoodLink
+  url: https://extension.purdue.edu/foodlink/food.php?food=cucumber
+  publisher: Purdue Extension
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: purdue-leek
+  title: Leek — FoodLink
+  url: https://extension.purdue.edu/foodlink/food.php?food=leek
+  publisher: Purdue Extension
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: purdue-radish
+  title: Radish — FoodLink
+  url: https://extension.purdue.edu/foodlink/food.php?food=radish
+  publisher: Purdue Extension
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: purdue-sweet-potato
+  title: Sweet potato — FoodLink
+  url: https://extension.purdue.edu/foodlink/food.php?food=sweet+potato
+  publisher: Purdue Extension
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: illinois-mint
+  title: Mint
+  url: https://extension.illinois.edu/herbs/mint
+  publisher: University of Illinois Extension
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: illinois-oregano
+  title: Oregano
+  url: https://extension.illinois.edu/herbs/oregano
+  publisher: University of Illinois Extension
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: illinois-parsley
+  title: Parsley
+  url: https://extension.illinois.edu/herbs/parsley
+  publisher: University of Illinois Extension
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: illinois-thyme
+  title: Thyme
+  url: https://extension.illinois.edu/herbs/thyme
+  publisher: University of Illinois Extension
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: kew-peanut
+  title: Peanut
+  url: https://www.kew.org/plants/peanut
+  publisher: Royal Botanic Gardens, Kew
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: pecans-overview
+  title: All About Pecans
+  url: https://eatpecans.com/all-about-pecans
+  publisher: American Pecan Promotion Board
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Industry association; food identity and culinary examples only.
+- id: sugar-types
+  title: Types of Sugar
+  url: https://www.sugar.org/sugar/types/
+  publisher: The Sugar Association
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Industry association; crystal size and culinary function, not health claims.
+- id: ksu-apples
+  title: Apples
+  url: https://www.walnutcreek.k-state.edu/docs/fcspublications/apples.pdf
+  publisher: Kansas State University Research and Extension
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: beef-brisket-flat
+  title: Brisket Flat Half
+  url: https://www.beefitswhatsfordinner.com/cuts/cut/2477/brisket-flat-half
+  publisher: Beef. It’s What’s For Dinner.
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Beef industry source; cut identification and cooking applications only.
+- id: goodfood-thigh-casserole
+  title: Easy one-pot chicken casserole
+  url: https://www.bbcgoodfood.com/recipes/easy-one-pot-chicken-casserole
+  publisher: Good Food
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: gbc-shrimp
+  title: Shrimp recipes
+  url: https://www.greatbritishchefs.com/collections/shrimp-recipes
+  publisher: Great British Chefs
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: gbc-prawns
+  title: How to cook prawns
+  url: https://www.greatbritishchefs.com/how-to-cook/how-to-cook-prawns
+  publisher: Great British Chefs
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: eu-feta
+  title: Feta PDO
+  url: https://agriculture.ec.europa.eu/farming/geographical-indications-and-quality-schemes/geographical-indications-food-and-drink/feta-pdo_en
+  publisher: European Commission
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: cheesemaking-mascarpone
+  title: Mascarpone Cheese Making Recipe
+  url: https://cheesemaking.com/products/mascarpone-cheese-making-recipe
+  publisher: New England Cheesemaking Supply Company
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Specialist supplier; cream-cheese identity and process explanation, not a home safety protocol.
+- id: lentils-faq
+  title: Frequently Asked Questions
+  url: https://www.lentils.org/about-lentils/about-lentils-org/faqs/
+  publisher: Lentils.org
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Pulse industry source; preparation and culinary uses only.
+- id: maple-cookbook
+  title: Maple from Canada Cookbook
+  url: https://www.maplefromcanada.co.uk/uploads/2020/05/08379_cookbook_page_to_view_WEB_COMP.pdf
+  publisher: Maple from Canada
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Producer association; maple identity, grade descriptions and culinary uses.
+- id: kadoya-sesame
+  title: Sesame Facts
+  url: https://www.kadoya.com/english/facts/
+  publisher: Kadoya Sesame Mills
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Manufacturer examples of roasted and unroasted sesame oils; no health or universal storage claims adopted.
+- id: kikkoman-nori
+  title: Nori Seaweed
+  url: https://www.kikkoman.com/en/cookbook/glossary/yakinori.html
+  publisher: Kikkoman Corporation
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Culinary glossary from a food manufacturer; identity and handling only.
+- id: redboat-process
+  title: Red Boat Fish Sauce
+  url: https://redboatfishsauce.com/pages/sprouts-landing
+  publisher: Red Boat Fish Sauce
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Manufacturer account of its anchovy-and-salt product; not a specification for all fish sauces.
+- id: lebovitz-fish-sauce
+  title: A Visit to Red Boat Fish Sauce in Vietnam
+  url: https://www.davidlebovitz.com/a-visit-to-red-boat-fish-sauce-vietnam-phu-quoc/
+  publisher: David Lebovitz
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: goodfood-chorizo
+  title: Chorizo
+  url: https://www.bbcgoodfood.com/glossary/chorizo-glossary
+  publisher: Good Food
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: bayless-chorizo
+  title: Black Bean-Bathed Enchiladas with Chorizo
+  url: https://www.rickbayless.com/recipe/black-bean-bathed-enchiladas-with-chorizo/
+  publisher: Rick Bayless
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: fsis-sausages
+  title: Sausages and Food Safety
+  url: https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/meat-catfish/sausages-and-food-safety
+  publisher: USDA Food Safety and Inspection Service
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: goodfood-creme-fraiche
+  title: Crème fraîche
+  url: https://www.bbcgoodfood.com/glossary/creme-fraiche-glossary
+  publisher: Good Food
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: argo-starch-faq
+  title: Frequently Asked Questions
+  url: https://argostarch.com/faqs/
+  publisher: Argo
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Starch manufacturer; product function and handling, not health claims.
+- id: goodfood-thicken-stew
+  title: How to thicken stew
+  url: https://www.bbcgoodfood.com/howto/guide/how-thicken-stew
+  publisher: Good Food
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: anson-coarse-grits
+  title: Simple Buttered Coarse Grits
+  url: https://ansonmills.com/recipes/489
+  publisher: Anson Mills
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Mill’s instructions for its coarse grits; timing not generalised to all grits.
+- id: anson-hominy-grits
+  title: Fresh Hominy Grits
+  url: https://ansonmills.com/recipes/618/download
+  publisher: Anson Mills
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Specialist mill recipe illustrating hominy grits; not a universal definition of grits.
+- id: nigella-self-rising
+  title: Self-Rising Flour Substitution
+  url: https://www.nigella.com/ask/self-rising-flour-substitution
+  publisher: Nigella Lawson
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: psu-vinegar
+  title: Advice about Vinegar
+  url: https://extension.psu.edu/advice-about-vinegar
+  publisher: Penn State Extension
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: uga-kombucha
+  title: What’s the Word on Homemade Kombucha?
+  url: https://fieldreport.caes.uga.edu/publications/C1312/whats-the-word-on-homemade-kombucha/
+  publisher: University of Georgia Extension
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: landolakes-terms
+  title: Kitchen Glossary
+  url: https://www.landolakes.com/kitchen-reference/kitchen-glossary/chop/
+  publisher: Land O’Lakes
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Food manufacturer glossary; basic action definitions only, not its broader cooking claims.
+- id: chefsapprentice-glossary
+  title: Culinary Glossary
+  url: https://chefsapprentice.com/resources/culinary-glossary/
+  publisher: Chef’s Apprentice
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: kab-scoops
+  title: An ode to kitchen scoops
+  url: https://www.kingarthurbaking.com/blog/2016/06/09/kitchen-scoops-unsung-hero
+  publisher: King Arthur Baking
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: kab-crack-eggs
+  title: "Things bakers know: A better way to crack eggs"
+  url: https://www.kingarthurbaking.com/blog/2022/08/25/things-bakers-know-a-better-way-to-crack-eggs
+  publisher: King Arthur Baking
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: gbc-chicken-thighs
+  title: How to cook chicken thighs
+  url: https://www.greatbritishchefs.com/how-to-cook/how-to-cook-chicken-thighs
+  publisher: Great British Chefs
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: gbc-fish-prep
+  title: How to prepare fish
+  url: https://www.greatbritishchefs.com/how-to-cook/how-to-prepare-fish
+  publisher: Great British Chefs
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: kab-sourdough-folds
+  title: Artisan sourdough bread tips, part 2
+  url: https://www.kingarthurbaking.com/blog/2015/10/14/artisan-sourdough-bread-tips-part-2
+  publisher: King Arthur Baking
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: pryles-render
+  title: "Liquid gold: how to render fat and make your own tallow"
+  url: https://jesspryles.com/how-to-render-fat/
+  publisher: Jess Pryles
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: kab-scalded-milk
+  title: Classic American Salt-Rising Bread
+  url: https://www.kingarthurbaking.com/blog/2013/11/07/classic-american-salt-rising-bread
+  publisher: King Arthur Baking
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: uga-curing
+  title: "Basics of Sausage Making: Formulation, Processing, and Safety"
+  url: https://fieldreport.caes.uga.edu/publications/B1437/basics-of-sausage-making-formulation-processing-and-safety/
+  publisher: University of Georgia Extension
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: umn-drying
+  title: "Preserving food at home: Drying"
+  url: https://extension.umn.edu/food/preparing/cooking-at-home/food-preservation/drying
+  publisher: University of Minnesota Extension
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: illinois-drying
+  title: Drying
+  url: https://extension.illinois.edu/food-preservation/drying
+  publisher: University of Illinois Extension
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: fsis-slow-cooker
+  title: Slow Cookers and Food Safety
+  url: https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/slow-cookers-and-food-safety
+  publisher: USDA Food Safety and Inspection Service
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: fsis-foodborne
+  title: Foodborne Illness and Disease
+  url: https://www.fsis.usda.gov/food-safety/foodborne-illness-and-disease
+  publisher: USDA Food Safety and Inspection Service
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: ice-flambe
+  title: What is Flambé?
+  url: https://www.ice.edu/blog/what-flambe-and-why-cooking-technique-so-essential-pro-chefs
+  publisher: Institute of Culinary Education
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: usda-retention
+  title: USDA Table of Nutrient Retention Factors, Release 6
+  url: https://www.ars.usda.gov/ARSUserFiles/80400525/Data/retn/retn06.pdf
+  publisher: USDA Agricultural Research Service
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: landolakes-equipment
+  title: Kitchen Equipment and Their Uses
+  url: https://www.landolakes.com/kitchen-reference/equipment-guide/
+  publisher: Land O’Lakes
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Food manufacturer equipment guide; basic descriptions only, not rankings or universal care claims.
+- id: recteq-twine
+  title: Butcher’s Twine
+  url: https://www.recteq.com/products/butchers-twine
+  publisher: recteq
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Supplier specification for its food-safe cotton twine; no claim that every string is suitable.
+- id: fortnum-tea-strainer
+  title: Camellia Tea Strainer
+  url: https://www.fortnumandmason.com/camellia-tea-strainer
+  publisher: Fortnum & Mason
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Supplier’s own tea accessory; example of function, not a purchasing recommendation.
+- id: difford-bar-kit
+  title: "Basic Cocktail Equipment: The Essential Bar Kit"
+  url: https://www.diffordsguide.com/g/1150/how-to-make-cocktails/basic-cocktail-equipment
+  publisher: Difford’s Guide
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: braun-beaker
+  title: Small portion shaft
+  url: https://www.braunhousehold.com/en-us/e/sustainability/handblender-versatility/small-portion-shaft
+  publisher: Braun Household
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Hand-blender maker’s beaker example; compatibility remains model-specific.
+- id: oxo-scraper
+  title: Multi-Purpose Scraper & Chopper
+  url: https://www.oxo.com/shop/kitchenware/utensils/multi-purpose-scraper-chopper.html
+  publisher: OXO
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Manufacturer example of a rigid bench scraper, not a definition of every scraper.
+- id: reynolds-foil
+  title: Everyday Foil
+  url: https://www.reynoldsbrands.com/products/aluminum-foil/standard-foil
+  publisher: Reynolds Kitchens
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Manufacturer guidance for its standard foil; non-stick variants have separate instructions.
+- id: fda-food-storage
+  title: Are You Storing Food Safely?
+  url: https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely
+  publisher: US Food and Drug Administration
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: glad-wrap-au
+  title: Glad Wrap 100m
+  url: https://www.glad.com.au/product/glad-wrap-100m/
+  publisher: Glad Australia
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Australian food-wrap product example; no universal heat permission inferred.
+- id: thermos-faq
+  title: Frequently Asked Questions
+  url: https://thermos.com/pages/faq
+  publisher: Thermos
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Manufacturer advice for named vacuum-insulated products; retention claims and care vary by model.
+- id: dualit-toaster-care
+  title: Pop-Up Toasters — Be Aware Safety Advice
+  url: https://help.dualit.com/en-US/pop-up-toasters---be-aware-safety-advice-254926
+  publisher: Dualit
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Manufacturer guidance for pop-up toasters; permitted foods and accessories remain model-specific.
+- id: cuisinart-waffle
+  title: WAF1U Waffle Maker Instruction Booklet
+  url: https://www.lakeland.co.uk/content/documents/15923_Cuisinart_Waffle_Maker_Instructions.pdf
+  publisher: Cuisinart
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Cuisinart manual hosted by retailer Lakeland. Instructions for WAF1U; detachable plates and cleaning permissions do not apply to every waffle maker.
+- id: cuisinart-icecream
+  title: ICE-21C Frozen Yogurt–Ice Cream & Sorbet Maker
+  url: https://www.cuisinart.ca/on/demandware.static/-/Sites-master-ca/en_CA/v1772791446875/Instruction%20Booklet/ICE-21C_en.pdf
+  publisher: Cuisinart
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Instructions for a freezer-bowl model; preparation and cleaning are specific to that design.
+- id: reynolds-oven-bags
+  title: Oven Bags
+  url: https://www.reynoldsbrands.com/products/cooking-bag-liners/oven-bags
+  publisher: Reynolds Kitchens
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Manufacturer instructions for Reynolds Kitchens Oven Bags only.
+- id: ziploc-faq
+  title: Frequently Asked Questions
+  url: https://ziploc.com/en-us/faq
+  publisher: Ziploc
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Brand-specific guidance distinguishes polyethylene bags from silicone Endurables; not a rule for every resealable bag.
+- id: anova-one-safety
+  title: Safety Procedures While Using the Anova One
+  url: https://support.anovaculinary.com/hc/en-us/articles/201704020-Safety-Procedures-While-Using-the-Anova-One
+  publisher: Anova Culinary
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Safety instructions for Anova One; water levels, disassembly and cleaning remain model-specific.
+- id: gbc-blowtorch
+  title: How to use a blowtorch
+  url: https://www.greatbritishchefs.com/how-to-cook/how-to-use-a-blowtorch
+  publisher: Great British Chefs
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: weber-grill-safety
+  title: Cooking with the Weber Family Q Built In
+  url: https://content-images.weber.com/content/Family-Q3600-handbook-1-12-20-LR.pdf
+  publisher: Weber
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Family Q operating instructions; only outdoor-use and manual-following guidance used.
+- id: pulses-visual-guide
+  title: A Visual Guide to Pulses
+  url: https://pulses.org/what-are-pulses/visual-guide-to-pulses
+  publisher: Global Pulse Confederation
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Industry association; pulse identification only.
+- id: nigella-cornflour
+  title: Cornflour/Cornstarch and Potato Flour
+  url: https://www.nigella.com/ask/cornflour-cornstarch-and-potato-flour
+  publisher: Nigella Lawson
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: kab-bowl-scraper
+  title: Bowl Scraper
+  url: https://shop.kingarthurbaking.com/items/bowl-scraper
+  publisher: King Arthur Baking
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+  commercial_context: Manufacturer example of a flexible bowl scraper; no rankings or universal material claims.
+- id: fsis-microwave-wrap
+  title: Cooking Safely in the Microwave Oven
+  url: https://www.govinfo.gov/content/pkg/GOVPUB-A110-PURL-gpo127402/pdf/GOVPUB-A110-PURL-gpo127402.pdf
+  publisher: USDA Food Safety and Inspection Service
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text
+- id: goodfood-feta-salad
+  title: Spring green fattoush
+  url: https://www.bbcgoodfood.com/recipes/spring-green-fattoush
+  publisher: Good Food
+  type: reference
+  checked_at: 2026-10-12
+  review_scope: text

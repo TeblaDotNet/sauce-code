@@ -121,11 +121,11 @@ test('gram-authored mass remains unchanged without density, even with conflictin
   assert.deepEqual(convert({from:'g',to:'g',amount:213,approximate:true},[observation(),observation()]),{ok:true,value:213,unit:'g',approximate:true});
 });
 
-test('230 enrichments load with unique eligible targets; all draft records stay below human review',()=>{
-  assert.equal(vocabulary.enrichments.length,230);
-  assert.equal(new Set(vocabulary.enrichments.map(e=>e.target.kind+':'+e.target.id)).size,230);
+test('330 enrichments load with unique eligible targets; all draft records stay below human review',()=>{
+  assert.equal(vocabulary.enrichments.length,330);
+  assert.equal(new Set(vocabulary.enrichments.map(e=>e.target.kind+':'+e.target.id)).size,330);
   for(const item of vocabulary.enrichments) assert.ok(createReferencePage(vocabulary,item.target.kind,item.target.id),item.target.id);
-  for(const [kind,count] of [['ingredient',80],['process',80],['equipment',70]] as const) assert.equal(vocabulary.enrichments.filter(e=>e.target.kind===kind).length,count);
+  for(const [kind,count] of [['ingredient',115],['process',115],['equipment',100]] as const) assert.equal(vocabulary.enrichments.filter(e=>e.target.kind===kind).length,count);
   assert.equal(vocabulary.entries.length,766);
   for(const e of vocabulary.enrichments){assert.equal(e.review_version,0.1);for(const r of [...e.editorial??[],...e.resources??[],...e.associations??[],...e.measurements??[]])assert.equal(r.review_version,0.1);assert.ok(renderReferenceHtml(createReferencePage(vocabulary,e.target.kind,e.target.id)!).includes('Version 0.1 — machine generated, not yet human reviewed'));}
 });
@@ -279,5 +279,19 @@ test('next tranche equipment defines the object then use; processes open with di
     assert.ok(item,id);
     const intro=item.editorial!.find(b=>b.role==='summary')!.text;
     assert.match(intro.split('.')[0],/\bis\b/,id);
+  }
+});
+
+
+test('tranche 300 introductions define their subject and keep optional fields sparse',()=>{
+  const added=vocabulary.enrichments.slice(230);
+  assert.equal(added.length,100);
+  for(const item of added){
+    const intro=item.editorial!.find(b=>b.role==='summary')!.text;
+    assert.match(intro.split('.')[0],/\b(?:is|are|means)\b/,item.target.id);
+    if(item.target.kind!=='process') assert.equal(intro.split(/(?<=[.!?])\s+/).length,2,item.target.id);
+    assert.equal(item.review_version,0.1);
+    assert.equal(item.hero,undefined);
+    assert.equal(item.measurements?.length??0,0);
   }
 });
