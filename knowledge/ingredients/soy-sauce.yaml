@@ -27,3 +27,6 @@ observed_qualifiers:
   count: 1
 - value: optional
   count: 1
+categories:
+  - sauces-and-condiments
+  - fermented-foods

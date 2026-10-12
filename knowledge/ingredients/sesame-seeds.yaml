@@ -21,3 +21,5 @@ observed_qualifiers:
   count: 1
 - value: toasted
   count: 1
+categories:
+  - nuts-and-seeds

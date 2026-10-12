@@ -13,3 +13,5 @@ evidence:
     count: 1
   seen_in:
   - examples/public-domain-recipes/slow-cooked-lamb-with-lemon/slow-cooked-lamb-with-lemon.opensauce
+categories:
+  - preparation-and-cutting

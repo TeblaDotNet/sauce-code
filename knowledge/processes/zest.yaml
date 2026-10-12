@@ -16,3 +16,5 @@ evidence:
 observed_parameters:
 - value: reserve zest
   count: 1
+categories:
+  - preparation-and-cutting

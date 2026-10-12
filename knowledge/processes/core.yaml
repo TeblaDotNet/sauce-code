@@ -19,3 +19,5 @@ evidence:
 observed_parameters:
 - value: stems
   count: 1
+categories:
+  - preparation-and-cutting

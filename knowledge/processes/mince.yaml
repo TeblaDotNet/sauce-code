@@ -15,3 +15,5 @@ evidence:
     - examples/public-domain-recipes/red-sauce/red-sauce.opensauce
   scope: Historical observations; publication-excluded recipe citations removed.
     Not current usage counts.
+categories:
+  - preparation-and-cutting

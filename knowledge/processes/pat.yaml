@@ -16,3 +16,5 @@ evidence:
 observed_parameters:
 - value: ~2cm thick
   count: 1
+categories:
+  - preparation-and-cutting

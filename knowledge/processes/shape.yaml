@@ -48,3 +48,5 @@ observed_parameters:
 aliases:
 - name: form
   type: review-pass-1-lexical
+categories:
+  - baking-and-pastry

@@ -16,3 +16,6 @@ evidence:
 observed_qualifiers:
 - value: powdered
   count: 1
+categories:
+  - sugars-and-sweeteners
+  - baking-ingredients

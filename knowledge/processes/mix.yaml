@@ -124,3 +124,5 @@ observed_parameters:
   count: 1
 - value: whisk
   count: 3
+categories:
+  - mixing-and-emulsifying

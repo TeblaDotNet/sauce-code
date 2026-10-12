@@ -13,3 +13,5 @@ evidence:
     count: 1
   seen_in:
   - examples/public-domain-recipes/crab-salad/crab-salad.opensauce
+categories:
+  - fish-and-seafood

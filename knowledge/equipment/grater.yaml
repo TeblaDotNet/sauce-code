@@ -13,3 +13,6 @@ evidence:
     count: 1
   seen_in:
   - examples/public-domain-recipes/gooseberry-pudding/gooseberry-pudding.opensauce
+categories:
+  - knives-and-cutting
+  - preparation-tools

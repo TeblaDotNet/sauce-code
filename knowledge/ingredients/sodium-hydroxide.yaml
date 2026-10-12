@@ -18,3 +18,5 @@ observed_qualifiers:
   count: 1
 - value: lye
   count: 1
+categories:
+  - baking-ingredients

@@ -12,3 +12,5 @@ evidence:
   - examples/public-domain-recipes/italian-mulled-wine/italian-mulled-wine.opensauce
   - examples/public-domain-recipes/simple-chicken-curry/simple-chicken-curry.opensauce
   review_note: Vocabulary review pass 1; lexical/concept identification only, no human review claim.
+categories:
+  - herbs-and-spices

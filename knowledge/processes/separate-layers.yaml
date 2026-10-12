@@ -13,3 +13,5 @@ evidence:
   legacy_terms:
   - term: separate layers
     count: 1
+categories:
+  - preparation-and-cutting

@@ -13,3 +13,5 @@ evidence:
     count: 1
   seen_in:
   - examples/public-domain-recipes/japanese-noodle-soup/japanese-noodle-soup.opensauce
+categories:
+  - general-cooking

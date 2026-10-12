@@ -19,3 +19,6 @@ observed_qualifiers:
 aliases:
 - name: parmesan
   type: review-pass-1-lexical
+categories:
+  - dairy-and-eggs
+  - fermented-foods

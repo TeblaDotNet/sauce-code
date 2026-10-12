@@ -43,3 +43,5 @@ observed_parameters:
 aliases:
   - name: wisk
     type: review-pass-1-lexical
+categories:
+  - mixing-and-emulsifying

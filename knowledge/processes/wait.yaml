@@ -14,3 +14,5 @@ evidence:
   - examples/public-domain-recipes/turkish-yogurt-soup/turkish-yogurt-soup.opensauce
   - examples/public-domain-recipes/zaatar/zaatar.opensauce
   review_note: Vocabulary review pass 1; lexical/concept identification only, no human review claim.
+categories:
+  - general-cooking

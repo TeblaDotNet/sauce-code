@@ -46,3 +46,6 @@ observed_qualifiers:
 aliases:
 - name: oat
   type: ingredient-knowledge-v1-compatibility
+categories:
+  - grains-and-flours
+  - baking-ingredients

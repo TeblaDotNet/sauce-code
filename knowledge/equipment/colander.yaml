@@ -14,3 +14,5 @@ evidence:
   seen_in:
   - examples/public-domain-recipes/bean-salad/bean-salad.opensauce
   - examples/public-domain-recipes/ratatouille/ratatouille.opensauce
+categories:
+  - preparation-tools

@@ -44,4 +44,4 @@ observed_parameters:
   count: 1
 scope: "Allow yeast dough to develop and rise in the stage specified by the recipe. Proof is common regional dough wording, but proofing yeast can instead mean testing its activity. Because aliases are not context-scoped, proof remains unaliased; prove does not imply a particular bulk or final stage."
 categories:
-- baking-and-pastry
+  - baking-and-pastry

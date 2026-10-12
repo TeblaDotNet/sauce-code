@@ -27,3 +27,5 @@ evidence:
   - examples/public-domain-recipes/egyptian-lentils/egyptian-lentils.opensauce
   - examples/public-domain-recipes/paneer-tikka-masala/paneer-tikka-masala.opensauce
   - examples/public-domain-recipes/ratatouille/ratatouille.opensauce
+categories:
+  - produce

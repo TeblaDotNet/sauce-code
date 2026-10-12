@@ -21,3 +21,5 @@ observed_qualifiers:
 aliases:
 - name: broccli
   type: review-pass-1-lexical
+categories:
+  - produce

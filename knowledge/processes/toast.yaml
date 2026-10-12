@@ -37,3 +37,5 @@ observed_parameters:
 - value: ~30s
   count: 1
 scope: "Heat food such as bread, spices or grains to develop the intended colour, aroma or texture. The object and endpoint matter; toast is not a blanket alias for dry-roast or char."
+categories:
+  - dry-heat-cooking

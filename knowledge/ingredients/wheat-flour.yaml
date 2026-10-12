@@ -14,3 +14,6 @@ evidence:
     count: 1
   seen_in:
   - examples/public-domain-recipes/sourdough-bread-with-seeds-and-grains/sourdough-bread-with-seeds-and-grains.opensauce
+categories:
+  - grains-and-flours
+  - baking-ingredients

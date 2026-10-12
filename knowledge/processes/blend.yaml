@@ -67,3 +67,5 @@ observed_parameters:
   count: 1
 - value: well between additions
   count: 1
+categories:
+  - mixing-and-emulsifying

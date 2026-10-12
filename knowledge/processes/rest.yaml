@@ -120,3 +120,6 @@ observed_parameters:
   count: 2
 - value: ~30m
   count: 2
+categories:
+  - baking-and-pastry
+  - general-cooking

@@ -18,3 +18,5 @@ observed_qualifiers:
   count: 1
 - value: sided
   count: 1
+categories:
+  - bakeware

@@ -49,3 +49,6 @@ observed_parameters:
     count: 1
   - value: when soft and shrunken and covered with juices
     count: 1
+categories:
+  - beverage-and-bar
+  - general-cooking

@@ -12,3 +12,5 @@ evidence:
   - examples/public-domain-recipes/soleier/soleier.opensauce
   - examples/public-domain-recipes/spiced-cantaloupe/spiced-cantaloupe.opensauce
   review_note: Vocabulary review pass 1; lexical/concept identification only, no human review claim.
+categories:
+  - herbs-and-spices

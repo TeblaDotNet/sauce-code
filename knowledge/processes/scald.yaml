@@ -24,4 +24,4 @@ observed_parameters:
   count: 1
 scope: "Context-dependent heating: scald may describe heating milk or treating food with hot water to loosen its skin. Preserve both senses rather than inferring one from the verb alone. It is not a universal synonym for blanch."
 categories:
-- moist-heat-cooking
+  - moist-heat-cooking

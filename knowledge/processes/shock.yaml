@@ -9,4 +9,5 @@ curation:
   review: unchecked
 scope: "Rapidly cool food, often after a hot-water treatment, to interrupt cooking or change its temperature. Shocking is a separate action and is not included in blanching by definition."
 categories:
-- preparation-and-cutting
+  - preparation-and-cutting
+  - general-cooking

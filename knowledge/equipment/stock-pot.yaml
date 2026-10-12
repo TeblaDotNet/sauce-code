@@ -20,3 +20,5 @@ evidence:
 observed_qualifiers:
 - value: tall
   count: 1
+categories:
+  - cookware

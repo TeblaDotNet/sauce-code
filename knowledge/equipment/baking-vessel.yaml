@@ -16,3 +16,6 @@ evidence:
 observed_qualifiers:
 - value: high-temperature
   count: 1
+categories:
+  - cookware
+  - bakeware

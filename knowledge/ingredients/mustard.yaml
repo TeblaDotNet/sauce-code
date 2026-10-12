@@ -26,3 +26,5 @@ observed_qualifiers:
   count: 1
 - value: yellow
   count: 1
+categories:
+  - sauces-and-condiments

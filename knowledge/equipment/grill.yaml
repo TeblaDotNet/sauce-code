@@ -14,3 +14,5 @@ evidence:
   seen_in:
   - examples/public-domain-recipes/chicken-wings/chicken-wings.opensauce
   - examples/public-domain-recipes/tomato-and-grilled-paprika-soup/tomato-and-grilled-paprika-soup.opensauce
+categories:
+  - appliances

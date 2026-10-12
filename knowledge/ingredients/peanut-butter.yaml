@@ -17,3 +17,7 @@ evidence:
 observed_qualifiers:
 - value: creamy
   count: 1
+categories:
+  - nuts-and-seeds
+  - sauces-and-condiments
+  - pantry-products

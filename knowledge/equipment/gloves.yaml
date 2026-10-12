@@ -16,3 +16,5 @@ evidence:
 observed_qualifiers:
 - value: chemical-resistant
   count: 1
+categories:
+  - preparation-tools

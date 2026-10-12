@@ -49,3 +49,5 @@ observed_parameters:
     count: 3
   - value: when cold
     count: 1
+categories:
+  - preparation-and-cutting

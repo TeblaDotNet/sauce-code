@@ -18,3 +18,5 @@ evidence:
   - examples/public-domain-recipes/naan-bread/naan-bread.opensauce
   - examples/public-domain-recipes/no-knead-bread/no-knead-bread.opensauce
   - examples/public-domain-recipes/scandinavian-coffee-cake/scandinavian-coffee-cake.opensauce
+categories:
+  - baking-ingredients

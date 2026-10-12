@@ -16,3 +16,5 @@ evidence:
 observed_qualifiers:
 - value: room temperature
   count: 1
+categories:
+  - beverages

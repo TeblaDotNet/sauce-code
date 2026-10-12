@@ -21,3 +21,5 @@ observed_qualifiers:
   count: 1
 - value: Golden Delicious
   count: 2
+categories:
+  - produce

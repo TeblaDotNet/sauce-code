@@ -28,3 +28,5 @@ observed_parameters:
   count: 2
 - value: weigh 2oz
   count: 1
+categories:
+  - preparation-and-cutting

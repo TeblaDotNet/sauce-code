@@ -16,3 +16,5 @@ evidence:
 observed_qualifiers:
 - value: split
   count: 1
+categories:
+  - grains-and-flours

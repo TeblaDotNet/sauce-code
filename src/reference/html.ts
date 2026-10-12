@@ -1,3 +1,4 @@
+import { browsingCategories } from '../vocabulary/categories.ts';
 import { renderReferenceEnrichment } from './enrichment-html.ts';
 import { readCuration, curationLabel } from '../curation.ts';
 import { escapeHtml as escape, safeUrl } from '../renderer/html.ts';
@@ -7,6 +8,7 @@ import type { ReferencePage, ReferenceKnowledge, ReferencePart } from './index.t
 
 export interface ReferenceHtmlOptions {
   colour?: boolean;
+  categoryUrl?: (kind: ReferencePage['kind'], id: string) => string | undefined;
   /** Resolve an optional image asset through the host application; absent means no image. */
   heroUrl?: (asset: string) => string | undefined;
   recipeUrl?: (id: string) => string | undefined;
@@ -60,11 +62,11 @@ export function renderReferenceHtml(page: ReferencePage, options: ReferenceHtmlO
 
   return `<article class="os-reference" data-kind="${escape(page.kind)}" data-colour="${options.colour === false ? 'off' : 'on'}"><header><h1>${escape(page.name)}</h1>${enriched ? '' : identity}</header>` +
     renderReferenceEnrichment(page, options.heroUrl) +
+    section('Browsing categories', list(browsingCategories(page.kind, page.categories ?? []).map(c => link(options.categoryUrl?.(page.kind,c.id),c.name)))) +
     (enriched && page.typeOf ? `<p>A kind of ${link(page.typeOf.url, page.typeOf.name)}.</p>` : '') +
     (enriched ? section('types', list((page.types ?? []).map(t => link(t.url, t.name))), true) : '') +
     (enriched ? '<details class="ref-record-details"><summary>Names and reference details</summary>' + identity : '') +
     (page.scope ? section('Scope', `<p>${escape(page.scope)}</p>`) : '') +
-    section('Browsing categories', list((page.categories ?? []).map(c => escape(c.replaceAll('-', ' '))))) +
     (!enriched && page.typeOf ? `<p>Type of: ${link(page.typeOf.url, page.typeOf.name)}</p>` : '') +
     (enriched ? '' : section('Types', list((page.types ?? []).map(t => link(t.url, t.name))))) +
     section('States / preparations', list(Object.entries(page.states ?? {}).map(([id, state]) =>

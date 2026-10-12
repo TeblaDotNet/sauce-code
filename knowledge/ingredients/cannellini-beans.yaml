@@ -22,3 +22,5 @@ observed_qualifiers:
   count: 1
 - value: with juice
   count: 1
+categories:
+  - pulses

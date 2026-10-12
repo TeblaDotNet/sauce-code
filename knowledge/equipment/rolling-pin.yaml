@@ -15,3 +15,6 @@ evidence:
   - examples/public-domain-recipes/apple-pie/apple-pie.opensauce
   - examples/public-domain-recipes/puff-pastry/puff-pastry.opensauce
   - examples/public-domain-recipes/schnitzel/schnitzel.opensauce
+categories:
+  - preparation-tools
+  - bakeware

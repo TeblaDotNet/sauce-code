@@ -13,3 +13,5 @@ evidence:
     count: 1
   seen_in:
   - examples/public-domain-recipes/pho-soup/pho-soup.opensauce
+categories:
+  - grains-and-flours

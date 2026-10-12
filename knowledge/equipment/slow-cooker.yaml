@@ -14,3 +14,5 @@ evidence:
   seen_in:
   - examples/public-domain-recipes/medieval-beef-soup/medieval-beef-soup.opensauce
   - examples/public-domain-recipes/pork-carnitas/pork-carnitas.opensauce
+categories:
+  - appliances

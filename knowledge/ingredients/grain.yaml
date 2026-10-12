@@ -18,3 +18,5 @@ observed_qualifiers:
   count: 1
 - value: such as rye or spelt or wheat
   count: 1
+categories:
+  - grains-and-flours

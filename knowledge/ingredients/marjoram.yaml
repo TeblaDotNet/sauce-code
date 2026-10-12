@@ -16,3 +16,5 @@ evidence:
 observed_qualifiers:
 - value: fresh
   count: 1
+categories:
+  - herbs-and-spices

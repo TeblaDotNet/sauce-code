@@ -17,3 +17,5 @@ evidence:
   legacy_terms:
   - term: vegetable stock
     count: 2
+categories:
+  - pantry-products

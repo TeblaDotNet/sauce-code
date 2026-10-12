@@ -88,3 +88,5 @@ parts:
       en: clove
     plural_names:
       en: cloves
+categories:
+  - produce

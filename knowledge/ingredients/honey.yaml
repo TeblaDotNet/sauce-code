@@ -30,3 +30,6 @@ observed_qualifiers:
   count: 2
 - value: set
   count: 1
+categories:
+  - sugars-and-sweeteners
+  - baking-ingredients

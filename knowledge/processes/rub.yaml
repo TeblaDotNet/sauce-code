@@ -17,3 +17,5 @@ evidence:
 observed_parameters:
 - value: under skin using fingers
   count: 1
+categories:
+  - coating-and-breading

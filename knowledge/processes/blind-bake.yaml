@@ -9,4 +9,4 @@ curation:
   review: unchecked
 scope: "Bake a pastry case without its eventual filling, either partly or fully as the recipe requires. This is a scoped baking technique, not a synonym for all baking."
 categories:
-- baking-and-pastry
+  - baking-and-pastry

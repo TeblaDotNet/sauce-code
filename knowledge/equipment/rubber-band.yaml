@@ -17,3 +17,5 @@ evidence:
 observed_qualifiers:
 - value: if using coffee filter
   count: 1
+categories:
+  - storage-and-containers

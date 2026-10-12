@@ -17,3 +17,5 @@ evidence:
   - examples/public-domain-recipes/greek-easter-cookies/greek-easter-cookies.opensauce
   - examples/public-domain-recipes/hummus/hummus.opensauce
   - examples/public-domain-recipes/matcha-cookies/matcha-cookies.opensauce
+categories:
+  - baking-ingredients

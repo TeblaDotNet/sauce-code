@@ -16,3 +16,5 @@ evidence:
     count: 1
   seen_in:
   - examples/public-domain-recipes/hoisin-pork-belly/hoisin-pork-belly.opensauce
+categories:
+  - moist-heat-cooking

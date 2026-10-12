@@ -18,3 +18,5 @@ evidence:
   - examples/public-domain-recipes/hoisin-tofu-and-broccoli/hoisin-tofu-and-broccoli.opensauce
   - examples/public-domain-recipes/sauerkraut/sauerkraut.opensauce
   - examples/public-domain-recipes/shakshouka/shakshouka.opensauce
+categories:
+  - storage-and-containers

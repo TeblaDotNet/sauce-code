@@ -20,3 +20,6 @@ observed_qualifiers:
   count: 1
 - value: fresh
   count: 1
+categories:
+  - sauces-and-condiments
+  - pantry-products

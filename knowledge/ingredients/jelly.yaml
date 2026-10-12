@@ -16,3 +16,5 @@ evidence:
 observed_qualifiers:
 - value: cranberry or peach or grape
   count: 1
+categories:
+  - sauces-and-condiments

@@ -9,4 +9,4 @@ curation:
   review: unchecked
 scope: "Cook food immersed in hot fat. This is a specific frying technique, not a synonym for every use of fry."
 categories:
-- frying
+  - frying

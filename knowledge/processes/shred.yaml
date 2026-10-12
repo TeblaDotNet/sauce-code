@@ -19,3 +19,5 @@ evidence:
 observed_parameters:
 - value: 2 forks
   count: 1
+categories:
+  - preparation-and-cutting

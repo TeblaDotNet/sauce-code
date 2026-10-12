@@ -26,3 +26,5 @@ observed_qualifiers:
   count: 1
 - value: sterilized
   count: 1
+categories:
+  - storage-and-containers

@@ -32,3 +32,5 @@ evidence:
   legacy_terms:
   - term: baking paper
     count: 2
+categories:
+  - bakeware

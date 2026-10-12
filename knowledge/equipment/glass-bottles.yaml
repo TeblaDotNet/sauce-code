@@ -16,3 +16,6 @@ evidence:
 observed_qualifiers:
 - value: resealable
   count: 1
+categories:
+  - preservation-and-fermentation
+  - storage-and-containers

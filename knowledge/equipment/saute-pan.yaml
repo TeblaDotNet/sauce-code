@@ -17,3 +17,5 @@ evidence:
 observed_qualifiers:
 - value: medium
   count: 1
+categories:
+  - cookware

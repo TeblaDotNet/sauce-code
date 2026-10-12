@@ -16,3 +16,5 @@ evidence:
 observed_qualifiers:
 - value: mild madras
   count: 1
+categories:
+  - sauces-and-condiments

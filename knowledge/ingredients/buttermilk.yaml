@@ -11,3 +11,7 @@ evidence:
   - examples/public-domain-recipes/coleslaw/coleslaw.opensauce
   - examples/public-domain-recipes/nashville-chicken/nashville-chicken.opensauce
   review_note: Vocabulary review pass 1; lexical/concept identification only, no human review claim.
+categories:
+  - dairy-and-eggs
+  - fermented-foods
+  - baking-ingredients

@@ -19,3 +19,5 @@ observed_qualifiers:
 aliases:
 - name: beets
   type: review-pass-1-lexical
+categories:
+  - produce

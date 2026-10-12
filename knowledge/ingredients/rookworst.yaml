@@ -18,3 +18,5 @@ observed_qualifiers:
   count: 1
 - value: smoked
   count: 1
+categories:
+  - meat-and-poultry

@@ -57,3 +57,6 @@ observed_parameters:
     count: 6
   - value: usually 1tsp / 6g
     count: 1
+categories:
+  - coating-and-breading
+  - general-cooking

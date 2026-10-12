@@ -42,3 +42,5 @@ observed_parameters:
   count: 2
 - value: soup plate
   count: 1
+categories:
+  - general-cooking

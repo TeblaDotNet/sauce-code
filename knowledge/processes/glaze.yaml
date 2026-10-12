@@ -18,3 +18,6 @@ observed_parameters:
   count: 1
 - value: oil
   count: 1
+categories:
+  - coating-and-breading
+  - baking-and-pastry

@@ -13,3 +13,5 @@ evidence:
     count: 1
   seen_in:
   - examples/public-domain-recipes/red-sauce/red-sauce.opensauce
+categories:
+  - meat-and-poultry

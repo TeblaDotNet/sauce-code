@@ -16,3 +16,5 @@ evidence:
 observed_parameters:
 - value: slivers as far into holes as possible
   count: 1
+categories:
+  - general-cooking

@@ -9,4 +9,4 @@ curation:
   review: unchecked
 scope: "Prepare food in an acidic environment, which may come from added acid or fermentation. Pickling is not necessarily fermentation and the name alone does not establish shelf stability or a safe preservation procedure."
 categories:
-- preservation-and-fermentation
+  - preservation-and-fermentation

@@ -16,3 +16,5 @@ evidence:
 observed_qualifiers:
 - value: chopped
   count: 1
+categories:
+  - nuts-and-seeds

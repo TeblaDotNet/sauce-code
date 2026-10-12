@@ -15,3 +15,5 @@ evidence:
   - examples/public-domain-recipes/greek-salad/greek-salad.opensauce
   - examples/public-domain-recipes/zaatar-chicken-bulgur-bowls/zaatar-chicken-bulgur-bowls.opensauce
   review_note: Vocabulary review pass 1; lexical/concept identification only, no human review claim.
+categories:
+  - dairy-and-eggs

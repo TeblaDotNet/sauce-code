@@ -13,3 +13,5 @@ evidence:
   legacy_terms:
   - term: vegetable oil
     count: 2
+categories:
+  - fats-and-oils

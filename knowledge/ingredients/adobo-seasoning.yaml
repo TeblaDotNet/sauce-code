@@ -16,3 +16,5 @@ evidence:
 observed_qualifiers:
 - value: dry
   count: 1
+categories:
+  - herbs-and-spices

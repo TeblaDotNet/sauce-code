@@ -23,3 +23,5 @@ observed_parameters:
   count: 1
 - value: kitchen roll
   count: 1
+categories:
+  - preservation-and-fermentation

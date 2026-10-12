@@ -9,4 +9,4 @@ curation:
   review: unchecked
 scope: "Treat food with a salt solution for seasoning or other intended changes. Brining is distinct from marinating and curing, although a preparation may involve more than one technique. The term alone establishes neither preservation nor shelf stability."
 categories:
-- preservation-and-fermentation
+  - preservation-and-fermentation

@@ -16,3 +16,5 @@ evidence:
 observed_qualifiers:
 - value: instant-read
   count: 1
+categories:
+  - measuring

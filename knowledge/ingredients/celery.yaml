@@ -15,3 +15,5 @@ evidence:
   - examples/public-domain-recipes/bolognese-sauce/bolognese-sauce.opensauce
   - examples/public-domain-recipes/erwtensoep/erwtensoep.opensauce
   - examples/public-domain-recipes/ukrainian-borscht/ukrainian-borscht.opensauce
+categories:
+  - produce

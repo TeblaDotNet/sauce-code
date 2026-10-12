@@ -16,3 +16,5 @@ evidence:
 observed_qualifiers:
 - value: freshly ground rose pepper and green pepper and black pepper
   count: 1
+categories:
+  - produce

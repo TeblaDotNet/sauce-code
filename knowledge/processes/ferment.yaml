@@ -40,3 +40,5 @@ observed_parameters:
   count: 2
 - value: warm place
   count: 1
+categories:
+  - preservation-and-fermentation

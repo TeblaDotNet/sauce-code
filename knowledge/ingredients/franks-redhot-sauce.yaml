@@ -16,3 +16,5 @@ evidence:
 observed_qualifiers:
 - value: not wing sauce version
   count: 1
+categories:
+  - sauces-and-condiments

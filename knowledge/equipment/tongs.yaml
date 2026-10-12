@@ -18,3 +18,5 @@ observed_qualifiers:
     count: 1
   - value: rubber
     count: 1
+categories:
+  - preparation-tools

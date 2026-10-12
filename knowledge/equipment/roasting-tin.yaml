@@ -13,3 +13,5 @@ evidence:
   legacy_terms:
   - term: roasting tin
     count: 1
+categories:
+  - bakeware

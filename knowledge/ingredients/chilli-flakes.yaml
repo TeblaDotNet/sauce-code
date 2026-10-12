@@ -21,3 +21,5 @@ observed_qualifiers:
 aliases:
 - name: chili flakes
   type: review-pass-1-lexical
+categories:
+  - herbs-and-spices

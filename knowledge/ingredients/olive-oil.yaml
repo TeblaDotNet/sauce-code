@@ -38,3 +38,5 @@ evidence:
 observed_qualifiers:
   - value: high quality
     count: 1
+categories:
+  - fats-and-oils

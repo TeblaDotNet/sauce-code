@@ -20,3 +20,5 @@ evidence:
   legacy_terms:
   - term: chicken stock
     count: 2
+categories:
+  - pantry-products

@@ -16,3 +16,5 @@ evidence:
 observed_qualifiers:
 - value: 95% ABV
   count: 1
+categories:
+  - beverages

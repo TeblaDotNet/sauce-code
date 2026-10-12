@@ -25,3 +25,5 @@ observed_qualifiers:
   count: 1
 plural_names:
   en: leeks
+categories:
+  - produce

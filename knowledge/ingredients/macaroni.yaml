@@ -16,3 +16,5 @@ evidence:
 observed_qualifiers:
 - value: elbow
   count: 1
+categories:
+  - grains-and-flours

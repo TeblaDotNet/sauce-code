@@ -24,3 +24,5 @@ observed_parameters:
   count: 2
 - value: small
   count: 2
+categories:
+  - preparation-and-cutting

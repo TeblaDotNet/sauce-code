@@ -31,3 +31,5 @@ observed_qualifiers:
   count: 1
 - value: white or brown
   count: 1
+categories:
+  - grains-and-flours

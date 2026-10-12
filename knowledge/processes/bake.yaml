@@ -209,3 +209,6 @@ observed_parameters:
     count: 3
   - value: ~45m
     count: 3
+categories:
+  - dry-heat-cooking
+  - baking-and-pastry

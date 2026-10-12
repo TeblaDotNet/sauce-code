@@ -13,3 +13,5 @@ evidence:
     count: 1
   seen_in:
   - examples/public-domain-recipes/french-toast/french-toast.opensauce
+categories:
+  - knives-and-cutting

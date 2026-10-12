@@ -18,3 +18,5 @@ evidence:
 observed_qualifiers:
 - value: dry
   count: 3
+categories:
+  - baking-ingredients

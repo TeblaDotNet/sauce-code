@@ -16,3 +16,5 @@ evidence:
 observed_parameters:
 - value: or remove skin
   count: 1
+categories:
+  - preparation-and-cutting

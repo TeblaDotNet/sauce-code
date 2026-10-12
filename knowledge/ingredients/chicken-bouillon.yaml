@@ -13,3 +13,5 @@ evidence:
   legacy_terms:
   - term: chicken bouillon
     count: 1
+categories:
+  - pantry-products

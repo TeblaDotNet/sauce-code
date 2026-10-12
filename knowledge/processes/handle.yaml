@@ -18,3 +18,5 @@ observed_parameters:
   count: 1
 - value: floured surface
   count: 1
+categories:
+  - general-cooking

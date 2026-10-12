@@ -9,4 +9,4 @@ curation:
   review: unchecked
 scope: "Control the crystal structure of cocoa butter in chocolate to obtain the intended set, appearance and texture. This is the chocolate sense of tempering, distinct from tempering eggs or spices."
 categories:
-- baking-and-pastry
+  - baking-and-pastry

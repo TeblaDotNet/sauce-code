@@ -22,3 +22,6 @@ evidence:
   seen_in:
     - examples/public-domain-recipes/butter-cake/butter-cake.opensauce
     - examples/public-domain-recipes/damper/damper.opensauce
+categories:
+  - grains-and-flours
+  - baking-ingredients

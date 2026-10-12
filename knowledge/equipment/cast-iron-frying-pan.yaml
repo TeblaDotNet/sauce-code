@@ -7,3 +7,5 @@ type_of: frying-pan
 curation:
   origin: generated
   review: unchecked
+categories:
+  - cookware

@@ -13,3 +13,6 @@ evidence:
     count: 1
   seen_in:
   - examples/public-domain-recipes/baby-back-ribs/baby-back-ribs.opensauce
+categories:
+  - appliances
+  - preservation-and-fermentation

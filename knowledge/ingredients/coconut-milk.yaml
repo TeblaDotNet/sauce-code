@@ -18,3 +18,5 @@ evidence:
   legacy_terms:
   - term: coconut milk
     count: 1
+categories:
+  - pantry-products

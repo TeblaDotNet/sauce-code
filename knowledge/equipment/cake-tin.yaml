@@ -13,3 +13,5 @@ evidence:
     count: 1
   seen_in:
   - examples/public-domain-recipes/butter-cake/butter-cake.opensauce
+categories:
+  - bakeware

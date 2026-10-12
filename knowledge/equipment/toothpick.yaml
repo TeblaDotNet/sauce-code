@@ -13,3 +13,5 @@ evidence:
     count: 1
   seen_in:
   - examples/public-domain-recipes/blueberry-muffins/blueberry-muffins.opensauce
+categories:
+  - preparation-tools

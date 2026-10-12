@@ -16,3 +16,5 @@ evidence:
 observed_qualifiers:
 - value: vegetable or pork or chicken
   count: 1
+categories:
+  - pantry-products

@@ -9,4 +9,4 @@ curation:
   review: unchecked
 scope: "Cook food in a relatively shallow layer of hot fat, generally without complete immersion. It overlaps some pan-frying practice but is not a universal synonym for pan-fry."
 categories:
-- frying
+  - frying

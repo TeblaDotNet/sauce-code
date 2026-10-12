@@ -13,3 +13,5 @@ evidence:
     count: 1
   seen_in:
   - examples/public-domain-recipes/bean-salad/bean-salad.opensauce
+categories:
+  - herbs-and-spices

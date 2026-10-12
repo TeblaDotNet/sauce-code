@@ -20,3 +20,5 @@ observed_parameters:
   count: 1
 - value: spatula
   count: 1
+categories:
+  - preparation-and-cutting

@@ -22,3 +22,5 @@ observed_qualifiers:
   count: 1
 - value: wooden
   count: 2
+categories:
+  - preparation-tools

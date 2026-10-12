@@ -26,3 +26,5 @@ evidence:
 observed_qualifiers:
 - value: 900g / 2lb
   count: 1
+categories:
+  - bakeware

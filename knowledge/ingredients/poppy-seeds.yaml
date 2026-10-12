@@ -13,3 +13,6 @@ evidence:
     count: 1
   seen_in:
   - examples/public-domain-recipes/challah-bread/challah-bread.opensauce
+categories:
+  - nuts-and-seeds
+  - baking-ingredients

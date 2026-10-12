@@ -25,3 +25,5 @@ observed_parameters:
     count: 1
   - value: to coat
     count: 1
+categories:
+  - mixing-and-emulsifying

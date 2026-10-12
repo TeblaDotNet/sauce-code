@@ -23,3 +23,5 @@ observed_parameters:
   count: 1
 - value: prepared muffin tin
   count: 1
+categories:
+  - general-cooking

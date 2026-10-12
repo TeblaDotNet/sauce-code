@@ -17,3 +17,5 @@ evidence:
   - examples/public-domain-recipes/crostata/crostata.opensauce
   - examples/public-domain-recipes/gooseberry-pudding/gooseberry-pudding.opensauce
   - examples/public-domain-recipes/granita/granita.opensauce
+categories:
+  - preparation-tools

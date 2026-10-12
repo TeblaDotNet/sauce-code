@@ -37,3 +37,6 @@ observed_qualifiers:
   count: 1
 - value: whole milk
   count: 1
+categories:
+  - dairy-and-eggs
+  - fermented-foods

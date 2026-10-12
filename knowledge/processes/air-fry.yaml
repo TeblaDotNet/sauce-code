@@ -22,3 +22,5 @@ observed_parameters:
 aliases:
 - name: air fry
   type: lexical
+categories:
+  - dry-heat-cooking

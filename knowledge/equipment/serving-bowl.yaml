@@ -14,3 +14,5 @@ evidence:
   seen_in:
   - examples/public-domain-recipes/hummus/hummus.opensauce
   - examples/public-domain-recipes/lenten-chili/lenten-chili.opensauce
+categories:
+  - storage-and-containers

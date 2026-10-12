@@ -16,3 +16,5 @@ evidence:
 observed_qualifiers:
 - value: at least 5.5 QT
   count: 1
+categories:
+  - cookware

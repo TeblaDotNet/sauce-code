@@ -16,3 +16,5 @@ evidence:
 observed_qualifiers:
 - value: mace and nutmeg and cinnamon
   count: 1
+categories:
+  - herbs-and-spices

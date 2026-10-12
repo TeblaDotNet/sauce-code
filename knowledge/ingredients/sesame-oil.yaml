@@ -19,3 +19,5 @@ evidence:
 observed_qualifiers:
 - value: toasted
   count: 1
+categories:
+  - fats-and-oils

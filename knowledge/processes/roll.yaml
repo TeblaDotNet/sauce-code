@@ -90,3 +90,5 @@ observed_parameters:
     count: 1
   - value: ~1/4in thin
     count: 1
+categories:
+  - baking-and-pastry

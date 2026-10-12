@@ -38,3 +38,5 @@ observed_qualifiers:
   count: 2
 - value: sweet
   count: 2
+categories:
+  - herbs-and-spices

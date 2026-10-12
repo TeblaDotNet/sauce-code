@@ -13,3 +13,5 @@ evidence:
     count: 1
   seen_in:
   - examples/public-domain-recipes/greek-easter-cookies/greek-easter-cookies.opensauce
+categories:
+  - beverages

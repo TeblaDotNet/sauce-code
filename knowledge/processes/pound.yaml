@@ -22,3 +22,5 @@ observed_parameters:
     count: 1
   - value: rolling pin or heavy object
     count: 1
+categories:
+  - preparation-and-cutting

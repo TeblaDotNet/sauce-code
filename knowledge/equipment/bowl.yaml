@@ -66,3 +66,5 @@ observed_qualifiers:
     count: 1
 plural_names:
   en: bowls
+categories:
+  - mixing

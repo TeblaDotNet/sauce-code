@@ -30,3 +30,5 @@ observed_parameters:
   count: 2
 - value: overnight
   count: 1
+categories:
+  - general-cooking

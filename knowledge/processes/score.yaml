@@ -24,3 +24,6 @@ observed_parameters:
   count: 1
 - value: scratch surface without cutting through
   count: 1
+categories:
+  - preparation-and-cutting
+  - baking-and-pastry

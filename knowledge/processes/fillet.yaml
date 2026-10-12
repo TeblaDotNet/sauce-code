@@ -9,4 +9,4 @@ curation:
   review: unchecked
 scope: "Separate a fillet from a fish or another appropriate cut, according to the food and context. Filleting is not interchangeable with every form of deboning, and does not guarantee that every small bone has been removed."
 categories:
-- preparation-and-cutting
+  - preparation-and-cutting

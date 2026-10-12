@@ -16,3 +16,5 @@ evidence:
 observed_parameters:
 - value: wooden skewer in widest part
   count: 1
+categories:
+  - general-cooking

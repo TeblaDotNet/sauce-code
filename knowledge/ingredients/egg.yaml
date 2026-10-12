@@ -114,3 +114,6 @@ observed_qualifiers:
     count: 1
   - value: yolk
     count: 4
+categories:
+  - dairy-and-eggs
+  - baking-ingredients

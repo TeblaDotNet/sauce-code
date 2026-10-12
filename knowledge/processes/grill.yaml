@@ -36,4 +36,5 @@ observed_parameters:
   count: 1
 scope: "Cook with strong direct or radiant heat. Regional wording varies: grill may refer to an overhead oven grill, a grill surface or outdoor cooking. Some uses overlap broil, but the identities remain distinct and barbecue is not a global synonym."
 categories:
-- fire-and-smoke
+  - fire-and-smoke
+  - dry-heat-cooking

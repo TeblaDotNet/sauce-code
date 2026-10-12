@@ -16,3 +16,5 @@ evidence:
     count: 1
   seen_in:
   - examples/public-domain-recipes/cheese/cheese.opensauce
+categories:
+  - preservation-and-fermentation

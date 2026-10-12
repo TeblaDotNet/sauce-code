@@ -26,3 +26,6 @@ evidence:
 observed_qualifiers:
 - value: optional
   count: 3
+categories:
+  - mixing
+  - appliances

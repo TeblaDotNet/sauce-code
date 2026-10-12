@@ -22,3 +22,5 @@ evidence:
 observed_qualifiers:
 - value: ground
   count: 3
+categories:
+  - herbs-and-spices

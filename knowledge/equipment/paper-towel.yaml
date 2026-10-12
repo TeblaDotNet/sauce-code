@@ -14,3 +14,5 @@ evidence:
   seen_in:
   - examples/public-domain-recipes/eggs-benedict/eggs-benedict.opensauce
   - examples/public-domain-recipes/kombucha/kombucha.opensauce
+categories:
+  - preparation-tools

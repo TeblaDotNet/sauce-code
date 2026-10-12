@@ -13,3 +13,6 @@ evidence:
     count: 1
   seen_in:
   - examples/public-domain-recipes/orange-jam/orange-jam.opensauce
+categories:
+  - knives-and-cutting
+  - preparation-tools

@@ -16,3 +16,5 @@ evidence:
     count: 1
   seen_in:
   - examples/public-domain-recipes/lobster-bisque/lobster-bisque.opensauce
+categories:
+  - fire-and-smoke

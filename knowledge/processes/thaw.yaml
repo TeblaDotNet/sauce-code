@@ -17,3 +17,5 @@ evidence:
 aliases:
 - name: defrost
   type: lexical
+categories:
+  - general-cooking

@@ -90,3 +90,5 @@ observed_qualifiers:
     count: 3
   - value: sea
     count: 2
+categories:
+  - herbs-and-spices

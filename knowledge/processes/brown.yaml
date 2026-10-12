@@ -38,3 +38,5 @@ observed_parameters:
   - value: tongs
     count: 1
 scope: "Develop brown colour on food through heating. The object and context determine the mechanism and intended endpoint; brown is not a blanket alias for sear or caramelise."
+categories:
+  - dry-heat-cooking

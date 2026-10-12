@@ -73,3 +73,5 @@ observed_parameters:
   count: 1
 - value: ~10m
   count: 1
+categories:
+  - general-cooking

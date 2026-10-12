@@ -26,7 +26,7 @@ Equipment subtype relationships express identity, not suitability guarantees. Pr
 
 Follow the adjacent entries and the typed model in src/vocabulary/index.ts for exact field shapes; tests exercise validation and rendering. Keep IDs stable, update the domain index deliberately and run core checks. The Node loader takes the directory containing ingredients/equipment/processes; pass knowledge/ in this repository. Its generic root contract is unchanged.
 
-Processes may have optional multi-valued `categories` for human browsing and a concise `scope` explanation. Categories are validated against the exported processCategories list, never aliases, inheritance, type_of or parser legality. Only the approved first process tranche is categorised; equipment categories remain future work and ingredient taxonomy awaits research. A public process page may have discovery value or explanation value, including regional or contextual ambiguity. Bare temper and proof remain unaliased because resolution is not context-scoped.
+Ingredients, processes and equipment may have optional multi-valued `categories` for human browsing. The shared registry in src/vocabulary/categories.ts defines stable IDs, domain eligibility, display names, descriptions and display order. Unknown, cross-domain and duplicate assignments are rejected; missing or empty categories remain valid. Categories never supply aliases, inheritance, type_of, substitution, regional equivalence, parser legality or inferred recipe usage. Processes may also have a concise `scope` explanation. A public process page may have discovery value or explanation value, including regional or contextual ambiguity. Bare temper and proof remain unaliased because resolution is not context-scoped.
 
 Historical evidence paths inside unchanged knowledge records are corpus-relative provenance identifiers. Resolve examples/public-domain-recipes paths against the full corpus project, not the curated core sample. The extraction deliberately does not rewrite evidence or identities.
 
@@ -112,3 +112,9 @@ versions in data and displaying them only when different or inside provenance.
 The `::` section labels are presentation, not recipe grammar. Image credits,
 measurement evidence and source-check scope remain available in expandable details;
 canonical identity metadata and part anchors are retained.
+
+### Browsing categories v1
+
+Categories answer where a cook would look, not what an ingredient biologically is. Membership is explicit and never inherited through families or parts. For example, brown-sugar belongs to sugars-and-sweeteners and baking-ingredients; hand-mixer belongs to mixing and appliances. The ingredient registry includes nuts-and-seeds alongside the initial practical food groups. Existing process category IDs are retained: mixing-and-emulsifying displays as Mixing & aeration, preparation-and-cutting as Preparation & knife skills; coating-and-breading and fire-and-smoke remain useful distinct groups. The exported processCategories API remains available.
+
+The site exposes non-empty public category pages at /ingredients/category/{id}/, /processes/category/{id}/ and /equipment/category/{id}/ beneath its configured base path. Counts are public reference entries, not assignment totals; recipe usage remains the existing count of distinct explicit recipe uses. A–Z always includes uncategorised public entries. reference:false never gains a page through membership. Enrichment remains a separate optional layer.

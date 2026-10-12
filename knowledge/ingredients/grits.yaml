@@ -15,3 +15,5 @@ evidence:
 observed_qualifiers:
   - value: uncooked
     count: 1
+categories:
+  - grains-and-flours

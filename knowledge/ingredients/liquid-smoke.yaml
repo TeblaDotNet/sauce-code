@@ -11,3 +11,6 @@ evidence:
   - examples/public-domain-recipes/beef-jerky/beef-jerky.opensauce
   - examples/public-domain-recipes/fajitas/fajitas.opensauce
   review_note: Vocabulary review pass 1; lexical/concept identification only, no human review claim.
+categories:
+  - sauces-and-condiments
+  - pantry-products

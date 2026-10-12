@@ -21,3 +21,5 @@ observed_qualifiers:
   count: 1
 - value: white
   count: 1
+categories:
+  - produce

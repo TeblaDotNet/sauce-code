@@ -13,3 +13,5 @@ evidence:
   legacy_terms:
   - term: warm through
     count: 1
+categories:
+  - general-cooking

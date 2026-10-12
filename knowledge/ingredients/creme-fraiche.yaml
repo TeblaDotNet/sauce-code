@@ -16,3 +16,6 @@ evidence:
 aliases:
 - name: creme fraiche
   type: review-pass-1-lexical
+categories:
+  - dairy-and-eggs
+  - fermented-foods

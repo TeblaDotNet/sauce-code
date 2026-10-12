@@ -17,3 +17,6 @@ evidence:
   seen_in:
   - examples/public-domain-recipes/creme-brulee/creme-brulee.opensauce
   - examples/public-domain-recipes/eggs-benedict/eggs-benedict.opensauce
+categories:
+  - dairy-and-eggs
+  - baking-ingredients

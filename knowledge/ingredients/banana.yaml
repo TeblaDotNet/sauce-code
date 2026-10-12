@@ -18,3 +18,5 @@ evidence:
 observed_qualifiers:
 - value: mashed
   count: 1
+categories:
+  - produce

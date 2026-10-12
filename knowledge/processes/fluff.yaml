@@ -16,3 +16,5 @@ evidence:
 observed_parameters:
 - value: fork
   count: 1
+categories:
+  - mixing-and-emulsifying

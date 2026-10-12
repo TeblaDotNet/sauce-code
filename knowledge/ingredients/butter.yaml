@@ -87,3 +87,7 @@ variants:
   unsalted:
     names:
       en: unsalted
+categories:
+  - dairy-and-eggs
+  - fats-and-oils
+  - baking-ingredients

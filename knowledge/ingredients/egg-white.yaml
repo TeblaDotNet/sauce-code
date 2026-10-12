@@ -17,3 +17,6 @@ evidence:
   seen_in:
   - examples/public-domain-recipes/cocoanut-pudding/cocoanut-pudding.opensauce
   - examples/public-domain-recipes/pavlova/pavlova.opensauce
+categories:
+  - dairy-and-eggs
+  - baking-ingredients

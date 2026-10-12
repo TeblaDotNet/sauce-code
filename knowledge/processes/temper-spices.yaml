@@ -9,4 +9,4 @@ curation:
   review: unchecked
 scope: "Bloom spices in hot fat to develop and carry their flavour. Spice tempering has culturally specific names and practices, including tadka and related traditions; those words are not silently made universal aliases. This is distinct from tempering chocolate or eggs."
 categories:
-- frying
+  - frying

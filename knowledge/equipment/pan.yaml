@@ -56,3 +56,5 @@ observed_qualifiers:
     count: 2
   - value: smaller
     count: 1
+categories:
+  - cookware

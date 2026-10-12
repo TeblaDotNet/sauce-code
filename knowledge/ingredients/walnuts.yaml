@@ -19,3 +19,5 @@ observed_qualifiers:
   count: 1
 - value: crushed
   count: 1
+categories:
+  - nuts-and-seeds

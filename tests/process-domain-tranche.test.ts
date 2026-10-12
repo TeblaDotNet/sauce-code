@@ -22,7 +22,7 @@ test('near neighbours retain independent identities',()=>{
   assert.deepEqual(group.map(id=>v.resolve(id,'process').map(e=>e.id)),group.map(id=>[id]));
  }
 });
-test('categories are optional validated process-only sets, not relationships',()=>{
+test('categories are optional domain-validated sets, not relationships',()=>{
  const entry:VocabularyEntry={id:'example',kind:'process',names:{en:'example'}};
  assert.equal(new Vocabulary([entry]).entries[0].categories,undefined);
  const multi={...entry,categories:['modernist','moist-heat-cooking'] as const};
@@ -30,7 +30,7 @@ test('categories are optional validated process-only sets, not relationships',()
  for(const categories of ['frying',[null],['unknown'],['frying','frying'],null])assert.throws(()=>new Vocabulary([{...entry,categories} as unknown as VocabularyEntry]),/categories/);
  for(const kind of ['ingredient','equipment'] as const)assert.throws(()=>new Vocabulary([{...entry,kind,categories:['frying']}]),/categories/);
  assert.throws(()=>new Vocabulary([{...entry,type_of:'fry'}]),/type_of/);
- assert.equal(processCategories.length,9);
+ assert.equal(processCategories.length,12);
  for(const scope of [null,12,' '])assert.throws(()=>new Vocabulary([{...entry,scope} as unknown as VocabularyEntry]),/scope/);
 });
 test('metadata does not alter recipe parsing, identity or renderer output',()=>{
@@ -46,7 +46,7 @@ test('only approved concepts acquire editorial metadata and counts match indexes
  assert.equal(v.entries.length,766);assert.equal(v.entries.filter(e=>e.kind==='process').length,236);
  assert.equal(v.entries.filter(e=>e.kind==='process'&&e.reference!==false).length,200);
  assert.equal(v.entries.filter(e=>e.reference!==false).length,729);
- for(const entry of v.entries.filter(e=>e.categories!==undefined||e.scope!==undefined))assert.ok([...added,...clarified].includes(entry.id));
+ for(const entry of v.entries.filter(e=>e.scope!==undefined))assert.ok([...added,...clarified].includes(entry.id));
  for(const id of clarified)assert.ok(createReferencePage(v,'process',id)!.scope);
  const index=yaml(await readFile('knowledge/processes/index.yaml','utf8'));assert.equal(index.canonical_concept_count,236);assert.equal(index.entries.length,236);assert.equal(new Set(index.entries.map((e:{id:string})=>e.id)).size,236);
  // Existing unindexed legacy records must not become additional concepts.

@@ -20,3 +20,6 @@ observed_qualifiers:
 aliases:
 - name: breadcrumbs
   type: review-pass-1-lexical
+categories:
+  - grains-and-flours
+  - baking-ingredients

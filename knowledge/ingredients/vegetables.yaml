@@ -19,3 +19,5 @@ observed_qualifiers:
   count: 2
 - value: examples sugar snap peas / chopped cabbage / sliced carrots / broccoli / cauliflower
   count: 1
+categories:
+  - produce

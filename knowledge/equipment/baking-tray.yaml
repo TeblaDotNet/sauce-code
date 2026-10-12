@@ -48,3 +48,5 @@ observed_qualifiers:
   count: 1
 - value: rimmed
   count: 2
+categories:
+  - bakeware

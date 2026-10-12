@@ -21,3 +21,6 @@ observed_qualifiers:
   count: 1
 - value: optional if tomatoes lack flavour
   count: 1
+categories:
+  - sauces-and-condiments
+  - pantry-products

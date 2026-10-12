@@ -17,3 +17,5 @@ evidence:
 observed_parameters:
 - value: plastic
   count: 1
+categories:
+  - general-cooking

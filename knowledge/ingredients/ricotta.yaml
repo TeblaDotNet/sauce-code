@@ -11,3 +11,5 @@ evidence:
   - examples/public-domain-recipes/herbs-pizza/herbs-pizza.opensauce
   - examples/public-domain-recipes/ravioli/ravioli.opensauce
   review_note: Vocabulary review pass 1; lexical/concept identification only, no human review claim.
+categories:
+  - dairy-and-eggs

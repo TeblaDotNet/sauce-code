@@ -20,3 +20,5 @@ observed_qualifiers:
   count: 1
 - value: semi-sweet milk
   count: 1
+categories:
+  - baking-ingredients

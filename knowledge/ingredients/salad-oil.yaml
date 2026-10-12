@@ -16,3 +16,5 @@ evidence:
 observed_qualifiers:
 - value: olive or canola or sunflower
   count: 1
+categories:
+  - fats-and-oils

@@ -13,3 +13,5 @@ evidence:
     count: 1
   seen_in:
   - examples/public-domain-recipes/creme-brulee/creme-brulee.opensauce
+categories:
+  - baking-ingredients

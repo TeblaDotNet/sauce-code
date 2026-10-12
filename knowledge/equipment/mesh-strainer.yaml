@@ -16,3 +16,5 @@ evidence:
 observed_qualifiers:
   - value: fine
     count: 1
+categories:
+  - preparation-tools

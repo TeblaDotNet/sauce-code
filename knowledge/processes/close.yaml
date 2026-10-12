@@ -16,3 +16,5 @@ evidence:
 observed_parameters:
 - value: immediately
   count: 1
+categories:
+  - general-cooking

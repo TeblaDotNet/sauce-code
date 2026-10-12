@@ -9,4 +9,4 @@ curation:
   review: unchecked
 scope: "A fermentation specialisation in which lactic-acid-producing microorganisms contribute to the transformation of food. It differs from simply adding acid to a pickle. This scope is not a preservation procedure or a shelf-stability claim."
 categories:
-- preservation-and-fermentation
+  - preservation-and-fermentation

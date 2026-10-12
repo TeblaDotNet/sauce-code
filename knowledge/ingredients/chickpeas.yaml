@@ -27,3 +27,5 @@ states:
     names: {en: cooked}
   tinned:
     names: {en-GB: tinned, en-US: canned}
+categories:
+  - pulses

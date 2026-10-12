@@ -19,3 +19,5 @@ observed_qualifiers:
   count: 1
 - value: red
   count: 1
+categories:
+  - pulses

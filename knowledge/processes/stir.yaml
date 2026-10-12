@@ -155,3 +155,6 @@ observed_parameters:
     count: 1
   - value: with as much rendered pork fat as desired
     count: 2
+categories:
+  - mixing-and-emulsifying
+  - general-cooking

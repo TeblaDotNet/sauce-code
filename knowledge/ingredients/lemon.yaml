@@ -50,3 +50,5 @@ parts:
   peel:
     names:
       en: peel
+categories:
+  - produce

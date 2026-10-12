@@ -56,3 +56,5 @@ observed_qualifiers:
     count: 1
   - value: thick-bottomed
     count: 1
+categories:
+  - cookware

@@ -24,3 +24,5 @@ observed_qualifiers:
   count: 1
 - value: milk
   count: 1
+categories:
+  - dairy-and-eggs

@@ -21,3 +21,5 @@ evidence:
   seen_in:
   - examples/public-domain-recipes/challah-bread/challah-bread.opensauce
   - examples/public-domain-recipes/zopf/zopf.opensauce
+categories:
+  - baking-and-pastry

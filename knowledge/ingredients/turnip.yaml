@@ -18,3 +18,5 @@ observed_qualifiers:
   count: 1
 - value: with greens
   count: 1
+categories:
+  - produce

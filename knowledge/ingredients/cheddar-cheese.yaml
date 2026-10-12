@@ -15,3 +15,6 @@ evidence:
 observed_qualifiers:
   - value: shredded
     count: 1
+categories:
+  - dairy-and-eggs
+  - fermented-foods

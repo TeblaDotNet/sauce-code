@@ -23,3 +23,5 @@ observed_qualifiers:
   count: 2
 - value: optional
   count: 1
+categories:
+  - herbs-and-spices

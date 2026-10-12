@@ -16,3 +16,6 @@ evidence:
 observed_qualifiers:
 - value: optional
   count: 1
+categories:
+  - preparation-tools
+  - mixing

@@ -28,3 +28,5 @@ observed_qualifiers:
   count: 1
 - value: stale
   count: 1
+categories:
+  - grains-and-flours

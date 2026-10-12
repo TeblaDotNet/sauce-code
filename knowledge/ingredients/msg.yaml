@@ -13,3 +13,5 @@ evidence:
   legacy_terms:
   - term: MSG
     count: 1
+categories:
+  - pantry-products

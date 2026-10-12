@@ -13,3 +13,5 @@ evidence:
   legacy_terms:
   - term: apple juice
     count: 1
+categories:
+  - beverages

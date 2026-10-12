@@ -17,3 +17,5 @@ evidence:
 observed_parameters:
   - value: vinaigrette
     count: 1
+categories:
+  - coating-and-breading

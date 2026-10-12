@@ -17,3 +17,5 @@ observed_parameters:
     count: 1
   - value: like pamphlet; source video illustrates
     count: 1
+categories:
+  - preparation-and-cutting

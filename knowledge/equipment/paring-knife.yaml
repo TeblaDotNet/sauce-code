@@ -7,3 +7,5 @@ type_of: knife
 curation:
   origin: generated
   review: unchecked
+categories:
+  - knives-and-cutting

@@ -23,3 +23,5 @@ evidence:
 observed_qualifiers:
 - value: conditional
   count: 1
+categories:
+  - fats-and-oils

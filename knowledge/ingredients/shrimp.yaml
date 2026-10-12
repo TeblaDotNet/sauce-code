@@ -15,3 +15,5 @@ evidence:
 observed_qualifiers:
   - value: large/jumbo
     count: 1
+categories:
+  - fish-and-seafood

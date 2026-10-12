@@ -37,3 +37,6 @@ evidence:
   - examples/public-domain-recipes/baked-trout/baked-trout.opensauce
   - examples/public-domain-recipes/croque-monsieur/croque-monsieur.opensauce
   - examples/public-domain-recipes/sweet-potato-fries/sweet-potato-fries.opensauce
+categories:
+  - bakeware
+  - storage-and-containers

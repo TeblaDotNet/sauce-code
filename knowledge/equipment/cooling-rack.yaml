@@ -19,3 +19,6 @@ evidence:
   legacy_terms:
   - term: cooling rack
     count: 2
+categories:
+  - preparation-tools
+  - bakeware

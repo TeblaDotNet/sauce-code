@@ -18,3 +18,5 @@ evidence:
 observed_qualifiers:
   - value: thick
     count: 1
+categories:
+  - meat-and-poultry

@@ -18,3 +18,5 @@ evidence:
 observed_qualifiers:
 - value: copper
   count: 1
+categories:
+  - cookware

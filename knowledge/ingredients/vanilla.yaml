@@ -24,3 +24,6 @@ observed_qualifiers:
   count: 3
 - value: powder
   count: 1
+categories:
+  - herbs-and-spices
+  - baking-ingredients

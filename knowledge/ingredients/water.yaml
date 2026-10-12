@@ -119,3 +119,5 @@ observed_qualifiers:
   count: 8
 - value: warm not hot
   count: 1
+categories:
+  - beverages

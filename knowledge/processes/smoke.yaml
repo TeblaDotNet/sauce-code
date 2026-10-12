@@ -24,3 +24,6 @@ observed_parameters:
   count: 1
 - value: bone down meat up
   count: 1
+categories:
+  - preservation-and-fermentation
+  - fire-and-smoke

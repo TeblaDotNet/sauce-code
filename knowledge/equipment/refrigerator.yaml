@@ -28,3 +28,6 @@ evidence:
   - examples/public-domain-recipes/sourdough-loaf/sourdough-loaf.opensauce
   - examples/public-domain-recipes/sourdough-starter/sourdough-starter.opensauce
   - examples/public-domain-recipes/tiramisu/tiramisu.opensauce
+categories:
+  - appliances
+  - preservation-and-fermentation

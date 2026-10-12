@@ -10,3 +10,5 @@ evidence:
   seen_in:
   - examples/public-domain-recipes/merchants-buckwheat/merchants-buckwheat.opensauce
   review_note: Vocabulary review pass 1; lexical/concept identification only, no human review claim.
+categories:
+  - grains-and-flours

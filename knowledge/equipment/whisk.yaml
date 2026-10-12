@@ -17,3 +17,5 @@ evidence:
   legacy_terms:
   - term: whisk
     count: 1
+categories:
+  - mixing

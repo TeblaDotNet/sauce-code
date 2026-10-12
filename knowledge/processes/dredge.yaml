@@ -9,4 +9,4 @@ curation:
   review: unchecked
 scope: "Coat the surface of food with a dry powder such as flour. Dredging is distinct from a complete multi-stage breading or a wet batter coating."
 categories:
-- coating-and-breading
+  - coating-and-breading

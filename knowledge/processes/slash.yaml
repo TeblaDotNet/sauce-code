@@ -20,3 +20,6 @@ observed_parameters:
   count: 1
 - value: ~1/2in deep
   count: 1
+categories:
+  - preparation-and-cutting
+  - baking-and-pastry

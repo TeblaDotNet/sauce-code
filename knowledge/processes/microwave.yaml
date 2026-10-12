@@ -16,3 +16,5 @@ evidence:
     count: 1
   seen_in:
   - examples/public-domain-recipes/breakfast-wrap/breakfast-wrap.opensauce
+categories:
+  - general-cooking

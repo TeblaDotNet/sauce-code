@@ -18,3 +18,5 @@ observed_parameters:
     count: 2
   - value: food processor
     count: 1
+categories:
+  - mixing-and-emulsifying

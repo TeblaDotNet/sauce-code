@@ -23,3 +23,5 @@ observed_parameters:
   count: 1
 - value: top
   count: 1
+categories:
+  - preparation-and-cutting

@@ -15,3 +15,5 @@ evidence:
 observed_parameters:
   - value: pan when bacon done
     count: 1
+categories:
+  - general-cooking

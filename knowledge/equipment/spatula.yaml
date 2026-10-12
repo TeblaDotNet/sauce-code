@@ -16,3 +16,5 @@ evidence:
   - examples/public-domain-recipes/pepper-sauce/pepper-sauce.opensauce
   - examples/public-domain-recipes/pizza-sauce/pizza-sauce.opensauce
   - examples/public-domain-recipes/sourdough-loaf/sourdough-loaf.opensauce
+categories:
+  - preparation-tools

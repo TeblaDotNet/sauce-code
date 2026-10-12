@@ -51,3 +51,6 @@ variants:
   whole:
     names:
       en: whole
+categories:
+  - dairy-and-eggs
+  - beverages

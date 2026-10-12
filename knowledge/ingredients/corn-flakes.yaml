@@ -13,3 +13,6 @@ evidence:
     count: 1
   seen_in:
   - examples/public-domain-recipes/desert-roses/desert-roses.opensauce
+categories:
+  - grains-and-flours
+  - pantry-products

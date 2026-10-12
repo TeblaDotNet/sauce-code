@@ -31,3 +31,5 @@ observed_qualifiers:
 aliases:
 - name: beef meat
   type: review-pass-1-lexical
+categories:
+  - meat-and-poultry

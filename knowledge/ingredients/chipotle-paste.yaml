@@ -13,3 +13,5 @@ evidence:
   legacy_terms:
   - term: chipotle paste
     count: 1
+categories:
+  - sauces-and-condiments

@@ -9,4 +9,4 @@ curation:
   review: unchecked
 scope: "Cook under elevated pressure in suitable cooking equipment. Pressure cooking is not pressure canning and does not by itself establish preservation or shelf stability."
 categories:
-- moist-heat-cooking
+  - moist-heat-cooking

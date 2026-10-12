@@ -17,3 +17,6 @@ evidence:
 observed_qualifiers:
 - value: whatever is open
   count: 1
+categories:
+  - fermented-foods
+  - beverages

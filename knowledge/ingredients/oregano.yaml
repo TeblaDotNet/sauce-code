@@ -31,3 +31,5 @@ parts:
       en: leaf
     plural_names:
       en: leaves
+categories:
+  - herbs-and-spices

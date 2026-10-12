@@ -13,3 +13,5 @@ evidence:
     count: 1
   seen_in:
   - examples/public-domain-recipes/rice-pudding/rice-pudding.opensauce
+categories:
+  - dairy-and-eggs

@@ -13,3 +13,5 @@ evidence:
     count: 1
   seen_in:
   - examples/public-domain-recipes/broiled-trevally/broiled-trevally.opensauce
+categories:
+  - fish-and-seafood

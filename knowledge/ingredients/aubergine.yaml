@@ -26,3 +26,5 @@ observed_qualifiers:
   count: 1
 - value: large
   count: 1
+categories:
+  - produce

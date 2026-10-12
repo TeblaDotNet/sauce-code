@@ -68,3 +68,5 @@ observed_qualifiers:
   count: 4
 plural_names:
   en: tomatoes
+categories:
+  - produce

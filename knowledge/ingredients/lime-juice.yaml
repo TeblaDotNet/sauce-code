@@ -15,3 +15,5 @@ evidence:
   - examples/public-domain-recipes/ceviche/ceviche.opensauce
   - examples/public-domain-recipes/egyptian-lentils/egyptian-lentils.opensauce
   - examples/public-domain-recipes/tzatziki/tzatziki.opensauce
+categories:
+  - beverages

@@ -21,3 +21,6 @@ observed_parameters:
   count: 1
 - value: slightly
   count: 1
+categories:
+  - preparation-and-cutting
+  - baking-and-pastry

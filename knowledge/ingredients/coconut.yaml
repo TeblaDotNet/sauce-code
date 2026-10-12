@@ -20,3 +20,5 @@ evidence:
 observed_qualifiers:
 - value: grated
   count: 1
+categories:
+  - produce

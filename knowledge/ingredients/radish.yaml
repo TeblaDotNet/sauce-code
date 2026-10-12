@@ -17,3 +17,5 @@ evidence:
   - examples/public-domain-recipes/okroshka/okroshka.opensauce
   - examples/public-domain-recipes/perfect-potato-salad/perfect-potato-salad.opensauce
   review_note: Vocabulary review pass 1; lexical/concept identification only, no human review claim.
+categories:
+  - produce

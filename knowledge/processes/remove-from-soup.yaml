@@ -13,3 +13,5 @@ evidence:
   legacy_terms:
   - term: remove from soup
     count: 1
+categories:
+  - general-cooking

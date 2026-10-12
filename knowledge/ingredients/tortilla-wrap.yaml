@@ -16,3 +16,5 @@ evidence:
 observed_qualifiers:
 - value: soft
   count: 1
+categories:
+  - grains-and-flours

@@ -54,3 +54,5 @@ aliases:
   type: ingredient-knowledge-v1-compatibility
 plural_names:
   en: red chillies
+categories:
+  - produce

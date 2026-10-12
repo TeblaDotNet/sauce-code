@@ -14,3 +14,5 @@ evidence:
   - examples/public-domain-recipes/panang-style-beef-curry/panang-style-beef-curry.opensauce
   - examples/public-domain-recipes/spicy-kung-pao-style-chicken/spicy-kung-pao-style-chicken.opensauce
   review_note: Vocabulary review pass 1; lexical/concept identification only, no human review claim.
+categories:
+  - nuts-and-seeds

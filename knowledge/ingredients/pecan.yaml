@@ -14,3 +14,5 @@ evidence:
   - examples/public-domain-recipes/hearty-breakfast-oatmeal/hearty-breakfast-oatmeal.opensauce
   - examples/public-domain-recipes/mazurek/mazurek.opensauce
   review_note: Vocabulary review pass 1; lexical/concept identification only, no human review claim.
+categories:
+  - nuts-and-seeds

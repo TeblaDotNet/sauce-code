@@ -16,3 +16,6 @@ evidence:
 observed_qualifiers:
 - value: mark
   count: 1
+categories:
+  - herbs-and-spices
+  - baking-ingredients

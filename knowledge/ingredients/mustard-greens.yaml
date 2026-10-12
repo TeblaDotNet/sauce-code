@@ -16,3 +16,5 @@ evidence:
 observed_qualifiers:
 - value: optional substitute for unavailable turnip greens
   count: 1
+categories:
+  - produce

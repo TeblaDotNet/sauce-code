@@ -25,3 +25,5 @@ observed_qualifiers:
   count: 1
 - value: sharp
   count: 2
+categories:
+  - knives-and-cutting

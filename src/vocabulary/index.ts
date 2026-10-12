@@ -10,8 +10,9 @@ import { readCuration } from '../curation.ts';
 import type { Curation } from '../curation.ts';
 import type { IngredientKnowledge, IngredientPart, PartGroup } from './knowledge.ts';
 export * from './knowledge.ts';
-export const processCategories = ['mixing-and-emulsifying', 'coating-and-breading', 'frying', 'moist-heat-cooking', 'preparation-and-cutting', 'baking-and-pastry', 'preservation-and-fermentation', 'fire-and-smoke', 'modernist'] as const;
-export type ProcessCategory = typeof processCategories[number];
+export * from './categories.ts';
+import { validateBrowsingCategories } from './categories.ts';
+import type { BrowsingCategoryId } from './categories.ts';
 export interface IngredientState { names: Record<string, string>; aliases?: string[] }
 export interface VocabularyEntry extends IngredientKnowledge {
   exact_names?: ExactIngredientName[];
@@ -20,9 +21,10 @@ export interface VocabularyEntry extends IngredientKnowledge {
   canonical_target?: CanonicalIngredientTarget;
   /** Explicit local states of this whole ingredient/type; never inherited. */
   states?: Record<string, IngredientState>;
-  /** Process-only editorial scope and browsing categories; never resolution or inheritance. */
+  /** Process-only editorial scope; never resolution or inheritance. */
   scope?: string;
-  categories?: ProcessCategory[];
+  /** Optional cook-facing discovery groups; independent of identity and enrichment. */
+  categories?: BrowsingCategoryId[];
   /** One direct same-domain ingredient/equipment parent; no inheritance or alias expansion. */
   type_of?: string;
   curation?: Curation;
@@ -65,9 +67,7 @@ export class Vocabulary {
         throw new Error(`Invalid type_of on ${entry.id}: expected one canonical ingredient or equipment ID`);
       if (entry.scope !== undefined && (entry.kind !== 'process' || typeof entry.scope !== 'string' || !entry.scope.trim()))
         throw new Error('Invalid process scope on ' + entry.id);
-      if (entry.categories !== undefined && (entry.kind !== 'process' || !Array.isArray(entry.categories) ||
-          entry.categories.some(c => !processCategories.includes(c)) || new Set(entry.categories).size !== entry.categories.length))
-        throw new Error('Invalid process categories on ' + entry.id);
+      validateBrowsingCategories(entry.kind, entry.categories, entry.id);
       for (const field of ['exact_names', 'regional_mappings', 'canonical_target'] as const)
         if (entry[field] !== undefined && entry.kind !== 'ingredient') throw new Error('Ingredient localisation on non-ingredient: ' + entry.id);
       if (entry.exact_names !== undefined) validateNames(entry.exact_names);

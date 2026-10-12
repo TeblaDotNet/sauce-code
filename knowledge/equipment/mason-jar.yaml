@@ -17,3 +17,6 @@ evidence:
 observed_qualifiers:
 - value: sterile
   count: 1
+categories:
+  - preservation-and-fermentation
+  - storage-and-containers

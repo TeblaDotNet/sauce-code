@@ -16,3 +16,5 @@ evidence:
 observed_qualifiers:
 - value: husks removed
   count: 1
+categories:
+  - produce

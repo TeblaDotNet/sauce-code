@@ -11,3 +11,6 @@ evidence:
   - examples/public-domain-recipes/greek-yogurt/greek-yogurt.opensauce
   - examples/public-domain-recipes/yogurt/yogurt.opensauce
   review_note: Vocabulary review pass 1; lexical/concept identification only, no human review claim.
+categories:
+  - coffee-and-bar
+  - storage-and-containers

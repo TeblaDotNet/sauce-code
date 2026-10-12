@@ -19,3 +19,5 @@ evidence:
   - examples/public-domain-recipes/french-mustard-sauce-porkchops/french-mustard-sauce-porkchops.opensauce
   - examples/public-domain-recipes/lemon-and-oregano-chicken-traybake/lemon-and-oregano-chicken-traybake.opensauce
   review_note: Vocabulary review pass 1; lexical/concept identification only, no human review claim.
+categories:
+  - produce

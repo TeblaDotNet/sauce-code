@@ -16,3 +16,6 @@ evidence:
 observed_qualifiers:
 - value: shallow
   count: 1
+categories:
+  - cookware
+  - bakeware

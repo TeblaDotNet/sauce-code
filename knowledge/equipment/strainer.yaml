@@ -17,3 +17,5 @@ evidence:
   - examples/public-domain-recipes/kvass/kvass.opensauce
   - examples/public-domain-recipes/limoncello/limoncello.opensauce
   - examples/public-domain-recipes/stuffed-round-squash/stuffed-round-squash.opensauce
+categories:
+  - preparation-tools

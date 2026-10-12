@@ -16,3 +16,5 @@ evidence:
 observed_qualifiers:
 - value: raw
   count: 1
+categories:
+  - fish-and-seafood

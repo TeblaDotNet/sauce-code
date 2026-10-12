@@ -13,3 +13,5 @@ evidence:
     count: 1
   seen_in:
   - examples/public-domain-recipes/pepper-sauce/pepper-sauce.opensauce
+categories:
+  - preparation-and-cutting

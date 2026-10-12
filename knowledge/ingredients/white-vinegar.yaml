@@ -13,3 +13,6 @@ evidence:
     count: 1
   seen_in:
   - examples/public-domain-recipes/eggs-benedict/eggs-benedict.opensauce
+categories:
+  - sauces-and-condiments
+  - fermented-foods

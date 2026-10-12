@@ -24,3 +24,5 @@ observed_parameters:
   count: 1
 - value: 'three separate bowls: flour; beaten eggs; seasoned bread crumbs'
   count: 1
+categories:
+  - general-cooking

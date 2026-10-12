@@ -14,3 +14,6 @@ evidence:
   - examples/public-domain-recipes/portuguese-steak-with-beer-sauce/portuguese-steak-with-beer-sauce.opensauce
   - examples/public-domain-recipes/stoofvlees/stoofvlees.opensauce
   review_note: Vocabulary review pass 1; lexical/concept identification only, no human review claim.
+categories:
+  - fermented-foods
+  - beverages

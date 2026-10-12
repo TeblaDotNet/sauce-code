@@ -16,3 +16,5 @@ evidence:
 observed_qualifiers:
 - value: boneless
   count: 1
+categories:
+  - meat-and-poultry

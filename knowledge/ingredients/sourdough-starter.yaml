@@ -18,3 +18,6 @@ observed_qualifiers:
   count: 1
 - value: levain
   count: 1
+categories:
+  - fermented-foods
+  - baking-ingredients

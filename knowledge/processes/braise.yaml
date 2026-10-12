@@ -16,3 +16,5 @@ evidence:
     count: 1
   seen_in:
   - examples/public-domain-recipes/mapo-tofu/mapo-tofu.opensauce
+categories:
+  - moist-heat-cooking

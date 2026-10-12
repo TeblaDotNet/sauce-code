@@ -16,3 +16,5 @@ evidence:
 observed_parameters:
 - value: 1/4lb
   count: 1
+categories:
+  - general-cooking

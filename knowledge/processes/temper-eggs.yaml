@@ -9,5 +9,6 @@ curation:
   review: unchecked
 scope: "Gradually equalise temperature when combining eggs, custards or similar mixtures with a hotter component, limiting abrupt heating and unwanted coagulation. This is not chocolate tempering or spice tempering."
 categories:
-- mixing-and-emulsifying
-- baking-and-pastry
+  - mixing-and-emulsifying
+  - baking-and-pastry
+  - general-cooking

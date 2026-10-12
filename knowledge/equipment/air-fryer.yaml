@@ -13,3 +13,5 @@ evidence:
   legacy_terms:
   - term: air fryer
     count: 1
+categories:
+  - appliances

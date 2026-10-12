@@ -32,3 +32,5 @@ observed_parameters:
 - value: until melted
   count: 1
 scope: "Cook with strong radiant heat, commonly from an overhead broiler in contemporary usage. Historical and regional wording may also involve coals. Grill can overlap in particular contexts but is not a global alias."
+categories:
+  - dry-heat-cooking

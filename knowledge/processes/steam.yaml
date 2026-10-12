@@ -23,3 +23,5 @@ observed_parameters:
   count: 1
 - value: ~3m
   count: 1
+categories:
+  - moist-heat-cooking

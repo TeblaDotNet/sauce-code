@@ -13,3 +13,6 @@ evidence:
   legacy_terms:
   - term: soured cream
     count: 1
+categories:
+  - dairy-and-eggs
+  - fermented-foods

@@ -19,3 +19,5 @@ observed_qualifiers:
   count: 1
 - value: mince
   count: 2
+categories:
+  - meat-and-poultry

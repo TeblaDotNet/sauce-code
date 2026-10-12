@@ -13,3 +13,5 @@ evidence:
     count: 1
   seen_in:
   - examples/public-domain-recipes/fish-curry/fish-curry.opensauce
+categories:
+  - pantry-products

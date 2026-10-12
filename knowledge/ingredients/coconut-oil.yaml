@@ -13,3 +13,5 @@ evidence:
     count: 1
   seen_in:
   - examples/public-domain-recipes/tofu-stir-fry/tofu-stir-fry.opensauce
+categories:
+  - fats-and-oils

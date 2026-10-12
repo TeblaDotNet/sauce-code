@@ -25,3 +25,5 @@ observed_parameters:
   count: 2
 - value: until beef pulls apart easily
   count: 1
+categories:
+  - moist-heat-cooking
