@@ -133,9 +133,10 @@ export function compactPhrasing(recipe: Recipe, options: RenderOptions) {
           }));
           return [...text(' '), ...phrase];
         }
-        const position = suffix.indexOf(params[i]);
+        const displayParameter = /^\d+(?:\.\d+)?\s*°?[CF]$/i.test(params[i]) ? params[i].replace(/\s*°?([CF])$/i, (_, unit: string) => '°' + unit.toUpperCase()) : params[i];
+        const position = suffix.indexOf(displayParameter);
         return !options.formatValue && position >= 0 && isStructuredValue(t.parameters![i])
-          ? [...text(suffix.slice(0, position)), ...text(params[i], true), ...text(suffix.slice(position + params[i].length))]
+          ? [...text(suffix.slice(0, position)), ...text(displayParameter, true), ...text(suffix.slice(position + displayParameter.length))]
           : text(suffix);
       })];
   };

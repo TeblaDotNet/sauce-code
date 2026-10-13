@@ -8,3 +8,4 @@ export * from './renderer/html.ts';
 export * from './vocabulary/index.ts';
 export * from './reference/index.ts';
 export * from './reference/html.ts';
+export * from './reading.ts';

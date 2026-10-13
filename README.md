@@ -108,3 +108,5 @@ The core contains a pinned representative sample, not the full recipe collection
 Conversion maturity, authorship and human review are separate. Reworked examples are not automatically human-reviewed recipes. No recipe was rewritten or promoted by this extraction.
 
 Recipe classification metadata is optional: a minimal recipe remains valid without category, dietary, cuisine or region labels. A dietary label is not a guarantee of suitability; check ingredients, substitutions and product labels. No corpus-wide dietary, cuisine or region inference is performed.
+
+Reader display and serving scaling APIs are documented in [Reading and scaling](docs/reading-scaling.md).

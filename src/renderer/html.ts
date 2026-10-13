@@ -1,3 +1,4 @@
+import { readerQuantity } from '../reading.ts';
 import { dietaryDisclaimer } from '../classification.ts';
 import { curationLabel } from '../curation.ts';
 import type { Node, Recipe, Token } from '../model/index.ts';
@@ -15,6 +16,8 @@ export type RecipeView = 'code' | 'compact' | 'originalSource';
 export interface HtmlRenderOptions extends RenderOptions {
   /** Optional syntax spans in Code only; never changes text or the model. */
   syntaxSpans?: boolean;
+  /** Compact-only presentation slots; authored Code remains literal. */
+  readingAnnotations?: boolean;
   /** Page shells can provide a persistent title/curation header. */
   header?: boolean;
   /** Contextual prose headings; Sauce Code section names remain authored syntax. */
@@ -128,7 +131,7 @@ export function renderHtml(recipe: Recipe, options: HtmlRenderOptions = {}): str
     if (n.kind === 'statement') {
       const phrase = code ? undefined : merged ? { parts: merged, children: [] } : phrasing.statement(n, section);
       const content = phrase ? phrase.parts.map(p => {
-        const content = p.token ? token(p.token, p.text) : syntaxSpans && p.value ? `<span class="os-syntax-value">${e(p.text)}</span>` : e(p.text);
+        const content = p.token ? token(p.token, p.text) : syntaxSpans && p.value ? `<span class="os-syntax-value">${e(p.text)}</span>` : options.readingAnnotations && (p.value || readerQuantity(p.text,recipe.locale)) ? `<span data-reading-value data-reading-node="${e(n.id)}">${e(p.text)}</span>` : e(p.text);
         return p.nodeId ? `<span id="${e(nodeId(p.nodeId))}"${p.inheritedSubjectId ? ` data-inherited-subject="${e(nodeId(p.inheritedSubjectId))}"` : ''}>${content}</span>` : content;
       }).join('')
         : (() => {
