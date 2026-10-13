@@ -1,4 +1,4 @@
-import { readerQuantity } from '../reading.ts';
+import { readerQuantity, createReadingModel } from '../reading.ts';
 import { dietaryDisclaimer } from '../classification.ts';
 import { curationLabel } from '../curation.ts';
 import type { Node, Recipe, Token } from '../model/index.ts';
@@ -16,7 +16,7 @@ export type RecipeView = 'code' | 'compact' | 'originalSource';
 export interface HtmlRenderOptions extends RenderOptions {
   /** Optional syntax spans in Code only; never changes text or the model. */
   syntaxSpans?: boolean;
-  /** Compact-only presentation slots; authored Code remains literal. */
+  /** Opt-in reader slots in Code and Compact; source and AST remain immutable. */
   readingAnnotations?: boolean;
   /** Page shells can provide a persistent title/curation header. */
   header?: boolean;
@@ -60,6 +60,7 @@ export function renderHtml(recipe: Recipe, options: HtmlRenderOptions = {}): str
   const nodeId = (id: string) => `${prefix}-${encodeURIComponent(id)}`;
   if (options.view === 'originalSource') return recipe.sections.filter(s => s.originalSource).map(s =>
     `<pre class="os-original-source" aria-label="Original recipe source"><code>${e(s.originalSource!.text)}</code></pre>`).join('');
+  const readingAmounts = options.readingAnnotations ? new Map(createReadingModel(recipe).amounts.map(a => [a.id,a])) : undefined;
   const phrasing = compactPhrasing(recipe, options);
   const comment = (value?: string) => options.comments && value !== undefined
     ? `<aside class="os-comment" aria-label="Author comment"># ${e(value)}</aside>` : '';
@@ -91,11 +92,14 @@ export function renderHtml(recipe: Recipe, options: HtmlRenderOptions = {}): str
     return out + e(value.slice(offset));
   }
   function token(t: Token, label?: string, codeHead?: string): string {
-    if (code && label === undefined && codeHead === undefined && t.kind === 'process' && t.parameterParts) {
+    if (code && label === undefined && codeHead === undefined && t.kind === 'process' && (t.parameterParts || options.readingAnnotations && t.parameters?.length)) {
       const comma = t.raw.indexOf(',');
       // Link only the action head: nesting ingredient anchors in a process anchor is invalid HTML.
       const head = token(t, undefined, t.raw.slice(0, comma));
-      const body = t.parameterParts.map(p => ',' + (syntaxSpans && isStructuredValue(p.raw)
+      const parts = t.parameterParts ?? t.raw.slice(comma+1,-1).split(',').map(raw=>({raw,tokens:[{kind:'text',raw} as Token]}));
+      const body = parts.map(p => ',' + (options.readingAnnotations && readerQuantity(p.raw)?.dimension === 'temperature'
+        ? '<span class="os-syntax-value" data-reading-value>' + e(p.raw) + '</span>'
+        : syntaxSpans && isStructuredValue(p.raw)
         ? '<span class="os-syntax-value">' + e(p.raw) + '</span>'
         : p.tokens.map(child => token(child)).join(''))).join('');
       return '<span class="os-process-context">' + head + body + '&gt;</span>';
@@ -122,7 +126,7 @@ export function renderHtml(recipe: Recipe, options: HtmlRenderOptions = {}): str
       if (n.key === 'image') return image(n.value, options.imageAlt ?? 'Recipe image') + comment(n.comment);
       const value = options.formatValue?.(n.value, 'metadata') ?? n.value;
       const url = n.key === 'source' ? safeUrl(n.value) : undefined;
-      return `<dl class="os-metadata"><dt>${e(n.key)}</dt><dd>${url ? `<a href="${e(url)}">${e(value)}</a>` : e(value)}</dd></dl>` + (n.key === 'dietary' || n.key === 'dietary options' ? `<p class="os-dietary-notice">${e(dietaryDisclaimer)}</p>` : '') + comment(n.comment);
+      return `<dl class="os-metadata"><dt>${e(n.key)}</dt><dd${options.readingAnnotations && n.key === 'serves' ? ' data-reading-serves' : ''}>${url ? `<a href="${e(url)}">${e(value)}</a>` : e(value)}</dd></dl>` + (n.key === 'dietary' || n.key === 'dietary options' ? `<p class="os-dietary-notice">${e(dietaryDisclaimer)}</p>` : '') + comment(n.comment);
     }
     if (n.kind === 'group') {
       const label = code ? (n.relationship === 'group' ? '[' : `${n.relationship} [`) : (n.relationship === 'group' ? 'Together' : n.relationship);
@@ -135,6 +139,12 @@ export function renderHtml(recipe: Recipe, options: HtmlRenderOptions = {}): str
         return p.nodeId ? `<span id="${e(nodeId(p.nodeId))}"${p.inheritedSubjectId ? ` data-inherited-subject="${e(nodeId(p.inheritedSubjectId))}"` : ''}>${content}</span>` : content;
       }).join('')
         : (() => {
+          const amount = readingAmounts?.get(n.id);
+          if(amount){
+            const headIndex=n.tokens.findIndex(t=>t.raw.trim());
+            const tail=n.tokens.slice(headIndex+1).map(t=>t.raw).join('');
+            return n.tokens.slice(0,headIndex+1).map(t=>token(t)).join('') + `<span class="os-syntax-value" data-reading-value data-reading-node="${e(n.id)}">${e(tail)}</span>`;
+          }
           const amounts = syntaxSpans ? amountTokens(n.tokens) : new Set<Token>();
           return n.tokens.map(t => amounts.has(t) ? `<span class="os-syntax-value">${e(t.raw)}</span>` : token(t)).join('');
         })();

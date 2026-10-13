@@ -62,6 +62,21 @@ export function formatUSVolume(ml:number):{text:string;representedMl:number;unit
  const cups=Math.floor(ml/readerUnits['US cup'].factor);if(cups>0){const remaining=ml-cups*readerUnits['US cup'].factor;for(const unit of ['tbsp','tsp']){const x=mixed(remaining/readerUnits[unit].factor),representedMl=cups*readerUnits['US cup'].factor+x.value*readerUnits[unit].factor;if(x.value>0&&x.value<=4&&Math.abs(representedMl-ml)/ml<=.02)candidates.push({unit:'US cup + '+unit,text:cups+' US cup + '+x.text+' '+unit,representedMl,score:unit==='tbsp'?1:3});}}
  return candidates.sort((a,b)=>a.score-b.score||Math.abs(a.representedMl-ml)-Math.abs(b.representedMl-ml))[0];
 }
+/** Culinary decimals are display policy only; arithmetic keeps the unrounded amount. */
+function culinaryNumber(q:ReaderQuantity,source:ReaderQuantity,scaled:boolean):number {
+ if(q.precision==='approximate'||q.precision==='very-approximate')return Number(q.amount.toPrecision(2));
+ if(q.dimension==='count'&&scaled)return Number(q.amount.toFixed(1));
+ if(['g','kg','ml','l'].includes(q.unit)&&scaled){
+  const basis=readerUnits[q.unit].factor;
+  const authored=['mg','g','kg','ml','l'].includes(source.unit)?source.amount*readerUnits[source.unit].factor:Math.round(source.amount*readerUnits[source.unit].factor);
+  // Preserve the authored sub-unit resolution, including fractions, up to four decimals.
+  let places=0;while(places<4&&Math.abs(authored*10**places-Math.round(authored*10**places))>1e-8)places++;
+  places=Math.max(places,q.precision==='high'?1:0);
+  const rounded=Number((q.amount*basis).toFixed(places))/basis;
+  return rounded===0&&q.amount>0?Number(q.amount.toPrecision(1)):rounded;
+ }
+ return Number(q.amount.toFixed(q.dimension==='temperature'?2:4));
+}
 const marker=(p:Precision)=>p==='high'?'!':p==='approximate'?'~':p==='very-approximate'?'~~':'';
 export interface QuantityDisplay {text:string;source:string;scaledSource:string;precision:Precision;quality:'exact'|'rounded-for-display';converted:boolean;scaled:boolean;quantity:ReaderQuantity;note?:string}
 export function displayReaderQuantity(source:ReaderQuantity,preferences:ReadingPreferences,factor=1,ingredient=true):QuantityDisplay {
@@ -75,7 +90,7 @@ export function displayReaderQuantity(source:ReaderQuantity,preferences:ReadingP
   else q=convertReaderUnit(q,ml>=1000?'l':'ml')!;
  }
  if(q.dimension==='mass'&&preferences.measurementSystem==='us'){const friendly=mixed(q.amount);if(q.amount===0||Math.abs(friendly.value-q.amount)/q.amount<=.02){text=friendly.text+' '+q.unit;represented=friendly.value;}else q=convertReaderUnit(q,scaled.amount*readerUnits[scaled.unit].factor>=1000?'kg':'g')!;}
- if(!text){represented=Number(q.precision==='approximate'||q.precision==='very-approximate'?q.amount.toPrecision(2):q.amount.toFixed(q.dimension==='temperature'?2:4));text=String(represented)+(q.unit?' '+q.unit:'');}
+ if(!text){represented=culinaryNumber(q,source,ingredient&&factor!==1);text=String(represented)+(q.unit?' '+q.unit:'');}
  const rounded=Math.abs(represented-q.amount)>Math.max(1e-10,Math.abs(q.amount)*1e-10);
  const converted=(formattedUnit??q.unit)!==source.unit;
  return {text:marker(source.precision)+text,source:source.source,scaledSource:marker(source.precision)+String(Number(scaled.amount.toPrecision(12)))+(scaled.unit?' '+scaled.unit:''),precision:source.precision,quality:rounded?'rounded-for-display':'exact',converted,scaled:ingredient&&q.dimension!=='temperature'&&factor!==1,quantity:q,...(rounded?{note:'Rounded for display; use the source measurement for best accuracy.'}:{})};

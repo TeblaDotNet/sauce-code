@@ -79,7 +79,7 @@ Cocktails use the same recipe model and parser. The demonstration site gives the
 
 ## Code and Compact
 
-Sauce Code is authored text. Compact is generated prose; Original Source preserves the supplied source rather than reconstructing it. The example above renders as:
+Sauce Code is the structured recipe language. Its rendered reading view and Compact can reflect reader settings and serving scaling without editing authored text. Original Source preserves the supplied source rather than reconstructing it. The example above renders as:
 
 > Combine flour and egg yolk to make dough.
 > Mix the dough in mixing bowl, then rest for 20 minutes.
