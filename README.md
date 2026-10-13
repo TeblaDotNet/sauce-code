@@ -18,7 +18,7 @@ A small piece of Sauce Code looks like this:
 name: Dough preparation
 
 ::ingredients
-(flour; plain) 250g
+(flour; plain @ Example Mill) 250g
 (egg: yolk) 2
 
 ::equipment
@@ -29,6 +29,8 @@ name: Dough preparation
 {dough} <mix, in (mixing bowl)>
     <rest, 20m>
 ```
+
+Inside parentheses, the base name comes first: `;` adds a type/style, `:` a part, `@` a named product and `,` a qualifier such as preparation or state. Here, plain is the flour type and Example Mill is an illustrative product name. Naming it makes no stronger substitution claim; `@ ~Product` allows a suitable substitute within the declared ingredient/type scope, while `@ !Product` means the exact product is intended.
 
 One of the main reasons for Sauce Code is simple: for some people — sample size currently at least one — it can be faster to read a recipe this way than to parse the same instructions from ordinary prose.
 
@@ -58,6 +60,7 @@ The rest of the grammar stays mostly neutral:
 | `+` | Add / combine |
 | `=` | Define or assign |
 | `-OR-` | Alternative |
+| `@ Product` / `@ ~Product` / `@ !Product` | Named / reference with suitable substitution / exact product |
 | `/` | Equivalent quantity or setting |
 | `!100g` | Measure closely |
 | `~100g` | Approximate |

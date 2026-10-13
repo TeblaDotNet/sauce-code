@@ -118,7 +118,7 @@ Specific or important equipment should be declared when it materially helps some
 
 ## Types, parts, products and qualifiers
 
-Sauce Code can distinguish between an ingredient itself, a type of it, a part of it, and loose descriptive qualifiers.
+Start with the base ingredient or equipment name. Extra punctuation separates a type/style, a part, a named commercial product/expression and loose descriptive qualifiers; these are different kinds of information, not interchangeable ways of making a name longer.
 
 The full shape is:
 
@@ -126,24 +126,36 @@ The full shape is:
 (base [; variant] [: part [: subpart ...]] [@ [~|!] product] [, qualifiers...])
 ```
 
-For example:
+The square brackets in this shape mean optional fields, not characters to type. Read the fields from left to right:
 
 ```opensauce ingredients
 (flour; plain)
 (egg: yolk)
-(lemon: juice)
-(chicken: thigh: skin)
-(chicken; free range: thigh: skin)
+(hot sauce @ Tabasco)
+(butter, room temperature)
 ```
 
 The punctuation has different meanings:
 
 ```text
-;    type / variant
+;    type / style (variant)
 :    part or derived culinary product
 @    named commercial product / expression
 ,    loose qualifier, preparation, state, role, size, etc.
 ```
+
+Plain describes a type of flour; yolk selects a part of egg; Tabasco names a commercial hot sauce; room temperature describes the butter’s condition. A product name does not become a culinary type just because it is familiar.
+
+These fields can be combined in the same order:
+
+```opensauce ingredients
+(chicken; free range: thigh: skin)
+(gin; London dry @ ~Beefeater)
+(soy sauce @ !Example Reserve)
+(flour; plain @ Example Mill, sifted)
+```
+
+After `@`, no marker simply names the product; `~` permits a suitable substitute within the declared ingredient/type scope, and `!` means the exact product is intended. In the gin example, Beefeater is the recommended/reference product and another suitable London dry gin is acceptable. Neither marker describes uncertainty about the product’s name.
 
 So these are deliberately different ideas:
 
@@ -177,7 +189,7 @@ Use `@` to name a commercial product or expression separately from the ingredien
 - `@ !Product` means **exact product intended**: substituting materially changes the intended spec.
 - `-OR-` remains an explicit authored alternative. Neither a product name nor its strength creates inferred alternatives.
 
-`(gin; London dry @ ~Beefeater)` already permits another suitable London dry gin, so appending `-OR- (gin; London dry)` would normally be redundant. Use `-OR-` for genuinely distinct authored alternatives, such as absinthe and Herbsaint above.
+`(gin; London dry @ ~Beefeater)` already means Beefeater is recommended and another suitable London dry gin is acceptable. Writing `(gin; London dry @ ~Beefeater) -OR- (gin; London dry)` would normally repeat the fallback already allowed by `@ ~`. Use `-OR-` for genuinely distinct authored alternatives, such as absinthe and Herbsaint above.
 
 Product selection follows any type and part path, before comma qualifiers:
 
@@ -191,11 +203,11 @@ Product selection follows any type and part path, before comma qualifiers:
 
 These illustrative labels need no registry entry. The feature applies to any commercially meaningful ingredient, not just cocktails. `:` continues to identify a part or derived culinary product; `@` selects a commercial one.
 
+`!100g`, `~100g` and `~~100g` retain their existing quantity-precision meanings. Only the marker immediately following `@` describes product exactness. For example, `(flour; plain @ !Example Mill) ~100g` selects an exact product while keeping the amount approximate. The position matters: inside the parentheses it concerns product choice; before the amount it concerns how closely to measure.
+
 One `@` and at most one leading `~` or `!` are allowed in the identity head. The product label must be nonempty. Spaces, apostrophes, periods, hyphens, slashes, colons and semicolons in a product label are retained. Commas still start qualifiers, and parentheses delimit the thing; v1 introduces no quoted-label escape syntax. Put type/part fields before `@`: punctuation after it belongs to the product label. An additional `@` is diagnosed rather than interpreted as another selection. Existing text that used `@` literally in an identity head now opts into this syntax; `@` in a comma qualifier stays literal.
 
 The parser records `product.name` and `product.strength` (`specified`, `approximate`, or `exact`), plus the exact selection `raw` text and source `span`. This is independent of vocabulary resolution. Unknown products remain legal; canonical ingredient resolution uses the base, type and parts only. No brand, type, alias or substitution relationship is created. Explicit product names can distinguish local declarations; a different named product does not silently match one, even when marked approximate. A bare reference remains ambiguous when several product declarations match. No product marker is inherited or invented in the source.
-
-`!100g`, `~100g` and `~~100g` retain their existing quantity-precision meanings. Only the marker immediately following `@` describes product exactness. For example, `(flour @ !Example Mill) ~100g` selects an exact product while keeping the amount approximate.
 
 Sauce Code preserves authored punctuation, marker, label and spacing inside the token. Compact uses an English ingredient label and retains `@`, `~` or `!` visibly (for example, `London dry gin @ Beefeater`). HTML escapes product text and uses the existing specificity colour; any reference link still targets the culinary ingredient, not a resolved product page. Product registries and automatic substitution remain outside v1.
 
@@ -305,6 +317,8 @@ For simple additions, + is usually clearer than repeatedly writing `<add>`.
 -OR-
 (crème fraîche)
 ```
+
+For products, use `-OR-` for a separate choice such as `(absinthe) -OR- (Herbsaint)`, not merely to repeat the suitable-substitute allowance in `@ ~Product`.
 
 Multi-step alternative methods can use blocks:
 
