@@ -10,6 +10,6 @@ Precision belongs to the quantity expression: ! is accurate/measure closely, ~ a
 
 Conversion stage describes maturity, not authorship or human review. Hidden/noindex site behavior is discoverability policy, not privacy: source may remain public. Automated quality scores are structural review hints, not culinary verdicts.
 
-The agreed next wordmark is `<Open> {Sauce} (Food)`, with `<Open>` #DA8E8E, `{Sauce}` #B8A4D5 and `(Food)` #B5E1B8. Asset integration is pending: the current SVGs still show `[open] <sauce> (food)`.
+The canonical wordmark is `<Open> {Sauce} (Food)`, with `<Open>` #DA8E8E, `{Sauce}` #B8A4D5 and `(Food)` #B5E1B8. Light mode uses dark text centred in clean rectangular semantic-colour blocks; dark mode uses semantic-colour text without blocks. Both assets have transparent backgrounds.
 
 Keep useful evidence and source attribution. Use normal forward changes and explicit fixtures; do not replace regression coverage with broad count relaxations. Website composition and production operations are consumers of the language/library rather than requirements for using it.
