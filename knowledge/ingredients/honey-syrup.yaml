@@ -1,0 +1,13 @@
+id: honey-syrup
+kind: ingredient
+canonical_name: honey syrup
+names:
+  en: honey syrup
+curation:
+  origin: generated
+  review: unchecked
+categories:
+  - beverages
+evidence:
+  review_note: Cocktail Foundation v2; generated identity, source-specific use,
+    not human reviewed.

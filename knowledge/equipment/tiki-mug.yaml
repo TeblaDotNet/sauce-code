@@ -1,0 +1,13 @@
+id: tiki-mug
+kind: equipment
+canonical_name: tiki mug
+names:
+  en: tiki mug
+curation:
+  origin: generated
+  review: unchecked
+categories:
+  - coffee-and-bar
+evidence:
+  review_note: Cocktail Foundation v2; generated identity, source-specific use,
+    not human reviewed.

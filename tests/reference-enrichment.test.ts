@@ -121,12 +121,12 @@ test('gram-authored mass remains unchanged without density, even with conflictin
   assert.deepEqual(convert({from:'g',to:'g',amount:213,approximate:true},[observation(),observation()]),{ok:true,value:213,unit:'g',approximate:true});
 });
 
-test('344 enrichments load with unique eligible targets; all draft records stay below human review',()=>{
-  assert.equal(vocabulary.enrichments.length,344);
-  assert.equal(new Set(vocabulary.enrichments.map(e=>e.target.kind+':'+e.target.id)).size,344);
+test('387 enrichments load with unique eligible targets; all draft records stay below human review',()=>{
+  assert.equal(vocabulary.enrichments.length,387);
+  assert.equal(new Set(vocabulary.enrichments.map(e=>e.target.kind+':'+e.target.id)).size,387);
   for(const item of vocabulary.enrichments) assert.ok(createReferencePage(vocabulary,item.target.kind,item.target.id),item.target.id);
-  for(const [kind,count] of [['ingredient',124],['process',117],['equipment',103]] as const) assert.equal(vocabulary.enrichments.filter(e=>e.target.kind===kind).length,count);
-  assert.equal(vocabulary.entries.length,780);
+  for(const [kind,count] of [['ingredient',154],['process',122],['equipment',111]] as const) assert.equal(vocabulary.enrichments.filter(e=>e.target.kind===kind).length,count);
+  assert.equal(vocabulary.entries.length,810);
   for(const e of vocabulary.enrichments){assert.equal(e.review_version,0.1);for(const r of [...e.editorial??[],...e.resources??[],...e.associations??[],...e.measurements??[]])assert.equal(r.review_version,0.1);assert.ok(renderReferenceHtml(createReferencePage(vocabulary,e.target.kind,e.target.id)!).includes('Version 0.1 — machine generated, not yet human reviewed'));}
 });
 test('brown sugar original observation has no density number or executable conversion',()=>{

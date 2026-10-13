@@ -24,5 +24,8 @@ variants:
   creole-style:
     names:
       en: Creole-style
+  mole:
+    names:
+      en: mole
 aliases:
   - cocktail bitters

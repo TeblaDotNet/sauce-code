@@ -3,7 +3,7 @@ schema_version: '0.3'
 status: draft8-vocabulary-review-pass-1
 current_recipe_count: 410
 legacy_evidence: bbc-food-10 vocabulary observations retained; recipe texts not distributed
-canonical_concept_count: 395
+canonical_concept_count: 414
 entries:
 - id: active-dry-yeast
   canonical_name: active dry yeast
@@ -16,7 +16,7 @@ entries:
 - id: agave
   canonical_name: agave
   file: agave.yaml
-  aliases: 0
+  aliases: 2
 - id: alcohol
   canonical_name: alcohol
   file: alcohol.yaml
@@ -1584,4 +1584,80 @@ entries:
 - id: vodka
   canonical_name: vodka
   file: vodka.yaml
+  aliases: 0
+- id: scotch-whisky
+  canonical_name: Scotch whisky
+  file: scotch-whisky.yaml
+  aliases: 0
+- id: tequila
+  canonical_name: tequila
+  file: tequila.yaml
+  aliases: 0
+- id: mezcal
+  canonical_name: mezcal
+  file: mezcal.yaml
+  aliases: 0
+- id: orange-liqueur
+  canonical_name: orange liqueur
+  file: orange-liqueur.yaml
+  aliases: 0
+- id: maraschino-liqueur
+  canonical_name: maraschino liqueur
+  file: maraschino-liqueur.yaml
+  aliases: 0
+- id: liqueur
+  canonical_name: liqueur
+  file: liqueur.yaml
+  aliases: 0
+- id: bitter-aperitif
+  canonical_name: bitter aperitif
+  file: bitter-aperitif.yaml
+  aliases: 0
+- id: grenadine
+  canonical_name: grenadine
+  file: grenadine.yaml
+  aliases: 0
+- id: orgeat
+  canonical_name: orgeat
+  file: orgeat.yaml
+  aliases: 0
+- id: ginger-beer
+  canonical_name: ginger beer
+  file: ginger-beer.yaml
+  aliases: 0
+- id: soda-water
+  canonical_name: soda water
+  file: soda-water.yaml
+  aliases: 0
+- id: tonic-water
+  canonical_name: tonic water
+  file: tonic-water.yaml
+  aliases: 0
+- id: non-alcoholic-botanical-drink
+  canonical_name: non-alcoholic botanical drink
+  file: non-alcoholic-botanical-drink.yaml
+  aliases: 0
+- id: honey-syrup
+  canonical_name: honey syrup
+  file: honey-syrup.yaml
+  aliases: 0
+- id: honey-ginger-syrup
+  canonical_name: honey-ginger syrup
+  file: honey-ginger-syrup.yaml
+  aliases: 0
+- id: saline-solution
+  canonical_name: saline solution
+  file: saline-solution.yaml
+  aliases: 0
+- id: grapefruit-soda
+  canonical_name: grapefruit soda
+  file: grapefruit-soda.yaml
+  aliases: 0
+- id: raspberry-syrup
+  canonical_name: raspberry syrup
+  file: raspberry-syrup.yaml
+  aliases: 0
+- id: marmalade-cordial
+  canonical_name: marmalade cordial
+  file: marmalade-cordial.yaml
   aliases: 0

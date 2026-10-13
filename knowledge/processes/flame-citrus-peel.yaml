@@ -1,0 +1,17 @@
+id: flame-citrus-peel
+kind: process
+canonical_name: flame citrus peel
+names:
+  en: flame citrus peel
+curation:
+  origin: generated
+  review: unchecked
+categories:
+  - beverage-and-bar
+evidence:
+  review_note: Cocktail Foundation v2; source-informed generated identity and prose, not human reviewed.
+  sources:
+    - title: Oaxaca Old-Fashioned
+      url: https://punchdrink.com/recipes/oaxaca-old-fashioned/
+    - title: Revolver
+      url: https://punchdrink.com/recipes/revolver/

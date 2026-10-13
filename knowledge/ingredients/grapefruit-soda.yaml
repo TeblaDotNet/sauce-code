@@ -1,0 +1,13 @@
+id: grapefruit-soda
+kind: ingredient
+canonical_name: grapefruit soda
+names:
+  en: grapefruit soda
+curation:
+  origin: generated
+  review: unchecked
+categories:
+  - beverages
+evidence:
+  review_note: Cocktail Foundation v2; generated identity, source-specific use,
+    not human reviewed.

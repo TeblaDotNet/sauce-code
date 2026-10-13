@@ -38,8 +38,8 @@ test('equipment reference requires a boolean; process eligibility and ingredient
 });
 test('equipment proof edges survive loading and JSON transport and link in both directions', () => {
   const v = new Vocabulary(JSON.parse(JSON.stringify(vocabulary.entries)));
-  assert.equal(v.entries.filter(e => e.kind === 'equipment').length, 147);
-  assert.equal(v.entries.filter(e => e.kind === 'equipment' && e.reference !== false).length, 146);
+  assert.equal(v.entries.filter(e => e.kind === 'equipment').length, 155);
+  assert.equal(v.entries.filter(e => e.kind === 'equipment' && e.reference !== false).length, 154);
   for (const [child, parent] of [['paring-knife', 'knife'], ['cast-iron-frying-pan', 'frying-pan'], ['stand-mixer', 'mixer']]) {
     assert.equal(v.resolve(child, 'equipment')[0].type_of, parent);
     const page = createReferencePage(v, 'equipment', child)!;

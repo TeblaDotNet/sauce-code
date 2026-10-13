@@ -28,3 +28,6 @@ variants:
   blanc:
     names:
       en: blanc
+  amber:
+    names:
+      en: amber

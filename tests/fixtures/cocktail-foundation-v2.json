@@ -1,0 +1,217 @@
+[
+  {
+    "kind": "ingredient",
+    "id": "bourbon",
+    "status": "existing-skeletal"
+  },
+  {
+    "kind": "ingredient",
+    "id": "scotch-whisky",
+    "status": "new"
+  },
+  {
+    "kind": "ingredient",
+    "id": "tequila",
+    "status": "new"
+  },
+  {
+    "kind": "ingredient",
+    "id": "mezcal",
+    "status": "new"
+  },
+  {
+    "kind": "ingredient",
+    "id": "brandy",
+    "status": "existing-skeletal"
+  },
+  {
+    "kind": "ingredient",
+    "id": "sherry",
+    "status": "existing-skeletal"
+  },
+  {
+    "kind": "ingredient",
+    "id": "orange-liqueur",
+    "status": "new"
+  },
+  {
+    "kind": "ingredient",
+    "id": "maraschino-liqueur",
+    "status": "new"
+  },
+  {
+    "kind": "ingredient",
+    "id": "liqueur",
+    "status": "new"
+  },
+  {
+    "kind": "ingredient",
+    "id": "bitter-aperitif",
+    "status": "new"
+  },
+  {
+    "kind": "ingredient",
+    "id": "grenadine",
+    "status": "new"
+  },
+  {
+    "kind": "ingredient",
+    "id": "orgeat",
+    "status": "new"
+  },
+  {
+    "kind": "ingredient",
+    "id": "ginger-beer",
+    "status": "new"
+  },
+  {
+    "kind": "ingredient",
+    "id": "soda-water",
+    "status": "new"
+  },
+  {
+    "kind": "ingredient",
+    "id": "tonic-water",
+    "status": "new"
+  },
+  {
+    "kind": "ingredient",
+    "id": "non-alcoholic-botanical-drink",
+    "status": "new"
+  },
+  {
+    "kind": "ingredient",
+    "id": "wine",
+    "status": "existing-skeletal"
+  },
+  {
+    "kind": "ingredient",
+    "id": "champagne",
+    "status": "existing-skeletal"
+  },
+  {
+    "kind": "ingredient",
+    "id": "lime",
+    "status": "existing-skeletal"
+  },
+  {
+    "kind": "ingredient",
+    "id": "orange",
+    "status": "existing-skeletal"
+  },
+  {
+    "kind": "ingredient",
+    "id": "sugar",
+    "status": "existing-skeletal"
+  },
+  {
+    "kind": "ingredient",
+    "id": "agave",
+    "status": "existing-skeletal"
+  },
+  {
+    "kind": "ingredient",
+    "id": "pineapple-juice",
+    "status": "existing-skeletal"
+  },
+  {
+    "kind": "ingredient",
+    "id": "juice",
+    "status": "existing-skeletal"
+  },
+  {
+    "kind": "process",
+    "id": "heat",
+    "status": "existing-skeletal"
+  },
+  {
+    "kind": "process",
+    "id": "cool",
+    "status": "existing-skeletal"
+  },
+  {
+    "kind": "process",
+    "id": "express-citrus-oil",
+    "status": "new"
+  },
+  {
+    "kind": "process",
+    "id": "float",
+    "status": "new"
+  },
+  {
+    "kind": "process",
+    "id": "flame-citrus-peel",
+    "status": "new"
+  },
+  {
+    "kind": "equipment",
+    "id": "rocks-glass",
+    "status": "new"
+  },
+  {
+    "kind": "equipment",
+    "id": "highball-glass",
+    "status": "new"
+  },
+  {
+    "kind": "equipment",
+    "id": "cocktail-glass",
+    "status": "new"
+  },
+  {
+    "kind": "equipment",
+    "id": "coupe",
+    "status": "new"
+  },
+  {
+    "kind": "equipment",
+    "id": "wine-glass",
+    "status": "new"
+  },
+  {
+    "kind": "equipment",
+    "id": "muddler",
+    "status": "new"
+  },
+  {
+    "kind": "ingredient",
+    "id": "honey-syrup",
+    "status": "new"
+  },
+  {
+    "kind": "ingredient",
+    "id": "honey-ginger-syrup",
+    "status": "new"
+  },
+  {
+    "kind": "ingredient",
+    "id": "saline-solution",
+    "status": "new"
+  },
+  {
+    "kind": "ingredient",
+    "id": "grapefruit-soda",
+    "status": "new"
+  },
+  {
+    "kind": "ingredient",
+    "id": "raspberry-syrup",
+    "status": "new"
+  },
+  {
+    "kind": "ingredient",
+    "id": "marmalade-cordial",
+    "status": "new"
+  },
+  {
+    "kind": "equipment",
+    "id": "tiki-mug",
+    "status": "new"
+  },
+  {
+    "kind": "equipment",
+    "id": "julep-tin",
+    "status": "new"
+  }
+]

@@ -11084,6 +11084,16 @@
         infer its age or expression."
       sources: *a1
       review_version: 0.1
+    - id: v2-types
+      role: types
+      text: "Style descriptions can refer to origin, colour, age, blending or production. Jamaican,
+        light gold and blackstrap are not a single ordered scale: the Jungle Bird’s
+        Jamaican-or-blackstrap choice is explicit, while the current Mai Tai asks for an aged
+        Caribbean blend. Colour alone does not establish production method."
+      sources:
+        - cf2-punch-jungle-bird
+        - cf2-difford-mai-tai
+      review_version: 0.1
   resources:
     - resource: cf-rum
       role: introduction
@@ -11201,6 +11211,13 @@
         label and vermouth are not interchangeable identity claims.
       sources: *a5
       review_version: 0.1
+    - id: v2-context
+      role: context
+      text: The current Bamboo source combines amber and blanc vermouth rather than dry. Preserve the
+        source style on the line; brand examples do not make all vermouths equivalent.
+      sources:
+        - cf2-difford-bamboo
+      review_version: 0.1
   resources:
     - resource: cf-vermouth
       role: introduction
@@ -11304,6 +11321,13 @@
         aperitif or amaro. Those drink-sized ingredients remain distinct
         culinary targets.
       sources: *a7
+      review_version: 0.1
+    - id: v2-context
+      role: context
+      text: The Left Hand uses mole bitters, while several other formulas use orange or aromatic
+        bitters. These labels specify different flavour directions, not interchangeable dashes.
+      sources:
+        - cf2-punch-revolver
       review_version: 0.1
   resources:
     - resource: cf-bitters
@@ -11606,6 +11630,2256 @@
       review_version: 0.1
   resources:
     - resource: difford-bar-kit
+      role: introduction
+      order: 0
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: bourbon
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Bourbon is an American whiskey made from a corn-led grain mash and matured in new charred
+        oak. It supplies the spirit base and oak character in drinks such as the Gold Rush and
+        Mint Julep.
+      sources:
+        - cf-wset
+        - cf2-elijah
+        - cf2-punch-gold-rush
+      review_version: 0.1
+    - id: types
+      role: types
+      text: Grain recipe, maturation and bottling strength distinguish bottles within the category;
+        bourbon is not a synonym for every American whiskey. Record a stated strength or
+        expression when it matters to a spec.
+      sources:
+        - cf-wset
+        - cf2-elijah
+        - cf2-punch-gold-rush
+      review_version: 0.1
+    - id: sensory
+      role: sensory
+      text: Oak can contribute vanilla, toast and spice alongside grain-derived flavours. The balance
+        varies by bottle; colour alone does not establish sweetness.
+      sources:
+        - cf-wset
+        - cf2-elijah
+        - cf2-punch-gold-rush
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: In a sour, citrus and sweetener frame the whiskey; in a Julep, mint and melting ice shape
+        its presentation. Keep the source pour and dilution method when comparing versions.
+      sources:
+        - cf-wset
+        - cf2-elijah
+        - cf2-punch-gold-rush
+      review_version: 0.1
+    - id: brands
+      role: brands
+      text: Punch prefers Elijah Craig for its Gold Rush. The producer describes its Small Batch in
+        terms of charred oak, vanilla and spice; that is a product example, not a profile
+        guaranteed for all bourbon.
+      sources:
+        - cf-wset
+        - cf2-elijah
+        - cf2-punch-gold-rush
+      review_version: 0.1
+    - id: context
+      role: context
+      text: Open Sauce Food records a named bottle separately from the bourbon identity. An
+        unspecified bourbon line does not select a product automatically.
+      sources:
+        - cf-wset
+        - cf2-elijah
+        - cf2-punch-gold-rush
+      review_version: 0.1
+  resources:
+    - resource: cf-wset
+      role: introduction
+      order: 0
+      review_version: 0.1
+    - resource: cf2-elijah
+      role: specialist-reference
+      order: 1
+      review_version: 0.1
+    - resource: cf2-punch-gold-rush
+      role: specialist-reference
+      order: 2
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: scotch-whisky
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Scotch whisky is whisky distilled and matured in Scotland. It contributes grain,
+        maturation and sometimes smoke character to mixed drinks.
+      sources:
+        - cf2-scotch
+        - cf2-punch-penicillin
+      review_version: 0.1
+    - id: types
+      role: types
+      text: The recognised categories distinguish single malt, single grain, blended Scotch, blended
+        malt and blended grain. Single malt and blended Scotch are different category choices,
+        not quality rankings.
+      sources:
+        - cf2-scotch
+        - cf2-punch-penicillin
+      review_version: 0.1
+    - id: sensory
+      role: sensory
+      text: Peat smoke is prominent in some expressions and absent or restrained in others. Neither
+        the word Scotch nor an island association guarantees one uniform flavour.
+      sources:
+        - cf2-scotch
+        - cf2-punch-penicillin
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: Penicillin separates a blended base from a small Islay single-malt float. The topping has
+        a different job from the larger base pour.
+      sources:
+        - cf2-scotch
+        - cf2-punch-penicillin
+      review_version: 0.1
+    - id: brands
+      role: brands
+      text: The cited Penicillin uses Famous Grouse as a blended reference and prefers Laphroaig 10YO
+        for its float. Keep those selections and source strengths visible rather than treating
+        the whiskies as interchangeable.
+      sources:
+        - cf2-scotch
+        - cf2-punch-penicillin
+      review_version: 0.1
+    - id: context
+      role: context
+      text: A maker and expression remain product text attached to this shared ingredient. Age or
+        region is not used to infer an unverified product hierarchy.
+      sources:
+        - cf2-scotch
+        - cf2-punch-penicillin
+      review_version: 0.1
+  resources:
+    - resource: cf2-scotch
+      role: introduction
+      order: 0
+      review_version: 0.1
+    - resource: cf2-punch-penicillin
+      role: specialist-reference
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: tequila
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Tequila is a Mexican agave spirit made from blue agave. It is used as a base in
+        Margaritas, Palomas and spirit-forward cocktails.
+      sources:
+        - cf2-blanco
+        - cf2-reposado
+        - cf2-punch-oaxaca-old-fashioned
+        - cf2-cointreau-margarita
+      review_version: 0.1
+    - id: types
+      role: types
+      text: Blanco and reposado identify different maturation styles. A reposado recipe should not
+        silently become a blanco recipe; a 100% agave requirement should remain explicit.
+      sources:
+        - cf2-blanco
+        - cf2-reposado
+        - cf2-punch-oaxaca-old-fashioned
+        - cf2-cointreau-margarita
+      review_version: 0.1
+    - id: sensory
+      role: sensory
+      text: An unaged example emphasises the spirit, while oak can add vanilla and spice. These are
+        style cues rather than universal tasting guarantees.
+      sources:
+        - cf2-blanco
+        - cf2-reposado
+        - cf2-punch-oaxaca-old-fashioned
+        - cf2-cointreau-margarita
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: Citrus-and-liqueur sours and long carbonated drinks use tequila in different balances. The
+        Oaxaca Old-Fashioned pairs reposado with a smaller mezcal pour.
+      sources:
+        - cf2-blanco
+        - cf2-reposado
+        - cf2-punch-oaxaca-old-fashioned
+        - cf2-cointreau-margarita
+      review_version: 0.1
+    - id: brands
+      role: brands
+      text: El Tesoro Reposado is named in the cited Oaxaca version. Its producer describes oak
+        maturation; this does not make another reposado an automatically equivalent bottle.
+      sources:
+        - cf2-blanco
+        - cf2-reposado
+        - cf2-punch-oaxaca-old-fashioned
+        - cf2-cointreau-margarita
+      review_version: 0.1
+    - id: context
+      role: context
+      text: Tequila and mezcal remain separate identities. Named expressions are selections on a
+        recipe line, not aliases for the generic spirit.
+      sources:
+        - cf2-blanco
+        - cf2-reposado
+        - cf2-punch-oaxaca-old-fashioned
+        - cf2-cointreau-margarita
+      review_version: 0.1
+  resources:
+    - resource: cf2-blanco
+      role: introduction
+      order: 0
+      review_version: 0.1
+    - resource: cf2-reposado
+      role: specialist-reference
+      order: 1
+      review_version: 0.1
+    - resource: cf2-punch-oaxaca-old-fashioned
+      role: specialist-reference
+      order: 2
+      review_version: 0.1
+    - resource: cf2-cointreau-margarita
+      role: specialist-reference
+      order: 3
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: mezcal
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Mezcal is a Mexican distilled agave spirit. In cocktails it can provide an agave base or a
+        smaller contrasting component alongside another spirit.
+      sources:
+        - cf2-san-luis
+        - cf2-punch-oaxaca-old-fashioned
+        - cf2-punch-division-bell
+      review_version: 0.1
+    - id: types
+      role: types
+      text: Agave variety and production place help identify a style when established. The cited San
+        Luis Del Rio expression uses Espadín; that does not define every mezcal.
+      sources:
+        - cf2-san-luis
+        - cf2-punch-oaxaca-old-fashioned
+        - cf2-punch-division-bell
+      review_version: 0.1
+    - id: sensory
+      role: sensory
+      text: Smoke, fruit and vegetal character vary across bottlings. A blanket smoky description
+        cannot replace identifying the selected product.
+      sources:
+        - cf2-san-luis
+        - cf2-punch-oaxaca-old-fashioned
+        - cf2-punch-division-bell
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: The Oaxaca Old-Fashioned combines mezcal with reposado tequila; Division Bell uses it as
+        the principal spirit.
+      sources:
+        - cf2-san-luis
+        - cf2-punch-oaxaca-old-fashioned
+        - cf2-punch-division-bell
+      review_version: 0.1
+    - id: brands
+      role: brands
+      text: Del Maguey San Luis Del Rio and Vida occur in different source specs. Vida is preferred in
+        Division Bell rather than required by the generic mezcal identity.
+      sources:
+        - cf2-san-luis
+        - cf2-punch-oaxaca-old-fashioned
+        - cf2-punch-division-bell
+      review_version: 0.1
+    - id: context
+      role: context
+      text: A producer’s place-based expression remains product text. No automatic equivalence between
+        expressions or producers is inferred.
+      sources:
+        - cf2-san-luis
+        - cf2-punch-oaxaca-old-fashioned
+        - cf2-punch-division-bell
+      review_version: 0.1
+  resources:
+    - resource: cf2-san-luis
+      role: introduction
+      order: 0
+      review_version: 0.1
+    - resource: cf2-punch-oaxaca-old-fashioned
+      role: specialist-reference
+      order: 1
+      review_version: 0.1
+    - resource: cf2-punch-division-bell
+      role: specialist-reference
+      order: 2
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: brandy
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Brandy is a spirit distilled from wine or fermented fruit. It provides a fruit-derived
+        spirit base in cocktails and cooking.
+      sources:
+        - cf-wset
+        - cf2-cognac
+        - cf2-cointreau-sidecar
+        - cf2-iba-brandy-crusta
+      review_version: 0.1
+    - id: types
+      role: types
+      text: Cognac is a particular wine-brandy identity with its own origin and production rules.
+        Generic brandy should not silently narrow to Cognac, and a Cognac line should retain its
+        scope.
+      sources:
+        - cf-wset
+        - cf2-cognac
+        - cf2-cointreau-sidecar
+        - cf2-iba-brandy-crusta
+      review_version: 0.1
+    - id: sensory
+      role: sensory
+      text: Fruit character, oak and maturity affect aroma and texture. The selected bottle and other
+        ingredients determine the balance.
+      sources:
+        - cf-wset
+        - cf2-cognac
+        - cf2-cointreau-sidecar
+        - cf2-iba-brandy-crusta
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: Sidecar combines Cognac with orange liqueur and lemon; Brandy Crusta adds aromatic
+        ingredients and a rim treatment.
+      sources:
+        - cf-wset
+        - cf2-cognac
+        - cf2-cointreau-sidecar
+        - cf2-iba-brandy-crusta
+      review_version: 0.1
+    - id: brands
+      role: brands
+      text: The Cointreau Sidecar card names Rémy Martin 1738 Accord Royal. This verified source
+        selection is not a recommendation that every Sidecar use that expression.
+      sources:
+        - cf-wset
+        - cf2-cognac
+        - cf2-cointreau-sidecar
+        - cf2-iba-brandy-crusta
+      review_version: 0.1
+    - id: context
+      role: context
+      text: The shared brandy page remains broad enough for existing culinary uses; Cognac is recorded
+        as the style on the line.
+      sources:
+        - cf-wset
+        - cf2-cognac
+        - cf2-cointreau-sidecar
+        - cf2-iba-brandy-crusta
+      review_version: 0.1
+  resources:
+    - resource: cf-wset
+      role: introduction
+      order: 0
+      review_version: 0.1
+    - resource: cf2-cognac
+      role: specialist-reference
+      order: 1
+      review_version: 0.1
+    - resource: cf2-cointreau-sidecar
+      role: specialist-reference
+      order: 2
+      review_version: 0.1
+    - resource: cf2-iba-brandy-crusta
+      role: specialist-reference
+      order: 3
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: sherry
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Sherry is a family of fortified wines from the Jerez area of Spain. It can serve as a
+        cocktail base or modify a mixed drink.
+      sources:
+        - cf2-sherry
+        - cf2-difford-bamboo
+        - cf2-difford-adonis
+        - cf2-punch-sherry-cobbler
+      review_version: 0.1
+    - id: types
+      role: types
+      text: Fino develops under flor; amontillado combines biological ageing with later oxidative
+        ageing; palo cortado belongs to the oxidative styles. Sherry also includes sweet styles,
+        so the generic name does not mean sweet wine.
+      sources:
+        - cf2-sherry
+        - cf2-difford-bamboo
+        - cf2-difford-adonis
+        - cf2-punch-sherry-cobbler
+      review_version: 0.1
+    - id: sensory
+      role: sensory
+      text: Dryness, oxidative character and flor distinguish styles. Preserve the style instead of
+        replacing every sherry measure with one bottle.
+      sources:
+        - cf2-sherry
+        - cf2-difford-bamboo
+        - cf2-difford-adonis
+        - cf2-punch-sherry-cobbler
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: Sherry Cobbler centres on amontillado. The cited Bamboo uses fino, while the current
+        Adonis combines palo cortado and amontillado.
+      sources:
+        - cf2-sherry
+        - cf2-difford-bamboo
+        - cf2-difford-adonis
+        - cf2-punch-sherry-cobbler
+      review_version: 0.1
+    - id: brands
+      role: brands
+      text: Difford names Lustau Jarana, Península and Los Arcos for different styles. Those products
+        do not become synonyms for the styles themselves.
+      sources:
+        - cf2-sherry
+        - cf2-difford-bamboo
+        - cf2-difford-adonis
+        - cf2-punch-sherry-cobbler
+      review_version: 0.1
+    - id: context
+      role: context
+      text: Vermouth and sherry have different identities even where both occupy the wine component of
+        an aperitif.
+      sources:
+        - cf2-sherry
+        - cf2-difford-bamboo
+        - cf2-difford-adonis
+        - cf2-punch-sherry-cobbler
+      review_version: 0.1
+  resources:
+    - resource: cf2-sherry
+      role: introduction
+      order: 0
+      review_version: 0.1
+    - resource: cf2-difford-bamboo
+      role: specialist-reference
+      order: 1
+      review_version: 0.1
+    - resource: cf2-difford-adonis
+      role: specialist-reference
+      order: 2
+      review_version: 0.1
+    - resource: cf2-punch-sherry-cobbler
+      role: specialist-reference
+      order: 3
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: orange-liqueur
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Orange liqueur is a sweetened alcoholic ingredient flavoured with orange. It contributes
+        citrus aroma, sweetness and alcohol to mixed drinks.
+      sources:
+        - cf2-cointreau-margarita
+        - cf2-cointreau-sidecar
+        - cf2-difford-el-presidente
+      review_version: 0.1
+    - id: types
+      role: types
+      text: Triple sec and curaçao are useful source style labels, but do not guarantee identical
+        sweetness, proof or base spirit. Keep the stated style or product.
+      sources:
+        - cf2-cointreau-margarita
+        - cf2-cointreau-sidecar
+        - cf2-difford-el-presidente
+      review_version: 0.1
+    - id: sensory
+      role: sensory
+      text: Orange peel aroma may accompany sweet, bitter or spirit-derived notes. Equal measures of
+        different products need not give the same balance.
+      sources:
+        - cf2-cointreau-margarita
+        - cf2-cointreau-sidecar
+        - cf2-difford-el-presidente
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: Margarita and Sidecar pair it with citrus and a base spirit. El Presidente uses a smaller
+        curaçao measure with rum and vermouth.
+      sources:
+        - cf2-cointreau-margarita
+        - cf2-cointreau-sidecar
+        - cf2-difford-el-presidente
+      review_version: 0.1
+    - id: brands
+      role: brands
+      text: Cointreau is named in its producer recipes; Ferrand Dry Curaçao is named in the cited El
+        Presidente. These product selections do not turn brands into styles.
+      sources:
+        - cf2-cointreau-margarita
+        - cf2-cointreau-sidecar
+        - cf2-difford-el-presidente
+      review_version: 0.1
+    - id: context
+      role: context
+      text: The exact Cointreau dependency in the OSF producer-version Margarita is an explicit
+        editorial decision, not a claim that every Margarita requires it.
+      sources:
+        - cf2-cointreau-margarita
+        - cf2-cointreau-sidecar
+        - cf2-difford-el-presidente
+      review_version: 0.1
+  resources:
+    - resource: cf2-cointreau-margarita
+      role: introduction
+      order: 0
+      review_version: 0.1
+    - resource: cf2-cointreau-sidecar
+      role: specialist-reference
+      order: 1
+      review_version: 0.1
+    - resource: cf2-difford-el-presidente
+      role: specialist-reference
+      order: 2
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: maraschino-liqueur
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Maraschino liqueur is a cherry-derived sweetened spirit used in measured amounts in
+        cocktails. It contributes cherry-associated and nutty aroma as well as sweetness.
+      sources:
+        - cf2-maraschino
+        - cf2-punch-division-bell
+        - cf2-iba-mary-pickford
+      review_version: 0.1
+    - id: types
+      role: types
+      text: This ingredient is the liqueur, not cocktail cherries or the syrup surrounding them. A
+        liquid maraschino measure needs that context retained.
+      sources:
+        - cf2-maraschino
+        - cf2-punch-division-bell
+        - cf2-iba-mary-pickford
+      review_version: 0.1
+    - id: sensory
+      role: sensory
+      text: The cited Luxardo expression is clear, with fruit and kernel-like character. A clear
+        appearance does not imply absence of flavour or sweetness.
+      sources:
+        - cf2-maraschino
+        - cf2-punch-division-bell
+        - cf2-iba-mary-pickford
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: Division Bell balances it against mezcal, Aperol and lime. Mary Pickford combines it with
+        rum, pineapple juice and grenadine.
+      sources:
+        - cf2-maraschino
+        - cf2-punch-division-bell
+        - cf2-iba-mary-pickford
+      review_version: 0.1
+    - id: brands
+      role: brands
+      text: Luxardo describes distillation followed by sweetening. A formula naming Luxardo remains
+        product-specific; generic maraschino does not automatically select it.
+      sources:
+        - cf2-maraschino
+        - cf2-punch-division-bell
+        - cf2-iba-mary-pickford
+      review_version: 0.1
+    - id: context
+      role: context
+      text: Do not map a maraschino-cherry garnish to this liqueur identity.
+      sources:
+        - cf2-maraschino
+        - cf2-punch-division-bell
+        - cf2-iba-mary-pickford
+      review_version: 0.1
+  resources:
+    - resource: cf2-maraschino
+      role: introduction
+      order: 0
+      review_version: 0.1
+    - resource: cf2-punch-division-bell
+      role: specialist-reference
+      order: 1
+      review_version: 0.1
+    - resource: cf2-iba-mary-pickford
+      role: specialist-reference
+      order: 2
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: liqueur
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Liqueur is a sweetened alcoholic preparation flavoured with ingredients such as fruit,
+        herbs, spices or coffee. It supplies a defining flavour or a smaller modifying measure
+        in a cocktail.
+      sources:
+        - cf-wset
+        - cf2-punch-revolver
+        - cf2-chartreuse-tonic
+        - cf2-chartreuse-bijou
+      review_version: 0.1
+    - id: types
+      role: types
+      text: Coffee, herbal, blackcurrant, blackberry and allspice are broad flavour families, not
+        guarantees of common proof, sugar content or production method.
+      sources:
+        - cf-wset
+        - cf2-punch-revolver
+        - cf2-chartreuse-tonic
+        - cf2-chartreuse-bijou
+      review_version: 0.1
+    - id: sensory
+      role: sensory
+      text: Sweetness and intensity vary enough that equal-volume substitution can change balance. Use
+        the stated family and product.
+      sources:
+        - cf-wset
+        - cf2-punch-revolver
+        - cf2-chartreuse-tonic
+        - cf2-chartreuse-bijou
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: Revolver uses coffee liqueur; Bourbon Renewal uses cassis; herbal liqueur is central to
+        the cited Bijou and Chartreuse Tonic.
+      sources:
+        - cf-wset
+        - cf2-punch-revolver
+        - cf2-chartreuse-tonic
+        - cf2-chartreuse-bijou
+      review_version: 0.1
+    - id: brands
+      role: brands
+      text: Green Chartreuse is a particular formulation, not an alias for all herbal liqueur. The OSF
+        Chartreuse Tonic deliberately fixes that formulation.
+      sources:
+        - cf-wset
+        - cf2-punch-revolver
+        - cf2-chartreuse-tonic
+        - cf2-chartreuse-bijou
+      review_version: 0.1
+    - id: context
+      role: context
+      text: Orange liqueur and maraschino liqueur keep their more specific shared pages. This broad
+        identity supports clearly qualified flavours without a product registry.
+      sources:
+        - cf-wset
+        - cf2-punch-revolver
+        - cf2-chartreuse-tonic
+        - cf2-chartreuse-bijou
+      review_version: 0.1
+  resources:
+    - resource: cf-wset
+      role: introduction
+      order: 0
+      review_version: 0.1
+    - resource: cf2-punch-revolver
+      role: specialist-reference
+      order: 1
+      review_version: 0.1
+    - resource: cf2-chartreuse-tonic
+      role: specialist-reference
+      order: 2
+      review_version: 0.1
+    - resource: cf2-chartreuse-bijou
+      role: specialist-reference
+      order: 3
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: bitter-aperitif
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A bitter aperitif is a drinkable bitter ingredient used as a substantial component of an
+        aperitif cocktail. It supplies bitterness and often sweetness and colour alongside the
+        base spirit or wine.
+      sources:
+        - cf2-punch-kingston-negroni
+        - cf2-punch-division-bell
+        - cf2-campari-spritz
+      review_version: 0.1
+    - id: types
+      role: types
+      text: This working culinary category covers the pour-sized role represented here by Campari and
+        Aperol. It is not an alias for concentrated bitters or every amaro.
+      sources:
+        - cf2-punch-kingston-negroni
+        - cf2-punch-division-bell
+        - cf2-campari-spritz
+      review_version: 0.1
+    - id: sensory
+      role: sensory
+      text: Products differ in bitterness, sweetness and strength. Similar colour is not evidence of
+        equivalent balance.
+      sources:
+        - cf2-punch-kingston-negroni
+        - cf2-punch-division-bell
+        - cf2-campari-spritz
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: Kingston Negroni gives Campari an equal part with rum and vermouth. Division Bell uses
+        Aperol with mezcal; Campari Spritz combines its aperitif with wine and soda.
+      sources:
+        - cf2-punch-kingston-negroni
+        - cf2-punch-division-bell
+        - cf2-campari-spritz
+      review_version: 0.1
+    - id: brands
+      role: brands
+      text: Campari and Aperol remain distinct selections in these source versions. No automatic
+        substitution or generic replacement ratio is proposed.
+      sources:
+        - cf2-punch-kingston-negroni
+        - cf2-punch-division-bell
+        - cf2-campari-spritz
+      review_version: 0.1
+    - id: context
+      role: context
+      text: The category describes function; the product name remains necessary when reproducing a
+        named source formula.
+      sources:
+        - cf2-punch-kingston-negroni
+        - cf2-punch-division-bell
+        - cf2-campari-spritz
+      review_version: 0.1
+  resources:
+    - resource: cf2-punch-kingston-negroni
+      role: introduction
+      order: 0
+      review_version: 0.1
+    - resource: cf2-punch-division-bell
+      role: specialist-reference
+      order: 1
+      review_version: 0.1
+    - resource: cf2-campari-spritz
+      role: specialist-reference
+      order: 2
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: grenadine
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Grenadine is a red sweet cocktail syrup whose fruit formulation varies by recipe or
+        product. It adds sweetness, colour and fruit character in small measures.
+      sources:
+        - cf2-grenadine
+        - cf2-iba-mary-pickford
+        - cf2-difford-el-presidente
+      review_version: 0.1
+    - id: types
+      role: types
+      text: Do not infer pure pomegranate from the name alone. The cited MONIN product describes mixed
+        berries, while other recipes may specify their own fruit base.
+      sources:
+        - cf2-grenadine
+        - cf2-iba-mary-pickford
+        - cf2-difford-el-presidente
+      review_version: 0.1
+    - id: sensory
+      role: sensory
+      text: Colour, tartness and fruit intensity vary with formulation. Treat these as part of the
+        selected syrup rather than a universal red-syrup flavour.
+      sources:
+        - cf2-grenadine
+        - cf2-iba-mary-pickford
+        - cf2-difford-el-presidente
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: Mary Pickford uses a small measure; the cited El Presidente names MONIN. Preserve that
+        selection rather than inserting an unsourced homemade syrup.
+      sources:
+        - cf2-grenadine
+        - cf2-iba-mary-pickford
+        - cf2-difford-el-presidente
+      review_version: 0.1
+    - id: brands
+      role: brands
+      text: A regional product page documents that product, not every bottle sold under the brand
+        worldwide. Check the expression when reproducing a source version.
+      sources:
+        - cf2-grenadine
+        - cf2-iba-mary-pickford
+        - cf2-difford-el-presidente
+      review_version: 0.1
+  resources:
+    - resource: cf2-grenadine
+      role: introduction
+      order: 0
+      review_version: 0.1
+    - resource: cf2-iba-mary-pickford
+      role: specialist-reference
+      order: 1
+      review_version: 0.1
+    - resource: cf2-difford-el-presidente
+      role: specialist-reference
+      order: 2
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: orgeat
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Orgeat is an almond-flavoured sweet syrup used in cocktails. It supplies nutty aroma and
+        sweetness, notably in Mai Tai versions.
+      sources:
+        - cf2-almond
+        - cf2-difford-mai-tai
+      review_version: 0.1
+    - id: types
+      role: types
+      text: Homemade preparations and commercial almond syrups differ in texture, flavour and
+        ingredients. The name alone is not an ingredient-label guarantee.
+      sources:
+        - cf2-almond
+        - cf2-difford-mai-tai
+      review_version: 0.1
+    - id: sensory
+      role: sensory
+      text: The cited MONIN example emphasises almond aroma and sweetness. Another formulation may
+        change both texture and balance.
+      sources:
+        - cf2-almond
+        - cf2-difford-mai-tai
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: The cited Mai Tai measures orgeat separately from sugar syrup. Combining them into one
+        generic sweetener loses a flavour component.
+      sources:
+        - cf2-almond
+        - cf2-difford-mai-tai
+      review_version: 0.1
+    - id: brands
+      role: brands
+      text: Difford’s displayed formula names MONIN Almond. That selection does not define all orgeat.
+      sources:
+        - cf2-almond
+        - cf2-difford-mai-tai
+      review_version: 0.1
+  resources:
+    - resource: cf2-almond
+      role: introduction
+      order: 0
+      review_version: 0.1
+    - resource: cf2-difford-mai-tai
+      role: specialist-reference
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: ginger-beer
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Ginger beer is a ginger-flavoured drink used as a carbonated mixer. It adds ginger
+        character, sweetness and fizz to long drinks.
+      sources:
+        - cf2-mixers
+        - cf2-morgenthaler-andalusian-buck
+      review_version: 0.1
+    - id: types
+      role: types
+      text: Homemade and bottled versions vary; any alcohol requirement needs separate specification.
+        Ginger ale is a neighbouring mixer, not an automatic synonym.
+      sources:
+        - cf2-mixers
+        - cf2-morgenthaler-andalusian-buck
+      review_version: 0.1
+    - id: sensory
+      role: sensory
+      text: Ginger intensity and sweetness shape the balance against citrus and the base spirit. A
+        milder substitute may need a newly authored formula.
+      sources:
+        - cf2-mixers
+        - cf2-morgenthaler-andalusian-buck
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: The Andalusian Buck adds ginger beer after shaking the still ingredients. Keep carbonation
+        out of the closed shaker.
+      sources:
+        - cf2-mixers
+        - cf2-morgenthaler-andalusian-buck
+      review_version: 0.1
+    - id: brands
+      role: brands
+      text: The bartender source permits a commercial alternative to its linked homemade mixer without
+        naming one. Fever-Tree is a separate producer example, not the required bottle for that
+        recipe.
+      sources:
+        - cf2-mixers
+        - cf2-morgenthaler-andalusian-buck
+      review_version: 0.1
+  resources:
+    - resource: cf2-mixers
+      role: introduction
+      order: 0
+      review_version: 0.1
+    - resource: cf2-morgenthaler-andalusian-buck
+      role: specialist-reference
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: soda-water
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Soda water is carbonated water used as an unsweetened mixer. It lengthens drinks and adds
+        bubbles without tonic’s quinine flavour.
+      sources:
+        - cf2-soda
+        - cf2-highballs
+        - cf2-campari-spritz
+      review_version: 0.1
+    - id: types
+      role: types
+      text: Mineral content differs between soda, club soda and sparkling waters. A permitted choice
+        does not establish identical composition.
+      sources:
+        - cf2-soda
+        - cf2-highballs
+        - cf2-campari-spritz
+      review_version: 0.1
+    - id: sensory
+      role: sensory
+      text: Carbonation and mineral character affect texture. Added flavour or sweetener changes the
+        role and should be explicit.
+      sources:
+        - cf2-soda
+        - cf2-highballs
+        - cf2-campari-spritz
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: Add soda after shaking or stirring still ingredients where the recipe calls for a
+        carbonated finish. Chilled mixer and a suitable glass support the intended serving
+        balance.
+      sources:
+        - cf2-soda
+        - cf2-highballs
+        - cf2-campari-spritz
+      review_version: 0.1
+    - id: brands
+      role: brands
+      text: The cited Fever-Tree soda includes sodium bicarbonate. That is one mineral formulation,
+        not a required ingredient in all soda water.
+      sources:
+        - cf2-soda
+        - cf2-highballs
+        - cf2-campari-spritz
+      review_version: 0.1
+  resources:
+    - resource: cf2-soda
+      role: introduction
+      order: 0
+      review_version: 0.1
+    - resource: cf2-highballs
+      role: specialist-reference
+      order: 1
+      review_version: 0.1
+    - resource: cf2-campari-spritz
+      role: specialist-reference
+      order: 2
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: tonic-water
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Tonic water is a carbonated bitter mixer flavoured with quinine. It supplies a bitter and
+        often sweet counterpoint to spirits and botanical drinks.
+      sources:
+        - cf2-tonics
+        - cf2-seedlip-garden-spritz
+        - cf2-chartreuse-tonic
+      review_version: 0.1
+    - id: types
+      role: types
+      text: Plain, elderflower and other flavoured tonics have different roles. A light or flavoured
+        formulation should not silently replace the stated mixer.
+      sources:
+        - cf2-tonics
+        - cf2-seedlip-garden-spritz
+        - cf2-chartreuse-tonic
+      review_version: 0.1
+    - id: sensory
+      role: sensory
+      text: Quinine, sweetening and additional aromatics influence the drink, especially at a large
+        topping ratio.
+      sources:
+        - cf2-tonics
+        - cf2-seedlip-garden-spritz
+        - cf2-chartreuse-tonic
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: Chartreuse Tonic specifies four parts tonic to one part liqueur. Garden Spritz permits
+        elderflower tonic or club soda without claiming they taste alike.
+      sources:
+        - cf2-tonics
+        - cf2-seedlip-garden-spritz
+        - cf2-chartreuse-tonic
+      review_version: 0.1
+    - id: brands
+      role: brands
+      text: Fever-Tree’s range illustrates different formulations; the Gin & Tonic source names Thomas
+        Henry. Product examples remain separate from the generic identity.
+      sources:
+        - cf2-tonics
+        - cf2-seedlip-garden-spritz
+        - cf2-chartreuse-tonic
+      review_version: 0.1
+  resources:
+    - resource: cf2-tonics
+      role: introduction
+      order: 0
+      review_version: 0.1
+    - resource: cf2-seedlip-garden-spritz
+      role: specialist-reference
+      order: 1
+      review_version: 0.1
+    - resource: cf2-chartreuse-tonic
+      role: specialist-reference
+      order: 2
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: non-alcoholic-botanical-drink
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A non-alcoholic botanical drink is a formulated botanical beverage intended for mixing in
+        an alcohol-free-style drink. It supplies aromatic character alongside mixers, citrus or
+        cordials.
+      sources:
+        - cf2-seedlip-garden-spritz
+        - cf2-seedlip-grove-spritz
+        - cf2-seedlip-citrus-fizz
+      review_version: 0.1
+    - id: types
+      role: types
+      text: This culinary category does not define a universal production method or analytical alcohol
+        threshold. Consult the selected product’s labelling for those details.
+      sources:
+        - cf2-seedlip-garden-spritz
+        - cf2-seedlip-grove-spritz
+        - cf2-seedlip-citrus-fizz
+      review_version: 0.1
+    - id: sensory
+      role: sensory
+      text: Botanical formulations differ substantially. An expression matters more than assuming this
+        category tastes like gin.
+      sources:
+        - cf2-seedlip-garden-spritz
+        - cf2-seedlip-grove-spritz
+        - cf2-seedlip-citrus-fizz
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: The Seedlip recipes pair Garden 108 with cucumber and Grove 42 with citrus presentations.
+        Citrus Fizz also uses marmalade cordial.
+      sources:
+        - cf2-seedlip-garden-spritz
+        - cf2-seedlip-grove-spritz
+        - cf2-seedlip-citrus-fizz
+      review_version: 0.1
+    - id: brands
+      role: brands
+      text: Garden 108 and Grove 42 are separate Seedlip expressions named by the producer. They are
+        not canonical aliases and are not declared interchangeable.
+      sources:
+        - cf2-seedlip-garden-spritz
+        - cf2-seedlip-grove-spritz
+        - cf2-seedlip-citrus-fizz
+      review_version: 0.1
+    - id: context
+      role: context
+      text: This mixing role does not introduce a commercial hierarchy or guarantee zero alcohol in a
+        finished recipe.
+      sources:
+        - cf2-seedlip-garden-spritz
+        - cf2-seedlip-grove-spritz
+        - cf2-seedlip-citrus-fizz
+      review_version: 0.1
+  resources:
+    - resource: cf2-seedlip-garden-spritz
+      role: introduction
+      order: 0
+      review_version: 0.1
+    - resource: cf2-seedlip-grove-spritz
+      role: specialist-reference
+      order: 1
+      review_version: 0.1
+    - resource: cf2-seedlip-citrus-fizz
+      role: specialist-reference
+      order: 2
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: wine
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Wine is a fermented grape drink used as a beverage and culinary ingredient. In cocktails
+        it can supply a base, modify a spirit or add a sparkling finish.
+      sources:
+        - cf2-campari-spritz
+        - cf-wset
+      review_version: 0.1
+    - id: types
+      role: types
+      text: Still and sparkling wines behave differently; colour, sweetness and origin matter too.
+        Prosecco is retained as the sparkling style specified by these spritz sources.
+      sources:
+        - cf2-campari-spritz
+        - cf-wset
+      review_version: 0.1
+    - id: sensory
+      role: sensory
+      text: Acidity, sweetness and aroma alter balance. A generic wine label alone is insufficient to
+        reproduce a specific spritz.
+      sources:
+        - cf2-campari-spritz
+        - cf-wset
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: Campari Spritz measures Prosecco separately from soda. Add carbonated components without
+        shaking them in a sealed vessel.
+      sources:
+        - cf2-campari-spritz
+        - cf-wset
+      review_version: 0.1
+    - id: context
+      role: context
+      text: Champagne, sherry and vermouth already have separate shared identities. This page does not
+        make them interchangeable.
+      sources:
+        - cf2-campari-spritz
+        - cf-wset
+      review_version: 0.1
+  resources:
+    - resource: cf2-campari-spritz
+      role: introduction
+      order: 0
+      review_version: 0.1
+    - resource: cf-wset
+      role: specialist-reference
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: champagne
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Champagne is a sparkling wine from the Champagne region of France. It adds wine character
+        and carbonation to drinks such as the French 75.
+      sources:
+        - cf2-champagne
+        - cf2-iba-french-75
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: The cited French 75 adds Champagne after gin, citrus and syrup have been shaken and
+        strained. Keep the sparkling component out of that shaking step.
+      sources:
+        - cf2-iba-french-75
+      review_version: 0.1
+    - id: judgement
+      role: judgement
+      text: The source names no producer; no particular bottle or sweetness level has been inferred.
+        Another sparkling wine should be an explicit version choice.
+      sources:
+        - cf2-iba-french-75
+      review_version: 0.1
+    - id: context
+      role: context
+      text: This existing ingredient keeps its page rather than becoming a duplicate variant created
+        for cocktails.
+      sources:
+        - cf2-iba-french-75
+      review_version: 0.1
+  resources:
+    - resource: cf2-champagne
+      role: specialist-reference
+      order: 1
+      review_version: 0.1
+    - resource: cf2-iba-french-75
+      role: introduction
+      order: 0
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: lime
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Lime is a citrus fruit used for its acidic juice and aromatic outer peel. It contributes
+        acidity, aroma and garnish to cocktails and savoury dishes.
+      sources:
+        - cf2-cointreau-margarita
+        - cf2-punch-oaxaca-old-fashioned
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: Juice belongs in the measured sour balance; zest or peel has an aromatic role at the
+        surface or rim. A garnish wedge is not automatically included in the liquid measure.
+      sources:
+        - cf2-cointreau-margarita
+        - cf2-punch-oaxaca-old-fashioned
+      review_version: 0.1
+    - id: judgement
+      role: judgement
+      text: Preserve fresh-juice instructions and amounts. Interpreting an unspecified fresh lime
+        measure as juice should be recorded as an authoring decision.
+      sources:
+        - cf2-cointreau-margarita
+        - cf2-punch-oaxaca-old-fashioned
+      review_version: 0.1
+    - id: context
+      role: context
+      text: Juice, zest and peel remain parts of the existing lime identity. Product selection and
+        preparation do not create a new fruit concept.
+      sources:
+        - cf2-cointreau-margarita
+        - cf2-punch-oaxaca-old-fashioned
+      review_version: 0.1
+  resources:
+    - resource: cf2-cointreau-margarita
+      role: introduction
+      order: 0
+      review_version: 0.1
+    - resource: cf2-punch-oaxaca-old-fashioned
+      role: specialist-reference
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: orange
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Orange is a citrus fruit used for its flesh, juice and aromatic peel. It provides fruit,
+        sweetness or a fragrant garnish in mixed drinks and cooking.
+      sources:
+        - cf2-zest
+        - cf2-punch-sherry-cobbler
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: Sherry Cobbler muddles orange slices with sweetener. Expressing peel over a finished drink
+        has a different role from squeezing juice into it.
+      sources:
+        - cf2-zest
+        - cf2-punch-sherry-cobbler
+      review_version: 0.1
+    - id: judgement
+      role: judgement
+      text: A slice contains flesh and pith as well as peel; it should not silently become zest. Keep
+        the source’s count or peel instruction visible.
+      sources:
+        - cf2-zest
+        - cf2-punch-sherry-cobbler
+      review_version: 0.1
+    - id: context
+      role: context
+      text: "Flaming peel is separate: an ordinary orange garnish does not imply a flame or a changed
+        formula."
+      sources:
+        - cf2-zest
+        - cf2-punch-sherry-cobbler
+      review_version: 0.1
+  resources:
+    - resource: cf2-zest
+      role: introduction
+      order: 0
+      review_version: 0.1
+    - resource: cf2-punch-sherry-cobbler
+      role: specialist-reference
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: sugar
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Sugar is a sweet crystalline ingredient used in food and drink. It supplies sweetness and
+        can form syrups or a coating on a serving rim.
+      sources:
+        - sugar-types
+        - cf2-iba-brandy-crusta
+      review_version: 0.1
+    - id: types
+      role: types
+      text: Granulated, powdered and brown sugars differ in form and handling. Preserve the type
+        rather than treating every sugar measure as syrup.
+      sources:
+        - sugar-types
+        - cf2-iba-brandy-crusta
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: Brandy Crusta coats a moistened rim with powdered white sugar. Sugar dissolved in the
+        liquid and sugar on the rim have different roles.
+      sources:
+        - sugar-types
+        - cf2-iba-brandy-crusta
+      review_version: 0.1
+    - id: judgement
+      role: judgement
+      text: A syrup ratio needs its stated basis; sugar weight and syrup volume are not equivalent. Do
+        not infer precise conversion from an open-ended source.
+      sources:
+        - sugar-types
+        - cf2-iba-brandy-crusta
+      review_version: 0.1
+  resources:
+    - resource: sugar-types
+      role: introduction
+      order: 0
+      review_version: 0.1
+    - resource: cf2-iba-brandy-crusta
+      role: specialist-reference
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: agave
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Agave here is the culinary agave sweetener also called agave syrup or nectar. It supplies
+        liquid sweetness in food and cocktails.
+      sources:
+        - cf2-punch-oaxaca-old-fashioned
+        - cf2-difford-tommys-margarita
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: Oaxaca Old-Fashioned uses a barspoon, while Tommy’s Margarita measures a larger pour
+        against lime and tequila. Amount and concentration matter.
+      sources:
+        - cf2-punch-oaxaca-old-fashioned
+        - cf2-difford-tommys-margarita
+      review_version: 0.1
+    - id: judgement
+      role: judgement
+      text: Do not silently substitute unspecified sugar syrup one-for-one. A barspoon remains the
+        source’s measure, not an inferred exact volume.
+      sources:
+        - cf2-punch-oaxaca-old-fashioned
+        - cf2-difford-tommys-margarita
+      review_version: 0.1
+    - id: context
+      role: context
+      text: This existing sweetener is not the agave plant or a distilled spirit. Tequila and mezcal
+        retain distinct identities; the aliases clarify the already observed sweetener use.
+      sources:
+        - cf2-punch-oaxaca-old-fashioned
+        - cf2-difford-tommys-margarita
+      review_version: 0.1
+  resources:
+    - resource: cf2-punch-oaxaca-old-fashioned
+      role: introduction
+      order: 0
+      review_version: 0.1
+    - resource: cf2-difford-tommys-margarita
+      role: specialist-reference
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: pineapple-juice
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Pineapple juice is the liquid juice of pineapple used as a drink ingredient. It
+        contributes fruit character and sweet-acid balance to mixed drinks.
+      sources:
+        - cf2-punch-jungle-bird
+        - cf2-iba-mary-pickford
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: Jungle Bird combines it with rum, lime and Campari; Mary Pickford uses rum with smaller
+        liqueur and syrup measures. Keep the juice separate from a pineapple garnish.
+      sources:
+        - cf2-punch-jungle-bird
+        - cf2-iba-mary-pickford
+      review_version: 0.1
+    - id: judgement
+      role: judgement
+      text: These formulas do not establish equivalence between every fresh, canned or sweetened
+        product. Retain source qualifiers rather than inferring sugar or a brand.
+      sources:
+        - cf2-punch-jungle-bird
+        - cf2-iba-mary-pickford
+      review_version: 0.1
+    - id: context
+      role: context
+      text: This existing shared juice identity is reused without inventing a duplicate pineapple
+        concept just to create a juice part.
+      sources:
+        - cf2-punch-jungle-bird
+        - cf2-iba-mary-pickford
+      review_version: 0.1
+  resources:
+    - resource: cf2-punch-jungle-bird
+      role: introduction
+      order: 0
+      review_version: 0.1
+    - resource: cf2-iba-mary-pickford
+      role: specialist-reference
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: juice
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Juice is liquid obtained from fruit or vegetables and used as an ingredient or drink. Its
+        source and preparation determine its flavour and recipe role.
+      sources:
+        - cf2-iba-cosmopolitan
+        - cf2-iba-hemingway-special
+      review_version: 0.1
+    - id: types
+      role: types
+      text: Grapefruit and cranberry are explicit qualifiers here, not interchangeable neutral mixers.
+        Existing identities such as pineapple juice remain separate.
+      sources:
+        - cf2-iba-cosmopolitan
+        - cf2-iba-hemingway-special
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: Hemingway Special combines grapefruit with lime, while Cosmopolitan includes cranberry
+        juice. Preserve each label and quantity.
+      sources:
+        - cf2-iba-cosmopolitan
+        - cf2-iba-hemingway-special
+      review_version: 0.1
+    - id: judgement
+      role: judgement
+      text: The generic word does not establish fresh, concentrated, sweetened or unsweetened status.
+        Record source details without guessing from the cocktail name.
+      sources:
+        - cf2-iba-cosmopolitan
+        - cf2-iba-hemingway-special
+      review_version: 0.1
+  resources:
+    - resource: cf2-iba-cosmopolitan
+      role: introduction
+      order: 0
+      review_version: 0.1
+    - resource: cf2-iba-hemingway-special
+      role: specialist-reference
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: heat
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Heating raises an ingredient or vessel’s temperature by applying energy.
+      sources:
+        - cf2-morgenthaler-apple-juice-arnold-palmer
+      review_version: 0.1
+    - id: purpose
+      role: purpose
+      text: The cited apple-juice tea preparation warms juice for an infusion before cooling and
+        mixing.
+      sources:
+        - cf2-morgenthaler-apple-juice-arnold-palmer
+      review_version: 0.1
+    - id: judgement
+      role: judgement
+      text: Follow the temperature cue; heating does not automatically mean boiling. Gentle warming
+        and a full boil are different endpoints.
+      sources:
+        - cf2-morgenthaler-apple-juice-arnold-palmer
+      review_version: 0.1
+    - id: context
+      role: context
+      text: This remains the general culinary process, with a beverage example added.
+      sources:
+        - cf2-morgenthaler-apple-juice-arnold-palmer
+      review_version: 0.1
+  resources:
+    - resource: cf2-morgenthaler-apple-juice-arnold-palmer
+      role: introduction
+      order: 0
+      review_version: 0.1
+- target:
+    kind: process
+    id: cool
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Cooling lowers the temperature of food, liquid or equipment before a later step or
+        service.
+      sources:
+        - cf2-morgenthaler-apple-juice-arnold-palmer
+      review_version: 0.1
+    - id: purpose
+      role: purpose
+      text: The apple-juice tea infusion cools before being combined with lemon and syrup and poured
+        over ice.
+      sources:
+        - cf2-morgenthaler-apple-juice-arnold-palmer
+      review_version: 0.1
+    - id: judgement
+      role: judgement
+      text: The required temperature depends on the recipe. Do not infer an exact time or food-storage
+        guarantee from this verb alone.
+      sources:
+        - cf2-morgenthaler-apple-juice-arnold-palmer
+      review_version: 0.1
+    - id: context
+      role: context
+      text: The same general process applies outside drinks; this is not a cocktail-only identity.
+      sources:
+        - cf2-morgenthaler-apple-juice-arnold-palmer
+      review_version: 0.1
+  resources:
+    - resource: cf2-morgenthaler-apple-juice-arnold-palmer
+      role: introduction
+      order: 0
+      review_version: 0.1
+- target:
+    kind: process
+    id: express-citrus-oil
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Expressing citrus oil squeezes aromatic oil from coloured peel over a drink.
+      sources:
+        - cf2-zest
+      review_version: 0.1
+    - id: purpose
+      role: purpose
+      text: It adds surface aroma without treating the peel as a measure of juice.
+      sources:
+        - cf2-zest
+      review_version: 0.1
+    - id: mechanism
+      role: mechanism
+      text: Bending or twisting a prepared strip releases oil toward the drink. Follow the source
+        about keeping, discarding or mounting the spent peel.
+      sources:
+        - cf2-zest
+      review_version: 0.1
+    - id: judgement
+      role: judgement
+      text: A flexible fresh peel serves this purpose better than a dry strip. Garnish appearance
+        alone does not show whether oil was expressed.
+      sources:
+        - cf2-zest
+      review_version: 0.1
+    - id: context
+      role: context
+      text: This differs from juicing, muddling whole fruit and flaming peel.
+      sources:
+        - cf2-zest
+      review_version: 0.1
+  resources:
+    - resource: cf2-zest
+      role: introduction
+      order: 0
+      review_version: 0.1
+- target:
+    kind: process
+    id: float
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Floating places a final ingredient gently on a drink’s surface.
+      sources:
+        - cf2-layer
+        - cf2-punch-penicillin
+      review_version: 0.1
+    - id: purpose
+      role: purpose
+      text: An aromatic layer can shape the first aroma or sip, as with Penicillin’s single-malt
+        topping.
+      sources:
+        - cf2-layer
+        - cf2-punch-penicillin
+      review_version: 0.1
+    - id: mechanism
+      role: mechanism
+      text: Pour slowly near the surface, using a spoon when helpful to reduce disturbance. Relative
+        density affects whether a layer persists.
+      sources:
+        - cf2-layer
+        - cf2-punch-penicillin
+      review_version: 0.1
+    - id: judgement
+      role: judgement
+      text: Products differing in sugar and alcohol need not float alike. A float does not promise a
+        permanently separate layer.
+      sources:
+        - cf2-layer
+        - cf2-punch-penicillin
+      review_version: 0.1
+    - id: context
+      role: context
+      text: Layering can build several layers; a float is the final surface addition.
+      sources:
+        - cf2-layer
+        - cf2-punch-penicillin
+      review_version: 0.1
+  resources:
+    - resource: cf2-layer
+      role: introduction
+      order: 0
+      review_version: 0.1
+    - resource: cf2-punch-penicillin
+      role: specialist-reference
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: flame-citrus-peel
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Flaming citrus peel ignites a brief spray of peel oil over a drink.
+      sources:
+        - cf2-punch-oaxaca-old-fashioned
+        - cf2-punch-revolver
+      review_version: 0.1
+    - id: purpose
+      role: purpose
+      text: The cited Oaxaca Old-Fashioned and Revolver specify this garnish treatment rather than an
+        unflamed twist.
+      sources:
+        - cf2-punch-oaxaca-old-fashioned
+        - cf2-punch-revolver
+      review_version: 0.1
+    - id: judgement
+      role: judgement
+      text: Treat it as an open-flame technique with a clear work area and bottles kept away. The
+        recipe does not call for lighting the drink itself.
+      sources:
+        - cf2-punch-oaxaca-old-fashioned
+        - cf2-punch-revolver
+      review_version: 0.1
+    - id: context
+      role: context
+      text: This differs from expressing oil without flame. The reference records the source technique
+        without claiming a tested flavour improvement.
+      sources:
+        - cf2-punch-oaxaca-old-fashioned
+        - cf2-punch-revolver
+      review_version: 0.1
+  resources:
+    - resource: cf2-punch-oaxaca-old-fashioned
+      role: introduction
+      order: 0
+      review_version: 0.1
+    - resource: cf2-punch-revolver
+      role: specialist-reference
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: rocks-glass
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A rocks glass is a short tumbler used for spirits or short drinks, often over ice.
+      sources:
+        - cf2-glasses
+        - cf2-punch-gold-rush
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: It accommodates the large cube in the cited Gold Rush.
+      sources:
+        - cf2-glasses
+        - cf2-punch-gold-rush
+      review_version: 0.1
+    - id: selection
+      role: selection
+      text: Choose capacity for formula and ice. A double old-fashioned qualifier signals a larger
+        vessel, not a larger ingredient measure.
+      sources:
+        - cf2-glasses
+        - cf2-punch-gold-rush
+      review_version: 0.1
+    - id: care
+      role: care
+      text: Check for chips and follow the maker’s cleaning instructions.
+      sources:
+        - cf2-glasses
+        - cf2-punch-gold-rush
+      review_version: 0.1
+  resources:
+    - resource: cf2-glasses
+      role: introduction
+      order: 0
+      review_version: 0.1
+    - resource: cf2-punch-gold-rush
+      role: specialist-reference
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: highball-glass
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A highball glass is a tall drinking glass used for long mixed drinks.
+      sources:
+        - cf2-highballs
+        - cf2-difford-gin-and-tonic
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: It holds liquid and ice for drinks such as Paloma.
+      sources:
+        - cf2-highballs
+        - cf2-difford-gin-and-tonic
+      review_version: 0.1
+    - id: selection
+      role: selection
+      text: Capacity matters more than the label alone. Some guides distinguish larger Collins
+        glasses; a Collins qualifier preserves that requested form without assigning its size to
+        every highball.
+      sources:
+        - cf2-highballs
+        - cf2-difford-gin-and-tonic
+      review_version: 0.1
+    - id: care
+      role: care
+      text: Use a sound, clean glass and avoid forcing oversized ice into it.
+      sources:
+        - cf2-highballs
+        - cf2-difford-gin-and-tonic
+      review_version: 0.1
+  resources:
+    - resource: cf2-highballs
+      role: introduction
+      order: 0
+      review_version: 0.1
+    - resource: cf2-difford-gin-and-tonic
+      role: specialist-reference
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: cocktail-glass
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A cocktail glass is a stemmed glass for a prepared cocktail, commonly served without ice.
+      sources:
+        - cf2-glasses
+        - cf2-cointreau-sidecar
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: It receives a strained drink such as Sidecar.
+      sources:
+        - cf2-glasses
+        - cf2-cointreau-sidecar
+      review_version: 0.1
+    - id: selection
+      role: selection
+      text: Allow room for formula, dilution and carrying. A Nick & Nora qualifier specifies a shape
+        without making every cocktail glass one.
+      sources:
+        - cf2-glasses
+        - cf2-cointreau-sidecar
+      review_version: 0.1
+    - id: care
+      role: care
+      text: Handle by the stem and check the rim for damage.
+      sources:
+        - cf2-glasses
+        - cf2-cointreau-sidecar
+      review_version: 0.1
+  resources:
+    - resource: cf2-glasses
+      role: introduction
+      order: 0
+      review_version: 0.1
+    - resource: cf2-cointreau-sidecar
+      role: specialist-reference
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: coupe
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A coupe is a stemmed glass with a broad, shallow bowl.
+      sources:
+        - cf2-glassware-examples
+        - cf2-punch-division-bell
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: It serves chilled cocktails without ice, including Division Bell.
+      sources:
+        - cf2-glassware-examples
+        - cf2-punch-division-bell
+      review_version: 0.1
+    - id: selection
+      role: selection
+      text: Allow room for the strained drink. A broad opening differs from a narrow flute, so
+        preserve a source-specified shape.
+      sources:
+        - cf2-glassware-examples
+        - cf2-punch-division-bell
+      review_version: 0.1
+    - id: care
+      role: care
+      text: Carry carefully to avoid spilling and check the rim for chips.
+      sources:
+        - cf2-glassware-examples
+        - cf2-punch-division-bell
+      review_version: 0.1
+  resources:
+    - resource: cf2-glassware-examples
+      role: introduction
+      order: 0
+      review_version: 0.1
+    - resource: cf2-punch-division-bell
+      role: specialist-reference
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: wine-glass
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A wine glass is a serving glass with a bowl intended for wine or a wine-style drink.
+      sources:
+        - cf2-glassware-examples
+        - cf2-campari-spritz
+        - cf2-seedlip-citrus-fizz
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: A roomy glass holds ice and the measured Campari Spritz. A flute qualifier specifies a
+        narrow form for sparkling serves.
+      sources:
+        - cf2-glassware-examples
+        - cf2-campari-spritz
+        - cf2-seedlip-citrus-fizz
+      review_version: 0.1
+    - id: selection
+      role: selection
+      text: Leave space for liquid, ice and garnish. A flute and a large spritz glass are not
+        interchangeable capacities.
+      sources:
+        - cf2-glassware-examples
+        - cf2-campari-spritz
+        - cf2-seedlip-citrus-fizz
+      review_version: 0.1
+    - id: care
+      role: care
+      text: Inspect stem and rim and follow the maker’s washing guidance.
+      sources:
+        - cf2-glassware-examples
+        - cf2-campari-spritz
+        - cf2-seedlip-citrus-fizz
+      review_version: 0.1
+  resources:
+    - resource: cf2-glassware-examples
+      role: introduction
+      order: 0
+      review_version: 0.1
+    - resource: cf2-campari-spritz
+      role: specialist-reference
+      order: 1
+      review_version: 0.1
+    - resource: cf2-seedlip-citrus-fizz
+      role: specialist-reference
+      order: 2
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: muddler
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A muddler is a hand tool for pressing ingredients in a vessel.
+      sources:
+        - cf-muddle
+        - cf2-punch-mint-julep
+        - cf2-punch-sherry-cobbler
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: "It releases juice or aroma: Sherry Cobbler uses orange slices, and Mint Julep uses mint."
+      sources:
+        - cf-muddle
+        - cf2-punch-mint-julep
+        - cf2-punch-sherry-cobbler
+      review_version: 0.1
+    - id: judgement
+      role: judgement
+      text: Use pressure suited to the ingredient. Gently pressing herbs differs from crushing fruit.
+      sources:
+        - cf-muddle
+        - cf2-punch-mint-julep
+        - cf2-punch-sherry-cobbler
+      review_version: 0.1
+    - id: selection
+      role: selection
+      text: Choose an end that fits without striking the vessel walls. Clean away pulp and syrup after
+        use.
+      sources:
+        - cf-muddle
+        - cf2-punch-mint-julep
+        - cf2-punch-sherry-cobbler
+      review_version: 0.1
+  resources:
+    - resource: cf-muddle
+      role: introduction
+      order: 0
+      review_version: 0.1
+    - resource: cf2-punch-mint-julep
+      role: specialist-reference
+      order: 1
+      review_version: 0.1
+    - resource: cf2-punch-sherry-cobbler
+      role: specialist-reference
+      order: 2
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: honey-syrup
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Honey syrup is honey mixed with water to make a pourable sweetener. It
+        brings honey character and sweetness to mixed drinks.
+      sources:
+        - cf2-punch-gold-rush
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: The cited Gold Rush uses a 3:1 honey-to-water preparation without
+        specifying mass or volume. Keep that uncertainty rather than inventing a
+        precise conversion.
+      sources:
+        - cf2-punch-gold-rush
+      review_version: 0.1
+    - id: judgement
+      role: judgement
+      text: Concentration and the honey itself affect the drink. A honey syrup is not
+        automatically the same as plain sugar syrup.
+      sources:
+        - cf2-punch-gold-rush
+      review_version: 0.1
+  resources:
+    - resource: cf2-punch-gold-rush
+      role: introduction
+      order: 0
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: honey-ginger-syrup
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Honey-ginger syrup is a sweet preparation combining honey, water and
+        ginger. It supplies sweetness and ginger character in the cited
+        Penicillin.
+      sources:
+        - cf2-punch-penicillin
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: The source batch uses one cup each of honey and water with a six-inch
+        piece of ginger, followed by heating, overnight refrigeration and
+        straining. Preserve those batch facts separately from the drink measure.
+      sources:
+        - cf2-punch-penicillin
+      review_version: 0.1
+    - id: judgement
+      role: judgement
+      text: The source batch is one recipe for this preparation, not a universal
+        concentration. Keep its method and quantity wording rather than
+        assigning an inferred shelf life.
+      sources:
+        - cf2-punch-penicillin
+      review_version: 0.1
+  resources:
+    - resource: cf2-punch-penicillin
+      role: introduction
+      order: 0
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: saline-solution
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Saline solution is salt dissolved in water for measured use as an
+        ingredient. In cocktail specs it can distribute a small salt addition
+        through the liquid.
+      sources:
+        - cf2-difford-el-presidente
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: The cited El Presidente specifies 20g salt to 80g water and explicitly
+        permits a pinch of salt instead. That alternative is authored, not an
+        automatic conversion between drops and pinches.
+      sources:
+        - cf2-difford-el-presidente
+      review_version: 0.1
+    - id: judgement
+      role: judgement
+      text: Concentration must travel with the quantity. A solution with another ratio
+        is not equivalent merely because both are called saline.
+      sources:
+        - cf2-difford-el-presidente
+      review_version: 0.1
+  resources:
+    - resource: cf2-difford-el-presidente
+      role: introduction
+      order: 0
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: grapefruit-soda
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Grapefruit soda is a carbonated grapefruit-flavoured drink. It supplies
+        fruit flavour, sweetness and fizz in drinks such as Paloma.
+      sources:
+        - cf2-iba-paloma
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: The IBA Paloma calls for pink grapefruit soda, added after tequila, lime,
+        salt and ice. Preserve the named mixer rather than silently replacing it
+        with grapefruit juice and soda water.
+      sources:
+        - cf2-iba-paloma
+      review_version: 0.1
+    - id: judgement
+      role: judgement
+      text: The source leaves the product unspecified. No particular brand, juice
+        percentage or replacement ratio has been inferred.
+      sources:
+        - cf2-iba-paloma
+      review_version: 0.1
+  resources:
+    - resource: cf2-iba-paloma
+      role: introduction
+      order: 0
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: raspberry-syrup
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Raspberry syrup is a sweet raspberry-flavoured preparation used as a drink
+        ingredient. It supplies fruit character and sweetness in Clover Club
+        versions.
+      sources:
+        - cf2-iba-clover-club
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: The cited IBA Clover Club measures it separately from lemon juice and egg
+        white. Its source does not provide a syrup recipe or a brand.
+      sources:
+        - cf2-iba-clover-club
+      review_version: 0.1
+    - id: judgement
+      role: judgement
+      text: Do not silently replace it with a raspberry liqueur or assume a homemade
+        concentration. Record a more specific preparation when one is actually
+        established.
+      sources:
+        - cf2-iba-clover-club
+      review_version: 0.1
+  resources:
+    - resource: cf2-iba-clover-club
+      role: introduction
+      order: 0
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: marmalade-cordial
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Marmalade cordial is a pourable marmalade-and-water preparation used as a
+        mixer. In the cited Citrus Fizz it adds citrus-preserve flavour and
+        sweetness.
+      sources:
+        - cf2-seedlip-citrus-fizz
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: The producer recipe combines 300g marmalade with 150ml hot water, then
+        fine-strains and refrigerates the cordial. Those are preparation
+        amounts, not a single drink measure.
+      sources:
+        - cf2-seedlip-citrus-fizz
+      review_version: 0.1
+    - id: judgement
+      role: judgement
+      text: Marmalade flavour and texture can vary. The source does not establish an
+        indefinite keeping time or equivalence to an orange liqueur.
+      sources:
+        - cf2-seedlip-citrus-fizz
+      review_version: 0.1
+  resources:
+    - resource: cf2-seedlip-citrus-fizz
+      role: introduction
+      order: 0
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: tiki-mug
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A tiki mug is a themed serving vessel used for tiki-style drinks.
+      sources:
+        - cf2-punch-jungle-bird
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: The cited Jungle Bird explicitly permits a tiki mug or a rocks glass.
+        Preserve that choice rather than inferring a mandatory decorative
+        vessel.
+      sources:
+        - cf2-punch-jungle-bird
+      review_version: 0.1
+    - id: judgement
+      role: judgement
+      text: Check capacity for the measured drink, ice and garnish. The theme does not
+        define a standard volume; follow the maker’s cleaning instructions.
+      sources:
+        - cf2-punch-jungle-bird
+      review_version: 0.1
+  resources:
+    - resource: cf2-punch-jungle-bird
+      role: introduction
+      order: 0
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: julep-tin
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A julep tin is a metal serving vessel used for a julep.
+      sources:
+        - cf2-punch-mint-julep
+      review_version: 0.1
+    - id: uses
+      role: uses
+      text: The cited Mint Julep permits a julep tin or a rocks glass, filled with
+        finely crushed ice. The vessel choice does not change the stated bourbon
+        range.
+      sources:
+        - cf2-punch-mint-julep
+      review_version: 0.1
+    - id: judgement
+      role: judgement
+      text: Allow room for ice and garnish. The name does not establish one capacity
+        or metal composition; use food-contact equipment and follow its care
+        guidance.
+      sources:
+        - cf2-punch-mint-julep
+      review_version: 0.1
+  resources:
+    - resource: cf2-punch-mint-julep
       role: introduction
       order: 0
       review_version: 0.1

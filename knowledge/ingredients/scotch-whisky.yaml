@@ -1,0 +1,24 @@
+id: scotch-whisky
+kind: ingredient
+canonical_name: Scotch whisky
+names:
+  en: Scotch whisky
+curation:
+  origin: generated
+  review: unchecked
+categories:
+  - beverages
+evidence:
+  review_note: Cocktail Foundation v2; source-informed generated identity and prose, not human reviewed.
+  sources:
+    - title: Scotch whisky categories
+      url: https://scotch-whisky.org.uk/discover-scotch/enjoying-scotch/scotch-whisky-categories/
+    - title: Penicillin
+      url: https://punchdrink.com/recipes/penicillin/
+variants:
+  blended:
+    names:
+      en: blended
+  single-malt:
+    names:
+      en: single malt

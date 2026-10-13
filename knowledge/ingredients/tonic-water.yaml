@@ -1,0 +1,19 @@
+id: tonic-water
+kind: ingredient
+canonical_name: tonic water
+names:
+  en: tonic water
+curation:
+  origin: generated
+  review: unchecked
+categories:
+  - beverages
+evidence:
+  review_note: Cocktail Foundation v2; source-informed generated identity and prose, not human reviewed.
+  sources:
+    - title: Tonics
+      url: https://fever-tree.com/index.php/en-us/range/tonics
+    - title: Garden Spritz
+      url: https://www.seedlipdrinks.com/en-gb/recipes/seedlip-garden-spritz
+    - title: Chartreuse Tonic
+      url: https://www.chartreuse.fr/en/degustation/cocktails/chartreuse-tonic/

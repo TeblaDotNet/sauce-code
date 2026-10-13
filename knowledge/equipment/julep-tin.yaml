@@ -1,0 +1,13 @@
+id: julep-tin
+kind: equipment
+canonical_name: julep tin
+names:
+  en: julep tin
+curation:
+  origin: generated
+  review: unchecked
+categories:
+  - coffee-and-bar
+evidence:
+  review_note: Cocktail Foundation v2; generated identity, source-specific use,
+    not human reviewed.

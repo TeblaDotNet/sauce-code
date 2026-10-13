@@ -1,0 +1,13 @@
+id: saline-solution
+kind: ingredient
+canonical_name: saline solution
+names:
+  en: saline solution
+curation:
+  origin: generated
+  review: unchecked
+categories:
+  - beverages
+evidence:
+  review_note: Cocktail Foundation v2; generated identity, source-specific use,
+    not human reviewed.

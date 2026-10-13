@@ -9,9 +9,12 @@ evidence:
   current_observation_count: 1
   legacy_observation_count: 0
   observed_terms:
-  - term: agave
-    count: 1
+    - term: agave
+      count: 1
   seen_in:
-  - examples/public-domain-recipes/bread/bread.opensauce
+    - examples/public-domain-recipes/bread/bread.opensauce
 categories:
   - sugars-and-sweeteners
+aliases:
+  - agave syrup
+  - agave nectar

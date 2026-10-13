@@ -2444,3 +2444,381 @@
   type: reference
   checked_at: 2026-10-12
   review_scope: text
+- id: cf2-punch-gold-rush
+  title: Gold Rush
+  url: https://punchdrink.com/recipes/gold-rush/
+  publisher: Punch
+  type: reference
+  checked_at: 2026-10-13
+  review_scope: text
+- id: cf2-punch-oaxaca-old-fashioned
+  title: Oaxaca Old-Fashioned
+  url: https://punchdrink.com/recipes/oaxaca-old-fashioned/
+  publisher: Punch
+  type: reference
+  checked_at: 2026-10-13
+  review_scope: text
+- id: cf2-punch-division-bell
+  title: Division Bell
+  url: https://punchdrink.com/recipes/division-bell/
+  publisher: Punch
+  type: reference
+  checked_at: 2026-10-13
+  review_scope: text
+- id: cf2-punch-revolver
+  title: Revolver
+  url: https://punchdrink.com/recipes/revolver/
+  publisher: Punch
+  type: reference
+  checked_at: 2026-10-13
+  review_scope: text
+- id: cf2-punch-kingston-negroni
+  title: Kingston Negroni
+  url: https://punchdrink.com/recipes/kingston-negroni/
+  publisher: Punch
+  type: reference
+  checked_at: 2026-10-13
+  review_scope: text
+- id: cf2-punch-jungle-bird
+  title: Jungle Bird
+  url: https://punchdrink.com/recipes/jungle-bird/
+  publisher: Punch
+  type: reference
+  checked_at: 2026-10-13
+  review_scope: text
+- id: cf2-punch-penicillin
+  title: Penicillin
+  url: https://punchdrink.com/recipes/penicillin/
+  publisher: Punch
+  type: reference
+  checked_at: 2026-10-13
+  review_scope: text
+- id: cf2-punch-sherry-cobbler
+  title: Sherry Cobbler
+  url: https://punchdrink.com/recipes/sherry-cobbler/
+  publisher: Punch
+  type: reference
+  checked_at: 2026-10-13
+  review_scope: text
+- id: cf2-punch-mint-julep
+  title: Mint Julep
+  url: https://punchdrink.com/recipes/mint-julep/
+  publisher: Punch
+  type: reference
+  checked_at: 2026-10-13
+  review_scope: text
+- id: cf2-difford-bamboo
+  title: Bamboo (Difford’s classic recipe)
+  url: https://www.diffordsguide.com/cocktails/recipe/18976/bamboo-diffords-classic-recipe
+  publisher: Difford’s Guide
+  type: reference
+  checked_at: 2026-10-13
+  review_scope: text
+- id: cf2-difford-adonis
+  title: Adonis
+  url: https://www.diffordsguide.com/cocktails/recipe/18/adonis
+  publisher: Difford’s Guide
+  type: reference
+  checked_at: 2026-10-13
+  review_scope: text
+- id: cf2-difford-mai-tai
+  title: Mai Tai (Trader Vic’s)
+  url: https://www.diffordsguide.com/cocktails/recipe/1219/mai-tai-trader-vics
+  publisher: Difford’s Guide
+  type: reference
+  checked_at: 2026-10-13
+  review_scope: text
+- id: cf2-difford-el-presidente
+  title: El Presidente
+  url: https://www.diffordsguide.com/cocktails/recipe/701/el-presidente
+  publisher: Difford’s Guide
+  type: reference
+  checked_at: 2026-10-13
+  review_scope: text
+- id: cf2-morgenthaler-apple-juice-arnold-palmer
+  title: Apple Juice Arnold Palmer
+  url: https://jeffreymorgenthaler.com/apple-juice-arnold-palmer/
+  publisher: Jeffrey Morgenthaler
+  type: reference
+  checked_at: 2026-10-13
+  review_scope: text
+- id: cf2-morgenthaler-andalusian-buck
+  title: Andalusian Buck
+  url: https://jeffreymorgenthaler.com/andalusian-buck/
+  publisher: Jeffrey Morgenthaler
+  type: reference
+  checked_at: 2026-10-13
+  review_scope: text
+- id: cf2-iba-french-75
+  title: French 75
+  url: https://iba-world.com/iba-cocktail/french-75/
+  publisher: IBA
+  type: reference
+  checked_at: 2026-10-13
+  review_scope: text
+- id: cf2-iba-brandy-crusta
+  title: Brandy Crusta
+  url: https://iba-world.com/iba-cocktail/brandy-crusta/
+  publisher: IBA
+  type: reference
+  checked_at: 2026-10-13
+  review_scope: text
+- id: cf2-iba-mary-pickford
+  title: Mary Pickford
+  url: https://iba-world.com/iba-cocktail/mary-pickford/
+  publisher: IBA
+  type: reference
+  checked_at: 2026-10-13
+  review_scope: text
+- id: cf2-cointreau-margarita
+  title: The Original Margarita
+  url: https://www.cointreau.com/us/en/cocktails/the-original-margarita
+  publisher: Cointreau
+  type: reference
+  checked_at: 2026-10-13
+  review_scope: text
+  commercial_context: Producer description; not endorsement or a claim that products are interchangeable.
+- id: cf2-cointreau-sidecar
+  title: Sidecar
+  url: https://www.cointreau.com/us/en/cocktails/sidecar
+  publisher: Cointreau
+  type: reference
+  checked_at: 2026-10-13
+  review_scope: text
+  commercial_context: Producer description; not endorsement or a claim that products are interchangeable.
+- id: cf2-chartreuse-tonic
+  title: Chartreuse Tonic
+  url: https://www.chartreuse.fr/en/degustation/cocktails/chartreuse-tonic/
+  publisher: Chartreuse Diffusion
+  type: reference
+  checked_at: 2026-10-13
+  review_scope: text
+  commercial_context: Producer description; not endorsement or a claim that products are interchangeable.
+- id: cf2-chartreuse-bijou
+  title: Bijou
+  url: https://www.chartreuse.fr/en/degustation/cocktails/bijou/
+  publisher: Chartreuse Diffusion
+  type: reference
+  checked_at: 2026-10-13
+  review_scope: text
+  commercial_context: Producer description; not endorsement or a claim that products are interchangeable.
+- id: cf2-seedlip-garden-spritz
+  title: Garden Spritz
+  url: https://www.seedlipdrinks.com/en-gb/recipes/seedlip-garden-spritz
+  publisher: Seedlip
+  type: reference
+  checked_at: 2026-10-13
+  review_scope: text
+  commercial_context: Producer description; not endorsement or a claim that products are interchangeable.
+- id: cf2-seedlip-grove-spritz
+  title: Grove Spritz
+  url: https://www.seedlipdrinks.com/en-us/recipes/seedlip-grove-spritz
+  publisher: Seedlip
+  type: reference
+  checked_at: 2026-10-13
+  review_scope: text
+  commercial_context: Producer description; not endorsement or a claim that products are interchangeable.
+- id: cf2-seedlip-citrus-fizz
+  title: Citrus Fizz
+  url: https://www.seedlipdrinks.com/en-us/recipes/citrus-fizz
+  publisher: Seedlip
+  type: reference
+  checked_at: 2026-10-13
+  review_scope: text
+  commercial_context: Producer description; not endorsement or a claim that products are interchangeable.
+- id: cf2-campari-spritz
+  title: Campari Spritz
+  url: https://www.campari.com/our-cocktails/campari-spritz/
+  publisher: Campari
+  type: reference
+  checked_at: 2026-10-13
+  review_scope: text
+  commercial_context: Producer description; not endorsement or a claim that products are interchangeable.
+- id: cf2-scotch
+  title: Scotch whisky categories
+  url: https://scotch-whisky.org.uk/discover-scotch/enjoying-scotch/scotch-whisky-categories/
+  publisher: Scotch Whisky Association
+  type: reference
+  checked_at: 2026-10-13
+  review_scope: text
+- id: cf2-elijah
+  title: Elijah Craig Small Batch
+  url: https://elijahcraig.com/small-batch
+  publisher: Elijah Craig
+  type: reference
+  checked_at: 2026-10-13
+  review_scope: text
+  commercial_context: Producer description; not endorsement or a claim that products are interchangeable.
+- id: cf2-reposado
+  title: El Tesoro Reposado
+  url: https://www.eltesorotequila.com/tequilas/el-tesoro-reposado
+  publisher: El Tesoro
+  type: reference
+  checked_at: 2026-10-13
+  review_scope: text
+  commercial_context: Producer description; not endorsement or a claim that products are interchangeable.
+- id: cf2-blanco
+  title: El Tesoro Blanco
+  url: https://www.eltesorotequila.com/tequilas/el-tesoro-blanco
+  publisher: El Tesoro
+  type: reference
+  checked_at: 2026-10-13
+  review_scope: text
+  commercial_context: Producer description; not endorsement or a claim that products are interchangeable.
+- id: cf2-san-luis
+  title: San Luis Del Rio product sheet
+  url: https://delmaguey.com/wp-content/uploads/sellsheets/SLDR-SellSheet-3-10-2021.pdf
+  publisher: Del Maguey
+  type: reference
+  checked_at: 2026-10-13
+  review_scope: text
+  commercial_context: Producer description; not endorsement or a claim that products are interchangeable.
+- id: cf2-cognac
+  title: Cognac production
+  url: https://www.cognac.fr/en/discover/expertise/production/
+  publisher: Bureau National Interprofessionnel du Cognac
+  type: reference
+  checked_at: 2026-10-13
+  review_scope: text
+- id: cf2-sherry
+  title: Types of Sherry wine
+  url: https://www.sherry.wine/sherry-cask/types-of-sherry-wine
+  publisher: Consejo Regulador de Jerez
+  type: reference
+  checked_at: 2026-10-13
+  review_scope: text
+- id: cf2-maraschino
+  title: Maraschino Originale
+  url: https://www.luxardo.it/liqueurs-and-distillates/maraschino-originale/
+  publisher: Luxardo
+  type: reference
+  checked_at: 2026-10-13
+  review_scope: text
+  commercial_context: Producer description; not endorsement or a claim that products are interchangeable.
+- id: cf2-almond
+  title: Almond (Orgeat) Syrup
+  url: https://monin.us/products/almond-syrup
+  publisher: Monin
+  type: reference
+  checked_at: 2026-10-13
+  review_scope: text
+  commercial_context: Producer description; not endorsement or a claim that products are interchangeable.
+- id: cf2-grenadine
+  title: MONIN Grenadine syrup
+  url: https://monin1912.com/en-ukpro/products/monin-grenadine-syrup
+  publisher: Monin
+  type: reference
+  checked_at: 2026-10-13
+  review_scope: text
+  commercial_context: Producer description; not endorsement or a claim that products are interchangeable.
+- id: cf2-tonics
+  title: Tonics
+  url: https://fever-tree.com/index.php/en-us/range/tonics
+  publisher: Fever-Tree
+  type: reference
+  checked_at: 2026-10-13
+  review_scope: text
+  commercial_context: Producer description; not endorsement or a claim that products are interchangeable.
+- id: cf2-mixers
+  title: Our story — mixers
+  url: https://fever-tree.com/index.php/en-gb/our-story
+  publisher: Fever-Tree
+  type: reference
+  checked_at: 2026-10-13
+  review_scope: text
+  commercial_context: Producer description; not endorsement or a claim that products are interchangeable.
+- id: cf2-soda
+  title: Premium Soda Water
+  url: https://fever-tree.com/fr-fr/products/premium-soda-water
+  publisher: Fever-Tree
+  type: reference
+  checked_at: 2026-10-13
+  review_scope: text
+  commercial_context: Producer description; not endorsement or a claim that products are interchangeable.
+- id: cf2-zest
+  title: How to express a citrus zest twist
+  url: https://www.diffordsguide.com/g/1269/cocktail-garnishes/citrus-zest-twists
+  publisher: Difford’s Guide
+  type: reference
+  checked_at: 2026-10-13
+  review_scope: text
+- id: cf2-layer
+  title: How to layer cocktails
+  url: https://www.diffordsguide.com/g/1150/how-to-make-cocktails/how-to-layer
+  publisher: Difford’s Guide
+  type: reference
+  checked_at: 2026-10-13
+  review_scope: text
+- id: cf2-glasses
+  title: Guide to glassware
+  url: https://www.thebar.com/en-us/articles/guide-to-glassware
+  publisher: The Bar
+  type: reference
+  checked_at: 2026-10-13
+  review_scope: text
+  commercial_context: Producer description; not endorsement or a claim that products are interchangeable.
+- id: cf2-highballs
+  title: How to make a highball
+  url: https://www.diffordsguide.com/g/1086/highballs/how-to-make
+  publisher: Difford’s Guide
+  type: reference
+  checked_at: 2026-10-13
+  review_scope: text
+- id: cf2-difford-tommys-margarita
+  title: Tommy's Margarita
+  url: https://www.diffordsguide.com/cocktails/recipe/1975/tommys-margarita
+  publisher: Difford’s Guide
+  type: reference
+  checked_at: 2026-10-13
+  review_scope: text
+- id: cf2-iba-cosmopolitan
+  title: Cosmopolitan
+  url: https://iba-world.com/iba-cocktail/cosmopolitan/
+  publisher: IBA
+  type: reference
+  checked_at: 2026-10-13
+  review_scope: text
+- id: cf2-iba-hemingway-special
+  title: Hemingway Special
+  url: https://iba-world.com/iba-cocktail/hemingway-special/
+  publisher: IBA
+  type: reference
+  checked_at: 2026-10-13
+  review_scope: text
+- id: cf2-difford-gin-and-tonic
+  title: Gin & Tonic
+  url: https://www.diffordsguide.com/cocktails/recipe/835/gin-and-tonic
+  publisher: Difford’s Guide
+  type: reference
+  checked_at: 2026-10-13
+  review_scope: text
+- id: cf2-iba-paloma
+  title: Paloma
+  url: https://iba-world.com/iba-cocktail/paloma/
+  publisher: IBA
+  type: reference
+  checked_at: 2026-10-13
+  review_scope: text
+- id: cf2-iba-clover-club
+  title: Clover Club
+  url: https://iba-world.com/iba-cocktail/clover-club/
+  publisher: IBA
+  type: reference
+  checked_at: 2026-10-13
+  review_scope: text
+- id: cf2-glassware-examples
+  title: Glassware examples and capacities
+  url: https://www.diffordsguide.com/products-and-services
+  publisher: Difford’s Guide
+  type: reference
+  checked_at: 2026-10-13
+  review_scope: text
+  commercial_context: Commercial catalogue used for vessel shape and capacity
+    examples, not endorsement.
+- id: cf2-champagne
+  title: "Champagne: a unique appellation"
+  url: https://www.champagne.fr/system/files/2025-05/Filiere_Champagne_EN_2025_WEB.pdf
+  publisher: Comité Champagne
+  type: reference
+  checked_at: 2026-10-13
+  review_scope: text

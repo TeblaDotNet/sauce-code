@@ -3,7 +3,7 @@ schema_version: '0.3'
 status: draft8-vocabulary-review-pass-1
 current_recipe_count: 410
 legacy_evidence: bbc-food-10 vocabulary observations retained; recipe texts not distributed
-canonical_concept_count: 147
+canonical_concept_count: 155
 entries:
 - id: air-fryer
   canonical_name: air fryer
@@ -592,4 +592,36 @@ entries:
 - id: mixing-glass
   canonical_name: mixing glass
   file: mixing-glass.yaml
+  aliases: 0
+- id: rocks-glass
+  canonical_name: rocks glass
+  file: rocks-glass.yaml
+  aliases: 3
+- id: highball-glass
+  canonical_name: highball glass
+  file: highball-glass.yaml
+  aliases: 0
+- id: cocktail-glass
+  canonical_name: cocktail glass
+  file: cocktail-glass.yaml
+  aliases: 0
+- id: coupe
+  canonical_name: coupe
+  file: coupe.yaml
+  aliases: 0
+- id: wine-glass
+  canonical_name: wine glass
+  file: wine-glass.yaml
+  aliases: 0
+- id: muddler
+  canonical_name: muddler
+  file: muddler.yaml
+  aliases: 0
+- id: tiki-mug
+  canonical_name: tiki mug
+  file: tiki-mug.yaml
+  aliases: 0
+- id: julep-tin
+  canonical_name: julep tin
+  file: julep-tin.yaml
   aliases: 0
