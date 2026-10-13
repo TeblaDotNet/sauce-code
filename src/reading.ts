@@ -57,10 +57,6 @@ export function convertReaderDensity(observations:readonly MeasurementObservatio
  return convertIngredientMeasurement(observations,{...request,amount:base.amount,from:base.dimension==='mass'?'g':'mL',approximate:q.precision==='approximate'||q.precision==='very-approximate'});
 }
 const fractions=[[0,''],[1/8,'1/8'],[1/4,'1/4'],[1/3,'1/3'],[1/2,'1/2'],[2/3,'2/3'],[3/4,'3/4'],[1,'']] as const;
-function mixed(value:number):{value:number;text:string} {
- const whole=Math.floor(value);const fraction=fractions.reduce((a,b)=>Math.abs(b[0]-(value-whole))<Math.abs(a[0]-(value-whole))?b:a);
- const n=whole+(fraction[0]===1?1:0);return {value:whole+fraction[0],text:[n||'',fraction[1]].filter(Boolean).join(' ')||'0'};
-}
 const cupFractions = fractions.filter(f=>f[0]!==1/8);
 const tablespoonFractions = fractions.filter(f=>[0,1/2,1].includes(f[0]));
 const teaspoonFractions = fractions.filter(f=>[0,1/4,1/2,3/4,1].includes(f[0]));
@@ -126,13 +122,18 @@ export function displayReaderQuantity(source:ReaderQuantity,preferences:ReadingP
  let q=scaled,text:string|undefined,formattedUnit:string|undefined,represented=q.amount;
  if(q.dimension==='unresolved'&&/^cups?$/i.test(q.unit)){const result=formatUnresolvedCups(q.amount);text=result.text;represented=result.represented;}
  else if(q.dimension==='temperature')q=convertReaderUnit(q,preferences.temperatureUnit==='c'?'°C':'°F')!;
- else if(q.dimension==='mass')q=convertReaderUnit(q,preferences.measurementSystem==='metric'?(q.amount*readerUnits[q.unit].factor>=1000?'kg':'g'):(q.amount*readerUnits[q.unit].factor>=453.59237?'lb':'oz'))!;
+ else if(q.dimension==='mass')q=convertReaderUnit(q,preferences.measurementSystem==='metric'?(q.amount*readerUnits[q.unit].factor>=1000?'kg':'g'):'oz')!;
  else if(q.dimension==='volume'){
   const ml=q.amount*readerUnits[q.unit].factor;
   if(preferences.measurementSystem==='us'){const formatted=formatUSVolume(ml);if(formatted){text=formatted.text;formattedUnit=formatted.unit;q={...q,amount:ml,unit:'ml'};represented=formatted.representedMl;}else q=convertReaderUnit(q,ml>=1000?'l':'ml')!;}
   else q=convertReaderUnit(q,ml>=1000?'l':'ml')!;
  }
- if(q.dimension==='mass'&&preferences.measurementSystem==='us'){const friendly=mixed(q.amount);if(q.amount===0||Math.abs(friendly.value-q.amount)/q.amount<=.02){text=friendly.text+' '+q.unit;represented=friendly.value;}else q=convertReaderUnit(q,scaled.amount*readerUnits[scaled.unit].factor>=1000?'kg':'g')!;}
+ if(q.dimension==='mass'&&preferences.measurementSystem==='us'){
+  represented=Number(q.amount.toFixed(q.precision==='high'?2:1));
+  // Keep tiny positive amounts visible without reverting to metric or inventing zero.
+  if(represented===0&&q.amount>0)represented=Number(q.amount.toPrecision(1));
+  text=String(represented)+' oz';
+ }
  if(!text){represented=culinaryNumber(q,source,ingredient&&factor!==1);text=String(represented)+(q.unit?' '+q.unit:'');}
  const rounded=Math.abs(represented-q.amount)>Math.max(1e-10,Math.abs(q.amount)*1e-10);
  const converted=(formattedUnit??q.unit)!==source.unit;
