@@ -163,18 +163,21 @@ Qualifiers stay authored text. Explicit recognised preparation states may be ann
 Use `@` to name a commercial product or expression separately from the ingredient type:
 
 ```opensauce ingredients
-(gin; London dry @ Beefeater)
-(gin @ ~Beefeater)
+(gin; London dry)
+(gin @ Beefeater)
+(gin; London dry @ ~Beefeater)
 (cocktail bitters @ !Peychaud's)
 (whisky @ Lagavulin 16)
-(gin @ ~Beefeater) -OR- (gin; London dry)
+(absinthe) -OR- (Herbsaint)
 ```
 
 - `;` specifies culinary type/style; it does not name a brand.
 - Bare `@ Product` means **specified**: the source names it without making a stronger substitutability claim.
-- `@ ~Product` means **approximate product match**: this is the reference product and a close substitute is acceptable, not merely something the author likes.
+- `@ ~Product` means **recommended/reference product**: another suitable product within the declared ingredient/type scope is acceptable. This is not merely personal preference.
 - `@ !Product` means **exact product intended**: substituting materially changes the intended spec.
 - `-OR-` remains an explicit authored alternative. Neither a product name nor its strength creates inferred alternatives.
+
+`(gin; London dry @ ~Beefeater)` already permits another suitable London dry gin, so appending `-OR- (gin; London dry)` would normally be redundant. Use `-OR-` for genuinely distinct authored alternatives, such as absinthe and Herbsaint above.
 
 Product selection follows any type and part path, before comma qualifiers:
 
@@ -531,6 +534,12 @@ Dietary labels are author-supplied guidance, not a guarantee of suitability. Ing
 
 Within `::recipe`, `locale: en-GB` (or another valid language tag such as en-US) declares the locale used to interpret ingredient names. It is optional and does not change token grammar or authored wording. The model retains it independently of reader presentation preferences. Invalid or duplicate declarations warn and are not applied. See [ingredient naming and identity](docs/knowledge.md#ingredient-naming-authoring-locale-and-identity) for exact-name scoping and compatibility rules.
 
+## Cocktails
+
+Cocktails use the same Recipe object, parser and source format. The site has a separate Cocktails browse section and uses Spec / Method labels in that context; knowledge links still lead to shared ingredient, process and equipment pages. Its main navigation is Recipes · Cocktails · Knowledge · About.
+
+Multiple specs may share a display title. Stable recipe IDs distinguish them, while subtitles, source and version information help readers tell them apart.
+
 ## Original source preservation
 
 Imported recipes can retain the original source text verbatim:
@@ -588,7 +597,11 @@ Equipment also has a third possible reason:
 
 recommendation value — helping people understand useful types or good examples of a tool
 
-Eventually these pages can also link to carefully selected external articles and videos.
+Pages can include sourced editorial sections, learning resources, contextual associations, hero images, measurement observations and recipe usage backlinks. The `::` section headings are presentation, not additional recipe grammar. Page depth follows the concept; every page need not contain every section.
+
+Ingredients, processes and equipment support multi-valued browsing categories. These aid navigation; they do not imply identity, inheritance, aliases, substitution or parser legality. See [the knowledge model](docs/knowledge.md) for editorial and evidence rules.
+
+`review_version` describes content maturity, separately from Git, schema or publication versions. Current enriched content is labelled “Version 0.1 — machine generated, not yet human reviewed”; passing automated checks does not advance it.
 
 The aim is useful curation, not turning every verb and spoon into an encyclopedia entry.
 

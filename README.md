@@ -72,6 +72,8 @@ The rest of the grammar stays mostly neutral:
 Precision belongs to the quantity expression rather than being guessed from prose. The full rules are in the [Draft 8 specification](SPEC.md).
 
 
+Cocktails use the same recipe model and parser. The demonstration site gives them a separate browse section and uses Spec / Method labels; their ingredient, process and equipment links lead into the shared Knowledge base. Knowledge pages can include sourced explanations and learning resources, with browsing categories separate from culinary identity.
+
 ## Code and Compact
 
 Sauce Code is authored text. Compact is generated prose; Original Source preserves the supplied source rather than reconstructing it. The example above renders as:
