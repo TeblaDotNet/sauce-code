@@ -1,7 +1,6 @@
 {
   "name": "@open-sauce/core",
   "version": "0.1.0",
-  "private": true,
   "type": "module",
   "description": "Source-preserving Open Sauce Food parser and human recipe renderers",
   "exports": {
@@ -15,7 +14,12 @@
     }
   },
   "files": [
-    "dist"
+    "dist",
+    "knowledge/**/*.yaml",
+    "LICENSE",
+    "LICENSING.md",
+    "LICENSES",
+    "assets/brand/*.svg"
   ],
   "engines": {
     "node": ">=24"
@@ -27,7 +31,9 @@
     "corpus": "node tools/corpus.ts",
     "quality:audit": "node tools/quality-audit.ts",
     "docs:check": "node tools/check-docs.ts",
-    "source:check": "node tools/check-public-source.ts"
+    "source:check": "node tools/check-public-source.ts",
+    "prepack": "tsc -p tsconfig.build.json",
+    "package:smoke": "node tools/package-smoke.ts"
   },
   "dependencies": {
     "yaml": "^2.8.0"
@@ -37,5 +43,8 @@
     "typescript": "^5.9.0"
   },
   "packageManager": "pnpm@11.25.0",
-  "license": "SEE LICENSE IN LICENSE"
+  "license": "SEE LICENSE IN LICENSE",
+  "bin": {
+    "opensauce": "./dist/cli.js"
+  }
 }
