@@ -26,3 +26,8 @@ observed_qualifiers:
   count: 1
 categories:
   - meat-and-poultry
+plural_names:
+  en: chicken breasts
+curation:
+  origin: generated
+  review: unchecked

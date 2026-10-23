@@ -18,3 +18,7 @@ observed_parameters:
   count: 1
 - value: retain some and feed remainder
   count: 1
+reference: false
+curation:
+  origin: generated
+  review: unchecked

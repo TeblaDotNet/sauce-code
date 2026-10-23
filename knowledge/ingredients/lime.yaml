@@ -26,6 +26,7 @@ parts:
     names:
       en: juice
   zest:
+    lexical_names: [lime zest]
     names:
       en: zest
   peel:
@@ -33,3 +34,7 @@ parts:
       en: peel
 categories:
   - produce
+
+curation:
+  origin: generated
+  review: unchecked

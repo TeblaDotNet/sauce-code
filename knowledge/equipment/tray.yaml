@@ -14,3 +14,8 @@ evidence:
   seen_in:
   - examples/public-domain-recipes/pho-soup/pho-soup.opensauce
   - examples/public-domain-recipes/potato-and-eggplant-curry/potato-and-eggplant-curry.opensauce
+categories:
+  - storage-and-containers
+curation:
+  origin: generated
+  review: unchecked

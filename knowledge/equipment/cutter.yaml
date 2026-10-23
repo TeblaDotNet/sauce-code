@@ -18,3 +18,8 @@ observed_qualifiers:
   count: 1
 - value: round
   count: 1
+categories:
+  - knives-and-cutting
+curation:
+  origin: generated
+  review: unchecked

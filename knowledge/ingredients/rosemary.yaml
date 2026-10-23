@@ -22,3 +22,13 @@ observed_qualifiers:
     count: 2
 categories:
   - herbs-and-spices
+parts:
+  leaf:
+    names:
+      en: leaf
+    plural_names:
+      en: leaves
+    lexical_names: [rosemary leaf, rosemary leaves]
+curation:
+  origin: generated
+  review: unchecked

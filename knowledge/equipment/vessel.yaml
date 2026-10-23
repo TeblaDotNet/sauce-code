@@ -18,3 +18,8 @@ observed_qualifiers:
   count: 1
 - value: heat-safe
   count: 1
+categories:
+  - storage-and-containers
+curation:
+  origin: generated
+  review: unchecked

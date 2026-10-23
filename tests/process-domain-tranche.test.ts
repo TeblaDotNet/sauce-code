@@ -44,8 +44,8 @@ test('metadata does not alter recipe parsing, identity or renderer output',()=>{
 });
 test('only approved concepts acquire editorial metadata and counts match indexes',async()=>{
  assert.equal(v.entries.length,810);assert.equal(v.entries.filter(e=>e.kind==='process').length,241);
- assert.equal(v.entries.filter(e=>e.kind==='process'&&e.reference!==false).length,205);
- assert.equal(v.entries.filter(e=>e.reference!==false).length,773);
+ assert.equal(v.entries.filter(e=>e.kind==='process'&&e.reference!==false).length,195);
+ assert.equal(v.entries.filter(e=>e.reference!==false).length,763);
  for(const entry of v.entries.filter(e=>e.scope!==undefined))assert.ok([...added,...clarified].includes(entry.id));
  for(const id of clarified)assert.ok(createReferencePage(v,'process',id)!.scope);
  const index=yaml(await readFile('knowledge/processes/index.yaml','utf8'));assert.equal(index.canonical_concept_count,241);assert.equal(index.entries.length,241);assert.equal(new Set(index.entries.map((e:{id:string})=>e.id)).size,241);

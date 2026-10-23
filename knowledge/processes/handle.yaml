@@ -20,3 +20,7 @@ observed_parameters:
   count: 1
 categories:
   - general-cooking
+reference: false
+curation:
+  origin: generated
+  review: unchecked

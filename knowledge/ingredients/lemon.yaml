@@ -45,6 +45,7 @@ parts:
     names:
       en: juice
   zest:
+    lexical_names: [lemon zest]
     names:
       en: zest
   peel:
@@ -52,3 +53,8 @@ parts:
       en: peel
 categories:
   - produce
+plural_names:
+  en: lemons
+curation:
+  origin: generated
+  review: unchecked

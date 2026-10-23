@@ -50,3 +50,9 @@ observed_qualifiers:
   count: 2
 categories:
   - bakeware
+plural_names:
+  en-GB: baking trays
+  en-US: baking sheets
+curation:
+  origin: generated
+  review: unchecked

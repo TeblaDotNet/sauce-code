@@ -84,9 +84,14 @@ observed_qualifiers:
     count: 1
 parts:
   clove:
+    lexical_names: [garlic clove, garlic cloves]
     names:
       en: clove
     plural_names:
       en: cloves
 categories:
   - produce
+
+curation:
+  origin: generated
+  review: unchecked

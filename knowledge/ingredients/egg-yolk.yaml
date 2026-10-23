@@ -20,3 +20,8 @@ evidence:
 categories:
   - dairy-and-eggs
   - baking-ingredients
+plural_names:
+  en: egg yolks
+curation:
+  origin: generated
+  review: unchecked

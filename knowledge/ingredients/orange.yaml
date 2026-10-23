@@ -25,6 +25,7 @@ parts:
     names:
       en: juice
   zest:
+    lexical_names: [orange zest]
     names:
       en: zest
   peel:
@@ -32,3 +33,7 @@ parts:
       en: peel
 categories:
   - produce
+
+curation:
+  origin: generated
+  review: unchecked

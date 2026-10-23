@@ -1,0 +1,892 @@
+{
+  "review": "Generated analysis; not a claim of human culinary review.",
+  "cases": [
+    {
+      "case": 1,
+      "reference": "garlic cloves",
+      "classification": "part",
+      "decision": "Implemented",
+      "existing": "garlic:clove exists with plural cloves",
+      "reason": "Explicit lexical name; never an alias for the whole bulb.",
+      "change": "Add garlic clove/cloves lexical_names.",
+      "deferred": "",
+      "evidence": [
+        {
+          "file": "examples/public-domain-recipes/almeirim-stone-soup/almeirim-stone-soup.opensauce",
+          "line": 26,
+          "raw": "(garlic cloves)"
+        },
+        {
+          "file": "examples/public-domain-recipes/almeirim-stone-soup/almeirim-stone-soup.opensauce",
+          "line": 42,
+          "raw": "(garlic cloves)"
+        }
+      ]
+    },
+    {
+      "case": 2,
+      "reference": "chicken breasts",
+      "classification": "plural",
+      "decision": "Implemented",
+      "existing": "chicken-breast independent ID; chicken:breast also exists",
+      "reason": "Plural of the existing culinary-cut identity, not an identity merge.",
+      "change": "Add chicken-breast plural_names.",
+      "deferred": "Part-versus-product reconciliation remains separate.",
+      "evidence": [
+        {
+          "file": "examples/public-domain-recipes/cheddar-crusted-chicken/cheddar-crusted-chicken.opensauce",
+          "line": 23,
+          "raw": "(chicken breasts)"
+        },
+        {
+          "file": "examples/public-domain-recipes/cheddar-crusted-chicken/cheddar-crusted-chicken.opensauce",
+          "line": 45,
+          "raw": "(chicken breasts)"
+        }
+      ]
+    },
+    {
+      "case": 3,
+      "reference": "chicken thighs",
+      "classification": "plural",
+      "decision": "Implemented",
+      "existing": "chicken-thigh independent ID; chicken:thigh also exists",
+      "reason": "Keep the cut distinct from whole chicken.",
+      "change": "Add chicken-thigh plural_names.",
+      "deferred": "Do not equate prepared cuts with all physical parts.",
+      "evidence": [
+        {
+          "file": "examples/public-domain-recipes/chicken-paprikash/chicken-paprikash.opensauce",
+          "line": 23,
+          "raw": "(chicken thighs, bone-in; skin-on)"
+        },
+        {
+          "file": "examples/public-domain-recipes/chicken-paprikash/chicken-paprikash.opensauce",
+          "line": 46,
+          "raw": "(chicken thighs)"
+        }
+      ]
+    },
+    {
+      "case": 4,
+      "reference": "kosher salt",
+      "classification": "missing subtype",
+      "decision": "Deferred",
+      "existing": "salt and sea-salt; no exact kosher-salt concept",
+      "reason": "Do not collapse crystal/product distinctions into generic salt.",
+      "change": "None.",
+      "deferred": "Define product scope and type relationship before adding a concept.",
+      "evidence": [
+        {
+          "file": "examples/public-domain-recipes/coleslaw/coleslaw.opensauce",
+          "line": 31,
+          "raw": "(kosher salt)"
+        },
+        {
+          "file": "examples/public-domain-recipes/coleslaw/coleslaw.opensauce",
+          "line": 54,
+          "raw": "(kosher salt)"
+        }
+      ]
+    },
+    {
+      "case": 5,
+      "reference": "green onions",
+      "classification": "plural",
+      "decision": "Implemented",
+      "existing": "spring-onion accepts green onion and scallions",
+      "reason": "Explicit regional plural of existing identity.",
+      "change": "Add en-GB spring onions and en-US green onions plurals.",
+      "deferred": "",
+      "evidence": [
+        {
+          "file": "examples/public-domain-recipes/creamy-mashed-potatoes/creamy-mashed-potatoes.opensauce",
+          "line": 27,
+          "raw": "(green onions)"
+        },
+        {
+          "file": "examples/public-domain-recipes/creamy-mashed-potatoes/creamy-mashed-potatoes.opensauce",
+          "line": 59,
+          "raw": "(green onions)"
+        }
+      ]
+    },
+    {
+      "case": 6,
+      "reference": "meat",
+      "classification": "local role",
+      "decision": "Rejected",
+      "existing": "No generic meat identity; varied recipe choices",
+      "reason": "A broad ingredient role is not one usable product.",
+      "change": "No placeholder ID.",
+      "deferred": "Individual recipes may eventually declare explicit choices; unchanged here.",
+      "evidence": [
+        {
+          "file": "examples/public-domain-recipes/frittata/frittata.opensauce",
+          "line": 29,
+          "raw": "(meat, thinly sliced, optional)"
+        },
+        {
+          "file": "examples/public-domain-recipes/frittata/frittata.opensauce",
+          "line": 46,
+          "raw": "(meat)"
+        }
+      ]
+    },
+    {
+      "case": 7,
+      "reference": "yellow onion",
+      "classification": "missing subtype",
+      "decision": "Deferred",
+      "existing": "onion, red-onion and white-onion exist",
+      "reason": "A color-specific onion should not become an unqualified onion alias.",
+      "change": "None.",
+      "deferred": "Approve subtype scope and regional naming in a small expansion batch.",
+      "evidence": [
+        {
+          "file": "examples/public-domain-recipes/basic-meatballs/basic-meatballs.opensauce",
+          "line": 26,
+          "raw": "(yellow onion, diced)"
+        },
+        {
+          "file": "examples/public-domain-recipes/basic-meatballs/basic-meatballs.opensauce",
+          "line": 51,
+          "raw": "(yellow onion)"
+        }
+      ]
+    },
+    {
+      "case": 8,
+      "reference": "basil leaves",
+      "classification": "part",
+      "decision": "Implemented",
+      "existing": "basil exists; no leaf part before batch",
+      "reason": "The explicitly authored leaf is not the whole herb plant.",
+      "change": "Add leaf/leaves part and basil leaf/leaves lexical names.",
+      "deferred": "",
+      "evidence": [
+        {
+          "file": "examples/public-domain-recipes/chipolata-in-balsamic-vinegar/chipolata-in-balsamic-vinegar.opensauce",
+          "line": 27,
+          "raw": "(basil leaves, fresh)"
+        },
+        {
+          "file": "examples/public-domain-recipes/chipolata-in-balsamic-vinegar/chipolata-in-balsamic-vinegar.opensauce",
+          "line": 59,
+          "raw": "(basil leaves)"
+        }
+      ]
+    },
+    {
+      "case": 9,
+      "reference": "basmati rice",
+      "classification": "missing subtype",
+      "decision": "Deferred",
+      "existing": "rice exists; no basmati variant",
+      "reason": "Basmati is more specific than generic rice.",
+      "change": "None.",
+      "deferred": "Choose variant versus stable subtype with evidence.",
+      "evidence": [
+        {
+          "file": "examples/public-domain-recipes/hakka-style-meatballs/hakka-style-meatballs.opensauce",
+          "line": 30,
+          "raw": "(basmati rice)"
+        },
+        {
+          "file": "examples/public-domain-recipes/hakka-style-meatballs/hakka-style-meatballs.opensauce",
+          "line": 49,
+          "raw": "(basmati rice)"
+        }
+      ]
+    },
+    {
+      "case": 10,
+      "reference": "sausages",
+      "classification": "missing product family",
+      "decision": "Deferred",
+      "existing": "chorizo and other specific meats, no sausage identity",
+      "reason": "Not an alias for pork or any one sausage product.",
+      "change": "None.",
+      "deferred": "Define broad family and subtype boundaries.",
+      "evidence": [
+        {
+          "file": "examples/public-domain-recipes/aussie-snags/aussie-snags.opensauce",
+          "line": 22,
+          "raw": "(sausages, thin)"
+        },
+        {
+          "file": "examples/public-domain-recipes/aussie-snags/aussie-snags.opensauce",
+          "line": 40,
+          "raw": "(sausages)"
+        }
+      ]
+    },
+    {
+      "case": 11,
+      "reference": "cherry tomatoes",
+      "classification": "missing subtype",
+      "decision": "Deferred",
+      "existing": "tomato and plum-tomato exist",
+      "reason": "Do not erase the named type.",
+      "change": "None.",
+      "deferred": "Choose variant or independent subtype.",
+      "evidence": [
+        {
+          "file": "examples/public-domain-recipes/babas-feta-pasta/babas-feta-pasta.opensauce",
+          "line": 29,
+          "raw": "(cherry tomatoes, finely sliced)"
+        },
+        {
+          "file": "examples/public-domain-recipes/babas-feta-pasta/babas-feta-pasta.opensauce",
+          "line": 73,
+          "raw": "(cherry tomatoes)"
+        }
+      ]
+    },
+    {
+      "case": 12,
+      "reference": "smoked paprika",
+      "classification": "processed product",
+      "decision": "Deferred",
+      "existing": "paprika exists without smoked variant",
+      "reason": "Processing distinction has culinary meaning.",
+      "change": "None.",
+      "deferred": "Define state/product identity and avoid generic alias.",
+      "evidence": [
+        {
+          "file": "examples/public-domain-recipes/cannellini-bean-salad/cannellini-bean-salad.opensauce",
+          "line": 26,
+          "raw": "(smoked paprika)"
+        },
+        {
+          "file": "examples/public-domain-recipes/cannellini-bean-salad/cannellini-bean-salad.opensauce",
+          "line": 40,
+          "raw": "(smoked paprika)"
+        }
+      ]
+    },
+    {
+      "case": 13,
+      "reference": "ground beef",
+      "classification": "preparation/product",
+      "decision": "Deferred",
+      "existing": "beef exists; no ground state",
+      "reason": "A common preparation is not automatically a global alias.",
+      "change": "None.",
+      "deferred": "Decide explicit state or culinary product representation.",
+      "evidence": [
+        {
+          "file": "examples/public-domain-recipes/chili-con-carne/chili-con-carne.opensauce",
+          "line": 24,
+          "raw": "(ground beef)"
+        },
+        {
+          "file": "examples/public-domain-recipes/chili-con-carne/chili-con-carne.opensauce",
+          "line": 45,
+          "raw": "(ground beef)"
+        }
+      ]
+    },
+    {
+      "case": 14,
+      "reference": "anglerfish",
+      "classification": "missing ingredient",
+      "decision": "Deferred",
+      "existing": "fish and fish-fillet are broad existing concepts",
+      "reason": "No safe exact target; not interchangeable with generic fish.",
+      "change": "None.",
+      "deferred": "Confirm species/commercial-name scope before addition.",
+      "evidence": [
+        {
+          "file": "examples/public-domain-recipes/fried-anglerfish-fillet/fried-anglerfish-fillet.opensauce",
+          "line": 20,
+          "raw": "(anglerfish)"
+        },
+        {
+          "file": "examples/public-domain-recipes/fried-anglerfish-fillet/fried-anglerfish-fillet.opensauce",
+          "line": 36,
+          "raw": "(anglerfish)"
+        }
+      ]
+    },
+    {
+      "case": 15,
+      "reference": "red wine",
+      "classification": "missing subtype",
+      "decision": "Deferred",
+      "existing": "wine and white-wine exist",
+      "reason": "Red/white distinctions must survive.",
+      "change": "None.",
+      "deferred": "Approve subtype scope, not alias to generic wine.",
+      "evidence": [
+        {
+          "file": "examples/public-domain-recipes/gluehwein/gluehwein.opensauce",
+          "line": 22,
+          "raw": "(red wine)"
+        },
+        {
+          "file": "examples/public-domain-recipes/gluehwein/gluehwein.opensauce",
+          "line": 38,
+          "raw": "(red wine)"
+        }
+      ]
+    },
+    {
+      "case": 16,
+      "reference": "mozzarella cheese",
+      "classification": "missing ingredient",
+      "decision": "Deferred",
+      "existing": "cheese and other named cheeses; no mozzarella",
+      "reason": "Distinct product, not a synonym for generic cheese.",
+      "change": "None.",
+      "deferred": "Define mozzarella identity/type coverage.",
+      "evidence": [
+        {
+          "file": "examples/public-domain-recipes/baked-mostaccioli/baked-mostaccioli.opensauce",
+          "line": 26,
+          "raw": "(mozzarella cheese, shredded)"
+        },
+        {
+          "file": "examples/public-domain-recipes/baked-mostaccioli/baked-mostaccioli.opensauce",
+          "line": 41,
+          "raw": "(mozzarella cheese)"
+        }
+      ]
+    },
+    {
+      "case": 17,
+      "reference": "pork butt",
+      "classification": "regional cut",
+      "decision": "Deferred",
+      "existing": "pork-shoulder exists",
+      "reason": "Cut equivalence may depend on regional butchery.",
+      "change": "None.",
+      "deferred": "Human adjudication of exact/broader/narrower relationship.",
+      "evidence": [
+        {
+          "file": "examples/public-domain-recipes/chicharrones/chicharrones.opensauce",
+          "line": 18,
+          "raw": "(pork butt, with fat)"
+        },
+        {
+          "file": "examples/public-domain-recipes/chicharrones/chicharrones.opensauce",
+          "line": 37,
+          "raw": "(pork butt)"
+        }
+      ]
+    },
+    {
+      "case": 18,
+      "reference": "peppercorns",
+      "classification": "part/product ambiguity",
+      "decision": "Deferred",
+      "existing": "pepper, black-pepper, white-pepper",
+      "reason": "Color and whole-versus-ground scope are unspecified.",
+      "change": "None.",
+      "deferred": "Do not silently choose black pepper.",
+      "evidence": [
+        {
+          "file": "examples/public-domain-recipes/cacio-e-pepe/cacio-e-pepe.opensauce",
+          "line": 22,
+          "raw": "(peppercorns)"
+        },
+        {
+          "file": "examples/public-domain-recipes/cacio-e-pepe/cacio-e-pepe.opensauce",
+          "line": 37,
+          "raw": "(peppercorns)"
+        }
+      ]
+    },
+    {
+      "case": 19,
+      "reference": "seasoning",
+      "classification": "local role",
+      "decision": "Rejected",
+      "existing": "Recipe permits salt/pepper/cayenne/paprika choices",
+      "reason": "Generic role rather than a fixed ingredient.",
+      "change": "No canonical placeholder.",
+      "deferred": "Retain authored wording.",
+      "evidence": [
+        {
+          "file": "examples/public-domain-recipes/chicken-tenders-airfried/chicken-tenders-airfried.opensauce",
+          "line": 26,
+          "raw": "(seasoning, salt and pepper with cayenne or paprika; optional)"
+        },
+        {
+          "file": "examples/public-domain-recipes/chicken-tenders-airfried/chicken-tenders-airfried.opensauce",
+          "line": 37,
+          "raw": "(seasoning)"
+        }
+      ]
+    },
+    {
+      "case": 20,
+      "reference": "button mushrooms",
+      "classification": "possible synonym",
+      "decision": "Deferred",
+      "existing": "champignon-mushroom and mushrooms exist",
+      "reason": "Potential alias needs scope review against maturity/species terms.",
+      "change": "None.",
+      "deferred": "Confirm intended exact equivalence.",
+      "evidence": [
+        {
+          "file": "examples/public-domain-recipes/full-english-breakfast/full-english-breakfast.opensauce",
+          "line": 28,
+          "raw": "(button mushrooms)"
+        },
+        {
+          "file": "examples/public-domain-recipes/full-english-breakfast/full-english-breakfast.opensauce",
+          "line": 44,
+          "raw": "(button mushrooms)"
+        }
+      ]
+    },
+    {
+      "case": 21,
+      "reference": "sour cream / soured cream",
+      "classification": "near duplicate",
+      "decision": "Deferred",
+      "existing": "sour-cream and soured-cream retained",
+      "reason": "No supplied scope evidence settles regional formulations.",
+      "change": "Retain IDs/routes.",
+      "deferred": "Confirm equivalence and compatibility mapping.",
+      "evidence": [
+        {
+          "file": "examples/public-domain-recipes/chicken-paprikash/chicken-paprikash.opensauce",
+          "line": 33,
+          "raw": "(sour cream, optional)"
+        },
+        {
+          "file": "examples/public-domain-recipes/chicken-paprikash/chicken-paprikash.opensauce",
+          "line": 72,
+          "raw": "(sour cream)"
+        }
+      ]
+    },
+    {
+      "case": 22,
+      "reference": "cooking spray / nonstick spray",
+      "classification": "near duplicate",
+      "decision": "Deferred",
+      "existing": "cooking-spray and nonstick-spray retained",
+      "reason": "Nonstick blends may contain additional ingredients.",
+      "change": "Retain IDs/routes.",
+      "deferred": "Review product scope, not spelling alone.",
+      "evidence": [
+        {
+          "file": "examples/public-domain-recipes/baked-salmon/baked-salmon.opensauce",
+          "line": 24,
+          "raw": "(cooking spray)"
+        },
+        {
+          "file": "examples/public-domain-recipes/bread/bread.opensauce",
+          "line": 26,
+          "raw": "(nonstick spray)"
+        }
+      ]
+    },
+    {
+      "case": 23,
+      "reference": "parmesan cheese / Parmigiano Reggiano",
+      "classification": "generic/specific product",
+      "decision": "Rejected",
+      "existing": "parmesan-cheese and parmigiano-reggiano retained",
+      "reason": "Generic and specific product designations are not a safe exact alias.",
+      "change": "No merge.",
+      "deferred": "A sourced subtype relationship may be proposed later.",
+      "evidence": [
+        {
+          "file": "examples/public-domain-recipes/baked-pasta-with-broccoli/baked-pasta-with-broccoli.opensauce",
+          "line": 25,
+          "raw": "(parmesan cheese, optional)"
+        },
+        {
+          "file": "examples/public-domain-recipes/baked-pasta-with-broccoli/baked-pasta-with-broccoli.opensauce",
+          "line": 62,
+          "raw": "(parmesan cheese)"
+        }
+      ]
+    },
+    {
+      "case": 24,
+      "reference": "lime juice / lime:juice",
+      "classification": "product/part",
+      "decision": "Deferred",
+      "existing": "lime-juice and lime:juice retained",
+      "reason": "Authored juice may be prepared/bottled, not always freshly separated.",
+      "change": "No mapping; existing routes remain.",
+      "deferred": "Confirm normalization policy without losing product scope.",
+      "evidence": [
+        {
+          "file": "examples/cocktail-specs/cointreau-margarita/cointreau-margarita.opensauce",
+          "line": 19,
+          "raw": "(lime: juice, fresh)"
+        },
+        {
+          "file": "examples/cocktail-specs/difford-hemingway-daiquiri/difford-hemingway-daiquiri.opensauce",
+          "line": 20,
+          "raw": "(lime: juice, fresh)"
+        }
+      ]
+    },
+    {
+      "case": 25,
+      "reference": "lemon peel / lemon:peel",
+      "classification": "product/part",
+      "decision": "Deferred",
+      "existing": "lemon-peel and lemon:peel retained",
+      "reason": "Processed peel versus physical part remains under-specified.",
+      "change": "No mapping.",
+      "deferred": "Agree scope and old-route strategy.",
+      "evidence": [
+        {
+          "file": "examples/cocktail-specs/cointreau-sidecar/cointreau-sidecar.opensauce",
+          "line": 19,
+          "raw": "(lemon: juice, fresh)"
+        },
+        {
+          "file": "examples/cocktail-specs/difford-bramble/difford-bramble.opensauce",
+          "line": 17,
+          "raw": "(lemon: juice, fresh)"
+        }
+      ]
+    },
+    {
+      "case": 26,
+      "reference": "chicken breast / chicken:breast",
+      "classification": "cut/part",
+      "decision": "Deferred",
+      "existing": "chicken-breast and chicken:breast retained",
+      "reason": "Culinary cut and anatomy should not be auto-merged.",
+      "change": "Only plural expansion, no mapping.",
+      "deferred": "Review cut scope separately.",
+      "evidence": [
+        {
+          "file": "examples/public-domain-recipes/arroz-chaufa/arroz-chaufa.opensauce",
+          "line": 27,
+          "raw": "(chicken)"
+        },
+        {
+          "file": "examples/public-domain-recipes/arroz-chaufa/arroz-chaufa.opensauce",
+          "line": 34,
+          "raw": "(chicken)"
+        }
+      ]
+    },
+    {
+      "case": 27,
+      "reference": "chicken thigh / chicken:thigh",
+      "classification": "cut/part",
+      "decision": "Deferred",
+      "existing": "chicken-thigh and chicken:thigh retained",
+      "reason": "Bone/skin/prepared product context can matter.",
+      "change": "Only plural expansion, no mapping.",
+      "deferred": "Review cut scope separately.",
+      "evidence": [
+        {
+          "file": "examples/public-domain-recipes/arroz-chaufa/arroz-chaufa.opensauce",
+          "line": 27,
+          "raw": "(chicken)"
+        },
+        {
+          "file": "examples/public-domain-recipes/arroz-chaufa/arroz-chaufa.opensauce",
+          "line": 34,
+          "raw": "(chicken)"
+        }
+      ]
+    },
+    {
+      "case": 28,
+      "reference": "garlic clove",
+      "classification": "part",
+      "decision": "Implemented",
+      "existing": "garlic:clove",
+      "reason": "Singular and plural compound names use the same explicit part mechanism.",
+      "change": "Add lexical_names; no morphology rule.",
+      "deferred": "",
+      "evidence": [
+        {
+          "file": "examples/public-domain-recipes/fondue/fondue.opensauce",
+          "line": 23,
+          "raw": "(garlic clove)"
+        }
+      ]
+    },
+    {
+      "case": 29,
+      "reference": "rosemary leaves",
+      "classification": "part",
+      "decision": "Implemented",
+      "existing": "rosemary exists; authored rosemary:leaves currently incomplete",
+      "reason": "Named leaves warrant an explicit local part.",
+      "change": "Add leaf/leaves with rosemary leaf/leaves lexical_names.",
+      "deferred": "",
+      "evidence": [
+        {
+          "file": "examples/public-domain-recipes/tomato-flavored-hamburger-macaroni/tomato-flavored-hamburger-macaroni.opensauce",
+          "line": 35,
+          "raw": "(rosemary leaves)"
+        }
+      ]
+    },
+    {
+      "case": 30,
+      "reference": "lemons",
+      "classification": "plural",
+      "decision": "Implemented",
+      "existing": "lemon exists",
+      "reason": "Ordinary whole-fruit plural.",
+      "change": "Add plural_names.",
+      "deferred": "",
+      "evidence": [
+        {
+          "file": "examples/public-domain-recipes/limoncini/limoncini.opensauce",
+          "line": 31,
+          "raw": "(lemons, untreated; edible skin)"
+        },
+        {
+          "file": "examples/public-domain-recipes/limoncini/limoncini.opensauce",
+          "line": 52,
+          "raw": "(lemons)"
+        }
+      ]
+    },
+    {
+      "case": 31,
+      "reference": "red onions",
+      "classification": "plural",
+      "decision": "Implemented",
+      "existing": "red-onion exists",
+      "reason": "Plural preserves the named onion identity.",
+      "change": "Add plural_names.",
+      "deferred": "",
+      "evidence": [
+        {
+          "file": "examples/public-domain-recipes/spicy-sausage-pasta/spicy-sausage-pasta.opensauce",
+          "line": 24,
+          "raw": "(red onions, chopped)"
+        },
+        {
+          "file": "examples/public-domain-recipes/spicy-sausage-pasta/spicy-sausage-pasta.opensauce",
+          "line": 44,
+          "raw": "(red onions)"
+        }
+      ]
+    },
+    {
+      "case": 32,
+      "reference": "egg yolks",
+      "classification": "plural compatibility",
+      "decision": "Implemented",
+      "existing": "egg-yolk canonical_target already points to egg:yolk",
+      "reason": "Reuse existing compatibility target; no additional identity.",
+      "change": "Add plural_names on retained compatibility record.",
+      "deferred": "",
+      "evidence": [
+        {
+          "file": "examples/public-domain-recipes/omelet/omelet.opensauce",
+          "line": 27,
+          "raw": "(egg yolks, beaten until thick)"
+        },
+        {
+          "file": "examples/public-domain-recipes/omelet/omelet.opensauce",
+          "line": 49,
+          "raw": "(egg yolks)"
+        }
+      ]
+    },
+    {
+      "case": 33,
+      "reference": "egg whites",
+      "classification": "plural compatibility",
+      "decision": "Implemented",
+      "existing": "egg-white canonical_target already points to egg:white",
+      "reason": "Reuse existing compatibility target.",
+      "change": "Add plural_names on retained compatibility record.",
+      "deferred": "",
+      "evidence": [
+        {
+          "file": "examples/public-domain-recipes/omelet/omelet.opensauce",
+          "line": 28,
+          "raw": "(egg whites, beaten stiff)"
+        },
+        {
+          "file": "examples/public-domain-recipes/omelet/omelet.opensauce",
+          "line": 55,
+          "raw": "(egg whites)"
+        }
+      ]
+    },
+    {
+      "case": 34,
+      "reference": "lemon juice",
+      "classification": "existing part name",
+      "decision": "Investigated; already supported",
+      "existing": "lemon:juice has explicit lexical_names",
+      "reason": "Existing behavior already preserves juice versus whole lemon.",
+      "change": "No change.",
+      "deferred": "",
+      "evidence": [
+        {
+          "file": "examples/public-domain-recipes/aljotta/aljotta.opensauce",
+          "line": 28,
+          "raw": "(lemon juice)"
+        },
+        {
+          "file": "examples/public-domain-recipes/apple-pie/apple-pie.opensauce",
+          "line": 21,
+          "raw": "(lemon juice)"
+        }
+      ]
+    },
+    {
+      "case": 35,
+      "reference": "lemon zest",
+      "classification": "part",
+      "decision": "Implemented",
+      "existing": "lemon:zest exists",
+      "reason": "Explicit compound name retains zest, not peel or whole fruit.",
+      "change": "Add lexical_names on zest.",
+      "deferred": "",
+      "evidence": [
+        {
+          "file": "examples/cocktail-specs/difford-sazerac/difford-sazerac.opensauce",
+          "line": 32,
+          "raw": "<express citrus oil, from lemon zest twist over the drink>"
+        },
+        {
+          "file": "examples/cocktail-specs/iba-americano/iba-americano.opensauce",
+          "line": 25,
+          "raw": "<garnish, with half an orange slice and lemon zest>"
+        }
+      ]
+    },
+    {
+      "case": 36,
+      "reference": "lime zest",
+      "classification": "part",
+      "decision": "Implemented",
+      "existing": "lime:zest exists",
+      "reason": "Same scoped mechanism; no juice mapping.",
+      "change": "Add lexical_names on zest.",
+      "deferred": "",
+      "evidence": [
+        {
+          "file": "examples/cocktail-specs/cointreau-margarita/cointreau-margarita.opensauce",
+          "line": 30,
+          "raw": "<garnish, with lime zest>"
+        }
+      ]
+    },
+    {
+      "case": 37,
+      "reference": "orange zest",
+      "classification": "part",
+      "decision": "Implemented",
+      "existing": "orange:zest exists",
+      "reason": "Preserve distinction from peel and whole orange.",
+      "change": "Add lexical_names on zest.",
+      "deferred": "",
+      "evidence": [
+        {
+          "file": "examples/cocktail-specs/cointreau-sidecar/cointreau-sidecar.opensauce",
+          "line": 28,
+          "raw": "<garnish, with orange zest>"
+        },
+        {
+          "file": "examples/cocktail-specs/difford-adonis/difford-adonis.opensauce",
+          "line": 35,
+          "raw": "<express citrus oil, from orange zest over the drink> <discard, zest>"
+        }
+      ]
+    },
+    {
+      "case": 38,
+      "reference": "giner syrup",
+      "classification": "source spelling",
+      "decision": "Deferred",
+      "existing": "giner-syrup existing ID and source both spell giner",
+      "reason": "Original source repeats the spelling, so correction is not independently established.",
+      "change": "Retain accepted name and ID.",
+      "deferred": "Confirm ginger syrup is intended before adding corrected display name/alias.",
+      "evidence": [
+        {
+          "file": "examples/public-domain-recipes/tomato-and-grilled-paprika-soup/tomato-and-grilled-paprika-soup.opensauce",
+          "line": 30,
+          "raw": "(giner syrup)"
+        },
+        {
+          "file": "examples/public-domain-recipes/tomato-and-grilled-paprika-soup/tomato-and-grilled-paprika-soup.opensauce",
+          "line": 46,
+          "raw": "(giner syrup)"
+        }
+      ]
+    },
+    {
+      "case": 39,
+      "reference": "carrots",
+      "classification": "existing plural",
+      "decision": "Investigated; already supported",
+      "existing": "carrot plural_names already contains carrots",
+      "reason": "Control case: no new plural needed.",
+      "change": "No change.",
+      "deferred": "",
+      "evidence": [
+        {
+          "file": "examples/public-domain-recipes/autumn-soup/autumn-soup.opensauce",
+          "line": 26,
+          "raw": "(carrots)"
+        },
+        {
+          "file": "examples/public-domain-recipes/autumn-soup/autumn-soup.opensauce",
+          "line": 42,
+          "raw": "(carrots)"
+        }
+      ]
+    },
+    {
+      "case": 40,
+      "reference": "bay leaves",
+      "classification": "existing plural",
+      "decision": "Investigated; already supported",
+      "existing": "bay-leaf plural_names already contains bay leaves",
+      "reason": "Control case: do not manufacture duplicate aliases.",
+      "change": "No change.",
+      "deferred": "",
+      "evidence": [
+        {
+          "file": "examples/public-domain-recipes/bebek-mropol/bebek-mropol.opensauce",
+          "line": 27,
+          "raw": "(bay leaves)"
+        },
+        {
+          "file": "examples/public-domain-recipes/bebek-mropol/bebek-mropol.opensauce",
+          "line": 49,
+          "raw": "(bay leaves)"
+        }
+      ]
+    },
+    {
+      "case": 41,
+      "reference": "citrus rind",
+      "classification": "ambiguous part",
+      "decision": "Deferred",
+      "existing": "lemon/lime/orange have separate zest and peel",
+      "reason": "Rind can be used inconsistently for outer zest versus full peel.",
+      "change": "No automatic rind alias.",
+      "deferred": "Review authored meaning per recipe before choosing a part.",
+      "evidence": [
+        {
+          "file": "examples/public-domain-recipes/orange-pudding/orange-pudding.opensauce",
+          "line": 41,
+          "raw": "(orange: rind)"
+        },
+        {
+          "file": "examples/public-domain-recipes/orange-pudding/orange-pudding.opensauce",
+          "line": 41,
+          "raw": "(lime: rind)"
+        }
+      ]
+    }
+  ]
+}

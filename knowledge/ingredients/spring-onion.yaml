@@ -33,3 +33,9 @@ observed_qualifiers:
   count: 2
 categories:
   - produce
+plural_names:
+  en-GB: spring onions
+  en-US: green onions
+curation:
+  origin: generated
+  review: unchecked

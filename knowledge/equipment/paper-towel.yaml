@@ -16,3 +16,8 @@ evidence:
   - examples/public-domain-recipes/kombucha/kombucha.opensauce
 categories:
   - preparation-tools
+plural_names:
+  en: paper towels
+curation:
+  origin: generated
+  review: unchecked

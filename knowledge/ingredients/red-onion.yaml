@@ -15,3 +15,8 @@ evidence:
   - examples/public-domain-recipes/pickled-onions/pickled-onions.opensauce
 categories:
   - produce
+plural_names:
+  en: red onions
+curation:
+  origin: generated
+  review: unchecked

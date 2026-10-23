@@ -17,3 +17,8 @@ evidence:
 observed_qualifiers:
 - value: hot
   count: 1
+categories:
+  - storage-and-containers
+curation:
+  origin: generated
+  review: unchecked
