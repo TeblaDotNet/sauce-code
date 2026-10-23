@@ -11,11 +11,16 @@ evidence:
   observed_terms: []
   seen_in: []
   legacy_terms:
-  - term: baking dish
-    count: 1
+    - term: baking dish
+      count: 1
 observed_qualifiers:
-- value: shallow
-  count: 1
+  - value: shallow
+    count: 1
 categories:
   - cookware
   - bakeware
+aliases:
+  - oven dish
+curation:
+  origin: generated
+  review: unchecked

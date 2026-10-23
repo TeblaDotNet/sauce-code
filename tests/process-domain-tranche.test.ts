@@ -43,12 +43,12 @@ test('metadata does not alter recipe parsing, identity or renderer output',()=>{
  const projected=createReferencePage(v,'process','sous-vide')!;projected.categories!.push('frying');assert.deepEqual(createReferencePage(v,'process','sous-vide')!.categories,['modernist','moist-heat-cooking']);
 });
 test('only approved concepts acquire editorial metadata and counts match indexes',async()=>{
- assert.equal(v.entries.length,810);assert.equal(v.entries.filter(e=>e.kind==='process').length,241);
- assert.equal(v.entries.filter(e=>e.kind==='process'&&e.reference!==false).length,195);
- assert.equal(v.entries.filter(e=>e.reference!==false).length,763);
+ assert.equal(v.entries.length,831);assert.equal(v.entries.filter(e=>e.kind==='process').length,252);
+ assert.equal(v.entries.filter(e=>e.kind==='process'&&e.reference!==false).length,197);
+ assert.equal(v.entries.filter(e=>e.reference!==false).length,775);
  for(const entry of v.entries.filter(e=>e.scope!==undefined))assert.ok([...added,...clarified].includes(entry.id));
  for(const id of clarified)assert.ok(createReferencePage(v,'process',id)!.scope);
- const index=yaml(await readFile('knowledge/processes/index.yaml','utf8'));assert.equal(index.canonical_concept_count,241);assert.equal(index.entries.length,241);assert.equal(new Set(index.entries.map((e:{id:string})=>e.id)).size,241);
+ const index=yaml(await readFile('knowledge/processes/index.yaml','utf8'));assert.equal(index.canonical_concept_count,252);assert.equal(index.entries.length,252);assert.equal(new Set(index.entries.map((e:{id:string})=>e.id)).size,252);
  // Existing unindexed legacy records must not become additional concepts.
  assert.equal(v.entries.some(e=>e.kind==='process'&&e.id==='bring-to-boil'),false);
  assert.equal(v.entries.some(e=>e.kind==='process'&&e.id==='stir-in'),false);

@@ -41,7 +41,9 @@ export const browsingCategoryRegistry = {
     ['appliances','Appliances','Powered kitchen equipment and cooking appliances.'],
     ['preservation-and-fermentation','Preservation & fermentation','Equipment used for fermenting, preserving and storing preparations.'],
     ['coffee-and-bar','Coffee & bar','Tools for coffee, tea and mixed drinks.'],
-    ['storage-and-containers','Storage & containers','Containers, covers and wrapping for food.']
+    ['storage-and-containers','Storage & containers','Containers, covers and wrapping for food.'],
+    ['tableware-and-serving','Tableware & serving','Objects used for serving and eating; no heat resistance is implied.'],
+    ['fuel-and-smoking-materials','Fuel & smoking materials','Materials used to provide cooking heat or smoke; not ingredient equivalents.']
   ]
 } as const;
 export type BrowsingDomain = keyof typeof browsingCategoryRegistry;

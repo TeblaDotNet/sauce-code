@@ -58,3 +58,8 @@ observed_qualifiers:
     count: 1
 categories:
   - cookware
+plural_names:
+  en: pans
+curation:
+  origin: generated
+  review: unchecked

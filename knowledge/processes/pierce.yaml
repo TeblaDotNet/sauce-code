@@ -9,19 +9,24 @@ evidence:
   current_observation_count: 1
   legacy_observation_count: 1
   observed_terms:
-  - term: pierce
-    count: 1
+    - term: pierce
+      count: 1
   seen_in:
-  - examples/public-domain-recipes/pork-carnitas/pork-carnitas.opensauce
+    - examples/public-domain-recipes/pork-carnitas/pork-carnitas.opensauce
   legacy_terms:
-  - term: pierce
-    count: 1
+    - term: pierce
+      count: 1
 observed_parameters:
-- value: sharp knife
-  count: 1
-- value: small holes
-  count: 1
-- value: top
-  count: 1
+  - value: sharp knife
+    count: 1
+  - value: small holes
+    count: 1
+  - value: top
+    count: 1
 categories:
   - preparation-and-cutting
+aliases:
+  - prick
+curation:
+  origin: generated
+  review: unchecked

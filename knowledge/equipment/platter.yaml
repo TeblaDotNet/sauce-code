@@ -1,0 +1,17 @@
+id: platter
+kind: equipment
+canonical_name: platter
+names:
+  en: platter
+plural_names:
+  en: platters
+type_of: dish
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  definition: A broad serving dish for presenting food; not implicitly oven-safe.
+  review_note: "Processes & Equipment v1: bounded generated review; see
+    docs/processes-equipment-v1-decisions.json for context and limitations."
+categories:
+  - tableware-and-serving

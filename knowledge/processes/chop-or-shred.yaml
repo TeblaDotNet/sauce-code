@@ -9,9 +9,13 @@ evidence:
   current_observation_count: 1
   legacy_observation_count: 0
   observed_terms:
-  - term: chop or shred
-    count: 1
+    - term: chop or shred
+      count: 1
   seen_in:
-  - examples/public-domain-recipes/sauerkraut/sauerkraut.opensauce
+    - examples/public-domain-recipes/sauerkraut/sauerkraut.opensauce
 categories:
   - preparation-and-cutting
+reference: false
+curation:
+  origin: generated
+  review: unchecked

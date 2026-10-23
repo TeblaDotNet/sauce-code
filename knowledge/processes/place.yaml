@@ -197,3 +197,8 @@ observed_parameters:
     count: 1
   - value: when oven hot
     count: 1
+aliases:
+  - put
+curation:
+  origin: generated
+  review: unchecked

@@ -1,0 +1,339 @@
+{
+  "method": "Bounded desk review of current canonical names, Corpus evidence and selected external sources. Not a survey of every cooking tradition; no universal coverage percentage.",
+  "sources": [
+    "https://dictionary.cambridge.org/dictionary/english/griddle",
+    "https://dictionary.cambridge.org/us/dictionary/english/cauldron?topic=creating-and-producing",
+    "https://nchfp.uga.edu/how/can/general-canning-information/recommended-canners/",
+    "https://extension.illinois.edu/food-preservation/equipment"
+  ],
+  "gaps": [
+    {
+      "kind": "equipment",
+      "group": "A",
+      "term": "can opener",
+      "area": "Cutting/preparation",
+      "rationale": "Opening food cans; absent from current canonical names.",
+      "currentMatches": [],
+      "status": "Assessment only; no addition approved by this inventory."
+    },
+    {
+      "kind": "equipment",
+      "group": "A",
+      "term": "kitchen timer",
+      "area": "Measuring",
+      "rationale": "Timing is not temperature or quantity measurement; useful independent tool.",
+      "currentMatches": [],
+      "status": "Assessment only; no addition approved by this inventory."
+    },
+    {
+      "kind": "equipment",
+      "group": "A",
+      "term": "kettle",
+      "area": "Heating/beverages",
+      "rationale": "Not every kettle is a pot or electric appliance.",
+      "currentMatches": [],
+      "status": "Assessment only; no addition approved by this inventory."
+    },
+    {
+      "kind": "equipment",
+      "group": "A",
+      "term": "salad spinner",
+      "area": "Preparation",
+      "rationale": "Drying leaves by rotation, not an ordinary colander.",
+      "currentMatches": [],
+      "status": "Assessment only; no addition approved by this inventory."
+    },
+    {
+      "kind": "equipment",
+      "group": "A",
+      "term": "citrus press",
+      "area": "Preparation/beverages",
+      "rationale": "Extraction tool, distinct from muddler or zester.",
+      "currentMatches": [],
+      "status": "Assessment only; no addition approved by this inventory."
+    },
+    {
+      "kind": "equipment",
+      "group": "A",
+      "term": "pastry brush",
+      "area": "Baking/finishing",
+      "rationale": "Applying liquids to pastry or food; not a process alias.",
+      "currentMatches": [],
+      "status": "Assessment only; no addition approved by this inventory."
+    },
+    {
+      "kind": "equipment",
+      "group": "A",
+      "term": "funnel",
+      "area": "Storage/preservation",
+      "rationale": "Transfer tool; canning-specific variants need separate consideration.",
+      "currentMatches": [],
+      "status": "Assessment only; no addition approved by this inventory."
+    },
+    {
+      "kind": "equipment",
+      "group": "A",
+      "term": "food mill",
+      "area": "Processing",
+      "rationale": "Sieving/pureeing tool, not equivalent to blender.",
+      "currentMatches": [],
+      "status": "Assessment only; no addition approved by this inventory."
+    },
+    {
+      "kind": "equipment",
+      "group": "A",
+      "term": "dehydrator",
+      "area": "Preservation",
+      "rationale": "Controlled drying appliance, not synonymous with oven.",
+      "currentMatches": [],
+      "status": "Assessment only; no addition approved by this inventory."
+    },
+    {
+      "kind": "equipment",
+      "group": "A",
+      "term": "pressure canner",
+      "area": "Preservation",
+      "rationale": "Do not alias pressure cooker; authoritative preservation guidance distinguishes them.",
+      "currentMatches": [],
+      "status": "Assessment only; no addition approved by this inventory."
+    },
+    {
+      "kind": "equipment",
+      "group": "A",
+      "term": "water bath canner",
+      "area": "Preservation",
+      "rationale": "Canning vessel/rack scope requires an explicit entry review.",
+      "currentMatches": [],
+      "status": "Assessment only; no addition approved by this inventory."
+    },
+    {
+      "kind": "equipment",
+      "group": "A",
+      "term": "fermentation weight",
+      "area": "Fermentation",
+      "rationale": "Weight holds food under brine; not a lid or airlock.",
+      "currentMatches": [],
+      "status": "Assessment only; no addition approved by this inventory."
+    },
+    {
+      "kind": "equipment",
+      "group": "B",
+      "term": "pudding cloth",
+      "area": "Historical boiling",
+      "rationale": "Corpus evidence supports later scoped identity; not all cloth is suitable.",
+      "currentMatches": [],
+      "status": "Assessment only; no addition approved by this inventory."
+    },
+    {
+      "kind": "equipment",
+      "group": "B",
+      "term": "pastry board",
+      "area": "Pastry",
+      "rationale": "Review historical paste-board name and relation to board/work surface.",
+      "currentMatches": [],
+      "status": "Assessment only; no addition approved by this inventory."
+    },
+    {
+      "kind": "equipment",
+      "group": "C",
+      "term": "comal",
+      "area": "Regional dry-heat cooking",
+      "rationale": "Research material and scope before equating with metal griddle.",
+      "currentMatches": [],
+      "status": "Assessment only; no addition approved by this inventory."
+    },
+    {
+      "kind": "equipment",
+      "group": "C",
+      "term": "tawa",
+      "area": "Regional flatbread cooking",
+      "rationale": "Research variants rather than inventing equivalence with every griddle.",
+      "currentMatches": [],
+      "status": "Assessment only; no addition approved by this inventory."
+    },
+    {
+      "kind": "equipment",
+      "group": "C",
+      "term": "tagine",
+      "area": "Regional cookware",
+      "rationale": "Separate vessel, dish and cooking method senses.",
+      "currentMatches": [],
+      "status": "Assessment only; no addition approved by this inventory."
+    },
+    {
+      "kind": "equipment",
+      "group": "C",
+      "term": "tandoor",
+      "area": "Regional oven cooking",
+      "rationale": "Research oven scope and meaningful variants.",
+      "currentMatches": [],
+      "status": "Assessment only; no addition approved by this inventory."
+    },
+    {
+      "kind": "equipment",
+      "group": "D",
+      "term": "bamboo steamer",
+      "area": "Steaming",
+      "rationale": "Compare existing steaming-basket; material-specific subtype, not automatically an independent need.",
+      "currentMatches": [],
+      "status": "Assessment only; no addition approved by this inventory."
+    },
+    {
+      "kind": "equipment",
+      "group": "D",
+      "term": "bench scraper",
+      "area": "Dough preparation",
+      "rationale": "Compare scraper; review boundary before adding another identity.",
+      "currentMatches": [],
+      "status": "Assessment only; no addition approved by this inventory."
+    },
+    {
+      "kind": "equipment",
+      "group": "A",
+      "term": "cleaver",
+      "area": "Cutting",
+      "rationale": "Existing knife parent does not prove a synonym; named subtype candidate, review before independent addition.",
+      "currentMatches": [],
+      "status": "Assessment only; no addition approved by this inventory."
+    },
+    {
+      "kind": "process",
+      "group": "A",
+      "term": "laminate",
+      "area": "Dough/pastry",
+      "rationale": "Layer dough and fat; fold alone does not express this technique.",
+      "currentMatches": [],
+      "status": "Assessment only; no addition approved by this inventory."
+    },
+    {
+      "kind": "process",
+      "group": "A",
+      "term": "dock",
+      "area": "Baking",
+      "rationale": "Prick dough to control bubbling; compare pierce rather than assuming equivalence.",
+      "currentMatches": [],
+      "status": "Assessment only; no addition approved by this inventory."
+    },
+    {
+      "kind": "process",
+      "group": "A",
+      "term": "clarify",
+      "area": "Finishing",
+      "rationale": "Butter and stock clarification have different mechanisms; scope or sense split required.",
+      "currentMatches": [],
+      "status": "Assessment only; no addition approved by this inventory."
+    },
+    {
+      "kind": "process",
+      "group": "A",
+      "term": "spatchcock",
+      "area": "Preparation",
+      "rationale": "Poultry-specific opening/flattening; compare butterfly and debone.",
+      "currentMatches": [],
+      "status": "Assessment only; no addition approved by this inventory."
+    },
+    {
+      "kind": "process",
+      "group": "B",
+      "term": "water bath can",
+      "area": "Preservation",
+      "rationale": "Safety-sensitive technique; scoped identity and sourced guidance need a dedicated review.",
+      "currentMatches": [],
+      "status": "Assessment only; no addition approved by this inventory."
+    },
+    {
+      "kind": "process",
+      "group": "B",
+      "term": "pressure can",
+      "area": "Preservation",
+      "rationale": "Must not collapse into pressure-cook.",
+      "currentMatches": [],
+      "status": "Assessment only; no addition approved by this inventory."
+    },
+    {
+      "kind": "process",
+      "group": "B",
+      "term": "freeze-dry",
+      "area": "Preservation",
+      "rationale": "Distinct equipment/process; specialist later tranche.",
+      "currentMatches": [],
+      "status": "Assessment only; no addition approved by this inventory."
+    },
+    {
+      "kind": "process",
+      "group": "B",
+      "term": "spherify",
+      "area": "Modernist",
+      "rationale": "Specialist later tranche, not required for baseline everyday authoring.",
+      "currentMatches": [],
+      "status": "Assessment only; no addition approved by this inventory."
+    },
+    {
+      "kind": "process",
+      "group": "C",
+      "term": "velvet",
+      "area": "Regional preparation",
+      "rationale": "Research several methods before asserting one equivalence.",
+      "currentMatches": [],
+      "status": "Assessment only; no addition approved by this inventory."
+    },
+    {
+      "kind": "process",
+      "group": "C",
+      "term": "nixtamalise",
+      "area": "Regional grain preparation",
+      "rationale": "Requires researched scope; no ingredient expansion here.",
+      "currentMatches": [],
+      "status": "Assessment only; no addition approved by this inventory."
+    },
+    {
+      "kind": "process",
+      "group": "C",
+      "term": "dum cook",
+      "area": "Regional enclosed cooking",
+      "rationale": "Research terminology and boundary with steaming/braising.",
+      "currentMatches": [],
+      "status": "Assessment only; no addition approved by this inventory."
+    },
+    {
+      "kind": "process",
+      "group": "D",
+      "term": "sift",
+      "area": "Dry separation",
+      "rationale": "Compare newly added sieve; decide whether aeration merits a narrower identity.",
+      "currentMatches": [],
+      "status": "Assessment only; no addition approved by this inventory."
+    },
+    {
+      "kind": "process",
+      "group": "D",
+      "term": "proof",
+      "area": "Dough fermentation",
+      "rationale": "Already accepted by prove; no new identity.",
+      "currentMatches": [],
+      "status": "Assessment only; no addition approved by this inventory."
+    },
+    {
+      "kind": "process",
+      "group": "D",
+      "term": "sauté",
+      "area": "Pan cooking",
+      "rationale": "Check existing accepted accent spelling before any change.",
+      "currentMatches": [
+        "saute"
+      ],
+      "status": "Assessment only; no addition approved by this inventory."
+    },
+    {
+      "kind": "process",
+      "group": "D",
+      "term": "braise",
+      "area": "Wet heat",
+      "rationale": "Already present; baseline matrix must credit existing techniques.",
+      "currentMatches": [
+        "braise"
+      ],
+      "status": "Assessment only; no addition approved by this inventory."
+    }
+  ]
+}

@@ -60,7 +60,7 @@ test('current accepted names have no newly ambiguous same-domain matches',()=>{
   assert.equal(v.entries.filter(e=>e.kind==='ingredient'&&!e.canonical_target).length,412);
 });
 test('generic actions retain syntax, identity and semantic colour without reference links',()=>{
-  assert.equal(nonReferenceProcessCompatibilityIds.length,10);
+  assert.equal(nonReferenceProcessCompatibilityIds.length,15);
   for(const id of nonReferenceProcessCompatibilityIds){
     const recipe=parseRecipe('::recipe\nname: Action\n::instructions\n<'+id+'>',{vocabulary:v});
     assert.deepEqual(recipe.diagnostics,[]);
@@ -81,5 +81,6 @@ test('equipment plurals and bounded categories use existing identities',()=>{
     assert.deepEqual(v.resolve(name,'equipment').map(e=>e.id),[id]);
   for(const [id,category] of [['cutter','knives-and-cutting'],['dish','storage-and-containers'],['grease-pan','bakeware'],['tray','storage-and-containers'],['vessel','storage-and-containers']])
     assert.deepEqual(v.resolve(id,'equipment')[0].categories,[category]);
-  for(const id of ['plate','soup-plate','cooking-wood'])assert.equal(v.resolve(id,'equipment')[0].categories,undefined);
+  for(const id of ['plate','soup-plate'])assert.deepEqual(v.resolve(id,'equipment')[0].categories,['tableware-and-serving']);
+  assert.deepEqual(v.resolve('cooking-wood','equipment')[0].categories,['fuel-and-smoking-materials']);
 });

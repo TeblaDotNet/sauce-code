@@ -1,0 +1,15 @@
+id: butter
+kind: process
+canonical_name: butter
+names:
+  en: butter
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  definition: Apply butter to food or a vessel surface. Retains the specific
+    coating material rather than aliasing all greasing.
+  review_note: "Processes & Equipment v1: bounded generated review; see
+    docs/processes-equipment-v1-decisions.json for context and limitations."
+categories:
+  - coating-and-breading

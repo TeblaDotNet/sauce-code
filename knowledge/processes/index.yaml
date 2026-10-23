@@ -3,7 +3,7 @@ schema_version: '0.3'
 status: draft8-vocabulary-review-pass-1
 current_recipe_count: 410
 legacy_evidence: bbc-food-10 vocabulary observations retained; recipe texts not distributed
-canonical_concept_count: 241
+canonical_concept_count: 252
 entries:
 - id: add
   canonical_name: add
@@ -52,7 +52,7 @@ entries:
 - id: break
   canonical_name: break
   file: break.yaml
-  aliases: 0
+  aliases: 1
 - id: broil
   canonical_name: broil
   file: broil.yaml
@@ -172,7 +172,7 @@ entries:
 - id: dip
   canonical_name: dip
   file: dip.yaml
-  aliases: 0
+  aliases: 1
 - id: discard
   canonical_name: discard
   file: discard.yaml
@@ -396,7 +396,7 @@ entries:
 - id: pierce
   canonical_name: pierce
   file: pierce.yaml
-  aliases: 0
+  aliases: 1
 - id: pinch
   canonical_name: pinch
   file: pinch.yaml
@@ -404,7 +404,7 @@ entries:
 - id: place
   canonical_name: place
   file: place.yaml
-  aliases: 0
+  aliases: 1
 - id: poach
   canonical_name: poach
   file: poach.yaml
@@ -968,4 +968,48 @@ entries:
 - id: flame-citrus-peel
   canonical_name: flame citrus peel
   file: flame-citrus-peel.yaml
+  aliases: 0
+- id: return
+  canonical_name: return
+  file: return.yaml
+  aliases: 0
+- id: enjoy
+  canonical_name: enjoy
+  file: enjoy.yaml
+  aliases: 0
+- id: push
+  canonical_name: push
+  file: push.yaml
+  aliases: 0
+- id: eat
+  canonical_name: eat
+  file: eat.yaml
+  aliases: 0
+- id: roll-out
+  canonical_name: roll out
+  file: roll-out.yaml
+  aliases: 0
+- id: butter
+  canonical_name: butter
+  file: butter.yaml
+  aliases: 0
+- id: oil
+  canonical_name: oil
+  file: oil.yaml
+  aliases: 0
+- id: flour
+  canonical_name: flour
+  file: flour.yaml
+  aliases: 0
+- id: pat-dry
+  canonical_name: pat dry
+  file: pat-dry.yaml
+  aliases: 0
+- id: juice
+  canonical_name: juice
+  file: juice.yaml
+  aliases: 0
+- id: sieve
+  canonical_name: sieve
+  file: sieve.yaml
   aliases: 0

@@ -60,7 +60,7 @@ export function recipeReferenceUrl(target: { kind: ReferenceKind; canonicalId: s
   return referencePath(target.kind, target.canonicalId) + part;
 }
 /** Previously published generic actions: retain explanatory legacy URLs, not reference pages. */
-export const nonReferenceProcessCompatibilityIds = ['move', 'open', 'close', 'use', 'wait', 'insert', 'lift', 'slide', 'handle', 'test'] as const;
+export const nonReferenceProcessCompatibilityIds = ['move', 'open', 'close', 'use', 'wait', 'insert', 'lift', 'slide', 'handle', 'test', 'feed', 'retain', 'chop-or-shred', 'grate-or-slice', 'scrape-or-break'] as const;
 /** Retired public IDs only; these are compatibility routes, never canonical concepts. */
 export const ingredientCompatibilityRoutes = [{ from: 'lemon-juice', base: 'lemon', parts: ['juice'] }] as const;
 export interface ReferenceGroup extends PartGroup { id: string; processUrl?: string; members: { id: string; anchor: string }[] }

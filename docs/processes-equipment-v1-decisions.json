@@ -1,0 +1,3255 @@
+{
+  "review": "Generated assessment, unchecked; not a human culinary-review claim.",
+  "baseline": {
+    "core": "cc690393c7c7df478626fdf67786971603748abe",
+    "site": "64251f8d282d4588fdde60b2e49a5ce8b061abdf",
+    "corpus": "4d7a058bd2ace039f1c6858184b057b46c3940a6"
+  },
+  "cases": [
+    {
+      "kind": "equipment",
+      "term": "cup",
+      "decision": "new",
+      "target": "cup",
+      "reason": "Generic vessel; neither measuring cup nor a defined volume.",
+      "existingContext": "Unresolved at baseline; compare related identities in reasoning.",
+      "occurrences": 11,
+      "evidence": [
+        {
+          "kind": "equipment",
+          "name": "cup",
+          "key": "[\"cup\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/assam-tea/assam-tea.opensauce",
+          "line": 33,
+          "raw": "(cup)",
+          "reference": true,
+          "lineText": "(cup)"
+        },
+        {
+          "kind": "equipment",
+          "name": "cup",
+          "key": "[\"cup\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/assam-tea/assam-tea.opensauce",
+          "line": 41,
+          "raw": "(cup)",
+          "reference": true,
+          "lineText": "{tea} <strain, using (tea filter), into (cup)>"
+        },
+        {
+          "kind": "equipment",
+          "name": "cup",
+          "key": "[\"cup\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/beef-stew/beef-stew.opensauce",
+          "line": 38,
+          "raw": "(cup, for flour slurry)",
+          "reference": true,
+          "lineText": "(cup, for flour slurry)"
+        }
+      ],
+      "compatibility": "No existing identity, spelling or recipe source removed."
+    },
+    {
+      "kind": "equipment",
+      "term": "cauldron",
+      "decision": "new",
+      "target": "cauldron",
+      "reason": "Rounded cooking pot; preserve distinction from pot without asserting kazan equivalence.",
+      "existingContext": "Unresolved at baseline; compare related identities in reasoning.",
+      "occurrences": 11,
+      "evidence": [
+        {
+          "kind": "equipment",
+          "name": "cauldron",
+          "key": "[\"cauldron\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/pilaf/pilaf.opensauce",
+          "line": 38,
+          "raw": "(cauldron)",
+          "reference": true,
+          "lineText": "(cauldron)"
+        },
+        {
+          "kind": "equipment",
+          "name": "cauldron",
+          "key": "[\"cauldron\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/pilaf/pilaf.opensauce",
+          "line": 42,
+          "raw": "(cauldron)",
+          "reference": true,
+          "lineText": "(cooking oil) <put, in (cauldron)>"
+        },
+        {
+          "kind": "equipment",
+          "name": "cauldron",
+          "key": "[\"cauldron\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/pilaf/pilaf.opensauce",
+          "line": 44,
+          "raw": "(cauldron)",
+          "reference": true,
+          "lineText": "(cauldron) + (onions) 1head"
+        }
+      ],
+      "compatibility": "No existing identity, spelling or recipe source removed."
+    },
+    {
+      "kind": "equipment",
+      "term": "clay casserole",
+      "decision": "new",
+      "target": "clay-casserole",
+      "reason": "Material-specific casserole; observed oven-safe qualifier remains local, not universal stovetop safety.",
+      "existingContext": "Unresolved at baseline; compare related identities in reasoning.",
+      "occurrences": 10,
+      "evidence": [
+        {
+          "kind": "equipment",
+          "name": "clay casserole",
+          "key": "[\"clay casserole\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/baked-rice/baked-rice.opensauce",
+          "line": 43,
+          "raw": "(clay casserole, oven-safe)",
+          "reference": true,
+          "lineText": "(clay casserole, oven-safe)"
+        },
+        {
+          "kind": "equipment",
+          "name": "clay casserole",
+          "key": "[\"clay casserole\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/baked-rice/baked-rice.opensauce",
+          "line": 52,
+          "raw": "(clay casserole)",
+          "reference": true,
+          "lineText": "(extra virgin olive oil) <heat, in (clay casserole), medium-high heat>"
+        },
+        {
+          "kind": "equipment",
+          "name": "clay casserole",
+          "key": "[\"clay casserole\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/baked-rice/baked-rice.opensauce",
+          "line": 54,
+          "raw": "(clay casserole)",
+          "reference": true,
+          "lineText": "    <brown, in (clay casserole)> ?= golden and crispy"
+        }
+      ],
+      "compatibility": "No existing identity, spelling or recipe source removed."
+    },
+    {
+      "kind": "equipment",
+      "term": "flour bowl",
+      "decision": "local",
+      "target": null,
+      "reason": "Ingredient-assigned role for a bowl; do not globalise local names.",
+      "existingContext": "Unresolved at baseline; compare related identities in reasoning.",
+      "occurrences": 8,
+      "evidence": [
+        {
+          "kind": "equipment",
+          "name": "flour bowl",
+          "key": "[\"flour bowl\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/asian-style-chicken-sticky-sauce/asian-style-chicken-sticky-sauce.opensauce",
+          "line": 40,
+          "raw": "(flour bowl, shallow)",
+          "reference": true,
+          "lineText": "(flour bowl, shallow)"
+        },
+        {
+          "kind": "equipment",
+          "name": "flour bowl",
+          "key": "[\"flour bowl\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/asian-style-chicken-sticky-sauce/asian-style-chicken-sticky-sauce.opensauce",
+          "line": 51,
+          "raw": "(flour bowl)",
+          "reference": true,
+          "lineText": "{seasoned flour} = (flour bowl) + (flour) + (garlic powder) + (salt) + (pepper)"
+        },
+        {
+          "kind": "equipment",
+          "name": "flour bowl",
+          "key": "[\"flour bowl\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/chicken-parmesan/chicken-parmesan.opensauce",
+          "line": 33,
+          "raw": "(flour bowl, or basin; large enough for a breast)",
+          "reference": true,
+          "lineText": "(flour bowl, or basin; large enough for a breast)"
+        }
+      ],
+      "compatibility": "No existing identity, spelling or recipe source removed."
+    },
+    {
+      "kind": "equipment",
+      "term": "work surface",
+      "decision": "new",
+      "target": "work-surface",
+      "reason": "A preparation surface, not a synonym for every board or table.",
+      "existingContext": "Unresolved at baseline; compare related identities in reasoning.",
+      "occurrences": 8,
+      "evidence": [
+        {
+          "kind": "equipment",
+          "name": "work surface",
+          "key": "[\"work surface\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/bolo-do-caco/bolo-do-caco.opensauce",
+          "line": 41,
+          "raw": "(work surface)",
+          "reference": true,
+          "lineText": "(work surface)"
+        },
+        {
+          "kind": "equipment",
+          "name": "work surface",
+          "key": "[\"work surface\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/bolo-do-caco/bolo-do-caco.opensauce",
+          "line": 63,
+          "raw": "(work surface)",
+          "reference": true,
+          "lineText": "(work surface) <dust, with (flour, for dusting)>"
+        },
+        {
+          "kind": "equipment",
+          "name": "work surface",
+          "key": "[\"work surface\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/bolo-do-caco/bolo-do-caco.opensauce",
+          "line": 64,
+          "raw": "(work surface)",
+          "reference": true,
+          "lineText": "{dough} <divide, on (work surface), into 8-10 equal-weight pieces>"
+        }
+      ],
+      "compatibility": "No existing identity, spelling or recipe source removed."
+    },
+    {
+      "kind": "equipment",
+      "term": "oven dish",
+      "decision": "alias",
+      "target": "baking-dish",
+      "reason": "Dish used in an oven; baking-dish scope, not a tray alias.",
+      "existingContext": "Unresolved at baseline; compare related identities in reasoning.",
+      "occurrences": 8,
+      "evidence": [
+        {
+          "kind": "equipment",
+          "name": "oven dish",
+          "key": "[\"oven dish\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/chipolata-in-balsamic-vinegar/chipolata-in-balsamic-vinegar.opensauce",
+          "line": 35,
+          "raw": "(oven dish)",
+          "reference": true,
+          "lineText": "(oven dish)"
+        },
+        {
+          "kind": "equipment",
+          "name": "oven dish",
+          "key": "[\"oven dish\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/chipolata-in-balsamic-vinegar/chipolata-in-balsamic-vinegar.opensauce",
+          "line": 40,
+          "raw": "(oven dish)",
+          "reference": true,
+          "lineText": "(chipolata sausages) <put, in (oven dish)>"
+        },
+        {
+          "kind": "equipment",
+          "name": "oven dish",
+          "key": "[\"oven dish\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/chipolata-in-balsamic-vinegar/chipolata-in-balsamic-vinegar.opensauce",
+          "line": 42,
+          "raw": "(oven dish)",
+          "reference": true,
+          "lineText": "    <spread, in (oven dish)>"
+        }
+      ],
+      "compatibility": "No existing identity, spelling or recipe source removed."
+    },
+    {
+      "kind": "equipment",
+      "term": "griddle",
+      "decision": "alias",
+      "target": "metal-griddle",
+      "reason": "Existing metal-griddle identity covers flat cooking surface; not gridiron or grill. Cambridge supports flat metal surface sense.",
+      "existingContext": "Unresolved at baseline; compare related identities in reasoning.",
+      "occurrences": 7,
+      "evidence": [
+        {
+          "kind": "equipment",
+          "name": "griddle",
+          "key": "[\"griddle\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/oaty-pancakes/oaty-pancakes.opensauce",
+          "line": 41,
+          "raw": "(griddle)",
+          "reference": true,
+          "lineText": "(griddle)"
+        },
+        {
+          "kind": "equipment",
+          "name": "griddle",
+          "key": "[\"griddle\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/oaty-pancakes/oaty-pancakes.opensauce",
+          "line": 56,
+          "raw": "(griddle)",
+          "reference": true,
+          "lineText": "Use a preheated (griddle) or (fry pan), greased or sprayed with (grease or cooking spray)."
+        },
+        {
+          "kind": "equipment",
+          "name": "griddle",
+          "key": "[\"griddle\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/okonomiyaki/okonomiyaki.opensauce",
+          "line": 37,
+          "raw": "(griddle, pre-heated)",
+          "reference": true,
+          "lineText": "(pan, cast-iron, pre-heated) -OR- (griddle, pre-heated)"
+        }
+      ],
+      "compatibility": "No existing identity, spelling or recipe source removed."
+    },
+    {
+      "kind": "equipment",
+      "term": "plates",
+      "decision": "plural",
+      "target": "plate",
+      "reason": "Explicit plural of existing tableware identity.",
+      "existingContext": "Unresolved at baseline; compare related identities in reasoning.",
+      "occurrences": 7,
+      "evidence": [
+        {
+          "kind": "equipment",
+          "name": "plates",
+          "key": "[\"plates\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/panang-style-beef-curry/panang-style-beef-curry.opensauce",
+          "line": 43,
+          "raw": "(plates)",
+          "reference": true,
+          "lineText": "(plates)"
+        },
+        {
+          "kind": "equipment",
+          "name": "plates",
+          "key": "[\"plates\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/panang-style-beef-curry/panang-style-beef-curry.opensauce",
+          "line": 88,
+          "raw": "(plates)",
+          "reference": true,
+          "lineText": "Divide {rice} between (plates), then top with {curry}. Sprinkle (peanuts) and the remaining (cilantro) over the top."
+        },
+        {
+          "kind": "equipment",
+          "name": "plates",
+          "key": "[\"plates\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/spicy-kung-pao-style-chicken/spicy-kung-pao-style-chicken.opensauce",
+          "line": 53,
+          "raw": "(plates, for serving)",
+          "reference": true,
+          "lineText": "(plates, for serving)"
+        }
+      ],
+      "compatibility": "No existing identity, spelling or recipe source removed."
+    },
+    {
+      "kind": "equipment",
+      "term": "stove",
+      "decision": "new",
+      "target": "stove",
+      "reason": "Cooking appliance; no assumption about fuel, burner type or attached oven.",
+      "existingContext": "Unresolved at baseline; compare related identities in reasoning.",
+      "occurrences": 6,
+      "evidence": [
+        {
+          "kind": "equipment",
+          "name": "stove",
+          "key": "[\"stove\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/belgian-pear-syrup/belgian-pear-syrup.opensauce",
+          "line": 39,
+          "raw": "(stove)",
+          "reference": true,
+          "lineText": "(stove)"
+        },
+        {
+          "kind": "equipment",
+          "name": "stove",
+          "key": "[\"stove\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/belgian-pear-syrup/belgian-pear-syrup.opensauce",
+          "line": 70,
+          "raw": "(stove)",
+          "reference": true,
+          "lineText": "(pan) <place, on (stove)>"
+        },
+        {
+          "kind": "equipment",
+          "name": "stove",
+          "key": "[\"stove\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/kettlecorn/kettlecorn.opensauce",
+          "line": 31,
+          "raw": "(stove)",
+          "reference": true,
+          "lineText": "(stove)"
+        }
+      ],
+      "compatibility": "No existing identity, spelling or recipe source removed."
+    },
+    {
+      "kind": "equipment",
+      "term": "cheese recipient",
+      "decision": "deferred",
+      "target": null,
+      "reason": "Translated container wording does not establish a cheese mould identity.",
+      "existingContext": "Unresolved at baseline; compare related identities in reasoning.",
+      "occurrences": 5,
+      "evidence": [
+        {
+          "kind": "equipment",
+          "name": "cheese recipient",
+          "key": "[\"cheese recipient\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/cheese/cheese.opensauce",
+          "line": 34,
+          "raw": "(cheese recipient)",
+          "reference": true,
+          "lineText": "(cheese recipient) 1"
+        },
+        {
+          "kind": "equipment",
+          "name": "cheese recipient",
+          "key": "[\"cheese recipient\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/cheese/cheese.opensauce",
+          "line": 52,
+          "raw": "(cheese recipient)",
+          "reference": true,
+          "lineText": "{cheese} <place, in (cheese recipient)>"
+        },
+        {
+          "kind": "equipment",
+          "name": "cheese recipient",
+          "key": "[\"cheese recipient\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/cream-cheese/cream-cheese.opensauce",
+          "line": 31,
+          "raw": "(cheese recipient)",
+          "reference": true,
+          "lineText": "(cheese recipient) 1"
+        }
+      ],
+      "compatibility": "No existing identity, spelling or recipe source removed."
+    },
+    {
+      "kind": "equipment",
+      "term": "teaspoon",
+      "decision": "new",
+      "target": "teaspoon",
+      "reason": "Small spoon subtype; not calibrated measuring equipment.",
+      "existingContext": "Unresolved at baseline; compare related identities in reasoning.",
+      "occurrences": 5,
+      "evidence": [
+        {
+          "kind": "equipment",
+          "name": "teaspoon",
+          "key": "[\"teaspoon\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/ravioli/ravioli.opensauce",
+          "line": 61,
+          "raw": "(teaspoon)",
+          "reference": true,
+          "lineText": "(teaspoon)"
+        },
+        {
+          "kind": "equipment",
+          "name": "teaspoon",
+          "key": "[\"teaspoon\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/ravioli/ravioli.opensauce",
+          "line": 146,
+          "raw": "(teaspoon)",
+          "reference": true,
+          "lineText": "    {cheese filling} <space, evenly on the bottom sheet, using (teaspoon), leaving a few inches for seams>"
+        },
+        {
+          "kind": "equipment",
+          "name": "teaspoon",
+          "key": "[\"teaspoon\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/ravioli/ravioli.opensauce",
+          "line": 154,
+          "raw": "(teaspoon)",
+          "reference": true,
+          "lineText": "    {cheese filling} <space, evenly on the dough sheet, using (teaspoon), leaving a few inches for seams>"
+        }
+      ],
+      "compatibility": "No existing identity, spelling or recipe source removed."
+    },
+    {
+      "kind": "equipment",
+      "term": "egg bowl",
+      "decision": "local",
+      "target": null,
+      "reason": "Recipe-assigned bowl role.",
+      "existingContext": "Unresolved at baseline; compare related identities in reasoning.",
+      "occurrences": 4,
+      "evidence": [
+        {
+          "kind": "equipment",
+          "name": "egg bowl",
+          "key": "[\"egg bowl\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/asian-style-chicken-sticky-sauce/asian-style-chicken-sticky-sauce.opensauce",
+          "line": 41,
+          "raw": "(egg bowl, shallow)",
+          "reference": true,
+          "lineText": "(egg bowl, shallow)"
+        },
+        {
+          "kind": "equipment",
+          "name": "egg bowl",
+          "key": "[\"egg bowl\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/asian-style-chicken-sticky-sauce/asian-style-chicken-sticky-sauce.opensauce",
+          "line": 54,
+          "raw": "(egg bowl)",
+          "reference": true,
+          "lineText": "    <place, in (egg bowl)>"
+        },
+        {
+          "kind": "equipment",
+          "name": "egg bowl",
+          "key": "[\"egg bowl\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/chicken-parmesan/chicken-parmesan.opensauce",
+          "line": 34,
+          "raw": "(egg bowl, or basin; large)",
+          "reference": true,
+          "lineText": "(egg bowl, or basin; large)"
+        }
+      ],
+      "compatibility": "No existing identity, spelling or recipe source removed."
+    },
+    {
+      "kind": "equipment",
+      "term": "draining bowl",
+      "decision": "local",
+      "target": null,
+      "reason": "Bowl role with absorbent towels; not necessarily a colander.",
+      "existingContext": "Unresolved at baseline; compare related identities in reasoning.",
+      "occurrences": 4,
+      "evidence": [
+        {
+          "kind": "equipment",
+          "name": "draining bowl",
+          "key": "[\"draining bowl\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/asian-style-chicken-sticky-sauce/asian-style-chicken-sticky-sauce.opensauce",
+          "line": 43,
+          "raw": "(draining bowl)",
+          "reference": true,
+          "lineText": "(draining bowl)"
+        },
+        {
+          "kind": "equipment",
+          "name": "draining bowl",
+          "key": "[\"draining bowl\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/asian-style-chicken-sticky-sauce/asian-style-chicken-sticky-sauce.opensauce",
+          "line": 61,
+          "raw": "(draining bowl)",
+          "reference": true,
+          "lineText": "If another batch is needed, place cooked chicken in (draining bowl) with (kitchen towels), then fry the next batch before finishing."
+        },
+        {
+          "kind": "equipment",
+          "name": "draining bowl",
+          "key": "[\"draining bowl\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/torta-frita-criolla/torta-frita-criolla.opensauce",
+          "line": 32,
+          "raw": "(draining bowl)",
+          "reference": true,
+          "lineText": "(draining bowl)"
+        }
+      ],
+      "compatibility": "No existing identity, spelling or recipe source removed."
+    },
+    {
+      "kind": "equipment",
+      "term": "broccoli pot",
+      "decision": "local",
+      "target": null,
+      "reason": "Ingredient-assigned pot role.",
+      "existingContext": "Unresolved at baseline; compare related identities in reasoning.",
+      "occurrences": 4,
+      "evidence": [
+        {
+          "kind": "equipment",
+          "name": "broccoli pot",
+          "key": "[\"broccoli pot\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/honey-garlic-chicken/honey-garlic-chicken.opensauce",
+          "line": 36,
+          "raw": "(broccoli pot)",
+          "reference": true,
+          "lineText": "(broccoli pot)"
+        },
+        {
+          "kind": "equipment",
+          "name": "broccoli pot",
+          "key": "[\"broccoli pot\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/honey-garlic-chicken/honey-garlic-chicken.opensauce",
+          "line": 47,
+          "raw": "(broccoli pot)",
+          "reference": true,
+          "lineText": "    (broccoli pot) <fill, halfway with (water)>"
+        },
+        {
+          "kind": "equipment",
+          "name": "broccoli pot",
+          "key": "[\"broccoli pot\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/honey-garlic-chicken/honey-garlic-chicken.opensauce",
+          "line": 48,
+          "raw": "(broccoli pot)",
+          "reference": true,
+          "lineText": "    (steamer basket) <place, over (broccoli pot)>"
+        }
+      ],
+      "compatibility": "No existing identity, spelling or recipe source removed."
+    },
+    {
+      "kind": "equipment",
+      "term": "squirt bottles",
+      "decision": "new",
+      "target": "squeeze-bottle",
+      "reason": "Dispensing bottle subtype with explicit singular/plural alternate names.",
+      "existingContext": "Unresolved at baseline; compare related identities in reasoning.",
+      "occurrences": 4,
+      "evidence": [
+        {
+          "kind": "equipment",
+          "name": "squirt bottles",
+          "key": "[\"squirt bottles\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/okonomiyaki/okonomiyaki.opensauce",
+          "line": 40,
+          "raw": "(squirt bottles, for the sauces)",
+          "reference": true,
+          "lineText": "(squirt bottles, for the sauces)"
+        },
+        {
+          "kind": "equipment",
+          "name": "squirt bottles",
+          "key": "[\"squirt bottles\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/okonomiyaki/okonomiyaki.opensauce",
+          "line": 64,
+          "raw": "(squirt bottles)",
+          "reference": true,
+          "lineText": "(tonkatsu sauce) <squirt, using (squirt bottles), over the top in a zig-zag pattern>"
+        },
+        {
+          "kind": "equipment",
+          "name": "squirt bottles",
+          "key": "[\"squirt bottles\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/okonomiyaki/okonomiyaki.opensauce",
+          "line": 65,
+          "raw": "(squirt bottles)",
+          "reference": true,
+          "lineText": "(mayonnaise) <squirt, using (squirt bottles), over the top in a zig-zag pattern>"
+        }
+      ],
+      "compatibility": "No existing identity, spelling or recipe source removed."
+    },
+    {
+      "kind": "equipment",
+      "term": "stew-pan",
+      "decision": "deferred",
+      "target": null,
+      "reason": "Historical vessel boundary versus saucepan/casserole needs review.",
+      "existingContext": "Unresolved at baseline; compare related identities in reasoning.",
+      "occurrences": 4,
+      "evidence": [
+        {
+          "kind": "equipment",
+          "name": "stew-pan",
+          "key": "[\"stew-pan\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/pulled-rabbit/pulled-rabbit.opensauce",
+          "line": 32,
+          "raw": "(stew-pan)",
+          "reference": true,
+          "lineText": "(stew-pan)"
+        },
+        {
+          "kind": "equipment",
+          "name": "stew-pan",
+          "key": "[\"stew-pan\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/pulled-rabbit/pulled-rabbit.opensauce",
+          "line": 45,
+          "raw": "(stew-pan)",
+          "reference": true,
+          "lineText": "    <place, in (stew-pan)>"
+        },
+        {
+          "kind": "equipment",
+          "name": "stew-pan",
+          "key": "[\"stew-pan\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/pulled-rabbit/pulled-rabbit.opensauce",
+          "line": 59,
+          "raw": "(stew-pan)",
+          "reference": true,
+          "lineText": "(stew-pan) <cover>"
+        }
+      ],
+      "compatibility": "No existing identity, spelling or recipe source removed."
+    },
+    {
+      "kind": "equipment",
+      "term": "mixing bowl",
+      "decision": "new",
+      "target": "mixing-bowl",
+      "reason": "Named bowl subtype for mixing; no material or heat capability claim.",
+      "existingContext": "Unresolved at baseline; compare related identities in reasoning.",
+      "occurrences": 4,
+      "evidence": [
+        {
+          "kind": "equipment",
+          "name": "mixing bowl",
+          "key": "[\"mixing bowl\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/steak-tartare/steak-tartare.opensauce",
+          "line": 38,
+          "raw": "(mixing bowl)",
+          "reference": true,
+          "lineText": "(mixing bowl)"
+        },
+        {
+          "kind": "equipment",
+          "name": "mixing bowl",
+          "key": "[\"mixing bowl\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/steak-tartare/steak-tartare.opensauce",
+          "line": 54,
+          "raw": "(mixing bowl)",
+          "reference": true,
+          "lineText": "{mixture} <mix, by hand, in (mixing bowl)>"
+        },
+        {
+          "kind": "equipment",
+          "name": "mixing bowl",
+          "key": "[\"mixing bowl\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/venezuelan-arepa/venezuelan-arepa.opensauce",
+          "line": 32,
+          "raw": "(mixing bowl, large)",
+          "reference": true,
+          "lineText": "(mixing bowl, large)"
+        }
+      ],
+      "compatibility": "No existing identity, spelling or recipe source removed."
+    },
+    {
+      "kind": "equipment",
+      "term": "mould",
+      "decision": "deferred",
+      "target": null,
+      "reason": "Generic mould need not be baking equipment; cake context alone does not justify global alias.",
+      "existingContext": "Unresolved at baseline; compare related identities in reasoning.",
+      "occurrences": 4,
+      "evidence": [
+        {
+          "kind": "equipment",
+          "name": "mould",
+          "key": "[\"mould\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/yogurt-cake/yogurt-cake.opensauce",
+          "line": 39,
+          "raw": "(mould)",
+          "reference": true,
+          "lineText": "(mould)"
+        },
+        {
+          "kind": "equipment",
+          "name": "mould",
+          "key": "[\"mould\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/yogurt-cake/yogurt-cake.opensauce",
+          "line": 62,
+          "raw": "(mould)",
+          "reference": true,
+          "lineText": "    {batter} <pour, into (mould)>"
+        },
+        {
+          "kind": "equipment",
+          "name": "mould",
+          "key": "[\"mould\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/yogurt-cake/yogurt-cake.opensauce",
+          "line": 67,
+          "raw": "(mould)",
+          "reference": true,
+          "lineText": "    Pour two-thirds of {batter} into (mould), add (fruit), then cover with the remaining batter."
+        }
+      ],
+      "compatibility": "No existing identity, spelling or recipe source removed."
+    },
+    {
+      "kind": "equipment",
+      "term": "pudding-cloth",
+      "decision": "deferred",
+      "target": null,
+      "reason": "Specific boiling cloth merits future scoped identity, not blanket cheesecloth equivalence.",
+      "existingContext": "Unresolved at baseline; compare related identities in reasoning.",
+      "occurrences": 3,
+      "evidence": [
+        {
+          "kind": "equipment",
+          "name": "pudding-cloth",
+          "key": "[\"pudding-cloth\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/batter-pudding/batter-pudding.opensauce",
+          "line": 29,
+          "raw": "(pudding-cloth, very thick, square preferred to a bag)",
+          "reference": true,
+          "lineText": "(pudding-cloth, very thick, square preferred to a bag)"
+        },
+        {
+          "kind": "equipment",
+          "name": "pudding-cloth",
+          "key": "[\"pudding-cloth\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/batter-pudding/batter-pudding.opensauce",
+          "line": 39,
+          "raw": "(pudding-cloth)",
+          "reference": true,
+          "lineText": "(pudding-cloth) <dip, in (water)>"
+        },
+        {
+          "kind": "equipment",
+          "name": "pudding-cloth",
+          "key": "[\"pudding-cloth\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/batter-pudding/batter-pudding.opensauce",
+          "line": 41,
+          "raw": "(pudding-cloth)",
+          "reference": true,
+          "lineText": "Pour {batter} into (pudding-cloth), then tie it up, leaving room to swell, to make {pudding}."
+        }
+      ],
+      "compatibility": "No existing identity, spelling or recipe source removed."
+    },
+    {
+      "kind": "equipment",
+      "term": "microwave",
+      "decision": "new",
+      "target": "microwave-oven",
+      "reason": "Equipment and process are distinct domains; same spelling safely resolves in each.",
+      "existingContext": "Unresolved at baseline; compare related identities in reasoning.",
+      "occurrences": 3,
+      "evidence": [
+        {
+          "kind": "equipment",
+          "name": "microwave",
+          "key": "[\"microwave\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/breakfast-wrap/breakfast-wrap.opensauce",
+          "line": 33,
+          "raw": "(microwave)",
+          "reference": true,
+          "lineText": "(microwave)"
+        },
+        {
+          "kind": "equipment",
+          "name": "microwave",
+          "key": "[\"microwave\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/breakfast-wrap/breakfast-wrap.opensauce",
+          "line": 44,
+          "raw": "(microwave)",
+          "reference": true,
+          "lineText": "    <microwave, 1m in (microwave)>"
+        },
+        {
+          "kind": "equipment",
+          "name": "microwave",
+          "key": "[\"microwave\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/breakfast-wrap/breakfast-wrap.opensauce",
+          "line": 45,
+          "raw": "(microwave)",
+          "reference": true,
+          "lineText": "    <remove, from (microwave)>"
+        }
+      ],
+      "compatibility": "No existing identity, spelling or recipe source removed."
+    },
+    {
+      "kind": "equipment",
+      "term": "cooking tray",
+      "decision": "deferred",
+      "target": null,
+      "reason": "Observed oven use suggests baking tray locally; broader name insufficient for unconditional alias.",
+      "existingContext": "Unresolved at baseline; compare related identities in reasoning.",
+      "occurrences": 3,
+      "evidence": [
+        {
+          "kind": "equipment",
+          "name": "cooking tray",
+          "key": "[\"cooking tray\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/butter-based-biscuit/butter-based-biscuit.opensauce",
+          "line": 33,
+          "raw": "(cooking tray)",
+          "reference": true,
+          "lineText": "(cooking tray)"
+        },
+        {
+          "kind": "equipment",
+          "name": "cooking tray",
+          "key": "[\"cooking tray\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/butter-based-biscuit/butter-based-biscuit.opensauce",
+          "line": 57,
+          "raw": "(cooking tray)",
+          "reference": true,
+          "lineText": "(oven) <heat, 200°C, with (cooking tray) inside>"
+        },
+        {
+          "kind": "equipment",
+          "name": "cooking tray",
+          "key": "[\"cooking tray\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/butter-based-biscuit/butter-based-biscuit.opensauce",
+          "line": 60,
+          "raw": "(cooking tray)",
+          "reference": true,
+          "lineText": "Transfer (baking paper) holding the uncooked shortbreads to the hot (cooking tray)."
+        }
+      ],
+      "compatibility": "No existing identity, spelling or recipe source removed."
+    },
+    {
+      "kind": "equipment",
+      "term": "paste-board",
+      "decision": "deferred",
+      "target": null,
+      "reason": "Historical pastry-board spelling merits separate naming research; not all boards are pastry boards.",
+      "existingContext": "Unresolved at baseline; compare related identities in reasoning.",
+      "occurrences": 3,
+      "evidence": [
+        {
+          "kind": "equipment",
+          "name": "paste-board",
+          "key": "[\"paste-board\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/butter-biscuits/butter-biscuits.opensauce",
+          "line": 30,
+          "raw": "(paste-board)",
+          "reference": true,
+          "lineText": "(paste-board)"
+        },
+        {
+          "kind": "equipment",
+          "name": "paste-board",
+          "key": "[\"paste-board\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/butter-biscuits/butter-biscuits.opensauce",
+          "line": 44,
+          "raw": "(paste-board)",
+          "reference": true,
+          "lineText": "(paste-board) <dust, with (flour, for paste-board)>"
+        },
+        {
+          "kind": "equipment",
+          "name": "paste-board",
+          "key": "[\"paste-board\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/butter-biscuits/butter-biscuits.opensauce",
+          "line": 46,
+          "raw": "(paste-board)",
+          "reference": true,
+          "lineText": "    <knead, on (paste-board), very well>"
+        }
+      ],
+      "compatibility": "No existing identity, spelling or recipe source removed."
+    },
+    {
+      "kind": "equipment",
+      "term": "pans",
+      "decision": "plural",
+      "target": "pan",
+      "reason": "Explicit plural retains general pan identity, without asserting all pans are bakeware.",
+      "existingContext": "Unresolved at baseline; compare related identities in reasoning.",
+      "occurrences": 3,
+      "evidence": [
+        {
+          "kind": "equipment",
+          "name": "pans",
+          "key": "[\"pans\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/butter-biscuits/butter-biscuits.opensauce",
+          "line": 35,
+          "raw": "(pans, for baking)",
+          "reference": true,
+          "lineText": "(pans, for baking)"
+        },
+        {
+          "kind": "equipment",
+          "name": "pans",
+          "key": "[\"pans\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/butter-biscuits/butter-biscuits.opensauce",
+          "line": 52,
+          "raw": "(pans)",
+          "reference": true,
+          "lineText": "(pans) <butter, with (butter, for pans)>"
+        },
+        {
+          "kind": "equipment",
+          "name": "pans",
+          "key": "[\"pans\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/butter-biscuits/butter-biscuits.opensauce",
+          "line": 53,
+          "raw": "(pans)",
+          "reference": true,
+          "lineText": "{cakes} <put, in (pans)>"
+        }
+      ],
+      "compatibility": "No existing identity, spelling or recipe source removed."
+    },
+    {
+      "kind": "equipment",
+      "term": "platter",
+      "decision": "new",
+      "target": "platter",
+      "reason": "Serving dish subtype, not automatically oven-safe.",
+      "existingContext": "Unresolved at baseline; compare related identities in reasoning.",
+      "occurrences": 3,
+      "evidence": [
+        {
+          "kind": "equipment",
+          "name": "platter",
+          "key": "[\"platter\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/chicken-in-red-wine-vinegar-sauce/chicken-in-red-wine-vinegar-sauce.opensauce",
+          "line": 36,
+          "raw": "(platter)",
+          "reference": true,
+          "lineText": "(platter)"
+        },
+        {
+          "kind": "equipment",
+          "name": "platter",
+          "key": "[\"platter\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/omelet/omelet.opensauce",
+          "line": 38,
+          "raw": "(platter, hot)",
+          "reference": true,
+          "lineText": "(platter, hot)"
+        },
+        {
+          "kind": "equipment",
+          "name": "platter",
+          "key": "[\"platter\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/omelet/omelet.opensauce",
+          "line": 68,
+          "raw": "(platter)",
+          "reference": true,
+          "lineText": "    <serve, on (platter)>"
+        }
+      ],
+      "compatibility": "No existing identity, spelling or recipe source removed."
+    },
+    {
+      "kind": "equipment",
+      "term": "electric beaters",
+      "decision": "deferred",
+      "target": null,
+      "reason": "Autumn-soup uses it to puree soup; does not establish hand-mixer equivalence. Prior user decision preserved.",
+      "existingContext": "Unresolved at baseline; compare related identities in reasoning.",
+      "occurrences": 2,
+      "evidence": [
+        {
+          "kind": "equipment",
+          "name": "electric beaters",
+          "key": "[\"electric beaters\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/autumn-soup/autumn-soup.opensauce",
+          "line": 38,
+          "raw": "(electric beaters, authors choice)",
+          "reference": true,
+          "lineText": "(electric beaters, authors choice)"
+        },
+        {
+          "kind": "equipment",
+          "name": "electric beaters",
+          "key": "[\"electric beaters\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/autumn-soup/autumn-soup.opensauce",
+          "line": 48,
+          "raw": "(electric beaters)",
+          "reference": true,
+          "lineText": "{soup} <purée, using (electric beaters)>"
+        }
+      ],
+      "compatibility": "No existing identity, spelling or recipe source removed."
+    },
+    {
+      "kind": "equipment",
+      "term": "table",
+      "decision": "deferred",
+      "target": null,
+      "reason": "Table is furniture or a work-surface role; broad household-equipment scope needs agreement.",
+      "existingContext": "Unresolved at baseline; compare related identities in reasoning.",
+      "occurrences": 8,
+      "evidence": [
+        {
+          "kind": "equipment",
+          "name": "table",
+          "key": "[\"table\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/grostoli/grostoli.opensauce",
+          "line": 37,
+          "raw": "(table)",
+          "reference": true,
+          "lineText": "(table)"
+        },
+        {
+          "kind": "equipment",
+          "name": "table",
+          "key": "[\"table\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/grostoli/grostoli.opensauce",
+          "line": 46,
+          "raw": "(table)",
+          "reference": true,
+          "lineText": "    <knead, on (table)> ?= homogeneous"
+        },
+        {
+          "kind": "equipment",
+          "name": "table",
+          "key": "[\"table\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/grostoli/grostoli.opensauce",
+          "line": 48,
+          "raw": "(table)",
+          "reference": true,
+          "lineText": "    <roll, on (table), using (rolling pin)>"
+        }
+      ],
+      "compatibility": "No existing identity, spelling or recipe source removed."
+    },
+    {
+      "kind": "process",
+      "term": "put",
+      "decision": "alias",
+      "target": "place",
+      "reason": "Ordinary placement; place is already non-reference.",
+      "existingContext": "Unresolved at baseline; compare related identities in reasoning.",
+      "occurrences": 63,
+      "evidence": [
+        {
+          "kind": "process",
+          "name": "put",
+          "key": "[\"put\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/air-fryer-zucchini/air-fryer-zucchini.opensauce",
+          "line": 38,
+          "raw": "<put, into (bowl)>",
+          "reference": true,
+          "lineText": "    <put, into (bowl)>"
+        },
+        {
+          "kind": "process",
+          "name": "put",
+          "key": "[\"put\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/apple-chicken/apple-chicken.opensauce",
+          "line": 43,
+          "raw": "<put, the chicken in the oven tray>",
+          "reference": true,
+          "lineText": "<put, the chicken in the oven tray>"
+        },
+        {
+          "kind": "process",
+          "name": "put",
+          "key": "[\"put\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/apple-chicken/apple-chicken.opensauce",
+          "line": 44,
+          "raw": "<put, the chicken, onions and apple in the oven tray>",
+          "reference": true,
+          "lineText": "<put, the chicken, onions and apple in the oven tray>"
+        }
+      ],
+      "compatibility": "No existing identity, spelling or recipe source removed."
+    },
+    {
+      "kind": "process",
+      "term": "return",
+      "decision": "new",
+      "target": "return",
+      "reason": "Move back to a prior location; non-reference action, not reheating.",
+      "existingContext": "Unresolved at baseline; compare related identities in reasoning.",
+      "occurrences": 17,
+      "evidence": [
+        {
+          "kind": "process",
+          "name": "return",
+          "key": "[\"return\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/baked-rice/baked-rice.opensauce",
+          "line": 69,
+          "raw": "<return, to (clay casserole)>",
+          "reference": true,
+          "lineText": "    <return, to (clay casserole)>"
+        },
+        {
+          "kind": "process",
+          "name": "return",
+          "key": "[\"return\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/beef-stew/beef-stew.opensauce",
+          "line": 51,
+          "raw": "<return, to the pot>",
+          "reference": true,
+          "lineText": "    (meat) <return, to the pot>"
+        },
+        {
+          "kind": "process",
+          "name": "return",
+          "key": "[\"return\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/carbonade/carbonade.opensauce",
+          "line": 59,
+          "raw": "<return, to the pot>",
+          "reference": true,
+          "lineText": "(beef) <return, to the pot>"
+        }
+      ],
+      "compatibility": "No existing identity, spelling or recipe source removed."
+    },
+    {
+      "kind": "process",
+      "term": "butter",
+      "decision": "new",
+      "target": "butter",
+      "reason": "Apply a specified material; not interchangeable with all greasing.",
+      "existingContext": "Unresolved at baseline; compare related identities in reasoning.",
+      "occurrences": 9,
+      "evidence": [
+        {
+          "kind": "process",
+          "name": "butter",
+          "key": "[\"butter\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/aussie-snags/aussie-snags.opensauce",
+          "line": 49,
+          "raw": "<butter, with (butter)>",
+          "reference": true,
+          "lineText": "(white sliced bread) <butter, with (butter)>"
+        },
+        {
+          "kind": "process",
+          "name": "butter",
+          "key": "[\"butter\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/bread-pudding/bread-pudding.opensauce",
+          "line": 48,
+          "raw": "<butter, with (butter)>",
+          "reference": true,
+          "lineText": "(dish) <butter, with (butter)>"
+        },
+        {
+          "kind": "process",
+          "name": "butter",
+          "key": "[\"butter\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/butter-biscuits/butter-biscuits.opensauce",
+          "line": 52,
+          "raw": "<butter, with (butter, for pans)>",
+          "reference": true,
+          "lineText": "(pans) <butter, with (butter, for pans)>"
+        }
+      ],
+      "compatibility": "No existing identity, spelling or recipe source removed."
+    },
+    {
+      "kind": "process",
+      "term": "enjoy",
+      "decision": "new",
+      "target": "enjoy",
+      "reason": "Valid conventional instruction, non-reference and low completion priority.",
+      "existingContext": "Unresolved at baseline; compare related identities in reasoning.",
+      "occurrences": 8,
+      "evidence": [
+        {
+          "kind": "process",
+          "name": "enjoy",
+          "key": "[\"enjoy\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/apple-chicken/apple-chicken.opensauce",
+          "line": 49,
+          "raw": "<enjoy>",
+          "reference": true,
+          "lineText": "<enjoy>"
+        },
+        {
+          "kind": "process",
+          "name": "enjoy",
+          "key": "[\"enjoy\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/ardei-umpluti/ardei-umpluti.opensauce",
+          "line": 48,
+          "raw": "<enjoy>",
+          "reference": true,
+          "lineText": "<enjoy>"
+        },
+        {
+          "kind": "process",
+          "name": "enjoy",
+          "key": "[\"enjoy\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/dou-sha-bao/dou-sha-bao.opensauce",
+          "line": 56,
+          "raw": "<enjoy>",
+          "reference": true,
+          "lineText": "<enjoy>"
+        }
+      ],
+      "compatibility": "No existing identity, spelling or recipe source removed."
+    },
+    {
+      "kind": "process",
+      "term": "roll out",
+      "decision": "new",
+      "target": "roll-out",
+      "reason": "Flatten dough to a sheet; generic roll also means logs and coating, so retain both identities.",
+      "existingContext": "Unresolved at baseline; compare related identities in reasoning.",
+      "occurrences": 7,
+      "evidence": [
+        {
+          "kind": "process",
+          "name": "roll out",
+          "key": "[\"roll out\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/apple-strudel/apple-strudel.opensauce",
+          "line": 42,
+          "raw": "<roll out, with (rolling pin)>",
+          "reference": true,
+          "lineText": "(puff pastry) <roll out, with (rolling pin)>"
+        },
+        {
+          "kind": "process",
+          "name": "roll out",
+          "key": "[\"roll out\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/butter-biscuits/butter-biscuits.opensauce",
+          "line": 47,
+          "raw": "<roll out, into a large thick sheet>",
+          "reference": true,
+          "lineText": "    <roll out, into a large thick sheet>"
+        },
+        {
+          "kind": "process",
+          "name": "roll out",
+          "key": "[\"roll out\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/crostata/crostata.opensauce",
+          "line": 36,
+          "raw": "<roll out>",
+          "reference": true,
+          "lineText": "(shortcrust pastry) the remainder <roll out> ?= slightly larger than the baking mold"
+        }
+      ],
+      "compatibility": "No existing identity, spelling or recipe source removed."
+    },
+    {
+      "kind": "process",
+      "term": "set",
+      "decision": "deferred",
+      "target": null,
+      "reason": "Equipment settings versus food setting are different senses; no global equivalence.",
+      "existingContext": "Unresolved at baseline; compare related identities in reasoning.",
+      "occurrences": 6,
+      "evidence": [
+        {
+          "kind": "process",
+          "name": "set",
+          "key": "[\"set\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/babas-feta-pasta/babas-feta-pasta.opensauce",
+          "line": 85,
+          "raw": "<set, 5m>",
+          "reference": true,
+          "lineText": "(timer) <set, 5m>"
+        },
+        {
+          "kind": "process",
+          "name": "set",
+          "key": "[\"set\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/chicken-tenders-airfried/chicken-tenders-airfried.opensauce",
+          "line": 49,
+          "raw": "<set, chicken mode; 360°F>",
+          "reference": true,
+          "lineText": "(air fryer) <set, chicken mode; 360°F>"
+        },
+        {
+          "kind": "process",
+          "name": "set",
+          "key": "[\"set\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/frittata/frittata.opensauce",
+          "line": 48,
+          "raw": "<set, low broil>",
+          "reference": true,
+          "lineText": "(oven) <set, low broil>"
+        }
+      ],
+      "compatibility": "No existing identity, spelling or recipe source removed."
+    },
+    {
+      "kind": "process",
+      "term": "warm",
+      "decision": "deferred",
+      "target": null,
+      "reason": "Heat, reheat and warm-through differ in endpoint; do not lose authored nuance in a global alias.",
+      "existingContext": "Unresolved at baseline; compare related identities in reasoning.",
+      "occurrences": 5,
+      "evidence": [
+        {
+          "kind": "process",
+          "name": "warm",
+          "key": "[\"warm\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/chimichanga/chimichanga.opensauce",
+          "line": 44,
+          "raw": "<warm>",
+          "reference": true,
+          "lineText": "(tortilla) <warm>"
+        },
+        {
+          "kind": "process",
+          "name": "warm",
+          "key": "[\"warm\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/creamy-mashed-potatoes/creamy-mashed-potatoes.opensauce",
+          "line": 50,
+          "raw": "<warm>",
+          "reference": true,
+          "lineText": "    <warm>"
+        },
+        {
+          "kind": "process",
+          "name": "warm",
+          "key": "[\"warm\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/gluehwein/gluehwein.opensauce",
+          "line": 39,
+          "raw": "<warm, in (pot), do not boil>",
+          "reference": true,
+          "lineText": "    <warm, in (pot), do not boil>"
+        }
+      ],
+      "compatibility": "No existing identity, spelling or recipe source removed."
+    },
+    {
+      "kind": "process",
+      "term": "rise",
+      "decision": "deferred",
+      "target": null,
+      "reason": "Dough expansion is observed; general rise need not mean fermentation/proving.",
+      "existingContext": "Unresolved at baseline; compare related identities in reasoning.",
+      "occurrences": 5,
+      "evidence": [
+        {
+          "kind": "process",
+          "name": "rise",
+          "key": "[\"rise\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/herbs-pizza/herbs-pizza.opensauce",
+          "line": 68,
+          "raw": "<rise, ~30m as given in the source preparation time>",
+          "reference": true,
+          "lineText": "    <rise, ~30m as given in the source preparation time>"
+        },
+        {
+          "kind": "process",
+          "name": "rise",
+          "key": "[\"rise\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/italian-bread/italian-bread.opensauce",
+          "line": 46,
+          "raw": "<rise, warm place, 1h>",
+          "reference": true,
+          "lineText": "    <rise, warm place, 1h> ?= doubled in size"
+        },
+        {
+          "kind": "process",
+          "name": "rise",
+          "key": "[\"rise\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/italian-bread/italian-bread.opensauce",
+          "line": 52,
+          "raw": "<rise, warm place, 1h>",
+          "reference": true,
+          "lineText": "    <rise, warm place, 1h> ?= doubled in size"
+        }
+      ],
+      "compatibility": "No existing identity, spelling or recipe source removed."
+    },
+    {
+      "kind": "process",
+      "term": "turn off",
+      "decision": "deferred",
+      "target": null,
+      "reason": "Can apply to appliances as well as heat; existing turn-off-heat is narrower.",
+      "existingContext": "Unresolved at baseline; compare related identities in reasoning.",
+      "occurrences": 4,
+      "evidence": [
+        {
+          "kind": "process",
+          "name": "turn off",
+          "key": "[\"turn off\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/aussie-snags/aussie-snags.opensauce",
+          "line": 46,
+          "raw": "<turn off>",
+          "reference": true,
+          "lineText": "    (hotplate) <turn off>"
+        },
+        {
+          "kind": "process",
+          "name": "turn off",
+          "key": "[\"turn off\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/slowcooked-green-bean-beef-soup-supreme/slowcooked-green-bean-beef-soup-supreme.opensauce",
+          "line": 66,
+          "raw": "<turn off>",
+          "reference": true,
+          "lineText": "(slow cooker) <turn off>"
+        },
+        {
+          "kind": "process",
+          "name": "turn off",
+          "key": "[\"turn off\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/tortellini/tortellini.opensauce",
+          "line": 41,
+          "raw": "<turn off, the heat>",
+          "reference": true,
+          "lineText": "<turn off, the heat>"
+        }
+      ],
+      "compatibility": "No existing identity, spelling or recipe source removed."
+    },
+    {
+      "kind": "process",
+      "term": "let",
+      "decision": "deferred",
+      "target": null,
+      "reason": "Permissive wrapper around several operations, not a coherent technique.",
+      "existingContext": "Unresolved at baseline; compare related identities in reasoning.",
+      "occurrences": 4,
+      "evidence": [
+        {
+          "kind": "process",
+          "name": "let",
+          "key": "[\"let\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/brown-sauce/brown-sauce.opensauce",
+          "line": 35,
+          "raw": "<let, the sauce boil and thicken for few minutes>",
+          "reference": true,
+          "lineText": "<let, the sauce boil and thicken for few minutes>"
+        },
+        {
+          "kind": "process",
+          "name": "let",
+          "key": "[\"let\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/french-mustard-sauce-porkchops/french-mustard-sauce-porkchops.opensauce",
+          "line": 41,
+          "raw": "<let, the sauce reduce until it gets a coating consistency>",
+          "reference": true,
+          "lineText": "<let, the sauce reduce until it gets a coating consistency>"
+        },
+        {
+          "kind": "process",
+          "name": "let",
+          "key": "[\"let\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/greek-yogurt/greek-yogurt.opensauce",
+          "line": 38,
+          "raw": "<let, the water out and pour the milk into the thermos>",
+          "reference": true,
+          "lineText": "<let, the water out and pour the milk into the thermos>"
+        }
+      ],
+      "compatibility": "No existing identity, spelling or recipe source removed."
+    },
+    {
+      "kind": "process",
+      "term": "pat dry",
+      "decision": "new",
+      "target": "pat-dry",
+      "reason": "Absorb surface moisture; distinct from generic dry or pat.",
+      "existingContext": "Unresolved at baseline; compare related identities in reasoning.",
+      "occurrences": 4,
+      "evidence": [
+        {
+          "kind": "process",
+          "name": "pat dry",
+          "key": "[\"pat dry\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/cheddar-crusted-chicken/cheddar-crusted-chicken.opensauce",
+          "line": 45,
+          "raw": "<pat dry, with (paper towel)>",
+          "reference": true,
+          "lineText": "(chicken breasts) <pat dry, with (paper towel)>"
+        },
+        {
+          "kind": "process",
+          "name": "pat dry",
+          "key": "[\"pat dry\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/spicy-kung-pao-style-chicken/spicy-kung-pao-style-chicken.opensauce",
+          "line": 91,
+          "raw": "<pat dry>",
+          "reference": true,
+          "lineText": "(chicken thigh) <pat dry>"
+        },
+        {
+          "kind": "process",
+          "name": "pat dry",
+          "key": "[\"pat dry\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/turkish-style-spiced-chicken/turkish-style-spiced-chicken.opensauce",
+          "line": 79,
+          "raw": "<pat dry, with (paper towel)>",
+          "reference": true,
+          "lineText": "            (chicken breast) <pat dry, with (paper towel)>"
+        }
+      ],
+      "compatibility": "No existing identity, spelling or recipe source removed."
+    },
+    {
+      "kind": "process",
+      "term": "break up",
+      "decision": "alias",
+      "target": "break",
+      "reason": "Breaking into pieces; preserve contextual object and size.",
+      "existingContext": "Unresolved at baseline; compare related identities in reasoning.",
+      "occurrences": 4,
+      "evidence": [
+        {
+          "kind": "process",
+          "name": "break up",
+          "key": "[\"break up\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/chili-con-carne/chili-con-carne.opensauce",
+          "line": 46,
+          "raw": "<break up, into small pieces>",
+          "reference": true,
+          "lineText": "(ground beef) <break up, into small pieces>"
+        },
+        {
+          "kind": "process",
+          "name": "break up",
+          "key": "[\"break up\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/panang-style-beef-curry/panang-style-beef-curry.opensauce",
+          "line": 67,
+          "raw": "<break up, into smaller pieces>",
+          "reference": true,
+          "lineText": "        (beef) <break up, into smaller pieces>"
+        },
+        {
+          "kind": "process",
+          "name": "break up",
+          "key": "[\"break up\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/scouse/scouse.opensauce",
+          "line": 59,
+          "raw": "<break up>",
+          "reference": true,
+          "lineText": "    <break up>"
+        }
+      ],
+      "compatibility": "No existing identity, spelling or recipe source removed."
+    },
+    {
+      "kind": "process",
+      "term": "bring",
+      "decision": "deferred",
+      "target": null,
+      "reason": "Endpoint depends on parameters (boil, simmer, temperature); no single technique identity.",
+      "existingContext": "Unresolved at baseline; compare related identities in reasoning.",
+      "occurrences": 4,
+      "evidence": [
+        {
+          "kind": "process",
+          "name": "bring",
+          "key": "[\"bring\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/dou-sha-bao/dou-sha-bao.opensauce",
+          "line": 44,
+          "raw": "<bring, back the beans to simmering point during 1h30/2h. Drain when beans are easily squashable>",
+          "reference": true,
+          "lineText": "<bring, back the beans to simmering point during 1h30/2h. Drain when beans are easily squashable>"
+        },
+        {
+          "kind": "process",
+          "name": "bring",
+          "key": "[\"bring\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/eggs/eggs.opensauce",
+          "line": 30,
+          "raw": "<bring, water to boil (about enough to cover the eggs when submerged)>",
+          "reference": true,
+          "lineText": "<bring, water to boil (about enough to cover the eggs when submerged)>"
+        },
+        {
+          "kind": "process",
+          "name": "bring",
+          "key": "[\"bring\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/greek-yogurt/greek-yogurt.opensauce",
+          "line": 33,
+          "raw": "<bring, to 45°C (113°F)>",
+          "reference": true,
+          "lineText": "(milk) <bring, to 45°C (113°F)>"
+        }
+      ],
+      "compatibility": "No existing identity, spelling or recipe source removed."
+    },
+    {
+      "kind": "process",
+      "term": "oil",
+      "decision": "new",
+      "target": "oil",
+      "reason": "Specific application of oil, not cooking in oil.",
+      "existingContext": "Unresolved at baseline; compare related identities in reasoning.",
+      "occurrences": 4,
+      "evidence": [
+        {
+          "kind": "process",
+          "name": "oil",
+          "key": "[\"oil\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/french-crepes/french-crepes.opensauce",
+          "line": 44,
+          "raw": "<oil, with (oil, for pan), using (fabric)>",
+          "reference": true,
+          "lineText": "(pan) <oil, with (oil, for pan), using (fabric)>"
+        },
+        {
+          "kind": "process",
+          "name": "oil",
+          "key": "[\"oil\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/french-crepes/french-crepes.opensauce",
+          "line": 51,
+          "raw": "<oil, with (oil, for pan), using (fabric), frequently>",
+          "reference": true,
+          "lineText": "    (pan) <oil, with (oil, for pan), using (fabric), frequently>"
+        },
+        {
+          "kind": "process",
+          "name": "oil",
+          "key": "[\"oil\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/ginataang-kalabasa/ginataang-kalabasa.opensauce",
+          "line": 43,
+          "raw": "<oil, with (oil)>",
+          "reference": true,
+          "lineText": "(stock pot) <oil, with (oil)>"
+        }
+      ],
+      "compatibility": "No existing identity, spelling or recipe source removed."
+    },
+    {
+      "kind": "process",
+      "term": "sieve",
+      "decision": "new",
+      "target": "sieve",
+      "reason": "Sieve powders or liquids; not equating all straining or sifting operations.",
+      "existingContext": "Unresolved at baseline; compare related identities in reasoning.",
+      "occurrences": 4,
+      "evidence": [
+        {
+          "kind": "process",
+          "name": "sieve",
+          "key": "[\"sieve\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/garam-masala/garam-masala.opensauce",
+          "line": 63,
+          "raw": "<sieve, with (sieve)>",
+          "reference": true,
+          "lineText": "{powder} <sieve, with (sieve)>"
+        },
+        {
+          "kind": "process",
+          "name": "sieve",
+          "key": "[\"sieve\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/indian-tea/indian-tea.opensauce",
+          "line": 47,
+          "raw": "<sieve, using (sieve)>",
+          "reference": true,
+          "lineText": "        {tea} <sieve, using (sieve)>"
+        },
+        {
+          "kind": "process",
+          "name": "sieve",
+          "key": "[\"sieve\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/quiche/quiche.opensauce",
+          "line": 48,
+          "raw": "<sieve, using (sieve)>",
+          "reference": true,
+          "lineText": "(flour, full sight; for dough) <sieve, using (sieve)>"
+        }
+      ],
+      "compatibility": "No existing identity, spelling or recipe source removed."
+    },
+    {
+      "kind": "process",
+      "term": "juice",
+      "decision": "new",
+      "target": "juice",
+      "reason": "Extract produce juice; not peel-oil expression.",
+      "existingContext": "Unresolved at baseline; compare related identities in reasoning.",
+      "occurrences": 4,
+      "evidence": [
+        {
+          "kind": "process",
+          "name": "juice",
+          "key": "[\"juice\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/italian-mulled-wine/italian-mulled-wine.opensauce",
+          "line": 56,
+          "raw": "<juice>",
+          "reference": true,
+          "lineText": "    <juice>"
+        },
+        {
+          "kind": "process",
+          "name": "juice",
+          "key": "[\"juice\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/ravioli/ravioli.opensauce",
+          "line": 107,
+          "raw": "<juice, into (bowl)>",
+          "reference": true,
+          "lineText": "    (lemon, for cheese filling) <juice, into (bowl)>"
+        },
+        {
+          "kind": "process",
+          "name": "juice",
+          "key": "[\"juice\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/turkish-style-spiced-chicken/turkish-style-spiced-chicken.opensauce",
+          "line": 93,
+          "raw": "<juice>",
+          "reference": true,
+          "lineText": "                <juice>"
+        }
+      ],
+      "compatibility": "No existing identity, spelling or recipe source removed."
+    },
+    {
+      "kind": "process",
+      "term": "dunk",
+      "decision": "alias",
+      "target": "dip",
+      "reason": "Brief immersion/coating in observed usage; no separate concept needed.",
+      "existingContext": "Unresolved at baseline; compare related identities in reasoning.",
+      "occurrences": 4,
+      "evidence": [
+        {
+          "kind": "process",
+          "name": "dunk",
+          "key": "[\"dunk\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/nashville-chicken/nashville-chicken.opensauce",
+          "line": 65,
+          "raw": "<dunk, into the flour mixture>",
+          "reference": true,
+          "lineText": "(chicken) <dunk, into the flour mixture>"
+        },
+        {
+          "kind": "process",
+          "name": "dunk",
+          "key": "[\"dunk\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/nashville-chicken/nashville-chicken.opensauce",
+          "line": 66,
+          "raw": "<dunk, into the batter>",
+          "reference": true,
+          "lineText": "    <dunk, into the batter>"
+        },
+        {
+          "kind": "process",
+          "name": "dunk",
+          "key": "[\"dunk\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/nashville-chicken/nashville-chicken.opensauce",
+          "line": 67,
+          "raw": "<dunk, into the flour mixture again>",
+          "reference": true,
+          "lineText": "    <dunk, into the flour mixture again>"
+        }
+      ],
+      "compatibility": "No existing identity, spelling or recipe source removed."
+    },
+    {
+      "kind": "process",
+      "term": "flour",
+      "decision": "new",
+      "target": "flour",
+      "reason": "Apply flour to food or surfaces; material-specific action.",
+      "existingContext": "Unresolved at baseline; compare related identities in reasoning.",
+      "occurrences": 3,
+      "evidence": [
+        {
+          "kind": "process",
+          "name": "flour",
+          "key": "[\"flour\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/batter-pudding/batter-pudding.opensauce",
+          "line": 40,
+          "raw": "<flour, with (flour, for cloth)>",
+          "reference": true,
+          "lineText": "    <flour, with (flour, for cloth)>"
+        },
+        {
+          "kind": "process",
+          "name": "flour",
+          "key": "[\"flour\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/gnocchi/gnocchi.opensauce",
+          "line": 52,
+          "raw": "<flour, with (flour)>",
+          "reference": true,
+          "lineText": "(work surface) <flour, with (flour)>"
+        },
+        {
+          "kind": "process",
+          "name": "flour",
+          "key": "[\"flour\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/tarta-de-santiago/tarta-de-santiago.opensauce",
+          "line": 50,
+          "raw": "<flour, with (flour)>",
+          "reference": true,
+          "lineText": "    <flour, with (flour)>"
+        }
+      ],
+      "compatibility": "No existing identity, spelling or recipe source removed."
+    },
+    {
+      "kind": "process",
+      "term": "push",
+      "decision": "new",
+      "target": "push",
+      "reason": "Directional movement, non-reference.",
+      "existingContext": "Unresolved at baseline; compare related identities in reasoning.",
+      "occurrences": 3,
+      "evidence": [
+        {
+          "kind": "process",
+          "name": "push",
+          "key": "[\"push\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/beef-and-broccoli/beef-and-broccoli.opensauce",
+          "line": 49,
+          "raw": "<push, to sides of (pan)>",
+          "reference": true,
+          "lineText": "    <push, to sides of (pan)>"
+        },
+        {
+          "kind": "process",
+          "name": "push",
+          "key": "[\"push\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/full-english-breakfast/full-english-breakfast.opensauce",
+          "line": 61,
+          "raw": "<push, to the side of the pan>",
+          "reference": true,
+          "lineText": "        <push, to the side of the pan>"
+        },
+        {
+          "kind": "process",
+          "name": "push",
+          "key": "[\"push\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/grilled-mackerel-with-miso-soup-and-squash/grilled-mackerel-with-miso-soup-and-squash.opensauce",
+          "line": 61,
+          "raw": "<push, to one side of the pan>",
+          "reference": true,
+          "lineText": "    <push, to one side of the pan>"
+        }
+      ],
+      "compatibility": "No existing identity, spelling or recipe source removed."
+    },
+    {
+      "kind": "process",
+      "term": "prick",
+      "decision": "alias",
+      "target": "pierce",
+      "reason": "Make holes, with tool/depth in parameters; no new technique ID.",
+      "existingContext": "Unresolved at baseline; compare related identities in reasoning.",
+      "occurrences": 3,
+      "evidence": [
+        {
+          "kind": "process",
+          "name": "prick",
+          "key": "[\"prick\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/butter-biscuits/butter-biscuits.opensauce",
+          "line": 51,
+          "raw": "<prick, with (fork)>",
+          "reference": true,
+          "lineText": "    <prick, with (fork)>"
+        },
+        {
+          "kind": "process",
+          "name": "prick",
+          "key": "[\"prick\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/mazurek/mazurek.opensauce",
+          "line": 56,
+          "raw": "<prick, small holes, using (fork)>",
+          "reference": true,
+          "lineText": "    <prick, small holes, using (fork)>"
+        },
+        {
+          "kind": "process",
+          "name": "prick",
+          "key": "[\"prick\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/quiche/quiche.opensauce",
+          "line": 60,
+          "raw": "<prick, using (fork); for heat penetration>",
+          "reference": true,
+          "lineText": "    <prick, using (fork); for heat penetration>"
+        }
+      ],
+      "compatibility": "No existing identity, spelling or recipe source removed."
+    },
+    {
+      "kind": "process",
+      "term": "incise",
+      "decision": "deferred",
+      "target": null,
+      "reason": "Specific incision versus generic cutting/scoring needs scoped review.",
+      "existingContext": "Unresolved at baseline; compare related identities in reasoning.",
+      "occurrences": 3,
+      "evidence": [
+        {
+          "kind": "process",
+          "name": "incise",
+          "key": "[\"incise\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/fried-anglerfish-fillet/fried-anglerfish-fillet.opensauce",
+          "line": 37,
+          "raw": "<incise, from the anus to between the two small fins under the head, with (knife)>",
+          "reference": true,
+          "lineText": "    <incise, from the anus to between the two small fins under the head, with (knife)>"
+        },
+        {
+          "kind": "process",
+          "name": "incise",
+          "key": "[\"incise\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/fried-anglerfish-fillet/fried-anglerfish-fillet.opensauce",
+          "line": 40,
+          "raw": "<incise, around the mouth's hard lips>",
+          "reference": true,
+          "lineText": "(anglerfish) <incise, around the mouth's hard lips>"
+        },
+        {
+          "kind": "process",
+          "name": "incise",
+          "key": "[\"incise\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/fried-anglerfish-fillet/fried-anglerfish-fillet.opensauce",
+          "line": 42,
+          "raw": "<incise, around the other side of the mouth>",
+          "reference": true,
+          "lineText": "    <incise, around the other side of the mouth>"
+        }
+      ],
+      "compatibility": "No existing identity, spelling or recipe source removed."
+    },
+    {
+      "kind": "process",
+      "term": "squirt",
+      "decision": "deferred",
+      "target": null,
+      "reason": "Dispensing differs from drizzling and pouring; defer a new ordinary-action decision.",
+      "existingContext": "Unresolved at baseline; compare related identities in reasoning.",
+      "occurrences": 3,
+      "evidence": [
+        {
+          "kind": "process",
+          "name": "squirt",
+          "key": "[\"squirt\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/okonomiyaki/okonomiyaki.opensauce",
+          "line": 64,
+          "raw": "<squirt, using (squirt bottles), over the top in a zig-zag pattern>",
+          "reference": true,
+          "lineText": "(tonkatsu sauce) <squirt, using (squirt bottles), over the top in a zig-zag pattern>"
+        },
+        {
+          "kind": "process",
+          "name": "squirt",
+          "key": "[\"squirt\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/okonomiyaki/okonomiyaki.opensauce",
+          "line": 65,
+          "raw": "<squirt, using (squirt bottles), over the top in a zig-zag pattern>",
+          "reference": true,
+          "lineText": "(mayonnaise) <squirt, using (squirt bottles), over the top in a zig-zag pattern>"
+        },
+        {
+          "kind": "process",
+          "name": "squirt",
+          "key": "[\"squirt\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/okonomiyaki/okonomiyaki.opensauce",
+          "line": 66,
+          "raw": "<squirt, using (squirt bottles), over the top in a zig-zag pattern>",
+          "reference": true,
+          "lineText": "(sriracha) <squirt, using (squirt bottles), over the top in a zig-zag pattern>"
+        }
+      ],
+      "compatibility": "No existing identity, spelling or recipe source removed."
+    },
+    {
+      "kind": "process",
+      "term": "bubble",
+      "decision": "deferred",
+      "target": null,
+      "reason": "Observation of activity does not uniquely establish boil or simmer.",
+      "existingContext": "Unresolved at baseline; compare related identities in reasoning.",
+      "occurrences": 2,
+      "evidence": [
+        {
+          "kind": "process",
+          "name": "bubble",
+          "key": "[\"bubble\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/asian-style-chicken-sticky-sauce/asian-style-chicken-sticky-sauce.opensauce",
+          "line": 65,
+          "raw": "<bubble, 1–2m>",
+          "reference": true,
+          "lineText": "{sauce} <bubble, 1–2m>"
+        },
+        {
+          "kind": "process",
+          "name": "bubble",
+          "key": "[\"bubble\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/babas-feta-pasta/babas-feta-pasta.opensauce",
+          "line": 87,
+          "raw": "<bubble, 5m>",
+          "reference": true,
+          "lineText": "    <bubble, 5m>"
+        }
+      ],
+      "compatibility": "No existing identity, spelling or recipe source removed."
+    },
+    {
+      "kind": "process",
+      "term": "split",
+      "decision": "deferred",
+      "target": null,
+      "reason": "Could mean cutting, tearing, separation or emulsion failure.",
+      "existingContext": "Unresolved at baseline; compare related identities in reasoning.",
+      "occurrences": 2,
+      "evidence": [
+        {
+          "kind": "process",
+          "name": "split",
+          "key": "[\"split\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/aussie-snags/aussie-snags.opensauce",
+          "line": 52,
+          "raw": "<split>",
+          "reference": true,
+          "lineText": "    (sausages) <split>"
+        },
+        {
+          "kind": "process",
+          "name": "split",
+          "key": "[\"split\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/italian-bread/italian-bread.opensauce",
+          "line": 47,
+          "raw": "<split, in half>",
+          "reference": true,
+          "lineText": "    <split, in half>"
+        }
+      ],
+      "compatibility": "No existing identity, spelling or recipe source removed."
+    },
+    {
+      "kind": "process",
+      "term": "eat",
+      "decision": "new",
+      "target": "eat",
+      "reason": "Consumption instruction, non-reference and low completion priority.",
+      "existingContext": "Unresolved at baseline; compare related identities in reasoning.",
+      "occurrences": 2,
+      "evidence": [
+        {
+          "kind": "process",
+          "name": "eat",
+          "key": "[\"eat\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/brigadeiro/brigadeiro.opensauce",
+          "line": 38,
+          "raw": "<eat, with (spoon)>",
+          "reference": true,
+          "lineText": "    {brigadeiro} <eat, with (spoon)>"
+        },
+        {
+          "kind": "process",
+          "name": "eat",
+          "key": "[\"eat\",\"\",[]]",
+          "resolved": false,
+          "id": null,
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/caesar-salad/caesar-salad.opensauce",
+          "line": 39,
+          "raw": "<eat, with hands>",
+          "reference": true,
+          "lineText": "{salad} <eat, with hands>"
+        }
+      ],
+      "compatibility": "No existing identity, spelling or recipe source removed."
+    },
+    {
+      "kind": "process",
+      "term": "feed",
+      "decision": "suppress-page",
+      "target": "feed",
+      "existingContext": "Previously page eligible; ID and names retained.",
+      "reason": "Generic handling or retention instruction; no coherent standalone culinary technique.",
+      "evidence": [
+        {
+          "kind": "process",
+          "name": "feed",
+          "key": "[\"feed\",\"\",[]]",
+          "resolved": true,
+          "id": "feed",
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/sourdough-bread-with-seeds-and-grains/sourdough-bread-with-seeds-and-grains.opensauce",
+          "line": 43,
+          "raw": "<feed, for next day, feeding amounts not supplied>",
+          "reference": true
+        },
+        {
+          "kind": "process",
+          "name": "feed",
+          "key": "[\"feed\",\"\",[]]",
+          "resolved": true,
+          "id": "feed",
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/sourdough-starter/sourdough-starter.opensauce",
+          "line": 41,
+          "raw": "<feed>",
+          "reference": true
+        },
+        {
+          "kind": "process",
+          "name": "feed",
+          "key": "[\"feed\",\"\",[]]",
+          "resolved": true,
+          "id": "feed",
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/sourdough-starter/sourdough-starter.opensauce",
+          "line": 44,
+          "raw": "<feed>",
+          "reference": true
+        }
+      ],
+      "compatibility": "Existing URL retained as noindex explanatory landing page through shared compatibility list."
+    },
+    {
+      "kind": "process",
+      "term": "retain",
+      "decision": "suppress-page",
+      "target": "retain",
+      "existingContext": "Previously page eligible; ID and names retained.",
+      "reason": "Generic handling or retention instruction; no coherent standalone culinary technique.",
+      "evidence": [],
+      "compatibility": "Existing URL retained as noindex explanatory landing page through shared compatibility list."
+    },
+    {
+      "kind": "process",
+      "term": "chop or shred",
+      "decision": "suppress-page",
+      "target": "chop-or-shred",
+      "existingContext": "Previously page eligible; ID and names retained.",
+      "reason": "Alternative operations are not a single coherent technique; retain valid action head.",
+      "evidence": [
+        {
+          "kind": "process",
+          "name": "chop or shred",
+          "key": "[\"chop or shred\",\"\",[]]",
+          "resolved": true,
+          "id": "chop-or-shred",
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/sauerkraut/sauerkraut.opensauce",
+          "line": 33,
+          "raw": "<chop or shred>",
+          "reference": true
+        }
+      ],
+      "compatibility": "Existing URL retained as noindex explanatory landing page through shared compatibility list."
+    },
+    {
+      "kind": "process",
+      "term": "grate or slice",
+      "decision": "suppress-page",
+      "target": "grate-or-slice",
+      "existingContext": "Previously page eligible; ID and names retained.",
+      "reason": "Alternative operations are not a single coherent technique; retain valid action head.",
+      "evidence": [
+        {
+          "kind": "process",
+          "name": "grate or slice",
+          "key": "[\"grate or slice\",\"\",[]]",
+          "resolved": true,
+          "id": "grate-or-slice",
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/ukrainian-borscht/ukrainian-borscht.opensauce",
+          "line": 48,
+          "raw": "<grate or slice>",
+          "reference": true
+        }
+      ],
+      "compatibility": "Existing URL retained as noindex explanatory landing page through shared compatibility list."
+    },
+    {
+      "kind": "process",
+      "term": "scrape or break",
+      "decision": "suppress-page",
+      "target": "scrape-or-break",
+      "existingContext": "Previously page eligible; ID and names retained.",
+      "reason": "Alternative operations are not a single coherent technique; retain valid action head.",
+      "evidence": [
+        {
+          "kind": "process",
+          "name": "scrape or break",
+          "key": "[\"scrape or break\",\"\",[]]",
+          "resolved": true,
+          "id": "scrape-or-break",
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/granita/granita.opensauce",
+          "line": 53,
+          "raw": "<scrape or break, spoon or fork if frozen into block>",
+          "reference": true
+        }
+      ],
+      "compatibility": "Existing URL retained as noindex explanatory landing page through shared compatibility list."
+    },
+    {
+      "kind": "equipment",
+      "term": "plate",
+      "decision": "category",
+      "target": "plate",
+      "existingContext": "Uncategorised after Batch 1.",
+      "reason": "Tableware must not imply bakeware safety.",
+      "category": "tableware-and-serving",
+      "evidence": [
+        {
+          "kind": "equipment",
+          "name": "plate",
+          "key": "[\"plate\",\"\",[]]",
+          "resolved": true,
+          "id": "plate",
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/banana-pancakes/banana-pancakes.opensauce",
+          "line": 37,
+          "raw": "(plate)",
+          "reference": true
+        },
+        {
+          "kind": "equipment",
+          "name": "plate",
+          "key": "[\"plate\",\"\",[]]",
+          "resolved": true,
+          "id": "plate",
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/banana-pancakes/banana-pancakes.opensauce",
+          "line": 56,
+          "raw": "(plate)",
+          "reference": true
+        },
+        {
+          "kind": "equipment",
+          "name": "plate",
+          "key": "[\"plate\",\"\",[]]",
+          "resolved": true,
+          "id": "plate",
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/beef-wellington/beef-wellington.opensauce",
+          "line": 38,
+          "raw": "(plate)",
+          "reference": true
+        }
+      ],
+      "compatibility": "Identity and URL unchanged."
+    },
+    {
+      "kind": "equipment",
+      "term": "soup-plate",
+      "decision": "category",
+      "target": "soup-plate",
+      "existingContext": "Uncategorised after Batch 1.",
+      "reason": "Serving vessel, not storage-only or cookware.",
+      "category": "tableware-and-serving",
+      "evidence": [
+        {
+          "kind": "equipment",
+          "name": "soup-plate",
+          "key": "[\"soup-plate\",\"\",[]]",
+          "resolved": true,
+          "id": "soup-plate",
+          "alias": true,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/cocoanut-pudding/cocoanut-pudding.opensauce",
+          "line": 32,
+          "raw": "(soup-plate)",
+          "reference": true
+        },
+        {
+          "kind": "equipment",
+          "name": "soup plate",
+          "key": "[\"soup plate\",\"\",[]]",
+          "resolved": true,
+          "id": "soup-plate",
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/gooseberry-pudding/gooseberry-pudding.opensauce",
+          "line": 29,
+          "raw": "(soup plate)",
+          "reference": true
+        },
+        {
+          "kind": "equipment",
+          "name": "soup-plate",
+          "key": "[\"soup-plate\",\"\",[]]",
+          "resolved": true,
+          "id": "soup-plate",
+          "alias": true,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/lemon-pudding/lemon-pudding.opensauce",
+          "line": 41,
+          "raw": "(soup-plate)",
+          "reference": true
+        }
+      ],
+      "compatibility": "Identity and URL unchanged."
+    },
+    {
+      "kind": "equipment",
+      "term": "cooking-wood",
+      "decision": "category",
+      "target": "cooking-wood",
+      "existingContext": "Uncategorised after Batch 1.",
+      "reason": "Fuel/smoke material, not an edible ingredient or appliance.",
+      "category": "fuel-and-smoking-materials",
+      "evidence": [
+        {
+          "kind": "equipment",
+          "name": "cooking wood",
+          "key": "[\"cooking wood\",\"\",[]]",
+          "resolved": true,
+          "id": "cooking-wood",
+          "alias": false,
+          "aliasOnly": false,
+          "file": "examples/public-domain-recipes/baby-back-ribs/baby-back-ribs.opensauce",
+          "line": 29,
+          "raw": "(cooking wood, applewood or sweet cherry or maple)",
+          "reference": true
+        }
+      ],
+      "compatibility": "Identity and URL unchanged."
+    }
+  ],
+  "implemented": {
+    "additions": [
+      {
+        "kind": "equipment",
+        "id": "cup",
+        "name": "cup",
+        "definition": "A small open vessel for drinking or holding ingredients; not a calibrated measuring cup.",
+        "reference": true
+      },
+      {
+        "kind": "equipment",
+        "id": "cauldron",
+        "name": "cauldron",
+        "definition": "A large rounded cooking pot, traditionally used over a fire; no specific regional vessel equivalence is asserted.",
+        "reference": true
+      },
+      {
+        "kind": "equipment",
+        "id": "clay-casserole",
+        "name": "clay casserole",
+        "definition": "A casserole vessel made of clay. Heat-source suitability depends on the particular vessel; clay does not imply stovetop safety.",
+        "reference": true
+      },
+      {
+        "kind": "equipment",
+        "id": "work-surface",
+        "name": "work surface",
+        "definition": "A surface used for preparing food or working dough; does not identify a particular board, table or material.",
+        "reference": true
+      },
+      {
+        "kind": "equipment",
+        "id": "stove",
+        "name": "stove",
+        "definition": "A kitchen cooking appliance providing heat to cookware; no equivalence to an oven or a specific fuel is implied.",
+        "reference": true
+      },
+      {
+        "kind": "equipment",
+        "id": "teaspoon",
+        "name": "teaspoon",
+        "definition": "A small spoon for stirring, serving or handling food. Not a calibrated measuring spoon or a unit definition.",
+        "reference": true
+      },
+      {
+        "kind": "equipment",
+        "id": "squeeze-bottle",
+        "name": "squeeze bottle",
+        "definition": "A squeezable bottle with a dispensing opening for applying sauces or other liquids.",
+        "reference": true
+      },
+      {
+        "kind": "equipment",
+        "id": "mixing-bowl",
+        "name": "mixing bowl",
+        "definition": "A bowl used for combining ingredients, without any implied material or heat resistance.",
+        "reference": true
+      },
+      {
+        "kind": "equipment",
+        "id": "microwave-oven",
+        "name": "microwave oven",
+        "definition": "An appliance that heats food using microwave energy; distinct from the microwave process. ",
+        "reference": true
+      },
+      {
+        "kind": "equipment",
+        "id": "platter",
+        "name": "platter",
+        "definition": "A broad serving dish for presenting food; not implicitly oven-safe.",
+        "reference": true
+      },
+      {
+        "kind": "process",
+        "id": "return",
+        "name": "return",
+        "definition": "Move something back to a previous place or vessel; not a cooking technique.",
+        "reference": false
+      },
+      {
+        "kind": "process",
+        "id": "enjoy",
+        "name": "enjoy",
+        "definition": "A conventional invitation to enjoy the finished food; not a transformation.",
+        "reference": false
+      },
+      {
+        "kind": "process",
+        "id": "push",
+        "name": "push",
+        "definition": "Move by applying pressure in the specified direction; not a defined cooking technique.",
+        "reference": false
+      },
+      {
+        "kind": "process",
+        "id": "eat",
+        "name": "eat",
+        "definition": "Consume the food; an ordinary action, not a preparation technique.",
+        "reference": false
+      },
+      {
+        "kind": "process",
+        "id": "roll-out",
+        "name": "roll out",
+        "definition": "Flatten dough or pastry into a sheet by rolling. Distinct from rolling into a log or coating by rolling.",
+        "reference": true
+      },
+      {
+        "kind": "process",
+        "id": "butter",
+        "name": "butter",
+        "definition": "Apply butter to food or a vessel surface. Retains the specific coating material rather than aliasing all greasing.",
+        "reference": true
+      },
+      {
+        "kind": "process",
+        "id": "oil",
+        "name": "oil",
+        "definition": "Apply oil to food or an equipment surface. Does not imply frying or a particular oil.",
+        "reference": true
+      },
+      {
+        "kind": "process",
+        "id": "flour",
+        "name": "flour",
+        "definition": "Apply flour to food or a working surface; distinct from generic dusting with any powder.",
+        "reference": true
+      },
+      {
+        "kind": "process",
+        "id": "pat-dry",
+        "name": "pat dry",
+        "definition": "Remove surface moisture by gentle contact with an absorbent material; not dehydration or generic patting.",
+        "reference": true
+      },
+      {
+        "kind": "process",
+        "id": "juice",
+        "name": "juice",
+        "definition": "Extract juice from produce; distinct from expressing aromatic peel oil.",
+        "reference": true
+      },
+      {
+        "kind": "process",
+        "id": "sieve",
+        "name": "sieve",
+        "definition": "Pass material through a sieve to separate particles; may concern dry powders or liquids, without equating every straining method.",
+        "reference": true
+      }
+    ],
+    "changes": [
+      {
+        "kind": "equipment",
+        "id": "baking-dish",
+        "patch": {
+          "aliases": [
+            "oven dish"
+          ]
+        }
+      },
+      {
+        "kind": "equipment",
+        "id": "metal-griddle",
+        "patch": {
+          "aliases": [
+            "griddle"
+          ]
+        }
+      },
+      {
+        "kind": "equipment",
+        "id": "plate",
+        "patch": {
+          "plural_names": {
+            "en": "plates"
+          },
+          "categories": [
+            "tableware-and-serving"
+          ]
+        }
+      },
+      {
+        "kind": "equipment",
+        "id": "pan",
+        "patch": {
+          "plural_names": {
+            "en": "pans"
+          }
+        }
+      },
+      {
+        "kind": "equipment",
+        "id": "soup-plate",
+        "patch": {
+          "categories": [
+            "tableware-and-serving"
+          ]
+        }
+      },
+      {
+        "kind": "equipment",
+        "id": "cooking-wood",
+        "patch": {
+          "categories": [
+            "fuel-and-smoking-materials"
+          ]
+        }
+      },
+      {
+        "kind": "process",
+        "id": "place",
+        "patch": {
+          "aliases": [
+            "put"
+          ]
+        }
+      },
+      {
+        "kind": "process",
+        "id": "break",
+        "patch": {
+          "aliases": [
+            "break up"
+          ]
+        }
+      },
+      {
+        "kind": "process",
+        "id": "dip",
+        "patch": {
+          "aliases": [
+            "dunk"
+          ]
+        }
+      },
+      {
+        "kind": "process",
+        "id": "pierce",
+        "patch": {
+          "aliases": [
+            "prick"
+          ]
+        }
+      },
+      {
+        "kind": "process",
+        "id": "feed",
+        "patch": {
+          "reference": false
+        }
+      },
+      {
+        "kind": "process",
+        "id": "retain",
+        "patch": {
+          "reference": false
+        }
+      },
+      {
+        "kind": "process",
+        "id": "chop-or-shred",
+        "patch": {
+          "reference": false
+        }
+      },
+      {
+        "kind": "process",
+        "id": "grate-or-slice",
+        "patch": {
+          "reference": false
+        }
+      },
+      {
+        "kind": "process",
+        "id": "scrape-or-break",
+        "patch": {
+          "reference": false
+        }
+      }
+    ],
+    "suppressed": [
+      "feed",
+      "retain",
+      "chop-or-shred",
+      "grate-or-slice",
+      "scrape-or-break"
+    ]
+  }
+}

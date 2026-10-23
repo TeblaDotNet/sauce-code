@@ -9,16 +9,21 @@ evidence:
   current_observation_count: 2
   legacy_observation_count: 0
   observed_terms:
-  - term: dip
-    count: 2
+    - term: dip
+      count: 2
   seen_in:
-  - examples/public-domain-recipes/french-toast/french-toast.opensauce
+    - examples/public-domain-recipes/french-toast/french-toast.opensauce
 observed_parameters:
-- value: cover entire surface
-  count: 1
-- value: one side into egg mixture
-  count: 1
-- value: other side
-  count: 1
+  - value: cover entire surface
+    count: 1
+  - value: one side into egg mixture
+    count: 1
+  - value: other side
+    count: 1
 categories:
   - coating-and-breading
+aliases:
+  - dunk
+curation:
+  origin: generated
+  review: unchecked

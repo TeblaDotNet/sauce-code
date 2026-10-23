@@ -121,7 +121,7 @@ test('known generic actions retain IDs, red styling and Compact wording but no l
 test('put and unknown actions remain legal, red and unlinked; culinary techniques still have reference pages', () => {
   for (const verb of ['put', 'unknown-action']) {
     const { recipe, nodes } = instructions('(onion) <' + verb + '>');
-    assert.equal(nodes[0].tokens.find(t => t.kind === 'process')!.canonicalId, undefined);
+    assert.equal(nodes[0].tokens.find(t => t.kind === 'process')!.canonicalId, verb === 'put' ? 'place' : undefined);
     assert.ok(!recipe.diagnostics.some(d => d.severity === 'error'));
     const html = renderHtml(recipe, { syntaxSpans: true, referenceUrl });
     assert.ok(html.includes('<span class="os-syntax-process">' + verb + '</span>'));

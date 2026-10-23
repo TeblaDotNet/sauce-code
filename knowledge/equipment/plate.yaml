@@ -9,14 +9,21 @@ evidence:
   current_observation_count: 5
   legacy_observation_count: 0
   observed_terms:
-  - term: plate
-    count: 5
+    - term: plate
+      count: 5
   seen_in:
-  - examples/public-domain-recipes/beef-wellington/beef-wellington.opensauce
-  - examples/public-domain-recipes/desert-roses/desert-roses.opensauce
-  - examples/public-domain-recipes/pulpo-gallega/pulpo-gallega.opensauce
-  - examples/public-domain-recipes/spanish-tortilla/spanish-tortilla.opensauce
-  - examples/public-domain-recipes/tofu-stir-fry/tofu-stir-fry.opensauce
+    - examples/public-domain-recipes/beef-wellington/beef-wellington.opensauce
+    - examples/public-domain-recipes/desert-roses/desert-roses.opensauce
+    - examples/public-domain-recipes/pulpo-gallega/pulpo-gallega.opensauce
+    - examples/public-domain-recipes/spanish-tortilla/spanish-tortilla.opensauce
+    - examples/public-domain-recipes/tofu-stir-fry/tofu-stir-fry.opensauce
 observed_qualifiers:
-- value: large
-  count: 1
+  - value: large
+    count: 1
+plural_names:
+  en: plates
+categories:
+  - tableware-and-serving
+curation:
+  origin: generated
+  review: unchecked

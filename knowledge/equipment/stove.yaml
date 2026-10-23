@@ -1,0 +1,17 @@
+id: stove
+kind: equipment
+canonical_name: stove
+names:
+  en: stove
+plural_names:
+  en: stoves
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  definition: A kitchen cooking appliance providing heat to cookware; no
+    equivalence to an oven or a specific fuel is implied.
+  review_note: "Processes & Equipment v1: bounded generated review; see
+    docs/processes-equipment-v1-decisions.json for context and limitations."
+categories:
+  - appliances
