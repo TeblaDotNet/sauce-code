@@ -2597,6 +2597,21 @@
 - target:
     kind: ingredient
     id: black-pepper
+  hero:
+    asset: references/black-pepper.jpg
+    title: Black peppercorns gn.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Black_peppercorns_gn.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/b/b5/Black_peppercorns_gn.jpg
+    creator: Gnangcomapp
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    attribution_text: Black peppercorns gn.jpg — Gnangcomapp
+    alt: Black peppercorns in a sack with a scoop and market label.
+    reviewed_at: 2026-10-24
+    width: 720
+    height: 960
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Black peppercorns in a sack with a scoop and market label.
   review_version: 0.1
   editorial:
     - id: summary
@@ -2693,6 +2708,21 @@
 - target:
     kind: ingredient
     id: rice
+  hero:
+    asset: references/rice.jpg
+    title: Long grain rice.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Long_grain_rice.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/e/e2/Long_grain_rice.jpg
+    creator: Gaurav Dhwaj Khadka
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    attribution_text: Long grain rice.jpg — Gaurav Dhwaj Khadka
+    alt: Uncooked long-grain white rice.
+    reviewed_at: 2026-10-24
+    width: 720
+    height: 960
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Uncooked long-grain white rice.
   review_version: 0.1
   editorial:
     - id: summary
@@ -2724,6 +2754,21 @@
 - target:
     kind: ingredient
     id: oats
+  hero:
+    asset: references/oats.jpg
+    title: Rolled oats.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Rolled_oats.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/9/97/Rolled_oats.jpg
+    creator: en:user:Hankwang
+    licence: Public domain
+    licence_url: https://commons.wikimedia.org/wiki/File:Rolled_oats.jpg#Licensing
+    attribution_text: Rolled oats.jpg — en:user:Hankwang
+    alt: Rolled oats piled in a spoon.
+    reviewed_at: 2026-10-24
+    width: 695
+    height: 451
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Rolled oats piled in a spoon.
   review_version: 0.1
   editorial:
     - id: summary
@@ -2755,6 +2800,21 @@
 - target:
     kind: ingredient
     id: lentils
+  hero:
+    asset: references/lentils.jpg
+    title: 3 types of lentil.png
+    source_page: https://commons.wikimedia.org/wiki/File:3_types_of_lentil.png
+    source_file: https://upload.wikimedia.org/wikipedia/commons/f/f5/3_types_of_lentil.png
+    creator: User:Justinc
+    licence: CC BY-SA 2.5
+    licence_url: https://creativecommons.org/licenses/by-sa/2.5
+    attribution_text: 3 types of lentil.png — User:Justinc
+    alt: Three groups of dried lentils in contrasting colours.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 550
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed. Transparency composited on white.
+    caption: Three groups of dried lentils in contrasting colours.
   review_version: 0.1
   editorial:
     - id: summary
@@ -2786,6 +2846,21 @@
 - target:
     kind: ingredient
     id: milk
+  hero:
+    asset: references/milk.jpg
+    title: Glass of Milk (33657535532).jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Glass_of_Milk_(33657535532).jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/a/a5/Glass_of_Milk_%2833657535532%29.jpg
+    creator: NIAID
+    licence: CC BY 2.0
+    licence_url: https://creativecommons.org/licenses/by/2.0
+    attribution_text: Glass of Milk (33657535532).jpg — NIAID
+    alt: A glass of milk against a blue background.
+    reviewed_at: 2026-10-24
+    width: 958
+    height: 960
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A glass of milk against a blue background.
   review_version: 0.1
   editorial:
     - id: summary
@@ -2817,6 +2892,21 @@
 - target:
     kind: ingredient
     id: cream
+  hero:
+    asset: references/cream.jpg
+    title: Cream Drop.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Cream_Drop.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/8/80/Cream_Drop.jpg
+    creator: Kyle May
+    licence: CC BY 2.0
+    licence_url: https://creativecommons.org/licenses/by/2.0
+    attribution_text: Cream Drop.jpg — Kyle May
+    alt: Cream splashing in a clear glass against a dark background.
+    reviewed_at: 2026-10-24
+    width: 643
+    height: 960
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Cream splashing in a clear glass against a dark background.
   review_version: 0.1
   editorial:
     - id: summary
@@ -2848,6 +2938,21 @@
 - target:
     kind: ingredient
     id: yoghurt
+  hero:
+    asset: references/yoghurt.jpg
+    title: Joghurt.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Joghurt.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/b/b8/Joghurt.jpg
+    creator: No machine-readable author provided. Rainer Zenz assumed (based on copyright claims).
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0/
+    attribution_text: Joghurt.jpg — No machine-readable author provided. Rainer Zenz assumed (based on copyright claims).
+    alt: Plain white yoghurt on a plate.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 806
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Plain white yoghurt on a plate.
   review_version: 0.1
   editorial:
     - id: summary
@@ -2879,6 +2984,21 @@
 - target:
     kind: ingredient
     id: parmesan-cheese
+  hero:
+    asset: references/parmesan-cheese.jpg
+    title: Parmigiano Reggiano, Italien, Europäische Union.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Parmigiano_Reggiano,_Italien,_Europ%C3%A4ische_Union.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/d/d1/Parmigiano_Reggiano%2C_Italien%2C_Europ%C3%A4ische_Union.jpg
+    creator: Naturpuur
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    attribution_text: Parmigiano Reggiano, Italien, Europäische Union.jpg — Naturpuur
+    alt: A wedge of Parmigiano Reggiano displayed on a cheese wheel.
+    reviewed_at: 2026-10-24
+    width: 934
+    height: 960
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A wedge of Parmigiano Reggiano displayed on a cheese wheel.
   review_version: 0.1
   editorial:
     - id: summary
@@ -2941,6 +3061,21 @@
 - target:
     kind: ingredient
     id: tofu
+  hero:
+    asset: references/tofu.jpg
+    title: Japanese SilkyTofu (Kinugoshi Tofu).JPG
+    source_page: https://commons.wikimedia.org/wiki/File:Japanese_SilkyTofu_(Kinugoshi_Tofu).JPG
+    source_file: https://upload.wikimedia.org/wikipedia/commons/0/03/Japanese_SilkyTofu_%28Kinugoshi_Tofu%29.JPG
+    creator: DryPot
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0/
+    attribution_text: Japanese SilkyTofu (Kinugoshi Tofu).JPG — DryPot
+    alt: A rectangular block of silken tofu on a blue plate.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 820
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A rectangular block of silken tofu on a blue plate.
   review_version: 0.1
   editorial:
     - id: summary
@@ -3034,6 +3169,21 @@
 - target:
     kind: ingredient
     id: honey
+  hero:
+    asset: references/honey.jpg
+    title: Runny hunny.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Runny_hunny.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/c/cc/Runny_hunny.jpg
+    creator: Scott Bauer, USDA ARS
+    licence: Public domain
+    licence_url: https://commons.wikimedia.org/wiki/File:Runny_hunny.jpg#Licensing
+    attribution_text: Runny hunny.jpg — Scott Bauer, USDA ARS
+    alt: A jar of honey with a honey dipper.
+    reviewed_at: 2026-10-24
+    width: 633
+    height: 960
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A jar of honey with a honey dipper.
   review_version: 0.1
   editorial:
     - id: summary
@@ -3132,6 +3282,21 @@
 - target:
     kind: ingredient
     id: salmon
+  hero:
+    asset: references/salmon.jpg
+    title: Sockeye salmon fillets.png
+    source_page: https://commons.wikimedia.org/wiki/File:Sockeye_salmon_fillets.png
+    source_file: https://upload.wikimedia.org/wikipedia/commons/7/7a/Sockeye_salmon_fillets.png
+    creator: USFWS
+    licence: Public domain
+    licence_url: https://commons.wikimedia.org/wiki/File:Sockeye_salmon_fillets.png#Licensing
+    attribution_text: Sockeye salmon fillets.png — USFWS
+    alt: Sockeye salmon fillets hanging to dry.
+    reviewed_at: 2026-10-24
+    width: 771
+    height: 515
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed. Transparency composited on white.
+    caption: Sockeye salmon fillets hanging to dry.
   review_version: 0.1
   editorial:
     - id: summary
@@ -3245,6 +3410,21 @@
 - target:
     kind: ingredient
     id: miso
+  hero:
+    asset: references/miso.jpg
+    title: Miso 001.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Miso_001.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/3/3e/Miso_001.jpg
+    creator: https://publicdomainq.net/miso-0018849/
+    licence: CC0
+    licence_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+    attribution_text: Miso 001.jpg — https://publicdomainq.net/miso-0018849/
+    alt: A mound of miso paste in a white bowl.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 640
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A mound of miso paste in a white bowl.
   review_version: 0.1
   editorial:
     - id: summary
@@ -3401,6 +3581,21 @@
 - target:
     kind: ingredient
     id: cocoa-powder
+  hero:
+    asset: references/cocoa-powder.jpg
+    title: Cocoa powder.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Cocoa_powder.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/4/4d/Cocoa_powder.jpg
+    creator: blair
+    licence: CC BY-SA 2.0
+    licence_url: https://creativecommons.org/licenses/by-sa/2.0
+    attribution_text: Cocoa powder.jpg — blair
+    alt: Brown cocoa powder in a bowl.
+    reviewed_at: 2026-10-24
+    width: 720
+    height: 960
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Brown cocoa powder in a bowl.
   review_version: 0.1
   editorial:
     - id: summary
@@ -6111,6 +6306,21 @@
 - target:
     kind: ingredient
     id: blueberries
+  hero:
+    asset: references/blueberries.jpg
+    title: Blueberries.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Blueberries.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/1/15/Blueberries.jpg
+    creator: The original Uploader was Oven Fresh at English Wikipedia
+    licence: Public domain
+    licence_url: https://commons.wikimedia.org/wiki/File:Blueberries.jpg#Licensing
+    attribution_text: Blueberries.jpg — The original Uploader was Oven Fresh at English Wikipedia
+    alt: Blueberries growing on a bush.
+    reviewed_at: 2026-10-24
+    width: 640
+    height: 418
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Blueberries growing on a bush.
   review_version: 0.1
   editorial:
     - id: summary
@@ -6219,6 +6429,21 @@
 - target:
     kind: ingredient
     id: caraway
+  hero:
+    asset: references/caraway.jpg
+    title: Caraway Seed.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Caraway_Seed.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/a/a4/Caraway_Seed.jpg
+    creator: OttawaAC
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    attribution_text: Caraway Seed.jpg — OttawaAC
+    alt: Small brown caraway seeds on a pale background.
+    reviewed_at: 2026-10-24
+    width: 800
+    height: 600
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Small brown caraway seeds on a pale background.
   review_version: 0.1
   editorial:
     - id: summary
@@ -6247,6 +6472,21 @@
 - target:
     kind: ingredient
     id: chives
+  hero:
+    asset: references/chives.jpg
+    title: Chives (5822048347).jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Chives_(5822048347).jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/a/a9/Chives_%285822048347%29.jpg
+    creator: Ryan Snyder
+    licence: CC BY 2.0
+    licence_url: https://creativecommons.org/licenses/by/2.0
+    attribution_text: Chives (5822048347).jpg — Ryan Snyder
+    alt: Flowering chives with their narrow green leaves.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 540
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Flowering chives with their narrow green leaves.
   review_version: 0.1
   editorial:
     - id: summary
@@ -6269,6 +6509,21 @@
 - target:
     kind: ingredient
     id: bay-leaf
+  hero:
+    asset: references/bay-leaf.jpg
+    title: Bay Leaves.JPG
+    source_page: https://commons.wikimedia.org/wiki/File:Bay_Leaves.JPG
+    source_file: https://upload.wikimedia.org/wikipedia/commons/a/a8/Bay_Leaves.JPG
+    creator: Miansari66
+    licence: Public domain
+    licence_url: https://commons.wikimedia.org/wiki/File:Bay_Leaves.JPG#Licensing
+    attribution_text: Bay Leaves.JPG — Miansari66
+    alt: Dried bay leaves arranged in a fan.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 720
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Dried bay leaves arranged in a fan.
   review_version: 0.1
   editorial:
     - id: summary
@@ -6334,6 +6589,21 @@
 - target:
     kind: ingredient
     id: arugula
+  hero:
+    asset: references/arugula.jpg
+    title: Arugula (51107429934).jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Arugula_(51107429934).jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/b/bb/Arugula_%2851107429934%29.jpg
+    creator: Peter Burka
+    licence: CC BY-SA 2.0
+    licence_url: https://creativecommons.org/licenses/by-sa/2.0
+    attribution_text: Arugula (51107429934).jpg — Peter Burka
+    alt: A pile of fresh arugula leaves.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 641
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A pile of fresh arugula leaves.
   review_version: 0.1
   editorial:
     - id: summary
@@ -6356,6 +6626,21 @@
 - target:
     kind: ingredient
     id: allspice
+  hero:
+    asset: references/allspice.jpg
+    title: Allspice Berries (2426054523).jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Allspice_Berries_(2426054523).jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/e/e1/Allspice_Berries_%282426054523%29.jpg
+    creator: Ryan Snyder
+    licence: CC BY 2.0
+    licence_url: https://creativecommons.org/licenses/by/2.0
+    attribution_text: Allspice Berries (2426054523).jpg — Ryan Snyder
+    alt: Dried allspice berries on a pale surface.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 718
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Dried allspice berries on a pale surface.
   review_version: 0.1
   editorial:
     - id: summary
@@ -6378,6 +6663,21 @@
 - target:
     kind: ingredient
     id: almonds
+  hero:
+    asset: references/almonds.jpg
+    title: Almonds - in shell, shell cracked open, shelled, blanched.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Almonds_-_in_shell,_shell_cracked_open,_shelled,_blanched.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/3/37/Almonds_-_in_shell%2C_shell_cracked_open%2C_shelled%2C_blanched.jpg
+    creator: Ivar Leidus
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    attribution_text: Almonds - in shell, shell cracked open, shelled, blanched.jpg — Ivar Leidus
+    alt: Almonds shown in their shells and as shelled and blanched kernels.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 640
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Almonds shown in their shells and as shelled and blanched kernels.
   review_version: 0.1
   editorial:
     - id: summary
@@ -6410,6 +6710,21 @@
 - target:
     kind: ingredient
     id: cinnamon
+  hero:
+    asset: references/cinnamon.jpg
+    title: Cinnamomum verum spices.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Cinnamomum_verum_spices.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/d/de/Cinnamomum_verum_spices.jpg
+    creator: Simon A. Eugster
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    attribution_text: Cinnamomum verum spices.jpg — Simon A. Eugster
+    alt: Cinnamon sticks beside ground cinnamon.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 550
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Cinnamon sticks beside ground cinnamon.
   review_version: 0.1
   editorial:
     - id: summary
@@ -6432,6 +6747,21 @@
 - target:
     kind: ingredient
     id: cloves
+  hero:
+    asset: references/cloves.jpg
+    title: Clove close up.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Clove_close_up.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/e/ed/Clove_close_up.jpg
+    creator: Sanjay Acharya
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    attribution_text: Clove close up.jpg — Sanjay Acharya
+    alt: A close view of a single dried clove.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 640
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A close view of a single dried clove.
   review_version: 0.1
   editorial:
     - id: summary
@@ -6454,6 +6784,21 @@
 - target:
     kind: ingredient
     id: sesame-seeds
+  hero:
+    asset: references/sesame-seeds.jpg
+    title: Sa white sesame seeds.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Sa_white_sesame_seeds.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/6/69/Sa_white_sesame_seeds.jpg
+    creator: Sanjay ach
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0/
+    attribution_text: Sa white sesame seeds.jpg — Sanjay ach
+    alt: A close view of pale sesame seeds on a dark background.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 640
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A close view of pale sesame seeds on a dark background.
   review_version: 0.1
   editorial:
     - id: summary
@@ -6476,6 +6821,21 @@
 - target:
     kind: ingredient
     id: bacon
+  hero:
+    asset: references/bacon.jpg
+    title: Made20bacon.png
+    source_page: https://commons.wikimedia.org/wiki/File:Made20bacon.png
+    source_file: https://upload.wikimedia.org/wikipedia/commons/3/31/Made20bacon.png
+    creator: Made20rder555
+    licence: Public domain
+    licence_url: https://commons.wikimedia.org/wiki/File:Made20bacon.png#Licensing
+    attribution_text: Made20bacon.png — Made20rder555
+    alt: A cooked slice of bacon.
+    reviewed_at: 2026-10-24
+    width: 698
+    height: 382
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed. Transparency composited on white.
+    caption: A cooked slice of bacon.
   review_version: 0.1
   editorial:
     - id: summary
@@ -6531,6 +6891,21 @@
 - target:
     kind: ingredient
     id: black-tea
+  hero:
+    asset: references/black-tea.jpg
+    title: Cup of black tea.JPG
+    source_page: https://commons.wikimedia.org/wiki/File:Cup_of_black_tea.JPG
+    source_file: https://upload.wikimedia.org/wikipedia/commons/8/8a/Cup_of_black_tea.JPG
+    creator: AntanO
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    attribution_text: Cup of black tea.JPG — AntanO
+    alt: Black tea in a clear glass cup.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 894
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Black tea in a clear glass cup.
   review_version: 0.1
   editorial:
     - id: summary
@@ -6564,6 +6939,21 @@
 - target:
     kind: ingredient
     id: bread-crumbs
+  hero:
+    asset: references/bread-crumbs.jpg
+    title: Breadcrumb.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Breadcrumb.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/e/e1/Breadcrumb.jpg
+    creator: Yvwv
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0/
+    attribution_text: Breadcrumb.jpg — Yvwv
+    alt: Breadcrumbs on a plate beside their packaging.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 720
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Breadcrumbs on a plate beside their packaging.
   review_version: 0.1
   editorial:
     - id: summary
@@ -6592,6 +6982,21 @@
 - target:
     kind: ingredient
     id: buckwheat
+  hero:
+    asset: references/buckwheat.jpg
+    title: Buckwheat and products from it 01.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Buckwheat_and_products_from_it_01.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/a/a0/Buckwheat_and_products_from_it_01.jpg
+    creator: Andrey Korzun
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    attribution_text: Buckwheat and products from it 01.jpg — Andrey Korzun
+    alt: Buckwheat groats, flour and crispbreads displayed together.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 617
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Buckwheat groats, flour and crispbreads displayed together.
   review_version: 0.1
   editorial:
     - id: summary
@@ -6614,6 +7019,21 @@
 - target:
     kind: ingredient
     id: cannellini-beans
+  hero:
+    asset: references/cannellini-beans.jpg
+    title: Cannellini beans.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Cannellini_beans.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/7/76/Cannellini_beans.jpg
+    creator: Bean appreciator
+    licence: CC0
+    licence_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+    attribution_text: Cannellini beans.jpg — Bean appreciator
+    alt: A close view of dried white cannellini beans.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 640
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A close view of dried white cannellini beans.
   review_version: 0.1
   editorial:
     - id: summary
@@ -6642,6 +7062,21 @@
 - target:
     kind: ingredient
     id: split-peas
+  hero:
+    asset: references/split-peas.jpg
+    title: Split pea.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Split_pea.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/b/bc/Split_pea.jpg
+    creator: Sanjay Acharya
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0/
+    attribution_text: Split pea.jpg — Sanjay Acharya
+    alt: A close view of dried yellow split peas.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 641
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A close view of dried yellow split peas.
   review_version: 0.1
   editorial:
     - id: summary
@@ -6698,6 +7133,21 @@
 - target:
     kind: ingredient
     id: ricotta
+  hero:
+    asset: references/ricotta.jpg
+    title: Ricotte fresche.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Ricotte_fresche.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/f/ff/Ricotte_fresche.jpg
+    creator: 8w9d
+    licence: CC0
+    licence_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+    attribution_text: Ricotte fresche.jpg — 8w9d
+    alt: Fresh ricotta in small draining baskets.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 640
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Fresh ricotta in small draining baskets.
   review_version: 0.1
   editorial:
     - id: summary
@@ -6726,6 +7176,21 @@
 - target:
     kind: ingredient
     id: sardines
+  hero:
+    asset: references/sardines.jpg
+    title: 2006 sardines plate.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:2006_sardines_plate.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/e/e8/2006_sardines_plate.jpg
+    creator: Rl
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0/
+    attribution_text: 2006 sardines plate.jpg — Rl
+    alt: Three canned sardines on a plate.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 720
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Three canned sardines on a plate.
   review_version: 0.1
   editorial:
     - id: summary
@@ -6754,6 +7219,21 @@
 - target:
     kind: ingredient
     id: tahini
+  hero:
+    asset: references/tahini.jpg
+    title: Tahina.JPG
+    source_page: https://commons.wikimedia.org/wiki/File:Tahina.JPG
+    source_file: https://upload.wikimedia.org/wikipedia/commons/3/39/Tahina.JPG
+    creator: Gilabrand
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    attribution_text: Tahina.JPG — Gilabrand
+    alt: A bowl of tahini with lemon and garlic behind it.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 721
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A bowl of tahini with lemon and garlic behind it.
   review_version: 0.1
   editorial:
     - id: summary
@@ -6810,6 +7290,21 @@
 - target:
     kind: ingredient
     id: walnuts
+  hero:
+    asset: references/walnuts.jpg
+    title: Walnuts - whole and open with halved kernel.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Walnuts_-_whole_and_open_with_halved_kernel.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/b/b2/Walnuts_-_whole_and_open_with_halved_kernel.jpg
+    creator: Ivar Leidus
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    attribution_text: Walnuts - whole and open with halved kernel.jpg — Ivar Leidus
+    alt: Whole walnuts and exposed walnut kernels.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 640
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Whole walnuts and exposed walnut kernels.
   review_version: 0.1
   editorial:
     - id: summary
@@ -6930,6 +7425,21 @@
 - target:
     kind: ingredient
     id: clams
+  hero:
+    asset: references/clams.jpg
+    title: LittleNeck clams USDA96c1862.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:LittleNeck_clams_USDA96c1862.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/3/3b/LittleNeck_clams_USDA96c1862.jpg
+    creator: Ken Hammond
+    licence: Public domain
+    licence_url: https://commons.wikimedia.org/wiki/File:LittleNeck_clams_USDA96c1862.jpg#Licensing
+    attribution_text: LittleNeck clams USDA96c1862.jpg — Ken Hammond
+    alt: Hands holding a collection of little-neck clams in their shells.
+    reviewed_at: 2026-10-24
+    width: 640
+    height: 432
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Hands holding a collection of little-neck clams in their shells.
   review_version: 0.1
   editorial:
     - id: summary
@@ -7069,6 +7579,21 @@
 - target:
     kind: ingredient
     id: chocolate
+  hero:
+    asset: references/chocolate.jpg
+    title: Three Bars (1).jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Three_Bars_(1).jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/1/11/Three_Bars_%281%29.jpg
+    creator: Lynnereal
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    attribution_text: Three Bars (1).jpg — Lynnereal
+    alt: Pieces of dark, milk and white chocolate.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 720
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Pieces of dark, milk and white chocolate.
   review_version: 0.1
   editorial:
     - id: summary
@@ -9215,6 +9740,21 @@
 - target:
     kind: ingredient
     id: artichoke
+  hero:
+    asset: references/artichoke.jpg
+    title: Artichoke J1.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Artichoke_J1.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/6/6d/Artichoke_J1.jpg
+    creator: Jamain
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    attribution_text: Artichoke J1.jpg — Jamain
+    alt: A green artichoke bud growing on its plant.
+    reviewed_at: 2026-10-24
+    width: 707
+    height: 960
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A green artichoke bud growing on its plant.
   review_version: 0.1
   editorial:
     - id: summary
@@ -9279,6 +9819,21 @@
 - target:
     kind: ingredient
     id: butternut-squash
+  hero:
+    asset: references/butternut-squash.jpg
+    title: Cucurbita moschata Butternut 2012 G2.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Cucurbita_moschata_Butternut_2012_G2.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/7/77/Cucurbita_moschata_Butternut_2012_G2.jpg
+    creator: George Chernilevsky
+    licence: Public domain
+    licence_url: https://commons.wikimedia.org/wiki/File:Cucurbita_moschata_Butternut_2012_G2.jpg#Licensing
+    attribution_text: Cucurbita moschata Butternut 2012 G2.jpg — George Chernilevsky
+    alt: Whole and halved butternut squash, showing the flesh and seeds.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 640
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Whole and halved butternut squash, showing the flesh and seeds.
   review_version: 0.1
   editorial:
     - id: summary
@@ -9449,6 +10004,21 @@
 - target:
     kind: ingredient
     id: mint
+  hero:
+    asset: references/mint.jpg
+    title: Mint-leaves-2007.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Mint-leaves-2007.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/b/b0/Mint-leaves-2007.jpg
+    creator: Kham Tran - www.khamtran.com
+    licence: CC BY 3.0
+    licence_url: https://creativecommons.org/licenses/by/3.0
+    attribution_text: Mint-leaves-2007.jpg — Kham Tran - www.khamtran.com
+    alt: Fresh green mint leaves.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 720
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Fresh green mint leaves.
   review_version: 0.1
   editorial:
     - id: summary
@@ -9471,6 +10041,21 @@
 - target:
     kind: ingredient
     id: oregano
+  hero:
+    asset: references/oregano.jpg
+    title: Origanum vulgare - harilik pune.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Origanum_vulgare_-_harilik_pune.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/1/14/Origanum_vulgare_-_harilik_pune.jpg
+    creator: Ivar Leidus
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    attribution_text: Origanum vulgare - harilik pune.jpg — Ivar Leidus
+    alt: Flowering oregano stems.
+    reviewed_at: 2026-10-24
+    width: 640
+    height: 960
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Flowering oregano stems.
   review_version: 0.1
   editorial:
     - id: summary
@@ -9530,6 +10115,21 @@
 - target:
     kind: ingredient
     id: thyme
+  hero:
+    asset: references/thyme.jpg
+    title: Thyme-Bundle.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Thyme-Bundle.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/e/ea/Thyme-Bundle.jpg
+    creator: Evan-Amos
+    licence: CC0
+    licence_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+    attribution_text: Thyme-Bundle.jpg — Evan-Amos
+    alt: A bound bunch of thyme sprigs.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 526
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A bound bunch of thyme sprigs.
   review_version: 0.1
   editorial:
     - id: summary
@@ -9552,6 +10152,21 @@
 - target:
     kind: ingredient
     id: peanut
+  hero:
+    asset: references/peanut.jpg
+    title: Peanuts (Arachis hypogaea) - in shell, shell cracked open, shelled, peeled.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Peanuts_(Arachis_hypogaea)_-_in_shell,_shell_cracked_open,_shelled,_peeled.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/f/fb/Peanuts_%28Arachis_hypogaea%29_-_in_shell%2C_shell_cracked_open%2C_shelled%2C_peeled.jpg
+    creator: Ivar Leidus
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    attribution_text: Peanuts (Arachis hypogaea) - in shell, shell cracked open, shelled, peeled.jpg — Ivar Leidus
+    alt: Peanuts shown in a shell and as exposed kernels.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 640
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Peanuts shown in a shell and as exposed kernels.
   review_version: 0.1
   editorial:
     - id: summary
@@ -9568,6 +10183,21 @@
 - target:
     kind: ingredient
     id: pecan
+  hero:
+    asset: references/pecan.jpg
+    title: Pecans.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Pecans.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/4/49/Pecans.jpg
+    creator: Scott Bauer
+    licence: Public domain
+    licence_url: https://commons.wikimedia.org/wiki/File:Pecans.jpg#Licensing
+    attribution_text: Pecans.jpg — Scott Bauer
+    alt: Pecans in their shells arranged around shelled kernels.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 628
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Pecans in their shells arranged around shelled kernels.
   review_version: 0.1
   editorial:
     - id: summary
@@ -9677,6 +10307,21 @@
 - target:
     kind: ingredient
     id: shrimp
+  hero:
+    asset: references/shrimp.jpg
+    title: Raw shrimp.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Raw_shrimp.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/c/c2/Raw_shrimp.jpg
+    creator: Fumikas Sagisavas
+    licence: CC0
+    licence_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+    attribution_text: Raw shrimp.jpg — Fumikas Sagisavas
+    alt: A heap of raw peeled shrimp.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 720
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A heap of raw peeled shrimp.
   review_version: 0.1
   editorial:
     - id: summary
@@ -9710,6 +10355,21 @@
 - target:
     kind: ingredient
     id: feta
+  hero:
+    asset: references/feta.jpg
+    title: Feta Cheese.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Feta_Cheese.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/2/28/Feta_Cheese.jpg
+    creator: JJ Harrison ( https://www.jjharrison.com.au/ )
+    licence: CC BY-SA 2.5
+    licence_url: https://creativecommons.org/licenses/by-sa/2.5
+    attribution_text: Feta Cheese.jpg — JJ Harrison ( https://www.jjharrison.com.au/ )
+    alt: A block of feta with smaller crumbly pieces.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 768
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A block of feta with smaller crumbly pieces.
   review_version: 0.1
   editorial:
     - id: summary
@@ -9737,6 +10397,21 @@
 - target:
     kind: ingredient
     id: mascarpone
+  hero:
+    asset: references/mascarpone.jpg
+    title: Mascarpone 4.png
+    source_page: https://commons.wikimedia.org/wiki/File:Mascarpone_4.png
+    source_file: https://upload.wikimedia.org/wikipedia/commons/c/cd/Mascarpone_4.png
+    creator: Brodolò1
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    attribution_text: Mascarpone 4.png — Brodolò1
+    alt: White mascarpone in a bowl with a spoon.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 639
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: White mascarpone in a bowl with a spoon.
   review_version: 0.1
   editorial:
     - id: summary
@@ -9796,6 +10471,21 @@
 - target:
     kind: ingredient
     id: maple-syrup
+  hero:
+    asset: references/maple-syrup.jpg
+    title: Maple syrup.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Maple_syrup.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/1/18/Maple_syrup.jpg
+    creator: User:Miguel Andrade
+    licence: Public domain
+    licence_url: https://commons.wikimedia.org/wiki/File:Maple_syrup.jpg#Licensing
+    attribution_text: Maple syrup.jpg — User:Miguel Andrade
+    alt: Amber maple syrup in a glass bottle.
+    reviewed_at: 2026-10-24
+    width: 483
+    height: 960
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Amber maple syrup in a glass bottle.
   review_version: 0.1
   editorial:
     - id: summary
@@ -9862,6 +10552,21 @@
 - target:
     kind: ingredient
     id: green-tea
+  hero:
+    asset: references/green-tea.jpg
+    title: Green tea 3 appearances.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Green_tea_3_appearances.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/3/36/Green_tea_3_appearances.jpg
+    creator: Alessandro Martini
+    licence: CC0
+    licence_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+    attribution_text: Green tea 3 appearances.jpg — Alessandro Martini
+    alt: Green tea leaves and an infusion displayed in three bowls.
+    reviewed_at: 2026-10-24
+    width: 819
+    height: 614
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Green tea leaves and an infusion displayed in three bowls.
   review_version: 0.1
   editorial:
     - id: summary
@@ -9889,6 +10594,21 @@
 - target:
     kind: ingredient
     id: nori
+  hero:
+    asset: references/nori.jpg
+    title: Nori.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Nori.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/b/be/Nori.jpg
+    creator: Alice Wiegand, ( Lyzzy )
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0/
+    attribution_text: Nori.jpg — Alice Wiegand, ( Lyzzy )
+    alt: Overlapping sheets of dried nori.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 761
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Overlapping sheets of dried nori.
   review_version: 0.1
   editorial:
     - id: summary
@@ -9979,6 +10699,21 @@
 - target:
     kind: ingredient
     id: chorizo
+  hero:
+    asset: references/chorizo.jpg
+    title: Chorizos P6021974.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Chorizos_P6021974.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/2/25/Chorizos_P6021974.jpg
+    creator: Amasuela-Luis Lafuente Agudín
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    attribution_text: Chorizos P6021974.jpg — Amasuela-Luis Lafuente Agudín
+    alt: Red chorizo sausages hanging in loops.
+    reviewed_at: 2026-10-24
+    width: 531
+    height: 387
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Red chorizo sausages hanging in loops.
   review_version: 0.1
   editorial:
     - id: summary
@@ -21851,6 +22586,21 @@
 - target:
     kind: ingredient
     id: paprika
+  hero:
+    asset: references/paprika.jpg
+    title: Pimentón Tap de Cortí (cropped).jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Piment%C3%B3n_Tap_de_Cort%C3%AD_(cropped).jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/8/81/Piment%C3%B3n_Tap_de_Cort%C3%AD_%28cropped%29.jpg
+    creator: Marcosgarrido88
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    attribution_text: Pimentón Tap de Cortí (cropped).jpg — Marcosgarrido88
+    alt: A mound of red paprika powder.
+    reviewed_at: 2026-10-24
+    width: 320
+    height: 180
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A mound of red paprika powder.
   review_version: 0.1
   editorial:
     - id: summary
@@ -21875,6 +22625,21 @@
 - target:
     kind: ingredient
     id: cumin
+  hero:
+    asset: references/cumin.jpg
+    title: Cumin seed.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Cumin_seed.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/1/17/Cumin_seed.jpg
+    creator: W.alter
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    attribution_text: Cumin seed.jpg — W.alter
+    alt: A close view of a cumin seed beside a measuring scale.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 540
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A close view of a cumin seed beside a measuring scale.
   review_version: 0.1
   editorial:
     - id: summary
@@ -21899,6 +22664,21 @@
 - target:
     kind: ingredient
     id: nutmeg
+  hero:
+    asset: references/nutmeg.jpg
+    title: Biji Pala Bubuk.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Biji_Pala_Bubuk.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/c/c8/Biji_Pala_Bubuk.jpg
+    creator: Herusutimbul
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    attribution_text: Biji Pala Bubuk.jpg — Herusutimbul
+    alt: Whole nutmeg beside ground nutmeg.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 640
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Whole nutmeg beside ground nutmeg.
   review_version: 0.1
   editorial:
     - id: summary
@@ -21923,6 +22703,21 @@
 - target:
     kind: ingredient
     id: pasta
+  hero:
+    asset: references/pasta.jpg
+    title: (Pasta) by David Adam Kess (pic.2).jpg
+    source_page: https://commons.wikimedia.org/wiki/File:(Pasta)_by_David_Adam_Kess_(pic.2).jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/3/3f/%28Pasta%29_by_David_Adam_Kess_%28pic.2%29.jpg
+    creator: David Adam Kess
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    attribution_text: (Pasta) by David Adam Kess (pic.2).jpg — David Adam Kess
+    alt: An assortment of dried pasta shapes.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 720
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: An assortment of dried pasta shapes.
   review_version: 0.1
   editorial:
     - id: summary
@@ -22040,6 +22835,21 @@
 - target:
     kind: ingredient
     id: spaghetti
+  hero:
+    asset: references/spaghetti.jpg
+    title: Spaghettoni.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Spaghettoni.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/9/92/Spaghettoni.jpg
+    creator: Nnaluci
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    attribution_text: Spaghettoni.jpg — Nnaluci
+    alt: Long spaghetti strands hanging on a drying rack.
+    reviewed_at: 2026-10-24
+    width: 720
+    height: 960
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Long spaghetti strands hanging on a drying rack.
   review_version: 0.1
   editorial:
     - id: summary
@@ -22238,6 +23048,21 @@
 - target:
     kind: ingredient
     id: mushrooms
+  hero:
+    asset: references/mushrooms.jpg
+    title: Edible fungi in basket 2009 G1 (cropped).jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Edible_fungi_in_basket_2009_G1_(cropped).jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/1/18/Edible_fungi_in_basket_2009_G1_%28cropped%29.jpg
+    creator: George Chernilevsky
+    licence: Public domain
+    licence_url: https://commons.wikimedia.org/wiki/File:Edible_fungi_in_basket_2009_G1_(cropped).jpg#Licensing
+    attribution_text: Edible fungi in basket 2009 G1 (cropped).jpg — George Chernilevsky
+    alt: A basket containing an assortment of mushrooms; not an identification guide.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 507
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A basket containing an assortment of mushrooms; not an identification guide.
   review_version: 0.1
   editorial:
     - id: summary
@@ -22301,6 +23126,21 @@
 - target:
     kind: ingredient
     id: turmeric
+  hero:
+    asset: references/turmeric.jpg
+    title: Curcuma longa roots.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Curcuma_longa_roots.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/5/5b/Curcuma_longa_roots.jpg
+    creator: Simon A. Eugster
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    attribution_text: Curcuma longa roots.jpg — Simon A. Eugster
+    alt: Turmeric rhizomes, cut pieces and ground turmeric.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 395
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Turmeric rhizomes, cut pieces and ground turmeric.
   review_version: 0.1
   editorial:
     - id: summary
@@ -22482,6 +23322,21 @@
 - target:
     kind: ingredient
     id: ham
+  hero:
+    asset: references/ham.jpg
+    title: Ham (4).jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Ham_(4).jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/a/a9/Ham_%284%29.jpg
+    creator: Renee Comet (Photographer)
+    licence: Public domain
+    licence_url: https://commons.wikimedia.org/wiki/File:Ham_(4).jpg#Licensing
+    attribution_text: Ham (4).jpg — Renee Comet (Photographer)
+    alt: A cut cooked ham decorated with cloves.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 640
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A cut cooked ham decorated with cloves.
   review_version: 0.1
   editorial:
     - id: summary
@@ -22554,6 +23409,21 @@
 - target:
     kind: ingredient
     id: shallot
+  hero:
+    asset: references/shallot.jpg
+    title: Shallots - sliced and whole.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Shallots_-_sliced_and_whole.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/2/22/Shallots_-_sliced_and_whole.jpg
+    creator: No machine-readable author provided. Charles P. assumed (based on copyright claims).
+    licence: Public domain
+    licence_url: https://commons.wikimedia.org/wiki/File:Shallots_-_sliced_and_whole.jpg#Licensing
+    attribution_text: Shallots - sliced and whole.jpg — No machine-readable author provided. Charles P. assumed (based on copyright claims).
+    alt: Whole shallots and a halved shallot.
+    reviewed_at: 2026-10-24
+    width: 770
+    height: 498
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Whole shallots and a halved shallot.
   review_version: 0.1
   editorial:
     - id: summary
@@ -22629,6 +23499,21 @@
 - target:
     kind: ingredient
     id: dill
+  hero:
+    asset: references/dill.jpg
+    title: Dill herbs.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Dill_herbs.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/c/c6/Dill_herbs.jpg
+    creator: SA, The Green Ark Bostanie
+    licence: CC BY 4.0
+    licence_url: https://creativecommons.org/licenses/by/4.0
+    attribution_text: Dill herbs.jpg — SA, The Green Ark Bostanie
+    alt: Flowering dill plants in a garden.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 540
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Flowering dill plants in a garden.
   review_version: 0.1
   editorial:
     - id: summary
@@ -22677,6 +23562,21 @@
 - target:
     kind: ingredient
     id: raisins
+  hero:
+    asset: references/raisins.jpg
+    title: Raisins 01.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Raisins_01.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/7/7d/Raisins_01.jpg
+    creator: Paweł Kuźniar ( Jojo_1 , Jojo )
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0/
+    attribution_text: Raisins 01.jpg — Paweł Kuźniar ( Jojo_1 , Jojo )
+    alt: Golden and dark raisins on a plate.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 603
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Golden and dark raisins on a plate.
   review_version: 0.1
   editorial:
     - id: summary
@@ -22791,6 +23691,21 @@
 - target:
     kind: ingredient
     id: star-anise
+  hero:
+    asset: references/star-anise.jpg
+    title: Star anise.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Star_anise.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/6/61/Star_anise.jpg
+    creator: Retro Lenses
+    licence: CC BY 4.0
+    licence_url: https://creativecommons.org/licenses/by/4.0
+    attribution_text: Star anise.jpg — Retro Lenses
+    alt: A dried star anise pod on a wooden surface.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 637
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A dried star anise pod on a wooden surface.
   review_version: 0.1
   editorial:
     - id: summary
@@ -22815,6 +23730,21 @@
 - target:
     kind: ingredient
     id: garam-masala
+  hero:
+    asset: references/garam-masala.jpg
+    title: Garammasalaphoto.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Garammasalaphoto.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/5/58/Garammasalaphoto.jpg
+    creator: Badagnani
+    licence: CC BY 3.0
+    licence_url: https://creativecommons.org/licenses/by/3.0
+    attribution_text: Garammasalaphoto.jpg — Badagnani
+    alt: A mound of ground garam masala.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 717
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A mound of ground garam masala.
   review_version: 0.1
   editorial:
     - id: summary
@@ -22905,6 +23835,21 @@
 - target:
     kind: ingredient
     id: white-onion
+  hero:
+    asset: references/white-onion.jpg
+    title: White onions for sale in supermarket.JPG
+    source_page: https://commons.wikimedia.org/wiki/File:White_onions_for_sale_in_supermarket.JPG
+    source_file: https://upload.wikimedia.org/wikipedia/commons/9/95/White_onions_for_sale_in_supermarket.JPG
+    creator: Tomwsulcer
+    licence: CC0
+    licence_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+    attribution_text: White onions for sale in supermarket.JPG — Tomwsulcer
+    alt: White onion bulbs on display.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 695
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: White onion bulbs on display.
   review_version: 0.1
   editorial:
     - id: summary
@@ -22955,6 +23900,21 @@
 - target:
     kind: ingredient
     id: pork-belly
+  hero:
+    asset: references/pork-belly.jpg
+    title: Schweinebauch-2.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Schweinebauch-2.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/4/49/Schweinebauch-2.jpg
+    creator: Rainer Zenz
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    attribution_text: Schweinebauch-2.jpg — Rainer Zenz
+    alt: Raw pork belly showing alternating layers of meat and fat.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 639
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Raw pork belly showing alternating layers of meat and fat.
   review_version: 0.1
   editorial:
     - id: summary
@@ -23081,6 +24041,21 @@
 - target:
     kind: ingredient
     id: kidney-beans
+  hero:
+    asset: references/kidney-beans.jpg
+    title: Red kidney beans 2024-11-27.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Red_kidney_beans_2024-11-27.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/6/62/Red_kidney_beans_2024-11-27.jpg
+    creator: Bean appreciator
+    licence: CC0
+    licence_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+    attribution_text: Red kidney beans 2024-11-27.jpg — Bean appreciator
+    alt: A close view of dried red kidney beans.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 640
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A close view of dried red kidney beans.
   review_version: 0.1
   editorial:
     - id: summary
@@ -23106,6 +24081,21 @@
 - target:
     kind: ingredient
     id: macaroni
+  hero:
+    asset: references/macaroni.jpg
+    title: Macaroni2.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Macaroni2.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/0/01/Macaroni2.jpg
+    creator: Popo le Chien
+    licence: CC0
+    licence_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+    attribution_text: Macaroni2.jpg — Popo le Chien
+    alt: Short curved macaroni tubes on a white background.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 629
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Short curved macaroni tubes on a white background.
   review_version: 0.1
   editorial:
     - id: summary
@@ -23130,6 +24120,21 @@
 - target:
     kind: ingredient
     id: marjoram
+  hero:
+    asset: references/marjoram.jpg
+    title: Origanum majorana 002.JPG
+    source_page: https://commons.wikimedia.org/wiki/File:Origanum_majorana_002.JPG
+    source_file: https://upload.wikimedia.org/wikipedia/commons/5/5c/Origanum_majorana_002.JPG
+    creator: H. Zell
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    attribution_text: Origanum majorana 002.JPG — H. Zell
+    alt: A flowering marjoram plant.
+    reviewed_at: 2026-10-24
+    width: 721
+    height: 960
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A flowering marjoram plant.
   review_version: 0.1
   editorial:
     - id: summary
@@ -23178,6 +24183,21 @@
 - target:
     kind: ingredient
     id: peanut-butter
+  hero:
+    asset: references/peanut-butter.jpg
+    title: 2020-03-24 20 57 22 An open jar of Skippy Creamy Peanut Butter in the Dulles section of Sterling, Loudoun County, Virginia.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:2020-03-24_20_57_22_An_open_jar_of_Skippy_Creamy_Peanut_Butter_in_the_Dulles_section_of_Sterling,_Loudoun_County,_Virginia.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/1/11/2020-03-24_20_57_22_An_open_jar_of_Skippy_Creamy_Peanut_Butter_in_the_Dulles_section_of_Sterling%2C_Loudoun_County%2C_Virginia.jpg
+    creator: Famartin
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    attribution_text: 2020-03-24 20 57 22 An open jar of Skippy Creamy Peanut Butter in the Dulles section of Sterling, Loudoun County, Virginia.jpg — Famartin
+    alt: An open jar of smooth peanut butter.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 720
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: An open jar of smooth peanut butter.
   review_version: 0.1
   editorial:
     - id: summary
@@ -23227,6 +24247,21 @@
 - target:
     kind: ingredient
     id: red-chilli
+  hero:
+    asset: references/red-chilli.jpg
+    title: Capsicum annuum-Red Chilli Pepper 01.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Capsicum_annuum-Red_Chilli_Pepper_01.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/e/ee/Capsicum_annuum-Red_Chilli_Pepper_01.jpg
+    creator: Sabina Bajracharya
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    attribution_text: Capsicum annuum-Red Chilli Pepper 01.jpg — Sabina Bajracharya
+    alt: A dried red chilli on a wooden surface.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 960
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A dried red chilli on a wooden surface.
   review_version: 0.1
   editorial:
     - id: summary
@@ -23276,6 +24311,21 @@
 - target:
     kind: ingredient
     id: egg-noodles
+  hero:
+    asset: references/egg-noodles.jpg
+    title: Egg noodles-MB28.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Egg_noodles-MB28.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/d/db/Egg_noodles-MB28.jpg
+    creator: Rajeeb Dutta
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    attribution_text: Egg noodles-MB28.jpg — Rajeeb Dutta
+    alt: A plate of cooked egg noodles with vegetables.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 720
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A plate of cooked egg noodles with vegetables.
   review_version: 0.1
   editorial:
     - id: summary
@@ -23300,6 +24350,21 @@
 - target:
     kind: ingredient
     id: green-bell-pepper
+  hero:
+    asset: references/green-bell-pepper.jpg
+    title: Capsicum annuum fruits IMGP0049.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Capsicum_annuum_fruits_IMGP0049.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/d/de/Capsicum_annuum_fruits_IMGP0049.jpg
+    creator: Nikodem Nijaki
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    attribution_text: Capsicum annuum fruits IMGP0049.jpg — Nikodem Nijaki
+    alt: A green bell pepper beside red and yellow bell peppers.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 746
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A green bell pepper beside red and yellow bell peppers.
   review_version: 0.1
   editorial:
     - id: summary
@@ -23348,6 +24413,21 @@
 - target:
     kind: ingredient
     id: jalapeno
+  hero:
+    asset: references/jalapeno.jpg
+    title: Jalapeño Peppers - levels of ripening.JPG
+    source_page: https://commons.wikimedia.org/wiki/File:Jalape%C3%B1o_Peppers_-_levels_of_ripening.JPG
+    source_file: https://upload.wikimedia.org/wikipedia/commons/3/3f/Jalape%C3%B1o_Peppers_-_levels_of_ripening.JPG
+    creator: Conrads.wikipedia.account
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    attribution_text: Jalapeño Peppers - levels of ripening.JPG — Conrads.wikipedia.account
+    alt: Jalapeño peppers at green, orange and red stages of ripening.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 717
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Jalapeño peppers at green, orange and red stages of ripening.
   review_version: 0.1
   editorial:
     - id: summary
@@ -23446,6 +24526,21 @@
 - target:
     kind: ingredient
     id: cardamom
+  hero:
+    asset: references/cardamom.jpg
+    title: 02017 0119 Kardamom, Winter in den Beskiden.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:02017_0119_Kardamom,_Winter_in_den_Beskiden.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/6/66/02017_0119_Kardamom%2C_Winter_in_den_Beskiden.jpg
+    creator: Silar
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    attribution_text: 02017 0119 Kardamom, Winter in den Beskiden.jpg — Silar
+    alt: Green cardamom pods beside ground cardamom.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 641
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Green cardamom pods beside ground cardamom.
   review_version: 0.1
   editorial:
     - id: summary
@@ -23494,6 +24589,21 @@
 - target:
     kind: ingredient
     id: coffee
+  hero:
+    asset: references/coffee.jpg
+    title: Latte and dark coffee.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Latte_and_dark_coffee.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/e/e4/Latte_and_dark_coffee.jpg
+    creator: Bex Walton
+    licence: CC BY 2.0
+    licence_url: https://creativecommons.org/licenses/by/2.0
+    attribution_text: Latte and dark coffee.jpg — Bex Walton
+    alt: A milk coffee and a black coffee served side by side.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 600
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A milk coffee and a black coffee served side by side.
   review_version: 0.1
   editorial:
     - id: summary
@@ -23518,6 +24628,21 @@
 - target:
     kind: ingredient
     id: fennel-seeds
+  hero:
+    asset: references/fennel-seeds.jpg
+    title: Fennel seeds.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Fennel_seeds.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/8/8a/Fennel_seeds.jpg
+    creator: KENPEI
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0/
+    attribution_text: Fennel seeds.jpg — KENPEI
+    alt: Fennel seeds beside a ruler.
+    reviewed_at: 2026-10-24
+    width: 443
+    height: 700
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Fennel seeds beside a ruler.
   review_version: 0.1
   editorial:
     - id: summary
@@ -23593,6 +24718,21 @@
 - target:
     kind: ingredient
     id: pancetta
+  hero:
+    asset: references/pancetta.jpg
+    title: Pancetta.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Pancetta.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/a/a4/Pancetta.jpg
+    creator: Nachoman-au
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0/
+    attribution_text: Pancetta.jpg — Nachoman-au
+    alt: Rolled slices of pancetta in a package.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 698
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Rolled slices of pancetta in a package.
   review_version: 0.1
   editorial:
     - id: summary
@@ -23618,6 +24758,21 @@
 - target:
     kind: ingredient
     id: pecorino-romano
+  hero:
+    asset: references/pecorino-romano.jpg
+    title: Pecorino romano cheese.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Pecorino_romano_cheese.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/e/ee/Pecorino_romano_cheese.jpg
+    creator: Jon Sullivan
+    licence: Public domain
+    licence_url: https://commons.wikimedia.org/wiki/File:Pecorino_romano_cheese.jpg#Licensing
+    attribution_text: Pecorino romano cheese.jpg — Jon Sullivan
+    alt: A wedge of Pecorino Romano on a board beside a knife.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 720
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A wedge of Pecorino Romano on a board beside a knife.
   review_version: 0.1
   editorial:
     - id: summary
@@ -23667,6 +24822,21 @@
 - target:
     kind: ingredient
     id: sumac
+  hero:
+    asset: references/sumac.jpg
+    title: Sumac.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Sumac.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/7/75/Sumac.jpg
+    creator: User:Webaware
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0/
+    attribution_text: Sumac.jpg — User:Webaware
+    alt: Ground sumac displayed in a labelled market container.
+    reviewed_at: 2026-10-24
+    width: 658
+    height: 501
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Ground sumac displayed in a labelled market container.
   review_version: 0.1
   editorial:
     - id: summary
@@ -23691,6 +24861,21 @@
 - target:
     kind: ingredient
     id: trout
+  hero:
+    asset: references/trout.jpg
+    title: Female Rainbow Trout in hand.JPG
+    source_page: https://commons.wikimedia.org/wiki/File:Female_Rainbow_Trout_in_hand.JPG
+    source_file: https://upload.wikimedia.org/wikipedia/commons/1/1d/Female_Rainbow_Trout_in_hand.JPG
+    creator: Mike Anderson
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    attribution_text: Female Rainbow Trout in hand.JPG — Mike Anderson
+    alt: A rainbow trout held horizontally in a person's hands.
+    reviewed_at: 2026-10-24
+    width: 800
+    height: 357
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A rainbow trout held horizontally in a person's hands.
   review_version: 0.1
   editorial:
     - id: summary
@@ -23791,6 +24976,21 @@
 - target:
     kind: ingredient
     id: coconut
+  hero:
+    asset: references/coconut.jpg
+    title: Coconuts - single and cracked open.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Coconuts_-_single_and_cracked_open.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/f/f1/Coconuts_-_single_and_cracked_open.jpg
+    creator: Ivar Leidus
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    attribution_text: Coconuts - single and cracked open.jpg — Ivar Leidus
+    alt: A whole coconut beside a cracked half showing the white flesh.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 640
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A whole coconut beside a cracked half showing the white flesh.
   review_version: 0.1
   editorial:
     - id: summary
@@ -23817,6 +25017,21 @@
 - target:
     kind: ingredient
     id: paneer
+  hero:
+    asset: references/paneer.jpg
+    title: Panir Paneer Indian cheese fresh.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Panir_Paneer_Indian_cheese_fresh.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/3/36/Panir_Paneer_Indian_cheese_fresh.jpg
+    creator: Sonja Pauen - Stanhopea
+    licence: CC BY 2.0 de
+    licence_url: https://creativecommons.org/licenses/by/2.0/de/deed.en
+    attribution_text: Panir Paneer Indian cheese fresh.jpg — Sonja Pauen - Stanhopea
+    alt: A block of paneer with cubes cut from it.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 720
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A block of paneer with cubes cut from it.
   review_version: 0.1
   editorial:
     - id: summary
@@ -24205,6 +25420,21 @@
 - target:
     kind: ingredient
     id: saffron
+  hero:
+    asset: references/saffron.jpg
+    title: Saffron - premium spice.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Saffron_-_premium_spice.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/6/68/Saffron_-_premium_spice.jpg
+    creator: Shaharbano
+    licence: CC BY 4.0
+    licence_url: https://creativecommons.org/licenses/by/4.0
+    attribution_text: Saffron - premium spice.jpg — Shaharbano
+    alt: Red saffron threads in a decorative bowl.
+    reviewed_at: 2026-10-24
+    width: 640
+    height: 960
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Red saffron threads in a decorative bowl.
   review_version: 0.1
   editorial:
     - id: summary
@@ -24230,6 +25460,21 @@
 - target:
     kind: ingredient
     id: sage
+  hero:
+    asset: references/sage.jpg
+    title: Salvia officinalis0.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Salvia_officinalis0.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/5/5a/Salvia_officinalis0.jpg
+    creator: Kurt Stüber
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0/
+    attribution_text: Salvia officinalis0.jpg — Kurt Stüber
+    alt: Purple flowers and leaves of culinary sage.
+    reviewed_at: 2026-10-24
+    width: 640
+    height: 480
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Purple flowers and leaves of culinary sage.
   review_version: 0.1
   editorial:
     - id: summary
@@ -24302,6 +25547,21 @@
 - target:
     kind: ingredient
     id: sunflower-seeds
+  hero:
+    asset: references/sunflower-seeds.jpg
+    title: Sunflower Seeds Kaldari.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Sunflower_Seeds_Kaldari.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/3/39/Sunflower_Seeds_Kaldari.jpg
+    creator: Kaldari
+    licence: Public domain
+    licence_url: https://commons.wikimedia.org/wiki/File:Sunflower_Seeds_Kaldari.jpg#Licensing
+    attribution_text: Sunflower Seeds Kaldari.jpg — Kaldari
+    alt: Sunflower seeds shown in their shells and as kernels.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 640
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Sunflower seeds shown in their shells and as kernels.
   review_version: 0.1
   editorial:
     - id: summary
@@ -24375,6 +25635,21 @@
 - target:
     kind: ingredient
     id: whipped-cream
+  hero:
+    asset: references/whipped-cream.jpg
+    title: Whipped Cream.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Whipped_Cream.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/7/77/Whipped_Cream.jpg
+    creator: Rhett Sutphin
+    licence: CC BY 2.0
+    licence_url: https://creativecommons.org/licenses/by/2.0
+    attribution_text: Whipped Cream.jpg — Rhett Sutphin
+    alt: Whipped cream clinging to mixer beaters above a bowl.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 638
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Whipped cream clinging to mixer beaters above a bowl.
   review_version: 0.1
   editorial:
     - id: summary
@@ -24425,6 +25700,21 @@
 - target:
     kind: ingredient
     id: champignon-mushroom
+  hero:
+    asset: references/champignon-mushroom.jpg
+    title: ChampignonMushroom.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:ChampignonMushroom.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/0/01/ChampignonMushroom.jpg
+    creator: chris_73
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0/
+    attribution_text: ChampignonMushroom.jpg — chris_73
+    alt: Whole and sliced white button mushrooms on a board.
+    reviewed_at: 2026-10-24
+    width: 800
+    height: 570
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Whole and sliced white button mushrooms on a board.
   review_version: 0.1
   editorial:
     - id: summary
@@ -24574,6 +25864,21 @@
 - target:
     kind: ingredient
     id: turnip
+  hero:
+    asset: references/turnip.jpg
+    title: Turnip 2622027.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Turnip_2622027.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/d/d3/Turnip_2622027.jpg
+    creator: thebittenword.com
+    licence: CC BY 2.0
+    licence_url: https://creativecommons.org/licenses/by/2.0
+    attribution_text: Turnip 2622027.jpg — thebittenword.com
+    alt: White and purple turnips with their leaves attached.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 639
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: White and purple turnips with their leaves attached.
   review_version: 0.1
   editorial:
     - id: summary
@@ -24647,6 +25952,21 @@
 - target:
     kind: ingredient
     id: baguette
+  hero:
+    asset: references/baguette.jpg
+    title: Baguettes, Paris, France - panoramio.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Baguettes,_Paris,_France_-_panoramio.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/8/86/Baguettes%2C_Paris%2C_France_-_panoramio.jpg
+    creator: Nick Thweatt
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    attribution_text: Baguettes, Paris, France - panoramio.jpg — Nick Thweatt
+    alt: Long baguette loaves in a basket.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 720
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Long baguette loaves in a basket.
   review_version: 0.1
   editorial:
     - id: summary
@@ -24793,6 +26113,21 @@
 - target:
     kind: ingredient
     id: celeriac
+  hero:
+    asset: references/celeriac.jpg
+    title: Céleri-rave-fendu.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:C%C3%A9leri-rave-fendu.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/e/ec/C%C3%A9leri-rave-fendu.jpg
+    creator: DocteurCosmos
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    attribution_text: Céleri-rave-fendu.jpg — DocteurCosmos
+    alt: A halved celeriac root on a board beside a knife.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 720
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A halved celeriac root on a board beside a knife.
   review_version: 0.1
   editorial:
     - id: summary
@@ -24817,6 +26152,21 @@
 - target:
     kind: ingredient
     id: celery-seed
+  hero:
+    asset: references/celery-seed.jpg
+    title: Celery seed.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Celery_seed.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/1/1c/Celery_seed.jpg
+    creator: Holly Cheng
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0/
+    attribution_text: Celery seed.jpg — Holly Cheng
+    alt: Celery seeds spilling from a glass spice jar.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 720
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Celery seeds spilling from a glass spice jar.
   review_version: 0.1
   editorial:
     - id: summary
@@ -24865,6 +26215,21 @@
 - target:
     kind: ingredient
     id: chocolate-chips
+  hero:
+    asset: references/chocolate-chips.jpg
+    title: Semi-sweet chocolate chips.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Semi-sweet_chocolate_chips.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/9/96/Semi-sweet_chocolate_chips.jpg
+    creator: Editor at Large
+    licence: CC BY-SA 2.5
+    licence_url: https://creativecommons.org/licenses/by-sa/2.5
+    attribution_text: Semi-sweet chocolate chips.jpg — Editor at Large
+    alt: A heap of dark chocolate chips.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 651
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A heap of dark chocolate chips.
   review_version: 0.1
   editorial:
     - id: summary
@@ -24914,6 +26279,21 @@
 - target:
     kind: ingredient
     id: clementine
+  hero:
+    asset: references/clementine.jpg
+    title: Clementines whole, peeled, half and sectioned.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Clementines_whole,_peeled,_half_and_sectioned.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/5/5d/Clementines_whole%2C_peeled%2C_half_and_sectioned.jpg
+    creator: carol
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0/
+    attribution_text: Clementines whole, peeled, half and sectioned.jpg — carol
+    alt: Whole and peeled clementines with exposed segments.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 720
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Whole and peeled clementines with exposed segments.
   review_version: 0.1
   editorial:
     - id: summary
@@ -24940,6 +26320,21 @@
 - target:
     kind: ingredient
     id: coffee-beans
+  hero:
+    asset: references/coffee-beans.jpg
+    title: Roasted coffee beans.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Roasted_coffee_beans.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/c/c5/Roasted_coffee_beans.jpg
+    creator: MarkSweep
+    licence: Public domain
+    licence_url: https://commons.wikimedia.org/wiki/File:Roasted_coffee_beans.jpg#Licensing
+    attribution_text: Roasted coffee beans.jpg — MarkSweep
+    alt: A close view of roasted coffee beans.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 720
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A close view of roasted coffee beans.
   review_version: 0.1
   editorial:
     - id: summary
@@ -24988,6 +26383,21 @@
 - target:
     kind: ingredient
     id: corn-flakes
+  hero:
+    asset: references/corn-flakes.jpg
+    title: Kellogg's Corn Flakes, with milk.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Kellogg%27s_Corn_Flakes,_with_milk.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/c/c3/Kellogg%27s_Corn_Flakes%2C_with_milk.jpg
+    creator: Th78blue
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    attribution_text: Kellogg's Corn Flakes, with milk.jpg — Th78blue
+    alt: Corn flakes with milk in a bowl beside a spoon.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 873
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Corn flakes with milk in a bowl beside a spoon.
   review_version: 0.1
   editorial:
     - id: summary
@@ -25139,6 +26549,21 @@
 - target:
     kind: ingredient
     id: guanciale
+  hero:
+    asset: references/guanciale.jpg
+    title: Guanciale closeup (cropped).jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Guanciale_closeup_(cropped).jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/5/51/Guanciale_closeup_%28cropped%29.jpg
+    creator: Popo le Chien
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    attribution_text: Guanciale closeup (cropped).jpg — Popo le Chien
+    alt: A cut piece of guanciale showing its cured meat and fat.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 491
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A cut piece of guanciale showing its cured meat and fat.
   review_version: 0.1
   editorial:
     - id: summary
@@ -25188,6 +26613,21 @@
 - target:
     kind: ingredient
     id: macadamia-nut
+  hero:
+    asset: references/macadamia-nut.jpg
+    title: Macadamia nuts.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Macadamia_nuts.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/0/00/Macadamia_nuts.jpg
+    creator: စာကလေး SarKaLay
+    licence: CC0
+    licence_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+    attribution_text: Macadamia nuts.jpg — စာကလေး SarKaLay
+    alt: A hand holding macadamia nuts in their shells.
+    reviewed_at: 2026-10-24
+    width: 720
+    height: 960
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A hand holding macadamia nuts in their shells.
   review_version: 0.1
   editorial:
     - id: summary
@@ -25212,6 +26652,21 @@
 - target:
     kind: ingredient
     id: matcha-powder
+  hero:
+    asset: references/matcha-powder.jpg
+    title: Matcha Scoop.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Matcha_Scoop.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/d/d9/Matcha_Scoop.jpg
+    creator: Evanhoever
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    attribution_text: Matcha Scoop.jpg — Evanhoever
+    alt: Fine green matcha powder on a scoop and scattered beside it.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 926
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Fine green matcha powder on a scoop and scattered beside it.
   review_version: 0.1
   editorial:
     - id: summary
@@ -25285,6 +26740,21 @@
 - target:
     kind: ingredient
     id: poppy-seeds
+  hero:
+    asset: references/poppy-seeds.jpg
+    title: Poppy seeds.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Poppy_seeds.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/6/69/Poppy_seeds.jpg
+    creator: Odedr
+    licence: Public domain
+    licence_url: https://commons.wikimedia.org/wiki/File:Poppy_seeds.jpg#Licensing
+    attribution_text: Poppy seeds.jpg — Odedr
+    alt: A close view of dark poppy seeds.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 719
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A close view of dark poppy seeds.
   review_version: 0.1
   editorial:
     - id: summary
@@ -25310,6 +26780,21 @@
 - target:
     kind: ingredient
     id: rice-noodles
+  hero:
+    asset: references/rice-noodles.jpg
+    title: Rice vermicelli.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Rice_vermicelli.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/6/6f/Rice_vermicelli.jpg
+    creator: Popo le Chien
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    attribution_text: Rice vermicelli.jpg — Popo le Chien
+    alt: Thin dried rice vermicelli.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 540
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Thin dried rice vermicelli.
   review_version: 0.1
   editorial:
     - id: summary
@@ -25383,6 +26868,21 @@
 - target:
     kind: ingredient
     id: tarragon
+  hero:
+    asset: references/tarragon.jpg
+    title: Estragon 1511.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Estragon_1511.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/6/6c/Estragon_1511.jpg
+    creator: No machine-readable author provided. Ies assumed (based on copyright claims).
+    licence: Public domain
+    licence_url: https://commons.wikimedia.org/wiki/File:Estragon_1511.jpg#Licensing
+    attribution_text: Estragon 1511.jpg — No machine-readable author provided. Ies assumed (based on copyright claims).
+    alt: A tarragon sprig with narrow leaves against a dark background.
+    reviewed_at: 2026-10-24
+    width: 346
+    height: 274
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A tarragon sprig with narrow leaves against a dark background.
   review_version: 0.1
   editorial:
     - id: summary
