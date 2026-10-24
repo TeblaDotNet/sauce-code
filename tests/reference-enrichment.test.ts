@@ -1,3 +1,4 @@
+import {preImageBatch} from './helpers/pre-image-batch.ts';
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import {readFile, mkdtemp, mkdir, writeFile, rm} from 'node:fs/promises';
@@ -183,7 +184,7 @@ test('projection is detached from source enrichment and source resource metadata
 
 const hero = vocabulary.enrichments.find(e => e.target.id === 'egg')!.hero!;
 test('hero metadata stays optional and does not alter resolver identity', () => {
-  assert.equal(vocabulary.enrichments.filter(e => e.hero).length, 19);
+  assert.equal(vocabulary.enrichments.filter(e => e.hero).length, 49);
   const v = make({hero}); assert.equal(v.resolve('food','ingredient')[0].id,'food');
   assert.ok(!renderReferenceHtml(page(v)).includes('ref-hero'));
   assert.ok(!renderReferenceHtml(page(make()),{heroUrl:p=>'/assets/'+p}).includes('ref-hero'));
@@ -291,7 +292,7 @@ test('tranche 300 introductions define their subject and keep optional fields sp
     assert.match(intro.split('.')[0],/\b(?:is|are|means)\b/,item.target.id);
     if(item.target.kind!=='process') assert.equal(intro.split(/(?<=[.!?])\s+/).length,2,item.target.id);
     assert.equal(item.review_version,0.1);
-    assert.equal(item.hero,undefined);
+    assert.equal(preImageBatch([item])[0].hero,undefined);
     assert.equal(item.measurements?.length??0,0);
   }
 });

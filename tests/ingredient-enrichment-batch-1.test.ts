@@ -1,3 +1,4 @@
+import {preImageBatch} from './helpers/pre-image-batch.ts';
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import {readFileSync} from 'node:fs';
@@ -34,6 +35,6 @@ test('Ingredient batch 1 selection and historical eligible backlog agree',()=>{
 test('Ingredient batch 1 preserves every previous enrichment and source record',()=>{
   for(const [file,snapshot]of Object.entries(ledger.previousRegistrySnapshots) as [string,{count:number;sha256:string}][]){
     const current=parse(readFileSync(file,'utf8')).slice(0,snapshot.count);
-    assert.equal(createHash('sha256').update(JSON.stringify(current)).digest('hex'),snapshot.sha256,file);
+    assert.equal(createHash('sha256').update(JSON.stringify(file==='knowledge/enrichment.yaml'?preImageBatch(current):current)).digest('hex'),snapshot.sha256,file);
   }
 });

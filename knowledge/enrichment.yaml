@@ -2126,6 +2126,21 @@
 - target:
     kind: ingredient
     id: onion
+  hero:
+    asset: references/onion.jpg
+    title: Onion on White.JPG
+    source_page: https://commons.wikimedia.org/wiki/File:Onion_on_White.JPG
+    source_file: https://upload.wikimedia.org/wikipedia/commons/2/25/Onion_on_White.JPG
+    creator: Colin
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    attribution_text: Onion on White.JPG — Colin
+    alt: A whole golden-brown onion on a white background.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 960
+    changes: Full frame retained; resized to a maximum 960-pixel longest edge and re-encoded as an optimised progressive JPEG (quality 82); metadata removed.
+    caption: A whole golden-brown onion on a white background.
   review_version: 0.1
   editorial:
     - id: summary
@@ -2150,6 +2165,21 @@
 - target:
     kind: ingredient
     id: potato
+  hero:
+    asset: references/potato.jpg
+    title: Potato tubers in pail.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Potato_tubers_in_pail.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/6/6e/Potato_tubers_in_pail.jpg
+    creator: Ruslan V. Albitsky aka pauk
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    attribution_text: Potato tubers in pail.jpg — Ruslan V. Albitsky aka pauk
+    alt: Freshly harvested potatoes with soil on their skins in a pail.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 720
+    changes: Full frame retained; resized to a maximum 960-pixel longest edge and re-encoded as an optimised progressive JPEG (quality 82); metadata removed.
+    caption: Freshly harvested potatoes with soil on their skins in a pail.
   review_version: 0.1
   editorial:
     - id: summary
@@ -2175,6 +2205,21 @@
 - target:
     kind: ingredient
     id: carrot
+  hero:
+    asset: references/carrot.jpg
+    title: Carrots of many colors.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Carrots_of_many_colors.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/3/32/Carrots_of_many_colors.jpg
+    creator: Stephen Ausmus
+    licence: Public domain
+    licence_url: https://commons.wikimedia.org/wiki/Template:PD-USGov-USDA
+    attribution_text: Carrots of many colors.jpg — Stephen Ausmus
+    alt: Carrots in several colours arranged in a circle with their leaves.
+    reviewed_at: 2026-10-24
+    width: 596
+    height: 960
+    changes: Full frame retained; resized to a maximum 960-pixel longest edge and re-encoded as an optimised progressive JPEG (quality 82); metadata removed.
+    caption: Carrots in several colours arranged in a circle with their leaves.
   review_version: 0.1
   editorial:
     - id: summary
@@ -2199,6 +2244,21 @@
 - target:
     kind: ingredient
     id: garlic
+  hero:
+    asset: references/garlic.jpg
+    title: Garlic bulbs and cloves.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Garlic_bulbs_and_cloves.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/9/9a/Garlic_bulbs_and_cloves.jpg
+    creator: Ivar Leidus
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    attribution_text: Garlic bulbs and cloves.jpg — Ivar Leidus
+    alt: Garlic bulbs with separated cloves.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 640
+    changes: Full frame retained; resized to a maximum 960-pixel longest edge and re-encoded as an optimised progressive JPEG (quality 82); metadata removed.
+    caption: Garlic bulbs with separated cloves.
   review_version: 0.1
   editorial:
     - id: summary
@@ -2223,6 +2283,21 @@
 - target:
     kind: ingredient
     id: lemon
+  hero:
+    asset: references/lemon.jpg
+    title: Lemon - whole and split.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Lemon_-_whole_and_split.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/f/f7/Lemon_-_whole_and_split.jpg
+    creator: Ivar Leidus
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    attribution_text: Lemon - whole and split.jpg — Ivar Leidus
+    alt: A whole lemon beside a cut half.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 640
+    changes: Full frame retained; resized to a maximum 960-pixel longest edge and re-encoded as an optimised progressive JPEG (quality 82); metadata removed.
+    caption: A whole lemon beside a cut half.
   review_version: 0.1
   editorial:
     - id: summary
@@ -2247,6 +2322,21 @@
 - target:
     kind: ingredient
     id: apple
+  hero:
+    asset: references/apple.jpg
+    title: Red Apple.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Red_Apple.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/1/15/Red_Apple.jpg
+    creator: Abhijit Tembhekar from Mumbai, India
+    licence: CC BY 2.0
+    licence_url: https://creativecommons.org/licenses/by/2.0
+    attribution_text: Red Apple.jpg — Abhijit Tembhekar from Mumbai, India
+    alt: A red apple on a pale background.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 870
+    changes: Full frame retained; resized to a maximum 960-pixel longest edge and re-encoded as an optimised progressive JPEG (quality 82); metadata removed.
+    caption: A red apple on a pale background.
   review_version: 0.1
   editorial:
     - id: summary
@@ -2271,6 +2361,21 @@
 - target:
     kind: ingredient
     id: banana
+  hero:
+    asset: references/banana.jpg
+    title: Bananas on black background 02.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Bananas_on_black_background_02.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/9/98/Bananas_on_black_background_02.jpg
+    creator: Krzysztof Golik
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    attribution_text: Bananas on black background 02.jpg — Krzysztof Golik
+    alt: A bunch of ripe yellow bananas against a dark background.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 613
+    changes: Full frame retained; resized to a maximum 960-pixel longest edge and re-encoded as an optimised progressive JPEG (quality 82); metadata removed.
+    caption: A bunch of ripe yellow bananas against a dark background.
   review_version: 0.1
   editorial:
     - id: summary
@@ -2295,6 +2400,21 @@
 - target:
     kind: ingredient
     id: broccoli
+  hero:
+    asset: references/broccoli.jpg
+    title: Fire-Tuscarora Organic Growers - Broccoli head.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Fire-Tuscarora_Organic_Growers_-_Broccoli_head.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/c/ce/Fire-Tuscarora_Organic_Growers_-_Broccoli_head.jpg
+    creator: U.S. Department of Agriculture
+    licence: Public domain
+    licence_url: https://commons.wikimedia.org/wiki/Template:PD-USGov-USDA
+    attribution_text: Fire-Tuscarora Organic Growers - Broccoli head.jpg — U.S. Department of Agriculture
+    alt: Close view of the green florets of a broccoli head.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 561
+    changes: Full frame retained; resized to a maximum 960-pixel longest edge and re-encoded as an optimised progressive JPEG (quality 82); metadata removed.
+    caption: Close view of the green florets of a broccoli head.
   review_version: 0.1
   editorial:
     - id: summary
@@ -2319,6 +2439,21 @@
 - target:
     kind: ingredient
     id: spinach
+  hero:
+    asset: references/spinach.jpg
+    title: Spinach leaves.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Spinach_leaves.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/f/fe/Spinach_leaves.jpg
+    creator: Nillerdk
+    licence: CC BY 3.0
+    licence_url: https://creativecommons.org/licenses/by/3.0
+    attribution_text: Spinach leaves.jpg — Nillerdk
+    alt: Washed spinach leaves in a bowl.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 708
+    changes: Full frame retained; resized to a maximum 960-pixel longest edge and re-encoded as an optimised progressive JPEG (quality 82); metadata removed.
+    caption: Washed spinach leaves in a bowl.
   review_version: 0.1
   editorial:
     - id: summary
@@ -2343,6 +2478,21 @@
 - target:
     kind: ingredient
     id: aubergine
+  hero:
+    asset: references/aubergine.jpg
+    title: Small eggplant and cross section 2017 C.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Small_eggplant_and_cross_section_2017_C.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/c/cc/Small_eggplant_and_cross_section_2017_C.jpg
+    creator: Fructibus
+    licence: CC0
+    licence_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+    attribution_text: Small eggplant and cross section 2017 C.jpg — Fructibus
+    alt: A small purple aubergine beside a cut section on a plate.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 720
+    changes: Full frame retained; resized to a maximum 960-pixel longest edge and re-encoded as an optimised progressive JPEG (quality 82); metadata removed.
+    caption: A small purple aubergine beside a cut section on a plate.
   review_version: 0.1
   editorial:
     - id: summary
@@ -2368,6 +2518,21 @@
 - target:
     kind: ingredient
     id: courgette
+  hero:
+    asset: references/courgette.jpg
+    title: Zucchini in basket 2021 G1.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Zucchini_in_basket_2021_G1.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/a/ac/Zucchini_in_basket_2021_G1.jpg
+    creator: George Chernilevsky
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    attribution_text: Zucchini in basket 2021 G1.jpg — George Chernilevsky
+    alt: Green and yellow courgettes in a basket.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 890
+    changes: Full frame retained; resized to a maximum 960-pixel longest edge and re-encoded as an optimised progressive JPEG (quality 82); metadata removed.
+    caption: Green and yellow courgettes in a basket.
   review_version: 0.1
   editorial:
     - id: summary
@@ -2392,6 +2557,21 @@
 - target:
     kind: ingredient
     id: ginger
+  hero:
+    asset: references/ginger.jpg
+    title: Fresh ginger rhizome 01.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Fresh_ginger_rhizome_01.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/f/fb/Fresh_ginger_rhizome_01.jpg
+    creator: Friday musa
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    attribution_text: Fresh ginger rhizome 01.jpg — Friday musa
+    alt: A pile of fresh ginger rhizomes.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 640
+    changes: Full frame retained; resized to a maximum 960-pixel longest edge and re-encoded as an optimised progressive JPEG (quality 82); metadata removed.
+    caption: A pile of fresh ginger rhizomes.
   review_version: 0.1
   editorial:
     - id: summary
@@ -2441,6 +2621,21 @@
 - target:
     kind: ingredient
     id: basil
+  hero:
+    asset: references/basil.jpg
+    title: Basil leaves.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Basil_leaves.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/9/92/Basil_leaves.jpg
+    creator: Paul Goyette
+    licence: CC BY-SA 2.0
+    licence_url: https://creativecommons.org/licenses/by-sa/2.0
+    attribution_text: Basil leaves.jpg — Paul Goyette
+    alt: Fresh green basil leaves.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 640
+    changes: Full frame retained; resized to a maximum 960-pixel longest edge and re-encoded as an optimised progressive JPEG (quality 82); metadata removed.
+    caption: Fresh green basil leaves.
   review_version: 0.1
   editorial:
     - id: summary
@@ -5830,6 +6025,21 @@
 - target:
     kind: ingredient
     id: asparagus
+  hero:
+    asset: references/asparagus.jpg
+    title: Asparagus-Bundle.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Asparagus-Bundle.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/3/3d/Asparagus-Bundle.jpg
+    creator: Evan-Amos
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    attribution_text: Asparagus-Bundle.jpg — Evan-Amos
+    alt: A tied bundle of green asparagus spears.
+    reviewed_at: 2026-10-24
+    width: 378
+    height: 960
+    changes: Full frame retained; resized to a maximum 960-pixel longest edge and re-encoded as an optimised progressive JPEG (quality 82); metadata removed.
+    caption: A tied bundle of green asparagus spears.
   review_version: 0.1
   editorial:
     - id: summary
@@ -5858,6 +6068,21 @@
 - target:
     kind: ingredient
     id: beetroot
+  hero:
+    asset: references/beetroot.jpg
+    title: Beetroots in a basket.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Beetroots_in_a_basket.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/5/52/Beetroots_in_a_basket.jpg
+    creator: W.carter
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    attribution_text: Beetroots in a basket.jpg — W.carter
+    alt: Beetroots with trimmed stalks in a basket.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 640
+    changes: Full frame retained; resized to a maximum 960-pixel longest edge and re-encoded as an optimised progressive JPEG (quality 82); metadata removed.
+    caption: Beetroots with trimmed stalks in a basket.
   review_version: 0.1
   editorial:
     - id: summary
@@ -5908,6 +6133,21 @@
 - target:
     kind: ingredient
     id: cabbage
+  hero:
+    asset: references/cabbage.jpg
+    title: Cabbage in a stack.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Cabbage_in_a_stack.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/8/88/Cabbage_in_a_stack.jpg
+    creator: Jeffery Martin
+    licence: CC0
+    licence_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+    attribution_text: Cabbage in a stack.jpg — Jeffery Martin
+    alt: Green cabbage heads stacked together.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 720
+    changes: Full frame retained; resized to a maximum 960-pixel longest edge and re-encoded as an optimised progressive JPEG (quality 82); metadata removed.
+    caption: Green cabbage heads stacked together.
   review_version: 0.1
   editorial:
     - id: summary
@@ -5936,6 +6176,21 @@
 - target:
     kind: ingredient
     id: celery
+  hero:
+    asset: references/celery.jpg
+    title: Celery (177029685).jpeg
+    source_page: https://commons.wikimedia.org/wiki/File:Celery_(177029685).jpeg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/b/bc/Celery_%28177029685%29.jpeg
+    creator: Chuck Spidell
+    licence: CC BY 3.0
+    licence_url: https://creativecommons.org/licenses/by/3.0
+    attribution_text: Celery (177029685).jpeg — Chuck Spidell
+    alt: Close view of celery stalks and pale-green leaves.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 960
+    changes: Full frame retained; resized to a maximum 960-pixel longest edge and re-encoded as an optimised progressive JPEG (quality 82); metadata removed.
+    caption: Close view of celery stalks and pale-green leaves.
   review_version: 0.1
   editorial:
     - id: summary
@@ -6042,6 +6297,21 @@
 - target:
     kind: ingredient
     id: rosemary
+  hero:
+    asset: references/rosemary.jpg
+    title: Rosmarinus officinalis (1).jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Rosmarinus_officinalis_(1).jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/6/6e/Rosmarinus_officinalis_%281%29.jpg
+    creator: T137
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    attribution_text: Rosmarinus officinalis (1).jpg — T137
+    alt: A rosemary sprig with narrow needle-like leaves.
+    reviewed_at: 2026-10-24
+    width: 643
+    height: 960
+    changes: Full frame retained; resized to a maximum 960-pixel longest edge and re-encoded as an optimised progressive JPEG (quality 82); metadata removed.
+    caption: A rosemary sprig with narrow needle-like leaves.
   review_version: 0.1
   editorial:
     - id: summary
@@ -8967,6 +9237,21 @@
 - target:
     kind: ingredient
     id: avocado
+  hero:
+    asset: references/avocado.jpg
+    title: Avocado Hass - single and halved.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Avocado_Hass_-_single_and_halved.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/c/c9/Avocado_Hass_-_single_and_halved.jpg
+    creator: Ivar Leidus
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    attribution_text: Avocado Hass - single and halved.jpg — Ivar Leidus
+    alt: A whole Hass avocado beside a half showing the stone.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 640
+    changes: Full frame retained; resized to a maximum 960-pixel longest edge and re-encoded as an optimised progressive JPEG (quality 82); metadata removed.
+    caption: A whole Hass avocado beside a half showing the stone.
   review_version: 0.1
   editorial:
     - id: summary
@@ -9016,6 +9301,21 @@
 - target:
     kind: ingredient
     id: cucumber
+  hero:
+    asset: references/cucumber.jpg
+    title: Kurkkuja.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Kurkkuja.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/0/0a/Kurkkuja.jpg
+    creator: Photo taken by Muu-karhu
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0/
+    attribution_text: Kurkkuja.jpg — Photo taken by Muu-karhu
+    alt: Whole cucumbers and sliced cucumber rounds.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 720
+    changes: Full frame retained; resized to a maximum 960-pixel longest edge and re-encoded as an optimised progressive JPEG (quality 82); metadata removed.
+    caption: Whole cucumbers and sliced cucumber rounds.
   review_version: 0.1
   editorial:
     - id: summary
@@ -9038,6 +9338,21 @@
 - target:
     kind: ingredient
     id: leek
+  hero:
+    asset: references/leek.jpg
+    title: Leeks on shelf.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Leeks_on_shelf.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/a/a5/Leeks_on_shelf.jpg
+    creator: Jeffery Martin
+    licence: CC0
+    licence_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+    attribution_text: Leeks on shelf.jpg — Jeffery Martin
+    alt: Leeks with white stems and green leaves displayed on a shelf.
+    reviewed_at: 2026-10-24
+    width: 720
+    height: 960
+    changes: Full frame retained; resized to a maximum 960-pixel longest edge and re-encoded as an optimised progressive JPEG (quality 82); metadata removed.
+    caption: Leeks with white stems and green leaves displayed on a shelf.
   review_version: 0.1
   editorial:
     - id: summary
@@ -9060,6 +9375,21 @@
 - target:
     kind: ingredient
     id: radish
+  hero:
+    asset: references/radish.jpg
+    title: Radish 3371103037 4ab07db0bf o.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Radish_3371103037_4ab07db0bf_o.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/0/0c/Radish_3371103037_4ab07db0bf_o.jpg
+    creator: Self, en:User:Jengod
+    licence: Public domain
+    licence_url: https://commons.wikimedia.org/wiki/Template:PD-self
+    attribution_text: Radish 3371103037 4ab07db0bf o.jpg — Self, en:User:Jengod
+    alt: Fresh radishes with their leaves attached.
+    reviewed_at: 2026-10-24
+    width: 720
+    height: 960
+    changes: Full frame retained; resized to a maximum 960-pixel longest edge and re-encoded as an optimised progressive JPEG (quality 82); metadata removed.
+    caption: Fresh radishes with their leaves attached.
   review_version: 0.1
   editorial:
     - id: summary
@@ -9082,6 +9412,21 @@
 - target:
     kind: ingredient
     id: sweet-potato
+  hero:
+    asset: references/sweet-potato.jpg
+    title: Sweet Potato.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Sweet_Potato.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/7/78/Sweet_Potato.jpg
+    creator: Gaurav Dhwaj Khadka
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    attribution_text: Sweet Potato.jpg — Gaurav Dhwaj Khadka
+    alt: A pile of whole sweet potatoes with pale skins.
+    reviewed_at: 2026-10-24
+    width: 720
+    height: 960
+    changes: Full frame retained; resized to a maximum 960-pixel longest edge and re-encoded as an optimised progressive JPEG (quality 82); metadata removed.
+    caption: A pile of whole sweet potatoes with pale skins.
   review_version: 0.1
   editorial:
     - id: summary
@@ -9148,6 +9493,21 @@
 - target:
     kind: ingredient
     id: parsley
+  hero:
+    asset: references/parsley.jpg
+    title: Parsley Leaves (92974).jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Parsley_Leaves_(92974).jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/7/74/Parsley_Leaves_%2892974%29.jpg
+    creator: SarKaLay စာကလေး
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    attribution_text: Parsley Leaves (92974).jpg — SarKaLay စာကလေး
+    alt: Parsley stems and leaves standing in a glass.
+    reviewed_at: 2026-10-24
+    width: 512
+    height: 960
+    changes: Full frame retained; resized to a maximum 960-pixel longest edge and re-encoded as an optimised progressive JPEG (quality 82); metadata removed.
+    caption: Parsley stems and leaves standing in a glass.
   review_version: 0.1
   editorial:
     - id: summary
@@ -13786,6 +14146,21 @@
 - target:
     kind: ingredient
     id: lime
+  hero:
+    asset: references/lime.jpg
+    title: Lime - whole and halved.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Lime_-_whole_and_halved.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/e/e7/Lime_-_whole_and_halved.jpg
+    creator: Ivar Leidus
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    attribution_text: Lime - whole and halved.jpg — Ivar Leidus
+    alt: A whole lime beside a cut half.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 640
+    changes: Full frame retained; resized to a maximum 960-pixel longest edge and re-encoded as an optimised progressive JPEG (quality 82); metadata removed.
+    caption: A whole lime beside a cut half.
   review_version: 0.1
   editorial:
     - id: summary
@@ -13832,6 +14207,21 @@
 - target:
     kind: ingredient
     id: orange
+  hero:
+    asset: references/orange.jpg
+    title: Oranges - whole-halved-segment.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Oranges_-_whole-halved-segment.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/e/e3/Oranges_-_whole-halved-segment.jpg
+    creator: Ivar Leidus
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    attribution_text: Oranges - whole-halved-segment.jpg — Ivar Leidus
+    alt: A whole orange with a half and a separated segment.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 640
+    changes: Full frame retained; resized to a maximum 960-pixel longest edge and re-encoded as an optimised progressive JPEG (quality 82); metadata removed.
+    caption: A whole orange with a half and a separated segment.
   review_version: 0.1
   editorial:
     - id: summary
@@ -21606,6 +21996,21 @@
 - target:
     kind: ingredient
     id: spring-onion
+  hero:
+    asset: references/spring-onion.jpg
+    title: Spring Onion.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Spring_Onion.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/9/9c/Spring_Onion.jpg
+    creator: Donovan Govan.
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0/
+    attribution_text: Spring Onion.jpg — Donovan Govan.
+    alt: A tied bunch of spring onions with roots and green leaves.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 608
+    changes: Full frame retained; resized to a maximum 960-pixel longest edge and re-encoded as an optimised progressive JPEG (quality 82); metadata removed.
+    caption: A tied bunch of spring onions with roots and green leaves.
   review_version: 0.1
   editorial:
     - id: summary
@@ -21857,6 +22262,21 @@
 - target:
     kind: ingredient
     id: red-onion
+  hero:
+    asset: references/red-onion.jpg
+    title: Red Onion on White.JPG
+    source_page: https://commons.wikimedia.org/wiki/File:Red_Onion_on_White.JPG
+    source_file: https://upload.wikimedia.org/wikipedia/commons/9/9f/Red_Onion_on_White.JPG
+    creator: Colin
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    attribution_text: Red Onion on White.JPG — Colin
+    alt: A whole red onion on a white background.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 960
+    changes: Full frame retained; resized to a maximum 960-pixel longest edge and re-encoded as an optimised progressive JPEG (quality 82); metadata removed.
+    caption: A whole red onion on a white background.
   review_version: 0.1
   editorial:
     - id: summary
@@ -22332,6 +22752,21 @@
 - target:
     kind: ingredient
     id: red-bell-pepper
+  hero:
+    asset: references/red-bell-pepper.jpg
+    title: Red Bell pepper.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Red_Bell_pepper.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/3/30/Red_Bell_pepper.jpg
+    creator: Bearas
+    licence: CC BY 3.0
+    licence_url: https://creativecommons.org/licenses/by/3.0
+    attribution_text: Red Bell pepper.jpg — Bearas
+    alt: A red bell pepper on a plate.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 720
+    changes: Full frame retained; resized to a maximum 960-pixel longest edge and re-encoded as an optimised progressive JPEG (quality 82); metadata removed.
+    caption: A red bell pepper on a plate.
   review_version: 0.1
   editorial:
     - id: summary
@@ -22405,6 +22840,21 @@
 - target:
     kind: ingredient
     id: green-beans
+  hero:
+    asset: references/green-beans.jpg
+    title: Green-beans.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Green-beans.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/6/6f/Green-beans.jpg
+    creator: U.S. Department of Agriculture (individual photographer not identified)
+    licence: Public domain
+    licence_url: https://commons.wikimedia.org/wiki/Template:PD-USGov-USDA
+    attribution_text: Green-beans.jpg — U.S. Department of Agriculture (individual photographer not identified)
+    alt: Green bean pods displayed in baskets at a market.
+    reviewed_at: 2026-10-24
+    width: 640
+    height: 959
+    changes: Full frame retained; resized to a maximum 960-pixel longest edge and re-encoded as an optimised progressive JPEG (quality 82); metadata removed.
+    caption: Green bean pods displayed in baskets at a market.
   review_version: 0.1
   editorial:
     - id: summary
