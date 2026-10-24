@@ -4596,3 +4596,210 @@
   review_scope: text
   notes: Text consulted for original provisional explanations. Recipe examples establish context, not
     universal operating limits, safety endpoints or identity equivalence.
+
+- id: ig1-paprika
+  title: About Paprika Uses, Pairings and Recipes
+  url: https://www.mccormick.com/blogs/how-to/about-paprika-uses-pairings-and-recipes
+  publisher: McCormick
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig1-cumin
+  title: Ground Cumin
+  url: https://www.mccormick.com/products/mccormick-ground-cumin-1-5-oz
+  publisher: McCormick
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig1-nutmeg
+  title: Nutmeg
+  url: https://www.mccormickscienceinstitute.com/resources/culinary-spices/herbs-spices/nutmeg
+  publisher: McCormick Science Institute
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig1-pasta
+  title: Spaghetti Pasta
+  url: https://www.barilla.com/en-us/products/pasta/classic-blue-box/spaghetti
+  publisher: Barilla
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig1-cayenne
+  title: Culinary Ground Cayenne Pepper
+  url: https://www.mccormick.com/collections/all-mccormick-for-chefs-foodservice-products/products/mccormick-culinary-ground-cayenne-pepper-14-oz
+  publisher: McCormick
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig1-spring
+  title: Spring onion
+  url: https://tollbit.bbcgoodfood.com/glossary/spring-onion-glossary
+  publisher: Good Food
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig1-sweet
+  title: Sweet pepper — FoodLink
+  url: https://extension.purdue.edu/foodlink/food.php?food=sweet+pepper
+  publisher: Purdue Extension
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig1-garlic
+  title: Garlic Powder
+  url: https://www.mccormick.com/products/mccormick-garlic-powder-5-37-oz?pr_rd_page=1
+  publisher: McCormick
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig1-mustard
+  title: Dijon Original Mustard
+  url: https://www.maille.com/us/en/p/maille-dijon-original-mustard-7-5-oz.html/00871256666689
+  publisher: Maille
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig1-tomato
+  title: Tomato Sauce
+  url: https://www.hunts.com/tomato-sauce-and-paste/tomato-sauce
+  publisher: Hunt’s
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig1-mushrooms
+  title: Mushroom — FoodLink
+  url: https://www.extension.purdue.edu/foodlink/food.php?food=mushroom
+  publisher: Purdue Extension
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig1-onion
+  title: Onion, green onion, scallion — FoodLink
+  url: https://www.extension.purdue.edu/foodlink/food.php?food=onion%2C+green+onion%2C+scallion
+  publisher: Purdue Extension
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig1-turmeric
+  title: Ground Turmeric
+  url: https://www.mccormickasia.com/products/turmeric-ground
+  publisher: McCormick Asia
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig1-broth
+  title: Broth vs. Stock vs. Bone Broth
+  url: https://www.campbells.com/swanson/broth-vs-stock-vs-bone-broth/
+  publisher: Swanson
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig1-worcester
+  title: The Original Worcestershire Sauce
+  url: https://www.kraftheinz.com/lea-perrins/products/00051600000037-the-original-worcestershire-sauce
+  publisher: Lea & Perrins / Kraft Heinz
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig1-puff
+  title: Puff Pastry — Frequently Asked Questions
+  url: https://www.puffpastry.com/faq/
+  publisher: Pepperidge Farm
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig1-pufftips
+  title: Puff Pastry Tips
+  url: https://www.puffpastry.com/wp-content/uploads/2016/05/Puff_tips_print_PDF.pdf
+  publisher: Pepperidge Farm
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig1-flakes
+  title: About Red Pepper Uses, Pairings and Recipes
+  url: https://www.mccormick.com/blogs/how-to/about-red-pepper-uses-pairings-and-recipes
+  publisher: McCormick
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig1-ham
+  title: Hams and Food Safety
+  url: https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/meat-catfish/hams-and-food-safety
+  publisher: USDA Food Safety and Inspection Service
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig1-ketchup
+  title: Tomato Ketchup
+  url: https://www.heinz.com/products/00013000001038-tomato-ketchup
+  publisher: Heinz
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig1-onionpowder
+  title: Lawry’s Onion Powder
+  url: https://www.mccormick.com/collections/all-products/products/lawrys-r-onion-powder-2-62-oz
+  publisher: Lawry’s / McCormick
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig1-shallot
+  title: Shallot — Oxford Companion to Food
+  url: https://app.ckbk.com/reference/food77337c19s001e173/shallot
+  publisher: Alan Davidson / ckbk
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public indexed excerpt consulted for clustered bulbs and flavour distinction; full book not accessed.
+- id: ig1-vanilla
+  title: Pure Vanilla Extract
+  url: https://nielsenmassey.com/products/pure-vanilla-extract/
+  publisher: Nielsen-Massey
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.

@@ -21433,3 +21433,751 @@
       role: introduction
       order: 1
       review_version: 0.1
+
+- target:
+    kind: ingredient
+    id: chicken-breast
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Meat from the breast of a chicken, sold in forms that can differ in bone, skin and portion size. A
+        boneless breast and a bone-in breast half are not the same prepared piece.
+      sources: &a1
+        - fsis-chicken
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Match the cut to the recipe before applying its method. Size and preparation affect cooking, so
+        appearance or a fixed time alone cannot establish doneness; use appropriate poultry guidance and
+        a food thermometer. The ingredient name does not imply that the meat is already cooked.
+      sources: *a1
+      review_version: 0.1
+  resources:
+    - resource: fsis-chicken
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: paprika
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A red ground spice made from dried peppers. It contributes colour and pepper flavour, but its heat
+        varies with the peppers used; sweet, hot and smoked versions are not identical.
+      sources: &a2
+        - ig1-paprika
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Read the qualifier when a recipe names a particular paprika. A smoked version adds a smoke
+        character that an unsmoked sweet paprika does not supply. The generic name alone establishes
+        neither a fixed heat level nor a universal substitution for cayenne.
+      sources: *a2
+      review_version: 0.1
+  resources:
+    - resource: ig1-paprika
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: cumin
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: An aromatic spice used whole or ground; ground cumin is made from the seeds. Its warm, earthy
+        flavour appears in meat rubs, bean dishes, vegetable preparations and numerous spice mixtures.
+      sources: &a3
+        - ig1-cumin
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: "The form matters to handling: a ground spice disperses differently from intact seeds. Follow the
+        recipe’s whole or ground instruction rather than assuming the same spoonful gives the same
+        result. Cumin is an ingredient in some blends, not another name for the complete blend."
+      sources: *a3
+      review_version: 0.1
+  resources:
+    - resource: ig1-cumin
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: nutmeg
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A strongly aromatic spice from the nutmeg kernel, with a warm flavour often perceived as sweet. It
+        is used in baking and desserts, but also in savoury vegetables, meat dishes and spinach fillings.
+      sources: &a4
+        - ig1-nutmeg
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: "The sweetness describes aroma and flavour rather than added sugar. Follow the recipe quantity and
+        specified form: the same ingredient may be grated or supplied ground. A little seasoning has a
+        different role from a bulk ingredient, and no universal amount suits every dish."
+      sources: *a4
+      review_version: 0.1
+  resources:
+    - resource: ig1-nutmeg
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: pasta
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A family of shaped foods rather than one fixed shape. Spaghetti is a long-strand example; other
+        forms include tubes, shells and filled shapes, which create different ways of carrying a sauce or
+        filling.
+      sources: &a5
+        - ig1-pasta
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: The recipe and package identify the particular pasta being used. A cooking time for one dried
+        spaghetti product is not a rule for every shape or preparation. Choosing a shape and cooking it
+        are separate decisions; this general page does not redefine all pasta as spaghetti.
+      sources: *a5
+      review_version: 0.1
+  resources:
+    - resource: ig1-pasta
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: coriander-leaves
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: The leafy herb from the coriander plant, often called cilantro. The same plant is also grown for
+        its seeds, but harvesting the leaves and collecting mature seed are different uses.
+      sources: &a6
+        - usu-coriander
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: "Read the part named in the recipe: a request for leaves is not a request for ground coriander
+        seed. Leaves can be used fresh or preserved, but this page does not establish a fresh-to-dried
+        conversion or make the two plant parts interchangeable."
+      sources: *a6
+      review_version: 0.1
+  resources:
+    - resource: usu-coriander
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: cayenne-pepper
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A hot chilli seasoning commonly supplied as a fine red powder. Ground cayenne contributes pungent
+        heat to sauces, rubs and marinades, rather than merely adding a red colour.
+      sources: &a7
+        - ig1-cayenne
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: "Add it with the intended heat level in mind. A red powder is not automatically equivalent to
+        cayenne: paprika and mixed chilli seasonings may bring different heat and flavour. The cited
+        product illustrates ground cayenne, not a guaranteed heat rating for every jar."
+      sources: *a7
+      review_version: 0.1
+  resources:
+    - resource: ig1-cayenne
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: spring-onion
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: An onion used with its green tops and pale lower section. Both parts are edible, and the ingredient
+        can be used raw or cooked; the lower section may be narrow or show a more developed bulb.
+      sources: &a8
+        - ig1-spring
+        - ig1-onion
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Trim the root and damaged ends, then cut the parts required by the recipe. Regional use of spring
+        onion, green onion and scallion is not perfectly uniform. Existing project names are retained
+        without claiming that every regional market makes the same botanical or harvest distinction.
+      sources: *a8
+      review_version: 0.1
+  resources:
+    - resource: ig1-spring
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: ig1-onion
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: spaghetti
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A long, cord-like pasta shape. It is used with tomato, oil-based and other sauces; the strands are
+        the defining practical distinction from short tubes or filled pasta.
+      sources: &a9
+        - ig1-pasta
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Match cooking to the actual product and desired texture. The cited semolina spaghetti has its own
+        package instructions, which should not be transferred to every thickness or formulation. Sauce
+        choice can vary without changing the identity of the pasta shape.
+      sources: *a9
+      review_version: 0.1
+  resources:
+    - resource: ig1-pasta
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: sweet-pepper
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A fleshy pepper used as a vegetable, with varieties that differ in shape and colour. Bell peppers
+        are one familiar form, but sweet peppers also include elongated and smaller shapes.
+      sources: &a10
+        - ig1-sweet
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: They can be sliced for raw dishes or cooked, including roasting. Choose firm peppers and prepare
+        the stem, seeds and flesh as directed. The general name does not require a red bell pepper or
+        establish that all colours and varieties have identical flavour.
+      sources: *a10
+      review_version: 0.1
+  resources:
+    - resource: ig1-sweet
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: garlic-powder
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A powdered garlic ingredient that adds garlic flavour without pieces of chopped clove. Its fine
+        texture makes it useful in seasoning mixtures, sauces, soups and rubs where even distribution is
+        wanted.
+      sources: &a11
+        - ig1-garlic
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: It is not the same as garlic salt or a multi-ingredient seasoning. Check the product and recipe
+        rather than assuming a blend is plain powder. Replacing fresh garlic also changes the texture of
+        the dish; no general fresh-to-powder ratio is established here.
+      sources: *a11
+      review_version: 0.1
+  resources:
+    - resource: ig1-garlic
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: extra-virgin-olive-oil
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A category of virgin olive oil obtained through mechanical or physical processing and meeting
+        specified quality characteristics. Extra virgin is a defined category, not simply a decorative
+        description for any olive oil.
+      sources: &a12
+        - ioc-oil
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: The International Olive Council distinguishes it from refined olive oil and blends of refined and
+        virgin oils. Read the full label when the recipe specifies extra virgin. This classification does
+        not by itself give a universal smoke point, cooking temperature or flavour intensity.
+      sources: *a12
+      review_version: 0.1
+  resources:
+    - resource: ioc-oil
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: chicken-stock
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A chicken-based cooking liquid often made with bones, connective tissue and aromatic ingredients.
+        Extracted gelatin can contribute body, making stock useful as a foundation for sauces and soups.
+      sources: &a13
+        - cia-stock
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: The Culinary Institute of America describes practical overlap between stock and broth when meat
+        remains on the bones. The name is not a guarantee of one formula or strength. Follow the actual
+        preparation or product rather than treating stock and broth as rigidly separated by a single
+        ingredient.
+      sources: *a13
+      review_version: 0.1
+  resources:
+    - resource: cia-stock
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: mustard
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: In these recipe uses, mustard is a prepared condiment made from mustard seed and liquid. Smooth
+        Dijon is one example, while other preparations differ in texture, acidity and flavour.
+      sources: &a14
+        - ig1-mustard
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: A qualifier such as Dijon or yellow matters to the result. Prepared mustard contributes moisture as
+        well as seasoning, so dry mustard powder is not automatically an equal-volume substitute. The
+        cited Dijon formulation illustrates one product rather than defining every mustard sold under
+        this broad name.
+      sources: *a14
+      review_version: 0.1
+  resources:
+    - resource: ig1-mustard
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: tomato-sauce
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A tomato-based sauce used to bring tomato flavour and liquid to a dish. The cited canned example is
+        simmered with salt and spices; it illustrates a cooking ingredient rather than a single universal
+        sauce recipe.
+      sources: &a15
+        - ig1-tomato
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Read the recipe context and product label. Seasoning, sweetness and consistency vary, so tomato
+        sauce should not silently be treated as concentrated paste or ketchup. This page preserves the
+        broad existing term without declaring one regional packaged product to be its only meaning.
+      sources: *a15
+      review_version: 0.1
+  resources:
+    - resource: ig1-tomato
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: mayonnaise
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A thick emulsified sauce made by dispersing oil into an egg-yolk mixture with acidic ingredients.
+        Its texture comes from the combined mixture rather than from oil alone.
+      sources: &a16
+        - cia-mayo
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: The Culinary Institute of America method adds oil gradually while whisking. That example explains
+        the structure, not a guarantee that every commercial or egg-free alternative has the same
+        formulation. Use a suitable recipe and handling guidance rather than deriving a storage life from
+        the name mayonnaise.
+      sources: *a16
+      review_version: 0.1
+  resources:
+    - resource: cia-mayo
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: mushrooms
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Edible fungi used in many forms and species. Common cultivated examples include button, crimini,
+        portobello and shiitake; the general word does not identify a single mushroom variety.
+      sources: &a17
+        - ig1-mushrooms
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: The variety and preparation affect the dish, so follow a named type when one is specified. This
+        ingredient page is not a wild-mushroom identification guide. Use mushrooms supplied as edible
+        food, and do not infer that an unfamiliar specimen is safe from a superficial resemblance.
+      sources: *a17
+      review_version: 0.1
+  resources:
+    - resource: ig1-mushrooms
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: red-onion
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A red-coloured bulb onion used raw or cooked. Colour is one way onions are described, alongside
+        shape and pungency; it does not fully specify the onion’s flavour.
+      sources: &a18
+        - ig1-onion
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Choose a sound, firm bulb and cut it for the intended dish. Some bulb onions are sweeter and others
+        stronger, so red does not guarantee mildness. This entry remains distinct from the broader onion
+        page and does not prescribe an equal-volume substitute for every allium.
+      sources: *a18
+      review_version: 0.1
+  resources:
+    - resource: ig1-onion
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: turmeric
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A seasoning known for its strong yellow colour and earthy flavour. Ground turmeric is used in rice,
+        vegetable preparations, pickles and other dishes where both colour and seasoning matter.
+      sources: &a19
+        - ig1-turmeric
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: The cited ground product illustrates a common cooking form. Read the recipe’s form and quantity
+        rather than assuming that fresh material and powder behave identically. Its contribution is not
+        merely decorative, and this page makes no medicinal claim or fresh-to-ground conversion.
+      sources: *a19
+      review_version: 0.1
+  resources:
+    - resource: ig1-turmeric
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: chicken-broth
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A chicken-flavoured cooking liquid used in soups and to add flavour and moisture to other dishes.
+        Broth commonly includes meat and aromatics simmered in water, though formulations vary.
+      sources: &a20
+        - ig1-broth
+        - cia-stock
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Stock often emphasises bones and body, but the terms overlap in practice. Use the actual product or
+        preparation specified by the recipe; the label alone does not guarantee a particular
+        concentration, seasoning level or cooking duration. No automatic substitution ratio follows from
+        the comparison.
+      sources: *a20
+      review_version: 0.1
+  resources:
+    - resource: ig1-broth
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: cia-stock
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: sour-cream
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Cream cultured to develop a tangy flavour and a spoonable texture. It is used in dips, dressings
+        and as a topping, adding acidity as well as dairy richness.
+      sources: &a21
+        - dairy-cream
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Reduced-fat versions may have a different consistency. Sour cream is not simply another name for
+        unsoured whipping cream, so a replacement can change both texture and flavour. The cited dairy
+        guide explains the product family rather than prescribing a home fermentation process.
+      sources: *a21
+      review_version: 0.1
+  resources:
+    - resource: dairy-cream
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: worcestershire-sauce
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A concentrated seasoning sauce combining savoury, acidic and sweet flavours. The cited Lea &
+        Perrins example includes vinegar, molasses, tamarind and anchovies, and is used in marinades and
+        other savoury preparations.
+      sources: &a22
+        - ig1-worcester
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: "Check the actual product when ingredients matter: the familiar name does not guarantee an
+        anchovy-free or otherwise identical formulation. Small additions season a dish rather than
+        supplying its main liquid. This product example does not make the generic entry brand-specific."
+      sources: *a22
+      review_version: 0.1
+  resources:
+    - resource: ig1-worcester
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: heavy-cream
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A rich dairy cream used as a liquid ingredient and for whipping. Beating it incorporates air to
+        make a topping or a lighter component for desserts; the liquid and whipped forms occupy different
+        volumes.
+      sources: &a23
+        - kab-whip
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Begin with cold cream for whipping and watch its texture as it thickens. Further beating can take
+        it beyond the intended stage. The name alone does not make every regional cream product
+        equivalent, and a measure of liquid cream is not a measure of finished whipped cream.
+      sources: *a23
+      review_version: 0.1
+  resources:
+    - resource: kab-whip
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: puff-pastry
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A layered pastry in which dough and fat are repeatedly folded and rolled. During baking, steam
+        helps separate those layers, producing the characteristic lifted, flaky structure.
+      sources: &a24
+        - ig1-puff
+        - ig1-pufftips
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Handle thawed pastry while it is still cold and pliable. Compressing cut edges can interfere with
+        the rise. Commercial sheets may use different fats and dimensions, so follow the product and
+        recipe rather than assuming every puff pastry is all-butter or the same size.
+      sources: *a24
+      review_version: 0.1
+  resources:
+    - resource: ig1-puff
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: ig1-pufftips
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: red-pepper-flakes
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Crushed dried chilli pieces, often including visible seeds, used to add heat and pepper flavour.
+        Their coarse form is different from a finely ground red pepper powder.
+      sources: &a25
+        - ig1-flakes
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Heat and piece size can vary with the product. Use the recipe amount as a starting point for its
+        intended seasoning, not as proof that every jar has identical strength. Flakes are not
+        automatically interchangeable with sweet paprika simply because both look red.
+      sources: *a25
+      review_version: 0.1
+  resources:
+    - resource: ig1-flakes
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: ham
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A pork leg product that may be fresh, cured, smoked or cooked, depending on the label. In recipes
+        the word often means a prepared ham, but it does not establish readiness to eat by itself.
+      sources: &a26
+        - ig1-ham
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Check whether the product is ready-to-eat or requires cooking before using it. Curing and smoking
+        are not universal proof of that status. Follow the specific label and method rather than
+        transferring instructions from sliced cooked ham to an uncooked whole ham.
+      sources: *a26
+      review_version: 0.1
+  resources:
+    - resource: ig1-ham
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: ketchup
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A tomato condiment that combines tomato with acidity, sweetness and seasoning. The cited Heinz
+        version illustrates a thick sauce used as a topping, dip and ingredient in other preparations.
+      sources: &a27
+        - ig1-ketchup
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Adding ketchup brings more than tomato flavour, so it is not a neutral replacement for tomato sauce
+        or concentrated paste. Formulations differ between products and markets; read the label instead
+        of assuming one sweetener or seasoning mixture is universal.
+      sources: *a27
+      review_version: 0.1
+  resources:
+    - resource: ig1-ketchup
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: onion-powder
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A powdered onion seasoning used to add onion flavour without chopped pieces. It is useful in rubs,
+        sauces, soups and dips where a smooth or evenly distributed seasoning is wanted.
+      sources: &a28
+        - ig1-onionpowder
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: It does not provide the same bulk or texture as fresh onion. Plain onion powder also differs from
+        onion salt and mixed seasoning. Manufacturer substitution suggestions are product-specific; this
+        page does not turn them into a general conversion rule for every recipe.
+      sources: *a28
+      review_version: 0.1
+  resources:
+    - resource: ig1-onionpowder
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: shallot
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: An onion-family ingredient whose bulbs develop in clusters rather than as a single ordinary onion
+        bulb. The Oxford Companion to Food describes shallots as smaller and more delicate in flavour
+        than round onions.
+      sources: &a29
+        - ig1-shallot
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Use that distinction as context rather than a fixed size or strength guarantee. A recipe naming
+        shallots may depend on the portion and flavour of that ingredient; the comparison does not
+        establish that any small onion is a shallot or supply a universal substitution ratio.
+      sources: *a29
+      review_version: 0.1
+  resources:
+    - resource: ig1-shallot
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: vanilla-extract
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A liquid vanilla flavouring containing extractives from vanilla beans. The cited pure extract uses
+        water and alcohol as part of its formulation and is used in baking, desserts and other
+        preparations.
+      sources: &a30
+        - ig1-vanilla
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: An extract is a different preparation from a whole bean, paste or vanilla-flavoured sugar. Read the
+        form specified and the actual product strength. Manufacturer equivalencies do not establish a
+        universal conversion across all extracts and vanilla products.
+      sources: *a30
+      review_version: 0.1
+  resources:
+    - resource: ig1-vanilla
+      role: introduction
+      order: 1
+      review_version: 0.1
