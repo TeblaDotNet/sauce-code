@@ -4273,3 +4273,190 @@
   review_scope: text
   notes: Text consulted for provisional original summaries. Product examples do not establish universal
     materials, dimensions or operating limits.
+
+- id: ep3-cauldron
+  title: Caldron (13th or 14th century)
+  url: https://www.metmuseum.org/art/collection/search/471343
+  publisher: The Metropolitan Museum of Art
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for provisional original summaries. Product examples do not establish universal
+    materials, dimensions or operating limits.
+- id: ep3-bottle
+  title: KORKEN Bottle with stopper, clear glass
+  url: https://www.ikea.com/us/en/p/korken-bottle-with-stopper-clear-glass-10342687/
+  publisher: IKEA
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for provisional original summaries. Product examples do not establish universal
+    materials, dimensions or operating limits.
+- id: ep3-bowl
+  title: BLANDA clear glass serving bowl
+  url: https://www.ikea.com/us/en/p/blanda-serving-bowl-clear-glass-90057252/
+  publisher: IKEA
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for provisional original summaries. Product examples do not establish universal
+    materials, dimensions or operating limits.
+- id: ep3-squeeze
+  title: Why You Need to Squeeze Your Vegetables
+  url: https://www.jamesbeard.org/stories/why-you-need-to-squeeze-your-vegetables
+  publisher: James Beard Foundation
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for provisional original summaries. Product examples do not establish universal
+    materials, dimensions or operating limits.
+- id: ep3-band
+  title: What do I need to know to sell KOMBUCHA at the farmers market?
+  url: https://spes.vt.edu/content/pubs_ext_vt_edu/en/FST/FST-297/FST-297.html
+  publisher: Virginia Cooperative Extension
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Only the cloth/filter and rubber-band fastening example is summarized. No fermentation procedure,
+    acidity, storage or pressure guidance is reproduced.
+- id: ep3-glass
+  title: IKEA 365+ food container with lid, square/glass
+  url: https://www.ikea.com/us/en/p/ikea-365-food-container-with-lid-square-glass-50577933/
+  publisher: IKEA
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for provisional original summaries. Product examples do not establish universal
+    materials, dimensions or operating limits.
+- id: ep3-gloves
+  title: A baker’s tips for safely working with lye
+  url: https://www.kingarthurbaking.com/blog/2021/05/20/a-bakers-tips-for-safely-working-with-lye
+  publisher: King Arthur Baking
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Only protective-equipment scope is summarized. No lye preparation, neutralisation, disposal or
+    cooking procedure is provided.
+- id: ep3-score
+  title: "Baking trials: Just how much does scoring impact bread?"
+  url: https://www.kingarthurbaking.com/blog/2024/05/30/scoring-bread-dough
+  publisher: King Arthur Baking
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for provisional original summaries. Product examples do not establish universal
+    materials, dimensions or operating limits.
+- id: ep3-scissors
+  title: Kitchen And Herb Scissors
+  url: https://www.oxouk.com/products/kitchen-and-herb-scissors/
+  publisher: OXO UK
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for provisional original summaries. Product examples do not establish universal
+    materials, dimensions or operating limits.
+- id: ep3-pot
+  title: Dutch Ovens
+  url: https://www.lecreuset.ca/en_CA/cookware/dutch-ovens
+  publisher: Le Creuset
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for provisional original summaries. Product examples do not establish universal
+    materials, dimensions or operating limits.
+- id: ep3-bake
+  title: Artisan sourdough bread tips, part 3
+  url: https://www.kingarthurbaking.com/blog/2015/10/15/artisan-sourdough-bread-tips-part-3
+  publisher: King Arthur Baking
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for provisional original summaries. Product examples do not establish universal
+    materials, dimensions or operating limits.
+- id: ep3-hummus
+  title: How to make hummus
+  url: https://www.bbcgoodfoodme.com/video-recipe/how-to-make-hummus/
+  publisher: Good Food Middle East
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for provisional original summaries. Product examples do not establish universal
+    materials, dimensions or operating limits.
+- id: ep3-break
+  title: Ground Meat Chopper & Turner
+  url: https://www.oxo.com/shop/kitchenware/utensils/spoons-scoopers/ground-meat-chopper-turner.html
+  publisher: OXO
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for provisional original summaries. Product examples do not establish universal
+    materials, dimensions or operating limits.
+- id: ep3-processor
+  title: Food Processor - How to Use
+  url: https://products.geappliances.com/appliance/gea-support-search-content?contentId=000060882
+  publisher: GE Appliances
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for provisional original summaries. Product examples do not establish universal
+    materials, dimensions or operating limits.
+- id: ep3-rub
+  title: Beer can chicken
+  url: https://www.bbcgoodfood.com/recipes/beer-can-chicken/
+  publisher: Good Food
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Only application of seasoning is summarized; cooking times and doneness claims are not used.
+- id: ep3-challah
+  title: Classic Challah — Uri Scheft
+  url: https://www.jewishfoodsociety.org/recipes/classic-challah
+  publisher: Jewish Food Society
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for provisional original summaries. Product examples do not establish universal
+    materials, dimensions or operating limits.
+- id: ep3-oil
+  title: Crepes Two Ways
+  url: https://www.pbs.org/video/crepes-two-ways-Zwiatp/
+  publisher: America’s Test Kitchen / PBS
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public transcript consulted for the thin oil film in a crepe pan; no episode footage reused.
+- id: ep3-space
+  title: Make your best cookies with these 10 tips
+  url: https://www.kingarthurbaking.com/blog/2023/09/27/best-cookie-tips
+  publisher: King Arthur Baking
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for provisional original summaries. Product examples do not establish universal
+    materials, dimensions or operating limits.
+- id: ep3-spoon
+  title: "Metric Kitchen: Chocolate Chip Cookies"
+  url: https://www.nist.gov/pml/owm/metric-si/metric-kitchen/metric-kitchen-recipe-gallery/metric-kitchen-chocolate-chip-cookies
+  publisher: National Institute of Standards and Technology
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for provisional original summaries. Product examples do not establish universal
+    materials, dimensions or operating limits.
+- id: ep3-tie
+  title: Bouquet Garni — The French Laundry Cookbook
+  url: https://app.ckbk.com/recipe/fren57567c02s001ss001r003/bouquet-garni/
+  publisher: Thomas Keller / ckbk
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Publicly accessible excerpt consulted for tying an aromatic bundle, not the full cookbook.
+- id: ep3-lay
+  title: Beef wellington — Gordon Ramsay
+  url: https://tollbit.bbcgoodfood.com/recipes/beef-wellington
+  publisher: Good Food
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public recipe text consulted only for assembly and layering; no cooking or storage schedule
+    reproduced.
