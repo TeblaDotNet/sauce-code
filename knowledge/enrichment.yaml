@@ -18106,3 +18106,808 @@
       role: introduction
       order: 1
       review_version: 0.1
+
+- target:
+    kind: equipment
+    id: oven
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: An enclosed heated space used for baking and roasting. A convection setting adds circulating air;
+        it is a mode of heat delivery, not a different recipe method.
+      sources: &a1
+        - ep1-oven
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Moving air can change browning and the rate of baking. Fan strength and oven design vary, so a
+        convection setting is not a universal improvement or a fixed temperature conversion for every
+        bake.
+      sources: *a1
+      review_version: 0.1
+  resources:
+    - resource: ep1-oven
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: pan
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A broad cookware term whose practical meaning depends on the vessel. A shallow skillet offers
+        access for turning and searing; a deeper saucepan holds liquids more readily.
+      sources: &a2
+        - ep1-vessels
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Choose by the operation, usable surface area and sides rather than the word pan alone. A wide
+        braising vessel and a small saucepan are not interchangeable merely because both can be covered
+        and heated.
+      sources: *a2
+      review_version: 0.1
+  resources:
+    - resource: ep1-vessels
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: pot
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A cooking vessel commonly used to contain liquids and substantial quantities of food. A stockpot
+        has tall sides suited to stock, soup or boiling pasta.
+      sources: &a3
+        - ep1-vessels
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: "Capacity and shape matter together: a tall pot contains liquid differently from a shallow skillet.
+        Read the recipe for the intended batch size and operation instead of assuming that every pot is
+        suitable for every cooking task."
+      sources: *a3
+      review_version: 0.1
+  resources:
+    - resource: ep1-vessels
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: lid
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A cover fitted over a cooking vessel. Covering can retain moisture during cooking; a glass lid also
+        allows the contents to be observed without lifting it.
+      sources: &a4
+        - ep1-lid
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: A lid changes how a pan is used, including covered braising or poaching. Fit and heat compatibility
+        belong to the particular lid and its handles; a cover is not automatically oven-safe or a
+        pressure-cooking seal.
+      sources: *a4
+      review_version: 0.1
+  resources:
+    - resource: ep1-lid
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: container
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A receptacle for holding food; the intended use determines the suitable material and closure. For
+        freezing, rigid containers and flexible packaging have different practical advantages.
+      sources: &a5
+        - nchfp-freezer-containers
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Freezer packaging needs resistance to moisture loss and low-temperature damage. Not every glass jar
+        is designed for freezing. General container wording therefore does not establish freezer,
+        microwave or other heating suitability.
+      sources: *a5
+      review_version: 0.1
+  resources:
+    - resource: nchfp-freezer-containers
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: strainer
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A perforated or mesh tool that lets liquid pass while holding back larger solids. Fine-mesh
+        examples can rinse small produce or strain foods over another vessel.
+      sources: &a6
+        - ep1-strainer
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Opening size determines what is retained. A fine strainer and a coarse draining tool may serve
+        related purposes but will not separate the same particles. Handles and support loops can help
+        position a strainer over a bowl.
+      sources: *a6
+      review_version: 0.1
+  resources:
+    - resource: ep1-strainer
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: spatula
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Spatula covers several working shapes. A flexible silicone head can scrape a bowl or mix a batter;
+        an offset metal blade is especially useful for spreading icing.
+      sources: &a7
+        - oxo-silicone-spatulas
+        - b3-offset
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: The offset blade raises the hand away from the working surface, while a flexible scraper follows a
+        container wall. Select the shape for the task; the shared name does not make all spatulas
+        equivalent in flexibility or heat tolerance.
+      sources: *a7
+      review_version: 0.1
+  resources:
+    - resource: oxo-silicone-spatulas
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: b3-offset
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: metal-griddle
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A broad, substantially flat metal cooking surface with very low sides, giving easy access for
+        turning pancakes, eggs or sandwiches.
+      sources: &a8
+        - ep1-griddle
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Compared with a skillet, the low edge leaves more room to approach food with a turner but contains
+        liquids less readily. Griddles vary in material and heating arrangement; a cast-iron example does
+        not establish every griddle's compatibility.
+      sources: *a8
+      review_version: 0.1
+  resources:
+    - resource: ep1-griddle
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: equipment
+        id: frying-pan
+      note: Low griddle edges give turning access; a frying pan has more enclosing sidewall.
+      sources: *a8
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: baking-pan
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A vessel that supports and contains a bake in the oven. Its dimensions and material are part of the
+        baking setup, not merely presentation choices.
+      sources: &a9
+        - kab-pans
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Metal and glass do not heat and cool identically. Substituting a different material or shape can
+        change how the edges and centre bake; use the recipe's pan guidance rather than assuming equal
+        capacity guarantees equal results.
+      sources: *a9
+      review_version: 0.1
+  resources:
+    - resource: kab-pans
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: stove
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A cooking appliance that supplies heat at a cooktop, using arrangements such as gas burners,
+        radiant electric elements or induction.
+      sources: &a10
+        - ep1-stove
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Induction works with compatible magnetic cookware bases, unlike direct flame or radiant heating.
+        The heat source and the vessel must be considered together; the general word stove does not
+        identify the burner technology.
+      sources: *a10
+      review_version: 0.1
+  resources:
+    - resource: ep1-stove
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: mixing-bowl
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: An open bowl used to combine ingredients, whisk eggs or hold a marinade. Its open shape gives
+        access for a spoon, whisk or other mixing tool.
+      sources: &a11
+        - ep1-bowl
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Bowl sets offer different capacities for different tasks. Features such as a non-slip base, handle
+        and pouring spout can assist vigorous mixing or transferring batter, but are options rather than
+        requirements of a mixing bowl.
+      sources: *a11
+      review_version: 0.1
+  resources:
+    - resource: ep1-bowl
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: microwave-oven
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: An appliance used to heat and cook food with microwave energy. Heating can be uneven, so stirring
+        or rotating food and following the recipe's standing instructions can matter.
+      sources: &a12
+        - fsis-microwave-wrap
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Use containers identified as suitable for microwave use and follow the appliance instructions.
+        Power and food arrangement affect results; a setting or time from one preparation does not
+        establish a universal cooking schedule.
+      sources: *a12
+      review_version: 0.1
+  resources:
+    - resource: fsis-microwave-wrap
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: work-surface
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: The area where a preparation is carried out. Knife work benefits from an organised layout for uncut
+        food, prepared pieces and trimmings; pastry rolling needs a surface suited to dough.
+      sources: &a13
+        - cia-knives
+        - ep1-pie
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: "A floured surface or rolling mat can help manage pastry sticking. The term names a working area
+        rather than specifying one material or tool: use the preparation method to choose the appropriate
+        surface."
+      sources: *a13
+      review_version: 0.1
+  resources:
+    - resource: cia-knives
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: ep1-pie
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: hotplate
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A compact countertop heat source used beneath a cooking vessel. A single electric burner is one
+        example, with a heated plate and adjustable control.
+      sources: &a14
+        - ep1-hotplate
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: This heats a pan or pot rather than providing the exposed food-contact surface of a griddle.
+        Designs vary, so vessel compatibility and operating limits must come from the particular
+        appliance rather than the general name.
+      sources: *a14
+      review_version: 0.1
+  resources:
+    - resource: ep1-hotplate
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: equipment
+        id: metal-griddle
+      note: The burner supports a separate vessel; a griddle provides the food-contact surface.
+      sources: *a14
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: meat-tenderizer
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A hand tool used to pound meat. A two-faced example provides a flat face for flattening and a
+        textured face for mechanical tenderizing.
+      sources: &a15
+        - oxo-meat-tenderizer
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Flattening changes thickness; the textured face works the meat surface differently. Choose the face
+        for the intended task. This equipment entry does not refer to an added tenderizing ingredient or
+        imply that every tenderizer has the same construction.
+      sources: *a15
+      review_version: 0.1
+  resources:
+    - resource: oxo-meat-tenderizer
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: cook
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Apply heat to food using an appropriate cooking method. Moist-heat methods use water, another
+        liquid or steam; dry-heat methods include heating in air or fat.
+      sources: &a16
+        - ep1-cook
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: The broad instruction cook does not by itself choose boiling, steaming, roasting or frying. The
+        surrounding recipe must supply the method and desired result; these methods expose food to heat
+        in different ways.
+      sources: *a16
+      review_version: 0.1
+  resources:
+    - resource: ep1-cook
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: mix
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Bring ingredients together into a mixture. In baking, how and when they are combined can matter as
+        much as whether the ingredients are distributed.
+      sources: &a17
+        - kab-cake-mixing
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Creaming butter and sugar can incorporate air, while folding flour into a foam aims to preserve air
+        already present. A general mix instruction should not be taken as permission to substitute
+        vigorous beating for a specified gentler method.
+      sources: *a17
+      review_version: 0.1
+  resources:
+    - resource: kab-cake-mixing
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: cut
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: "Divide food with a cutting tool. More specific instructions describe the intended pieces: dice
+        makes cubes, mince makes much smaller pieces, while chopping allows less regular shapes."
+      sources: &a18
+        - cia-knives
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Relatively consistent pieces help food cook at a similar rate. Match the tool and cut to the
+        ingredient and intended result; cut alone does not specify the size or shape of the finished
+        pieces.
+      sources: *a18
+      review_version: 0.1
+  resources:
+    - resource: cia-knives
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: season
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Add ingredients to bring out or adjust a preparation's flavour. Salt and pepper are common, but
+        herbs, spices, aromatics, oils, acids and other condiments can also form a seasoning.
+      sources: &a19
+        - ep1-season
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: The appropriate combination depends on the dish. Season describes a flavouring purpose rather than
+        one fixed ingredient or quantity; it should not automatically be read as add salt or as a
+        separate cooking method.
+      sources: *a19
+      review_version: 0.1
+  resources:
+    - resource: ep1-season
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: rest
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Leave a preparation undisturbed for a specified purpose. In pastry dough, resting can allow gluten
+        to relax, making the dough easier to handle.
+      sources: &a20
+        - ep1-pie
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: "Rest and chill can happen together but describe different things: a pause allows time-dependent
+        changes, while cooling also firms pastry fat. Rest does not by itself specify refrigeration or
+        mean that a dough is undergoing a yeast rise."
+      sources: *a20
+      review_version: 0.1
+  resources:
+    - resource: ep1-pie
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: process
+        id: chill
+      note: Rest describes a pause; chilling describes a temperature change.
+      sources: *a20
+      review_version: 0.1
+- target:
+    kind: process
+    id: fry
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Cook food using hot fat as the cooking medium. Pan-frying and deep-frying differ in how much of the
+        food is surrounded by the fat.
+      sources: &a21
+        - cia-frying
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Crowding can lower the fat temperature and hinder the intended crisp result. Follow the specified
+        frying method and load rather than treating every fry instruction as full immersion; draining on
+        a rack can help avoid trapping steam beneath fried food.
+      sources: *a21
+      review_version: 0.1
+  resources:
+    - resource: cia-frying
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: roll
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Shape by rolling, with the intended form supplied by the recipe. Dough can be rolled under the
+        hands into a rope, or a filled sheet can be rolled up into a log.
+      sources: &a22
+        - ep1-bagel
+        - ep1-babka
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: These are different shaping operations from rolling out a sheet to a specified thickness. Look for
+        the stated shape and direction rather than assuming every roll instruction calls for a rolling
+        pin.
+      sources: *a22
+      review_version: 0.1
+  resources:
+    - resource: ep1-bagel
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: ep1-babka
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: process
+        id: roll-out
+      note: Rolling a rope or log differs from flattening dough into a sheet.
+      sources: *a22
+      review_version: 0.1
+- target:
+    kind: process
+    id: soak
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Leave food in a liquid so it can take up moisture. With dried beans, soaking begins rehydration
+        before the subsequent cooking stage.
+      sources: &a23
+        - ep1-soak
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Soaking is not the same operation as cooking the beans. Methods differ, so use the instructions
+        appropriate to the ingredient; the word soak alone does not provide a universal duration or
+        establish that the food is ready to eat.
+      sources: *a23
+      review_version: 0.1
+  resources:
+    - resource: ep1-soak
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: chill
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Lower a preparation's temperature. In cookie dough, chilling firms the fat and can reduce spreading
+        during baking.
+      sources: &a24
+        - ep1-chill
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: The example concerns cookie dough, not every food. A resting period can also change dough
+        independently of temperature; chill identifies the cooling goal and does not itself supply a
+        storage-life or preservation instruction.
+      sources: *a24
+      review_version: 0.1
+  resources:
+    - resource: ep1-chill
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: process
+        id: rest
+      note: Cooling and time at rest can affect dough in different ways.
+      sources: *a24
+      review_version: 0.1
+- target:
+    kind: process
+    id: roll-out
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Flatten dough into a sheet with a rolling pin, aiming for the thickness and dimensions needed by
+        the recipe.
+      sources: &a25
+        - ep1-pie
+        - ep1-babka
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Pastry that springs back may need a rest before more rolling. A lightly floured surface or rolling
+        mat helps manage sticking. Rolling out changes a sheet's dimensions; rolling it up into a filled
+        log is a separate shaping step.
+      sources: *a25
+      review_version: 0.1
+  resources:
+    - resource: ep1-pie
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: ep1-babka
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: process
+        id: roll
+      note: A sheet-forming operation is distinct from rolling that sheet into a log.
+      sources: *a25
+      review_version: 0.1
+- target:
+    kind: process
+    id: juice
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Extract liquid from fruit. For citrus, pressing the cut fruit against a reamer releases juice; a
+        built-in strainer can catch seeds and larger pulp.
+      sources: &a26
+        - ep1-juice
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Extraction and straining are separate functions even when one tool performs both. The desired
+        amount of pulp determines whether further straining is useful; this action concerns the juice
+        rather than removing zest from the peel.
+      sources: *a26
+      review_version: 0.1
+  resources:
+    - resource: ep1-juice
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: sieve
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Pass material through a mesh. For dry baking ingredients such as flour, cocoa or powdered sugar,
+        sifting can break up lumps and loosen the powder.
+      sources: &a27
+        - ep1-sieve
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: This can help dry ingredients combine with a delicate foam without excessive mixing. Whisking may
+        loosen a powder but does not separate particles through a mesh, so it is not identical to sieving
+        when lumps must be removed.
+      sources: *a27
+      review_version: 0.1
+  resources:
+    - resource: ep1-sieve
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: pan-fry
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Fry food in a pan with fat reaching only partway up the food, turning as needed to cook the other
+        side.
+      sources: &a28
+        - cia-frying
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Unlike deep-frying, the food is not surrounded by fat throughout. Batch size matters because adding
+        too much food can cool the fat; follow the recipe's method rather than treating pan-frying and
+        deep-frying as interchangeable.
+      sources: *a28
+      review_version: 0.1
+  resources:
+    - resource: cia-frying
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: process
+        id: deep-fry
+      note: Partial fat immersion differs from surrounding food with fat.
+      sources: *a28
+      review_version: 0.1
+- target:
+    kind: process
+    id: thicken
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Increase the body or consistency of a liquid preparation. Culinary liaisons can use flour, starch
+        or other ingredients such as egg yolk and cream.
+      sources: &a29
+        - b7-slurry
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: These approaches are not one interchangeable technique. A starch dispersed in cold liquid before
+        adding it to a hot preparation is different from an egg-based liaison; follow the method
+        appropriate to the thickener rather than just adding any available powder.
+      sources: *a29
+      review_version: 0.1
+  resources:
+    - resource: b7-slurry
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: scramble
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Cook beaten eggs while moving the setting mixture with a utensil, drawing and folding it into
+        curds.
+      sources: &a30
+        - ep1-scramble
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Beating combines the raw egg; scrambling also involves heat and the movement of the setting egg.
+        The size and texture of the curds depend on that handling, so an instruction to beat eggs alone
+        does not describe scrambling.
+      sources: *a30
+      review_version: 0.1
+  resources:
+    - resource: ep1-scramble
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: process
+        id: beat
+      note: Beating combines raw egg; scrambling forms curds during heating.
+      sources: *a30
+      review_version: 0.1

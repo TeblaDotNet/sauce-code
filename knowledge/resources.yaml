@@ -3902,3 +3902,166 @@
   review_scope: text
   notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
     schedules or cross-regional equivalence.
+
+- id: ep1-oven
+  title: "Convection oven baking: Why this baker is a fan"
+  url: https://www.kingarthurbaking.com/blog/2025/03/19/convection-oven-baking
+  publisher: King Arthur Baking
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for provisional original summaries. Manufacturer examples do not establish
+    universal compatibility or operating limits.
+- id: ep1-vessels
+  title: How to Build a Cookware Collection
+  url: https://www.lecreuset.com/blog/how-to-build-a-cookware-collection.html
+  publisher: Le Creuset
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for provisional original summaries. Manufacturer examples do not establish
+    universal compatibility or operating limits.
+- id: ep1-lid
+  title: Care and Use
+  url: https://www.lecreuset.com/care-and-use.html
+  publisher: Le Creuset
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for provisional original summaries. Manufacturer examples do not establish
+    universal compatibility or operating limits.
+- id: ep1-strainer
+  title: 6-inch Strainer
+  url: https://www.oxo.com/6-in-strainer.html
+  publisher: OXO
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for provisional original summaries. Manufacturer examples do not establish
+    universal compatibility or operating limits.
+- id: ep1-griddle
+  title: Griddles 101
+  url: https://www.lodgecastiron.com/pages/griddles-101
+  publisher: Lodge
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for provisional original summaries. Manufacturer examples do not establish
+    universal compatibility or operating limits.
+- id: ep1-stove
+  title: What Is an Induction Cooktop?
+  url: https://www.whirlpool.com/blog/kitchen/what-is-an-induction-cooktop.html
+  publisher: Whirlpool
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for provisional original summaries. Manufacturer examples do not establish
+    universal compatibility or operating limits.
+- id: ep1-bowl
+  title: 3-Piece Mixing Bowl Set
+  url: https://www.oxo.com/3-piece-mixing-bowl-set-2.html
+  publisher: OXO
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for provisional original summaries. Manufacturer examples do not establish
+    universal compatibility or operating limits.
+- id: ep1-pie
+  title: Pie crust
+  url: https://www.kingarthurbaking.com/learn/guides/pie-crust
+  publisher: King Arthur Baking
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for provisional original summaries. Manufacturer examples do not establish
+    universal compatibility or operating limits.
+- id: ep1-hotplate
+  title: Countertop Single Burner
+  url: https://www.cuisinart.com/countertop-single-burner/P-CB-30.html
+  publisher: Cuisinart
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for provisional original summaries. Manufacturer examples do not establish
+    universal compatibility or operating limits.
+- id: ep1-cook
+  title: What Are Moist & Dry Heat Cooking Methods?
+  url: https://rouxbe.com/tips-techniques/417-what-are-moist-dry-heat-cooking-methods
+  publisher: Rouxbe
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for provisional original summaries. Manufacturer examples do not establish
+    universal compatibility or operating limits.
+- id: ep1-season
+  title: Assaisonner
+  url: https://chefsimon.com/articles/lexique-assaisonner
+  publisher: Chef Simon
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for provisional original summaries. Manufacturer examples do not establish
+    universal compatibility or operating limits.
+- id: ep1-bagel
+  title: How to shape bagels
+  url: https://www.kingarthurbaking.com/blog/2020/01/15/how-to-shape-bagels
+  publisher: King Arthur Baking
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for provisional original summaries. Manufacturer examples do not establish
+    universal compatibility or operating limits.
+- id: ep1-babka
+  title: How to shape babka
+  url: https://www.kingarthurbaking.com/blog/2017/04/10/how-to-shape-babka
+  publisher: King Arthur Baking
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for provisional original summaries. Manufacturer examples do not establish
+    universal compatibility or operating limits.
+- id: ep1-soak
+  title: Four-Step Method for Cooking Dry Beans
+  url: https://beaninstitute.com/resources/cook-with-beans/four-step-method/
+  publisher: Bean Institute
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for provisional original summaries. Manufacturer examples do not establish
+    universal compatibility or operating limits.
+- id: ep1-chill
+  title: Chilling cookie dough
+  url: https://www.kingarthurbaking.com/blog/2015/05/17/chilling-cookie-dough
+  publisher: King Arthur Baking
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for provisional original summaries. Manufacturer examples do not establish
+    universal compatibility or operating limits.
+- id: ep1-juice
+  title: Small Citrus Juicer
+  url: https://www.oxo.com/small-citrus-juicer.html
+  publisher: OXO
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for provisional original summaries. Manufacturer examples do not establish
+    universal compatibility or operating limits.
+- id: ep1-sieve
+  title: Why sift flour?
+  url: https://www.kingarthurbaking.com/blog/2024/06/24/why-sift-flour
+  publisher: King Arthur Baking
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for provisional original summaries. Manufacturer examples do not establish
+    universal compatibility or operating limits.
+- id: ep1-scramble
+  title: Basic Scrambled Eggs
+  url: https://www.incredibleegg.org/recipe/basic-scrambled-eggs/
+  publisher: American Egg Board
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for provisional original summaries. Manufacturer examples do not establish
+    universal compatibility or operating limits.
