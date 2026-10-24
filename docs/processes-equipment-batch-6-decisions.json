@@ -1,0 +1,777 @@
+{
+  "status": "Generated research; human review outstanding",
+  "additions": [
+    {
+      "kind": "equipment",
+      "id": "pour-over-dripper",
+      "definition": "A holder that supports a coffee filter and grounds while poured water drains through them into a vessel below. Its shape and openings influence the flow; the dripper is distinct from the filter it holds.",
+      "aliases": [],
+      "categories": [
+        "coffee-and-bar"
+      ],
+      "sources": [
+        "b6-dripper"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "equipment",
+      "id": "french-press",
+      "definition": "A coffee brewer with a vessel and plunger-mounted filter. Grounds steep in the water before the filter is lowered to retain them for pouring. This immersion arrangement differs from water passing through a separate pour-over dripper.",
+      "aliases": [],
+      "categories": [
+        "coffee-and-bar"
+      ],
+      "sources": [
+        "b6-press"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "equipment",
+      "id": "coffee-grinder",
+      "definition": "A tool that reduces roasted coffee beans to particles for brewing. Grind adjustment and mechanism vary; a grinder prepares grounds but does not brew the drink. The documented burr grinder is one example, not a definition of every coffee grinder.",
+      "aliases": [],
+      "categories": [
+        "coffee-and-bar"
+      ],
+      "sources": [
+        "b6-grinder"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "equipment",
+      "id": "espresso-machine",
+      "definition": "A machine that extracts coffee by passing pressurised hot water through prepared grounds. A steam wand, when fitted, performs a separate milk-texturing task. A built-in grinder or automatic milk system is not implied by the name.",
+      "aliases": [],
+      "categories": [
+        "coffee-and-bar"
+      ],
+      "sources": [
+        "b6-espresso"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "equipment",
+      "id": "milk-frothing-jug",
+      "definition": "A handled jug used to hold milk during texturing and pour it into a drink. A shaped spout helps control pouring; the jug itself is distinct from the steam wand or powered frother that aerates the milk.",
+      "aliases": [],
+      "categories": [
+        "coffee-and-bar"
+      ],
+      "sources": [
+        "b6-jug"
+      ],
+      "type_of": "jug",
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "equipment",
+      "id": "tea-infuser",
+      "definition": "A perforated holder that keeps loose tea together while water circulates through it during steeping. It can be removed with the leaves inside. This differs from catching leaves in a strainer as already brewed tea is poured.",
+      "aliases": [],
+      "categories": [
+        "coffee-and-bar"
+      ],
+      "sources": [
+        "b6-tea"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "equipment",
+      "id": "bakers-couche",
+      "definition": "A cloth folded into channels to support shaped bread dough during its final rise. The dough is then transferred to a baking surface. Its proofing role differs from a pastry cloth used under a rolling pin.",
+      "aliases": [],
+      "categories": [
+        "bakeware"
+      ],
+      "sources": [
+        "b6-couche"
+      ],
+      "type_of": "cloth",
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "equipment",
+      "id": "baguette-pan",
+      "definition": "A baking pan with long channels supporting baguettes. Perforated examples let moisture escape through the pan; not every pan shares the same material or coating. It is a baking vessel, unlike a cloth used only for proofing.",
+      "aliases": [],
+      "categories": [
+        "bakeware"
+      ],
+      "sources": [
+        "b6-baguette"
+      ],
+      "type_of": "baking-pan",
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "equipment",
+      "id": "madeleine-pan",
+      "definition": "A baking pan containing shallow shell-shaped cavities for madeleines. The cavities form the characteristic outline and ridges; their count and capacity vary. A muffin tin does not provide the same shape.",
+      "aliases": [],
+      "categories": [
+        "bakeware"
+      ],
+      "sources": [
+        "b6-madeleine"
+      ],
+      "type_of": "baking-pan",
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "equipment",
+      "id": "boning-knife",
+      "definition": "A narrow-bladed knife for working closely around bones and trimming meat. It separates flesh from bone through controlled cuts; its name does not imply a heavy blade for chopping through bones.",
+      "aliases": [],
+      "categories": [
+        "knives-and-cutting"
+      ],
+      "sources": [
+        "b6-knives"
+      ],
+      "type_of": "knife",
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "equipment",
+      "id": "fillet-knife",
+      "definition": "A long, narrow-bladed knife suited to following a fish’s backbone and separating or skinning fillets. Flexibility varies with design. It is distinct from gripping tongs used to extract individual pin bones.",
+      "aliases": [
+        "fish filleting knife"
+      ],
+      "categories": [
+        "knives-and-cutting"
+      ],
+      "sources": [
+        "b6-knives"
+      ],
+      "type_of": "knife",
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "equipment",
+      "id": "meat-cleaver",
+      "definition": "A broad, sturdy knife intended for heavy chopping during meat preparation. It differs from a thin slicing knife with a similar rectangular outline. Bone-cutting suitability depends on the particular blade; the unqualified word cleaver is not treated as a universal synonym.",
+      "aliases": [],
+      "categories": [
+        "knives-and-cutting"
+      ],
+      "sources": [
+        "b6-cleaver"
+      ],
+      "type_of": "knife",
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "equipment",
+      "id": "pizza-wheel",
+      "definition": "A handled circular blade that rolls through pizza crust and toppings. Wheel size and clearance matter for thick toppings. Its rolling action resembles a pastry wheel, but the two tool identities are not automatically interchangeable.",
+      "aliases": [],
+      "categories": [
+        "knives-and-cutting"
+      ],
+      "sources": [
+        "b6-pizza"
+      ],
+      "type_of": "cutter",
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "equipment",
+      "id": "ice-cube-tray",
+      "definition": "A tray divided into cavities for freezing water into separate pieces of ice. Cavity shape and size vary; a cover is an optional design feature. The tray shapes ice but does not itself provide refrigeration.",
+      "aliases": [],
+      "categories": [
+        "coffee-and-bar"
+      ],
+      "sources": [
+        "b6-ice"
+      ],
+      "type_of": "tray",
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "equipment",
+      "id": "chocolate-dipping-fork",
+      "definition": "A small supporting fork for lowering a centre into chocolate, lifting it out and releasing it onto a setting surface. It supports the centre while surplus coating drains, rather than piercing it like a serving fork.",
+      "aliases": [],
+      "categories": [
+        "preparation-tools"
+      ],
+      "sources": [
+        "b6-dip"
+      ],
+      "type_of": "fork",
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "process",
+      "id": "enrobe-chocolate",
+      "definition": "Cover a prepared centre with a chocolate shell. Hand dipping is one way to apply the coating; the chocolate’s fluidity and removal of excess affect shell thickness. Applying the shell is distinct from tempering the chocolate beforehand.",
+      "aliases": [],
+      "categories": [
+        "coating-and-breading"
+      ],
+      "sources": [
+        "b6-dip"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "process",
+      "id": "seed-temper-chocolate",
+      "definition": "Temper melted chocolate by stirring in previously tempered chocolate that supplies suitable cocoa-butter crystals. The seed’s condition matters; this is not simply adding any cold chocolate. Check the resulting temper rather than relying only on temperature.",
+      "aliases": [],
+      "categories": [
+        "baking-and-pastry"
+      ],
+      "sources": [
+        "b6-seed"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "process",
+      "id": "table-temper-chocolate",
+      "definition": "Move part of the melted chocolate over a cool worktop until it begins to crystallise, then combine it with the remaining chocolate. Time, temperature and movement work together; spreading chocolate out to cool is not by itself proof of successful tempering.",
+      "aliases": [],
+      "categories": [
+        "baking-and-pastry"
+      ],
+      "sources": [
+        "b6-table"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "process",
+      "id": "make-beurre-manie",
+      "definition": "Work softened butter and flour together without first cooking them into a roux. The resulting paste can be incorporated into a sauce for thickening. Preparing this paste and cooking out the flour in the sauce are separate stages.",
+      "aliases": [],
+      "categories": [
+        "general-cooking"
+      ],
+      "sources": [
+        "b6-manie"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "process",
+      "id": "cook-choux-panade",
+      "definition": "Cook flour into the hot liquid-and-fat mixture that forms the first stage of choux pastry, stirring until the paste comes together and loses moisture. Eggs are incorporated later; this operation is not the final bake of the shaped pastry.",
+      "aliases": [],
+      "categories": [
+        "baking-and-pastry"
+      ],
+      "sources": [
+        "b6-choux"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "process",
+      "id": "make-french-meringue",
+      "definition": "Whip egg whites with sugar without a preliminary heating stage. The foam is then baked or used as directed in the recipe. This method differs from heating whites with sugar or adding hot syrup during whipping.",
+      "aliases": [],
+      "categories": [
+        "mixing-and-emulsifying"
+      ],
+      "sources": [
+        "b6-meringue"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "process",
+      "id": "make-swiss-meringue",
+      "definition": "Warm egg whites and sugar together over hot water to dissolve the sugar, then whip the mixture. The heating sequence distinguishes this preparation from French and Italian meringue; the method name alone does not certify pasteurisation.",
+      "aliases": [],
+      "categories": [
+        "mixing-and-emulsifying"
+      ],
+      "sources": [
+        "b6-meringue"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "process",
+      "id": "make-italian-meringue",
+      "definition": "Whip hot sugar syrup into beaten egg whites to form a meringue. The syrup is prepared separately, unlike Swiss meringue’s combined heating step. Syrup temperature alone does not establish the final egg mixture’s safety.",
+      "aliases": [],
+      "categories": [
+        "mixing-and-emulsifying"
+      ],
+      "sources": [
+        "b6-meringue"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    }
+  ],
+  "improvements": [
+    {
+      "kind": "equipment",
+      "id": "coffee-filter",
+      "added": "A dripper supports the filter and the bed of grounds. The filter retains particles, while the supporting dripper supplies the shape and drainage opening; naming one does not necessarily identify the other.",
+      "sources": [
+        "b6-dripper"
+      ],
+      "review": "existing draft improved; review_version 0.1",
+      "uncertainties": "Editorial synthesis, not operational or safety certification."
+    },
+    {
+      "kind": "equipment",
+      "id": "tea-strainer",
+      "added": "An infuser holds leaves during their contact with water. A strainer can instead catch leaves when the brewed tea is poured; these are different positions in the brewing sequence.",
+      "sources": [
+        "b6-tea"
+      ],
+      "review": "existing draft improved; review_version 0.1",
+      "uncertainties": "Editorial synthesis, not operational or safety certification."
+    },
+    {
+      "kind": "equipment",
+      "id": "moka-pot",
+      "added": "An espresso machine supplies controlled pressurised extraction and may provide a separate steam wand. Do not infer those capabilities merely because a stovetop coffee pot produces a concentrated drink.",
+      "sources": [
+        "b6-espresso"
+      ],
+      "review": "existing draft improved; review_version 0.1",
+      "uncertainties": "Editorial synthesis, not operational or safety certification."
+    },
+    {
+      "kind": "equipment",
+      "id": "spice-grinder",
+      "added": "Coffee grinders may provide adjustments intended for particular brewing methods. A shared grinding action does not establish that a spice grinder offers the same particle-size control or is an equivalent coffee-brewing accessory.",
+      "sources": [
+        "b6-grinder"
+      ],
+      "review": "existing draft improved; review_version 0.1",
+      "uncertainties": "Editorial synthesis, not operational or safety certification."
+    },
+    {
+      "kind": "equipment",
+      "id": "jug",
+      "added": "A milk-frothing jug is a specialised holding and pouring vessel with a spout suited to controlled pouring. The vessel is separate from the device supplying steam or agitation; a jug alone is not a powered frother.",
+      "sources": [
+        "b6-jug"
+      ],
+      "review": "existing draft improved; review_version 0.1",
+      "uncertainties": "Editorial synthesis, not operational or safety certification."
+    },
+    {
+      "kind": "equipment",
+      "id": "proving-basket",
+      "added": "A folded couche can support several elongated dough pieces in adjacent channels before transfer to a baking surface. That arrangement differs from the shaped enclosure of a proving basket.",
+      "sources": [
+        "b6-couche"
+      ],
+      "review": "existing draft improved; review_version 0.1",
+      "uncertainties": "Editorial synthesis, not operational or safety certification."
+    },
+    {
+      "kind": "equipment",
+      "id": "pastry-cloth",
+      "added": "A couche supports already shaped dough during proofing, whereas a pastry cloth provides a surface for rolling. Shared fabric construction does not make their preparation roles identical.",
+      "sources": [
+        "b6-couche"
+      ],
+      "review": "existing draft improved; review_version 0.1",
+      "uncertainties": "Editorial synthesis, not operational or safety certification."
+    },
+    {
+      "kind": "equipment",
+      "id": "loaf-tin",
+      "added": "A baguette pan provides long channels for narrow loaves, often with a perforated surface. Pan geometry affects the supported shape; a loaf tin and a baguette pan are not equivalent merely because both hold bread dough.",
+      "sources": [
+        "b6-baguette"
+      ],
+      "review": "existing draft improved; review_version 0.1",
+      "uncertainties": "Editorial synthesis, not operational or safety certification."
+    },
+    {
+      "kind": "equipment",
+      "id": "chef-knife",
+      "added": "Boning and filleting knives use narrower blades to follow bones closely. A general chef’s knife may perform many preparation tasks, but its broad profile does not duplicate those specialist blade shapes.",
+      "sources": [
+        "b6-knives"
+      ],
+      "review": "existing draft improved; review_version 0.1",
+      "uncertainties": "Editorial synthesis, not operational or safety certification."
+    },
+    {
+      "kind": "equipment",
+      "id": "fork",
+      "added": "A chocolate dipping fork supports a centre from below so excess coating can leave it before placement. This differs from using table-fork tines to pierce food; support and release are the important operations.",
+      "sources": [
+        "b6-dip"
+      ],
+      "review": "existing draft improved; review_version 0.1",
+      "uncertainties": "Editorial synthesis, not operational or safety certification."
+    },
+    {
+      "kind": "process",
+      "id": "temper-chocolate",
+      "added": "Tabling cools and moves part of the chocolate on a worktop before recombining it. Seeding instead introduces already crystallised chocolate. These are method choices within tempering, not aliases for simply melting chocolate.",
+      "sources": [
+        "b6-table"
+      ],
+      "review": "existing draft improved; review_version 0.1",
+      "uncertainties": "Editorial synthesis, not operational or safety certification."
+    },
+    {
+      "kind": "process",
+      "id": "melt",
+      "added": "Melting chocolate can remove the crystal structure needed for a well-set coating. Seeding deliberately introduces suitable crystals afterwards, so fluid melted chocolate is not necessarily ready for moulding or coating.",
+      "sources": [
+        "b6-seed"
+      ],
+      "review": "existing draft improved; review_version 0.1",
+      "uncertainties": "Editorial synthesis, not operational or safety certification."
+    },
+    {
+      "kind": "process",
+      "id": "coat",
+      "added": "Chocolate enrobing is a specific coating task in which the excess is controlled before the shell sets. Covering a food with chocolate and preparing that chocolate’s temper remain separate operations.",
+      "sources": [
+        "b6-dip"
+      ],
+      "review": "existing draft improved; review_version 0.1",
+      "uncertainties": "Editorial synthesis, not operational or safety certification."
+    },
+    {
+      "kind": "process",
+      "id": "dip",
+      "added": "Hand dipping a chocolate centre includes lifting it out and shedding excess coating before placement. The amount left on the centre depends on handling and chocolate fluidity, not just whether it was submerged.",
+      "sources": [
+        "b6-dip"
+      ],
+      "review": "existing draft improved; review_version 0.1",
+      "uncertainties": "Editorial synthesis, not operational or safety certification."
+    },
+    {
+      "kind": "process",
+      "id": "whip",
+      "added": "French, Swiss and Italian meringues all use whipping, but place sugar and heat into the sequence differently. Whipping alone does not specify which meringue method is intended.",
+      "sources": [
+        "b6-meringue"
+      ],
+      "review": "existing draft improved; review_version 0.1",
+      "uncertainties": "Editorial synthesis, not operational or safety certification."
+    },
+    {
+      "kind": "process",
+      "id": "beat",
+      "added": "In Italian meringue, beaten whites receive separately prepared hot syrup. This differs from the combined warming of whites and sugar used for Swiss meringue.",
+      "sources": [
+        "b6-meringue"
+      ],
+      "review": "existing draft improved; review_version 0.1",
+      "uncertainties": "Editorial synthesis, not operational or safety certification."
+    },
+    {
+      "kind": "process",
+      "id": "make-roux",
+      "added": "Beurre manie combines flour and softened butter without preliminary cooking. Roux cooks the flour-fat mixture before it is used; similar ingredients do not make these preparations the same stage or technique.",
+      "sources": [
+        "b6-manie"
+      ],
+      "review": "existing draft improved; review_version 0.1",
+      "uncertainties": "Editorial synthesis, not operational or safety certification."
+    },
+    {
+      "kind": "process",
+      "id": "pipe",
+      "added": "Choux is cooked first as a panade, then eggs are incorporated before the finished paste is shaped. Piping controls the shape of that prepared paste; it does not replace the earlier pan-cooking step.",
+      "sources": [
+        "b6-choux"
+      ],
+      "review": "existing draft improved; review_version 0.1",
+      "uncertainties": "Editorial synthesis, not operational or safety certification."
+    },
+    {
+      "kind": "process",
+      "id": "prove",
+      "added": "A couche supports shaped baguettes during the final rise and is followed by transfer to a baking surface. Supporting the dough during proofing is a separate function from containing it during baking.",
+      "sources": [
+        "b6-couche"
+      ],
+      "review": "existing draft improved; review_version 0.1",
+      "uncertainties": "Editorial synthesis, not operational or safety certification."
+    },
+    {
+      "kind": "process",
+      "id": "fillet",
+      "added": "A narrow fillet knife can follow the backbone and separate a fish fillet. Removing small retained bones afterwards is another task; the blade operation does not guarantee that every pin bone has been extracted.",
+      "sources": [
+        "b6-knives"
+      ],
+      "review": "existing draft improved; review_version 0.1",
+      "uncertainties": "Editorial synthesis, not operational or safety certification."
+    }
+  ],
+  "sources": [
+    {
+      "id": "b6-dripper",
+      "title": "V60 Ceramic Coffee Dripper",
+      "url": "https://www.hario-usa.com/products/v60-coffee-dripper-02-ceramic",
+      "publisher": "Hario"
+    },
+    {
+      "id": "b6-press",
+      "title": "French press coffee maker instructions",
+      "url": "https://d9pl0lig74xnv.cloudfront.net/product_manuals/z/p/zp2019-000001_frenchpress_coffeemakers_v1-20190308_pages.pdf",
+      "publisher": "Bodum"
+    },
+    {
+      "id": "b6-grinder",
+      "title": "Encore product specifications, March 2020",
+      "url": "https://ep-shopify.s3.amazonaws.com/related-documents/baratza/encore/baratza-encore-specs.pdf",
+      "publisher": "Baratza"
+    },
+    {
+      "id": "b6-espresso",
+      "title": "The Bambino espresso machine",
+      "url": "https://www.breville.com/en-us/product/bes450",
+      "publisher": "Breville"
+    },
+    {
+      "id": "b6-jug",
+      "title": "Temp Control Milk Jug",
+      "url": "https://www.breville.com/en-us/product/bes003xl",
+      "publisher": "Breville"
+    },
+    {
+      "id": "b6-tea",
+      "title": "Twisting Tea Ball",
+      "url": "https://oxoaustralia.com.au/products/twisting-tea-ball",
+      "publisher": "OXO Australia"
+    },
+    {
+      "id": "b6-couche",
+      "title": "Baker’s Couche",
+      "url": "https://shop.kingarthurbaking.com/items/bakers-couche",
+      "publisher": "King Arthur Baking"
+    },
+    {
+      "id": "b6-baguette",
+      "title": "French Baguette Pan",
+      "url": "https://shop.kingarthurbaking.com/items/french-baguette-pan",
+      "publisher": "King Arthur Baking"
+    },
+    {
+      "id": "b6-madeleine",
+      "title": "Madeleine Pan",
+      "url": "https://www.usapan.com/madeleine-pan-1297md",
+      "publisher": "USA Pan"
+    },
+    {
+      "id": "b6-knives",
+      "title": "Knife Finder: boning and fillet knives",
+      "url": "https://www.wusthof.com.au/pages/knife-finder",
+      "publisher": "Wusthof"
+    },
+    {
+      "id": "b6-cleaver",
+      "title": "7-inch Cleaver",
+      "url": "https://wusthof.com/products/7-inch-cleaver",
+      "publisher": "Wusthof"
+    },
+    {
+      "id": "b6-pizza",
+      "title": "4-inch Pizza Wheel",
+      "url": "https://www.oxo.com/4-in-pizza-wheel.html",
+      "publisher": "OXO"
+    },
+    {
+      "id": "b6-ice",
+      "title": "Ice Cube Tray",
+      "url": "https://www.oxo.com/shop/coffee-beverage/barware/ice-cube-tray.html",
+      "publisher": "OXO"
+    },
+    {
+      "id": "b6-dip",
+      "title": "Hand-dipped chocolates: how to",
+      "url": "https://www.callebaut.com/en-GB/hand-dipped-chocolates-how",
+      "publisher": "Callebaut"
+    },
+    {
+      "id": "b6-seed",
+      "title": "Tempering: seeding method",
+      "url": "https://guittard.com/chocolate-studio/fundamentals/tempering",
+      "publisher": "Guittard"
+    },
+    {
+      "id": "b6-table",
+      "title": "Tempering: tabling chocolate",
+      "url": "https://www.callebaut.com/en-RU/chocolate-video/technique/tempering/table",
+      "publisher": "Callebaut"
+    },
+    {
+      "id": "b6-manie",
+      "title": "Beurre manie",
+      "url": "https://chefsimon.com/articles/lexique-beurre-manie",
+      "publisher": "Chef Simon"
+    },
+    {
+      "id": "b6-choux",
+      "title": "Baking and Pastry Arts 2024: Pate a Choux",
+      "url": "https://www.skillsusa.org/wp-content/uploads/2024/02/2024_3-Pate-a-Choux.pdf",
+      "publisher": "SkillsUSA"
+    },
+    {
+      "id": "b6-meringue",
+      "title": "Different Types of Meringue",
+      "url": "https://www.chsugar.com/baking-tips-how-tos/different-types-meringue",
+      "publisher": "C&H Sugar"
+    }
+  ],
+  "deferred": [
+    {
+      "term": "cleaver / Chinese cleaver",
+      "reason": "Add the scoped heavy meat-cleaver identity only. Rectangular slicing and chopping knives must not be merged by silhouette; no blanket bone-cutting claim."
+    },
+    {
+      "term": "fish knife",
+      "reason": "Can denote a table utensil or preparation blade. Only fish filleting knife is admitted as an alias."
+    },
+    {
+      "term": "coffee maker / press / dripper",
+      "reason": "Broad names do not establish espresso, immersion or pour-over identity. Do not register unqualified aliases."
+    },
+    {
+      "term": "meringue / panade / beurre manie",
+      "reason": "Food and mixture nouns remain distinct from scoped preparation verbs. No noun-only process aliases or universal safety schedules."
+    },
+    {
+      "term": "tamis / cold-smoke / electric beaters / china cap",
+      "reason": "Previously deferred scope, safety and equivalence questions remain unresolved."
+    }
+  ],
+  "associations": [
+    {
+      "from": "pour-over-dripper",
+      "relation": "commonly-used-with",
+      "target": {
+        "kind": "equipment",
+        "id": "coffee-filter"
+      }
+    },
+    {
+      "from": "french-press",
+      "relation": "contrast-with",
+      "target": {
+        "kind": "equipment",
+        "id": "pour-over-dripper"
+      }
+    },
+    {
+      "from": "milk-frothing-jug",
+      "relation": "commonly-used-with",
+      "target": {
+        "kind": "equipment",
+        "id": "espresso-machine"
+      }
+    },
+    {
+      "from": "tea-infuser",
+      "relation": "contrast-with",
+      "target": {
+        "kind": "equipment",
+        "id": "tea-strainer"
+      }
+    },
+    {
+      "from": "bakers-couche",
+      "relation": "contrast-with",
+      "target": {
+        "kind": "equipment",
+        "id": "baguette-pan"
+      }
+    },
+    {
+      "from": "boning-knife",
+      "relation": "used-for",
+      "target": {
+        "kind": "process",
+        "id": "debone"
+      }
+    },
+    {
+      "from": "fillet-knife",
+      "relation": "used-for",
+      "target": {
+        "kind": "process",
+        "id": "fillet"
+      }
+    },
+    {
+      "from": "chocolate-dipping-fork",
+      "relation": "used-for",
+      "target": {
+        "kind": "process",
+        "id": "enrobe-chocolate"
+      }
+    },
+    {
+      "from": "seed-temper-chocolate",
+      "relation": "contrast-with",
+      "target": {
+        "kind": "process",
+        "id": "table-temper-chocolate"
+      }
+    },
+    {
+      "from": "make-beurre-manie",
+      "relation": "contrast-with",
+      "target": {
+        "kind": "process",
+        "id": "make-roux"
+      }
+    },
+    {
+      "from": "make-french-meringue",
+      "relation": "contrast-with",
+      "target": {
+        "kind": "process",
+        "id": "make-swiss-meringue"
+      }
+    },
+    {
+      "from": "make-italian-meringue",
+      "relation": "contrast-with",
+      "target": {
+        "kind": "process",
+        "id": "make-swiss-meringue"
+      }
+    }
+  ]
+}

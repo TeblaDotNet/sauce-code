@@ -1,0 +1,16 @@
+id: table-temper-chocolate
+kind: process
+canonical_name: table temper chocolate
+names:
+  en: table temper chocolate
+aliases: []
+categories:
+  - baking-and-pastry
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  definition: Move part of the melted chocolate over a cool worktop until it begins to crystallise, then combine
+    it with the remaining chocolate. Time, temperature and movement work together; spreading chocolate out to
+    cool is not by itself proof of successful tempering.
+  review_note: Batch 6 researched draft. Identity boundaries are editorial decisions; no human review claimed.

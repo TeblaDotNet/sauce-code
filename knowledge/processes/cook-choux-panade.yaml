@@ -1,0 +1,16 @@
+id: cook-choux-panade
+kind: process
+canonical_name: cook choux panade
+names:
+  en: cook choux panade
+aliases: []
+categories:
+  - baking-and-pastry
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  definition: Cook flour into the hot liquid-and-fat mixture that forms the first stage of choux pastry,
+    stirring until the paste comes together and loses moisture. Eggs are incorporated later; this operation is
+    not the final bake of the shaped pastry.
+  review_note: Batch 6 researched draft. Identity boundaries are editorial decisions; no human review claimed.

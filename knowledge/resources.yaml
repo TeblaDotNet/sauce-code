@@ -3560,3 +3560,174 @@
   review_scope: text
   notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
     schedules or cross-regional equivalence.
+- id: b6-dripper
+  title: V60 Ceramic Coffee Dripper
+  url: https://www.hario-usa.com/products/v60-coffee-dripper-02-ceramic
+  publisher: Hario
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
+    schedules or cross-regional equivalence.
+- id: b6-press
+  title: French press coffee maker instructions
+  url: https://d9pl0lig74xnv.cloudfront.net/product_manuals/z/p/zp2019-000001_frenchpress_coffeemakers_v1-20190308_pages.pdf
+  publisher: Bodum
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
+    schedules or cross-regional equivalence.
+- id: b6-grinder
+  title: Encore product specifications, March 2020
+  url: https://ep-shopify.s3.amazonaws.com/related-documents/baratza/encore/baratza-encore-specs.pdf
+  publisher: Baratza
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
+    schedules or cross-regional equivalence.
+- id: b6-espresso
+  title: The Bambino espresso machine
+  url: https://www.breville.com/en-us/product/bes450
+  publisher: Breville
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
+    schedules or cross-regional equivalence.
+- id: b6-jug
+  title: Temp Control Milk Jug
+  url: https://www.breville.com/en-us/product/bes003xl
+  publisher: Breville
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
+    schedules or cross-regional equivalence.
+- id: b6-tea
+  title: Twisting Tea Ball
+  url: https://oxoaustralia.com.au/products/twisting-tea-ball
+  publisher: OXO Australia
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
+    schedules or cross-regional equivalence.
+- id: b6-couche
+  title: Baker’s Couche
+  url: https://shop.kingarthurbaking.com/items/bakers-couche
+  publisher: King Arthur Baking
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
+    schedules or cross-regional equivalence.
+- id: b6-baguette
+  title: French Baguette Pan
+  url: https://shop.kingarthurbaking.com/items/french-baguette-pan
+  publisher: King Arthur Baking
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
+    schedules or cross-regional equivalence.
+- id: b6-madeleine
+  title: Madeleine Pan
+  url: https://www.usapan.com/madeleine-pan-1297md
+  publisher: USA Pan
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
+    schedules or cross-regional equivalence.
+- id: b6-knives
+  title: "Knife Finder: boning and fillet knives"
+  url: https://www.wusthof.com.au/pages/knife-finder
+  publisher: Wusthof
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
+    schedules or cross-regional equivalence.
+- id: b6-cleaver
+  title: 7-inch Cleaver
+  url: https://wusthof.com/products/7-inch-cleaver
+  publisher: Wusthof
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
+    schedules or cross-regional equivalence.
+- id: b6-pizza
+  title: 4-inch Pizza Wheel
+  url: https://www.oxo.com/4-in-pizza-wheel.html
+  publisher: OXO
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
+    schedules or cross-regional equivalence.
+- id: b6-ice
+  title: Ice Cube Tray
+  url: https://www.oxo.com/shop/coffee-beverage/barware/ice-cube-tray.html
+  publisher: OXO
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
+    schedules or cross-regional equivalence.
+- id: b6-dip
+  title: "Hand-dipped chocolates: how to"
+  url: https://www.callebaut.com/en-GB/hand-dipped-chocolates-how
+  publisher: Callebaut
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
+    schedules or cross-regional equivalence.
+- id: b6-seed
+  title: "Tempering: seeding method"
+  url: https://guittard.com/chocolate-studio/fundamentals/tempering
+  publisher: Guittard
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
+    schedules or cross-regional equivalence.
+- id: b6-table
+  title: "Tempering: tabling chocolate"
+  url: https://www.callebaut.com/en-RU/chocolate-video/technique/tempering/table
+  publisher: Callebaut
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
+    schedules or cross-regional equivalence.
+- id: b6-manie
+  title: Beurre manie
+  url: https://chefsimon.com/articles/lexique-beurre-manie
+  publisher: Chef Simon
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
+    schedules or cross-regional equivalence.
+- id: b6-choux
+  title: "Baking and Pastry Arts 2024: Pate a Choux"
+  url: https://www.skillsusa.org/wp-content/uploads/2024/02/2024_3-Pate-a-Choux.pdf
+  publisher: SkillsUSA
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
+    schedules or cross-regional equivalence.
+- id: b6-meringue
+  title: Different Types of Meringue
+  url: https://www.chsugar.com/baking-tips-how-tos/different-types-meringue
+  publisher: C&H Sugar
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
+    schedules or cross-regional equivalence.

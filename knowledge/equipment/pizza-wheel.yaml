@@ -1,0 +1,17 @@
+id: pizza-wheel
+kind: equipment
+canonical_name: pizza wheel
+names:
+  en: pizza wheel
+aliases: []
+categories:
+  - knives-and-cutting
+type_of: cutter
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  definition: A handled circular blade that rolls through pizza crust and toppings. Wheel size and clearance
+    matter for thick toppings. Its rolling action resembles a pastry wheel, but the two tool identities are
+    not automatically interchangeable.
+  review_note: Batch 6 researched draft. Identity boundaries are editorial decisions; no human review claimed.

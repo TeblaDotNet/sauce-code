@@ -1,0 +1,16 @@
+id: make-swiss-meringue
+kind: process
+canonical_name: make Swiss meringue
+names:
+  en: make Swiss meringue
+aliases: []
+categories:
+  - mixing-and-emulsifying
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  definition: Warm egg whites and sugar together over hot water to dissolve the sugar, then whip the mixture.
+    The heating sequence distinguishes this preparation from French and Italian meringue; the method name
+    alone does not certify pasteurisation.
+  review_note: Batch 6 researched draft. Identity boundaries are editorial decisions; no human review claimed.

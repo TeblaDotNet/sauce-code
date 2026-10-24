@@ -1,0 +1,16 @@
+id: french-press
+kind: equipment
+canonical_name: French press
+names:
+  en: French press
+aliases: []
+categories:
+  - coffee-and-bar
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  definition: A coffee brewer with a vessel and plunger-mounted filter. Grounds steep in the water before the
+    filter is lowered to retain them for pouring. This immersion arrangement differs from water passing
+    through a separate pour-over dripper.
+  review_note: Batch 6 researched draft. Identity boundaries are editorial decisions; no human review claimed.

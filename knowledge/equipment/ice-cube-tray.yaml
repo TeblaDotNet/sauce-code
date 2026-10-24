@@ -1,0 +1,17 @@
+id: ice-cube-tray
+kind: equipment
+canonical_name: ice cube tray
+names:
+  en: ice cube tray
+aliases: []
+categories:
+  - coffee-and-bar
+type_of: tray
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  definition: A tray divided into cavities for freezing water into separate pieces of ice. Cavity shape and size
+    vary; a cover is an optional design feature. The tray shapes ice but does not itself provide
+    refrigeration.
+  review_note: Batch 6 researched draft. Identity boundaries are editorial decisions; no human review claimed.

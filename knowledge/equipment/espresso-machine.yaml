@@ -1,0 +1,16 @@
+id: espresso-machine
+kind: equipment
+canonical_name: espresso machine
+names:
+  en: espresso machine
+aliases: []
+categories:
+  - coffee-and-bar
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  definition: A machine that extracts coffee by passing pressurised hot water through prepared grounds. A steam
+    wand, when fitted, performs a separate milk-texturing task. A built-in grinder or automatic milk system is
+    not implied by the name.
+  review_note: Batch 6 researched draft. Identity boundaries are editorial decisions; no human review claimed.
