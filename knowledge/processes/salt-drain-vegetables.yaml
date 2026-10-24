@@ -1,0 +1,16 @@
+id: salt-drain-vegetables
+kind: process
+canonical_name: salt drain vegetables
+names:
+  en: salt drain vegetables
+aliases: []
+categories:
+  - preparation-and-cutting
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  definition: Salt prepared vegetables to draw out some of their water, then drain as the recipe directs. This
+    moisture-removal step differs from simply seasoning the finished dish. Rinsing and final seasoning remain
+    recipe-specific; no preservation guarantee is implied.
+  review_note: Batch 7 researched draft. Identity boundaries are editorial decisions; no human review claimed.

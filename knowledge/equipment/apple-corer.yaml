@@ -1,0 +1,15 @@
+id: apple-corer
+kind: equipment
+canonical_name: apple corer
+names:
+  en: apple corer
+aliases: []
+categories:
+  - preparation-tools
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  definition: A tool with a cutting ring that removes the central core of an apple. It leaves the surrounding
+    fruit largely intact; a combined divider that also cuts wedges performs an additional operation.
+  review_note: Batch 7 researched draft. Identity boundaries are editorial decisions; no human review claimed.

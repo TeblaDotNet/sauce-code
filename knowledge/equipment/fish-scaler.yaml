@@ -1,0 +1,16 @@
+id: fish-scaler
+kind: equipment
+canonical_name: fish scaler
+names:
+  en: fish scaler
+aliases: []
+categories:
+  - preparation-tools
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  definition: A toothed or serrated tool that loosens scales from the outside of a fish. It works on the skin
+    surface, unlike a fillet knife or fish-bone tongs. Removing scales is not the same operation as removing
+    the skin.
+  review_note: Batch 7 researched draft. Identity boundaries are editorial decisions; no human review claimed.

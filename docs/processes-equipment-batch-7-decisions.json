@@ -1,0 +1,765 @@
+{
+  "status": "Generated research; human review outstanding",
+  "additions": [
+    {
+      "kind": "equipment",
+      "id": "corkscrew",
+      "definition": "A tool with a spiral worm that engages a cork so it can be withdrawn from a bottle. Lever and winged mechanisms provide different ways to lift it. Removing a cork is distinct from levering off a crown cap.",
+      "aliases": [],
+      "categories": [
+        "coffee-and-bar"
+      ],
+      "sources": [
+        "b7-cork"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "equipment",
+      "id": "bottle-opener",
+      "definition": "A tool for lifting a crown cap from a bottle. Some designs also carry a can-piercing point; that additional feature does not make every opener a can opener or a corkscrew.",
+      "aliases": [],
+      "categories": [
+        "coffee-and-bar"
+      ],
+      "sources": [
+        "b7-bottle"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "equipment",
+      "id": "apple-corer",
+      "definition": "A tool with a cutting ring that removes the central core of an apple. It leaves the surrounding fruit largely intact; a combined divider that also cuts wedges performs an additional operation.",
+      "aliases": [],
+      "categories": [
+        "preparation-tools"
+      ],
+      "sources": [
+        "b7-scaler"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "equipment",
+      "id": "splatter-screen",
+      "definition": "A perforated cover placed above a pan to intercept cooking splashes. Its openings distinguish it from a solid lid. Fit and handle design vary; it is not a sealed cooking enclosure.",
+      "aliases": [],
+      "categories": [
+        "cookware"
+      ],
+      "sources": [
+        "b7-screen"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "equipment",
+      "id": "sushi-rolling-mat",
+      "definition": "A flexible mat used to support and shape a sushi roll as it is rolled up. Bamboo is a common construction. The mat is a shaping aid rather than a serving placemat or a baking surface.",
+      "aliases": [],
+      "categories": [
+        "preparation-tools"
+      ],
+      "sources": [
+        "b7-sushi"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "equipment",
+      "id": "wok-spatula",
+      "definition": "A shovel-shaped cooking utensil used with a wok. Its head moves and lifts food, while a wok ladle has a bowl for holding liquid. Tool size should suit the wok; regional names are not assumed to be universal aliases.",
+      "aliases": [],
+      "categories": [
+        "preparation-tools"
+      ],
+      "sources": [
+        "b7-wok"
+      ],
+      "type_of": "spatula",
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "equipment",
+      "id": "wok-ladle",
+      "definition": "A long-handled, bowl-headed utensil used in wok cooking. It can carry liquid as well as move ingredients. A wok shovel and a wok ladle are separate tools even when sold as a matched set.",
+      "aliases": [],
+      "categories": [
+        "preparation-tools"
+      ],
+      "sources": [
+        "b7-wok"
+      ],
+      "type_of": "ladle",
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "equipment",
+      "id": "meat-grinder",
+      "definition": "A device that cuts meat and forces it through a perforated grinding plate. Plate openings influence the resulting texture. It may be a separate machine or an attachment; grinding and filling sausage casings are distinct operations.",
+      "aliases": [],
+      "categories": [
+        "appliances"
+      ],
+      "sources": [
+        "b7-grinder"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "equipment",
+      "id": "sausage-stuffer",
+      "definition": "A device that feeds prepared sausage mixture through a tube into a casing. A stuffer may attach to a grinder, but the filling tube performs a different task from the grinding plate. No curing or cooking step is implied.",
+      "aliases": [],
+      "categories": [
+        "preparation-tools"
+      ],
+      "sources": [
+        "b7-sausage"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "equipment",
+      "id": "cheese-plane",
+      "definition": "A handled tool with a slotted cutting blade drawn across cheese to produce thin slices. Suitability depends on the cheese texture and blade. This identity covers the plane form, not every wire or knife sold as a cheese slicer.",
+      "aliases": [],
+      "categories": [
+        "knives-and-cutting"
+      ],
+      "sources": [
+        "b7-cheese"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "equipment",
+      "id": "fish-scaler",
+      "definition": "A toothed or serrated tool that loosens scales from the outside of a fish. It works on the skin surface, unlike a fillet knife or fish-bone tongs. Removing scales is not the same operation as removing the skin.",
+      "aliases": [],
+      "categories": [
+        "preparation-tools"
+      ],
+      "sources": [
+        "b7-scaler"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "equipment",
+      "id": "carving-knife",
+      "definition": "A long, relatively narrow knife used to cut slices from a roast or other large food. Its shape favours slicing strokes rather than heavy chopping. A carving knife is distinct from a cleaver or a narrow boning knife.",
+      "aliases": [],
+      "categories": [
+        "knives-and-cutting"
+      ],
+      "sources": [
+        "b7-carving"
+      ],
+      "type_of": "knife",
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "equipment",
+      "id": "grilling-basket",
+      "definition": "A basket that supports small pieces of food on a grill. Openings admit heat while the sides help contain the pieces. Construction and grill compatibility vary; it does not replace the grill that supplies heat.",
+      "aliases": [],
+      "categories": [
+        "cookware"
+      ],
+      "sources": [
+        "b7-grill"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "equipment",
+      "id": "vegetable-spiralizer",
+      "definition": "A cutting device that turns vegetables against blades to form long spirals or ribbons. Blade choice changes the shape. It cuts existing vegetable flesh rather than extruding a mixed pasta dough.",
+      "aliases": [],
+      "categories": [
+        "knives-and-cutting"
+      ],
+      "sources": [
+        "b7-spiral"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "equipment",
+      "id": "pasta-extruder",
+      "definition": "A device that presses pasta dough through a shaped die. The die forms the cross-section and a cutter controls length. This differs from thinning a sheet between pasta rollers before cutting it.",
+      "aliases": [],
+      "categories": [
+        "preparation-tools"
+      ],
+      "sources": [
+        "b7-pasta"
+      ],
+      "type_of": "pasta-machine",
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "process",
+      "id": "glaze-vegetables",
+      "definition": "Cook vegetables with a small amount of liquid, butter and sugar so the reducing liquid forms a coating. The endpoint may be pale or browned. This scoped method is distinct from icing a cake or brushing a glaze onto cooked meat.",
+      "aliases": [],
+      "categories": [
+        "moist-heat-cooking"
+      ],
+      "sources": [
+        "b7-glaze"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "process",
+      "id": "salt-drain-vegetables",
+      "definition": "Salt prepared vegetables to draw out some of their water, then drain as the recipe directs. This moisture-removal step differs from simply seasoning the finished dish. Rinsing and final seasoning remain recipe-specific; no preservation guarantee is implied.",
+      "aliases": [],
+      "categories": [
+        "preparation-and-cutting"
+      ],
+      "sources": [
+        "b7-drain"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "process",
+      "id": "singer",
+      "definition": "Sprinkle flour over ingredients already cooked in fat, cook the flour briefly, then add liquid to form a thickened sauce. The sequence distinguishes this method from flouring raw food before frying or preparing a separate roux.",
+      "aliases": [],
+      "categories": [
+        "general-cooking"
+      ],
+      "sources": [
+        "b7-singer"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "process",
+      "id": "make-starch-slurry",
+      "definition": "Disperse starch in cold liquid before incorporating it into a hot preparation for thickening. Preparing the dispersion is separate from the later cooking stage. The starch type and recipe determine proportions and treatment.",
+      "aliases": [],
+      "categories": [
+        "general-cooking"
+      ],
+      "sources": [
+        "b7-slurry"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "process",
+      "id": "coil-fold-dough",
+      "definition": "Use coil folds to build structure in bread dough during bulk fermentation. This gentle folding method is distinct from stretching an edge over the dough or laminating it out broadly. It is a dough-development step, not the final shaping of the loaf.",
+      "aliases": [],
+      "categories": [
+        "baking-and-pastry"
+      ],
+      "sources": [
+        "b7-coil"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "process",
+      "id": "extrude-pasta",
+      "definition": "Press pasta dough through a shaped die and cut the emerging pasta to length. The die determines the profile. Rolling a sheet and cutting strips can produce pasta too, but uses a different forming method.",
+      "aliases": [],
+      "categories": [
+        "preparation-and-cutting"
+      ],
+      "sources": [
+        "b7-pasta"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "process",
+      "id": "spiralize-vegetables",
+      "definition": "Cut vegetables into long spiral strands or ribbons by turning them against a suitable blade. The vegetable itself supplies the strand; this is not extrusion of flour-based dough, even when the result is served like noodles.",
+      "aliases": [],
+      "categories": [
+        "preparation-and-cutting"
+      ],
+      "sources": [
+        "b7-spiral"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "process",
+      "id": "stuff-sausage-casings",
+      "definition": "Feed prepared sausage mixture through a filling tube into a casing while guiding the casing as it fills. Grinding the ingredients precedes this forming step where needed. Stuffing alone neither cooks nor preserves the sausage.",
+      "aliases": [],
+      "categories": [
+        "preparation-and-cutting"
+      ],
+      "sources": [
+        "b7-sausage"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    }
+  ],
+  "improvements": [
+    {
+      "kind": "equipment",
+      "id": "can-opener",
+      "added": "A bottle opener releases a crown cap; a can-piercing point may be included on the same tool. A combined design does not make those operations equivalent to cutting around a can lid.",
+      "sources": [
+        "b7-bottle"
+      ],
+      "review": "existing draft improved; review_version 0.1",
+      "uncertainties": "Editorial synthesis, not operational or safety certification."
+    },
+    {
+      "kind": "equipment",
+      "id": "ladle",
+      "added": "Wok ladles are sized for wok cooking and differ from shovel-headed utensils used alongside them. A shared handle style does not make a ladle bowl and a lifting blade interchangeable.",
+      "sources": [
+        "b7-wok"
+      ],
+      "review": "existing draft improved; review_version 0.1",
+      "uncertainties": "Editorial synthesis, not operational or safety certification."
+    },
+    {
+      "kind": "equipment",
+      "id": "frying-pan",
+      "added": "A perforated splatter screen intercepts splashes while leaving openings. A solid lid provides a different enclosure; selecting one in place of the other changes how the vessel is covered.",
+      "sources": [
+        "b7-screen"
+      ],
+      "review": "existing draft improved; review_version 0.1",
+      "uncertainties": "Editorial synthesis, not operational or safety certification."
+    },
+    {
+      "kind": "equipment",
+      "id": "wok",
+      "added": "Wok shovels and ladles have different head shapes, and manufacturers offer sizes matched to different wok arrangements. The pan name alone does not specify a suitable utensil size.",
+      "sources": [
+        "b7-wok"
+      ],
+      "review": "existing draft improved; review_version 0.1",
+      "uncertainties": "Editorial synthesis, not operational or safety certification."
+    },
+    {
+      "kind": "equipment",
+      "id": "pasta-roller",
+      "added": "An extruder forms dough through a die; a roller thins dough between rollers. Both prepare pasta, but a die profile and a roller gap control different aspects of its shape.",
+      "sources": [
+        "b7-pasta"
+      ],
+      "review": "existing draft improved; review_version 0.1",
+      "uncertainties": "Editorial synthesis, not operational or safety certification."
+    },
+    {
+      "kind": "equipment",
+      "id": "stand-mixer",
+      "added": "A grinder attachment adds cutting and perforated-plate functions to a mixer. Those functions are not supplied by the ordinary mixing bowl and beater, and attachment compatibility must be checked separately.",
+      "sources": [
+        "b7-grinder"
+      ],
+      "review": "existing draft improved; review_version 0.1",
+      "uncertainties": "Editorial synthesis, not operational or safety certification."
+    },
+    {
+      "kind": "equipment",
+      "id": "julienne-peeler",
+      "added": "A spiralizer forms continuous spiral strands by rotation. Producing narrow strips with a peeler does not establish the same shape or movement, even when both preparations are described as vegetable noodles.",
+      "sources": [
+        "b7-spiral"
+      ],
+      "review": "existing draft improved; review_version 0.1",
+      "uncertainties": "Editorial synthesis, not operational or safety certification."
+    },
+    {
+      "kind": "equipment",
+      "id": "fillet-knife",
+      "added": "A scaler removes scales from the skin surface. Filleting separates flesh from the skeleton; neither tool name implies that the other preparation has already been completed.",
+      "sources": [
+        "b7-scaler"
+      ],
+      "review": "existing draft improved; review_version 0.1",
+      "uncertainties": "Editorial synthesis, not operational or safety certification."
+    },
+    {
+      "kind": "equipment",
+      "id": "grill",
+      "added": "A grilling basket holds smaller pieces on the cooking surface. It is an accessory supported by the grill, not an independent heat source; its dimensions and fit remain separate considerations.",
+      "sources": [
+        "b7-grill"
+      ],
+      "review": "existing draft improved; review_version 0.1",
+      "uncertainties": "Editorial synthesis, not operational or safety certification."
+    },
+    {
+      "kind": "equipment",
+      "id": "paring-knife",
+      "added": "A dedicated corer removes a central section with a shaped cutting tool. Using a knife to cut around a core is another approach, but does not make the two tools identical.",
+      "sources": [
+        "b7-corer"
+      ],
+      "review": "existing draft improved; review_version 0.1",
+      "uncertainties": "Editorial synthesis, not operational or safety certification."
+    },
+    {
+      "kind": "process",
+      "id": "glaze",
+      "added": "Vegetable glazing can reduce its cooking liquid into a coating. Cake icing and brushing a cooked roast with juices are other meanings of glaze; the broad verb does not identify one recipe sequence.",
+      "sources": [
+        "b7-glaze"
+      ],
+      "review": "existing draft improved; review_version 0.1",
+      "uncertainties": "Editorial synthesis, not operational or safety certification."
+    },
+    {
+      "kind": "process",
+      "id": "drain",
+      "added": "Salting vegetables can release liquid before draining. Draining removes that liquid, while the preceding salting step changes how much water is available to remove.",
+      "sources": [
+        "b7-drain"
+      ],
+      "review": "existing draft improved; review_version 0.1",
+      "uncertainties": "Editorial synthesis, not operational or safety certification."
+    },
+    {
+      "kind": "process",
+      "id": "dry-brine",
+      "added": "Salting vegetables specifically to remove released water has its own preparation goal. Do not treat every salt-and-rest instruction as an interchangeable dry-brining method.",
+      "sources": [
+        "b7-drain"
+      ],
+      "review": "existing draft improved; review_version 0.1",
+      "uncertainties": "Editorial synthesis, not operational or safety certification."
+    },
+    {
+      "kind": "process",
+      "id": "reduce",
+      "added": "Adding a starch slurry thickens by introducing starch rather than by evaporating more liquid. A recipe may use either or both; a thickened sauce is not evidence that it has been reduced.",
+      "sources": [
+        "b7-slurry"
+      ],
+      "review": "existing draft improved; review_version 0.1",
+      "uncertainties": "Editorial synthesis, not operational or safety certification."
+    },
+    {
+      "kind": "process",
+      "id": "dredge",
+      "added": "Singer adds flour after ingredients have cooked in fat and before liquid is added. Dredging food before frying follows a different sequence; both use flour but are not interchangeable instructions.",
+      "sources": [
+        "b7-singer"
+      ],
+      "review": "existing draft improved; review_version 0.1",
+      "uncertainties": "Editorial synthesis, not operational or safety certification."
+    },
+    {
+      "kind": "process",
+      "id": "make-roux",
+      "added": "Singer cooks flour around ingredients already in the pan. A separate roux prepares the flour-fat mixture independently before it is combined with liquid or other ingredients.",
+      "sources": [
+        "b7-singer"
+      ],
+      "review": "existing draft improved; review_version 0.1",
+      "uncertainties": "Editorial synthesis, not operational or safety certification."
+    },
+    {
+      "kind": "process",
+      "id": "grind",
+      "added": "In a meat grinder, the cutting mechanism and perforated plate produce the ground texture. Changing the plate differs from passing mixture through a sausage-filling tube, whose purpose is to fill the casing.",
+      "sources": [
+        "b7-grinder"
+      ],
+      "review": "existing draft improved; review_version 0.1",
+      "uncertainties": "Editorial synthesis, not operational or safety certification."
+    },
+    {
+      "kind": "process",
+      "id": "shape",
+      "added": "Sausage stuffing forms a prepared mixture within a casing using a filling tube. Forming a patty by hand follows another method; a shared mixture does not make their shaping instructions equivalent.",
+      "sources": [
+        "b7-sausage"
+      ],
+      "review": "existing draft improved; review_version 0.1",
+      "uncertainties": "Editorial synthesis, not operational or safety certification."
+    },
+    {
+      "kind": "process",
+      "id": "stretch-and-fold",
+      "added": "Coil folding is another dough-handling method used during bulk fermentation. It places more emphasis on gentle folding; a recipe may combine methods rather than treating their names as exact synonyms.",
+      "sources": [
+        "b7-coil"
+      ],
+      "review": "existing draft improved; review_version 0.1",
+      "uncertainties": "Editorial synthesis, not operational or safety certification."
+    },
+    {
+      "kind": "process",
+      "id": "laminate",
+      "added": "Bread-dough lamination can be combined with coil folds during bulk fermentation. A broad stretch and folding the dough in place are different handling stages, even when both contribute to dough structure.",
+      "sources": [
+        "b7-coil"
+      ],
+      "review": "existing draft improved; review_version 0.1",
+      "uncertainties": "Editorial synthesis, not operational or safety certification."
+    }
+  ],
+  "sources": [
+    {
+      "id": "b7-cork",
+      "title": "Which Type of Wine Bottle Opener is Right for You?",
+      "url": "https://www.oxo.com/blog/coffee-and-beverages/which-wine-opener-is-right-for-you",
+      "publisher": "OXO"
+    },
+    {
+      "id": "b7-bottle",
+      "title": "Steel Bottle Opener",
+      "url": "https://www.oxo.com/oxo-stl-bottle-opener.html",
+      "publisher": "OXO"
+    },
+    {
+      "id": "b7-corer",
+      "title": "Corer",
+      "url": "https://www.oxo.com/corer-475.html",
+      "publisher": "OXO"
+    },
+    {
+      "id": "b7-screen",
+      "title": "Splatter Screen With Folding Handle",
+      "url": "https://www.oxo.com/shop/kitchenware/cooking-baking/cookware/oxo-gg-splatter-screen.html?yoReviewsPage=3",
+      "publisher": "OXO"
+    },
+    {
+      "id": "b7-sushi",
+      "title": "Bamboo Sushi Mat",
+      "url": "https://townfood.com/product/bamboo-sushi-mat-9-1-2x9-1-2/",
+      "publisher": "Town Food Service"
+    },
+    {
+      "id": "b7-wok",
+      "title": "How to accessorize your wok range",
+      "url": "https://townfood.com/wok-range/how-to-accessorize-your-wok-range/",
+      "publisher": "Town Food Service"
+    },
+    {
+      "id": "b7-grinder",
+      "title": "Food Grinders",
+      "url": "https://www.kitchenaid.co.uk/mixers/food-grinders",
+      "publisher": "KitchenAid"
+    },
+    {
+      "id": "b7-sausage",
+      "title": "Using with the Sausage Stuffer Attachment",
+      "url": "https://www.kitchenaid.com/content/dam/global/documents/202404/product-guide-w11668759-revA.pdf",
+      "publisher": "KitchenAid"
+    },
+    {
+      "id": "b7-cheese",
+      "title": "Cheese Slicer Amigo",
+      "url": "https://www.boska.com/en/products/cheese-slicer-amigo",
+      "publisher": "BOSKA"
+    },
+    {
+      "id": "b7-scaler",
+      "title": "Kitchen Utensils and Cookware 2023: fish scaler and fruit corer",
+      "url": "https://www.roesle.com/media/fe/fe/1f/1673941906/ROESLE_Katalog_Kueche_2023_ENG_ohne_Preise.pdf",
+      "publisher": "Roesle"
+    },
+    {
+      "id": "b7-carving",
+      "title": "Classic Ikon 9-inch Carving Knife",
+      "url": "https://wusthof.com/products/classic-ikon-9-inch-carving-knife",
+      "publisher": "Wusthof"
+    },
+    {
+      "id": "b7-grill",
+      "title": "Deluxe Grilling Basket",
+      "url": "https://www.weber.com/US/en/accessories/grill-tools-and-cookware/deluxe-grilling-basket-6434/6434.html",
+      "publisher": "Weber"
+    },
+    {
+      "id": "b7-spiral",
+      "title": "Tabletop Spiralizer",
+      "url": "https://www.oxo.com/tabletop-spiralizer.html",
+      "publisher": "OXO"
+    },
+    {
+      "id": "b7-pasta",
+      "title": "Gourmet Pasta Press",
+      "url": "https://www.kitchenaid.com/countertop-appliances/stand-mixers/attachments/p.gourmet-pasta-press.KSMPEXTA.html",
+      "publisher": "KitchenAid"
+    },
+    {
+      "id": "b7-glaze",
+      "title": "Glacer",
+      "url": "https://chefsimon.com/articles/lexique-glacer",
+      "publisher": "Chef Simon"
+    },
+    {
+      "id": "b7-drain",
+      "title": "Degorger",
+      "url": "https://chefsimon.com/articles/lexique-degorger",
+      "publisher": "Chef Simon"
+    },
+    {
+      "id": "b7-singer",
+      "title": "Singer",
+      "url": "https://chefsimon.com/articles/lexique-singer",
+      "publisher": "Chef Simon"
+    },
+    {
+      "id": "b7-slurry",
+      "title": "Liaison",
+      "url": "https://chefsimon.com/articles/lexique-liaison",
+      "publisher": "Chef Simon"
+    },
+    {
+      "id": "b7-coil",
+      "title": "Bulk Fermentation Handling",
+      "url": "https://thesourdoughjourney.com/faq-bulk-fermentation-handling/",
+      "publisher": "The Sourdough Journey"
+    }
+  ],
+  "deferred": [
+    {
+      "term": "cheese slicer / corer / spiralizer",
+      "reason": "Keep scoped identities; broad slicer and corer names cover multiple mechanisms. No blanket aliases."
+    },
+    {
+      "term": "degorger / glacer",
+      "reason": "French terms span several preparations. Add scoped vegetable methods without mapping every use of the broader French terms to them."
+    },
+    {
+      "term": "chuan / hoak",
+      "reason": "Manufacturer transliterations identify examples, not sufficient evidence for universal regional aliases."
+    },
+    {
+      "term": "tamis / china cap / electric beaters / cold-smoke",
+      "reason": "Earlier boundary and safety questions remain deferred; no equivalence or operating schedules invented."
+    }
+  ],
+  "associations": [
+    {
+      "from": "corkscrew",
+      "relation": "contrast-with",
+      "target": {
+        "kind": "equipment",
+        "id": "bottle-opener"
+      }
+    },
+    {
+      "from": "wok-spatula",
+      "relation": "contrast-with",
+      "target": {
+        "kind": "equipment",
+        "id": "wok-ladle"
+      }
+    },
+    {
+      "from": "sausage-stuffer",
+      "relation": "used-for",
+      "target": {
+        "kind": "process",
+        "id": "stuff-sausage-casings"
+      }
+    },
+    {
+      "from": "fish-scaler",
+      "relation": "used-for",
+      "target": {
+        "kind": "process",
+        "id": "descale"
+      }
+    },
+    {
+      "from": "carving-knife",
+      "relation": "contrast-with",
+      "target": {
+        "kind": "equipment",
+        "id": "boning-knife"
+      }
+    },
+    {
+      "from": "grilling-basket",
+      "relation": "commonly-used-with",
+      "target": {
+        "kind": "equipment",
+        "id": "grill"
+      }
+    },
+    {
+      "from": "vegetable-spiralizer",
+      "relation": "used-for",
+      "target": {
+        "kind": "process",
+        "id": "spiralize-vegetables"
+      }
+    },
+    {
+      "from": "pasta-extruder",
+      "relation": "used-for",
+      "target": {
+        "kind": "process",
+        "id": "extrude-pasta"
+      }
+    },
+    {
+      "from": "salt-drain-vegetables",
+      "relation": "commonly-used-with",
+      "target": {
+        "kind": "process",
+        "id": "drain"
+      }
+    },
+    {
+      "from": "singer",
+      "relation": "contrast-with",
+      "target": {
+        "kind": "process",
+        "id": "make-roux"
+      }
+    },
+    {
+      "from": "make-starch-slurry",
+      "relation": "contrast-with",
+      "target": {
+        "kind": "process",
+        "id": "make-beurre-manie"
+      }
+    },
+    {
+      "from": "coil-fold-dough",
+      "relation": "contrast-with",
+      "target": {
+        "kind": "process",
+        "id": "stretch-and-fold"
+      }
+    }
+  ]
+}

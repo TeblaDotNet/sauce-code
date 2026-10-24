@@ -3,7 +3,7 @@ schema_version: '0.3'
 status: draft8-vocabulary-review-pass-1
 current_recipe_count: 410
 legacy_evidence: bbc-food-10 vocabulary observations retained; recipe texts not distributed
-canonical_concept_count: 240
+canonical_concept_count: 255
 entries:
 - id: air-fryer
   canonical_name: air fryer
@@ -964,4 +964,64 @@ entries:
 - id: chocolate-dipping-fork
   canonical_name: chocolate dipping fork
   file: chocolate-dipping-fork.yaml
+  aliases: 0
+- id: corkscrew
+  canonical_name: corkscrew
+  file: corkscrew.yaml
+  aliases: 0
+- id: bottle-opener
+  canonical_name: bottle opener
+  file: bottle-opener.yaml
+  aliases: 0
+- id: apple-corer
+  canonical_name: apple corer
+  file: apple-corer.yaml
+  aliases: 0
+- id: splatter-screen
+  canonical_name: splatter screen
+  file: splatter-screen.yaml
+  aliases: 0
+- id: sushi-rolling-mat
+  canonical_name: sushi rolling mat
+  file: sushi-rolling-mat.yaml
+  aliases: 0
+- id: wok-spatula
+  canonical_name: wok spatula
+  file: wok-spatula.yaml
+  aliases: 0
+- id: wok-ladle
+  canonical_name: wok ladle
+  file: wok-ladle.yaml
+  aliases: 0
+- id: meat-grinder
+  canonical_name: meat grinder
+  file: meat-grinder.yaml
+  aliases: 0
+- id: sausage-stuffer
+  canonical_name: sausage stuffer
+  file: sausage-stuffer.yaml
+  aliases: 0
+- id: cheese-plane
+  canonical_name: cheese plane
+  file: cheese-plane.yaml
+  aliases: 0
+- id: fish-scaler
+  canonical_name: fish scaler
+  file: fish-scaler.yaml
+  aliases: 0
+- id: carving-knife
+  canonical_name: carving knife
+  file: carving-knife.yaml
+  aliases: 0
+- id: grilling-basket
+  canonical_name: grilling basket
+  file: grilling-basket.yaml
+  aliases: 0
+- id: vegetable-spiralizer
+  canonical_name: vegetable spiralizer
+  file: vegetable-spiralizer.yaml
+  aliases: 0
+- id: pasta-extruder
+  canonical_name: pasta extruder
+  file: pasta-extruder.yaml
   aliases: 0

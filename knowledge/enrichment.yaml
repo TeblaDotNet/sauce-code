@@ -572,6 +572,13 @@
         - allclad-care
         - tefal-care
       review_version: 0.1
+    - id: batch-7-distinction
+      role: context
+      text: A perforated splatter screen intercepts splashes while leaving openings. A solid lid provides a
+        different enclosure; selecting one in place of the other changes how the vessel is covered.
+      sources:
+        - b7-screen
+      review_version: 0.1
   resources:
     - resource: allclad-care
       role: maintenance
@@ -1628,6 +1635,13 @@
         its lower outlet.
       sources:
         - b5-fat
+      review_version: 0.1
+    - id: batch-7-distinction
+      role: context
+      text: Wok ladles are sized for wok cooking and differ from shovel-headed utensils used alongside them. A
+        shared handle style does not make a ladle bowl and a lifting blade interchangeable.
+      sources:
+        - b7-wok
       review_version: 0.1
   resources:
     - resource: oxo-ladle
@@ -4195,6 +4209,13 @@
       sources:
         - b5-roux
       review_version: 0.1
+    - id: batch-7-distinction
+      role: context
+      text: Adding a starch slurry thickens by introducing starch rather than by evaporating more liquid. A recipe
+        may use either or both; a thickened sauce is not evidence that it has been reduced.
+      sources:
+        - b7-slurry
+      review_version: 0.1
   resources:
     - resource: cia-reduce
       role: introduction
@@ -4677,6 +4698,13 @@
         choice.
       sources:
         - cia-prep
+      review_version: 0.1
+    - id: batch-7-distinction
+      role: context
+      text: A dedicated corer removes a central section with a shaped cutting tool. Using a knife to cut around a
+        core is another approach, but does not make the two tools identical.
+      sources:
+        - b7-corer
       review_version: 0.1
   resources:
     - resource: wusthof-three
@@ -5580,6 +5608,13 @@
       sources:
         - cia-techniques
       review_version: 0.1
+    - id: batch-7-distinction
+      role: context
+      text: Wok shovels and ladles have different head shapes, and manufacturers offer sizes matched to different
+        wok arrangements. The pan name alone does not specify a suitable utensil size.
+      sources:
+        - b7-wok
+      review_version: 0.1
   resources:
     - resource: wok-season
       role: introduction
@@ -5704,6 +5739,14 @@
         by itself provide those functions."
       sources:
         - b2-mixers
+      review_version: 0.1
+    - id: batch-7-distinction
+      role: context
+      text: A grinder attachment adds cutting and perforated-plate functions to a mixer. Those functions are not
+        supplied by the ordinary mixing bowl and beater, and attachment compatibility must be checked
+        separately.
+      sources:
+        - b7-grinder
       review_version: 0.1
   resources:
     - resource: ka-mixers
@@ -6929,9 +6972,17 @@
   editorial:
     - id: summary
       role: summary
-      text: Draining is separating liquid from food by letting it run away. A colander or strainer retains the solids.
+      text: Draining is separating liquid from food by letting it run away. A colander or strainer retains the
+        solids.
       sources:
         - purdue-cooking-terms
+      review_version: 0.1
+    - id: batch-7-distinction
+      role: context
+      text: Salting vegetables can release liquid before draining. Draining removes that liquid, while the preceding
+        salting step changes how much water is available to remove.
+      sources:
+        - b7-drain
       review_version: 0.1
   resources:
     - resource: purdue-cooking-terms
@@ -6997,6 +7048,13 @@
       sources:
         - clubhouse-cooking-terms
       review_version: 0.1
+    - id: batch-7-distinction
+      role: context
+      text: Singer adds flour after ingredients have cooked in fat and before liquid is added. Dredging food before
+        frying follows a different sequence; both use flour but are not interchangeable instructions.
+      sources:
+        - b7-singer
+      review_version: 0.1
   resources:
     - resource: clubhouse-cooking-terms
       role: introduction
@@ -7009,9 +7067,18 @@
   editorial:
     - id: summary
       role: summary
-      text: Grinding is reducing food to small particles by crushing or cutting it mechanically. Choose the coarseness needed by the recipe.
+      text: Grinding is reducing food to small particles by crushing or cutting it mechanically. Choose the
+        coarseness needed by the recipe.
       sources:
         - clubhouse-cooking-terms
+      review_version: 0.1
+    - id: batch-7-distinction
+      role: context
+      text: In a meat grinder, the cutting mechanism and perforated plate produce the ground texture. Changing the
+        plate differs from passing mixture through a sausage-filling tube, whose purpose is to fill the
+        casing.
+      sources:
+        - b7-grinder
       review_version: 0.1
   resources:
     - resource: clubhouse-cooking-terms
@@ -7338,15 +7405,24 @@
       review_version: 0.1
     - id: mechanism
       role: mechanism
-      text: Vegetables can be finished in a little butter and a sweetener or sauce until the coating clings. Other glazes are applied directly, so the word alone does not specify one cooking method.
+      text: Vegetables can be finished in a little butter and a sweetener or sauce until the coating clings. Other
+        glazes are applied directly, so the word alone does not specify one cooking method.
       sources:
         - cia-glazing
       review_version: 0.1
     - id: judgement
       role: judgement
-      text: A glaze should coat the food rather than leave it swimming in liquid. Sweet glazes need care under strong heat.
+      text: A glaze should coat the food rather than leave it swimming in liquid. Sweet glazes need care under
+        strong heat.
       sources:
         - cia-glazing
+      review_version: 0.1
+    - id: batch-7-distinction
+      role: context
+      text: Vegetable glazing can reduce its cooking liquid into a coating. Cake icing and brushing a cooked roast
+        with juices are other meanings of glaze; the broad verb does not identify one recipe sequence.
+      sources:
+        - b7-glaze
       review_version: 0.1
   resources:
     - resource: clubhouse-cooking-terms
@@ -10410,9 +10486,17 @@
       review_version: 0.1
     - id: uses
       role: uses
-      text: For bread, shaping organises the dough into a loaf with a supported surface. Handle it without tearing that surface or flattening out all the gas.
+      text: For bread, shaping organises the dough into a loaf with a supported surface. Handle it without tearing
+        that surface or flattening out all the gas.
       sources:
         - kab-sourdough-folds
+      review_version: 0.1
+    - id: batch-7-distinction
+      role: context
+      text: Sausage stuffing forms a prepared mixture within a casing using a filling tube. Forming a patty by hand
+        follows another method; a shared mixture does not make their shaping instructions equivalent.
+      sources:
+        - b7-sausage
       review_version: 0.1
   resources:
     - resource: kab-sourdough-folds
@@ -10460,9 +10544,17 @@
       review_version: 0.1
     - id: judgement
       role: judgement
-      text: Handle the dough without tearing it. Use the recipe’s folding schedule rather than assuming more force or more folds always improve the loaf.
+      text: Handle the dough without tearing it. Use the recipe’s folding schedule rather than assuming more force
+        or more folds always improve the loaf.
       sources:
         - kab-sourdough-folds
+      review_version: 0.1
+    - id: batch-7-distinction
+      role: context
+      text: Coil folding is another dough-handling method used during bulk fermentation. It places more emphasis on
+        gentle folding; a recipe may combine methods rather than treating their names as exact synonyms.
+      sources:
+        - b7-coil
       review_version: 0.1
   resources:
     - resource: kab-sourdough-folds
@@ -11660,28 +11752,39 @@
   editorial:
     - id: summary
       role: summary
-      text: A grill is an appliance or cooking surface that applies strong direct radiant heat to food. It is used to brown and cook meats, vegetables and other foods.
+      text: A grill is an appliance or cooking surface that applies strong direct radiant heat to food. It is used
+        to brown and cook meats, vegetables and other foods.
       sources:
         - cia-techniques
         - weber-zones
       review_version: 0.1
     - id: context
       role: context
-      text: Check whether the appliance heats from above or below the food. The direction and distance of the heat source affect how a surface browns.
+      text: Check whether the appliance heats from above or below the food. The direction and distance of the heat
+        source affect how a surface browns.
       sources:
         - cia-techniques
       review_version: 0.1
     - id: mechanism
       role: mechanism
-      text: On an outdoor barbecue, direct heat places food over the heat source; indirect heat places it to one side. Weber’s guidance uses these zones for different stages of cooking.
+      text: On an outdoor barbecue, direct heat places food over the heat source; indirect heat places it to one
+        side. Weber’s guidance uses these zones for different stages of cooking.
       sources:
         - weber-zones
       review_version: 0.1
     - id: care
       role: care
-      text: Use the appliance only in its permitted setting and follow its ventilation and fuel instructions. Outdoor fuel-burning grills must not be moved indoors.
+      text: Use the appliance only in its permitted setting and follow its ventilation and fuel instructions.
+        Outdoor fuel-burning grills must not be moved indoors.
       sources:
         - weber-grill-safety
+      review_version: 0.1
+    - id: batch-7-distinction
+      role: context
+      text: A grilling basket holds smaller pieces on the cooking surface. It is an accessory supported by the
+        grill, not an independent heat source; its dimensions and fit remain separate considerations.
+      sources:
+        - b7-grill
       review_version: 0.1
   resources:
     - resource: cia-techniques
@@ -14716,6 +14819,13 @@
       sources:
         - b2-can
       review_version: 0.1
+    - id: batch-7-distinction
+      role: context
+      text: A bottle opener releases a crown cap; a can-piercing point may be included on the same tool. A combined
+        design does not make those operations equivalent to cutting around a can lid.
+      sources:
+        - b7-bottle
+      review_version: 0.1
   resources:
     - resource: b2-can
       role: introduction
@@ -15101,6 +15211,14 @@
       sources:
         - kab-pin
       review_version: 0.1
+    - id: batch-7-distinction
+      role: context
+      text: Bread-dough lamination can be combined with coil folds during bulk fermentation. A broad stretch and
+        folding the dough in place are different handling stages, even when both contribute to dough
+        structure.
+      sources:
+        - b7-coil
+      review_version: 0.1
   resources:
     - resource: b2-laminate
       role: introduction
@@ -15280,6 +15398,13 @@
         technique is not a guarantee of preservation or a substitute for a validated curing method.
       sources:
         - b2-brine
+      review_version: 0.1
+    - id: batch-7-distinction
+      role: context
+      text: Salting vegetables specifically to remove released water has its own preparation goal. Do not treat
+        every salt-and-rest instruction as an interchangeable dry-brining method.
+      sources:
+        - b7-drain
       review_version: 0.1
   resources:
     - resource: b2-brine
@@ -15511,6 +15636,13 @@
         does not itself provide every cutting or extrusion function of a pasta machine.
       sources: &a1
         - b3-pasta
+      review_version: 0.1
+    - id: batch-7-distinction
+      role: context
+      text: An extruder forms dough through a die; a roller thins dough between rollers. Both prepare pasta, but a
+        die profile and a roller gap control different aspects of its shape.
+      sources:
+        - b7-pasta
       review_version: 0.1
   resources:
     - resource: b3-pasta
@@ -16506,6 +16638,13 @@
       sources:
         - b5-julienne
       review_version: 0.1
+    - id: batch-7-distinction
+      role: context
+      text: A spiralizer forms continuous spiral strands by rotation. Producing narrow strips with a peeler does not
+        establish the same shape or movement, even when both preparations are described as vegetable noodles.
+      sources:
+        - b7-spiral
+      review_version: 0.1
   resources:
     - resource: b5-julienne
       role: introduction
@@ -16731,6 +16870,13 @@
         technique.
       sources:
         - b6-manie
+      review_version: 0.1
+    - id: batch-7-distinction
+      role: context
+      text: Singer cooks flour around ingredients already in the pan. A separate roux prepares the flour-fat mixture
+        independently before it is combined with liquid or other ingredients.
+      sources:
+        - b7-singer
       review_version: 0.1
   resources:
     - resource: b5-roux
@@ -17130,6 +17276,13 @@
       sources:
         - b6-knives
       review_version: 0.1
+    - id: batch-7-distinction
+      role: context
+      text: A scaler removes scales from the skin surface. Filleting separates flesh from the skeleton; neither tool
+        name implies that the other preparation has already been completed.
+      sources:
+        - b7-scaler
+      review_version: 0.1
   resources:
     - resource: b6-knives
       role: introduction
@@ -17415,4 +17568,541 @@
         mixture’s safety.
       sources:
         - b6-meringue
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: corkscrew
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A tool with a spiral worm that engages a cork so it can be withdrawn from a bottle. Lever and winged
+        mechanisms provide different ways to lift it. Removing a cork is distinct from levering off a crown
+        cap.
+      sources:
+        - b7-cork
+      review_version: 0.1
+  resources:
+    - resource: b7-cork
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: equipment
+        id: bottle-opener
+      note: A tool with a spiral worm that engages a cork so it can be withdrawn from a bottle. Lever and winged
+        mechanisms provide different ways to lift it. Removing a cork is distinct from levering off a crown
+        cap.
+      sources:
+        - b7-cork
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: bottle-opener
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A tool for lifting a crown cap from a bottle. Some designs also carry a can-piercing point; that
+        additional feature does not make every opener a can opener or a corkscrew.
+      sources:
+        - b7-bottle
+      review_version: 0.1
+  resources:
+    - resource: b7-bottle
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: apple-corer
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A tool with a cutting ring that removes the central core of an apple. It leaves the surrounding fruit
+        largely intact; a combined divider that also cuts wedges performs an additional operation.
+      sources:
+        - b7-scaler
+      review_version: 0.1
+  resources:
+    - resource: b7-scaler
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: splatter-screen
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A perforated cover placed above a pan to intercept cooking splashes. Its openings distinguish it from a
+        solid lid. Fit and handle design vary; it is not a sealed cooking enclosure.
+      sources:
+        - b7-screen
+      review_version: 0.1
+  resources:
+    - resource: b7-screen
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: sushi-rolling-mat
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A flexible mat used to support and shape a sushi roll as it is rolled up. Bamboo is a common
+        construction. The mat is a shaping aid rather than a serving placemat or a baking surface.
+      sources:
+        - b7-sushi
+      review_version: 0.1
+  resources:
+    - resource: b7-sushi
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: wok-spatula
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A shovel-shaped cooking utensil used with a wok. Its head moves and lifts food, while a wok ladle has a
+        bowl for holding liquid. Tool size should suit the wok; regional names are not assumed to be universal
+        aliases.
+      sources:
+        - b7-wok
+      review_version: 0.1
+  resources:
+    - resource: b7-wok
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: equipment
+        id: wok-ladle
+      note: A shovel-shaped cooking utensil used with a wok. Its head moves and lifts food, while a wok ladle has a
+        bowl for holding liquid. Tool size should suit the wok; regional names are not assumed to be universal
+        aliases.
+      sources:
+        - b7-wok
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: wok-ladle
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A long-handled, bowl-headed utensil used in wok cooking. It can carry liquid as well as move
+        ingredients. A wok shovel and a wok ladle are separate tools even when sold as a matched set.
+      sources:
+        - b7-wok
+      review_version: 0.1
+  resources:
+    - resource: b7-wok
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: meat-grinder
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A device that cuts meat and forces it through a perforated grinding plate. Plate openings influence the
+        resulting texture. It may be a separate machine or an attachment; grinding and filling sausage casings
+        are distinct operations.
+      sources:
+        - b7-grinder
+      review_version: 0.1
+  resources:
+    - resource: b7-grinder
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: sausage-stuffer
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A device that feeds prepared sausage mixture through a tube into a casing. A stuffer may attach to a
+        grinder, but the filling tube performs a different task from the grinding plate. No curing or cooking
+        step is implied.
+      sources:
+        - b7-sausage
+      review_version: 0.1
+  resources:
+    - resource: b7-sausage
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: used-for
+      target:
+        kind: process
+        id: stuff-sausage-casings
+      note: A device that feeds prepared sausage mixture through a tube into a casing. A stuffer may attach to a
+        grinder, but the filling tube performs a different task from the grinding plate. No curing or cooking
+        step is implied.
+      sources:
+        - b7-sausage
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: cheese-plane
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A handled tool with a slotted cutting blade drawn across cheese to produce thin slices. Suitability
+        depends on the cheese texture and blade. This identity covers the plane form, not every wire or knife
+        sold as a cheese slicer.
+      sources:
+        - b7-cheese
+      review_version: 0.1
+  resources:
+    - resource: b7-cheese
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: fish-scaler
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A toothed or serrated tool that loosens scales from the outside of a fish. It works on the skin surface,
+        unlike a fillet knife or fish-bone tongs. Removing scales is not the same operation as removing the
+        skin.
+      sources:
+        - b7-scaler
+      review_version: 0.1
+  resources:
+    - resource: b7-scaler
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: used-for
+      target:
+        kind: process
+        id: descale
+      note: A toothed or serrated tool that loosens scales from the outside of a fish. It works on the skin surface,
+        unlike a fillet knife or fish-bone tongs. Removing scales is not the same operation as removing the
+        skin.
+      sources:
+        - b7-scaler
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: carving-knife
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A long, relatively narrow knife used to cut slices from a roast or other large food. Its shape favours
+        slicing strokes rather than heavy chopping. A carving knife is distinct from a cleaver or a narrow
+        boning knife.
+      sources:
+        - b7-carving
+      review_version: 0.1
+  resources:
+    - resource: b7-carving
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: equipment
+        id: boning-knife
+      note: A long, relatively narrow knife used to cut slices from a roast or other large food. Its shape favours
+        slicing strokes rather than heavy chopping. A carving knife is distinct from a cleaver or a narrow
+        boning knife.
+      sources:
+        - b7-carving
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: grilling-basket
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A basket that supports small pieces of food on a grill. Openings admit heat while the sides help contain
+        the pieces. Construction and grill compatibility vary; it does not replace the grill that supplies
+        heat.
+      sources:
+        - b7-grill
+      review_version: 0.1
+  resources:
+    - resource: b7-grill
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: commonly-used-with
+      target:
+        kind: equipment
+        id: grill
+      note: A basket that supports small pieces of food on a grill. Openings admit heat while the sides help contain
+        the pieces. Construction and grill compatibility vary; it does not replace the grill that supplies
+        heat.
+      sources:
+        - b7-grill
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: vegetable-spiralizer
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A cutting device that turns vegetables against blades to form long spirals or ribbons. Blade choice
+        changes the shape. It cuts existing vegetable flesh rather than extruding a mixed pasta dough.
+      sources:
+        - b7-spiral
+      review_version: 0.1
+  resources:
+    - resource: b7-spiral
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: used-for
+      target:
+        kind: process
+        id: spiralize-vegetables
+      note: A cutting device that turns vegetables against blades to form long spirals or ribbons. Blade choice
+        changes the shape. It cuts existing vegetable flesh rather than extruding a mixed pasta dough.
+      sources:
+        - b7-spiral
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: pasta-extruder
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A device that presses pasta dough through a shaped die. The die forms the cross-section and a cutter
+        controls length. This differs from thinning a sheet between pasta rollers before cutting it.
+      sources:
+        - b7-pasta
+      review_version: 0.1
+  resources:
+    - resource: b7-pasta
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: used-for
+      target:
+        kind: process
+        id: extrude-pasta
+      note: A device that presses pasta dough through a shaped die. The die forms the cross-section and a cutter
+        controls length. This differs from thinning a sheet between pasta rollers before cutting it.
+      sources:
+        - b7-pasta
+      review_version: 0.1
+- target:
+    kind: process
+    id: glaze-vegetables
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Cook vegetables with a small amount of liquid, butter and sugar so the reducing liquid forms a coating.
+        The endpoint may be pale or browned. This scoped method is distinct from icing a cake or brushing a
+        glaze onto cooked meat.
+      sources:
+        - b7-glaze
+      review_version: 0.1
+  resources:
+    - resource: b7-glaze
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: salt-drain-vegetables
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Salt prepared vegetables to draw out some of their water, then drain as the recipe directs. This
+        moisture-removal step differs from simply seasoning the finished dish. Rinsing and final seasoning
+        remain recipe-specific; no preservation guarantee is implied.
+      sources:
+        - b7-drain
+      review_version: 0.1
+  resources:
+    - resource: b7-drain
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: commonly-used-with
+      target:
+        kind: process
+        id: drain
+      note: Salt prepared vegetables to draw out some of their water, then drain as the recipe directs. This
+        moisture-removal step differs from simply seasoning the finished dish. Rinsing and final seasoning
+        remain recipe-specific; no preservation guarantee is implied.
+      sources:
+        - b7-drain
+      review_version: 0.1
+- target:
+    kind: process
+    id: singer
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Sprinkle flour over ingredients already cooked in fat, cook the flour briefly, then add liquid to form a
+        thickened sauce. The sequence distinguishes this method from flouring raw food before frying or
+        preparing a separate roux.
+      sources:
+        - b7-singer
+      review_version: 0.1
+  resources:
+    - resource: b7-singer
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: process
+        id: make-roux
+      note: Sprinkle flour over ingredients already cooked in fat, cook the flour briefly, then add liquid to form a
+        thickened sauce. The sequence distinguishes this method from flouring raw food before frying or
+        preparing a separate roux.
+      sources:
+        - b7-singer
+      review_version: 0.1
+- target:
+    kind: process
+    id: make-starch-slurry
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Disperse starch in cold liquid before incorporating it into a hot preparation for thickening. Preparing
+        the dispersion is separate from the later cooking stage. The starch type and recipe determine
+        proportions and treatment.
+      sources:
+        - b7-slurry
+      review_version: 0.1
+  resources:
+    - resource: b7-slurry
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: process
+        id: make-beurre-manie
+      note: Disperse starch in cold liquid before incorporating it into a hot preparation for thickening. Preparing
+        the dispersion is separate from the later cooking stage. The starch type and recipe determine
+        proportions and treatment.
+      sources:
+        - b7-slurry
+      review_version: 0.1
+- target:
+    kind: process
+    id: coil-fold-dough
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Use coil folds to build structure in bread dough during bulk fermentation. This gentle folding method is
+        distinct from stretching an edge over the dough or laminating it out broadly. It is a
+        dough-development step, not the final shaping of the loaf.
+      sources:
+        - b7-coil
+      review_version: 0.1
+  resources:
+    - resource: b7-coil
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: process
+        id: stretch-and-fold
+      note: Use coil folds to build structure in bread dough during bulk fermentation. This gentle folding method is
+        distinct from stretching an edge over the dough or laminating it out broadly. It is a
+        dough-development step, not the final shaping of the loaf.
+      sources:
+        - b7-coil
+      review_version: 0.1
+- target:
+    kind: process
+    id: extrude-pasta
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Press pasta dough through a shaped die and cut the emerging pasta to length. The die determines the
+        profile. Rolling a sheet and cutting strips can produce pasta too, but uses a different forming
+        method.
+      sources:
+        - b7-pasta
+      review_version: 0.1
+  resources:
+    - resource: b7-pasta
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: spiralize-vegetables
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Cut vegetables into long spiral strands or ribbons by turning them against a suitable blade. The
+        vegetable itself supplies the strand; this is not extrusion of flour-based dough, even when the result
+        is served like noodles.
+      sources:
+        - b7-spiral
+      review_version: 0.1
+  resources:
+    - resource: b7-spiral
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: stuff-sausage-casings
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Feed prepared sausage mixture through a filling tube into a casing while guiding the casing as it fills.
+        Grinding the ingredients precedes this forming step where needed. Stuffing alone neither cooks nor
+        preserves the sausage.
+      sources:
+        - b7-sausage
+      review_version: 0.1
+  resources:
+    - resource: b7-sausage
+      role: introduction
+      order: 1
       review_version: 0.1

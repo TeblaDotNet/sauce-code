@@ -1,0 +1,16 @@
+id: sausage-stuffer
+kind: equipment
+canonical_name: sausage stuffer
+names:
+  en: sausage stuffer
+aliases: []
+categories:
+  - preparation-tools
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  definition: A device that feeds prepared sausage mixture through a tube into a casing. A stuffer may attach to
+    a grinder, but the filling tube performs a different task from the grinding plate. No curing or cooking
+    step is implied.
+  review_note: Batch 7 researched draft. Identity boundaries are editorial decisions; no human review claimed.

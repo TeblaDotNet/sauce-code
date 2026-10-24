@@ -3,7 +3,7 @@ schema_version: '0.3'
 status: draft8-vocabulary-review-pass-1
 current_recipe_count: 410
 legacy_evidence: bbc-food-10 vocabulary observations retained; recipe texts not distributed
-canonical_concept_count: 292
+canonical_concept_count: 300
 entries:
 - id: add
   canonical_name: add
@@ -1172,4 +1172,36 @@ entries:
 - id: make-italian-meringue
   canonical_name: make Italian meringue
   file: make-italian-meringue.yaml
+  aliases: 0
+- id: glaze-vegetables
+  canonical_name: glaze vegetables
+  file: glaze-vegetables.yaml
+  aliases: 0
+- id: salt-drain-vegetables
+  canonical_name: salt drain vegetables
+  file: salt-drain-vegetables.yaml
+  aliases: 0
+- id: singer
+  canonical_name: singer
+  file: singer.yaml
+  aliases: 0
+- id: make-starch-slurry
+  canonical_name: make starch slurry
+  file: make-starch-slurry.yaml
+  aliases: 0
+- id: coil-fold-dough
+  canonical_name: coil fold dough
+  file: coil-fold-dough.yaml
+  aliases: 0
+- id: extrude-pasta
+  canonical_name: extrude pasta
+  file: extrude-pasta.yaml
+  aliases: 0
+- id: spiralize-vegetables
+  canonical_name: spiralize vegetables
+  file: spiralize-vegetables.yaml
+  aliases: 0
+- id: stuff-sausage-casings
+  canonical_name: stuff sausage casings
+  file: stuff-sausage-casings.yaml
   aliases: 0

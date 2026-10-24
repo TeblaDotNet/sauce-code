@@ -3731,3 +3731,174 @@
   review_scope: text
   notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
     schedules or cross-regional equivalence.
+- id: b7-cork
+  title: Which Type of Wine Bottle Opener is Right for You?
+  url: https://www.oxo.com/blog/coffee-and-beverages/which-wine-opener-is-right-for-you
+  publisher: OXO
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
+    schedules or cross-regional equivalence.
+- id: b7-bottle
+  title: Steel Bottle Opener
+  url: https://www.oxo.com/oxo-stl-bottle-opener.html
+  publisher: OXO
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
+    schedules or cross-regional equivalence.
+- id: b7-corer
+  title: Corer
+  url: https://www.oxo.com/corer-475.html
+  publisher: OXO
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
+    schedules or cross-regional equivalence.
+- id: b7-screen
+  title: Splatter Screen With Folding Handle
+  url: https://www.oxo.com/shop/kitchenware/cooking-baking/cookware/oxo-gg-splatter-screen.html?yoReviewsPage=3
+  publisher: OXO
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
+    schedules or cross-regional equivalence.
+- id: b7-sushi
+  title: Bamboo Sushi Mat
+  url: https://townfood.com/product/bamboo-sushi-mat-9-1-2x9-1-2/
+  publisher: Town Food Service
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
+    schedules or cross-regional equivalence.
+- id: b7-wok
+  title: How to accessorize your wok range
+  url: https://townfood.com/wok-range/how-to-accessorize-your-wok-range/
+  publisher: Town Food Service
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
+    schedules or cross-regional equivalence.
+- id: b7-grinder
+  title: Food Grinders
+  url: https://www.kitchenaid.co.uk/mixers/food-grinders
+  publisher: KitchenAid
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
+    schedules or cross-regional equivalence.
+- id: b7-sausage
+  title: Using with the Sausage Stuffer Attachment
+  url: https://www.kitchenaid.com/content/dam/global/documents/202404/product-guide-w11668759-revA.pdf
+  publisher: KitchenAid
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
+    schedules or cross-regional equivalence.
+- id: b7-cheese
+  title: Cheese Slicer Amigo
+  url: https://www.boska.com/en/products/cheese-slicer-amigo
+  publisher: BOSKA
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
+    schedules or cross-regional equivalence.
+- id: b7-scaler
+  title: "Kitchen Utensils and Cookware 2023: fish scaler and fruit corer"
+  url: https://www.roesle.com/media/fe/fe/1f/1673941906/ROESLE_Katalog_Kueche_2023_ENG_ohne_Preise.pdf
+  publisher: Roesle
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
+    schedules or cross-regional equivalence.
+- id: b7-carving
+  title: Classic Ikon 9-inch Carving Knife
+  url: https://wusthof.com/products/classic-ikon-9-inch-carving-knife
+  publisher: Wusthof
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
+    schedules or cross-regional equivalence.
+- id: b7-grill
+  title: Deluxe Grilling Basket
+  url: https://www.weber.com/US/en/accessories/grill-tools-and-cookware/deluxe-grilling-basket-6434/6434.html
+  publisher: Weber
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
+    schedules or cross-regional equivalence.
+- id: b7-spiral
+  title: Tabletop Spiralizer
+  url: https://www.oxo.com/tabletop-spiralizer.html
+  publisher: OXO
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
+    schedules or cross-regional equivalence.
+- id: b7-pasta
+  title: Gourmet Pasta Press
+  url: https://www.kitchenaid.com/countertop-appliances/stand-mixers/attachments/p.gourmet-pasta-press.KSMPEXTA.html
+  publisher: KitchenAid
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
+    schedules or cross-regional equivalence.
+- id: b7-glaze
+  title: Glacer
+  url: https://chefsimon.com/articles/lexique-glacer
+  publisher: Chef Simon
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
+    schedules or cross-regional equivalence.
+- id: b7-drain
+  title: Degorger
+  url: https://chefsimon.com/articles/lexique-degorger
+  publisher: Chef Simon
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
+    schedules or cross-regional equivalence.
+- id: b7-singer
+  title: Singer
+  url: https://chefsimon.com/articles/lexique-singer
+  publisher: Chef Simon
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
+    schedules or cross-regional equivalence.
+- id: b7-slurry
+  title: Liaison
+  url: https://chefsimon.com/articles/lexique-liaison
+  publisher: Chef Simon
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
+    schedules or cross-regional equivalence.
+- id: b7-coil
+  title: Bulk Fermentation Handling
+  url: https://thesourdoughjourney.com/faq-bulk-fermentation-handling/
+  publisher: The Sourdough Journey
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
+    schedules or cross-regional equivalence.

@@ -1,0 +1,15 @@
+id: splatter-screen
+kind: equipment
+canonical_name: splatter screen
+names:
+  en: splatter screen
+aliases: []
+categories:
+  - cookware
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  definition: A perforated cover placed above a pan to intercept cooking splashes. Its openings distinguish it
+    from a solid lid. Fit and handle design vary; it is not a sealed cooking enclosure.
+  review_note: Batch 7 researched draft. Identity boundaries are editorial decisions; no human review claimed.
