@@ -231,6 +231,14 @@
         - aocs-emulsion
         - egg-foam
       review_version: 0.1
+    - id: batch-5-distinction
+      role: context
+      text: Mounting a sauce with butter is one finishing application of emulsification. It incorporates butter into
+        the liquid rather than using flour to bind it, and the resulting sauce can separate if its emulsion is
+        disrupted.
+      sources:
+        - b5-mount
+      review_version: 0.1
   resources:
     - resource: aocs-emulsion
       role: deeper-explanation
@@ -1550,6 +1558,13 @@
         - oxo-whisk
         - oxo-silicone-whisk
       review_version: 0.1
+    - id: batch-5-distinction
+      role: context
+      text: The ribbon test observes mixture falling from a lifted whisk and briefly marking the surface. It
+        describes the mixture’s condition, rather than a particular whisk design or a fixed number of strokes.
+      sources:
+        - b5-ribbon
+      review_version: 0.1
   resources:
     - resource: oxo-whisk
       role: introduction
@@ -1597,6 +1612,14 @@
         direct liquid; check care instructions for the actual material.
       sources:
         - oxo-ladle
+      review_version: 0.1
+    - id: batch-5-distinction
+      role: context
+      text: Ladling fat from the surface and dispensing liquid from beneath a settled fat layer approach separation
+        from opposite sides. A fat separator is designed for the latter; an ordinary ladle does not provide
+        its lower outlet.
+      sources:
+        - b5-fat
       review_version: 0.1
   resources:
     - resource: oxo-ladle
@@ -1916,6 +1939,13 @@
         material.
       sources:
         - cia-knives
+      review_version: 0.1
+    - id: batch-5-distinction
+      role: context
+      text: An oyster knife opens a shell joint under leverage. A thin slicing blade is a different tool; the shared
+        label knife should not be read as approval to use any knife for shucking.
+      sources:
+        - b5-shuck
       review_version: 0.1
   resources:
     - resource: cia-knives
@@ -3319,6 +3349,13 @@
       sources:
         - cia-prep
       review_version: 0.1
+    - id: batch-5-distinction
+      role: context
+      text: For prawns, removing the shell and removing the intestinal tract address different structures. A peeled
+        prawn is not necessarily already deveined.
+      sources:
+        - b5-devein
+      review_version: 0.1
   resources:
     - resource: cia-prep
       role: introduction
@@ -3875,6 +3912,13 @@
       sources:
         - b2-laminate
       review_version: 0.1
+    - id: batch-5-distinction
+      role: context
+      text: Fraisage briefly smears pastry to bring its ingredients together. It should not be treated as a request
+        for the sustained kneading used to develop a bread dough’s elasticity.
+      sources:
+        - b5-fraisage
+      review_version: 0.1
   resources:
     - resource: kab-kneading
       role: introduction
@@ -3986,6 +4030,13 @@
       sources:
         - kab-whip
       review_version: 0.1
+    - id: batch-5-distinction
+      role: context
+      text: Ribbon stage describes an egg mixture falling in trails that linger briefly on its surface. It is not
+        the same visual test as peaks formed by whipped whites or cream.
+      sources:
+        - b5-ribbon
+      review_version: 0.1
   resources:
     - resource: kab-whip
       role: introduction
@@ -4030,6 +4081,13 @@
         baked.
       sources:
         - b4-parbake
+      review_version: 0.1
+    - id: batch-5-distinction
+      role: context
+      text: Weights need to support the pastry sides as well as restrain the base. A small pile in the middle can
+        leave the walls free to slump; docking and weighting perform different jobs.
+      sources:
+        - b5-weights
       review_version: 0.1
   resources:
     - resource: kab-blind-bake
@@ -4107,6 +4165,13 @@
         should therefore be read together.
       sources:
         - cia-reduce
+      review_version: 0.1
+    - id: batch-5-distinction
+      role: context
+      text: "A roux thickens through cooked flour, whereas reduction concentrates liquid by evaporation. Choosing
+        one does not silently authorise the other: reducing a sauce also changes its concentration."
+      sources:
+        - b5-roux
       review_version: 0.1
   resources:
     - resource: cia-reduce
@@ -4629,6 +4694,13 @@
       sources:
         - oxo-peelers
       review_version: 0.1
+    - id: batch-5-distinction
+      role: context
+      text: A julienne blade divides the removed layer into narrow strips. A plain peeling blade removes a broader
+        ribbon; the same hand motion does not make the resulting cuts equivalent.
+      sources:
+        - b5-julienne
+      review_version: 0.1
   resources:
     - resource: oxo-peelers
       role: introduction
@@ -4707,6 +4779,14 @@
       sources:
         - oxo-tongs
         - cia-frying
+      review_version: 0.1
+    - id: batch-5-distinction
+      role: context
+      text: Fish-bone tongs use gripping edges to hold individual bones. Serving tongs are designed around holding
+        larger pieces of food, so a generic tongs reference does not establish the precision needed for bone
+        removal.
+      sources:
+        - b5-fish-tongs
       review_version: 0.1
   resources:
     - resource: oxo-tongs
@@ -5082,6 +5162,13 @@
       sources:
         - b4-pie
       review_version: 0.1
+    - id: batch-5-distinction
+      role: context
+      text: A tart ring supplies side support without a base. A pie dish supports both base and sides, so replacing
+        it with a ring also requires a suitable surface beneath the pastry.
+      sources:
+        - b5-ring
+      review_version: 0.1
   resources:
     - resource: kab-pie-pan
       role: introduction
@@ -5111,6 +5198,13 @@
         permitted by the model rather than assuming a hand mixer can handle every stand-mixer task.
       sources:
         - ka-mixers
+      review_version: 0.1
+    - id: batch-5-distinction
+      role: context
+      text: An electric mixer can reach ribbon stage faster than hand whisking, but the endpoint remains visual. A
+        speed setting or a timer alone does not confirm that the egg mixture has enough volume and body.
+      sources:
+        - b5-ribbon
       review_version: 0.1
   resources:
     - resource: ka-mixers
@@ -6977,9 +7071,17 @@
       review_version: 0.1
     - id: judgement
       role: judgement
-      text: Use heat suited to the ingredient. Chocolate needs gentle, controlled heating; stray water can make plain melting chocolate seize into lumps.
+      text: Use heat suited to the ingredient. Chocolate needs gentle, controlled heating; stray water can make
+        plain melting chocolate seize into lumps.
       sources:
         - kab-melt-chocolate
+      review_version: 0.1
+    - id: batch-5-distinction
+      role: context
+      text: Melting butter changes its physical state; mounting a sauce with butter also disperses it into another
+        liquid. A pool of melted butter is therefore not proof that the finishing emulsion has formed.
+      sources:
+        - b5-mount
       review_version: 0.1
   resources:
     - resource: kab-melt-chocolate
@@ -7103,7 +7205,8 @@
   editorial:
     - id: summary
       role: summary
-      text: Butterflying is cutting a thick piece of food almost through and opening it out while leaving a connecting hinge.
+      text: Butterflying is cutting a thick piece of food almost through and opening it out while leaving a
+        connecting hinge.
       sources:
         - goodfood-butterfly
       review_version: 0.1
@@ -7115,9 +7218,17 @@
       review_version: 0.1
     - id: mechanism
       role: mechanism
-      text: Slice horizontally from the thick side without severing the opposite edge, then open the two halves. Use a stable board and keep the supporting hand clear of the blade.
+      text: Slice horizontally from the thick side without severing the opposite edge, then open the two halves. Use
+        a stable board and keep the supporting hand clear of the blade.
       sources:
         - goodfood-butterfly
+      review_version: 0.1
+    - id: batch-5-distinction
+      role: context
+      text: Removing a prawn’s intestinal tract does not by itself butterfly the flesh. Treat deveining as a
+        separate preparation decision rather than silently inferring a wider opening cut.
+      sources:
+        - b5-devein
       review_version: 0.1
   resources:
     - resource: goodfood-butterfly
@@ -7382,7 +7493,8 @@
   editorial:
     - id: summary
       role: summary
-      text: An autolyse is a rest after mixing flour and water, before the remaining bread ingredients and further mixing are added.
+      text: An autolyse is a rest after mixing flour and water, before the remaining bread ingredients and further
+        mixing are added.
       sources:
         - kab-autolyse
       review_version: 0.1
@@ -7394,21 +7506,32 @@
       review_version: 0.1
     - id: mechanism
       role: mechanism
-      text: Water hydrates flour proteins while naturally present enzymes act on the mixture. This changes handling before active kneading begins.
+      text: Water hydrates flour proteins while naturally present enzymes act on the mixture. This changes handling
+        before active kneading begins.
       sources:
         - kab-autolyse
       review_version: 0.1
     - id: context
       role: context
-      text: Strictly, the rest contains flour and water only. Some recipes include a liquid starter because its water is needed to wet the flour; follow the particular formula rather than assuming all rests are identical.
+      text: Strictly, the rest contains flour and water only. Some recipes include a liquid starter because its
+        water is needed to wet the flour; follow the particular formula rather than assuming all rests are
+        identical.
       sources:
         - kab-autolyse
       review_version: 0.1
     - id: judgement
       role: judgement
-      text: The useful duration depends on the flour and formula. More resting is not automatically better, and adding a stiff starter afterwards can take extra work to distribute it evenly.
+      text: The useful duration depends on the flour and formula. More resting is not automatically better, and
+        adding a stiff starter afterwards can take extra work to distribute it evenly.
       sources:
         - kab-autolyse
+      review_version: 0.1
+    - id: batch-5-distinction
+      role: context
+      text: A tangzhong or yudane paste is prepared with heat before entering the dough. This is distinct from an
+        autolyse rest; resting flour and water alone does not reproduce the cooked paste.
+      sources:
+        - b5-tangzhong
       review_version: 0.1
   resources:
     - resource: kab-autolyse
@@ -7975,6 +8098,13 @@
         edges help retain moisture; laying a loose sheet over food does not reproduce the same enclosure.
       sources:
         - b4-papillote
+      review_version: 0.1
+    - id: batch-5-distinction
+      role: context
+      text: When blind-baking, a paper liner separates pastry from loose weights and helps lift the weights out. The
+        liner itself supplies little support; the weight and its distribution perform that job.
+      sources:
+        - b5-weights
       review_version: 0.1
   resources:
     - resource: kab-parchment
@@ -15190,6 +15320,13 @@
       sources: &a1
         - landolakes-equipment
       review_version: 0.1
+    - id: batch-5-distinction
+      role: context
+      text: The bag holds the mixture; a fitted tip shapes its exit. Changing the tip changes the pattern without
+        changing the bag.
+      sources:
+        - b3-ateco
+      review_version: 0.1
   resources:
     - resource: landolakes-equipment
       role: introduction
@@ -15815,6 +15952,13 @@
       sources:
         - b4-egg-detail
       review_version: 0.1
+    - id: batch-5-distinction
+      role: context
+      text: Separating raw white from yolk and slicing a cooked egg are different operations. An egg slicer portions
+        the whole cooked egg; it does not replace a separator in preparing a raw egg mixture.
+      sources:
+        - b5-egg
+      review_version: 0.1
   resources:
     - resource: b4-egg-detail
       role: introduction
@@ -15829,6 +15973,13 @@
       role: summary
       text: Insert strips of fat into a piece of meat, often with a larding needle. This puts fat within the meat
         rather than covering its outside with a sheet of fat.
+      sources:
+        - b4-lard
+      review_version: 0.1
+    - id: batch-5-distinction
+      role: context
+      text: A larding needle carries strips of fat into the meat. This is an insertion tool, not a thread-carrying
+        trussing needle; using a pointed utensil does not make the two preparations equivalent.
       sources:
         - b4-lard
       review_version: 0.1
@@ -16027,4 +16178,538 @@
         after filleting, not a synonym for removing every bone from any animal.
       sources:
         - b4-pinbone
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: larding-needle
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A tool for drawing strips of fat into meat during larding. Its purpose differs from a trussing needle,
+        which carries thread to fasten a shape; neither is a generic synonym for every kitchen needle.
+      sources:
+        - b4-lard
+      review_version: 0.1
+  resources:
+    - resource: b4-lard
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: used-for
+      target:
+        kind: process
+        id: lard
+      note: A tool for drawing strips of fat into meat during larding. Its purpose differs from a trussing needle,
+        which carries thread to fasten a shape; neither is a generic synonym for every kitchen needle.
+      sources:
+        - b4-lard
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: fish-bone-tongs
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Gripping tongs designed to extract individual bones from fish flesh. The gripping edges grasp the bone
+        rather than cut a fillet away from the skeleton. Shape and size vary; ordinary serving tongs are not
+        necessarily suitable.
+      sources:
+        - b5-fish-tongs
+      review_version: 0.1
+  resources:
+    - resource: b5-fish-tongs
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: used-for
+      target:
+        kind: process
+        id: pin-bone
+      note: Gripping tongs designed to extract individual bones from fish flesh. The gripping edges grasp the bone
+        rather than cut a fillet away from the skeleton. Shape and size vary; ordinary serving tongs are not
+        necessarily suitable.
+      sources:
+        - b5-fish-tongs
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: oyster-knife
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A short, sturdy knife designed to open oyster shells. Its blade works at the shell joint rather than
+        slicing a piece of food; the specialised construction should not be inferred from the word knife
+        alone.
+      sources:
+        - b5-oyster-knife
+      review_version: 0.1
+  resources:
+    - resource: b5-oyster-knife
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: used-for
+      target:
+        kind: process
+        id: shuck-oysters
+      note: A short, sturdy knife designed to open oyster shells. Its blade works at the shell joint rather than
+        slicing a piece of food; the specialised construction should not be inferred from the word knife
+        alone.
+      sources:
+        - b5-oyster-knife
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: cherry-pitter
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A tool that holds a cherry while a plunger pushes out its stone. Some designs also accommodate olives,
+        but that capability does not make every fruit pitter interchangeable or establish an unrestricted
+        olive-pitter alias.
+      sources:
+        - b5-cherry
+      review_version: 0.1
+  resources:
+    - resource: b5-cherry
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: fat-separator
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A vessel that lets fat rise above cooking juices and dispenses the liquid beneath it. A lower outlet or
+        suitable spout separates the layers; a top strainer removes solids, which is a different task from
+        separating fat.
+      sources:
+        - b5-fat
+      review_version: 0.1
+  resources:
+    - resource: b5-fat
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: bulb-baster
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A tube with a squeezable bulb for drawing up cooking juices and releasing them over food. It transfers
+        liquid onto the surface; it is not a syringe for injecting liquid into the interior.
+      sources:
+        - b5-baster
+      review_version: 0.1
+  resources:
+    - resource: b5-baster
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: egg-slicer
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A hinged slicer with a holder for an egg and a set of parallel cutting wires. It portions a cooked egg
+        into slices; it does not separate raw egg white from yolk. Slice thickness depends on the tool.
+      sources:
+        - b5-egg
+      review_version: 0.1
+  resources:
+    - resource: b5-egg
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: equipment
+        id: egg-separator
+      note: A hinged slicer with a holder for an egg and a set of parallel cutting wires. It portions a cooked egg
+        into slices; it does not separate raw egg white from yolk. Slice thickness depends on the tool.
+      sources:
+        - b5-egg
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: julienne-peeler
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A hand tool with a divided cutting edge that draws narrow strips from vegetables. It produces strips
+        rather than a broad peel; their dimensions depend on the blade, so the tool name does not promise a
+        particular classical knife-cut size.
+      sources:
+        - b5-julienne
+      review_version: 0.1
+  resources:
+    - resource: b5-julienne
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: used-for
+      target:
+        kind: process
+        id: julienne
+      note: A hand tool with a divided cutting edge that draws narrow strips from vegetables. It produces strips
+        rather than a broad peel; their dimensions depend on the blade, so the tool name does not promise a
+        particular classical knife-cut size.
+      sources:
+        - b5-julienne
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: piping-tip
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A shaped outlet fitted to a piping bag. Round, star and other openings shape the material leaving the
+        bag; the tip is distinct from the bag itself.
+      sources:
+        - b3-ateco
+      review_version: 0.1
+  resources:
+    - resource: b3-ateco
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: commonly-used-with
+      target:
+        kind: equipment
+        id: piping-bag
+      note: A shaped outlet fitted to a piping bag. Round, star and other openings shape the material leaving the
+        bag; the tip is distinct from the bag itself.
+      sources:
+        - b3-ateco
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: cake-turntable
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A rotating platform that supports a cake during decoration. Rotation brings successive surfaces within
+        reach without repeatedly lifting the cake.
+      sources:
+        - b3-ateco
+      review_version: 0.1
+  resources:
+    - resource: b3-ateco
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: tart-ring
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: An open-bottomed frame supporting the sides of a tart or assembled pastry. It needs a separate
+        supporting surface beneath it; it is not a pie dish with an integral base. Ring dimensions and shapes
+        vary.
+      sources:
+        - b5-ring
+      review_version: 0.1
+  resources:
+    - resource: b5-ring
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: equipment
+        id: pie-dish
+      note: An open-bottomed frame supporting the sides of a tart or assembled pastry. It needs a separate
+        supporting surface beneath it; it is not a pie dish with an integral base. Ring dimensions and shapes
+        vary.
+      sources:
+        - b5-ring
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: pie-weights
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: "Weights placed over a liner in an unfilled pastry case during baking. They support the base and sides
+        against puffing or slumping. Coverage matters: weighing down only the centre does not necessarily
+        support the walls."
+      sources:
+        - b5-weights
+      review_version: 0.1
+  resources:
+    - resource: b5-weights
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: used-for
+      target:
+        kind: process
+        id: blind-bake
+      note: "Weights placed over a liner in an unfilled pastry case during baking. They support the base and sides
+        against puffing or slumping. Coverage matters: weighing down only the centre does not necessarily
+        support the walls."
+      sources:
+        - b5-weights
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: silicone-baking-mat
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A reusable silicone baking liner laid on a tray. It is distinct from a pastry cloth used for rolling
+        dough and from disposable baking paper.
+      sources:
+        - b3-ateco
+      review_version: 0.1
+  resources:
+    - resource: b3-ateco
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: pastry-cloth
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A fabric work surface for rolling pastry or dough. A matching rolling-pin cover is a separate piece; the
+        cloth is not an oven liner.
+      sources:
+        - b3-ateco
+      review_version: 0.1
+  resources:
+    - resource: b3-ateco
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: cannoli-form
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A cylindrical form supporting a cannoli shell during shaping and cooking. The removable form establishes
+        the hollow centre; it is not part of the finished food.
+      sources:
+        - b3-ateco
+      review_version: 0.1
+  resources:
+    - resource: b3-ateco
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: fraisage
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Smear portions of pastry dough against the work surface with the heel of the hand to combine its
+        ingredients, then gather them together. This short blending operation differs from prolonged bread
+        kneading aimed at developing elasticity.
+      sources:
+        - b5-fraisage
+      review_version: 0.1
+  resources:
+    - resource: b5-fraisage
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: process
+        id: knead
+      note: Smear portions of pastry dough against the work surface with the heel of the hand to combine its
+        ingredients, then gather them together. This short blending operation differs from prolonged bread
+        kneading aimed at developing elasticity.
+      sources:
+        - b5-fraisage
+      review_version: 0.1
+- target:
+    kind: process
+    id: make-roux
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Cook flour with fat to prepare a base for thickening a sauce or soup. The chosen colour affects flavour
+        and thickening strength. This is different from adding a raw flour slurry or finishing a sauce by
+        emulsifying butter into it.
+      sources:
+        - b5-roux
+      review_version: 0.1
+  resources:
+    - resource: b5-roux
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: process
+        id: mount-with-butter
+      note: Cook flour with fat to prepare a base for thickening a sauce or soup. The chosen colour affects flavour
+        and thickening strength. This is different from adding a raw flour slurry or finishing a sauce by
+        emulsifying butter into it.
+      sources:
+        - b5-roux
+      review_version: 0.1
+- target:
+    kind: process
+    id: mount-with-butter
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Incorporate pieces of butter into a sauce to form a smooth emulsion as a finishing step. It differs from
+        cooking flour in fat for a roux or simply melting butter on its own; excessive heat can separate the
+        finished emulsion.
+      sources:
+        - b5-mount
+      review_version: 0.1
+  resources:
+    - resource: b5-mount
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: devein-prawns
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Remove the intestinal tract from a prawn along its back. This preparation is distinct from removing its
+        shell or butterflying the flesh, even when those operations occur in the same sequence.
+      sources:
+        - b5-devein
+      review_version: 0.1
+  resources:
+    - resource: b5-devein
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: shuck-oysters
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Open an oyster shell and release the flesh from its attachment using an oyster knife. This is a
+        preparation operation, not cooking or a guarantee that an oyster is safe to eat raw. The scoped name
+        avoids conflating it with husking corn.
+      sources:
+        - b5-shuck
+      review_version: 0.1
+  resources:
+    - resource: b5-shuck
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: make-tangzhong
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Cook a portion of a bread recipe’s flour and liquid together into a paste before incorporating it into
+        the dough. This pre-gelatinises starch; it differs from making yudane by pouring boiling water over
+        flour. Neither method is a fermented starter.
+      sources:
+        - b5-tangzhong
+      review_version: 0.1
+  resources:
+    - resource: b5-tangzhong
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: process
+        id: make-yudane
+      note: Cook a portion of a bread recipe’s flour and liquid together into a paste before incorporating it into
+        the dough. This pre-gelatinises starch; it differs from making yudane by pouring boiling water over
+        flour. Neither method is a fermented starter.
+      sources:
+        - b5-tangzhong
+      review_version: 0.1
+- target:
+    kind: process
+    id: make-yudane
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Scald a portion of flour with boiling water to prepare an addition to bread dough. Unlike tangzhong,
+        this method uses the poured hot water rather than cooking a flour-liquid mixture together in a pan.
+        Recipe proportions remain important; the two pastes are not automatic one-for-one substitutes.
+      sources:
+        - b5-tangzhong
+      review_version: 0.1
+  resources:
+    - resource: b5-tangzhong
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: beat-to-ribbon
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Beat an egg mixture, commonly eggs and sugar, until it becomes pale and voluminous and falls from the
+        whisk in trails that briefly remain visible. This observable endpoint differs from stiff peaks in egg
+        whites; elapsed beating time alone does not establish it.
+      sources:
+        - b5-ribbon
+      review_version: 0.1
+  resources:
+    - resource: b5-ribbon
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: commonly-used-with
+      target:
+        kind: equipment
+        id: whisk
+      note: Beat an egg mixture, commonly eggs and sugar, until it becomes pale and voluminous and falls from the
+        whisk in trails that briefly remain visible. This observable endpoint differs from stiff peaks in egg
+        whites; elapsed beating time alone does not establish it.
+      sources:
+        - b5-ribbon
       review_version: 0.1

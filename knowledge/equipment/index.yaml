@@ -3,7 +3,7 @@ schema_version: '0.3'
 status: draft8-vocabulary-review-pass-1
 current_recipe_count: 410
 legacy_evidence: bbc-food-10 vocabulary observations retained; recipe texts not distributed
-canonical_concept_count: 210
+canonical_concept_count: 225
 entries:
 - id: air-fryer
   canonical_name: air fryer
@@ -844,4 +844,64 @@ entries:
 - id: egg-separator
   canonical_name: egg separator
   file: egg-separator.yaml
+  aliases: 0
+- id: larding-needle
+  canonical_name: larding needle
+  file: larding-needle.yaml
+  aliases: 0
+- id: fish-bone-tongs
+  canonical_name: fish bone tongs
+  file: fish-bone-tongs.yaml
+  aliases: 0
+- id: oyster-knife
+  canonical_name: oyster knife
+  file: oyster-knife.yaml
+  aliases: 0
+- id: cherry-pitter
+  canonical_name: cherry pitter
+  file: cherry-pitter.yaml
+  aliases: 0
+- id: fat-separator
+  canonical_name: fat separator
+  file: fat-separator.yaml
+  aliases: 0
+- id: bulb-baster
+  canonical_name: bulb baster
+  file: bulb-baster.yaml
+  aliases: 0
+- id: egg-slicer
+  canonical_name: egg slicer
+  file: egg-slicer.yaml
+  aliases: 0
+- id: julienne-peeler
+  canonical_name: julienne peeler
+  file: julienne-peeler.yaml
+  aliases: 0
+- id: piping-tip
+  canonical_name: piping tip
+  file: piping-tip.yaml
+  aliases: 1
+- id: cake-turntable
+  canonical_name: cake turntable
+  file: cake-turntable.yaml
+  aliases: 1
+- id: tart-ring
+  canonical_name: tart ring
+  file: tart-ring.yaml
+  aliases: 0
+- id: pie-weights
+  canonical_name: pie weights
+  file: pie-weights.yaml
+  aliases: 0
+- id: silicone-baking-mat
+  canonical_name: silicone baking mat
+  file: silicone-baking-mat.yaml
+  aliases: 0
+- id: pastry-cloth
+  canonical_name: pastry cloth
+  file: pastry-cloth.yaml
+  aliases: 0
+- id: cannoli-form
+  canonical_name: cannoli form
+  file: cannoli-form.yaml
   aliases: 0

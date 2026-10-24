@@ -1,0 +1,16 @@
+id: pastry-cloth
+kind: equipment
+canonical_name: pastry cloth
+names:
+  en: pastry cloth
+aliases: []
+categories:
+  - preparation-tools
+type_of: cloth
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  definition: A fabric work surface for rolling pastry or dough. A matching rolling-pin cover is a separate
+    piece; the cloth is not an oven liner.
+  review_note: Batch 5 researched draft. Identity boundaries are editorial decisions; no human review claimed.

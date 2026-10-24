@@ -1,0 +1,16 @@
+id: fraisage
+kind: process
+canonical_name: fraisage
+names:
+  en: fraisage
+aliases: []
+categories:
+  - baking-and-pastry
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  definition: Smear portions of pastry dough against the work surface with the heel of the hand to combine its
+    ingredients, then gather them together. This short blending operation differs from prolonged bread
+    kneading aimed at developing elasticity.
+  review_note: Batch 5 researched draft. Identity boundaries are editorial decisions; no human review claimed.

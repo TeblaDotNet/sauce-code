@@ -1,0 +1,16 @@
+id: beat-to-ribbon
+kind: process
+canonical_name: beat to ribbon
+names:
+  en: beat to ribbon
+aliases: []
+categories:
+  - mixing-and-emulsifying
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  definition: Beat an egg mixture, commonly eggs and sugar, until it becomes pale and voluminous and falls from
+    the whisk in trails that briefly remain visible. This observable endpoint differs from stiff peaks in egg
+    whites; elapsed beating time alone does not establish it.
+  review_note: Batch 5 researched draft. Identity boundaries are editorial decisions; no human review claimed.

@@ -1,0 +1,16 @@
+id: tart-ring
+kind: equipment
+canonical_name: tart ring
+names:
+  en: tart ring
+aliases: []
+categories:
+  - bakeware
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  definition: An open-bottomed frame supporting the sides of a tart or assembled pastry. It needs a separate
+    supporting surface beneath it; it is not a pie dish with an integral base. Ring dimensions and shapes
+    vary.
+  review_note: Batch 5 researched draft. Identity boundaries are editorial decisions; no human review claimed.

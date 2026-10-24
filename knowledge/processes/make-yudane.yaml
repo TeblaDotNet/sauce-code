@@ -1,0 +1,16 @@
+id: make-yudane
+kind: process
+canonical_name: make yudane
+names:
+  en: make yudane
+aliases: []
+categories:
+  - baking-and-pastry
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  definition: Scald a portion of flour with boiling water to prepare an addition to bread dough. Unlike
+    tangzhong, this method uses the poured hot water rather than cooking a flour-liquid mixture together in a
+    pan. Recipe proportions remain important; the two pastes are not automatic one-for-one substitutes.
+  review_note: Batch 5 researched draft. Identity boundaries are editorial decisions; no human review claimed.

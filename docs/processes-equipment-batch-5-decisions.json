@@ -1,0 +1,761 @@
+{
+  "status": "Generated research; human review outstanding",
+  "additions": [
+    {
+      "kind": "equipment",
+      "id": "larding-needle",
+      "definition": "A tool for drawing strips of fat into meat during larding. Its purpose differs from a trussing needle, which carries thread to fasten a shape; neither is a generic synonym for every kitchen needle.",
+      "aliases": [],
+      "categories": [
+        "preparation-tools"
+      ],
+      "sources": [
+        "b4-lard"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "equipment",
+      "id": "fish-bone-tongs",
+      "definition": "Gripping tongs designed to extract individual bones from fish flesh. The gripping edges grasp the bone rather than cut a fillet away from the skeleton. Shape and size vary; ordinary serving tongs are not necessarily suitable.",
+      "aliases": [],
+      "categories": [
+        "preparation-tools"
+      ],
+      "sources": [
+        "b5-fish-tongs"
+      ],
+      "type_of": "tongs",
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "equipment",
+      "id": "oyster-knife",
+      "definition": "A short, sturdy knife designed to open oyster shells. Its blade works at the shell joint rather than slicing a piece of food; the specialised construction should not be inferred from the word knife alone.",
+      "aliases": [],
+      "categories": [
+        "knives-and-cutting"
+      ],
+      "sources": [
+        "b5-oyster-knife"
+      ],
+      "type_of": "knife",
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "equipment",
+      "id": "cherry-pitter",
+      "definition": "A tool that holds a cherry while a plunger pushes out its stone. Some designs also accommodate olives, but that capability does not make every fruit pitter interchangeable or establish an unrestricted olive-pitter alias.",
+      "aliases": [],
+      "categories": [
+        "preparation-tools"
+      ],
+      "sources": [
+        "b5-cherry"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "equipment",
+      "id": "fat-separator",
+      "definition": "A vessel that lets fat rise above cooking juices and dispenses the liquid beneath it. A lower outlet or suitable spout separates the layers; a top strainer removes solids, which is a different task from separating fat.",
+      "aliases": [],
+      "categories": [
+        "preparation-tools"
+      ],
+      "sources": [
+        "b5-fat"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "equipment",
+      "id": "bulb-baster",
+      "definition": "A tube with a squeezable bulb for drawing up cooking juices and releasing them over food. It transfers liquid onto the surface; it is not a syringe for injecting liquid into the interior.",
+      "aliases": [],
+      "categories": [
+        "preparation-tools"
+      ],
+      "sources": [
+        "b5-baster"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "equipment",
+      "id": "egg-slicer",
+      "definition": "A hinged slicer with a holder for an egg and a set of parallel cutting wires. It portions a cooked egg into slices; it does not separate raw egg white from yolk. Slice thickness depends on the tool.",
+      "aliases": [],
+      "categories": [
+        "knives-and-cutting"
+      ],
+      "sources": [
+        "b5-egg"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "equipment",
+      "id": "julienne-peeler",
+      "definition": "A hand tool with a divided cutting edge that draws narrow strips from vegetables. It produces strips rather than a broad peel; their dimensions depend on the blade, so the tool name does not promise a particular classical knife-cut size.",
+      "aliases": [],
+      "categories": [
+        "knives-and-cutting"
+      ],
+      "sources": [
+        "b5-julienne"
+      ],
+      "type_of": "vegetable-peeler",
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "equipment",
+      "id": "piping-tip",
+      "definition": "A shaped outlet fitted to a piping bag. Round, star and other openings shape the material leaving the bag; the tip is distinct from the bag itself.",
+      "aliases": [
+        "piping nozzle"
+      ],
+      "categories": [
+        "preparation-tools"
+      ],
+      "sources": [
+        "b3-ateco"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "equipment",
+      "id": "cake-turntable",
+      "definition": "A rotating platform that supports a cake during decoration. Rotation brings successive surfaces within reach without repeatedly lifting the cake.",
+      "aliases": [
+        "revolving cake stand"
+      ],
+      "categories": [
+        "preparation-tools"
+      ],
+      "sources": [
+        "b3-ateco"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "equipment",
+      "id": "tart-ring",
+      "definition": "An open-bottomed frame supporting the sides of a tart or assembled pastry. It needs a separate supporting surface beneath it; it is not a pie dish with an integral base. Ring dimensions and shapes vary.",
+      "aliases": [],
+      "categories": [
+        "bakeware"
+      ],
+      "sources": [
+        "b5-ring"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "equipment",
+      "id": "pie-weights",
+      "definition": "Weights placed over a liner in an unfilled pastry case during baking. They support the base and sides against puffing or slumping. Coverage matters: weighing down only the centre does not necessarily support the walls.",
+      "aliases": [],
+      "categories": [
+        "bakeware"
+      ],
+      "sources": [
+        "b5-weights"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "equipment",
+      "id": "silicone-baking-mat",
+      "definition": "A reusable silicone baking liner laid on a tray. It is distinct from a pastry cloth used for rolling dough and from disposable baking paper.",
+      "aliases": [],
+      "categories": [
+        "bakeware"
+      ],
+      "sources": [
+        "b3-ateco"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "equipment",
+      "id": "pastry-cloth",
+      "definition": "A fabric work surface for rolling pastry or dough. A matching rolling-pin cover is a separate piece; the cloth is not an oven liner.",
+      "aliases": [],
+      "categories": [
+        "preparation-tools"
+      ],
+      "sources": [
+        "b3-ateco"
+      ],
+      "type_of": "cloth",
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "equipment",
+      "id": "cannoli-form",
+      "definition": "A cylindrical form supporting a cannoli shell during shaping and cooking. The removable form establishes the hollow centre; it is not part of the finished food.",
+      "aliases": [],
+      "categories": [
+        "preparation-tools"
+      ],
+      "sources": [
+        "b3-ateco"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "process",
+      "id": "fraisage",
+      "definition": "Smear portions of pastry dough against the work surface with the heel of the hand to combine its ingredients, then gather them together. This short blending operation differs from prolonged bread kneading aimed at developing elasticity.",
+      "aliases": [],
+      "categories": [
+        "baking-and-pastry"
+      ],
+      "sources": [
+        "b5-fraisage"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "process",
+      "id": "make-roux",
+      "definition": "Cook flour with fat to prepare a base for thickening a sauce or soup. The chosen colour affects flavour and thickening strength. This is different from adding a raw flour slurry or finishing a sauce by emulsifying butter into it.",
+      "aliases": [],
+      "categories": [
+        "general-cooking"
+      ],
+      "sources": [
+        "b5-roux"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "process",
+      "id": "mount-with-butter",
+      "definition": "Incorporate pieces of butter into a sauce to form a smooth emulsion as a finishing step. It differs from cooking flour in fat for a roux or simply melting butter on its own; excessive heat can separate the finished emulsion.",
+      "aliases": [
+        "monter au beurre"
+      ],
+      "categories": [
+        "mixing-and-emulsifying"
+      ],
+      "sources": [
+        "b5-mount"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "process",
+      "id": "devein-prawns",
+      "definition": "Remove the intestinal tract from a prawn along its back. This preparation is distinct from removing its shell or butterflying the flesh, even when those operations occur in the same sequence.",
+      "aliases": [],
+      "categories": [
+        "preparation-and-cutting"
+      ],
+      "sources": [
+        "b5-devein"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "process",
+      "id": "shuck-oysters",
+      "definition": "Open an oyster shell and release the flesh from its attachment using an oyster knife. This is a preparation operation, not cooking or a guarantee that an oyster is safe to eat raw. The scoped name avoids conflating it with husking corn.",
+      "aliases": [],
+      "categories": [
+        "preparation-and-cutting"
+      ],
+      "sources": [
+        "b5-shuck"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "process",
+      "id": "make-tangzhong",
+      "definition": "Cook a portion of a bread recipe’s flour and liquid together into a paste before incorporating it into the dough. This pre-gelatinises starch; it differs from making yudane by pouring boiling water over flour. Neither method is a fermented starter.",
+      "aliases": [],
+      "categories": [
+        "baking-and-pastry"
+      ],
+      "sources": [
+        "b5-tangzhong"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "process",
+      "id": "make-yudane",
+      "definition": "Scald a portion of flour with boiling water to prepare an addition to bread dough. Unlike tangzhong, this method uses the poured hot water rather than cooking a flour-liquid mixture together in a pan. Recipe proportions remain important; the two pastes are not automatic one-for-one substitutes.",
+      "aliases": [],
+      "categories": [
+        "baking-and-pastry"
+      ],
+      "sources": [
+        "b5-tangzhong"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    },
+    {
+      "kind": "process",
+      "id": "beat-to-ribbon",
+      "definition": "Beat an egg mixture, commonly eggs and sugar, until it becomes pale and voluminous and falls from the whisk in trails that briefly remain visible. This observable endpoint differs from stiff peaks in egg whites; elapsed beating time alone does not establish it.",
+      "aliases": [],
+      "categories": [
+        "mixing-and-emulsifying"
+      ],
+      "sources": [
+        "b5-ribbon"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "No universal operating limits, substitution guarantees or broader aliases inferred."
+    }
+  ],
+  "improvements": [
+    {
+      "kind": "equipment",
+      "id": "piping-bag",
+      "added": "The bag holds the mixture; a fitted tip shapes its exit. Changing the tip changes the pattern without changing the bag.",
+      "sources": [
+        "b3-ateco"
+      ],
+      "review": "existing draft improved; review_version 0.1",
+      "uncertainties": "Editorial synthesis, not operational or safety certification."
+    },
+    {
+      "kind": "equipment",
+      "id": "baking-paper",
+      "added": "When blind-baking, a paper liner separates pastry from loose weights and helps lift the weights out. The liner itself supplies little support; the weight and its distribution perform that job.",
+      "sources": [
+        "b5-weights"
+      ],
+      "review": "existing draft improved; review_version 0.1",
+      "uncertainties": "Editorial synthesis, not operational or safety certification."
+    },
+    {
+      "kind": "equipment",
+      "id": "pie-dish",
+      "added": "A tart ring supplies side support without a base. A pie dish supports both base and sides, so replacing it with a ring also requires a suitable surface beneath the pastry.",
+      "sources": [
+        "b5-ring"
+      ],
+      "review": "existing draft improved; review_version 0.1",
+      "uncertainties": "Editorial synthesis, not operational or safety certification."
+    },
+    {
+      "kind": "equipment",
+      "id": "vegetable-peeler",
+      "added": "A julienne blade divides the removed layer into narrow strips. A plain peeling blade removes a broader ribbon; the same hand motion does not make the resulting cuts equivalent.",
+      "sources": [
+        "b5-julienne"
+      ],
+      "review": "existing draft improved; review_version 0.1",
+      "uncertainties": "Editorial synthesis, not operational or safety certification."
+    },
+    {
+      "kind": "equipment",
+      "id": "tongs",
+      "added": "Fish-bone tongs use gripping edges to hold individual bones. Serving tongs are designed around holding larger pieces of food, so a generic tongs reference does not establish the precision needed for bone removal.",
+      "sources": [
+        "b5-fish-tongs"
+      ],
+      "review": "existing draft improved; review_version 0.1",
+      "uncertainties": "Editorial synthesis, not operational or safety certification."
+    },
+    {
+      "kind": "equipment",
+      "id": "knife",
+      "added": "An oyster knife opens a shell joint under leverage. A thin slicing blade is a different tool; the shared label knife should not be read as approval to use any knife for shucking.",
+      "sources": [
+        "b5-shuck"
+      ],
+      "review": "existing draft improved; review_version 0.1",
+      "uncertainties": "Editorial synthesis, not operational or safety certification."
+    },
+    {
+      "kind": "equipment",
+      "id": "egg-separator",
+      "added": "Separating raw white from yolk and slicing a cooked egg are different operations. An egg slicer portions the whole cooked egg; it does not replace a separator in preparing a raw egg mixture.",
+      "sources": [
+        "b5-egg"
+      ],
+      "review": "existing draft improved; review_version 0.1",
+      "uncertainties": "Editorial synthesis, not operational or safety certification."
+    },
+    {
+      "kind": "equipment",
+      "id": "ladle",
+      "added": "Ladling fat from the surface and dispensing liquid from beneath a settled fat layer approach separation from opposite sides. A fat separator is designed for the latter; an ordinary ladle does not provide its lower outlet.",
+      "sources": [
+        "b5-fat"
+      ],
+      "review": "existing draft improved; review_version 0.1",
+      "uncertainties": "Editorial synthesis, not operational or safety certification."
+    },
+    {
+      "kind": "equipment",
+      "id": "whisk",
+      "added": "The ribbon test observes mixture falling from a lifted whisk and briefly marking the surface. It describes the mixture’s condition, rather than a particular whisk design or a fixed number of strokes.",
+      "sources": [
+        "b5-ribbon"
+      ],
+      "review": "existing draft improved; review_version 0.1",
+      "uncertainties": "Editorial synthesis, not operational or safety certification."
+    },
+    {
+      "kind": "equipment",
+      "id": "hand-mixer",
+      "added": "An electric mixer can reach ribbon stage faster than hand whisking, but the endpoint remains visual. A speed setting or a timer alone does not confirm that the egg mixture has enough volume and body.",
+      "sources": [
+        "b5-ribbon"
+      ],
+      "review": "existing draft improved; review_version 0.1",
+      "uncertainties": "Editorial synthesis, not operational or safety certification."
+    },
+    {
+      "kind": "process",
+      "id": "knead",
+      "added": "Fraisage briefly smears pastry to bring its ingredients together. It should not be treated as a request for the sustained kneading used to develop a bread dough’s elasticity.",
+      "sources": [
+        "b5-fraisage"
+      ],
+      "review": "existing draft improved; review_version 0.1",
+      "uncertainties": "Editorial synthesis, not operational or safety certification."
+    },
+    {
+      "kind": "process",
+      "id": "emulsify",
+      "added": "Mounting a sauce with butter is one finishing application of emulsification. It incorporates butter into the liquid rather than using flour to bind it, and the resulting sauce can separate if its emulsion is disrupted.",
+      "sources": [
+        "b5-mount"
+      ],
+      "review": "existing draft improved; review_version 0.1",
+      "uncertainties": "Editorial synthesis, not operational or safety certification."
+    },
+    {
+      "kind": "process",
+      "id": "reduce",
+      "added": "A roux thickens through cooked flour, whereas reduction concentrates liquid by evaporation. Choosing one does not silently authorise the other: reducing a sauce also changes its concentration.",
+      "sources": [
+        "b5-roux"
+      ],
+      "review": "existing draft improved; review_version 0.1",
+      "uncertainties": "Editorial synthesis, not operational or safety certification."
+    },
+    {
+      "kind": "process",
+      "id": "melt",
+      "added": "Melting butter changes its physical state; mounting a sauce with butter also disperses it into another liquid. A pool of melted butter is therefore not proof that the finishing emulsion has formed.",
+      "sources": [
+        "b5-mount"
+      ],
+      "review": "existing draft improved; review_version 0.1",
+      "uncertainties": "Editorial synthesis, not operational or safety certification."
+    },
+    {
+      "kind": "process",
+      "id": "butterfly",
+      "added": "Removing a prawn’s intestinal tract does not by itself butterfly the flesh. Treat deveining as a separate preparation decision rather than silently inferring a wider opening cut.",
+      "sources": [
+        "b5-devein"
+      ],
+      "review": "existing draft improved; review_version 0.1",
+      "uncertainties": "Editorial synthesis, not operational or safety certification."
+    },
+    {
+      "kind": "process",
+      "id": "peel",
+      "added": "For prawns, removing the shell and removing the intestinal tract address different structures. A peeled prawn is not necessarily already deveined.",
+      "sources": [
+        "b5-devein"
+      ],
+      "review": "existing draft improved; review_version 0.1",
+      "uncertainties": "Editorial synthesis, not operational or safety certification."
+    },
+    {
+      "kind": "process",
+      "id": "blind-bake",
+      "added": "Weights need to support the pastry sides as well as restrain the base. A small pile in the middle can leave the walls free to slump; docking and weighting perform different jobs.",
+      "sources": [
+        "b5-weights"
+      ],
+      "review": "existing draft improved; review_version 0.1",
+      "uncertainties": "Editorial synthesis, not operational or safety certification."
+    },
+    {
+      "kind": "process",
+      "id": "whip",
+      "added": "Ribbon stage describes an egg mixture falling in trails that linger briefly on its surface. It is not the same visual test as peaks formed by whipped whites or cream.",
+      "sources": [
+        "b5-ribbon"
+      ],
+      "review": "existing draft improved; review_version 0.1",
+      "uncertainties": "Editorial synthesis, not operational or safety certification."
+    },
+    {
+      "kind": "process",
+      "id": "autolyse",
+      "added": "A tangzhong or yudane paste is prepared with heat before entering the dough. This is distinct from an autolyse rest; resting flour and water alone does not reproduce the cooked paste.",
+      "sources": [
+        "b5-tangzhong"
+      ],
+      "review": "existing draft improved; review_version 0.1",
+      "uncertainties": "Editorial synthesis, not operational or safety certification."
+    },
+    {
+      "kind": "process",
+      "id": "lard",
+      "added": "A larding needle carries strips of fat into the meat. This is an insertion tool, not a thread-carrying trussing needle; using a pointed utensil does not make the two preparations equivalent.",
+      "sources": [
+        "b4-lard"
+      ],
+      "review": "existing draft improved; review_version 0.1",
+      "uncertainties": "Editorial synthesis, not operational or safety certification."
+    }
+  ],
+  "sources": [
+    {
+      "id": "b5-fish-tongs",
+      "title": "Triangle Flat Edge Fish Bone Tongs",
+      "url": "https://matferbourgeatusa.com/product/triangle-flat-edge-fish-bone-tongs/",
+      "publisher": "Matfer Bourgeat"
+    },
+    {
+      "id": "b5-oyster-knife",
+      "title": "Oyster Knife",
+      "url": "https://www.oxo.com/oyster-knife.html",
+      "publisher": "OXO"
+    },
+    {
+      "id": "b5-cherry",
+      "title": "Cherry & Olive Pitter",
+      "url": "https://www.oxo.com/oxo-gg-cherry-and-olive-pitter-black.html",
+      "publisher": "OXO"
+    },
+    {
+      "id": "b5-fat",
+      "title": "Good Gravy Fat Separator",
+      "url": "https://www.oxo.com/good-gravy-fat-separator-4-cup.html",
+      "publisher": "OXO"
+    },
+    {
+      "id": "b5-baster",
+      "title": "Angled Baster With Cleaning Brush",
+      "url": "https://www.oxo.com/angled-baster-with-cleaning-brush.html",
+      "publisher": "OXO"
+    },
+    {
+      "id": "b5-egg",
+      "title": "Egg Slicer",
+      "url": "https://www.oxo.com/egg-slicer.html",
+      "publisher": "OXO"
+    },
+    {
+      "id": "b5-julienne",
+      "title": "Julienne Peeler",
+      "url": "https://www.oxo.com/shop/kitchenware/utensils/julienne-peeler.html",
+      "publisher": "OXO"
+    },
+    {
+      "id": "b5-ring",
+      "title": "Matfer Bourgeat catalogue: frames and rings, page 49",
+      "url": "https://matferbourgeatusa.com/catalog-2019/Matfer_Bourgeat_Inc_2019_Catalog_LR.pdf",
+      "publisher": "Matfer Bourgeat"
+    },
+    {
+      "id": "b5-weights",
+      "title": "Baking trials: prepping a pie crust for prebaking",
+      "url": "https://www.kingarthurbaking.com/blog/2025/10/08/prebake-pie-weights",
+      "publisher": "King Arthur Baking"
+    },
+    {
+      "id": "b5-fraisage",
+      "title": "Fraiser",
+      "url": "https://chefsimon.com/articles/lexique-fraiser",
+      "publisher": "Chef Simon"
+    },
+    {
+      "id": "b5-roux",
+      "title": "Professional Cooking, ninth edition: roux, page 178",
+      "url": "https://resources.escoffier.edu/textbooks/gisslen/professional_cooking_09.pdf",
+      "publisher": "Wayne Gisslen / Wiley, hosted by Escoffier"
+    },
+    {
+      "id": "b5-mount",
+      "title": "Monter au Beurre, Glorious French Food",
+      "url": "https://app.ckbk.com/reference/glor42769c00s001e028/monter-au-beurre",
+      "publisher": "James Peterson / ckbk"
+    },
+    {
+      "id": "b5-devein",
+      "title": "How to devein a prawn",
+      "url": "https://www.greatbritishchefs.com/how-to-cook/how-to-devein-a-prawn",
+      "publisher": "Great British Chefs"
+    },
+    {
+      "id": "b5-shuck",
+      "title": "How to open an oyster",
+      "url": "https://www.greatbritishchefs.com/how-to-cook/how-to-open-an-oyster",
+      "publisher": "Great British Chefs"
+    },
+    {
+      "id": "b5-tangzhong",
+      "title": "A closer look at tangzhong",
+      "url": "https://www.kingarthurbaking.com/blog/2021/02/05/tangzhong-method-soft-pillowy-cinnamon-rolls",
+      "publisher": "King Arthur Baking"
+    },
+    {
+      "id": "b5-ribbon",
+      "title": "What does ribbon stage mean?",
+      "url": "https://www.kingarthurbaking.com/blog/2020/09/16/what-does-ribbon-stage-mean",
+      "publisher": "King Arthur Baking"
+    }
+  ],
+  "deferred": [
+    {
+      "term": "tamis / drum sieve",
+      "reason": "Keep the previously identified broad French versus narrower English boundary unresolved; no generic tamis alias."
+    },
+    {
+      "term": "fish-bone tweezers",
+      "reason": "This pass establishes fish-bone tongs from a manufacturer source; no blanket equivalence between all tweezer and tong constructions or unqualified tweezers alias."
+    },
+    {
+      "term": "shuck / devein",
+      "reason": "Unqualified verbs have wider uses. Add scoped oyster and prawn operations only."
+    },
+    {
+      "term": "water roux / tangzhong / yudane",
+      "reason": "Do not use water roux as an alias or merge the two preparation methods. Do not add the paste nouns as process aliases."
+    },
+    {
+      "term": "baster / injector",
+      "reason": "Add the bulb transfer tool only; do not infer equivalence with an injection syringe or brush."
+    },
+    {
+      "term": "electric beaters / china cap / regional tandoor names / cold-smoke",
+      "reason": "Previously deferred identity and safety questions remain deferred; this pass provides no new evidence resolving them."
+    }
+  ],
+  "associations": [
+    {
+      "from": "larding-needle",
+      "relation": "used-for",
+      "target": {
+        "kind": "process",
+        "id": "lard"
+      }
+    },
+    {
+      "from": "fish-bone-tongs",
+      "relation": "used-for",
+      "target": {
+        "kind": "process",
+        "id": "pin-bone"
+      }
+    },
+    {
+      "from": "oyster-knife",
+      "relation": "used-for",
+      "target": {
+        "kind": "process",
+        "id": "shuck-oysters"
+      }
+    },
+    {
+      "from": "egg-slicer",
+      "relation": "contrast-with",
+      "target": {
+        "kind": "equipment",
+        "id": "egg-separator"
+      }
+    },
+    {
+      "from": "julienne-peeler",
+      "relation": "used-for",
+      "target": {
+        "kind": "process",
+        "id": "julienne"
+      }
+    },
+    {
+      "from": "piping-tip",
+      "relation": "commonly-used-with",
+      "target": {
+        "kind": "equipment",
+        "id": "piping-bag"
+      }
+    },
+    {
+      "from": "tart-ring",
+      "relation": "contrast-with",
+      "target": {
+        "kind": "equipment",
+        "id": "pie-dish"
+      }
+    },
+    {
+      "from": "pie-weights",
+      "relation": "used-for",
+      "target": {
+        "kind": "process",
+        "id": "blind-bake"
+      }
+    },
+    {
+      "from": "fraisage",
+      "relation": "contrast-with",
+      "target": {
+        "kind": "process",
+        "id": "knead"
+      }
+    },
+    {
+      "from": "make-roux",
+      "relation": "contrast-with",
+      "target": {
+        "kind": "process",
+        "id": "mount-with-butter"
+      }
+    },
+    {
+      "from": "make-tangzhong",
+      "relation": "contrast-with",
+      "target": {
+        "kind": "process",
+        "id": "make-yudane"
+      }
+    },
+    {
+      "from": "beat-to-ribbon",
+      "relation": "commonly-used-with",
+      "target": {
+        "kind": "equipment",
+        "id": "whisk"
+      }
+    }
+  ]
+}

@@ -121,12 +121,12 @@ test('gram-authored mass remains unchanged without density, even with conflictin
   assert.deepEqual(convert({from:'g',to:'g',amount:213,approximate:true},[observation(),observation()]),{ok:true,value:213,unit:'g',approximate:true});
 });
 
-test('456 enrichments load with unique eligible targets; all draft records stay below human review',()=>{
-  assert.equal(vocabulary.enrichments.length,456);
-  assert.equal(new Set(vocabulary.enrichments.map(e=>e.target.kind+':'+e.target.id)).size,456);
+test('479 enrichments load with unique eligible targets; all draft records stay below human review',()=>{
+  assert.equal(vocabulary.enrichments.length,479);
+  assert.equal(new Set(vocabulary.enrichments.map(e=>e.target.kind+':'+e.target.id)).size,479);
   for(const item of vocabulary.enrichments) assert.ok(createReferencePage(vocabulary,item.target.kind,item.target.id),item.target.id);
-  for(const [kind,count] of [['ingredient',154],['process',146],['equipment',156]] as const) assert.equal(vocabulary.enrichments.filter(e=>e.target.kind===kind).length,count);
-  assert.equal(vocabulary.entries.length,900);
+  for(const [kind,count] of [['ingredient',154],['process',154],['equipment',171]] as const) assert.equal(vocabulary.enrichments.filter(e=>e.target.kind===kind).length,count);
+  assert.equal(vocabulary.entries.length,923);
   for(const e of vocabulary.enrichments){assert.equal(e.review_version,0.1);for(const r of [...e.editorial??[],...e.resources??[],...e.associations??[],...e.measurements??[]])assert.equal(r.review_version,0.1);assert.ok(renderReferenceHtml(createReferencePage(vocabulary,e.target.kind,e.target.id)!).includes('Version 0.1 — machine generated, not yet human reviewed'));}
 });
 test('brown sugar original observation has no density number or executable conversion',()=>{
@@ -242,7 +242,7 @@ test('egg keeps visible part anchors with shallow unused parts and readable cont
 
 
 test('pilot depth varies without missing sources, empty prose or repeated maturity labels',()=>{
-  const short=vocabulary.enrichments.find(e=>e.target.id==='peel')!;
+  const short=vocabulary.enrichments.find(e=>e.target.id==='mash')!; // Unchanged concise draft; peel now has Batch 5 context.
   const deep=vocabulary.enrichments.find(e=>e.target.id==='ferment')!;
   assert.equal(short.editorial?.length,2);
   assert.ok(deep.editorial!.length>short.editorial!.length*2);

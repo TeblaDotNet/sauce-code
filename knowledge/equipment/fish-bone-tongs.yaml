@@ -1,0 +1,17 @@
+id: fish-bone-tongs
+kind: equipment
+canonical_name: fish bone tongs
+names:
+  en: fish bone tongs
+aliases: []
+categories:
+  - preparation-tools
+type_of: tongs
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  definition: Gripping tongs designed to extract individual bones from fish flesh. The gripping edges grasp the
+    bone rather than cut a fillet away from the skeleton. Shape and size vary; ordinary serving tongs are not
+    necessarily suitable.
+  review_note: Batch 5 researched draft. Identity boundaries are editorial decisions; no human review claimed.

@@ -3,7 +3,7 @@ schema_version: '0.3'
 status: draft8-vocabulary-review-pass-1
 current_recipe_count: 410
 legacy_evidence: bbc-food-10 vocabulary observations retained; recipe texts not distributed
-canonical_concept_count: 276
+canonical_concept_count: 284
 entries:
 - id: add
   canonical_name: add
@@ -1108,4 +1108,36 @@ entries:
 - id: pin-bone
   canonical_name: pin bone
   file: pin-bone.yaml
+  aliases: 0
+- id: fraisage
+  canonical_name: fraisage
+  file: fraisage.yaml
+  aliases: 0
+- id: make-roux
+  canonical_name: make roux
+  file: make-roux.yaml
+  aliases: 0
+- id: mount-with-butter
+  canonical_name: mount with butter
+  file: mount-with-butter.yaml
+  aliases: 1
+- id: devein-prawns
+  canonical_name: devein prawns
+  file: devein-prawns.yaml
+  aliases: 0
+- id: shuck-oysters
+  canonical_name: shuck oysters
+  file: shuck-oysters.yaml
+  aliases: 0
+- id: make-tangzhong
+  canonical_name: make tangzhong
+  file: make-tangzhong.yaml
+  aliases: 0
+- id: make-yudane
+  canonical_name: make yudane
+  file: make-yudane.yaml
+  aliases: 0
+- id: beat-to-ribbon
+  canonical_name: beat to ribbon
+  file: beat-to-ribbon.yaml
   aliases: 0

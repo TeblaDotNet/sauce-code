@@ -1,0 +1,16 @@
+id: piping-tip
+kind: equipment
+canonical_name: piping tip
+names:
+  en: piping tip
+aliases:
+  - piping nozzle
+categories:
+  - preparation-tools
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  definition: A shaped outlet fitted to a piping bag. Round, star and other openings shape the material leaving
+    the bag; the tip is distinct from the bag itself.
+  review_note: Batch 5 researched draft. Identity boundaries are editorial decisions; no human review claimed.

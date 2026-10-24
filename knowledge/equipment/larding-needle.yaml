@@ -1,0 +1,15 @@
+id: larding-needle
+kind: equipment
+canonical_name: larding needle
+names:
+  en: larding needle
+aliases: []
+categories:
+  - preparation-tools
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  definition: A tool for drawing strips of fat into meat during larding. Its purpose differs from a trussing
+    needle, which carries thread to fasten a shape; neither is a generic synonym for every kitchen needle.
+  review_note: Batch 5 researched draft. Identity boundaries are editorial decisions; no human review claimed.
