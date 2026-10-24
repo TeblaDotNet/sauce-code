@@ -26836,3 +26836,1003 @@
       role: introduction
       order: 1
       review_version: 0.1
+
+- target:
+    kind: ingredient
+    id: flour
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A finely milled ingredient whose behaviour depends on its raw material and processing. Among wheat
+        flours, differences in protein content and the inclusion of bran distinguish bread, cake,
+        all-purpose and wholemeal styles.
+      sources: &a1
+        - ig5-flour
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: "Use the type requested by the recipe: self-raising flour already contains leavening, while plain
+        flour does not imply that addition. The unqualified name does not establish wheat variety,
+        protein strength or a replacement ratio. Preserve any grain and flour-type qualifiers when
+        choosing a product."
+      sources: *a1
+      review_version: 0.1
+  resources:
+    - resource: ig5-flour
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: pepper
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A context-dependent seasoning name that can describe pungent ground black pepper or fleshy Capsicum
+        fruits such as sweet peppers and chillies. These ingredients have different uses, so the short
+        word alone does not determine what to prepare.
+      sources: &a2
+        - ig5-pepper
+        - ig5-capsicum
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: "Read the preparation and quantity alongside the name: a pinch of ground pepper and a deseeded,
+        sliced pepper call for different ingredients. This page retains the broad existing entry rather
+        than declaring every occurrence to mean black pepper or a particular chilli."
+      sources: *a2
+      review_version: 0.1
+  resources:
+    - resource: ig5-pepper
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: ig5-capsicum
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: oil
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: "In recipes, an edible oil can provide cooking fat or form part of a dressing, marinade or baked
+        mixture. A label such as vegetable oil still needs reading: the cited example is soybean oil,
+        rather than a mixture of unspecified vegetables."
+      sources: &a3
+        - ig3-vegoil
+        - ig5-oils
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Check the recipe’s intended flavour and use before choosing a bottle. The generic word supplies
+        neither a particular plant source nor a universal heating limit. It also does not mean that solid
+        shortening and liquid oil behave identically in a dough.
+      sources: *a3
+      review_version: 0.1
+  resources:
+    - resource: ig3-vegoil
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: ig5-oils
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: cheese
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A varied family of milk products made by concentrating curd and separating whey. Milk type,
+        cultures and processing contribute to differences between fresh, firm and matured cheeses.
+      sources: &a4
+        - ig5-cheese
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: A recipe that says only cheese leaves important choices open. Preserve named variety and
+        preparation details, such as grated or crumbled, rather than treating every cheese as equivalent.
+        The broad category does not establish one moisture level, flavour intensity or cooking behaviour.
+      sources: *a4
+      review_version: 0.1
+  resources:
+    - resource: ig5-cheese
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: bread
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A broad prepared-food category that includes crusty loaves, soft sandwich breads, enriched breads
+        and flatbreads. Those differences matter when bread becomes an ingredient rather than an
+        accompaniment.
+      sources: &a5
+        - ig5-bread
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: For toast, sandwiches or a recipe calling for pieces of bread, match the stated style and cut. A
+        soft enriched slice is not the same starting material as a chewy flatbread or crusty loaf. The
+        word bread alone does not specify a loaf weight or slice size.
+      sources: *a5
+      review_version: 0.1
+  resources:
+    - resource: ig5-bread
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: cooking-oil
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: An edible oil selected for cooking rather than a single botanical identity. Canola and soybean oils
+        are examples sold for this purpose; the cited producer also sells solid shortening as a separate
+        product.
+      sources: &a6
+        - ig5-oils
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Choose according to the actual bottle and recipe. A direction to add cooking oil does not define a
+        universal smoke point or promise identical flavour across products. Keep liquid oil distinct from
+        solid fats when the recipe depends on a particular texture or mixing method.
+      sources: *a6
+      review_version: 0.1
+  resources:
+    - resource: ig5-oils
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: red-pepper
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A name that indicates colour without fully identifying the ingredient. Capsicum peppers include
+        sweet and hot forms, and red pepper in a recipe may be qualified as fresh, crushed, sweet or hot.
+      sources: &a7
+        - ig5-capsicum
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Retain those qualifiers when shopping and preparing. Colour alone cannot tell you the heat level,
+        and a spoonful of dried crushed pepper is not equivalent to pieces of a fresh pepper. This broad
+        entry does not merge sweet peppers, chillies or powdered seasonings.
+      sources: *a7
+      review_version: 0.1
+  resources:
+    - resource: ig5-capsicum
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: chilli-powder
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A ground seasoning that may contain only chilli or combine it with ingredients such as cumin,
+        oregano and garlic. These products supply different mixtures of heat and flavour despite
+        appearing under similar English names.
+      sources: &a8
+        - ig5-chilli
+        - ig4-chilli
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Read the ingredient list and the recipe’s culinary context before choosing. A blended seasoning
+        changes more than heat, so replacing it with pure chilli by the same measure can change the dish
+        substantially. No universal strength or blend recipe is implied by this entry.
+      sources: *a8
+      review_version: 0.1
+  resources:
+    - resource: ig5-chilli
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: ig4-chilli
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: vanilla
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A flavouring available as whole beans, extracts, pastes and powders. These forms are related but
+        carry different amounts of liquid, visible seeds and supporting ingredients.
+      sources: &a9
+        - ig4-vanilla
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Specify the form when it matters. Bean paste can add visible specks, while an extract adds flavour
+        in liquid form; a powder may use a carrier. Product-specific equivalences should not be treated
+        as universal conversions between every bean, extract and paste.
+      sources: *a9
+      review_version: 0.1
+  resources:
+    - resource: ig4-vanilla
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: spices
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: An umbrella term for aromatic seasonings used in sweet and savoury food. Individual spices, whole
+        or ground, differ from prepared blends intended for particular dishes.
+      sources: &a10
+        - ig5-spices
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: "A recipe’s list or named blend is more informative than the broad word spices. Keep the intended
+        ingredients and forms visible: a curry blend, bread seasoning and sweet baking blend bring
+        different flavours. Do not assume that an unspecified mixture contains a standard set of spices
+        or a fixed level of heat."
+      sources: *a10
+      review_version: 0.1
+  resources:
+    - resource: ig5-spices
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: fruit
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A broad culinary category encompassing foods such as apples, berries, melons and stone fruit.
+        Recipes use fruit fresh, frozen, dried, canned, cut up or cooked.
+      sources: &a11
+        - ig5-fruit
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: The form and particular fruit remain important even when the recipe allows choice. Dried fruit and
+        fresh pieces are not the same starting ingredient, and a fruit purée is different from intact
+        pieces. Keep any stated form and variety rather than deriving a universal substitution from this
+        category.
+      sources: *a11
+      review_version: 0.1
+  resources:
+    - resource: ig5-fruit
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: squash
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A family of culinary fruits spanning summer and winter types. Summer squash is generally harvested
+        young with tender skin, whereas winter squash is allowed to mature and develops characteristics
+        suited to storage.
+      sources: &a12
+        - ig5-squash
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Identify the variety and maturity requested by the recipe. A tender young squash and a mature
+        winter squash may need different preparation, even when their shapes are similar. The general
+        name does not determine rind treatment, size or cooking duration.
+      sources: *a12
+      review_version: 0.1
+  resources:
+    - resource: ig5-squash
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: broth
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A savoury liquid made by extracting flavour from ingredients such as vegetables, meat and
+        seasonings in water. It can serve as a soup base or add flavour and moisture to another dish.
+      sources: &a13
+        - ig1-broth
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Broth and stock overlap in everyday usage, and products differ in concentration and seasoning.
+        Check the recipe’s named base and the product label instead of assuming a fixed salt level or
+        richness. This overview does not prescribe a universal extraction time or storage method.
+      sources: *a13
+      review_version: 0.1
+  resources:
+    - resource: ig1-broth
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: fish
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A broad ingredient category whose members differ in flavour, texture and fat content. For example,
+        the cited species guide describes cod as mild and flaky, while mackerel has a more pronounced
+        flavour.
+      sources: &a14
+        - ig5-fish
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Use the named species and cut where provided. Whole fish, fillets and steaks are different starting
+        forms; the broad term cannot supply a single cooking time or a guaranteed substitute. Selection
+        should retain the recipe’s preparation and product details.
+      sources: *a14
+      review_version: 0.1
+  resources:
+    - resource: ig5-fish
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: beans
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A broad name covering several edible legumes and forms. Dried beans include varieties such as
+        black, pinto and kidney beans; cooked or canned beans are a different preparation state from dry
+        seeds.
+      sources: &a15
+        - ig5-beans
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Check whether a quantity refers to dry beans, cooked beans or a drained canned product. Do not
+        carry a preparation step or measured amount between those states without checking the recipe.
+        Cooking requirements vary by bean and method; this page supplies no universal soaking or heating
+        schedule.
+      sources: *a15
+      review_version: 0.1
+  resources:
+    - resource: ig5-beans
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: vegetables
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A culinary grouping that covers diverse foods, including leafy greens, roots, starchy vegetables
+        and other edible plant parts. They may be used raw or cooked and sold fresh, frozen, canned or
+        dried.
+      sources: &a16
+        - ig5-veg
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: A mixed-vegetable instruction leaves choices that affect preparation. Retain the named items, cut
+        sizes and product states where the recipe supplies them. Whole, chopped and puréed vegetables
+        play different roles, so the category alone does not establish one interchangeable mixture.
+      sources: *a16
+      review_version: 0.1
+  resources:
+    - resource: ig5-veg
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: sodium-hydroxide
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A strongly alkaline compound also called lye. Food-grade lye is used in specialist baking,
+        including pretzels, where it helps produce the characteristic surface colour and flavour.
+      sources: &a17
+        - ep3-gloves
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Lye is caustic and requires a suitable product, protective equipment and a trusted handling
+        procedure. Do not substitute household drain cleaner or treat this page as preparation
+        instructions. Follow the food-grade product’s directions and authoritative baking guidance; no
+        concentration, mixing sequence or neutralisation method is supplied here.
+      sources: *a17
+      review_version: 0.1
+  resources:
+    - resource: ep3-gloves
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: alcohol
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: An underspecified recipe label that needs a named food or beverage product and its strength before
+        use. In the retained Quarkbällchen recipe it is optional, with no particular drink identified.
+      sources: &a18
+        - ig5-alcohol
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: "Do not interpret this label as permission to use industrial or denatured alcohol: denaturing makes
+        alcohol unsuitable for consumption. Nor does the generic name establish that two spirits have
+        equivalent strength. Clarify the intended culinary product rather than guessing from this broad
+        entry."
+      sources: *a18
+      review_version: 0.1
+  resources:
+    - resource: ig5-alcohol
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: wine-and-brandy
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A combined recipe ingredient, not a single standard beverage. Wine is fermented, while brandy is a
+        distilled fruit spirit, commonly made from wine; combining them retains two distinct components.
+      sources: &a19
+        - ig5-brandy
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: The retained pudding recipes ask for the mixture without establishing a universal ratio or
+        identifying the wine style. Keep that uncertainty visible. Choosing a particular wine and brandy
+        is a recipe decision, and this entry supplies no fixed proportions or alcohol-removal claim.
+      sources: *a19
+      review_version: 0.1
+  resources:
+    - resource: ig5-brandy
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: bakers-ammonium
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A legacy baking label associated with baker’s ammonia, a leavening ingredient sold for crisp
+        cookies and crackers. The cited product is ammonium carbonate, also called hartshorn.
+      sources: &a20
+        - ig5-ammonia
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Use an explicitly labelled baking product and a recipe designed for it. Ammonia needs to escape
+        during baking, so this leavener is unsuitable for simply swapping into thick cakes. The existing
+        label does not establish a universal chemical formulation or a one-for-one replacement for baking
+        powder.
+      sources: *a20
+      review_version: 0.1
+  resources:
+    - resource: ig5-ammonia
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: black-bread
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A dark bread description rather than one fixed formula. Rye breads and pumpernickel are examples
+        given in the retained kvass recipe; other black-bread recipes combine rye and wheat with
+        ingredients that deepen colour and flavour.
+      sources: &a21
+        - ig5-blackbread
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: The cited King Arthur version uses cocoa, coffee and molasses or dark syrup as well as flour. That
+        illustrates why colour alone does not establish wholegrain content or a universal flavour. Match
+        the bread style intended by the recipe rather than treating all dark loaves alike.
+      sources: *a21
+      review_version: 0.1
+  resources:
+    - resource: ig5-blackbread
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: giant-trevally
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Giant trevally is the fish species Caranx ignobilis, distinct from other fish sold as trevally. The
+        retained recipe names this species, but that name does not by itself establish that a particular
+        catch is suitable to eat.
+      sources: &a22
+        - ig5-trevally
+        - ig5-ciguatera
+        - ig5-ciguateracare
+        - ig5-cdc
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: "Trevally are among fish associated with ciguatera poisoning. Follow local food-safety advice about
+        species and harvest areas: the toxins cannot reliably be detected by taste or smell and are not
+        removed by cooking. This reference is not an endorsement of consuming an unverified catch."
+      sources: *a22
+      review_version: 0.1
+  resources:
+    - resource: ig5-trevally
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: ig5-ciguatera
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1
+    - resource: ig5-ciguateracare
+      role: deeper-explanation
+      order: 3
+      review_version: 0.1
+    - resource: ig5-cdc
+      role: deeper-explanation
+      order: 4
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: grain
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: An ingredient category requiring both the cereal and its processed form to be understood.
+        Wholegrain material retains bran, germ and endosperm, whether intact or processed into forms such
+        as cracked or rolled grain.
+      sources: &a23
+        - ig5-grain
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: "The retained seeded-bread recipe allows a choice such as rye, spelt or wheat. Keep that choice and
+        preparation state explicit: whole kernels, flakes and flour are not identical forms merely
+        because they come from a grain. No hydration or cooking equivalence is introduced here."
+      sources: *a23
+      review_version: 0.1
+  resources:
+    - resource: ig5-grain
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: non-citrus-fruit
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A recipe choice excluding citrus, rather than the name of a particular fruit. The retained kvass
+        example suggests plums, apples or kiwi, so the intended scope is broader than a single botanical
+        family.
+      sources: &a24
+        - ig5-fruit
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Use the recipe’s examples and form requirements to guide selection. Fruits differ in texture and
+        taste, and excluding citrus does not establish a common acidity or preservation behaviour. This
+        category supplies no fermentation-safety guarantee and no universal replacement for citrus juice.
+      sources: *a24
+      review_version: 0.1
+  resources:
+    - resource: ig5-fruit
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: yellow-curry
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: An ambiguous culinary label whose form needs context. In the retained lentil-dahl recipe it is
+        qualified as mild Madras, pointing to a dry seasoning blend rather than automatically to a Thai
+        curry paste or a finished curry.
+      sources: &a25
+        - ig5-yellow
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: The cited mild Madras product includes coriander, turmeric, ginger and other seasonings. It is an
+        example, not a required formula. Check whether the recipe calls for powder or paste and retain
+        its stated style; colour alone does not determine ingredients or heat.
+      sources: *a25
+      review_version: 0.1
+  resources:
+    - resource: ig5-yellow
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: apricot-mango-nectar
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A fruit-drink ingredient named in the Party Mimosa ingredient list. The method shortens that
+        wording to apricot nectar, leaving the exact blend unclear.
+      sources: &a26
+        - ig5-mimosa
+        - ig5-nectar
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Nectar products may contain fruit purée, water and sweeteners, as the cited mango product
+        illustrates; they are not necessarily pure undiluted juice. Check the actual formulation before
+        substituting juice or purée. No particular brand, fruit ratio or correction of the source wording
+        is established here.
+      sources: *a26
+      review_version: 0.1
+  resources:
+    - resource: ig5-mimosa
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: ig5-nectar
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: bread-spice
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A seasoning blend for bread dough. Caraway, fennel and coriander appear together in the cited
+        commercial example, giving an illustration of the aromatic seed mixtures used in this role.
+      sources: &a27
+        - ig5-breadspice
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Bread spice adds flavour rather than supplying yeast or another leavener. Whole-seed and ground
+        forms distribute differently through a dough. Follow the particular recipe or blend directions
+        instead of assuming one standard formula, grind or amount for every loaf.
+      sources: *a27
+      review_version: 0.1
+  resources:
+    - resource: ig5-breadspice
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: bruschetta-herbs
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A prepared seasoning label, not necessarily a mixture of herbs alone. The cited bruschetta blend
+        contains dried tomato and garlic alongside herbs, spices and salt.
+      sources: &a28
+        - ig5-bruschetta
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Check the ingredient list before using the mixture to season soup or a topping. It may add tomato
+        flavour and salt as well as herbs, and is not the same as plain dried oregano. The retained soup
+        does not identify a brand, so this product is illustrative rather than its confirmed intended
+        mix.
+      sources: *a28
+      review_version: 0.1
+  resources:
+    - resource: ig5-bruschetta
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: giner-syrup
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: An unresolved source label retained from Tomato and Grilled Bell Pepper Soup. That source lists
+        giner syrup and later calls it syrup, without identifying a product or clarifying the spelling.
+      sources: &a29
+        - ig5-soup
+        - ig5-ginger
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Ginger syrup is a plausible reading, but it is not confirmed. A documented ginger syrup can contain
+        sugar, water and ginger flavouring, contributing sweetness as well as spice. Treat that as a
+        comparison, not an automatic correction or substitution; author confirmation is still needed.
+      sources: *a29
+      review_version: 0.1
+  resources:
+    - resource: ig5-soup
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: ig5-ginger
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: grain-alcohol
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A grain-derived spirit that can be sold at high alcoholic strength with a comparatively neutral
+        flavour. The cited Everclear example is intended for applications such as infusions and bitters.
+      sources: &a30
+        - ig5-grainalcohol
+        - ig5-alcohol
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Read the actual strength rather than assuming equivalence with ordinary vodka or another spirit.
+        High-proof alcohol is flammable; handle it according to the product warnings and keep it away
+        from ignition sources. Use a product intended for food or beverage use, never denatured alcohol.
+      sources: *a30
+      review_version: 0.1
+  resources:
+    - resource: ig5-grainalcohol
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: ig5-alcohol
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: mistra
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: An anise-flavoured alcoholic preparation associated with Italian culinary and drinking traditions.
+        Varnelli’s dry anise spirit illustrates this tradition and its use with coffee, desserts and
+        mixed drinks.
+      sources: &a31
+        - ig5-mistra
+        - ig5-mistratradition
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Choose the specific product requested where one is named. Anise flavour does not establish the same
+        sweetness or alcoholic strength across different bottles. This entry does not equate mistrà with
+        every anise liqueur or infer a universal recipe from one producer’s example.
+      sources: *a31
+      review_version: 0.1
+  resources:
+    - resource: ig5-mistra
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: ig5-mistratradition
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: round-squash
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A shape-based description rather than a precise variety. Round courgettes exist alongside other
+        squash forms, and the retained stuffed-squash recipe specifies a fist-sized item to hollow and
+        fill.
+      sources: &a32
+        - ig5-round
+        - ig5-squash
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Select a squash that matches the recipe’s size and intended preparation. A round shape alone does
+        not establish whether it is a tender young summer squash or a mature winter type. Preserve any
+        variety and maturity details rather than assuming all round squashes share rind texture or
+        cooking requirements.
+      sources: *a32
+      review_version: 0.1
+  resources:
+    - resource: ig5-round
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: ig5-squash
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: chicken-masala
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A seasoning blend intended for chicken dishes in this ingredient context, rather than a cooked
+        chicken dish. The cited manufacturer describes a blend designed to balance spices with the other
+        components of a chicken curry.
+      sources: &a33
+        - ig5-chicken
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Read the packet for its actual ingredients and use. The name indicates an application, not one
+        universally agreed formula or heat level. Do not assume it is the same mixture as garam masala,
+        curry powder or a prepared sauce merely because they may occur in related dishes.
+      sources: *a33
+      review_version: 0.1
+  resources:
+    - resource: ig5-chicken
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: cream-and-milk
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A combination of two dairy ingredients, used as a choice in the retained rice-pudding recipe. Cream
+        contains a greater proportion of milk fat than milk, and cream itself is available in different
+        types.
+      sources: &a34
+        - ig5-cream
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: The source does not state how much of each component to use. Do not silently translate this into a
+        fixed-ratio product such as half-and-half. Both the chosen cream and the mixing ratio affect the
+        result; this reference retains the uncertainty instead of supplying an invented formula.
+      sources: *a34
+      review_version: 0.1
+  resources:
+    - resource: ig5-cream
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: dry-cherry
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: An unresolved label in Hoisin Tofu and Broccoli. The source lists it as an optional alternative to
+        Shaoxing wine, measured by tablespoon, and later refers to wine in the sauce mixture.
+      sources: &a35
+        - ig5-drycherry
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: That context suggests a liquid ingredient, but it does not prove that sherry was intended. Do not
+        replace the label with sherry, dried cherries or cherry liqueur without confirmation. The useful
+        distinction here is between documented recipe context and an unverified correction; the intended
+        product remains unknown.
+      sources: *a35
+      review_version: 0.1
+  resources:
+    - resource: ig5-drycherry
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: powdered-sweet-pepper
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A descriptive label for a sweet pepper in powdered form. Sweet paprika is a documented example of a
+        dried, ground red-pepper seasoning used for colour and mild flavour.
+      sources: &a36
+        - ig5-paprika
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: The retained shakshouka ingredient wording does not name a particular product. Check that the
+        intended seasoning is sweet rather than hot, and whether smoke flavour is specified. The paprika
+        comparison helps explain the form but does not add an alias or prove every product with this
+        label is identical.
+      sources: *a36
+      review_version: 0.1
+  resources:
+    - resource: ig5-paprika
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: lemon-garnish
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Lemon used to finish or accompany a dish or drink, with the cut determining its role. A twist,
+        wheel and wedge offer different presentations; a citrus twist can release aromatic peel oils.
+      sources: &a37
+        - ig5-garnish
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Follow the requested form rather than treating a garnish as a measured dose of lemon juice. Peel
+        and a juicy wedge affect aroma and acidity differently when used. The generic label does not
+        establish a standard cut size, juice yield or instruction to squeeze it into the dish.
+      sources: *a37
+      review_version: 0.1
+  resources:
+    - resource: ig5-garnish
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: mushroom-seasoning
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A prepared savoury seasoning that includes mushroom-derived ingredients. The cited product combines
+        shiitake and button-mushroom powders with salt and other ingredients; it is not simply pure dried
+        mushroom powder.
+      sources: &a38
+        - ig5-mushroom
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Such products can season a stir-fry directly or be diluted for a broth. Check the actual formula
+        and product directions before adding more salt or replacing another stock base. Different
+        products need not have the same mushroom content, strength or dietary suitability.
+      sources: *a38
+      review_version: 0.1
+  resources:
+    - resource: ig5-mushroom
+      role: introduction
+      order: 1
+      review_version: 0.1

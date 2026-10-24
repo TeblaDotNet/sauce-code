@@ -6147,3 +6147,355 @@
   review_scope: text
   notes: Public source text consulted for provisional original culinary explanations. Product examples do
     not establish universal formulations, substitutions or operating limits.
+
+- id: ig5-flour
+  title: Flour 101
+  url: https://www.wheatfoods.org/wheat-101/flour-and-baking/flour-101/
+  publisher: Wheat Foods Council
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted on 2026-10-24 for original provisional explanations. Product examples
+    do not define every formulation; no universal timings, nutrition or conversion data inferred.
+- id: ig5-bread
+  title: Back to Bread
+  url: https://www.kingarthurbaking.com/back-to-bread
+  publisher: King Arthur Baking
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted on 2026-10-24 for original provisional explanations. Product examples
+    do not define every formulation; no universal timings, nutrition or conversion data inferred.
+- id: ig5-blackbread
+  title: Russian Black Bread
+  url: https://www.kingarthurbaking.com/recipes/russian-black-bread-recipe
+  publisher: King Arthur Baking
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted on 2026-10-24 for original provisional explanations. Product examples
+    do not define every formulation; no universal timings, nutrition or conversion data inferred.
+- id: ig5-oils
+  title: Cooking oils and shortening
+  url: https://crisco.com/products/
+  publisher: Crisco
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted on 2026-10-24 for original provisional explanations. Product examples
+    do not define every formulation; no universal timings, nutrition or conversion data inferred.
+- id: ig5-cheese
+  title: Types and characteristics of dairy products
+  url: https://www.fao.org/dairy-production-products/products/types-and-characteristics/en
+  publisher: FAO
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted on 2026-10-24 for original provisional explanations. Product examples
+    do not define every formulation; no universal timings, nutrition or conversion data inferred.
+- id: ig5-cream
+  title: Our dairy products
+  url: https://www.dairyuk.org/our-dairy-products/
+  publisher: Dairy UK
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted on 2026-10-24 for original provisional explanations. Product examples
+    do not define every formulation; no universal timings, nutrition or conversion data inferred.
+- id: ig5-pepper
+  title: Black Pepper Ground
+  url: https://www.mccormick.com.ph/herbs-spices/210-black-pepper-ground-70g.html
+  publisher: McCormick
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted on 2026-10-24 for original provisional explanations. Product examples
+    do not define every formulation; no universal timings, nutrition or conversion data inferred.
+- id: ig5-capsicum
+  title: Capsicum annuum
+  url: https://www.rhs.org.uk/plants/71018/capsicum-annuum/details
+  publisher: Royal Horticultural Society
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted on 2026-10-24 for original provisional explanations. Product examples
+    do not define every formulation; no universal timings, nutrition or conversion data inferred.
+- id: ig5-chilli
+  title: Chilli Powder
+  url: https://www.mccormickforchefs.co.uk/en-gb/brands/schwartz/chilli-powder
+  publisher: Schwartz / McCormick
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted on 2026-10-24 for original provisional explanations. Product examples
+    do not define every formulation; no universal timings, nutrition or conversion data inferred.
+- id: ig5-spices
+  title: Organic spices and spice mixes
+  url: https://www.sonnentor.com/en-gb/onlineshop/spices
+  publisher: Sonnentor
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted on 2026-10-24 for original provisional explanations. Product examples
+    do not define every formulation; no universal timings, nutrition or conversion data inferred.
+- id: ig5-fruit
+  title: Fruits
+  url: https://eat-move-save.extension.illinois.edu/eat/balance-your-plate/myplate-your-five-food-groups/fruits
+  publisher: University of Illinois Extension
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted on 2026-10-24 for original provisional explanations. Product examples
+    do not define every formulation; no universal timings, nutrition or conversion data inferred.
+- id: ig5-squash
+  title: How to Grow Squashes
+  url: https://www.rhs.org.uk/vegetables/squash/grow-your-own
+  publisher: Royal Horticultural Society
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted on 2026-10-24 for original provisional explanations. Product examples
+    do not define every formulation; no universal timings, nutrition or conversion data inferred.
+- id: ig5-round
+  title: "Fascinating facts and figures: courgettes"
+  url: https://www.rhs.org.uk/advice/grow-your-own/features/fascinating-facts-and-figures-courgettes
+  publisher: Royal Horticultural Society
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted on 2026-10-24 for original provisional explanations. Product examples
+    do not define every formulation; no universal timings, nutrition or conversion data inferred.
+- id: ig5-fish
+  title: Know Your Local Species
+  url: https://seafood.ri.gov/resources/know-your-local-species
+  publisher: Rhode Island Seafood Marketing Collaborative
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted on 2026-10-24 for original provisional explanations. Product examples
+    do not define every formulation; no universal timings, nutrition or conversion data inferred.
+- id: ig5-beans
+  title: How to Prepare, Store, and Enjoy Beans and Other Pulses
+  url: https://extension.colostate.edu/resource/how-to-prepare-store-and-enjoy-beans-and-pulses/
+  publisher: Colorado State University Extension
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted on 2026-10-24 for original provisional explanations. Product examples
+    do not define every formulation; no universal timings, nutrition or conversion data inferred.
+- id: ig5-veg
+  title: Vegetables
+  url: https://www.myplate.gov/web/web/eat-healthy/vegetables
+  publisher: USDA MyPlate
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted on 2026-10-24 for original provisional explanations. Product examples
+    do not define every formulation; no universal timings, nutrition or conversion data inferred.
+- id: ig5-alcohol
+  title: Denatured Alcohol
+  url: https://www.ttb.gov/industrial-alcohol/industrial-alcohol-denatured-alcohol
+  publisher: US Alcohol and Tobacco Tax and Trade Bureau
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted on 2026-10-24 for original provisional explanations. Product examples
+    do not define every formulation; no universal timings, nutrition or conversion data inferred.
+- id: ig5-grainalcohol
+  title: Everclear Alcohol
+  url: https://www.abc.virginia.gov/products/whiskey/everclear-alcohol?productSize=1
+  publisher: Virginia ABC
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted on 2026-10-24 for original provisional explanations. Product examples
+    do not define every formulation; no universal timings, nutrition or conversion data inferred.
+- id: ig5-brandy
+  title: What is brandy?
+  url: https://www.wsetglobal.com/knowledge-centre/blog/2020/april/22/what-is-brandy
+  publisher: Wine & Spirit Education Trust
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted on 2026-10-24 for original provisional explanations. Product examples
+    do not define every formulation; no universal timings, nutrition or conversion data inferred.
+- id: ig5-ammonia
+  title: Ammonium Carbonate
+  url: https://www.lorannoils.com/products/ammonium-carbonate
+  publisher: LorAnn Oils
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted on 2026-10-24 for original provisional explanations. Product examples
+    do not define every formulation; no universal timings, nutrition or conversion data inferred.
+- id: ig5-trevally
+  title: Marine Fishes
+  url: https://www.nparks.gov.sg/nature/species-list/marine-fishes
+  publisher: National Parks Board Singapore
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted on 2026-10-24 for original provisional explanations. Product examples
+    do not define every formulation; no universal timings, nutrition or conversion data inferred.
+- id: ig5-ciguatera
+  title: How to Report Seafood-Related Toxin and Scombrotoxin Fish Poisoning Illnesses
+  url: https://www.fda.gov/food/outbreaks-foodborne-illness/how-report-seafood-related-toxin-and-scombrotoxin-fish-poisoning-illnesses
+  publisher: US FDA
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted on 2026-10-24 for original provisional explanations. Product examples
+    do not define every formulation; no universal timings, nutrition or conversion data inferred.
+- id: ig5-ciguateracare
+  title: Factsheet for health professionals on ciguatera fish poisoning
+  url: https://www.ecdc.europa.eu/en/topics-z/ciguatera-fish-poisoning/factsheet-health-professionals-ciguatera-fish-poisoning
+  publisher: ECDC
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted on 2026-10-24 for original provisional explanations. Product examples
+    do not define every formulation; no universal timings, nutrition or conversion data inferred.
+- id: ig5-cdc
+  title: Food Poisoning from Seafood
+  url: https://wwwnc.cdc.gov/travel/page/fish-poisoning-ciguatera-scombroid
+  publisher: US CDC
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted on 2026-10-24 for original provisional explanations. Product examples
+    do not define every formulation; no universal timings, nutrition or conversion data inferred.
+- id: ig5-grain
+  title: Definition of a Whole Grain
+  url: https://wholegrainscouncil.org/definition-whole-grain
+  publisher: Whole Grains Council
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted on 2026-10-24 for original provisional explanations. Product examples
+    do not define every formulation; no universal timings, nutrition or conversion data inferred.
+- id: ig5-yellow
+  title: Madras Mild Curry Powder
+  url: https://www.mccormickforchefs.co.uk/en-gb/brands/schwartz/madras-mild-curry-powder
+  publisher: Schwartz / McCormick
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted on 2026-10-24 for original provisional explanations. Product examples
+    do not define every formulation; no universal timings, nutrition or conversion data inferred.
+- id: ig5-nectar
+  title: Mango Nectar
+  url: https://jumexus.com/products/mango-nectar-can
+  publisher: Jumex
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted on 2026-10-24 for original provisional explanations. Product examples
+    do not define every formulation; no universal timings, nutrition or conversion data inferred.
+- id: ig5-mimosa
+  title: Party Mimosa
+  url: https://publicdomainrecipes.com/party-mimosa/
+  publisher: Public Domain Recipes
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted on 2026-10-24 for original provisional explanations. Product examples
+    do not define every formulation; no universal timings, nutrition or conversion data inferred.
+- id: ig5-breadspice
+  title: Bread Seasoning coarse ground
+  url: https://www.sonnentor.com/en-gb/onlineshop/spices/piquant-spice-blends/bread-seasoning-coarse-ground-org.package
+  publisher: Sonnentor
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted on 2026-10-24 for original provisional explanations. Product examples
+    do not define every formulation; no universal timings, nutrition or conversion data inferred.
+- id: ig5-bruschetta
+  title: Mix for Bruschetta Rosso
+  url: https://verstegen.nl/en/products/mix-voor-bruschetta-rosso-beker-45-g/
+  publisher: Verstegen
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted on 2026-10-24 for original provisional explanations. Product examples
+    do not define every formulation; no universal timings, nutrition or conversion data inferred.
+- id: ig5-soup
+  title: Tomato and Grilled Bell Pepper Soup
+  url: https://publicdomainrecipes.com/tomato-and-grilled-paprika-soup/
+  publisher: Public Domain Recipes
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted on 2026-10-24 for original provisional explanations. Product examples
+    do not define every formulation; no universal timings, nutrition or conversion data inferred.
+- id: ig5-ginger
+  title: Ginger Syrup
+  url: https://monin.us/products/ginger-syrup
+  publisher: Monin
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted on 2026-10-24 for original provisional explanations. Product examples
+    do not define every formulation; no universal timings, nutrition or conversion data inferred.
+- id: ig5-mistra
+  title: Cocktail book 2023 — Anice Secco Speciale
+  url: https://www.varnelli.it/cli_varnelli/files/public/Ricettario-Varnelli-2023.pdf
+  publisher: Distilleria Varnelli
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Publicly indexed text for coffee, dessert and drink uses consulted; direct PDF access returned
+    403. No medical or historical purity claims adopted.
+- id: ig5-mistratradition
+  title: Anice secco
+  url: https://www.macerataturismo.it/curiosita-cms/sapori-della-nostra-terra-anice-secco/
+  publisher: Macerata Turismo
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted on 2026-10-24 for original provisional explanations. Product examples
+    do not define every formulation; no universal timings, nutrition or conversion data inferred.
+- id: ig5-chicken
+  title: Chicken Masala
+  url: https://www.everestspices.com/products/chicken-masala/
+  publisher: Everest Spices
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted on 2026-10-24 for original provisional explanations. Product examples
+    do not define every formulation; no universal timings, nutrition or conversion data inferred.
+- id: ig5-drycherry
+  title: Hoisin Tofu and Broccoli
+  url: https://publicdomainrecipes.com/hoisin-tofu-and-broccoli/
+  publisher: Public Domain Recipes
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted on 2026-10-24 for original provisional explanations. Product examples
+    do not define every formulation; no universal timings, nutrition or conversion data inferred.
+- id: ig5-paprika
+  title: Paprika
+  url: https://www.mccormick.com.au/food-service/products/herbs-spices/spices/mccormick-paprika
+  publisher: McCormick
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted on 2026-10-24 for original provisional explanations. Product examples
+    do not define every formulation; no universal timings, nutrition or conversion data inferred.
+- id: ig5-garnish
+  title: "Cocktail Garnishes: A Complete Guide"
+  url: https://www.diageobaracademy.com/en-zz/home/bartender-skills-and-techniques/an-essential-guide-to-cocktail-garnishes
+  publisher: Diageo Bar Academy
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted on 2026-10-24 for original provisional explanations. Product examples
+    do not define every formulation; no universal timings, nutrition or conversion data inferred.
+- id: ig5-mushroom
+  title: Premium Mushroom Seasoning Powder
+  url: https://uk.lkk.com/products/premium-mushroom-seasoning-powder
+  publisher: Lee Kum Kee
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted on 2026-10-24 for original provisional explanations. Product examples
+    do not define every formulation; no universal timings, nutrition or conversion data inferred.
