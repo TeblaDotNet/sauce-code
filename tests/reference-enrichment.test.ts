@@ -184,7 +184,7 @@ test('projection is detached from source enrichment and source resource metadata
 
 const hero = vocabulary.enrichments.find(e => e.target.id === 'egg')!.hero!;
 test('hero metadata stays optional and does not alter resolver identity', () => {
-  assert.equal(vocabulary.enrichments.filter(e => e.hero).length, 149);
+  assert.equal(vocabulary.enrichments.filter(e => e.hero).length, 249);
   const v = make({hero}); assert.equal(v.resolve('food','ingredient')[0].id,'food');
   assert.ok(!renderReferenceHtml(page(v)).includes('ref-hero'));
   assert.ok(!renderReferenceHtml(page(make()),{heroUrl:p=>'/assets/'+p}).includes('ref-hero'));

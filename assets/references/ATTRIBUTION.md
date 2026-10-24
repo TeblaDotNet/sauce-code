@@ -599,3 +599,403 @@ Salvia officinalis0.jpg — Kurt Stüber. [CC BY-SA 3.0](https://creativecommons
 ## celery-seed
 
 Celery seed.jpg — Holly Cheng. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). [Source](https://commons.wikimedia.org/wiki/File:Celery_seed.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## knife
+
+Cucina 012.jpg — Kagor. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). [Source](https://commons.wikimedia.org/wiki/File:Cucina_012.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## chopping-board
+
+Chopping Board.jpg — Donovan Govan.. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). [Source](https://commons.wikimedia.org/wiki/File:Chopping_Board.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## bread-knife
+
+Broodmes.jpg — No machine-readable author provided. T Houdijk assumed (based on copyright claims).. [Public domain](https://commons.wikimedia.org/wiki/File:Broodmes.jpg#Licensing). [Source](https://commons.wikimedia.org/wiki/File:Broodmes.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## vegetable-peeler
+
+Peeler 01 Pengo.jpg — Pengo. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0). [Source](https://commons.wikimedia.org/wiki/File:Peeler_01_Pengo.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## grater
+
+Kuechenreibe (fcm).jpg — Photograph: Frank C. Müller , Baden-Baden. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0). [Source](https://commons.wikimedia.org/wiki/File:Kuechenreibe_(fcm).jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## wooden-spoon
+
+Cuiller en bois - échelle.jpg — Clément Bucco-Lechat. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0). [Source](https://commons.wikimedia.org/wiki/File:Cuiller_en_bois_-_%C3%A9chelle.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## tongs
+
+Kitchen-tongs.png — Sac86738 at English Wikipedia. [Public domain](https://commons.wikimedia.org/wiki/File:Kitchen-tongs.png#Licensing). [Source](https://commons.wikimedia.org/wiki/File:Kitchen-tongs.png). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed. Transparency composited on white.
+
+## rolling-pin
+
+Chapaticooking.jpg — Alena. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0). [Source](https://commons.wikimedia.org/wiki/File:Chapaticooking.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## loaf-tin
+
+Loaf pans.JPG — May be Предположительно Nleamy. [Public domain](https://commons.wikimedia.org/wiki/File:Loaf_pans.JPG#Licensing). [Source](https://commons.wikimedia.org/wiki/File:Loaf_pans.JPG). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## muffin-tin
+
+Cupcake-tin.jpg — Evan-Amos. [Public domain](https://commons.wikimedia.org/wiki/File:Cupcake-tin.jpg#Licensing). [Source](https://commons.wikimedia.org/wiki/File:Cupcake-tin.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## measuring-cup
+
+Simple Measuring Cup.jpg — No machine-readable author provided. Batty~commonswiki assumed (based on copyright claims).. [Public domain](https://commons.wikimedia.org/wiki/File:Simple_Measuring_Cup.jpg#Licensing). [Source](https://commons.wikimedia.org/wiki/File:Simple_Measuring_Cup.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## roasting-tin
+
+Large roasting pan with rack.jpg — OttawaAC. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0). [Source](https://commons.wikimedia.org/wiki/File:Large_roasting_pan_with_rack.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## hand-mixer
+
+Handheld Electric Beater.jpg — Donovan Govan.. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). [Source](https://commons.wikimedia.org/wiki/File:Handheld_Electric_Beater.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## food-processor
+
+Food Processor 2.jpg — Donovan Govan. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). [Source](https://commons.wikimedia.org/wiki/File:Food_Processor_2.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## potato-masher
+
+Kitchen-Potato-Masher.jpg — Evan-Amos. [Public domain](https://commons.wikimedia.org/wiki/File:Kitchen-Potato-Masher.jpg#Licensing). [Source](https://commons.wikimedia.org/wiki/File:Kitchen-Potato-Masher.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## mortar-and-pestle
+
+White-Mortar-and-Pestle.jpg — Evan-Amos. [Public domain](https://commons.wikimedia.org/wiki/File:White-Mortar-and-Pestle.jpg#Licensing). [Source](https://commons.wikimedia.org/wiki/File:White-Mortar-and-Pestle.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## wok
+
+Wok cooking.jpg — Wok to Walk International, S.L.. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0). [Source](https://commons.wikimedia.org/wiki/File:Wok_cooking.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## mandoline
+
+Cooking Mandolin with Carrot.jpg — No machine-readable author provided. Alex Sims assumed (based on copyright claims).. [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5). [Source](https://commons.wikimedia.org/wiki/File:Cooking_Mandolin_with_Carrot.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## butter-knife
+
+Smörhund med kniv.jpg — Ojan. [Public domain](https://commons.wikimedia.org/wiki/File:Sm%C3%B6rhund_med_kniv.jpg#Licensing). [Source](https://commons.wikimedia.org/wiki/File:Sm%C3%B6rhund_med_kniv.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## cheesecloth
+
+Cheesecloth on Sauerkraut (5504152472).jpg — Veganbaking.net from USA. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0). [Source](https://commons.wikimedia.org/wiki/File:Cheesecloth_on_Sauerkraut_(5504152472).jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## chopstick
+
+Many-chopsticks.jpg — FiveRings at English Wikipedia. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). [Source](https://commons.wikimedia.org/wiki/File:Many-chopsticks.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## coffee-filter
+
+Die Chemex 6 Cup.jpg — Coffee Circle from Berlin, Deutschland. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0). [Source](https://commons.wikimedia.org/wiki/File:Die_Chemex_6_Cup.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## jug
+
+M0354 990116-6 1 (cropped).jpg — BERNARDOT Claude-Henry. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0). [Source](https://commons.wikimedia.org/wiki/File:M0354_990116-6_1_(cropped).jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## meat-mallet
+
+Flatten pork steaks-01.jpg — dumbledad. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0). [Source](https://commons.wikimedia.org/wiki/File:Flatten_pork_steaks-01.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## slotted-spoon
+
+Typical slotted spoons.JPG — Mfrisk. [Public domain](https://commons.wikimedia.org/wiki/File:Typical_slotted_spoons.JPG#Licensing). [Source](https://commons.wikimedia.org/wiki/File:Typical_slotted_spoons.JPG). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## zester
+
+Zesting an orange.jpg — Dvortygirl. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0). [Source](https://commons.wikimedia.org/wiki/File:Zesting_an_orange.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## baking-paper
+
+Leivinarkki.jpg — Teemu Korhonen. [Public domain](https://commons.wikimedia.org/wiki/File:Leivinarkki.jpg#Licensing). [Source](https://commons.wikimedia.org/wiki/File:Leivinarkki.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## cocktail-shaker
+
+Shaker - 2.jpg — Clément Bucco-Lechat. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0). [Source](https://commons.wikimedia.org/wiki/File:Shaker_-_2.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## double-boiler
+
+Bain-marie.jpg — grongar. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0). [Source](https://commons.wikimedia.org/wiki/File:Bain-marie.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## paella-pan
+
+01 Paella Valenciana original.jpg — Jan Harenburg. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0). [Source](https://commons.wikimedia.org/wiki/File:01_Paella_Valenciana_original.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## springform-tin
+
+SpringformPanSpring.jpg — RibbonsOfIndecision. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0). [Source](https://commons.wikimedia.org/wiki/File:SpringformPanSpring.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## fermentation-crock
+
+Harsch crock with ceramic weights.jpg — Bdubay. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0). [Source](https://commons.wikimedia.org/wiki/File:Harsch_crock_with_ceramic_weights.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## moka-pot
+
+Moka Express Bialetti.png — Bialetti Industrie. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0). [Source](https://commons.wikimedia.org/wiki/File:Moka_Express_Bialetti.png). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed. Transparency composited on white.
+
+## refrigerator
+
+Open refrigerator with food at night.jpg — W.carter. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0). [Source](https://commons.wikimedia.org/wiki/File:Open_refrigerator_with_food_at_night.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## slow-cooker
+
+Crock pot.jpg — Janine from Mililani, Hawaii, United States. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0). [Source](https://commons.wikimedia.org/wiki/File:Crock_pot.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## paper-towel
+
+Paper towel.jpg — Santeri Viinamäki. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0). [Source](https://commons.wikimedia.org/wiki/File:Paper_towel.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## skewer
+
+Wooden skewers.jpg — Hans Braxmeier. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en). [Source](https://commons.wikimedia.org/wiki/File:Wooden_skewers.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## toothpick
+
+Holzzahnstocher.jpg — Superbass. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0). [Source](https://commons.wikimedia.org/wiki/File:Holzzahnstocher.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## spoon
+
+Soup Spoon.jpg — Donovan Govan.. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). [Source](https://commons.wikimedia.org/wiki/File:Soup_Spoon.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## tea-strainer
+
+Tea strainer 2.jpg — Think outside the box at English Wikipedia. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). [Source](https://commons.wikimedia.org/wiki/File:Tea_strainer_2.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## aluminium-foil
+
+Aluminio.jpg — MdeVicente. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en). [Source](https://commons.wikimedia.org/wiki/File:Aluminio.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## plastic-wrap
+
+Pvc-Film.jpg — Luccadomina. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0). [Source](https://commons.wikimedia.org/wiki/File:Pvc-Film.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## thermos
+
+Thermos.JPG — Denae Bedard. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0). [Source](https://commons.wikimedia.org/wiki/File:Thermos.JPG). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## toaster
+
+Consumer Reports - Hamilton Beach Digital toaster.tiff — Consumer Reports. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0). [Source](https://commons.wikimedia.org/wiki/File:Consumer_Reports_-_Hamilton_Beach_Digital_toaster.tiff). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## waffle-maker
+
+Un appareil électrique à gaufres en France en décembre 2021.jpg — Benoît Prieur. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en). [Source](https://commons.wikimedia.org/wiki/File:Un_appareil_%C3%A9lectrique_%C3%A0_gaufres_en_France_en_d%C3%A9cembre_2021.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## ice-cream-maker
+
+EismaschineBoku (cropped).JPG — ACBahn. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0). [Source](https://commons.wikimedia.org/wiki/File:EismaschineBoku_(cropped).JPG). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## grill
+
+Grilling.jpg — Brian Chu. [CC BY 2.5](https://creativecommons.org/licenses/by/2.5). [Source](https://commons.wikimedia.org/wiki/File:Grilling.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## blowtorch
+
+Soudogaz X2000.JPG — Dmitry G. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0). [Source](https://commons.wikimedia.org/wiki/File:Soudogaz_X2000.JPG). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## rocks-glass
+
+Old Fashioned Glass.jpg — Andreas Argirakis. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0). [Source](https://commons.wikimedia.org/wiki/File:Old_Fashioned_Glass.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## cocktail-glass
+
+Cocktail-glass.jpg — Evan-Amos. [Public domain](https://commons.wikimedia.org/wiki/File:Cocktail-glass.jpg#Licensing). [Source](https://commons.wikimedia.org/wiki/File:Cocktail-glass.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## wine-glass
+
+Twisted stem glass.JPG — User:Theroadislong. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0). [Source](https://commons.wikimedia.org/wiki/File:Twisted_stem_glass.JPG). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## tiki-mug
+
+LA Speakeasy Tiki Mugs.jpg — Vincent Navarro. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0). [Source](https://commons.wikimedia.org/wiki/File:LA_Speakeasy_Tiki_Mugs.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## can-opener
+
+Kitchen-Modern-Can-Opener.jpg — Evan-Amos. [Public domain](https://commons.wikimedia.org/wiki/File:Kitchen-Modern-Can-Opener.jpg#Licensing). [Source](https://commons.wikimedia.org/wiki/File:Kitchen-Modern-Can-Opener.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## salad-spinner
+
+Slacentrifuge.jpg — Lymantria. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0). [Source](https://commons.wikimedia.org/wiki/File:Slacentrifuge.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## citrus-press
+
+Zitronenpresse2.jpg — Fritzs. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0). [Source](https://commons.wikimedia.org/wiki/File:Zitronenpresse2.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## funnel
+
+Kitchen Funnel.jpg — Donovan Govan.. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). [Source](https://commons.wikimedia.org/wiki/File:Kitchen_Funnel.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## food-mill
+
+Food Mill.jpg — Rickwakenyc at English Wikipedia. [Public domain](https://commons.wikimedia.org/wiki/File:Food_Mill.jpg#Licensing). [Source](https://commons.wikimedia.org/wiki/File:Food_Mill.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## food-dehydrator
+
+Tomato in food dehydrator.jpg — Originally uploaded by Latch (Transferred by Szymon Żywicki ). [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0). [Source](https://commons.wikimedia.org/wiki/File:Tomato_in_food_dehydrator.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## pastry-blender
+
+Kitchen-Dough-Blender.jpg — Evan-Amos. [Public domain](https://commons.wikimedia.org/wiki/File:Kitchen-Dough-Blender.jpg#Licensing). [Source](https://commons.wikimedia.org/wiki/File:Kitchen-Dough-Blender.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## pizza-stone
+
+Baking stone.jpg — Thomas van de Weerd from Utrecht, The Netherlands. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0). [Source](https://commons.wikimedia.org/wiki/File:Baking_stone.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## potato-ricer
+
+6a - Potato Ricer (9928751634).jpg — Leslie Seaton from Seattle, WA, USA. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0). [Source](https://commons.wikimedia.org/wiki/File:6a_-_Potato_Ricer_(9928751634).jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## dough-docker
+
+Roller docker.jpg — User:Geekish. [Public domain](https://commons.wikimedia.org/wiki/File:Roller_docker.jpg#Licensing). [Source](https://commons.wikimedia.org/wiki/File:Roller_docker.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## kitchen-timer
+
+Digital egg timer.jpg — André Karwath aka Aka. [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5). [Source](https://commons.wikimedia.org/wiki/File:Digital_egg_timer.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## pizza-peel
+
+Eforneuse transparent.png — Lucyin. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0). [Source](https://commons.wikimedia.org/wiki/File:Eforneuse_transparent.png). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed. Transparency composited on white.
+
+## piping-bag
+
+Plastic pastry bag.JPG — No machine-readable author provided. Polyparadigm~commonswiki assumed (based on copyright claims).. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). [Source](https://commons.wikimedia.org/wiki/File:Plastic_pastry_bag.JPG). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## vacuum-sealer
+
+Vacuum sealer with food sealed on wooden table and rolls of plastic for sealing.jpg — Your Best Digs. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0). [Source](https://commons.wikimedia.org/wiki/File:Vacuum_sealer_with_food_sealed_on_wooden_table_and_rolls_of_plastic_for_sealing.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## tagine
+
+Tajine-marocain-un-plat-varie-et-sain (cropped).jpg — BBouchra00. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0). [Source](https://commons.wikimedia.org/wiki/File:Tajine-marocain-un-plat-varie-et-sain_(cropped).jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## comal
+
+Comal2.jpg — Glane23. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0). [Source](https://commons.wikimedia.org/wiki/File:Comal2.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## tawa
+
+Tava.JPG — Ashish Bhatnagar. [Public domain](https://commons.wikimedia.org/wiki/File:Tava.JPG#Licensing). [Source](https://commons.wikimedia.org/wiki/File:Tava.JPG). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## rice-cooker
+
+Rice Cooker 1.png — Quiet Hut. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0). [Source](https://commons.wikimedia.org/wiki/File:Rice_Cooker_1.png). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## tandoor
+
+Luxury tandoor.png — GDobriy. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0). [Source](https://commons.wikimedia.org/wiki/File:Luxury_tandoor.png). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed. Transparency composited on white.
+
+## tortilla-press
+
+Closed tortilla press.jpg — Cullen328. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0). [Source](https://commons.wikimedia.org/wiki/File:Closed_tortilla_press.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## bamboo-steamer
+
+Bamboo steamer-top oblique-fs PNr°0727.jpg — D-Kuru. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0). [Source](https://commons.wikimedia.org/wiki/File:Bamboo_steamer-top_oblique-fs_PNr%C2%B00727.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## spider-strainer
+
+Spider (cooking).JPG — Geoff. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0). [Source](https://commons.wikimedia.org/wiki/File:Spider_(cooking).JPG). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## chinois
+
+Chinoise.jpg — Sashafklein ( talk ) ( Uploads ). [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). [Source](https://commons.wikimedia.org/wiki/File:Chinoise.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## cookie-cutter
+
+Keks ausstechen.jpg — Anna reg. [CC BY-SA 3.0 at](https://creativecommons.org/licenses/by-sa/3.0/at/deed.en). [Source](https://commons.wikimedia.org/wiki/File:Keks_ausstechen.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## bread-lame
+
+Lame-breadslahing.jpg — User:Nleamy. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). [Source](https://commons.wikimedia.org/wiki/File:Lame-breadslahing.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## garlic-press
+
+Garlic Press and Garlic.jpg — Lee Kindness. [CC BY 2.5](https://creativecommons.org/licenses/by/2.5). [Source](https://commons.wikimedia.org/wiki/File:Garlic_Press_and_Garlic.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## egg-slicer
+
+Eierschneider.jpg — de:user:Rainer Zenz. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). [Source](https://commons.wikimedia.org/wiki/File:Eierschneider.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## french-press
+
+French press 2020.jpg — KoeppiK. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0). [Source](https://commons.wikimedia.org/wiki/File:French_press_2020.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## espresso-machine
+
+Rocket silver metal espresso machine on table.jpg — HungryHuy. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0). [Source](https://commons.wikimedia.org/wiki/File:Rocket_silver_metal_espresso_machine_on_table.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## tea-infuser
+
+Tea ball.jpg — Hustvedt. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0). [Source](https://commons.wikimedia.org/wiki/File:Tea_ball.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## fillet-knife
+
+Filleting-01.jpg — USFWSmidwest. [Public domain](https://commons.wikimedia.org/wiki/File:Filleting-01.jpg#Licensing). [Source](https://commons.wikimedia.org/wiki/File:Filleting-01.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## meat-cleaver
+
+Couperet à débiter les lapins 04.jpg — Coyau. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0). [Source](https://commons.wikimedia.org/wiki/File:Couperet_%C3%A0_d%C3%A9biter_les_lapins_04.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## pizza-wheel
+
+Pizza-slicer.jpg — Evan-Amos. [Public domain](https://commons.wikimedia.org/wiki/File:Pizza-slicer.jpg#Licensing). [Source](https://commons.wikimedia.org/wiki/File:Pizza-slicer.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## corkscrew
+
+Corkscrews December 2014-1.jpg — Alvesgaspar. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0). [Source](https://commons.wikimedia.org/wiki/File:Corkscrews_December_2014-1.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## apple-corer
+
+Apple Corer.jpg — MBatthish. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0). [Source](https://commons.wikimedia.org/wiki/File:Apple_Corer.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## meat-grinder
+
+22 HFG.jpg — Jollymon001. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0). [Source](https://commons.wikimedia.org/wiki/File:22_HFG.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## cheese-plane
+
+Cheese planes.jpg — ChrisPsi. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en). [Source](https://commons.wikimedia.org/wiki/File:Cheese_planes.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## immersion-blender
+
+Blender (immersion).png — Fluous. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0). [Source](https://commons.wikimedia.org/wiki/File:Blender_(immersion).png). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed. Transparency composited on white.
+
+## paring-knife
+
+Paring Knife.jpg — Donovan Govan.. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). [Source](https://commons.wikimedia.org/wiki/File:Paring_Knife.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## kitchen-shears
+
+Kitchen-Scissors.jpg — Evan-Amos. [Public domain](https://commons.wikimedia.org/wiki/File:Kitchen-Scissors.jpg#Licensing). [Source](https://commons.wikimedia.org/wiki/File:Kitchen-Scissors.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## air-fryer
+
+Air Fryer 2020.jpg — I am R.. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0). [Source](https://commons.wikimedia.org/wiki/File:Air_Fryer_2020.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## jigger
+
+Bartool14.jpg — Jan Lehnen. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0). [Source](https://commons.wikimedia.org/wiki/File:Bartool14.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## electric-kettle
+
+2023 Czajnik elektryczny N'OVEEN.jpg — Jacek Halicki. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0). [Source](https://commons.wikimedia.org/wiki/File:2023_Czajnik_elektryczny_N%27OVEEN.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## coffee-grinder
+
+Coffee Grinder Zassenhaus.jpg — Benjamin Hell ( User:Siebengang ). [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0). [Source](https://commons.wikimedia.org/wiki/File:Coffee_Grinder_Zassenhaus.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## ice-cube-tray
+
+Eiswuerfelform-silikon.jpg — Gmhofmann. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0). [Source](https://commons.wikimedia.org/wiki/File:Eiswuerfelform-silikon.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## melon-baller
+
+Kugelausstecher 30mm Durchmesser (retuschiert).jpg — Photograph: Alice Wiegand Derivative work: MagentaGreen. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0). [Source](https://commons.wikimedia.org/wiki/File:Kugelausstecher_30mm_Durchmesser_(retuschiert).jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## pastry-brush
+
+Kitchen-Silicone-Brush.jpg — Evan-Amos. [Public domain](https://commons.wikimedia.org/wiki/File:Kitchen-Silicone-Brush.jpg#Licensing). [Source](https://commons.wikimedia.org/wiki/File:Kitchen-Silicone-Brush.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## muddler
+
+Muddler2.jpg — Dave Catania (Cachaca Dave).. [Public domain](https://commons.wikimedia.org/wiki/File:Muddler2.jpg#Licensing). [Source](https://commons.wikimedia.org/wiki/File:Muddler2.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.

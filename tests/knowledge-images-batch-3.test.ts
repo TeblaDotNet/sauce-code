@@ -1,0 +1,33 @@
+import assert from 'node:assert/strict';
+import test from 'node:test';
+import {readFileSync} from 'node:fs';
+import {createHash} from 'node:crypto';
+import {parse} from 'yaml';
+import {loadVocabulary} from '../src/vocabulary/node.ts';
+import {createReferencePage,renderReferenceHtml} from '../src/index.ts';
+import {preImageBatch3} from './helpers/pre-image-batch.ts';
+const ledger=JSON.parse(readFileSync('docs/knowledge-images-batch-3.json','utf8'));
+const hash=(x:string|Buffer)=>createHash('sha256').update(x).digest('hex');
+const v=await loadVocabulary('knowledge');
+const escape=(s:string)=>s.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#39;');
+for(const row of ledger.pages)test('image batch 3 licensed full-frame hero: '+row.id,()=>{
+ const e=v.enrichments.find(e=>e.target.kind==='equipment'&&e.target.id===row.id)!;
+ assert.deepEqual(e.hero,row.hero);
+ const bytes=readFileSync('assets/'+row.hero.asset);assert.equal(hash(bytes),row.asset_sha256);assert.equal(bytes.length,row.bytes);
+ assert.equal(bytes[0],255);assert.equal(bytes[1],216);assert.ok(bytes.length<=350000);
+ assert.ok(row.hero.width>0&&row.hero.height>0&&Math.max(row.hero.width,row.hero.height)<=960);
+ assert.match(row.hero.licence,/^(CC BY(?:-SA)? (?:[234]\.0|2\.5)(?: at)?|CC0|Public domain)$/);
+ const html=renderReferenceHtml(createReferencePage(v,'equipment',row.id)!,{heroUrl:p=>'/assets/'+p});
+ for(const text of [row.hero.alt,row.hero.attribution_text,row.hero.licence_url,row.hero.source_page,row.hero.changes])assert.ok(html.includes(escape(text)),text);
+ assert.ok(html.includes('/assets/'+row.hero.asset));
+});
+test('image batch leaves all existing knowledge content and resources unchanged',()=>{
+ const current=parse(readFileSync('knowledge/enrichment.yaml','utf8'));
+ assert.equal(hash(JSON.stringify(preImageBatch3(current))),ledger.before.enrichment_sha256);
+ assert.equal(hash(readFileSync('knowledge/resources.yaml')),ledger.before.resources_sha256);
+ for(const [p,h]of Object.entries(ledger.canonicalFileHashes))assert.equal(hash(readFileSync(p)),h,p);
+ for(const [p,h]of Object.entries(ledger.previousAssetHashes))assert.equal(hash(readFileSync('assets/references/'+p)),h,p);
+ assert.equal(v.enrichments.length,911);assert.equal(v.enrichments.filter(e=>e.hero).length,249);
+ assert.equal(ledger.pages.length,100);assert.equal(new Set(ledger.pages.map((r:{id:string})=>r.id)).size,100);
+ assert.equal(ledger.pages.reduce((s:number,r:{bytes:number})=>s+r.bytes,0),ledger.optimisation.total_bytes);
+});
