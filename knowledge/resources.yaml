@@ -4460,3 +4460,139 @@
   review_scope: text
   notes: Public recipe text consulted only for assembly and layering; no cooking or storage schedule
     reproduced.
+
+- id: ep4-brulee
+  title: Creme Brulee — Jan Kremer
+  url: https://publicdomainrecipes.com/creme-brulee/
+  publisher: Public Domain Recipes
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for original provisional explanations. Recipe examples establish context, not
+    universal operating limits, safety endpoints or identity equivalence.
+- id: ep4-choice
+  title: Chocolate Chip Cookies
+  url: https://publicdomainrecipes.com/chocolate-chip-cookies/
+  publisher: Public Domain Recipes
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for original provisional explanations. Recipe examples establish context, not
+    universal operating limits, safety endpoints or identity equivalence.
+- id: ep4-cutter
+  title: Biscuits and Scones workbook
+  url: https://shop.kingarthurbaking.com/content/class-pdfs/Biscuits-Scones-Workbook-King-Arthur-Baking.pdf
+  publisher: King Arthur Baking
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for original provisional explanations. Recipe examples establish context, not
+    universal operating limits, safety endpoints or identity equivalence.
+- id: ep4-leftovers
+  title: Leftovers and Food Safety
+  url: https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+  publisher: USDA Food Safety and Inspection Service
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for original provisional explanations. Recipe examples establish context, not
+    universal operating limits, safety endpoints or identity equivalence.
+- id: ep4-steam
+  title: Best ever creamy mashed potatoes
+  url: https://tollbit.bbcgoodfood.com/recipes/best-ever-creamy-mashed-potatoes
+  publisher: Good Food
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for original provisional explanations. Recipe examples establish context, not
+    universal operating limits, safety endpoints or identity equivalence.
+- id: ep4-parcel
+  title: Quick fish pie parcels
+  url: https://www.bacofoil.co.uk/recipe/quick-fish-pie-parcels/
+  publisher: Bacofoil
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for original provisional explanations. Recipe examples establish context, not
+    universal operating limits, safety endpoints or identity equivalence.
+- id: ep4-skewer
+  title: Chicken masala skewers
+  url: https://www.bbcgoodfoodme.com/recipes/chicken-masala-skewers/
+  publisher: Good Food Middle East
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for original provisional explanations. Recipe examples establish context, not
+    universal operating limits, safety endpoints or identity equivalence.
+- id: ep4-pull
+  title: Great British Menu — Peter Sanchez-Iglesias
+  url: https://downloads.bbc.co.uk/tv/greatbritishmenu/petersanchez-iglesias-GBM-week5.pdf
+  publisher: BBC
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for original provisional explanations. Recipe examples establish context, not
+    universal operating limits, safety endpoints or identity equivalence.
+- id: ep4-stuff
+  title: Cheesy stuffed squash
+  url: https://www.bbcgoodfoodme.com/recipes/cheesy-stuffed-squash/
+  publisher: Good Food Middle East
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for original provisional explanations. Recipe examples establish context, not
+    universal operating limits, safety endpoints or identity equivalence.
+- id: ep4-fan
+  title: Easy Apple Tart
+  url: https://www.justonecookbook.com/easy-apple-tart/
+  publisher: Just One Cookbook — Namiko Hirasawa Chen
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for original provisional explanations. Recipe examples establish context, not
+    universal operating limits, safety endpoints or identity equivalence.
+- id: ep4-sweet
+  title: Cassie’s chai tea
+  url: https://www.bbcgoodfoodme.com/recipes/cassies-chai-tea/
+  publisher: Good Food Middle East
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for original provisional explanations. Recipe examples establish context, not
+    universal operating limits, safety endpoints or identity equivalence.
+- id: ep4-soup
+  title: Slow cooker chicken soup
+  url: https://tollbit.bbcgoodfood.com/recipes/slow-cooker-chicken-soup
+  publisher: Good Food
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for original provisional explanations. Recipe examples establish context, not
+    universal operating limits, safety endpoints or identity equivalence.
+- id: ep4-soften
+  title: How to soften butter quickly
+  url: https://www.kingarthurbaking.com/blog/2023/10/05/soften-butter-quickly
+  publisher: King Arthur Baking
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for original provisional explanations. Recipe examples establish context, not
+    universal operating limits, safety endpoints or identity equivalence.
+- id: ep4-submerge
+  title: How to blanch vegetables
+  url: https://www.canada.ca/en/health-canada/services/food-guide/eating-support/kitchen/cooking-skills/how-blanch-vegetables.html
+  publisher: Health Canada
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for original provisional explanations. Recipe examples establish context, not
+    universal operating limits, safety endpoints or identity equivalence.
+- id: ep4-layers
+  title: Onion rings
+  url: https://www.bbcgoodfoodme.com/recipes/onion-rings/?canonical=true
+  publisher: Good Food Middle East
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for original provisional explanations. Recipe examples establish context, not
+    universal operating limits, safety endpoints or identity equivalence.

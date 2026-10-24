@@ -20501,3 +20501,935 @@
       note: Positioning a layer precedes enclosing a filling in it.
       sources: *a30
       review_version: 0.1
+
+- target:
+    kind: equipment
+    id: beater
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: "A mixing tool or attachment that moves through ingredients to combine them. The broad name does
+        not specify the working shape: a flat mixer beater and a wire whisk perform different tasks."
+      sources: &a1
+        - ka-beaters
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: KitchenAid distinguishes flat-beater mixing from wire-whip aeration. Select the attachment for the
+        mixture and machine instructions; the word beater alone does not establish a hand mixer, a whisk
+        or suitability for kneading dough.
+      sources: *a1
+      review_version: 0.1
+  resources:
+    - resource: ka-beaters
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: cooking-wood
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Wood used as a source of cooking heat or smoke flavour rather than as a utensil. Smoking guidance
+        describes aromatic wood chips, including apple and maple, used with suitable cooking equipment.
+      sources: &a2
+        - fsis-smoke
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: The recipe and appliance determine the fuel arrangement. A named wood does not establish a smoking
+        schedule or safe cooking endpoint. Follow the smoker instructions rather than treating any wooden
+        object or improvised container as cooking equipment.
+      sources: *a2
+      review_version: 0.1
+  resources:
+    - resource: fsis-smoke
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: cover
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Something placed over a vessel or food to form a barrier. In covered bread baking, a fitted lid
+        helps retain moisture released by the dough during the early bake.
+      sources: &a3
+        - ep3-bake
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: "A later uncovered stage allows a different surface environment. Match the covering to the task:
+        the Corpus bread recipe explicitly calls for an oven-safe cover. A general cover is not
+        necessarily heat-resistant, airtight or pressure-rated."
+      sources: *a3
+      review_version: 0.1
+  resources:
+    - resource: ep3-bake
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: grease-pan
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: An existing source-specific equipment label. In the recorded crème brûlée recipe, the grease pan
+        holds the filled ramekins and surrounding water during baking, serving as the outer vessel of a
+        water bath.
+      sources: &a4
+        - ep4-brulee
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: This explains the documented arrangement without establishing grease-pan as a standard synonym for
+        roasting tin or drip tray. The label alone supplies no material, dimensions or capacity; those
+        requirements must come from the actual water-bath setup.
+      sources: *a4
+      review_version: 0.1
+  resources:
+    - resource: ep4-brulee
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: ice-cream-scoop-or-spoon
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: An explicit choice of portioning tools, not a single hybrid utensil. In the chocolate-chip-cookie
+        source, either an ice-cream scoop or a spoon transfers dough portions onto the baking tray.
+      sources: &a5
+        - ep4-choice
+        - ep3-spoon
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: The practical aim is reasonably consistent portions and spacing. A scoop can make repetition
+        convenient, while spooned portions still need judgement. This choice does not imply identical
+        capacities or redefine every spoon as an ice-cream scoop.
+      sources: *a5
+      review_version: 0.1
+  resources:
+    - resource: ep4-choice
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: ep3-spoon
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: mixer-or-whisk
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: An explicit choice between tools for a particular mixing step. The recorded cookie recipe uses
+        melted butter with sugar, egg and other wet ingredients before the dry ingredients are added.
+      sources: &a6
+        - ep4-choice
+        - ka-beaters
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: "That context explains why a whisk is offered alongside a mixer. It does not make the tools
+        universally interchangeable: thick mixtures and different attachments impose different demands.
+        Read the recipe stage rather than applying this choice to all dough mixing."
+      sources: *a6
+      review_version: 0.1
+  resources:
+    - resource: ep4-choice
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: ka-beaters
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: vessel
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A broad term for a container used during preparation. Its shape and material are supplied by
+        context rather than by the word itself. The pretzel recipe qualifies its vessel as heat-safe and
+        chemically non-reactive.
+      sources: &a7
+        - ep3-gloves
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Those qualifications matter independently of capacity. Guidance for lye pretzels specifies suitable
+        equipment and protective measures; a container that holds ordinary ingredients is not thereby
+        suitable for that task. This page does not supply a chemical-handling procedure.
+      sources: *a7
+      review_version: 0.1
+  resources:
+    - resource: ep3-gloves
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: cutter
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A tool used to cut food or dough into a required shape. A round biscuit cutter is one example; the
+        retained legacy usage specifies a round cutter with a particular diameter.
+      sources: &a8
+        - ep4-cutter
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: "Shape and size affect the resulting pieces, so read the qualifier rather than assuming all cutters
+        are round. Baking guidance also shows cutting dough with a knife: that illustrates alternative
+        shapes, not a universal replacement for the specified tool."
+      sources: *a8
+      review_version: 0.1
+  resources:
+    - resource: ep4-cutter
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: prepare
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: "Get ingredients, equipment or a cooking setup ready for the next operation. The instruction is
+        broad: gathering and measuring cookie ingredients is one example, while a recipe may instead be
+        referring to its oven or fire."
+      sources: &a9
+        - ep3-spoon
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Look for the object and qualifying words. Prepare does not itself specify a heating method,
+        temperature or complete sequence. More precise operations in the surrounding recipe explain what
+        readiness means for that particular stage.
+      sources: *a9
+      review_version: 0.1
+  resources:
+    - resource: ep3-spoon
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: submerge
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Put something beneath the surface of a liquid. In vegetable blanching, moving the vegetables into
+        an ice-water bath is an example where immersion serves cooling rather than cooking.
+      sources: &a10
+        - ep4-submerge
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: The liquid, temperature and duration belong to the recipe context. Submerging does not necessarily
+        mean soaking for a long time, and it does not establish that the liquid is hot. Keep any chemical
+        or food-safety requirements attached to the actual method.
+      sources: *a10
+      review_version: 0.1
+  resources:
+    - resource: ep4-submerge
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: lay-out
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Arrange items on a surface in readiness for assembly or use. For Wellington, overlapping slices on
+        a temporary sheet create a layer that will later surround the filling.
+      sources: &a11
+        - ep3-lay
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Spacing, orientation and overlap are separate choices supplied by the recipe. Laying out a layer is
+        not yet wrapping it, and a temporary supporting sheet is not necessarily intended to remain
+        during cooking.
+      sources: *a11
+      review_version: 0.1
+  resources:
+    - resource: ep3-lay
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: pack
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Press material together into a confined space to reduce gaps. Packing brown sugar into a measuring
+        cup illustrates how compression changes the amount held compared with a loosely filled cup.
+      sources: &a12
+        - ch-pack
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Other recipes use the word for filling a jar or compacting a mixture. The degree of pressure comes
+        from the task; packing food into a container does not by itself establish preservation,
+        fermentation or storage safety.
+      sources: *a12
+      review_version: 0.1
+  resources:
+    - resource: ch-pack
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: pat
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Apply light repeated pressure with the hand or a suitable material. When drying washed produce, a
+        clean cloth or paper towel takes up surface moisture without requiring a rubbing action.
+      sources: &a13
+        - ep2-wash
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: "The object and desired result matter: patting dry is not squeezing liquid from inside a mass. Use
+        the recipe qualifier to distinguish moisture removal from shaping or pressing; the general word
+        does not specify force or duration."
+      sources: *a13
+      review_version: 0.1
+  resources:
+    - resource: ep2-wash
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: release
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Allow something previously held or contained to escape. In covered bread baking, uncovering the
+        vessel releases the moist environment retained around the loaf so the later bake proceeds
+        differently.
+      sources: &a14
+        - ep3-bake
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: "The object must be read from context: steam release is not the same as removing bread from a tin.
+        This bread example is not a pressure-cooker venting procedure; equipment-specific instructions
+        govern pressurised appliances."
+      sources: *a14
+      review_version: 0.1
+  resources:
+    - resource: ep3-bake
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: unwrap
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Remove a wrapping from around food. In Wellington preparation, temporary film helps shape the
+        assembled filling and is taken away before the next wrapping or cooking stage.
+      sources: &a15
+        - ep3-lay
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Identify which layer the instruction refers to. Removing temporary film is different from stripping
+        off an edible pastry layer, and the presence of a wrapping during assembly does not establish
+        that it can withstand cooking.
+      sources: *a15
+      review_version: 0.1
+  resources:
+    - resource: ep3-lay
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: enclose
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Surround food with a covering so it is held inside. Foil parcels illustrate folding the sides and
+        ends around a filling, creating a contained cooking arrangement rather than simply placing a
+        sheet underneath it.
+      sources: &a16
+        - ep4-parcel
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: The recipe determines the covering and how it closes. A parcel is not a pressure-rated container;
+        when opening a cooked parcel, account for escaping steam. Enclosing food alone says nothing about
+        its cooking endpoint.
+      sources: *a16
+      review_version: 0.1
+  resources:
+    - resource: ep4-parcel
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: fan
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Spread adjacent slices so they overlap while opening out into a visible pattern. An apple tart can
+        use a sliced section kept together and then gently spread across the pastry.
+      sources: &a17
+        - ep4-fan
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: The purpose here is arrangement, not air movement. Slice thickness and overlap follow the
+        presentation being made; the term does not refer to a fan-assisted oven or require a particular
+        decorative shape.
+      sources: *a17
+      review_version: 0.1
+  resources:
+    - resource: ep4-fan
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: fold-and-tuck
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Fold an edge back and secure it underneath or against the surrounding material. In pie making,
+        excess pastry around the rim can be folded under itself to form an edge ready for finishing.
+      sources: &a18
+        - b4-pie
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: This is a shaping instruction rather than folding ingredients through a mixture. The amount of
+        overhang and final crimp depend on the pie; folding and tucking do not supply a universal crust
+        thickness or baking schedule.
+      sources: *a18
+      review_version: 0.1
+  resources:
+    - resource: b4-pie
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: immerse
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Place food into a body of liquid. Water blanching illustrates lowering vegetables into boiling
+        water; subsequent cooling uses another liquid environment for a different purpose.
+      sources: &a19
+        - nchfp-blanch
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Read the named liquid and stage rather than assuming every immersion cooks the food. Immersion
+        describes placement; temperature, exposure time and any later draining are separate instructions.
+        This page does not impose a new distinction between immerse and submerge.
+      sources: *a19
+      review_version: 0.1
+  resources:
+    - resource: nchfp-blanch
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: microwave
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Heat food using a microwave oven. Heating can be uneven, so the shape, quantity and distribution of
+        food affect how a dish warms; stirring or rotating can help redistribute heat.
+      sources: &a20
+        - ep4-leftovers
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Use microwave-suitable containers and follow the appliance and food instructions. For leftovers,
+        USDA guidance includes covering with an appropriate vent and checking temperature in several
+        places. A recipe duration alone is not proof that every portion reached the required endpoint.
+      sources: *a20
+      review_version: 0.1
+  resources:
+    - resource: ep4-leftovers
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: pull-apart
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Separate a tender food into pieces by pulling rather than making a series of knife cuts. Cooked
+        lamb breast provides an example where the meat is pulled apart after braising.
+      sources: &a21
+        - ep4-pull
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: The action follows the texture already achieved; it does not create tenderness in tough meat or
+        establish that cooking was safe. Piece size depends on the serving purpose, and pulling apart
+        need not mean reducing everything to fine shreds.
+      sources: *a21
+      review_version: 0.1
+  resources:
+    - resource: ep4-pull
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: skewer
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Thread pieces of food onto a skewer so they can be handled together. Chicken skewers illustrate
+        arranging pieces along the support before cooking and turning the assembled portions.
+      sources: &a22
+        - ep4-skewer
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Match the skewer and spacing to the recipe and heat source. Threading is a preparation step, not a
+        cooking method or a guarantee of even doneness; material-specific preparation and the food
+        endpoint remain separate requirements.
+      sources: *a22
+      review_version: 0.1
+  resources:
+    - resource: ep4-skewer
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: soften
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: "Make an ingredient less firm without necessarily turning it into a liquid. Butter for creaming is
+        a useful example: it should yield to pressure while retaining structure rather than becoming
+        greasy or fully melted."
+      sources: &a23
+        - ep4-soften
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: The required softness depends on the next operation. Softened and melted butter behave differently
+        in mixing, so they are not automatic substitutes. Follow the recipe endpoint rather than treating
+        any warming method or fixed time as equivalent.
+      sources: *a23
+      review_version: 0.1
+  resources:
+    - resource: ep4-soften
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: steam-dry
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Let residual heat drive off moisture after draining. For mashed potatoes, the cooked pieces can
+        return to the warm pan so remaining surface water evaporates before mashing.
+      sources: &a24
+        - ep4-steam
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: This is different from cooking the potatoes in steam. The aim is to reduce excess water at this
+        stage, not to dehydrate the food completely. Time depends on the amount and condition of the
+        drained food.
+      sources: *a24
+      review_version: 0.1
+  resources:
+    - resource: ep4-steam
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: stretch
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Extend dough by drawing parts away from one another. A windowpane test illustrates stretching a
+        small piece until its centre becomes thin enough to reveal how the dough holds together.
+      sources: &a25
+        - kab-windowpane
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Resistance and tearing depend on the dough and its development. Stretching is not simply flattening
+        with pressure, and not every bread requires the same thin membrane. Use the recipe purpose rather
+        than treating one test as a universal endpoint.
+      sources: *a25
+      review_version: 0.1
+  resources:
+    - resource: kab-windowpane
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: stuff
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Put a filling inside a cavity or hollowed food. Stuffed squash illustrates using the shell to hold
+        a prepared mixture, rather than spreading that mixture only over the outside.
+      sources: &a26
+        - ep4-stuff
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: The food and filling may need different preparation stages. The instruction to stuff describes
+        assembly, not whether either component is cooked or safe to eat; follow the complete method for
+        the particular ingredients.
+      sources: *a26
+      review_version: 0.1
+  resources:
+    - resource: ep4-stuff
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: sweeten
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Add an ingredient to increase perceived sweetness. Chai finished with sugar to taste illustrates
+        adjusting a drink after its other flavours have been developed.
+      sources: &a27
+        - ep4-sweet
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: The desired balance depends on the recipe and the eater. Different sweeteners can also change
+        flavour or consistency, so this general instruction does not establish equivalent substitution
+        amounts. Sweetening a dish is not evidence that it has been preserved.
+      sources: *a27
+      review_version: 0.1
+  resources:
+    - resource: ep4-sweet
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: tap
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Give a brief light knock to a vessel or food. Tapping a filled cake pan is used to help release
+        trapped air pockets before baking.
+      sources: &a28
+        - ep2-mold
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: This is a controlled handling step rather than prolonged beating or mixing. The recipe determines
+        when it is appropriate; tapping cannot correct every batter problem, and the vessel should be
+        handled in accordance with its material and construction.
+      sources: *a28
+      review_version: 0.1
+  resources:
+    - resource: ep2-mold
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: wipe
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Pass a cloth or paper over a surface to remove or redistribute material. In crepe preparation,
+        wiping an oiled pan can leave a thin film rather than a pool of oil.
+      sources: &a29
+        - ep3-oil
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: "The intended result comes from the context: wiping off moisture is different from spreading fat.
+        Wiping alone is not the same as washing or sanitising, and a material suitable for one surface
+        need not suit a hot pan."
+      sources: *a29
+      review_version: 0.1
+  resources:
+    - resource: ep3-oil
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: work-together
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Manipulate ingredients until they combine into the texture required. Pie dough offers an example of
+        bringing flour, fat and liquid together while checking whether the mixture holds when pressed.
+      sources: &a30
+        - ep1-pie
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: The phrase does not automatically mean vigorous kneading or a long mixing time. Read the stated
+        endpoint and the kind of mixture; a cohesive pastry dough and a developed bread dough do not
+        demand the same handling.
+      sources: *a30
+      review_version: 0.1
+  resources:
+    - resource: ep1-pie
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: level-surface
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Even the top of a mixture so it lies more uniformly in its container. Smoothing filled cake batter
+        illustrates distributing the mixture across the pan before baking.
+      sources: &a31
+        - ep2-mold
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Work on the surface specified by the recipe without assuming the whole mixture needs further
+        beating. Levelling batter is distinct from cutting a baked cake flat; this existing action page
+        does not collapse those different operations.
+      sources: *a31
+      review_version: 0.1
+  resources:
+    - resource: ep2-mold
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: pour-over
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Direct a flowing liquid onto the food or surface named. A sauce poured over fish in a parcel
+        illustrates the direction of transfer before the parcel is closed.
+      sources: &a32
+        - ep4-parcel
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: The instruction describes where the liquid goes, not a fixed quantity or rate. It need not refer to
+        coffee brewing, and pouring over food does not establish that the liquid fully covers or
+        submerges it.
+      sources: *a32
+      review_version: 0.1
+  resources:
+    - resource: ep4-parcel
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: warm-through
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Heat food beyond its outer surface so the interior also becomes warm. This describes the intended
+        distribution of heat rather than merely warming the container or briefly touching the outside to
+        a heat source.
+      sources: &a33
+        - ep4-leftovers
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: It is not a validated reheating endpoint by itself. For leftovers, follow applicable food-safety
+        guidance and check the food rather than relying on surface warmth; microwave heating especially
+        can leave areas at different temperatures.
+      sources: *a33
+      review_version: 0.1
+  resources:
+    - resource: ep4-leftovers
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: store
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: "Keep food under conditions chosen for its later use. Refrigerated storage is one case: container
+        coverage, the actual refrigerator temperature and room for cold air to circulate all matter."
+      sources: &a34
+        - fda-refrigerator
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: The word alone does not specify a location, duration or shelf life. Different foods need different
+        conditions, so use the recipe and appropriate storage guidance rather than assuming a closed
+        container makes every food safe at room temperature.
+      sources: *a34
+      review_version: 0.1
+  resources:
+    - resource: fda-refrigerator
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: age
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Hold a food under controlled conditions so its characteristics develop over time. Cheddar
+        illustrates maturation changing flavour and texture, with rind or packaging arrangements
+        affecting moisture and the cheese surface.
+      sources: &a35
+        - dairy-cheddar
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Age is not simply an instruction to leave food unattended. Conditions depend on the product and
+        method; a cheese example does not establish a safe home maturation process, a universal
+        temperature or a schedule for other foods.
+      sources: *a35
+      review_version: 0.1
+  resources:
+    - resource: dairy-cheddar
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: brush-tops
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Apply a thin coating to the upper surfaces with a brush. Egg washing a pastry border is one example
+        where the intended surface matters as much as the coating itself.
+      sources: &a36
+        - ep4-fan
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: For laminated pastry, the cited tart method avoids the cut edges so the wash does not bind the
+        layers there. That qualification belongs to this use; brushing tops does not mean coating every
+        side or supplying a universal glaze recipe.
+      sources: *a36
+      review_version: 0.1
+  resources:
+    - resource: ep4-fan
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: remove-from-soup
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Take a specified item out of the soup while leaving the surrounding soup behind. A chicken soup can
+        call for removing meat to shred and return, while aromatic herbs are taken out and discarded.
+      sources: &a37
+        - ep4-soup
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: What happens next depends on the object. Removing something from soup is not necessarily draining
+        the whole pot or discarding the item; read the following instruction before deciding whether it
+        is reserved, processed, returned or thrown away.
+      sources: *a37
+      review_version: 0.1
+  resources:
+    - resource: ep4-soup
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: separate-layers
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: "Ease existing layers apart rather than cutting additional ones. Onion rings illustrate the
+        distinction: after crosswise slicing, the concentric rings are separated for individual
+        handling."
+      sources: &a38
+        - ep4-layers
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: The food named in the recipe determines which layers are intended and how gently to work. This
+        example does not identify an unknown historical ingredient or describe creating laminated pastry
+        layers; it explains separation of a structure already present.
+      sources: *a38
+      review_version: 0.1
+  resources:
+    - resource: ep4-layers
+      role: introduction
+      order: 1
+      review_version: 0.1
