@@ -22181,3 +22181,1236 @@
       role: introduction
       order: 1
       review_version: 0.1
+
+- target:
+    kind: ingredient
+    id: chilli
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A pepper used for pungency as well as flavour. Chillies vary in shape, colour and heat; the general
+        name does not identify one variety.
+      sources: &a1
+        - ig2-hotpepper
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Keep fresh, dried and chopped instructions attached to the ingredient. A count of peppers does not
+        guarantee a fixed heat level, and a red colour alone does not establish strength. Choose the
+        variety named by the recipe when one is given.
+      sources: *a1
+      review_version: 0.1
+  resources:
+    - resource: ig2-hotpepper
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: dill
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: An aromatic herb whose feathery foliage and seeds have separate culinary uses. Dill leaves can be
+        used fresh or dried, while dill seed supplies a different form of seasoning.
+      sources: &a2
+        - ig2-dill
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Check which part the recipe requests before measuring. A leafy garnish is not the same preparation
+        as a spoonful of seed. Preserve fresh or dried qualifiers rather than assuming equal volumes give
+        equivalent flavour, and remove any unwanted coarse stems when preparing leaves.
+      sources: *a2
+      review_version: 0.1
+  resources:
+    - resource: ig2-dill
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: pork-chop
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A portion cut from the loin area of a pig. Chops include different named cuts and may be sold with
+        or without bone; their shape and thickness are not uniform.
+      sources: &a3
+        - ig2-chop
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Choose the cut and preparation specified by the recipe. A thin boneless chop and a thick bone-in
+        portion need different handling even though both are pork chops. The name supplies neither a
+        universal portion weight nor a cooking time.
+      sources: *a3
+      review_version: 0.1
+  resources:
+    - resource: ig2-chop
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: raisins
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Dried grapes used for concentrated fruit sweetness and a chewy texture in baking and savoury
+        dishes. Natural and golden raisins are processed differently, and products can also differ in
+        softness.
+      sources: &a4
+        - ig2-raisins
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: "Match the form to the recipe: whole raisins contribute pieces rather than a dissolved sweetener.
+        If a recipe calls for soaking, treat that as a preparation step rather than an intrinsic property
+        of every raisin. Check the product label when added ingredients matter."
+      sources: *a4
+      review_version: 0.1
+  resources:
+    - resource: ig2-raisins
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: corn
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Corn used as a vegetable commonly means sweetcorn kernels, either on the cob or removed. Sweet corn
+        differs from corn grown for popping or other grain uses.
+      sources: &a5
+        - ig2-corn
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Read preparation qualifiers such as frozen, defrosted or cooked before using the recipe amount.
+        Whole cobs and loose kernels are different measured forms. This broad entry does not turn
+        cornmeal, popcorn or another processed corn product into an interchangeable replacement for
+        vegetable kernels.
+      sources: *a5
+      review_version: 0.1
+  resources:
+    - resource: ig2-corn
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: pork
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Meat from a pig, available as cuts with very different proportions of lean meat, fat, bone and
+        connective tissue. Belly, shoulder, loin and tenderloin are examples rather than interchangeable
+        portions.
+      sources: &a6
+        - ig2-pork
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Use the recipe’s cut description alongside the general ingredient name. A method intended for one
+        cut should not be transferred solely because another is also pork. Cured or smoked products
+        require their own qualifiers; plain pork does not automatically mean bacon or ham.
+      sources: *a6
+      review_version: 0.1
+  resources:
+    - resource: ig2-pork
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: red-bell-pepper
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A red, fleshy bell pepper with thick walls, used raw or cooked. Bell peppers are one form of sweet
+        pepper; red examples generally taste sweeter than green ones.
+      sources: &a7
+        - ig1-sweet
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Remove the stem and prepare the flesh, seeds and inner sections as the recipe directs. Slices,
+        diced pieces and roasted flesh provide different textures. Red bell pepper is not a synonym for a
+        small hot red chilli, even though both ingredients can be red.
+      sources: *a7
+      review_version: 0.1
+  resources:
+    - resource: ig1-sweet
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: star-anise
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A star-shaped spice fruit with a pronounced anise-like aroma. It is used to perfume broths and
+        other savoury preparations as well as sweet dishes.
+      sources: &a8
+        - ig2-anise
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Whole pieces flavour a liquid differently from ground spice distributed through a mixture. Keep the
+        recipe’s form and removal instructions in view, rather than treating the hard whole fruit as a
+        soft ingredient. The similar aroma does not make star anise the same ingredient as anise seed.
+      sources: *a8
+      review_version: 0.1
+  resources:
+    - resource: ig2-anise
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: garam-masala
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: An aromatic spice mixture used to season dishes, rather than a single spice. The cited blend
+        includes spices such as coriander, cumin, cinnamon and cardamom, illustrating its layered
+        character.
+      sources: &a9
+        - ig2-masala
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Blends vary, so the ingredient name does not specify one universal recipe or heat level. Follow the
+        dish’s instructions for when to add it. Garam masala and curry powder can share ingredients
+        without being the same blend or an automatic spoon-for-spoon replacement.
+      sources: *a9
+      review_version: 0.1
+  resources:
+    - resource: ig2-masala
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: green-beans
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Beans harvested while their pods are tender and eaten as a vegetable. The whole pod is the useful
+        culinary form, unlike mature shelled beans prepared as a dried pulse.
+      sources: &a10
+        - ig2-beans
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Trim the stem ends and cut or leave the beans whole according to the dish. Preparation changes
+        their size and texture, but does not make them equivalent to cooked kidney beans. Use the
+        recipe’s desired tenderness and product instructions rather than a single cooking time for every
+        bean.
+      sources: *a10
+      review_version: 0.1
+  resources:
+    - resource: ig2-beans
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: icing-sugar
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Sugar ground to a fine powder for icings and other smooth sweet preparations. Commercial products
+        may include an anti-caking ingredient such as starch.
+      sources: &a11
+        - sugar-types
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Its fine texture is different from ordinary granulated sugar, so changing the form can affect the
+        finished texture. Check the actual product when starch or other ingredients matter. The name does
+        not establish one universal starch content, and a volume of powdered sugar is not automatically
+        an equal mass of granulated sugar.
+      sources: *a11
+      review_version: 0.1
+  resources:
+    - resource: sugar-types
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: white-onion
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A bulb onion identified by its white form, used as a chopped or sliced ingredient in raw and cooked
+        dishes. It contributes onion flavour and bulk rather than merely a dry seasoning.
+      sources: &a12
+        - ig1-onion
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: "Follow the recipe’s cut size and cooking instructions: finely chopped onion behaves differently
+        from large wedges. The colour name does not imply that it is peeled, cooked or the same size as
+        every other onion. Choose the requested form rather than substituting onion powder by appearance
+        or volume."
+      sources: *a12
+      review_version: 0.1
+  resources:
+    - resource: ig1-onion
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: lime-juice
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: The liquid juice of lime, used to bring citrus flavour and acidity to dishes. Bottled versions may
+        be reconstituted from concentrate; the cited product is one example.
+      sources: &a13
+        - ig2-lime
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Juice is a different ingredient from grated peel or sweetened lime drinks. Check the recipe and
+        label before measuring, since a lime-flavoured product need not be plain juice. The number of
+        fresh fruits needed is variable, so a measured juice amount should not imply one fixed fruit
+        yield.
+      sources: *a13
+      review_version: 0.1
+  resources:
+    - resource: ig2-lime
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: pork-belly
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A fatty cut from the underside of a pig, with layers of meat and fat. It can be prepared by methods
+        such as roasting or braising, depending on the dish.
+      sources: &a14
+        - ig2-belly
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: "Fresh belly is not automatically bacon: curing and other processing change the ingredient. Match
+        rind, bone and portion instructions to the actual cut. Richness and thickness affect the result,
+        so a named cut alone does not provide a reliable cooking time or tell you whether it has already
+        been processed."
+      sources: *a14
+      review_version: 0.1
+  resources:
+    - resource: ig2-belly
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: tomato-puree
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A prepared tomato ingredient whose concentration needs checking. The cited UK product is a thick,
+        double-concentrated puree, illustrating a form used to add tomato flavour and colour in a small
+        quantity.
+      sources: &a15
+        - ig2-puree
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Do not infer that concentration from the generic name alone. Read the recipe context and product
+        label before replacing a pourable tomato preparation with a thick concentrate. Their contribution
+        to liquid and tomato intensity can differ; this page does not establish a universal
+        puree-to-paste or puree-to-sauce ratio.
+      sources: *a15
+      review_version: 0.1
+  resources:
+    - resource: ig2-puree
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: turkey
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Poultry sold whole and as separate portions, including products with different bone and skin
+        preparations. A whole bird and a boneless portion are different starting forms even when both are
+        called turkey.
+      sources: &a16
+        - ig2-turkey
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Retain the cut and state qualifiers in the recipe. Instructions for a whole bird do not
+        automatically apply to pieces, ground meat or cooked leftovers. The generic name alone supplies
+        no portion size, doneness assessment or universal cooking schedule; consult the appropriate
+        product and poultry guidance.
+      sources: *a16
+      review_version: 0.1
+  resources:
+    - resource: ig2-turkey
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: veal-cutlet
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A cutlet of veal, the meat of a young bovine animal. Cutlets are among the tender veal cuts suited
+        to comparatively quick dry-heat preparations.
+      sources: &a17
+        - ig2-veal
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: The actual thickness, coating and preparation still matter. A breaded cutlet and an uncoated piece
+        are not identical starting points, and pounding is a recipe step rather than an implied part of
+        the ingredient name. Use the specified cut and method instead of transferring a time from a
+        larger roast.
+      sources: *a17
+      review_version: 0.1
+  resources:
+    - resource: ig2-veal
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: curry-powder
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A mixture of ground spices used to season dishes. Turmeric, coriander and cumin appear in the cited
+        product, but the name describes a blend rather than one plant or a single fixed formula.
+      sources: &a18
+        - ig2-curry
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Different mixtures can change colour, aroma and heat. Use the requested blend when specified and
+        read the product label when ingredients matter. Curry powder is not a universal replacement for a
+        prepared curry paste or for every separate spice in a recipe.
+      sources: *a18
+      review_version: 0.1
+  resources:
+    - resource: ig2-curry
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: kidney-beans
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A bean used in dishes such as chilli and beans with rice. Prepared red kidney beans contribute
+        substantial pieces and a firm texture; canned examples are already cooked.
+      sources: &a19
+        - ig2-kidney
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Keep dry, cooked and drained qualifiers distinct when following a recipe. A measured amount of
+        prepared beans is not the same starting quantity as dry beans. Dry kidney beans require
+        appropriate preparation and cooking; instructions for a ready-cooked can should not be applied to
+        an uncooked product.
+      sources: *a19
+      review_version: 0.1
+  resources:
+    - resource: ig2-kidney
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: macaroni
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A short tubular pasta; elbow macaroni is a curved example. Its small pieces suit dishes such as
+        macaroni cheese and pasta salads, where sauce can coat and enter the tubes.
+      sources: &a20
+        - ig2-macaroni
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Shape, size and surface can vary between products. Follow the actual package and recipe for cooking
+        rather than treating the name as a fixed timing instruction. Macaroni describes the pasta form,
+        not an already prepared cheese sauce or a complete dish.
+      sources: *a20
+      review_version: 0.1
+  resources:
+    - resource: ig2-macaroni
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: marjoram
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: An aromatic leafy herb. Sweet marjoram has a comparatively mild, sweet character within the oregano
+        family; that flavour description does not mean that sugar has been added.
+      sources: &a21
+        - ig2-marjoram
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: The leaves can be dried, but the recipe’s fresh or dried form still matters. Similarity to oregano
+        is useful flavour context, not proof that all oregano and marjoram products are identical.
+        Preserve the named herb and preparation rather than imposing a universal substitution ratio.
+      sources: *a21
+      review_version: 0.1
+  resources:
+    - resource: ig2-marjoram
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: beef-stock
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A beef-based cooking liquid used to build savoury flavour in sauces and other dishes. Stock
+        commonly emphasises bones and body, although everyday usage overlaps with broth.
+      sources: &a22
+        - ig1-broth
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Check whether the ingredient is ready to use or concentrated, and whether it is salted. Those
+        details affect a dish more directly than the name alone. A stock label does not guarantee a
+        particular strength or make the liquid equivalent to undiluted beef bouillon.
+      sources: *a22
+      review_version: 0.1
+  resources:
+    - resource: ig1-broth
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: peanut-butter
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A peanut-based spread used on its own and in cooking or baking. A smooth product contributes peanut
+        flavour without the larger pieces associated with a chunky preparation.
+      sources: &a23
+        - ig2-peanut
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Formulations can include sweeteners, salt and added fats, so check the actual product when flavour
+        or texture matters. Smoothness is not a guarantee of one ingredient list. A recipe calling for
+        peanut butter does not automatically mean whole peanuts or a differently sweetened peanut sauce.
+      sources: *a23
+      review_version: 0.1
+  resources:
+    - resource: ig2-peanut
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: rabbit
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A fine-textured meat used in a range of preparations. Younger and more mature rabbits differ in
+        tenderness, so the ingredient name alone does not establish the best cooking method.
+      sources: &a24
+        - ig2-rabbit
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Mature rabbit is commonly suited to moist cooking such as braising or stewing. Keep the cut and
+        preparation specified by the recipe rather than assuming every portion cooks like a tender piece
+        of young rabbit. This context does not provide a fixed time or an automatic substitution for
+        chicken.
+      sources: *a24
+      review_version: 0.1
+  resources:
+    - resource: ig2-rabbit
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: red-chilli
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A red chilli pepper used for pepper flavour and heat. Red identifies its colour, not one particular
+        variety or a guaranteed strength.
+      sources: &a25
+        - ig2-hotpepper
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Retain any variety and fresh or dried qualifiers when shopping and preparing it. A large mild
+        pepper and a small pungent chilli need not contribute comparable heat. This entry does not equate
+        red chilli with red bell pepper or prescribe a fixed substitution.
+      sources: *a25
+      review_version: 0.1
+  resources:
+    - resource: ig2-hotpepper
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: rose-water
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A culinary rose-scented liquid used to flavour sweet preparations and drinks. It contributes floral
+        aroma rather than the bulk sweetness supplied by sugar.
+      sources: &a26
+        - ig2-rose
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Use a food product and the amount specified for the particular preparation. Products sold as rose
+        water can differ in formulation and strength; the cited flavouring includes ingredients beyond
+        water. Do not assume that every bottle is alcohol-free, equally concentrated or interchangeable
+        with another rose extract at the same volume.
+      sources: *a26
+      review_version: 0.1
+  resources:
+    - resource: ig2-rose
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: egg-noodles
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Noodles made with egg as part of the dough. The cited wheat-flour product is sold frozen, showing
+        that egg noodles are not necessarily a dry pantry ingredient.
+      sources: &a27
+        - ig2-noodles
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Check whether the recipe expects fresh, frozen or dried noodles and follow the actual product’s
+        preparation. Thickness and starting state affect handling. The name does not guarantee a single
+        shape, cooking time or egg proportion, and should not be read as a ready-made noodle dish.
+      sources: *a27
+      review_version: 0.1
+  resources:
+    - resource: ig2-noodles
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: green-bell-pepper
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A green bell pepper with thick, fleshy walls, useful raw or cooked. Green peppers generally have a
+        less sweet character than red and other coloured sweet peppers.
+      sources: &a28
+        - ig1-sweet
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Cut the flesh to suit the dish after preparing the stem and seeds. Strips for a raw salad and
+        pieces for roasting offer different textures. The green colour identifies this requested form; it
+        does not mean every green pepper is a bell pepper or a mild substitute for a green chilli.
+      sources: *a28
+      review_version: 0.1
+  resources:
+    - resource: ig1-sweet
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: hot-sauce
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A prepared sauce used to add chilli heat and seasoning. The cited red sauce combines peppers,
+        vinegar and salt, illustrating one acidic style within a wider category.
+      sources: &a29
+        - ig2-hot
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: "Check the actual sauce before choosing an amount: thickness, sweetness, acidity and heat are not
+        fixed by the generic name. A sauce can bring liquid and seasoning as well as chilli. It is
+        therefore not automatically equivalent to chilli powder or another hot sauce at the same volume."
+      sources: *a29
+      review_version: 0.1
+  resources:
+    - resource: ig2-hot
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: jalapeno
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A named type of chilli pepper used for its flesh and pungency. It is more specific than the general
+        word chilli, but individual peppers can still vary.
+      sources: &a30
+        - ig2-hotpepper
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Use the preparation requested by the recipe. Whole and chopped peppers distribute differently
+        through a dish. A named variety does not establish a guaranteed heat level or an equal-strength
+        replacement for every other chilli.
+      sources: *a30
+      review_version: 0.1
+  resources:
+    - resource: ig2-hotpepper
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: shortcrust-pastry
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A pastry dough built around flour and fat, moistened to bring it together for a crust. The fat and
+        mixing method help determine the finished texture.
+      sources: &a31
+        - ep1-pie
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Work with the recipe’s specified dough and avoid treating it as puff pastry. Sweet and unsweetened
+        preparations need not suit the same filling. The cited pie-crust guide illustrates fat
+        incorporation and handling; its particular fat mixture and quantities are not a universal formula
+        for every shortcrust pastry.
+      sources: *a31
+      review_version: 0.1
+  resources:
+    - resource: ep1-pie
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: white-sugar
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A refined sugar used to sweeten foods and contribute to baking structure. Granulated white sugar is
+        a familiar form, but crystal size is an important distinction between sugar products.
+      sources: &a32
+        - sugar-types
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Read finer specifications such as caster or powdered sugar when a recipe supplies them. A white
+        appearance does not mean all sugar forms behave identically in mixing or finishing. Brown sugar
+        also contributes molasses character, so changing between the two is more than a colour choice.
+      sources: *a32
+      review_version: 0.1
+  resources:
+    - resource: sugar-types
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: beef-bouillon
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A beef-flavoured preparation used to build savoury cooking liquids and season dishes. The cited
+        roasted beef base is a concentrated paste, rather than a ready-to-use bowl of broth.
+      sources: &a33
+        - ig2-bouillon
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Check the supplied form and dilution instructions before measuring. A spoonful of concentrate
+        brings a different strength and seasoning load from the same volume of prepared liquid. The
+        generic name does not establish one concentration or make every bouillon product equivalent to
+        this particular paste.
+      sources: *a33
+      review_version: 0.1
+  resources:
+    - resource: ig2-bouillon
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: cardamom
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: An aromatic spice whose seeds are used in cooking, either within pods or removed and ground. Green
+        cardamom and larger dark cardamom types are distinct forms, not simply different package sizes.
+      sources: &a34
+        - ig2-cardamom
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Keep the variety and whole or ground instruction with the recipe amount. Pods and loose seeds do
+        not occupy equal volumes or disperse flavour in the same way. This broad entry does not establish
+        that black and green cardamom can always replace one another unchanged.
+      sources: *a34
+      review_version: 0.1
+  resources:
+    - resource: ig2-cardamom
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: chilli-flakes
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Dried chilli broken into small pieces, often with visible seeds. The coarse texture gives a
+        different distribution through a dish from a finely ground pepper powder.
+      sources: &a35
+        - ig1-flakes
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Use the requested flakes and intended heat level as context, since products vary in pepper variety
+        and strength. The name does not guarantee one fixed heat rating or make flakes equivalent to a
+        mild red paprika. Follow the recipe amount without assuming every jar has identical potency.
+      sources: *a35
+      review_version: 0.1
+  resources:
+    - resource: ig1-flakes
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: coffee
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Coffee begins with seeds from coffee fruit that are processed and roasted. Ground roasted coffee is
+        used to prepare a drink, so the brewed liquid and the grounds are different ingredient forms.
+      sources: &a36
+        - ig2-coffee
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Read the recipe’s preparation before measuring coffee. An amount of brewed coffee supplies liquid
+        as well as flavour; the same amount of dry grounds does not. The general name alone cannot
+        establish concentration or justify replacing a liquid with a solid coffee product.
+      sources: *a36
+      review_version: 0.1
+  resources:
+    - resource: ig2-coffee
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: fennel-seeds
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: An aromatic seed seasoning with an anise-like character, used in preparations including sausages,
+        fish dishes and soups. It is a different culinary part from the swollen bulb of Florence fennel.
+      sources: &a37
+        - ig2-fennel
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Whole seeds supply small pieces as well as flavour, while grinding changes how they distribute.
+        Follow the form named in the recipe rather than substituting a bulb measure or another
+        anise-scented spice automatically. Similar aroma does not establish equal strength or an
+        identical ingredient.
+      sources: *a37
+      review_version: 0.1
+  resources:
+    - resource: ig2-fennel
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: hoisin-sauce
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A sweet, savoury sauce commonly used in marinades, stir-fries and as a dip. The cited product
+        combines a soybean-based preparation with sweeteners and seasonings.
+      sources: &a38
+        - ig2-hoisin
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: It contributes more than salt, so it is not simply another name for soy sauce. Check the actual
+        label when ingredients matter; formulations can include wheat or other components. Use its
+        texture and sweetness deliberately rather than assuming any dark sauce will produce the same
+        result.
+      sources: *a38
+      review_version: 0.1
+  resources:
+    - resource: ig2-hoisin
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: margarine
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A manufactured fat product used for spreading and, in suitable formulations, cooking or baking. It
+        differs from dairy butter in composition, and products sold alongside it can have different
+        proportions of fat and water.
+      sources: &a39
+        - ig2-margarine
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Check that the particular product is appropriate for the recipe. A soft spread and a baking
+        margarine need not behave alike when creamed or heated. The name alone does not guarantee a
+        universal fat percentage or a successful equal-volume replacement for butter.
+      sources: *a39
+      review_version: 0.1
+  resources:
+    - resource: ig2-margarine
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: pancetta
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A cured pork-belly preparation. The cited rolled pancetta is salted, seasoned and aged, giving a
+        prepared ingredient with a different flavour from untreated fresh belly.
+      sources: &a40
+        - ig2-pancetta
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Read the product form and the recipe’s slicing or dicing instruction. A rolled piece and prepared
+        small pieces are different starting forms, and seasoning affects the dish as well as the meat
+        itself. This example does not establish a universal spice mixture or make every bacon product
+        equivalent to pancetta.
+      sources: *a40
+      review_version: 0.1
+  resources:
+    - resource: ig2-pancetta
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: pecorino-romano
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A hard sheep’s-milk cheese with a savoury, increasingly sharp character as it matures. Its firm
+        texture makes it useful for grating, while less mature forms can also be used as table cheese.
+      sources: &a41
+        - ig2-pecorino
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Choose the form and maturity appropriate to the dish. Grated cheese distributes differently from a
+        solid piece, and its seasoning contribution matters. A shared hard texture does not make Pecorino
+        Romano identical to every other grating cheese or establish a universal replacement ratio.
+      sources: *a41
+      review_version: 0.1
+  resources:
+    - resource: ig2-pecorino
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: sriracha
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A chilli sauce style combining pepper heat with garlic and sweetness. The cited product uses red
+        jalapeños and other seasonings to make a thick sauce.
+      sources: &a42
+        - ig2-sriracha
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Treat that product as an example, not a universal formulation. Sriracha contributes texture and
+        flavour beyond chilli alone, so replacing it with a thin vinegar-led hot sauce may change the
+        dish. Read the actual ingredients and recipe amount rather than assuming all bottles have the
+        same sweetness or strength.
+      sources: *a42
+      review_version: 0.1
+  resources:
+    - resource: ig2-sriracha
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: sumac
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A tart berry seasoning used to bring a bright, citrus-like character to food. The cited culinary
+        sumac product is chopped and cured with salt.
+      sources: &a43
+        - ig2-sumac
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Check whether the actual product contains added salt before seasoning the rest of the dish. That
+        cured example does not mean every sumac is salted. Its tart flavour is useful context, but it is
+        not a measured replacement for lemon juice and does not supply the same liquid.
+      sources: *a43
+      review_version: 0.1
+  resources:
+    - resource: ig2-sumac
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: trout
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A fish ingredient sold in forms such as whole dressed fish and fillets. Rainbow trout is one
+        familiar example with relatively mild flesh, but the broad name does not specify every product
+        detail.
+      sources: &a44
+        - ig2-trout
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Keep skin, bone and portion instructions visible when preparing the dish. A whole fish and a fillet
+        have different shapes and handling needs. The name does not guarantee a particular size,
+        production method or universal cooking time, so use the actual product and recipe context.
+      sources: *a44
+      review_version: 0.1
+  resources:
+    - resource: ig2-trout
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: turmeric-powder
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A yellow ground spice with an earthy flavour, used in rice, vegetables and seasoning mixtures. It
+        contributes its own flavour as well as a strong colour.
+      sources: &a45
+        - ig1-turmeric
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: "The powder is a prepared dry form rather than a fresh piece of turmeric. Keep that distinction
+        when following a recipe: a spoonful of powder and a piece of fresh material are not the same
+        measured ingredient. No automatic conversion or nutritional claim follows from its colour or
+        culinary use."
+      sources: *a45
+      review_version: 0.1
+  resources:
+    - resource: ig1-turmeric
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: white-pepper
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A pepper spice made from ripe pepper berries with the outer covering removed, then dried. Ground
+        white pepper supplies pepper flavour while remaining less visually conspicuous in pale sauces and
+        soups.
+      sources: &a46
+        - ig2-whitepepper
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Choose the specified whole or ground form. Its pale appearance does not mean it is a neutral
+        powder, and should not be used as a measure of strength. The comparison with black pepper
+        explains appearance and processing without establishing a universal equal-strength substitution.
+      sources: *a46
+      review_version: 0.1
+  resources:
+    - resource: ig2-whitepepper
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: beef-broth
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A beef-based liquid used to add flavour and moisture to soups, rice and other dishes. Broth
+        commonly involves meat and aromatics simmered in water, though recipes and packaged formulations
+        vary.
+      sources: &a47
+        - ig1-broth
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Check salt and concentration before using it as the main liquid. Stock and broth overlap in
+        everyday naming, so the label alone does not guarantee a lighter or stronger product. Prepared
+        broth is not automatically interchangeable with undiluted bouillon at the same volume.
+      sources: *a47
+      review_version: 0.1
+  resources:
+    - resource: ig1-broth
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: coconut
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Coconut provides edible flesh as well as water, and is processed into several different food
+        products. The flesh is a different starting ingredient from the liquid naturally inside the
+        fruit.
+      sources: &a48
+        - tetrapak-coconut
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Use the part and preparation specified by the recipe. Grated or dried flesh, coconut milk and
+        coconut water do not contribute the same texture or amount of liquid. This general entry supplies
+        that distinction without silently choosing a particular processed product whenever a recipe says
+        coconut.
+      sources: *a48
+      review_version: 0.1
+  resources:
+    - resource: tetrapak-coconut
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: paneer
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A fresh dairy cheese supplied in forms such as a block that can be cut into pieces. The cited
+        product uses milk solids and an acid ingredient in its preparation.
+      sources: &a49
+        - ig2-paneer
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Match the cut size and handling to the recipe; cubes are a preparation of the cheese rather than a
+        different ingredient. Check the actual product for composition and storage instructions. This
+        example does not make every fresh cheese interchangeable with paneer or prescribe a home
+        cheesemaking method.
+      sources: *a49
+      review_version: 0.1
+  resources:
+    - resource: ig2-paneer
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: lamb
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Meat from young sheep, sold in cuts including shoulder, rack, loin and leg. These portions differ
+        in structure, so lamb is not a single uniform piece of meat.
+      sources: &a50
+        - ig2-lamb
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Read the cut and preparation along with the name before choosing a method. A dish written for a
+        shoulder does not automatically supply suitable instructions for a small loin portion. Older
+        sheep meat is commonly termed mutton; this distinction does not create a fixed size or cooking
+        schedule for lamb.
+      sources: *a50
+      review_version: 0.1
+  resources:
+    - resource: ig2-lamb
+      role: introduction
+      order: 1
+      review_version: 0.1

@@ -4803,3 +4803,337 @@
   review_scope: text
   notes: Public source text consulted for provisional original culinary explanations. Product examples do
     not establish universal formulations, substitutions or operating limits.
+
+- id: ig2-pork
+  title: Pork cuts
+  url: https://new.pork.org/cuts/
+  publisher: National Pork Board
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig2-chop
+  title: Pork chops
+  url: https://new.pork.org/cuts/pork-chops/
+  publisher: National Pork Board
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig2-belly
+  title: Pork belly
+  url: https://new.pork.org/cuts/pork-belly/
+  publisher: National Pork Board
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig2-veal
+  title: Veal from Farm to Table
+  url: https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/meat-catfish/veal-farm-table
+  publisher: USDA FSIS
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public indexed text consulted for ingredient and cut distinctions; direct access may be
+    restricted. No cooking schedule or safety protocol reproduced.
+- id: ig2-rabbit
+  title: Rabbit from Farm to Table
+  url: https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/meat-fish/rabbit-farm-table
+  publisher: USDA FSIS
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public indexed text consulted for ingredient and cut distinctions; direct access may be
+    restricted. No cooking schedule or safety protocol reproduced.
+- id: ig2-lamb
+  title: Lamb from Farm to Table
+  url: https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/meat-catfish/lamb-farm-table
+  publisher: USDA FSIS
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public indexed text consulted for ingredient and cut distinctions; direct access may be
+    restricted. No cooking schedule or safety protocol reproduced.
+- id: ig2-turkey
+  title: Turkey from Farm to Table
+  url: https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/poultry/turkey-farm-table
+  publisher: USDA FSIS
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public indexed text consulted for ingredient and cut distinctions; direct access may be
+    restricted. No cooking schedule or safety protocol reproduced.
+- id: ig2-dill
+  title: Dill — Herb Gardening
+  url: https://extension.illinois.edu/herbs/dill
+  publisher: Illinois Extension
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig2-marjoram
+  title: Sweet marjoram — Herb Gardening
+  url: https://extension.illinois.edu/herbs/marjoram-sweet
+  publisher: Illinois Extension
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig2-fennel
+  title: Fennel — Herb Gardening
+  url: https://extension.illinois.edu/herbs/fennel
+  publisher: Illinois Extension
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig2-anise
+  title: "About Star Anise: Uses, Pairings and Recipes"
+  url: https://www.mccormick.com/blogs/how-to/about-star-anise-uses-pairings-and-recipes
+  publisher: McCormick
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig2-masala
+  title: Garam Masala
+  url: https://www.mccormickforchefs.co.uk/en-gb/brands/schwartz/garam-masala
+  publisher: Schwartz / McCormick
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig2-curry
+  title: Curry Powder
+  url: https://www.mccormick.com/collections/mccormick/products/mccormick-curry-powder-1-75-oz
+  publisher: McCormick
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig2-cardamom
+  title: Cardamom
+  url: https://www.mccormickscienceinstitute.com/resources/culinary-spices/herbs-spices/cardamom
+  publisher: McCormick Science Institute
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig2-whitepepper
+  title: Ground White Pepper
+  url: https://www.mccormick.com/collections/all-products/products/mccormick-r-ground-white-pepper-1-oz
+  publisher: McCormick
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig2-sumac
+  title: Cured Sumac
+  url: https://www.burlapandbarrel.com/products/cured-sumac
+  publisher: Burlap & Barrel
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig2-hotpepper
+  title: Hot pepper — FoodLink
+  url: https://extension.purdue.edu/foodlink/food.php?food=hot+pepper
+  publisher: Purdue Extension
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig2-corn
+  title: Sweet corn — FoodLink
+  url: https://extension.purdue.edu/foodlink/food.php?food=sweet+corn
+  publisher: Purdue Extension
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig2-beans
+  title: Snap bean — FoodLink
+  url: https://extension.purdue.edu/foodlink/food.php?food=snap+bean
+  publisher: Purdue Extension
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig2-raisins
+  title: Industrial Ingredients
+  url: https://www.sunmaid.com/industrial/ingredients/
+  publisher: Sun-Maid
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig2-lime
+  title: ReaLime
+  url: https://www.realemon.ca/en/products/realime
+  publisher: ReaLemon / ReaLime
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig2-puree
+  title: Tomato Puree
+  url: https://napolina.com/products/tomatoes/tomato-puree/
+  publisher: Napolina
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig2-paneer
+  title: Amul Fresh Paneer
+  url: https://dudhsagardairy.coop/dairy/products/amul-fresh-paneer/
+  publisher: Dudhsagar Dairy
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig2-rose
+  title: Rose Water
+  url: https://nielsenmassey.com/products/rose-water/
+  publisher: Nielsen-Massey
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig2-hoisin
+  title: Hoisin Sauce
+  url: https://usa.lkk.com/en/foodservices/homecooks/products/hoisin-sauce
+  publisher: Lee Kum Kee
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig2-hot
+  title: Original Red Sauce
+  url: https://www.tabasco.com/products/hot-sauces/original-red-sauce/
+  publisher: TABASCO
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig2-sriracha
+  title: Sriracha Sauce
+  url: https://www.tabasco.com/products/hot-sauces/sriracha-sauce/
+  publisher: TABASCO
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig2-pecorino
+  title: Pecorino Romano — Characteristics
+  url: https://www.pecorinoromano.com/en/pecorino-romano/characteristics
+  publisher: Consorzio per la Tutela del Formaggio Pecorino Romano
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig2-peanut
+  title: Creamy Peanut Butter
+  url: https://www.jif.com/products/creamy/creamy-peanut-butter
+  publisher: Jif
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig2-bouillon
+  title: Roasted Beef Base
+  url: https://www.betterthanbouillon.com/products/roasted-beef-base/
+  publisher: Better Than Bouillon
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig2-macaroni
+  title: Elbows
+  url: https://www.barilla.com/en-us/products/pasta/classic-blue-box/elbows
+  publisher: Barilla
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig2-noodles
+  title: Homestyle Egg Noodles
+  url: https://reamesfoods.com/products/reames-homestyle-egg-noodles-12-oz-bag/
+  publisher: Reames
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig2-coffee
+  title: What is Coffee?
+  url: https://www.aboutcoffee.org/origins/what-is-coffee/
+  publisher: National Coffee Association
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig2-margarine
+  title: Is It a Butter, Margarine or Spread?
+  url: https://www.landolakes.com/expert-advice/is-it-a-butter-margarine-or-spread-they-are-not/?CDJ=C&pp=1
+  publisher: Land O’Lakes
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig2-trout
+  title: Rainbow Trout
+  url: https://riverence.com/products/riverence-rainbow-trout/
+  publisher: Riverence
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig2-pancetta
+  title: Rolled Pork Belly — Pancetta
+  url: https://negrisalumi.it/en/i-nostri-prodotti/pancetta-arrotolata/
+  publisher: Negri Salumi
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig2-kidney
+  title: Organic Dark Red Kidney Beans
+  url: https://www.bushbeansfoodservice.com/en_US/bulk-product/organic-dark-red-kidney-beans
+  publisher: Bush’s Beans
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
