@@ -3,7 +3,7 @@ schema_version: '0.3'
 status: draft8-vocabulary-review-pass-1
 current_recipe_count: 410
 legacy_evidence: bbc-food-10 vocabulary observations retained; recipe texts not distributed
-canonical_concept_count: 268
+canonical_concept_count: 276
 entries:
 - id: add
   canonical_name: add
@@ -1076,4 +1076,36 @@ entries:
 - id: pipe
   canonical_name: pipe
   file: pipe.yaml
+  aliases: 0
+- id: lard
+  canonical_name: lard
+  file: lard.yaml
+  aliases: 0
+- id: bard
+  canonical_name: bard
+  file: bard.yaml
+  aliases: 0
+- id: cook-en-papillote
+  canonical_name: cook en papillote
+  file: cook-en-papillote.yaml
+  aliases: 0
+- id: velvet
+  canonical_name: velvet
+  file: velvet.yaml
+  aliases: 0
+- id: crimp
+  canonical_name: crimp
+  file: crimp.yaml
+  aliases: 0
+- id: egg-wash
+  canonical_name: egg wash
+  file: egg-wash.yaml
+  aliases: 0
+- id: par-bake
+  canonical_name: par bake
+  file: par-bake.yaml
+  aliases: 1
+- id: pin-bone
+  canonical_name: pin bone
+  file: pin-bone.yaml
   aliases: 0

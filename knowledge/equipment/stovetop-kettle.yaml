@@ -1,0 +1,15 @@
+id: stovetop-kettle
+kind: equipment
+canonical_name: stovetop kettle
+names:
+  en: stovetop kettle
+aliases: []
+categories:
+  - cookware
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  definition: A pouring vessel for heating water on a stove or hob. It uses an external heat source rather than
+    an integrated electric heater; whistles and compatible hob types depend on the model.
+  review_note: Batch 4 researched draft. Identity boundaries are editorial decisions; no human review claimed.

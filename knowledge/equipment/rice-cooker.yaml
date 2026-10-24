@@ -1,0 +1,16 @@
+id: rice-cooker
+kind: equipment
+canonical_name: rice cooker
+names:
+  en: rice cooker
+aliases: []
+categories:
+  - appliances
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  definition: An appliance designed to cook rice with controlled heating. Basic models and programmed models
+    manage different parts of soaking, cooking and steaming; a rice-cooker label does not imply pressure
+    cooking or every grain setting.
+  review_note: Batch 4 researched draft. Identity boundaries are editorial decisions; no human review claimed.

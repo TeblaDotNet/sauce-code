@@ -3200,3 +3200,219 @@
   review_scope: text
   notes: Factual identification and original summary only. Product examples do not establish universal
     capabilities; no safety schedules or preservation guarantees inferred.
+- id: b4-rice
+  title: Rice cooker FAQ
+  url: https://www.zojirushi.com/app/faq/rice-cookers
+  publisher: Zojirushi
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
+    schedules or cross-regional equivalence.
+- id: b4-tandoor
+  title: Tandoori clay ovens
+  url: https://www.tandoors.com/
+  publisher: GULATI
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
+    schedules or cross-regional equivalence.
+- id: b4-tortilla
+  title: Tortilla press instructions
+  url: https://victoriacookware.com/wp-content/uploads/2017/01/instructions-for-the-victoria-cast-iron-tortilla-press.pdf
+  publisher: Victoria Cookware
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
+    schedules or cross-regional equivalence.
+- id: b4-bamboo
+  title: 3 Piece Bamboo Steamer Set
+  url: https://townfood.com/product/bamboo-steamer-set-3-piece/
+  publisher: Town Food Service
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
+    schedules or cross-regional equivalence.
+- id: b4-spider
+  title: Scoop And Strain Skimmer
+  url: https://www.oxo.com/oxo-good-grips-scoop-and-strain-skimmer.html
+  publisher: OXO
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
+    schedules or cross-regional equivalence.
+- id: b4-chinois
+  title: Exoglass Bouillon Strainer/Chinois
+  url: https://matferbourgeatusa.com/product/matfer-bourgeat-exoglass-bouillon-strainer-chinois/
+  publisher: Matfer Bourgeat
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
+    schedules or cross-regional equivalence.
+- id: b4-cutters
+  title: Decorating Cookies
+  url: https://www.kingarthurbaking.com/learn/guides/cookie-decorating
+  publisher: King Arthur Baking
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
+    schedules or cross-regional equivalence.
+- id: b4-lame
+  title: Bread Slashing Lame
+  url: https://shop.kingarthurbaking.com/items/bread-slashing-lame
+  publisher: King Arthur Baking
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
+    schedules or cross-regional equivalence.
+- id: b4-test-cake
+  title: How to tell when cake is done
+  url: https://www.kingarthurbaking.com/blog/2019/07/01/how-to-tell-when-cake-is-done
+  publisher: King Arthur Baking
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
+    schedules or cross-regional equivalence.
+- id: b4-oven-therm
+  title: Appliance Thermometers
+  url: https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/appliance-thermometers
+  publisher: USDA FSIS
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
+    schedules or cross-regional equivalence.
+- id: b4-kettle
+  title: Classic Whistling Kettle
+  url: https://www.lecreuset.com/classic-whistling-kettle-matte-white/40114260431241.html
+  publisher: Le Creuset
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
+    schedules or cross-regional equivalence.
+- id: b4-garlic
+  title: Garlic Press
+  url: https://oxoaustralia.com.au/products/garlic-press
+  publisher: OXO Australia
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
+    schedules or cross-regional equivalence.
+- id: b4-melon
+  title: Melon Baller
+  url: https://www.oxo.com/melon-baller-480.html
+  publisher: OXO
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
+    schedules or cross-regional equivalence.
+- id: b4-egg
+  title: 3-In-1 Egg Separator
+  url: https://www.oxo.com/3-in-1-egg-separator.html
+  publisher: OXO
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
+    schedules or cross-regional equivalence.
+- id: b4-egg-detail
+  title: OXO Good Grips 3-in-1 Egg Separator
+  url: https://www.macys.com/shop/product/oxo-good-grips-3-in-1-egg-separator?ID=869121
+  publisher: Macys
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
+    schedules or cross-regional equivalence.
+- id: b4-lard
+  title: Larder
+  url: https://chefsimon.com/articles/lexique-larder
+  publisher: Chef Simon
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
+    schedules or cross-regional equivalence.
+- id: b4-bard
+  title: Barder
+  url: https://chefsimon.com/articles/lexique-barder
+  publisher: Chef Simon
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
+    schedules or cross-regional equivalence.
+- id: b4-papillote
+  title: Pliage d’une papillote
+  url: https://chefsimon.com/gourmets/chef-simon/recettes/pliage-d-une-papillote
+  publisher: Chef Simon
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
+    schedules or cross-regional equivalence.
+- id: b4-velvet
+  title: How to Velvet Chicken for Stir-fry
+  url: https://thewoksoflife.com/how-to-velvet-chicken-stir-fry/
+  publisher: The Woks of Life
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
+    schedules or cross-regional equivalence.
+- id: b4-crimp
+  title: How to crimp pie crust — and more decorating tips
+  url: https://www.kingarthurbaking.com/blog/2015/09/07/how-to-crimp-pie-crust
+  publisher: King Arthur Baking
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
+    schedules or cross-regional equivalence.
+- id: b4-egg-wash
+  title: "Fruit Pies Workbook: egg wash"
+  url: https://shop.kingarthurbaking.com/content/class-pdfs/Fruit-Pies-Workbook-King-Arthur-Baking.pdf
+  publisher: King Arthur Baking School
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
+    schedules or cross-regional equivalence.
+- id: b4-parbake
+  title: Homemade Brown and Serve Rolls
+  url: https://www.kingarthurbaking.com/recipes/homemade-brown-and-serve-rolls-recipe
+  publisher: King Arthur Baking
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
+    schedules or cross-regional equivalence.
+- id: b4-pie
+  title: "Holiday Pie Workbook: partial and full baking"
+  url: https://shop.kingarthurbaking.com/content/class-pdfs/Holiday-Pie-Workbook-King-Arthur-Baking.pdf
+  publisher: King Arthur Baking School
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
+    schedules or cross-regional equivalence.
+- id: b4-pinbone
+  title: Fish preparation and filleting guide
+  url: https://www.taylorfoods.co.uk/our-seafood/preparation/
+  publisher: Taylor Foods / Direct Seafoods
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary. Product examples establish identity, not universal operating limits, safety
+    schedules or cross-regional equivalence.

@@ -1,0 +1,16 @@
+id: cookie-cutter
+kind: equipment
+canonical_name: cookie cutter
+names:
+  en: cookie cutter
+aliases: []
+categories:
+  - bakeware
+type_of: cutter
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  definition: A shaped cutting outline pressed into rolled cookie dough to produce repeated shapes. It cuts the
+    outline rather than merely embossing a pattern on the surface.
+  review_note: Batch 4 researched draft. Identity boundaries are editorial decisions; no human review claimed.

@@ -105,7 +105,7 @@ test('legacy self-rising wording is accepted with explicit compatibility warning
 });
 
 test('loader/index and JSON transport preserve new metadata without changing entry count', () => {
-  assert.equal(vocabulary.entries.length, 877);
+  assert.equal(vocabulary.entries.length, 900);
   const copy = new Vocabulary(JSON.parse(JSON.stringify(vocabulary.entries)));
   assert.equal(copy.resolveIngredient('powdered sugar', undefined, [], 'en-US')[0].entry.id, 'icing-sugar');
   assert.equal(copy.resolveIngredient('powdered sugar', undefined, [], 'en-GB').length, 0);

@@ -1,0 +1,18 @@
+id: tandoor
+kind: equipment
+canonical_name: tandoor
+names:
+  en: tandoor
+aliases:
+  - tandoor oven
+categories:
+  - cookware
+type_of: oven
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  definition: A deep clay-lined oven used for cooking foods on skewers and breads against the heated inner wall.
+    Commercial examples use different fuels and housings; this identity does not establish installation
+    requirements or equivalence with other regional ovens.
+  review_note: Batch 4 researched draft. Identity boundaries are editorial decisions; no human review claimed.

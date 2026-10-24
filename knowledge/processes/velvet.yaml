@@ -1,0 +1,16 @@
+id: velvet
+kind: process
+canonical_name: velvet
+names:
+  en: velvet
+aliases: []
+categories:
+  - preparation-and-cutting
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  definition: Prepare small pieces of meat or seafood with a coating or marinade and an initial cooking step for
+    a silky result in a finished dish such as a stir-fry. Methods vary; egg white, baking soda and deep-frying
+    are not universal requirements.
+  review_note: Batch 4 researched draft. Identity boundaries are editorial decisions; no human review claimed.

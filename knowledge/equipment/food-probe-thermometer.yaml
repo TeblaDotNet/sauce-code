@@ -1,0 +1,16 @@
+id: food-probe-thermometer
+kind: equipment
+canonical_name: food probe thermometer
+names:
+  en: food probe thermometer
+aliases: []
+categories:
+  - measuring
+type_of: thermometer
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  definition: A thermometer with a sensing probe placed in food. The sensing area and response time depend on
+    its design; a probe shape does not mean the whole instrument can remain in an oven.
+  review_note: Batch 4 researched draft. Identity boundaries are editorial decisions; no human review claimed.

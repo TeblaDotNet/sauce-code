@@ -1,0 +1,15 @@
+id: pin-bone
+kind: process
+canonical_name: pin bone
+names:
+  en: pin bone
+aliases: []
+categories:
+  - preparation-and-cutting
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  definition: Remove the small pin bones that can remain in a fish fillet. This is a specific finishing
+    operation after filleting, not a synonym for removing every bone from any animal.
+  review_note: Batch 4 researched draft. Identity boundaries are editorial decisions; no human review claimed.

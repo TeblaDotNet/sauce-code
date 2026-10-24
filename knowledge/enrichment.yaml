@@ -1268,6 +1268,14 @@
       sources:
         - nchfp-blanch
       review_version: 0.1
+    - id: batch-4-distinction
+      role: context
+      text: A lifting strainer can remove a batch of food while retaining the blanching water in the pot. This
+        differs from draining the whole pot through a colander and can be useful when the recipe calls for
+        successive batches.
+      sources:
+        - b4-spider
+      review_version: 0.1
   resources:
     - resource: nchfp-blanch
       role: introduction
@@ -3634,6 +3642,13 @@
       sources:
         - cia-moist-heat
       review_version: 0.1
+    - id: batch-4-distinction
+      role: context
+      text: A covered bamboo basket is one equipment arrangement for steaming. Its slatted base admits steam while
+        holding the food; the basket is not immersed like the food in a pot of boiling water.
+      sources:
+        - b4-bamboo
+      review_version: 0.1
   resources:
     - resource: cia-moist-heat
       role: introduction
@@ -3690,6 +3705,14 @@
         texture and doneness cues rather than assuming every oven finishes identically."
       sources:
         - kab-success
+      review_version: 0.1
+    - id: batch-4-distinction
+      role: context
+      text: A cake’s surface colour, spring and interior crumb provide different cues. Inserting a tester inspects a
+        small part of the crumb; read that result with the recipe’s other cues rather than treating one clean
+        probe as a universal endpoint for every baked food.
+      sources:
+        - b4-test-cake
       review_version: 0.1
   resources:
     - resource: kab-success
@@ -3806,6 +3829,14 @@
       text: Uniformly cut pieces cook more evenly; crowded batches can steam instead of frying.
       sources:
         - cia-techniques
+      review_version: 0.1
+    - id: batch-4-distinction
+      role: context
+      text: Velveting can prepare a protein before the final stir-fry. The initial treatment and the later mixing
+        with vegetables or sauce are separate stages; a finished stir-fry need not obtain all of its texture
+        from the final toss in the wok.
+      sources:
+        - b4-velvet
       review_version: 0.1
   resources:
     - resource: cia-techniques
@@ -3991,6 +4022,14 @@
         has already been blind-baked.
       sources:
         - b2-dock
+      review_version: 0.1
+    - id: batch-4-distinction
+      role: context
+      text: Par-baking also applies to foods such as bread rolls. Blind-baking describes the absence of the eventual
+        filling, while par-baking describes an incomplete bake; an empty crust may be either partly or fully
+        baked.
+      sources:
+        - b4-parbake
       review_version: 0.1
   resources:
     - resource: kab-blind-bake
@@ -4696,6 +4735,14 @@
       sources:
         - oxo-draining
       review_version: 0.1
+    - id: batch-4-distinction
+      role: context
+      text: A colander receives food and liquid poured into it. A spider strainer instead lifts portions out of the
+        cooking vessel, leaving most liquid in place. These are different ways to drain food, even if either
+        can handle a large pasta shape.
+      sources:
+        - b4-spider
+      review_version: 0.1
   resources:
     - resource: oxo-draining
       role: introduction
@@ -5027,6 +5074,14 @@
       sources:
         - kab-pie-pan
       review_version: 0.1
+    - id: batch-4-distinction
+      role: context
+      text: The dish supports the pastry through either a partial or a full preliminary bake. Which endpoint is
+        needed depends on whether the filling will be baked later; the vessel alone does not determine that
+        sequence.
+      sources:
+        - b4-pie
+      review_version: 0.1
   resources:
     - resource: kab-pie-pan
       role: introduction
@@ -5258,6 +5313,14 @@
         surrounding cooking environment; a food probe describes the region around its sensing area. These
         readings answer different questions, so an oven reading does not replace a measurement within the
         food.
+      sources:
+        - fsis-thermometers
+      review_version: 0.1
+    - id: batch-4-distinction
+      role: context
+      text: A stem thermometer may sense along a length of probe rather than only at its tip. The displayed number
+        can therefore represent a region of food; follow the instrument’s sensing-area guidance instead of
+        assuming that touching a point measures only that point.
       sources:
         - fsis-thermometers
       review_version: 0.1
@@ -7419,27 +7482,38 @@
       review_version: 0.1
     - id: purpose
       role: purpose
-      text: A marinade adds flavour and may change texture. Oil, acid and seasonings are common components, but the recipe determines the mixture.
+      text: A marinade adds flavour and may change texture. Oil, acid and seasonings are common components, but the
+        recipe determines the mixture.
       sources:
         - fsis-brine
       review_version: 0.1
     - id: care
       role: care
-      text: Marinate raw meat, poultry and seafood in the refrigerator in a food-safe container, never on the counter.
+      text: Marinate raw meat, poultry and seafood in the refrigerator in a food-safe container, never on the
+        counter.
       sources:
         - foodsafe-four-steps
       review_version: 0.1
     - id: mistakes
       role: mistakes
-      text: Reserve a clean portion of marinade before adding raw meat if it will be used as a finishing sauce. Used raw-meat marinade must be brought to a boil before reuse; it is not a ready-to-serve sauce.
+      text: Reserve a clean portion of marinade before adding raw meat if it will be used as a finishing sauce. Used
+        raw-meat marinade must be brought to a boil before reuse; it is not a ready-to-serve sauce.
       sources:
         - fda-refrigerator
       review_version: 0.1
     - id: judgement
       role: judgement
-      text: Marinating is a preparation step. It does not replace the cooking needed to make raw meat or poultry safe.
+      text: Marinating is a preparation step. It does not replace the cooking needed to make raw meat or poultry
+        safe.
       sources:
         - foodsafe-four-steps
+      review_version: 0.1
+    - id: batch-4-distinction
+      role: context
+      text: A velveting marinade may include starch as part of a coating before cooking. This is a particular
+        texture-oriented use of marinating, not a reason to add starch or baking soda to every marinade.
+      sources:
+        - b4-velvet
       review_version: 0.1
   resources:
     - resource: fsis-brine
@@ -7883,15 +7957,24 @@
   editorial:
     - id: summary
       role: summary
-      text: Baking paper is heat-resistant non-stick paper intended for food preparation. It is used to line baking trays and tins and help release baked food.
+      text: Baking paper is heat-resistant non-stick paper intended for food preparation. It is used to line baking
+        trays and tins and help release baked food.
       sources:
         - kab-parchment
       review_version: 0.1
     - id: selection
       role: selection
-      text: Choose baking parchment suited to the temperature and task. Follow the package limits; a non-stick surface does not make paper safe near a flame or exposed heating element.
+      text: Choose baking parchment suited to the temperature and task. Follow the package limits; a non-stick
+        surface does not make paper safe near a flame or exposed heating element.
       sources:
         - kab-parchment
+      review_version: 0.1
+    - id: batch-4-distinction
+      role: context
+      text: Baking parchment can form a folded cooking parcel as well as line a tray. In a papillote, the joined
+        edges help retain moisture; laying a loose sheet over food does not reproduce the same enclosure.
+      sources:
+        - b4-papillote
       review_version: 0.1
   resources:
     - resource: kab-parchment
@@ -9852,15 +9935,24 @@
       review_version: 0.1
     - id: mechanism
       role: mechanism
-      text: For a chicken thigh, expose the bone and cut close to it to release the surrounding flesh. Keep the supporting hand away from the blade.
+      text: For a chicken thigh, expose the bone and cut close to it to release the surrounding flesh. Keep the
+        supporting hand away from the blade.
       sources:
         - gbc-chicken-thighs
       review_version: 0.1
     - id: uses
       role: uses
-      text: Deboning leaves a piece that can be stuffed, rolled or cooked without its central bone. It does not necessarily require removing the skin.
+      text: Deboning leaves a piece that can be stuffed, rolled or cooked without its central bone. It does not
+        necessarily require removing the skin.
       sources:
         - gbc-chicken-thighs
+      review_version: 0.1
+    - id: batch-4-distinction
+      role: context
+      text: Fish pin-boning is one narrower deboning task. It can involve extracting individual small bones from an
+        already cut fillet, unlike cutting an intact piece of meat away from a large central bone.
+      sources:
+        - b4-pinbone
       review_version: 0.1
   resources:
     - resource: gbc-chicken-thighs
@@ -9884,15 +9976,25 @@
       review_version: 0.1
     - id: mechanism
       role: mechanism
-      text: "Fish shape determines the cuts: round and flat fish have different structures. Follow the anatomy rather than treating one cutting pattern as universal."
+      text: "Fish shape determines the cuts: round and flat fish have different structures. Follow the anatomy
+        rather than treating one cutting pattern as universal."
       sources:
         - gbc-fish-prep
       review_version: 0.1
     - id: judgement
       role: judgement
-      text: Removing a fillet does not guarantee that all small bones are gone. Check the finished portion before cooking or serving.
+      text: Removing a fillet does not guarantee that all small bones are gone. Check the finished portion before
+        cooking or serving.
       sources:
         - gbc-fish-prep
+      review_version: 0.1
+    - id: batch-4-distinction
+      role: context
+      text: Pin-boning can follow the removal of a fillet. It removes small bones retained within the flesh rather
+        than separating the main slab from the skeleton; the two operations belong to different stages of fish
+        preparation.
+      sources:
+        - b4-pinbone
       review_version: 0.1
   resources:
     - resource: gbc-fish-prep
@@ -9981,6 +10083,14 @@
         surface.
       sources:
         - b2-dock
+      review_version: 0.1
+    - id: batch-4-distinction
+      role: context
+      text: Bread scoring creates planned places for a loaf’s surface to open during oven expansion. A bread lame
+        provides a controlled blade for that purpose; scoring the surface does not divide the dough into
+        separate portions.
+      sources:
+        - b4-lame
       review_version: 0.1
   resources:
     - resource: clubhouse-cooking-terms
@@ -10457,15 +10567,25 @@
   editorial:
     - id: summary
       role: summary
-      text: Butcher’s twine is food-safe string intended for tying food. It is used to bind roasts or truss poultry during cooking.
+      text: Butcher’s twine is food-safe string intended for tying food. It is used to bind roasts or truss poultry
+        during cooking.
       sources:
         - recteq-twine
       review_version: 0.1
     - id: selection
       role: selection
-      text: Choose twine sold for the cooking task. Recteq’s example is cotton; ordinary craft string is not established as a substitute by that specification.
+      text: Choose twine sold for the cooking task. Recteq’s example is cotton; ordinary craft string is not
+        established as a substitute by that specification.
       sources:
         - recteq-twine
+      review_version: 0.1
+    - id: batch-4-distinction
+      role: context
+      text: Twine can hold an external layer of fat against a roast during barding. Its role there is fastening the
+        covering, whereas larding introduces fat into the meat itself. The same string can support different
+        preparations without making them equivalent.
+      sources:
+        - b4-bard
       review_version: 0.1
   resources:
     - resource: recteq-twine
@@ -10495,9 +10615,18 @@
   editorial:
     - id: summary
       role: summary
-      text: A skewer is a long pointed rod, commonly made from wood or metal. It holds pieces of food together for cooking or serving.
+      text: A skewer is a long pointed rod, commonly made from wood or metal. It holds pieces of food together for
+        cooking or serving.
       sources:
         - clubhouse-cooking-terms
+      review_version: 0.1
+    - id: batch-4-distinction
+      role: context
+      text: In a tandoor, skewers support food within a deep heated chamber. That use needs a length and
+        construction suited to the oven; a short serving pick and a cooking skewer do not become
+        interchangeable because both are pointed rods.
+      sources:
+        - b4-tandoor
       review_version: 0.1
   resources:
     - resource: clubhouse-cooking-terms
@@ -10848,6 +10977,14 @@
         covered pan or is suitable for heating.
       sources:
         - landolakes-equipment
+      review_version: 0.1
+    - id: batch-4-distinction
+      role: context
+      text: Bamboo dim sum sets may combine several baskets and a separate cover. The basket, lid and water-heating
+        vessel are distinct parts of the arrangement; selecting a basket alone does not establish the fit of
+        the complete stack.
+      sources:
+        - b4-bamboo
       review_version: 0.1
   resources:
     - resource: landolakes-equipment
@@ -14332,6 +14469,14 @@
       sources:
         - b2-kettle
       review_version: 0.1
+    - id: batch-4-distinction
+      role: context
+      text: A stovetop kettle requires an external burner or hob; an electric kettle contains its own heating
+        system. A whistling lid describes a signal mechanism, not a shared heating method or proof that the
+        vessels can be exchanged between heat sources.
+      sources:
+        - b4-kettle
+      review_version: 0.1
   resources:
     - resource: b2-kettle
       role: introduction
@@ -14392,6 +14537,14 @@
       sources:
         - b2-brush
       review_version: 0.1
+    - id: batch-4-distinction
+      role: context
+      text: "Applying egg wash changes the finish of the dough surface. The brush distributes the chosen wash, but
+        it does not determine its ingredients: retain the recipe’s wash composition rather than treating every
+        brushing liquid as egg wash."
+      sources:
+        - b4-egg-wash
+      review_version: 0.1
   resources:
     - resource: b2-brush
       role: introduction
@@ -14432,6 +14585,14 @@
       role: summary
       text: A hand-operated mill pushes soft food through a perforated disc. It can separate skins or seeds while
         making puree, unlike a blender that cuts the mixture together.
+      sources:
+        - b2-mill
+      review_version: 0.1
+    - id: batch-4-distinction
+      role: context
+      text: "Changing the perforated disc changes the texture of what passes through: the documented mill uses
+        different discs for smooth sauces and coarser potato preparations. This is mechanical selection, not
+        merely running the same blade for longer."
       sources:
         - b2-mill
       review_version: 0.1
@@ -15322,6 +15483,14 @@
       sources:
         - b3-truss
       review_version: 0.1
+    - id: batch-4-distinction
+      role: context
+      text: Trussing holds the shape of a bird, whereas tying on a bard holds an external covering of fat. Both can
+        use kitchen twine, but the shared fastening tool does not make barding and trussing the same
+        preparation.
+      sources:
+        - b4-bard
+      review_version: 0.1
   resources:
     - resource: b3-truss
       role: introduction
@@ -15343,4 +15512,519 @@
     - resource: landolakes-equipment
       role: introduction
       order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: rice-cooker
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: An appliance designed to cook rice with controlled heating. Basic models and programmed models manage
+        different parts of soaking, cooking and steaming; a rice-cooker label does not imply pressure cooking
+        or every grain setting.
+      sources:
+        - b4-rice
+      review_version: 0.1
+  resources:
+    - resource: b4-rice
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: tandoor
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A deep clay-lined oven used for cooking foods on skewers and breads against the heated inner wall.
+        Commercial examples use different fuels and housings; this identity does not establish installation
+        requirements or equivalence with other regional ovens.
+      sources:
+        - b4-tandoor
+      review_version: 0.1
+  resources:
+    - resource: b4-tandoor
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: tortilla-press
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A hinged pair of plates with a lever for flattening portions of dough. Pressing shapes the tortilla
+        before cooking; the hand press is not itself a heated griddle.
+      sources:
+        - b4-tortilla
+      review_version: 0.1
+  resources:
+    - resource: b4-tortilla
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: equipment
+        id: comal
+      note: A hinged pair of plates with a lever for flattening portions of dough. Pressing shapes the tortilla
+        before cooking; the hand press is not itself a heated griddle.
+      sources:
+        - b4-tortilla
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: bamboo-steamer
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A bamboo steaming basket with a slatted base, commonly used with a cover and sometimes in tiers. It
+        supports food in steam rather than being the vessel that boils the water.
+      sources:
+        - b4-bamboo
+      review_version: 0.1
+  resources:
+    - resource: b4-bamboo
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: spider-strainer
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A long-handled open wire basket for lifting food from cooking liquid while allowing liquid to drain. Its
+        coarse, open structure serves a different task from fine filtration.
+      sources:
+        - b4-spider
+      review_version: 0.1
+  resources:
+    - resource: b4-spider
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: equipment
+        id: chinois
+      note: A long-handled open wire basket for lifting food from cooking liquid while allowing liquid to drain. Its
+        coarse, open structure serves a different task from fine filtration.
+      sources:
+        - b4-spider
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: chinois
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A conical strainer used to refine stocks, sauces and purees. Fine-mesh versions are documented, but the
+        name alone does not specify one aperture size or make every conical colander equivalent.
+      sources:
+        - b4-chinois
+      review_version: 0.1
+  resources:
+    - resource: b4-chinois
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: cookie-cutter
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A shaped cutting outline pressed into rolled cookie dough to produce repeated shapes. It cuts the
+        outline rather than merely embossing a pattern on the surface.
+      sources:
+        - b4-cutters
+      review_version: 0.1
+  resources:
+    - resource: b4-cutters
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: bread-lame
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A handled blade for scoring bread dough before baking. It makes controlled surface cuts that guide
+        expansion; a bare replacement razor blade is not the complete tool.
+      sources:
+        - b4-lame
+      review_version: 0.1
+  resources:
+    - resource: b4-lame
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: used-for
+      target:
+        kind: process
+        id: score
+      note: A handled blade for scoring bread dough before baking. It makes controlled surface cuts that guide
+        expansion; a bare replacement razor blade is not the complete tool.
+      sources:
+        - b4-lame
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: cake-tester
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A slender probe used to inspect the crumb of a cake by insertion and withdrawal. It provides a texture
+        cue rather than a numerical internal-temperature reading.
+      sources:
+        - b3-ateco
+      review_version: 0.1
+  resources:
+    - resource: b3-ateco
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: oven-thermometer
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A thermometer intended to measure the air temperature inside an oven. It checks the cooking environment,
+        not the temperature inside the food.
+      sources:
+        - b4-oven-therm
+      review_version: 0.1
+  resources:
+    - resource: b4-oven-therm
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: equipment
+        id: food-probe-thermometer
+      note: A thermometer intended to measure the air temperature inside an oven. It checks the cooking environment,
+        not the temperature inside the food.
+      sources:
+        - b4-oven-therm
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: food-probe-thermometer
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A thermometer with a sensing probe placed in food. The sensing area and response time depend on its
+        design; a probe shape does not mean the whole instrument can remain in an oven.
+      sources:
+        - fsis-thermometers
+      review_version: 0.1
+  resources:
+    - resource: fsis-thermometers
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: stovetop-kettle
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A pouring vessel for heating water on a stove or hob. It uses an external heat source rather than an
+        integrated electric heater; whistles and compatible hob types depend on the model.
+      sources:
+        - b4-kettle
+      review_version: 0.1
+  resources:
+    - resource: b4-kettle
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: equipment
+        id: electric-kettle
+      note: A pouring vessel for heating water on a stove or hob. It uses an external heat source rather than an
+        integrated electric heater; whistles and compatible hob types depend on the model.
+      sources:
+        - b4-kettle
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: garlic-press
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A hand tool that compresses garlic cloves through a perforated plate. It crushes and extrudes the garlic
+        rather than making the controlled pieces of knife mincing.
+      sources:
+        - b4-garlic
+      review_version: 0.1
+  resources:
+    - resource: b4-garlic
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: melon-baller
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A small rounded scoop used to cut ball-shaped portions from melon or other suitable flesh. Scoop
+        diameter determines the portion shape; it is not a calibrated measuring spoon.
+      sources:
+        - b4-melon
+      review_version: 0.1
+  resources:
+    - resource: b4-melon
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: egg-separator
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A tool for separating an egg yolk from its white. Bowl-mounted designs can hold the separator above a
+        receiving bowl; shell-catching features are model-specific.
+      sources:
+        - b4-egg-detail
+      review_version: 0.1
+  resources:
+    - resource: b4-egg-detail
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: lard
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Insert strips of fat into a piece of meat, often with a larding needle. This puts fat within the meat
+        rather than covering its outside with a sheet of fat.
+      sources:
+        - b4-lard
+      review_version: 0.1
+  resources:
+    - resource: b4-lard
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: process
+        id: bard
+      note: Insert strips of fat into a piece of meat, often with a larding needle. This puts fat within the meat
+        rather than covering its outside with a sheet of fat.
+      sources:
+        - b4-lard
+      review_version: 0.1
+- target:
+    kind: process
+    id: bard
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Cover a piece of meat or other food with thin sheets of fat before cooking. The fat is outside the food;
+        larding instead inserts strips into it.
+      sources:
+        - b4-bard
+      review_version: 0.1
+  resources:
+    - resource: b4-bard
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: cook-en-papillote
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Cook food in a closed parcel that retains its moisture, commonly folded from suitable baking parchment.
+        Closing the parcel is part of the method; simply lining a tray with paper is not cooking en papillote.
+      sources:
+        - b4-papillote
+      review_version: 0.1
+  resources:
+    - resource: b4-papillote
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: commonly-used-with
+      target:
+        kind: equipment
+        id: baking-paper
+      note: Cook food in a closed parcel that retains its moisture, commonly folded from suitable baking parchment.
+        Closing the parcel is part of the method; simply lining a tray with paper is not cooking en papillote.
+      sources:
+        - b4-papillote
+      review_version: 0.1
+- target:
+    kind: process
+    id: velvet
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Prepare small pieces of meat or seafood with a coating or marinade and an initial cooking step for a
+        silky result in a finished dish such as a stir-fry. Methods vary; egg white, baking soda and
+        deep-frying are not universal requirements.
+      sources:
+        - b4-velvet
+      review_version: 0.1
+  resources:
+    - resource: b4-velvet
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: commonly-used-with
+      target:
+        kind: process
+        id: stir-fry
+      note: Prepare small pieces of meat or seafood with a coating or marinade and an initial cooking step for a
+        silky result in a finished dish such as a stir-fry. Methods vary; egg white, baking soda and
+        deep-frying are not universal requirements.
+      sources:
+        - b4-velvet
+      review_version: 0.1
+- target:
+    kind: process
+    id: crimp
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Press or pinch pastry edges into a repeated pattern, sometimes also sealing joined edges. A fork can
+        make a crimp; the action is distinct from puncturing the pastry surface to dock it.
+      sources:
+        - b4-crimp
+      review_version: 0.1
+  resources:
+    - resource: b4-crimp
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: process
+        id: dock
+      note: Press or pinch pastry edges into a repeated pattern, sometimes also sealing joined edges. A fork can
+        make a crimp; the action is distinct from puncturing the pastry surface to dock it.
+      sources:
+        - b4-crimp
+      review_version: 0.1
+- target:
+    kind: process
+    id: egg-wash
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Apply an egg-based liquid to pastry or dough before baking to influence surface colour and shine. This
+        process identity denotes applying the wash, not a fixed recipe for the wash mixture.
+      sources:
+        - b4-egg-wash
+      review_version: 0.1
+  resources:
+    - resource: b4-egg-wash
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: commonly-used-with
+      target:
+        kind: equipment
+        id: pastry-brush
+      note: Apply an egg-based liquid to pastry or dough before baking to influence surface colour and shine. This
+        process identity denotes applying the wash, not a fixed recipe for the wash mixture.
+      sources:
+        - b4-egg-wash
+      review_version: 0.1
+- target:
+    kind: process
+    id: par-bake
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Bake food partway so that baking can be completed later. This is broader than blind-baking an unfilled
+        pastry case and is not simply reheating a fully baked item.
+      sources:
+        - b4-parbake
+      review_version: 0.1
+  resources:
+    - resource: b4-parbake
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: process
+        id: blind-bake
+      note: Bake food partway so that baking can be completed later. This is broader than blind-baking an unfilled
+        pastry case and is not simply reheating a fully baked item.
+      sources:
+        - b4-parbake
+      review_version: 0.1
+- target:
+    kind: process
+    id: pin-bone
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Remove the small pin bones that can remain in a fish fillet. This is a specific finishing operation
+        after filleting, not a synonym for removing every bone from any animal.
+      sources:
+        - b4-pinbone
+      review_version: 0.1
+  resources:
+    - resource: b4-pinbone
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: commonly-used-with
+      target:
+        kind: process
+        id: fillet
+      note: Remove the small pin bones that can remain in a fish fillet. This is a specific finishing operation
+        after filleting, not a synonym for removing every bone from any animal.
+      sources:
+        - b4-pinbone
       review_version: 0.1

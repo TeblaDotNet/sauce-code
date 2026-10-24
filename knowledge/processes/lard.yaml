@@ -1,0 +1,15 @@
+id: lard
+kind: process
+canonical_name: lard
+names:
+  en: lard
+aliases: []
+categories:
+  - preparation-and-cutting
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  definition: Insert strips of fat into a piece of meat, often with a larding needle. This puts fat within the
+    meat rather than covering its outside with a sheet of fat.
+  review_note: Batch 4 researched draft. Identity boundaries are editorial decisions; no human review claimed.

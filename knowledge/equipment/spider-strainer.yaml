@@ -1,0 +1,17 @@
+id: spider-strainer
+kind: equipment
+canonical_name: spider strainer
+names:
+  en: spider strainer
+aliases:
+  - spider skimmer
+categories:
+  - preparation-tools
+type_of: strainer
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  definition: A long-handled open wire basket for lifting food from cooking liquid while allowing liquid to
+    drain. Its coarse, open structure serves a different task from fine filtration.
+  review_note: Batch 4 researched draft. Identity boundaries are editorial decisions; no human review claimed.

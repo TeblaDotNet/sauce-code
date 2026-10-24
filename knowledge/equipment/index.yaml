@@ -3,7 +3,7 @@ schema_version: '0.3'
 status: draft8-vocabulary-review-pass-1
 current_recipe_count: 410
 legacy_evidence: bbc-food-10 vocabulary observations retained; recipe texts not distributed
-canonical_concept_count: 195
+canonical_concept_count: 210
 entries:
 - id: air-fryer
   canonical_name: air fryer
@@ -785,3 +785,63 @@ entries:
   canonical_name: tawa
   file: tawa.yaml
   aliases: 1
+- id: rice-cooker
+  canonical_name: rice cooker
+  file: rice-cooker.yaml
+  aliases: 0
+- id: tandoor
+  canonical_name: tandoor
+  file: tandoor.yaml
+  aliases: 1
+- id: tortilla-press
+  canonical_name: tortilla press
+  file: tortilla-press.yaml
+  aliases: 0
+- id: bamboo-steamer
+  canonical_name: bamboo steamer
+  file: bamboo-steamer.yaml
+  aliases: 0
+- id: spider-strainer
+  canonical_name: spider strainer
+  file: spider-strainer.yaml
+  aliases: 1
+- id: chinois
+  canonical_name: chinois
+  file: chinois.yaml
+  aliases: 0
+- id: cookie-cutter
+  canonical_name: cookie cutter
+  file: cookie-cutter.yaml
+  aliases: 0
+- id: bread-lame
+  canonical_name: bread lame
+  file: bread-lame.yaml
+  aliases: 1
+- id: cake-tester
+  canonical_name: cake tester
+  file: cake-tester.yaml
+  aliases: 0
+- id: oven-thermometer
+  canonical_name: oven thermometer
+  file: oven-thermometer.yaml
+  aliases: 0
+- id: food-probe-thermometer
+  canonical_name: food probe thermometer
+  file: food-probe-thermometer.yaml
+  aliases: 0
+- id: stovetop-kettle
+  canonical_name: stovetop kettle
+  file: stovetop-kettle.yaml
+  aliases: 0
+- id: garlic-press
+  canonical_name: garlic press
+  file: garlic-press.yaml
+  aliases: 0
+- id: melon-baller
+  canonical_name: melon baller
+  file: melon-baller.yaml
+  aliases: 0
+- id: egg-separator
+  canonical_name: egg separator
+  file: egg-separator.yaml
+  aliases: 0
