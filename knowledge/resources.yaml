@@ -5137,3 +5137,490 @@
   review_scope: text
   notes: Public source text consulted for provisional original culinary explanations. Product examples do
     not establish universal formulations, substitutions or operating limits.
+
+- id: ig3-adobo
+  title: Adobo with Pepper
+  url: https://www.goya.com/en/products/adobo-with-pepper/
+  publisher: Goya
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig3-five
+  title: Chinese Five Spice
+  url: https://www.mccormick.com/products/mccormick-culinary-chinese-five-spice-1-lb
+  publisher: McCormick
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig3-cumin
+  title: Cumin Seed
+  url: https://www.mccormick.com/products/mccormick-r-cumin-seed-0-95-oz
+  publisher: McCormick
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig3-fenugreekleaf
+  title: Fenugreek Leaves
+  url: https://www.trsfood.com/product/trs-fenugreek-leaves/
+  publisher: TRS
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig3-herbes
+  title: Herbes de Provence
+  url: https://www.schwartz.co.uk/products/schwartz-herbes-de-provence
+  publisher: Schwartz
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig3-mixed
+  title: Mixed Spice
+  url: https://www.mccormickforchefs.co.uk/brands/schwartz/mixed-spice
+  publisher: Schwartz
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig3-saffron
+  title: Saffron
+  url: https://www.mccormickscienceinstitute.com/resources/culinary-spices/herbs-spices/saffron
+  publisher: McCormick Science Institute
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig3-sage
+  title: Sage
+  url: https://extension.illinois.edu/herbs/sage
+  publisher: Illinois Extension
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig3-tarragon
+  title: Tarragon, French
+  url: https://extension.illinois.edu/herbs/tarragon-french
+  publisher: Illinois Extension
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig3-zaatar
+  title: Za’atar
+  url: https://www.burlapandbarrel.com/products/zaatar
+  publisher: Burlap & Barrel
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig3-celery
+  title: Whole Celery Seed
+  url: https://www.mccormick.com/products/mccormick-r-whole-celery-seed-0-95-oz
+  publisher: McCormick
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig3-coriander
+  title: Coriander Powder
+  url: https://www.trsfood.com/product/trs-coriander-powder/
+  publisher: TRS
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig3-fenugreek
+  title: Fenugreek Ground
+  url: https://www.schwartz.co.uk/products/schwartz-fenugreek-ground
+  publisher: Schwartz
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig3-fenugreekseed
+  title: Fenugreek
+  url: https://www.mccormickscienceinstitute.com/resources/culinary-spices/herbs-spices/fenugreek
+  publisher: McCormick Science Institute
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig3-poppy
+  title: Poppy Seed
+  url: https://www.mccormick.com/products/mccormick-r-poppy-seed-1-25-oz
+  publisher: McCormick
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig3-oldbay
+  title: OLD BAY products and culinary uses
+  url: https://www.mccormick.com/pages/brands/old-bay
+  publisher: McCormick
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig3-essence
+  title: Professional product guide — vanilla flavouring
+  url: https://www.oetker-professional.co.uk/wp-content/uploads/2023/07/DOP22176-OM-Product-guide-compressed.pdf
+  publisher: Dr. Oetker Professional
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig3-vanillasugar
+  title: Vanilla Sugar
+  url: https://shop.kingarthurbaking.com/items/vanilla-sugar
+  publisher: King Arthur Baking
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig3-vanillabean
+  title: Gourmet Vanilla Beans
+  url: https://nielsenmassey.com/products/gourmet-vanilla-beans/
+  publisher: Nielsen-Massey
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig3-vegoil
+  title: Pure Vegetable Oil
+  url: https://crisco.com/products/pure-vegetable-oil/
+  publisher: Crisco
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig3-peanutoil
+  title: Peanut Oil
+  url: https://asbe.org/article/peanut-oil/
+  publisher: American Society of Baking
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig3-sunfloweroil
+  title: Sunflower Oil — Cold Pressed
+  url: https://biona.co.uk/products/sunflower-oil-cold-pressed?currency=GBP&variant=41218654273588
+  publisher: Biona
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig3-sunflower
+  title: Frequently Asked Questions
+  url: https://www.sunflowernsa.com/all-about/faq/
+  publisher: National Sunflower Association
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig3-spray
+  title: PAM Foodservice Cooking Spray
+  url: https://www.conagrafoodservice.com/products/pam-foodservice-cooking-spray
+  publisher: Conagra Foodservice
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig3-shortening
+  title: What Is Shortening?
+  url: https://crisco.com/what-is-shortening/
+  publisher: Crisco
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig3-yukon
+  title: Yukon Gold
+  url: https://inspection.canada.ca/en/plant-health/potatoes/potato-varieties/yukon-gold
+  publisher: Canadian Food Inspection Agency
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig3-turnip
+  title: How to grow turnips
+  url: https://www.rhs.org.uk/vegetables/turnips/grow-your-own
+  publisher: Royal Horticultural Society
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig3-celeriac
+  title: How to grow celeriac
+  url: https://www.rhs.org.uk/vegetables/celeriac/grow-your-own
+  publisher: Royal Horticultural Society
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig3-tomatillo
+  title: Growing tomatillos and ground cherries
+  url: https://es.extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-tomatillos-and-ground-cherries
+  publisher: University of Minnesota Extension
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig3-clementine
+  title: Fina clementine
+  url: https://citrusvariety.ucr.edu/crc4011
+  publisher: University of California, Riverside
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig3-whitebeans
+  title: "Cannellini and Great Northern beans: what is the difference?"
+  url: https://www.camelliabrand.com/cannellini-great-northerns-whats-the-difference/amp/
+  publisher: Camellia Brand
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig3-macadamia
+  title: The beginner’s guide to cooking with macadamia nuts
+  url: https://www.australian-macadamias.org/the-beginners-guide-to-cooking-with-macadamia-nuts/
+  publisher: Australian Macadamias
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig3-shoulder
+  title: Pork Shoulder
+  url: https://new.pork.org/cuts/pork-shoulder/
+  publisher: National Pork Board
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig3-marrow
+  title: Beef Bones
+  url: https://www.beefitswhatsfordinner.com/cuts/cut/2751/beef-bones
+  publisher: Beef Checkoff
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig3-roast
+  title: "Alternative Beef Cuts: Planning Your Meal"
+  url: https://animalscience.unl.edu/extension-outreach/meat-science/meat-your-needs-alternative-beef-cuts-planning-your-meal/
+  publisher: University of Nebraska–Lincoln
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig3-fishstock
+  title: How to make fish stock
+  url: https://www.greatbritishchefs.com/how-to-cook/how-to-make-fish-stock
+  publisher: Great British Chefs
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig3-guanciale
+  title: Guanciale
+  url: https://www.villanisalumi.it/en/specialities/other-specialities/guanciale
+  publisher: Villani
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig3-bouillon
+  title: About Better Than Bouillon
+  url: https://www.betterthanbouillon.com/about-us/
+  publisher: Better Than Bouillon
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig3-stockcube
+  title: Vegetable Stock Cubes
+  url: https://www.knorr.com/uk/p/vegetable-stock-cubes.html/05000184161165
+  publisher: Knorr
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig3-dashi
+  title: Dashi
+  url: https://www.kikkoman.com/en/cookbook/glossary/dashi.html
+  publisher: Kikkoman
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig3-franks
+  title: Frank’s RedHot Original Cayenne Pepper Hot Sauce
+  url: https://www.mccormick.com/products/franks-redhot-original-cayenne-pepper-hot-sauce-23-fl-oz
+  publisher: Frank’s RedHot / McCormick
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig3-smoke
+  title: Colgin Liquid Smoke products
+  url: https://buyliquidsmoke.com/
+  publisher: Colgin
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig3-barbecue
+  title: Foodservice sauce range
+  url: https://www.sbrfoodservice.com/products
+  publisher: Sweet Baby Ray’s
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig3-bechamel
+  title: White sauce
+  url: https://tollbit.bbcgoodfood.com/recipes/white-sauce
+  publisher: Good Food
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig3-chipotle
+  title: Chipotle Peppers in Adobo Sauce
+  url: https://www.goya.com/en/products/chipotle-peppers-in-adobo-sauce/
+  publisher: Goya
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig3-vinegar
+  title: Organic Apple Cider Vinegar
+  url: https://www.bragg.com/products/organic-apple-cider-vinegar?variant=39529423011936
+  publisher: Bragg
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig3-flakes
+  title: Corn Flakes
+  url: https://www.kelloggs.co.uk/en_GB/brands/kellogg-s-corn-flakes-.html
+  publisher: Kellogg’s
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig3-dukkah
+  title: Dukkah
+  url: https://www.bbcgoodfoodme.com/recipes/dukkah/
+  publisher: BBC Good Food Middle East
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig3-garlic
+  title: Garlic Paste
+  url: https://www.gourmetgarden.com/en-ca/products/paste/garlic
+  publisher: Gourmet Garden
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig3-half
+  title: Half & Half
+  url: https://www.landolakes.com/products/whipping-cream-and-half-half/half-half/
+  publisher: Land O’Lakes
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig3-matcha
+  title: Matcha
+  url: https://ippodotea.com/collections/matcha?filterFlavorBalanced=true
+  publisher: Ippodo Tea
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig3-orange
+  title: Orange Juice
+  url: https://www.tropicana.com/products/orange-juice/
+  publisher: Tropicana
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig3-noodle
+  title: Thin Rice Noodles
+  url: https://www.mccormick.com/collections/thai-kitchen/products/thai-kitchen-r-gluten-free-thin-rice-noodles-8-8-oz
+  publisher: Thai Kitchen / McCormick
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig3-baguette
+  title: Classic Baguettes
+  url: https://www.kingarthurbaking.com/recipes/classic-baguettes-recipe
+  publisher: King Arthur Baking
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.

@@ -23414,3 +23414,1713 @@
       role: introduction
       order: 1
       review_version: 0.1
+
+- target:
+    kind: ingredient
+    id: sesame
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Small seeds used for their nutty flavour and texture. Whole sesame adds a fine crunch to breads,
+        coatings and garnishes, while ground sesame contributes a different texture.
+      sources: &a1
+        - mccormick-sesame
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: "Toasting develops the seed’s aroma. Keep whole, toasted and ground instructions distinct: a
+        scattering of seeds does not behave like a smooth paste. The general name does not establish
+        whether the seeds are hulled or specify one particular colour."
+      sources: *a1
+      review_version: 0.1
+  resources:
+    - resource: mccormick-sesame
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: vegetable-oil
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: An oil made from plant ingredients, commonly sold as a liquid cooking fat. The cited vegetable oil
+        is soybean oil, illustrating one product rather than defining the whole category.
+      sources: &a2
+        - ig3-vegoil
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Read the bottle when a recipe needs a particular flavour or cooking application. Vegetable oil is
+        not a promise of one plant source or one blend. A measured liquid oil also behaves differently
+        from a solid fat when mixed into dough or batter.
+      sources: *a2
+      review_version: 0.1
+  resources:
+    - resource: ig3-vegoil
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: adobo-seasoning
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A prepared dry seasoning mixture. The cited example combines salt, garlic, pepper and herbs or
+        spices for seasoning meat and vegetables.
+      sources: &a3
+        - ig3-adobo
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: This pantry use of adobo describes a blend, not a single spice. Check the actual formula and its
+        salt contribution before adding further seasoning. Adobo seasoning should not be assumed to
+        supply the liquid or texture of an adobo sauce, or to define every dish called adobo.
+      sources: *a3
+      review_version: 0.1
+  resources:
+    - resource: ig3-adobo
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: bouillon
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A term used for broth and for concentrated products that supply broth-like flavour. Pantry forms
+        include cubes, powders and pastes; the cited producer makes concentrated bases.
+      sources: &a4
+        - ig3-bouillon
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Identify the form before measuring. A spoonful of concentrate is not a spoonful of prepared broth,
+        and products may contribute substantial seasoning as well as flavour. Follow the recipe and
+        product’s dilution instructions rather than treating all bouillon as ready-to-use liquid.
+      sources: *a4
+      review_version: 0.1
+  resources:
+    - resource: ig3-bouillon
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: cardamom-seeds
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: The small aromatic seeds contained inside cardamom pods. They are used as a spice, either left
+        whole or crushed and ground for distribution through a dish.
+      sources: &a5
+        - ig2-cardamom
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: A recipe asking for seeds has specified a different measured form from whole pods. Remove the pod
+        covering when that is what the preparation requires, and retain whole or ground instructions. Do
+        not assume a count of pods corresponds to a fixed spoonful of seed.
+      sources: *a5
+      review_version: 0.1
+  resources:
+    - resource: ig2-cardamom
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: chinese-five-spice
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: An aromatic spice blend used in savoury cooking and baking. Warm, sweet-smelling spices give it a
+        layered character; the cited product includes anise, cinnamon, star anise, cloves and ginger.
+      sources: &a6
+        - ig3-five
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: The name does not guarantee the same formula in every jar. Check the product and recipe rather than
+        treating it as one spice with a fixed strength. Its aromatic sweetness also does not mean it
+        supplies sugar to a preparation.
+      sources: *a6
+      review_version: 0.1
+  resources:
+    - resource: ig3-five
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: cumin-seeds
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A whole seed spice with a warm, earthy and nutty character. Cumin seeds are used in dishes such as
+        curries, lentils and chilli preparations.
+      sources: &a7
+        - ig3-cumin
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Whole seeds leave small pieces in a dish; ground cumin disperses more evenly. Preserve instructions
+        to toast, crush or grind instead of silently substituting powder. The seed form explains texture
+        and handling, but does not establish a universal whole-to-ground measurement ratio.
+      sources: *a7
+      review_version: 0.1
+  resources:
+    - resource: ig3-cumin
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: dill-weed
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: The feathery leaves of dill used as an herb. Dill weed identifies the foliage rather than the
+        plant’s seeds, which have their own culinary use.
+      sources: &a8
+        - ig2-dill
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Follow fresh or dried qualifiers when preparing the amount. Leafy sprigs, chopped leaves and dried
+        herb are different measured forms. Fine foliage can contribute herb flavour without the seed
+        texture; neither the shared plant nor the name makes dill seed an automatic replacement.
+      sources: *a8
+      review_version: 0.1
+  resources:
+    - resource: ig2-dill
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: fenugreek-leaves
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: The leaves of fenugreek, also encountered as methi. They provide an aromatic, bittersweet character
+        to preparations such as curries and stews.
+      sources: &a9
+        - ig3-fenugreekleaf
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Keep the leaf form and any fresh or dried qualifier attached to the ingredient. Leaves bring a
+        different texture from ground seed, and a recipe naming one has not requested the other. The
+        cited leaf product illustrates culinary use without defining a universal quantity or strength.
+      sources: *a9
+      review_version: 0.1
+  resources:
+    - resource: ig3-fenugreekleaf
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: herbes-de-provence
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A mixture of herbs used to season vegetables, meat and stews. The cited blend includes herbs such
+        as rosemary, thyme, marjoram and oregano.
+      sources: &a10
+        - ig3-herbes
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Treat it as a prepared blend rather than a single herb. Its composition can vary, so inspect the
+        jar when a particular flavour matters. The name alone does not require lavender or guarantee that
+        two products will give the same balance at the same volume.
+      sources: *a10
+      review_version: 0.1
+  resources:
+    - resource: ig3-herbes
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: lemon-peel
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: The outer covering of a lemon. The coloured outer layer supplies aromatic zest, while the white
+        pith beneath it can contribute bitterness.
+      sources: &a11
+        - usu-lemons
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: When the recipe asks for zest, remove the coloured surface without taking much pith. Broader pieces
+        of peel may include more layers and need different preparation. Fresh peel, dried peel and
+        candied peel should retain their qualifiers rather than being treated as the same measured
+        ingredient.
+      sources: *a11
+      review_version: 0.1
+  resources:
+    - resource: usu-lemons
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: mixed-spice
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: An aromatic spice mixture commonly used in sweet baking. The cited blend combines spices including
+        cinnamon, coriander, caraway, nutmeg, ginger and cloves.
+      sources: &a12
+        - ig3-mixed
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: "Mixed spice contributes several flavours rather than identifying one plant. Check the recipe and
+        the jar’s composition: it is not another name for allspice. A sweet-smelling blend need not
+        contain sugar, and another brand may balance its spices differently."
+      sources: *a12
+      review_version: 0.1
+  resources:
+    - resource: ig3-mixed
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: peanut-oil
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: An edible oil obtained from peanuts. Peanut oil is available in different processed forms,
+        including refined and roasted products, and is used as a liquid fat in food preparation.
+      sources: &a13
+        - ig3-peanutoil
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Choose the form specified for the dish rather than assuming every peanut oil has the same
+        character. A product intended for flavouring need not serve the same purpose as a general cooking
+        oil. The name alone does not establish a temperature limit or a dietary guarantee.
+      sources: *a13
+      review_version: 0.1
+  resources:
+    - resource: ig3-peanutoil
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: pork-shoulder
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A shoulder cut of pork commonly used for pulled pork, braises and slow-cooked dishes. It is a
+        different starting cut from a lean loin portion.
+      sources: &a14
+        - ig3-shoulder
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Check whether the recipe expects bone-in or boneless meat and retain any trimming instructions. A
+        whole shoulder and smaller pieces do not have the same handling needs. The cut helps explain a
+        recipe’s method, but its name supplies no fixed weight or cooking schedule.
+      sources: *a14
+      review_version: 0.1
+  resources:
+    - resource: ig3-shoulder
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: saffron
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A spice made from the dried stigmas of the saffron crocus. It contributes both aroma and yellow
+        colour to food, rather than acting solely as a colouring ingredient.
+      sources: &a15
+        - ig3-saffron
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Preserve instructions for threads or ground saffron and how the recipe incorporates them. A
+        visually similar yellow powder is not necessarily the same spice or flavour. This culinary
+        description does not provide identification advice for gathering plants or an automatic
+        replacement with another colouring spice.
+      sources: *a15
+      review_version: 0.1
+  resources:
+    - resource: ig3-saffron
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: sage
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: An aromatic culinary herb whose leaves are used fresh or dried. Common sage has distinctive
+        grey-green foliage; the leaves are the usual ingredient rather than the woody stems.
+      sources: &a16
+        - ig3-sage
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Prepare the leaf form requested by the recipe, keeping whole, chopped and dried distinctions
+        visible. A whole fresh leaf contributes a different physical texture from finely crumbled dried
+        herb. The ingredient name alone does not supply a fresh-to-dried conversion.
+      sources: *a16
+      review_version: 0.1
+  resources:
+    - resource: ig3-sage
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: sea-salt
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Salt obtained from seawater, available in forms ranging from fine crystals to larger flakes. Sea
+        salt names an origin category rather than one uniform crystal size.
+      sources: &a17
+        - kab-salt
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: "Match the texture to the task: delicate flakes can provide a finishing texture, while finer salt
+        disperses differently. Equal spoonfuls of different crystal shapes need not weigh the same. Keep
+        the recipe’s measured form rather than assuming every sea salt matches table salt by volume."
+      sources: *a17
+      review_version: 0.1
+  resources:
+    - resource: kab-salt
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: sunflower-oil
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: An edible oil from sunflower seeds. The cited cold-pressed product has a noticeable flavour and is
+        presented for uses such as dressings, illustrating one form of sunflower oil.
+      sources: &a18
+        - ig3-sunfloweroil
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Check the actual bottle and the recipe’s cooking method. Cold-pressed and other processed oils
+        should not be assumed to share the same flavour or recommended use. This example does not
+        redefine every sunflower oil as a dressing oil or give a universal frying temperature.
+      sources: *a18
+      review_version: 0.1
+  resources:
+    - resource: ig3-sunfloweroil
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: sunflower-seeds
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Seeds used as a snack and as an ingredient in breads and other preparations. The edible kernels may
+        be sold shelled, raw or roasted, while some snack products retain the hull.
+      sources: &a19
+        - ig3-sunflower
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Use kernels when the recipe expects edible seed pieces, rather than including the outer shell in a
+        mixture. Check roasted and salted qualifiers before measuring or seasoning. An in-shell weight
+        does not directly describe the same amount of edible kernel.
+      sources: *a19
+      review_version: 0.1
+  resources:
+    - resource: ig3-sunflower
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: vanilla-essence
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A liquid vanilla flavouring used in cakes, icings and desserts. Products labelled essence or
+        flavouring can differ in formulation; the cited range includes an alcohol-free vanilla
+        flavouring.
+      sources: &a20
+        - ig3-essence
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Read the particular product’s instructions rather than assuming every bottle has the same strength
+        or ingredients. Essence supplies flavour in a small amount of liquid, not the bulk sugar of
+        vanilla sugar or the pod and seeds of a vanilla bean.
+      sources: *a20
+      review_version: 0.1
+  resources:
+    - resource: ig3-essence
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: vanilla-sugar
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Sugar flavoured with vanilla, used both as a sweetener and for its aroma. The cited product
+        combines cane sugar with vanilla rather than providing flavour alone.
+      sources: &a21
+        - ig3-vanillasugar
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Allow for the sugar it contributes when following a recipe. Sprinkling it on a finish and mixing it
+        into a batter serve different purposes. It is not measured as though it were liquid vanilla
+        extract, and different preparations need not contain the same amount of vanilla.
+      sources: *a21
+      review_version: 0.1
+  resources:
+    - resource: ig3-vanillasugar
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: whipped-cream
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Cream beaten to incorporate air and form a foam. Its texture changes as it is whipped, from a loose
+        consistency to soft or firmer peaks.
+      sources: &a22
+        - kab-whip
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Use the consistency required for folding, filling or topping rather than treating every whipped
+        cream as identical. Cold cream helps the whipping process; continued beating can take it beyond
+        the intended texture. Sweetened and flavoured versions should retain those qualifiers instead of
+        being assumed by the general name.
+      sources: *a22
+      review_version: 0.1
+  resources:
+    - resource: kab-whip
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: yukon-potato
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A potato name associated with yellow-fleshed types such as Yukon Gold. The Canadian variety
+        description presents Yukon Gold as suitable for boiling, baking and French frying.
+      sources: &a23
+        - ig3-yukon
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: "Match the recipe’s preparation: whole potatoes, peeled pieces and mash are different starting
+        forms. Size and cut affect handling even within one variety. This reference example explains the
+        familiar culinary association without adding a new alias or promising identical behaviour for
+        every potato sold under a shortened name."
+      sources: *a23
+      review_version: 0.1
+  resources:
+    - resource: ig3-yukon
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: champignon-mushroom
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A culinary mushroom name commonly associated with cultivated button mushrooms. Button, cremini and
+        portobello are related cultivated forms of Agaricus bisporus, with different appearance and
+        maturity.
+      sources: &a24
+        - ig1-mushrooms
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: "Use the form the recipe specifies: whole small mushrooms, slices and larger caps give different
+        textures and cooking surfaces. Keep fresh, dried or preserved qualifiers visible. This culinary
+        context is not a field-identification guide and does not make all wild mushrooms
+        interchangeable."
+      sources: *a24
+      review_version: 0.1
+  resources:
+    - resource: ig1-mushrooms
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: cooking-spray
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A sprayable cooking product used to coat pans and help food release. The cited foodservice range
+        includes products intended for different cooking and baking applications.
+      sources: &a25
+        - ig3-spray
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Apply the product according to its directions and the equipment being used. A thin coating is a
+        different measured use from adding a spoonful of oil to a recipe. Formulations vary, so the
+        generic name does not guarantee one oil or the absence of other ingredients.
+      sources: *a25
+      review_version: 0.1
+  resources:
+    - resource: ig3-spray
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: dashi
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A Japanese stock used as a flavour foundation. Dashi can be made in several ways, including
+        combinations of kombu and dried bonito or preparations using other dried ingredients.
+      sources: &a26
+        - ig3-dashi
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Use the type requested by the dish. The general name does not guarantee fish content or its
+        absence, and an instant concentrate is not the same measured form as prepared stock. Follow the
+        particular preparation rather than assuming dashi requires the long cooking used for some bone
+        stocks.
+      sources: *a26
+      review_version: 0.1
+  resources:
+    - resource: ig3-dashi
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: fish-fillet
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A portion of fish flesh cut away from the main skeleton. A fillet differs from a whole fish or a
+        cross-cut steak, but can still require preparation before cooking.
+      sources: &a27
+        - gbc-fish-prep
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Check whether skin removal or pin-bone removal is requested. The word fillet alone does not
+        guarantee skinless flesh or the absence of small bones. Species, thickness and cut size still
+        matter when applying a recipe; a fillet is not a fixed portion weight.
+      sources: *a27
+      review_version: 0.1
+  resources:
+    - resource: gbc-fish-prep
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: franks-redhot-sauce
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A branded hot sauce used to add chilli flavour and acidity. The cited Original Cayenne Pepper sauce
+        combines aged cayenne peppers with vinegar and other seasoning ingredients.
+      sources: &a28
+        - ig3-franks
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Check which variant the recipe expects rather than treating every product carrying the brand as
+        identical. The sauce contributes liquid and seasoning as well as heat. It is not a direct
+        measured equivalent of dry cayenne pepper, and the brand name alone supplies no universal
+        strength conversion.
+      sources: *a28
+      review_version: 0.1
+  resources:
+    - resource: ig3-franks
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: liquid-smoke
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A liquid flavouring used to add smoky character to food. The cited range offers different
+        wood-labelled flavours for preparations such as sauces, dips and stews.
+      sources: &a29
+        - ig3-smoke
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Choose the flavour and quantity specified by the recipe or product directions. Adding the liquid
+        changes seasoning; it does not mean the food has undergone a smoking process. Products can
+        differ, so neither a fixed strength nor a universal spoon-for-spoon replacement with another
+        smoke flavouring is implied.
+      sources: *a29
+      review_version: 0.1
+  resources:
+    - resource: ig3-smoke
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: turnip
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A root vegetable used raw when tender or cooked in preparations such as roasts and stews. Turnip
+        leaves also have culinary uses, so the requested plant part matters.
+      sources: &a30
+        - ig3-turnip
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Use the root when that is the recipe’s intended ingredient, retaining peeling and cutting
+        instructions. Names can overlap regionally with swede, but this context does not merge the
+        identities. A young small root and a larger mature one can require different preparation.
+      sources: *a30
+      review_version: 0.1
+  resources:
+    - resource: ig3-turnip
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: waxed-beans
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: In the vegetable context, wax beans are yellow-podded snap beans. Their tender pods are eaten as
+        vegetables rather than treated as dried beans for shelling.
+      sources: &a31
+        - ig2-beans
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Prepare the stem ends and cut or leave the pods whole as the recipe directs. Yellow colour
+        describes this bean form, not a coating of wax to add or remove. Retain fresh, frozen or
+        preserved qualifiers; this explanation does not change the existing entry name.
+      sources: *a31
+      review_version: 0.1
+  resources:
+    - resource: ig2-beans
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: za-atar
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A seasoning blend often combining aromatic leaves with ingredients such as sumac and sesame. The
+        cited blend includes additional seeds and seasonings, illustrating variation between
+        preparations.
+      sources: &a32
+        - ig3-zaatar
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: It can be used with bread and olive oil or scattered over dishes. Check the actual mix rather than
+        assuming a fixed formula or a single herb. Some products contain ingredients beyond the most
+        familiar components, so the name alone does not establish a dietary profile.
+      sources: *a32
+      review_version: 0.1
+  resources:
+    - resource: ig3-zaatar
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: baguette
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A long, narrow loaf associated with a crisp crust and an airy, chewy interior. The cited recipe
+        uses a simple flour, water, yeast and salt dough.
+      sources: &a33
+        - ig3-baguette
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Its shape makes slices quite different from thick pieces of a broad loaf. Follow the recipe’s
+        instructions for slicing, toasting or using the crumb rather than assuming a whole loaf is a
+        standard weight. The reference recipe illustrates the style without defining every bakery
+        product’s formula.
+      sources: *a33
+      review_version: 0.1
+  resources:
+    - resource: ig3-baguette
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: barbecue-sauce
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A prepared sauce used for glazing, dipping and seasoning. Barbecue sauces span different balances
+        of sweetness, tang, smoke flavour and heat, as the cited product range illustrates.
+      sources: &a34
+        - ig3-barbecue
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Choose the style requested by the recipe. A sauce may add sugar, salt and liquid as well as
+        flavour, so replacing it with a dry seasoning changes more than the aroma. The generic name does
+        not require one tomato-based formula or guarantee a particular thickness.
+      sources: *a34
+      review_version: 0.1
+  resources:
+    - resource: ig3-barbecue
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: bechamel
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A white sauce made by combining milk with a cooked flour-and-fat mixture. The flour thickens the
+        liquid as the sauce is prepared; the cited recipe uses butter for the fat.
+      sources: &a35
+        - ig3-bechamel
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: "Stirring as the milk is incorporated helps produce a smooth texture. Keep the recipe’s desired
+        consistency in mind: a coating sauce and a thicker filling need not use the same proportions.
+        Additional seasonings or cheese are recipe choices rather than automatic ingredients of every
+        bechamel."
+      sources: *a35
+      review_version: 0.1
+  resources:
+    - resource: ig3-bechamel
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: beef-marrow-bones
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Beef bones containing marrow, used to contribute flavour to stocks and other preparations. The
+        marrow is the material inside the bone rather than an equivalent amount of lean beef.
+      sources: &a36
+        - ig3-marrow
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Follow the recipe’s directions for roasting or adding the bones to liquid. Bone size and the amount
+        of attached material vary, so a bone count is not a fixed yield of marrow or meat. Stock-making
+        use does not supply a universal cooking schedule.
+      sources: *a36
+      review_version: 0.1
+  resources:
+    - resource: ig3-marrow
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: beef-roast
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A piece of beef intended for roasting or a roast-style preparation. Different cuts sold for this
+        purpose vary in tenderness and structure; the name does not identify one anatomical cut.
+      sources: &a37
+        - ig3-roast
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Match the cut to the method. A shoulder or chuck preparation intended to become shreddable is
+        different from a lean roast intended for carving. Retain the cut, bone and trimming details
+        instead of using the word roast as a universal cooking instruction.
+      sources: *a37
+      review_version: 0.1
+  resources:
+    - resource: ig3-roast
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: bouillon-cube
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A compact stock or broth concentrate used to season cooking liquids. The cited vegetable cube
+        combines vegetable ingredients with salt and other components in a shelf-stable pantry form.
+      sources: &a38
+        - ig3-stockcube
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Use the product’s dilution instructions alongside the recipe. One cube is not a universal volume of
+        prepared stock, and cube sizes or strengths can differ. Account for its seasoning contribution
+        before adding more salt; the vegetable example does not define all cube flavours.
+      sources: *a38
+      review_version: 0.1
+  resources:
+    - resource: ig3-stockcube
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: celeriac
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A knobbly, swollen base grown for its celery-like flavour. Celeriac can be prepared raw, such as
+        grated in a salad, or cooked by roasting and mashing.
+      sources: &a39
+        - ig3-celeriac
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Prepare the tough outer surface as the recipe requires before cutting the interior. Its dense flesh
+        gives a different texture from celery stalks, even though the flavour is related. Whole purchase
+        weight and prepared pieces are different measured forms; no trimming yield is assumed.
+      sources: *a39
+      review_version: 0.1
+  resources:
+    - resource: ig3-celeriac
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: celery-seed
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A small seed spice with a concentrated celery-like flavour and an earthy character. Whole celery
+        seed is used in dressings, salads and other seasoned preparations.
+      sources: &a40
+        - ig3-celery
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Its tiny pieces remain perceptible in a mixture, unlike celery flavour dissolved into a sauce. Use
+        the specified whole or ground form. Celery seed is not celery salt, which introduces a separate
+        salt component, nor does it supply the bulk or moisture of chopped celery stalk.
+      sources: *a40
+      review_version: 0.1
+  resources:
+    - resource: ig3-celery
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: chipotle-peppers
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Jalapeno peppers that have been dried and smoked. They contribute smoky chilli flavour; the cited
+        product packs them in an adobo sauce with additional ingredients.
+      sources: &a41
+        - ig3-chipotle
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Check whether the recipe requests dried peppers or peppers in sauce. The packing sauce brings
+        liquid and seasoning that a dry pepper does not supply. Preserve any draining or chopping
+        instruction, and do not assume every chipotle product has the same heat or formulation.
+      sources: *a41
+      review_version: 0.1
+  resources:
+    - resource: ig3-chipotle
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: chocolate-chips
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Small pieces of chocolate made for convenient distribution through baking mixtures. Some chips are
+        formulated to keep their shape more readily than chocolate intended primarily for melting.
+      sources: &a42
+        - kab-chocolate-types
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Check the chocolate type and the intended use before substituting chopped bar chocolate. A chip’s
+        size and formulation affect how it appears in the finished bake. The name alone does not
+        establish cocoa percentage, sweetness or identical melting behaviour across products.
+      sources: *a42
+      review_version: 0.1
+  resources:
+    - resource: kab-chocolate-types
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: cider-vinegar
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A vinegar made from apple cider, used to bring acidity and apple-associated flavour to food. The
+        cited example is an unfiltered apple cider vinegar containing the material described as the
+        mother.
+      sources: &a43
+        - ig3-vinegar
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Filtered and unfiltered products need not look the same. Follow the recipe’s quantity and the
+        actual label rather than treating cloudiness as a required feature. This culinary description
+        supplies no health claim or acidity guarantee for preservation recipes.
+      sources: *a43
+      review_version: 0.1
+  resources:
+    - resource: ig3-vinegar
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: clementine
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A citrus fruit used for its segments, juice and aromatic outer peel. Clementines include named
+        selections; the cited Fina collection records show variation in fruit size, seeds and juice
+        measurements.
+      sources: &a44
+        - ig3-clementine
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Prepare the part requested by the recipe rather than treating whole fruit, peeled segments and
+        juice as equivalent quantities. Check for seeds while preparing segments. A fruit count does not
+        guarantee a fixed amount of juice, and clementines should not automatically be described as
+        seedless.
+      sources: *a44
+      review_version: 0.1
+  resources:
+    - resource: ig3-clementine
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: coffee-beans
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: The seeds of the coffee plant, processed and roasted for preparing coffee. Whole roasted beans are
+        a starting ingredient for grinding, rather than a ready-made coffee liquid.
+      sources: &a45
+        - ig2-coffee
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: "Use the form named in the recipe: whole beans, grounds and brewed coffee contribute different
+        textures and amounts of water. Roast and origin can affect flavour, so a generic bean quantity
+        does not establish one strength of brewed coffee or a fixed replacement for instant coffee."
+      sources: *a45
+      review_version: 0.1
+  resources:
+    - resource: ig2-coffee
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: coriander-powder
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A powdered coriander spice with citrus-like and earthy notes. It is used in preparations such as
+        curries, gravies and soups, dispersing through the dish rather than leaving whole seed pieces.
+      sources: &a46
+        - ig3-coriander
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Keep the powder form distinct from fresh coriander leaves. Their shared name does not make them the
+        same measured seasoning. Follow the recipe’s amount and addition stage; the general description
+        does not prescribe a whole-seed-to-powder ratio or a substitute for the leafy herb.
+      sources: *a46
+      review_version: 0.1
+  resources:
+    - resource: ig3-coriander
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: corn-flakes
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A crisp cereal made from corn formed into flakes and toasted. In recipes, the flakes can contribute
+        texture as pieces or as a crushed coating.
+      sources: &a47
+        - ig3-flakes
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Read whether the amount refers to flakes before or after crushing. Crushing changes how they occupy
+        a measure and how they coat food. Corn flakes are not cornmeal or loose sweetcorn kernels, and
+        the brand example does not define the sugar or seasoning content of every cereal sold under this
+        name.
+      sources: *a47
+      review_version: 0.1
+  resources:
+    - resource: ig3-flakes
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: dukkah
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A mixture of nuts, seeds and spices used as a textured seasoning. The cited preparation combines
+        hazelnuts with seeds and spices and is served with bread and olive oil.
+      sources: &a48
+        - ig3-dukkah
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Its coarse pieces supply crunch as well as aroma. Keep that texture when the recipe expects a
+        sprinkle or dip accompaniment rather than a smooth paste. Nut and spice choices can vary, so this
+        example does not establish one mandatory formula or a nut-free alternative.
+      sources: *a48
+      review_version: 0.1
+  resources:
+    - resource: ig3-dukkah
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: fenugreek-powder
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Ground fenugreek seed, used for its strong, earthy and bitter aromatic character in preparations
+        such as curries and dals. The seed is a different culinary part from fenugreek leaves.
+      sources: &a49
+        - ig3-fenugreek
+        - ig3-fenugreekseed
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: The powder disperses through a dish instead of leaving the hard whole seeds. Use the recipe’s
+        amount rather than assuming it is a complete curry blend. Neither its flavour association nor the
+        shared plant makes it interchangeable with dried fenugreek leaves.
+      sources: *a49
+      review_version: 0.1
+  resources:
+    - resource: ig3-fenugreek
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: ig3-fenugreekseed
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: fish-bones
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Fish skeleton material used to make a flavourful cooking liquid. The cited stock preparation
+        combines white-fish bones with aromatics, then strains the liquid.
+      sources: &a50
+        - ig3-fishstock
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Use the material and preparation requested by the stock recipe. Bones are a starting ingredient to
+        be removed from the liquid, not a guarantee of an edible boneless portion. Species and
+        preparation affect the result, so the general name does not define one universal stock flavour or
+        cooking time.
+      sources: *a50
+      review_version: 0.1
+  resources:
+    - resource: ig3-fishstock
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: fish-stock
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A cooking liquid flavoured with fish material and usually other ingredients such as aromatics. The
+        cited preparation uses fish bones and strains them out after cooking.
+      sources: &a51
+        - ig3-fishstock
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Use prepared stock at the concentration the recipe expects. Reducing it changes the intensity of
+        its flavour and seasoning. Stock is not an equal-volume substitute for fish bones or an undiluted
+        concentrate, and the name alone does not establish a salt level.
+      sources: *a51
+      review_version: 0.1
+  resources:
+    - resource: ig3-fishstock
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: garlic-paste
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Garlic supplied in a moist, paste-like preparation for adding to food. The cited tube product is a
+        prepared garlic ingredient used in cooking and sauces.
+      sources: &a52
+        - ig3-garlic
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: "Check the texture and ingredient list: a prepared paste can include components beyond garlic, and
+        it need not be completely smooth. It disperses differently from sliced cloves. Follow the recipe
+        and product guidance rather than assigning every spoonful a fixed number of fresh cloves."
+      sources: *a52
+      review_version: 0.1
+  resources:
+    - resource: ig3-garlic
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: guanciale
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A cured pork product made from the cheek. It is used for its fat and seasoned pork character, and
+        is distinct from a product made from pork belly.
+      sources: &a53
+        - ig3-guanciale
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Retain instructions for slicing, dicing and cooking rather than treating curing as a complete
+        preparation instruction for every dish. Product seasoning and maturation vary. Guanciale and
+        pancetta can fill related roles in recipes without being the same cut or an automatic equal
+        substitute.
+      sources: *a53
+      review_version: 0.1
+  resources:
+    - resource: ig3-guanciale
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: half-and-half
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A dairy mixture of milk and cream, often used to lighten coffee or add dairy richness. The cited
+        product is a liquid blend rather than a whipped topping.
+      sources: &a54
+        - ig3-half
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Use the product requested by the recipe and check its formulation. A milk-and-cream mixture should
+        not automatically be expected to whip like a whipping cream. The name here does not prescribe
+        equal measured parts for a homemade mixture or a universal fat percentage.
+      sources: *a54
+      review_version: 0.1
+  resources:
+    - resource: ig3-half
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: macadamia-nut
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A nut used for its rich flavour and texture in sweet and savoury cooking. Edible macadamia kernels
+        may be used raw or roasted, with roasting giving a crisper character.
+      sources: &a55
+        - ig3-macadamia
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Use the kernels rather than the hard outer shells when a recipe asks for nuts to mix into food.
+        Check whether they are salted before seasoning the dish. Whole kernels, chopped pieces and ground
+        nuts distribute differently; the name supplies no standard chop size.
+      sources: *a55
+      review_version: 0.1
+  resources:
+    - resource: ig3-macadamia
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: matcha-powder
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A finely powdered green tea made from specially grown and processed tea leaves. Matcha is used for
+        its tea flavour and colour, with bitterness and savoury notes varying between products.
+      sources: &a56
+        - ig3-matcha
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Use the powder called for by the recipe rather than treating brewed green tea as the same amount. A
+        sweetened matcha drink mixture can add sugar and other ingredients. Check the product so that its
+        concentration and formulation fit the intended drink or food.
+      sources: *a56
+      review_version: 0.1
+  resources:
+    - resource: ig3-matcha
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: old-bay-seasoning
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A branded seasoning associated with seafood and also used in other savoury dishes. The brand’s
+        range includes its familiar seasoning alongside other product variants.
+      sources: &a57
+        - ig3-oldbay
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Use the specific product requested by the recipe. The brand name does not establish that every item
+        in the range has the same composition, heat or physical form. Treat it as a seasoning blend
+        rather than a single spice, and check the label when balancing additional seasoning.
+      sources: *a57
+      review_version: 0.1
+  resources:
+    - resource: ig3-oldbay
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: orange-juice
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Juice from oranges, used as a drink and as an ingredient contributing fruit flavour, liquid and
+        acidity. Products are sold with different pulp levels and formulations.
+      sources: &a58
+        - ig3-orange
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Match the recipe’s requested form, including fresh juice or a particular pulp texture where
+        specified. An orange-flavoured drink need not be the same ingredient as orange juice. A count of
+        oranges also does not establish a fixed juice volume, so measure the liquid when the recipe asks
+        for it.
+      sources: *a58
+      review_version: 0.1
+  resources:
+    - resource: ig3-orange
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: poppy-seeds
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Small seeds used for a mild nutty character and fine crunch. They appear in breads, pastries and
+        dressings as visible seed pieces.
+      sources: &a59
+        - ig3-poppy
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Whole seeds give a different texture from a ground seed filling. Preserve grinding or other
+        preparation instructions rather than assuming every use is a simple garnish. The ingredient name
+        does not define a sweet filling’s additional ingredients or a universal amount for flavouring a
+        dough.
+      sources: *a59
+      review_version: 0.1
+  resources:
+    - resource: ig3-poppy
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: rice-noodles
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Noodles made using rice, available in different shapes and thicknesses. The cited thin dried
+        noodles are used in soups, salads and stir-fried dishes after preparation.
+      sources: &a60
+        - ig3-noodle
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Follow the actual product’s directions and the recipe’s desired texture. Thin noodles and broader
+        pieces need not soften in the same way. A dry noodle weight is not the same as a prepared weight,
+        and one product’s ingredients do not establish every rice noodle’s formulation.
+      sources: *a60
+      review_version: 0.1
+  resources:
+    - resource: ig3-noodle
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: shortening
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A fat used to help produce tender or flaky baked textures. In contemporary pantry use, shortening
+        commonly refers to a solid vegetable-fat product, though the culinary term has a broader history.
+      sources: &a61
+        - ig3-shortening
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Its solid form affects how it is worked into flour. Liquid oil does not behave identically during
+        that mixing step, even though both supply fat. Use the product and method requested rather than
+        assuming the word shortening specifies one universal composition.
+      sources: *a61
+      review_version: 0.1
+  resources:
+    - resource: ig3-shortening
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: sweetcorn
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Corn harvested for eating as a vegetable, with kernels that may be yellow, white or a mixture. It
+        can be prepared on the cob or as loose kernels.
+      sources: &a62
+        - ig2-corn
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Remove husk and silk when preparing fresh cobs, and retain instructions for whole cobs or removed
+        kernels. Fresh, frozen and cooked forms are different starting states. Sweetcorn does not
+        describe cornmeal, popcorn or another processed corn ingredient simply because they share a plant
+        source.
+      sources: *a62
+      review_version: 0.1
+  resources:
+    - resource: ig2-corn
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: tarragon
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: An aromatic herb whose leaves are used in food. French tarragon is a familiar culinary form, and
+        its leaf flavour is better retained fresh than through drying.
+      sources: &a63
+        - ig3-tarragon
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Use the form requested by the recipe instead of assigning an automatic fresh-to-dried ratio. Whole
+        sprigs and chopped leaves also distribute differently through a sauce or dressing. This culinary
+        context does not identify every plant sold under a similar common name as the same herb.
+      sources: *a63
+      review_version: 0.1
+  resources:
+    - resource: ig3-tarragon
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: tomatillos
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A firm, tart fruit enclosed in a papery husk, used in preparations such as sauces. Tomatillos are
+        related to tomatoes but are not simply ordinary tomatoes picked green.
+      sources: &a64
+        - ig3-tomatillo
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Remove the husk when preparing the fruit and follow the recipe’s raw or cooked preparation. Their
+        tart character is part of the dish’s balance. The general name does not establish identical
+        ripeness, size or acidity for every fruit, nor an automatic green-tomato substitution.
+      sources: *a64
+      review_version: 0.1
+  resources:
+    - resource: ig3-tomatillo
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: vanilla-bean
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A vanilla pod used to supply aroma to sweet preparations. Both the pod and the small seeds inside
+        it can contribute flavour.
+      sources: &a65
+        - ig3-vanillabean
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: A recipe may ask for the pod to be split and the seeds scraped out, or for the pod to flavour a
+        liquid. Keep those instructions distinct from adding a liquid extract. Bean size and character
+        vary, so one pod does not establish a fixed spoonful of extract.
+      sources: *a65
+      review_version: 0.1
+  resources:
+    - resource: ig3-vanillabean
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: vegetable-stock
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A vegetable-flavoured cooking liquid used in soups, sauces and other dishes. It can be prepared
+        from ingredients or made using a product such as the cited vegetable stock cube.
+      sources: &a66
+        - ig3-stockcube
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Use the concentration expected by the recipe. A dry cube or paste must not be measured as though it
+        were the same volume of prepared liquid. Check the actual product’s seasoning and composition;
+        the vegetable label does not define one universal mixture of vegetables.
+      sources: *a66
+      review_version: 0.1
+  resources:
+    - resource: ig3-stockcube
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: white-beans
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A colour-based group of beans rather than one variety. Cannellini and Great Northern beans
+        illustrate differences in size and texture within white beans.
+      sources: &a67
+        - ig3-whitebeans
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Retain a more specific name such as garrofo when the recipe gives it; this broad page does not
+        choose a replacement variety. Check whether beans are dry or already cooked before measuring. The
+        shared colour does not establish identical cooking behaviour or a dry-to-cooked yield.
+      sources: *a67
+      review_version: 0.1
+  resources:
+    - resource: ig3-whitebeans
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: plain-yoghurt
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Yoghurt without an added flavour such as fruit, made by fermenting milk with yoghurt cultures.
+        Fermentation changes the milk’s acidity and structure, producing the characteristic thickened
+        dairy food.
+      sources: &a68
+        - tetrapak-yoghurt
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Check the actual product when a recipe depends on thickness or fat content. Plain does not
+        automatically mean strained, and different products can contribute different amounts of liquid.
+        This ingredient description does not guarantee a particular culture claim or an equal replacement
+        for cream.
+      sources: *a68
+      review_version: 0.1
+  resources:
+    - resource: tetrapak-yoghurt
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: veal
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Meat from a calf or young bovine animal, sold in a range of cuts. The ingredient name identifies
+        the meat category rather than one uniform portion.
+      sources: &a69
+        - ig2-veal
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Keep the recipe’s cut description and preparation instructions alongside the general name. A thin
+        cutlet and a larger bone-in piece are different starting materials. The category alone does not
+        establish tenderness for every cut, a portion weight or a cooking schedule.
+      sources: *a69
+      review_version: 0.1
+  resources:
+    - resource: ig2-veal
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: nonstick-spray
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A spray product intended to help food release from cooking surfaces. The cited range includes
+        different formulations for cooking and baking applications.
+      sources: &a70
+        - ig3-spray
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: It is applied as a coating rather than treated as a permanent nonstick surface on the pan. Follow
+        the actual product and equipment directions. A spray application is not a standard spoonful of
+        recipe fat, and the name alone does not specify one oil or one set of added ingredients.
+      sources: *a70
+      review_version: 0.1
+  resources:
+    - resource: ig3-spray
+      role: introduction
+      order: 1
+      review_version: 0.1
