@@ -674,6 +674,21 @@
 - target:
     kind: ingredient
     id: butter
+  hero:
+    asset: references/butter.jpg
+    title: Švédský koláč naruby 904 (cropped).JPG
+    source_page: https://commons.wikimedia.org/wiki/File:%C5%A0v%C3%A9dsk%C3%BD_kol%C3%A1%C4%8D_naruby_904_(cropped).JPG
+    source_file: https://upload.wikimedia.org/wikipedia/commons/d/d3/%C5%A0v%C3%A9dsk%C3%BD_kol%C3%A1%C4%8D_naruby_904_%28cropped%29.JPG
+    creator: Matěj Baťha
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    attribution_text: Švédský koláč naruby 904 (cropped).JPG — Matěj Baťha
+    alt: Pieces of butter resting on dry ingredients during baking preparation.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 721
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Pieces of butter resting on dry ingredients during baking preparation.
   review_version: 0.1
   editorial:
     - id: summary
@@ -764,6 +779,21 @@
 - target:
     kind: ingredient
     id: olive-oil
+  hero:
+    asset: references/olive-oil.jpg
+    title: Oliven V1.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Oliven_V1.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/0/0e/Oliven_V1.jpg
+    creator: Poyraz 72
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    attribution_text: Oliven V1.jpg — Poyraz 72
+    alt: A bottle of olive oil beside dishes of green and dark olives.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 896
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A bottle of olive oil beside dishes of green and dark olives.
   review_version: 0.1
   editorial:
     - id: summary
@@ -928,6 +958,21 @@
 - target:
     kind: ingredient
     id: chicken
+  hero:
+    asset: references/chicken.jpg
+    title: Chickens in market.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Chickens_in_market.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/5/57/Chickens_in_market.jpg
+    creator: Tomás Castelazo
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    attribution_text: Chickens in market.jpg — Tomás Castelazo
+    alt: Plucked whole chickens hanging at a market stall.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 784
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Plucked whole chickens hanging at a market stall.
   review_version: 0.1
   editorial:
     - id: summary
@@ -3045,6 +3090,21 @@
 - target:
     kind: ingredient
     id: coconut-milk
+  hero:
+    asset: references/coconut-milk.jpg
+    title: Cononut milk.JPG
+    source_page: https://commons.wikimedia.org/wiki/File:Cononut_milk.JPG
+    source_file: https://upload.wikimedia.org/wikipedia/commons/e/eb/Cononut_milk.JPG
+    creator: S Sepp
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    attribution_text: Cononut milk.JPG — S Sepp
+    alt: White coconut milk in a bowl.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 783
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: White coconut milk in a bowl.
   review_version: 0.1
   editorial:
     - id: summary
@@ -3153,6 +3213,21 @@
 - target:
     kind: ingredient
     id: vinegar
+  hero:
+    asset: references/vinegar.jpg
+    title: Eguilles 20110828 14.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Eguilles_20110828_14.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/c/c3/Eguilles_20110828_14.jpg
+    creator: Georges Seguin ( Okki )
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    attribution_text: Eguilles 20110828 14.jpg — Georges Seguin ( Okki )
+    alt: An assortment of bottled vinegars displayed at a market.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 640
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: An assortment of bottled vinegars displayed at a market.
   review_version: 0.1
   editorial:
     - id: summary
@@ -3238,6 +3313,21 @@
 - target:
     kind: ingredient
     id: beef
+  hero:
+    asset: references/beef.jpg
+    title: Standing-rib-roast.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Standing-rib-roast.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/6/60/Standing-rib-roast.jpg
+    creator: Michael C. Berch, aka MCB at en.wikipedia
+    licence: CC BY-SA 2.5
+    licence_url: https://creativecommons.org/licenses/by-sa/2.5
+    attribution_text: Standing-rib-roast.jpg — Michael C. Berch, aka MCB at en.wikipedia
+    alt: A raw standing rib roast showing its meat and outer fat.
+    reviewed_at: 2026-10-24
+    width: 935
+    height: 679
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A raw standing rib roast showing its meat and outer fat.
   review_version: 0.1
   editorial:
     - id: summary
@@ -3372,6 +3462,21 @@
 - target:
     kind: ingredient
     id: soy-sauce
+  hero:
+    asset: references/soy-sauce.jpg
+    title: Soy sauce 2.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Soy_sauce_2.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/6/63/Soy_sauce_2.jpg
+    creator: 국립국어원
+    licence: CC BY-SA 2.0 kr
+    licence_url: https://creativecommons.org/licenses/by-sa/2.0/kr/deed.en
+    attribution_text: Soy sauce 2.jpg — 국립국어원
+    alt: Dark soy sauce in a small clear bowl.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 804
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Dark soy sauce in a small clear bowl.
   review_version: 0.1
   editorial:
     - id: summary
@@ -3482,6 +3587,21 @@
 - target:
     kind: ingredient
     id: yeast
+  hero:
+    asset: references/yeast.jpg
+    title: 20100911 232323 Yeast Live.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:20100911_232323_Yeast_Live.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/9/9d/20100911_232323_Yeast_Live.jpg
+    creator: Bob Blaylock
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    attribution_text: 20100911 232323 Yeast Live.jpg — Bob Blaylock
+    alt: Yeast cells viewed through a microscope beside a measurement scale.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 960
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Yeast cells viewed through a microscope beside a measurement scale.
   review_version: 0.1
   editorial:
     - id: summary
@@ -3547,6 +3667,21 @@
 - target:
     kind: ingredient
     id: baking-powder
+  hero:
+    asset: references/baking-powder.jpg
+    title: BakingPowder.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:BakingPowder.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/2/2d/BakingPowder.jpg
+    creator: Lou Sander
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    attribution_text: BakingPowder.jpg — Lou Sander
+    alt: A tin of baking powder beside a spoon holding the white powder.
+    reviewed_at: 2026-10-24
+    width: 956
+    height: 960
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A tin of baking powder beside a spoon holding the white powder.
   review_version: 0.1
   editorial:
     - id: summary
@@ -7164,6 +7299,21 @@
 - target:
     kind: ingredient
     id: balsamic-vinegar
+  hero:
+    asset: references/balsamic-vinegar.jpg
+    title: Balsamic vinegar (drops).jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Balsamic_vinegar_(drops).jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/4/4e/Balsamic_vinegar_%28drops%29.jpg
+    creator: Andrea Levers
+    licence: CC BY-SA 2.0
+    licence_url: https://creativecommons.org/licenses/by-sa/2.0
+    attribution_text: Balsamic vinegar (drops).jpg — Andrea Levers
+    alt: Dark balsamic vinegar being poured into a white bowl.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 640
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Dark balsamic vinegar being poured into a white bowl.
   review_version: 0.1
   editorial:
     - id: summary
@@ -7405,6 +7555,21 @@
 - target:
     kind: ingredient
     id: coconut-oil
+  hero:
+    asset: references/coconut-oil.jpg
+    title: Coconut and oil.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Coconut_and_oil.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/f/f3/Coconut_and_oil.jpg
+    creator: Phu Thinh Co
+    licence: CC BY-SA 2.0
+    licence_url: https://creativecommons.org/licenses/by-sa/2.0
+    attribution_text: Coconut and oil.jpg — Phu Thinh Co
+    alt: A small bottle of coconut oil beside a halved coconut.
+    reviewed_at: 2026-10-24
+    width: 604
+    height: 656
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A small bottle of coconut oil beside a halved coconut.
   review_version: 0.1
   editorial:
     - id: summary
@@ -7562,6 +7727,21 @@
 - target:
     kind: ingredient
     id: tomato-paste
+  hero:
+    asset: references/tomato-paste.jpg
+    title: Tomato paste on spoon.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Tomato_paste_on_spoon.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/e/e8/Tomato_paste_on_spoon.jpg
+    creator: SKopp
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    attribution_text: Tomato paste on spoon.jpg — SKopp
+    alt: Thick red tomato paste on a spoon.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 720
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Thick red tomato paste on a spoon.
   review_version: 0.1
   editorial:
     - id: summary
@@ -7687,6 +7867,21 @@
 - target:
     kind: ingredient
     id: buttermilk
+  hero:
+    asset: references/buttermilk.jpg
+    title: Buttermilk-(right)-and-Milk-(left).jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Buttermilk-(right)-and-Milk-(left).jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/2/23/Buttermilk-%28right%29-and-Milk-%28left%29.jpg
+    creator: Ukko-wc
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    attribution_text: Buttermilk-(right)-and-Milk-(left).jpg — Ukko-wc
+    alt: Buttermilk on the right and milk on the left, served in glasses.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 643
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Buttermilk on the right and milk on the left, served in glasses.
   review_version: 0.1
   editorial:
     - id: summary
@@ -7834,6 +8029,21 @@
 - target:
     kind: ingredient
     id: stock
+  hero:
+    asset: references/stock.jpg
+    title: Making stock for pho bo.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Making_stock_for_pho_bo.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/a/a9/Making_stock_for_pho_bo.jpg
+    creator: Blue Lotus
+    licence: CC BY 2.0
+    licence_url: https://creativecommons.org/licenses/by/2.0
+    attribution_text: Making stock for pho bo.jpg — Blue Lotus
+    alt: A pot of stock for pho containing bones, meat and aromatics.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 670
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A pot of stock for pho containing bones, meat and aromatics.
   review_version: 0.1
   editorial:
     - id: summary
@@ -10821,6 +11031,21 @@
 - target:
     kind: ingredient
     id: apple-juice
+  hero:
+    asset: references/apple-juice.jpg
+    title: Apfelsaft im Glas.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Apfelsaft_im_Glas.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/c/cf/Apfelsaft_im_Glas.jpg
+    creator: Verband der deutschen Fruchtsaftindustrie e.V.
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    attribution_text: Apfelsaft im Glas.jpg — Verband der deutschen Fruchtsaftindustrie e.V.
+    alt: Glasses of cloudy apple juice beside apples.
+    reviewed_at: 2026-10-24
+    width: 640
+    height: 960
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Glasses of cloudy apple juice beside apples.
   review_version: 0.1
   editorial:
     - id: summary
@@ -10843,6 +11068,21 @@
 - target:
     kind: ingredient
     id: beef-brisket
+  hero:
+    asset: references/beef-brisket.jpg
+    title: Brisketphoto.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Brisketphoto.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/0/08/Brisketphoto.jpg
+    creator: Josh Evnin from Chicago, IL, USA
+    licence: CC BY-SA 2.0
+    licence_url: https://creativecommons.org/licenses/by-sa/2.0
+    attribution_text: Brisketphoto.jpg — Josh Evnin from Chicago, IL, USA
+    alt: Cooked beef brisket sliced in a roasting tray.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 720
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Cooked beef brisket sliced in a roasting tray.
   review_version: 0.1
   editorial:
     - id: summary
@@ -11093,6 +11333,21 @@
 - target:
     kind: ingredient
     id: lard
+  hero:
+    asset: references/lard.jpg
+    title: Homelard.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Homelard.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/a/af/Homelard.jpg
+    creator: No machine-readable author provided. Peter G Werner~commonswiki assumed (based on copyright claims).
+    licence: CC BY 2.5
+    licence_url: https://creativecommons.org/licenses/by/2.5
+    attribution_text: Homelard.jpg — No machine-readable author provided. Peter G Werner~commonswiki assumed (based on copyright claims).
+    alt: A mound of rendered lard on a plate beside a wooden spatula.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 657
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A mound of rendered lard on a plate beside a wooden spatula.
   review_version: 0.1
   editorial:
     - id: summary
@@ -11115,6 +11370,21 @@
 - target:
     kind: ingredient
     id: sesame-oil
+  hero:
+    asset: references/sesame-oil.jpg
+    title: SesameSeedOil.png
+    source_page: https://commons.wikimedia.org/wiki/File:SesameSeedOil.png
+    source_file: https://upload.wikimedia.org/wikipedia/commons/d/d9/SesameSeedOil.png
+    creator: Itineranttrader
+    licence: Public domain
+    licence_url: https://commons.wikimedia.org/wiki/File:SesameSeedOil.png#Licensing
+    attribution_text: SesameSeedOil.png — Itineranttrader
+    alt: Pale sesame oil in a small clear bottle.
+    reviewed_at: 2026-10-24
+    width: 643
+    height: 960
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed. Transparency composited on white.
+    caption: Pale sesame oil in a small clear bottle.
   review_version: 0.1
   editorial:
     - id: summary
@@ -11216,6 +11486,21 @@
 - target:
     kind: ingredient
     id: fish-sauce
+  hero:
+    asset: references/fish-sauce.jpg
+    title: Sauce de poisson.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Sauce_de_poisson.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/b/b0/Sauce_de_poisson.jpg
+    creator: Assassas77
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    attribution_text: Sauce de poisson.jpg — Assassas77
+    alt: Amber fish sauce in a white bowl.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 906
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Amber fish sauce in a white bowl.
   review_version: 0.1
   editorial:
     - id: summary
@@ -11343,6 +11628,21 @@
 - target:
     kind: ingredient
     id: creme-fraiche
+  hero:
+    asset: references/creme-fraiche.jpg
+    title: Crème d'Isigny 2.JPG
+    source_page: https://commons.wikimedia.org/wiki/File:Cr%C3%A8me_d%27Isigny_2.JPG
+    source_file: https://upload.wikimedia.org/wikipedia/commons/a/a9/Cr%C3%A8me_d%27Isigny_2.JPG
+    creator: Patafisik
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    attribution_text: Crème d'Isigny 2.JPG — Patafisik
+    alt: Thick crème fraîche in a glass bowl.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 718
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Thick crème fraîche in a glass bowl.
   review_version: 0.1
   editorial:
     - id: summary
@@ -11377,6 +11677,21 @@
 - target:
     kind: ingredient
     id: cornflour
+  hero:
+    asset: references/cornflour.jpg
+    title: Cornstarch mixed with water.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Cornstarch_mixed_with_water.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/d/d5/Cornstarch_mixed_with_water.jpg
+    creator: Picasa author kalaya
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    attribution_text: Cornstarch mixed with water.jpg — Picasa author kalaya
+    alt: Corn starch on a spoon above water in a glass bowl.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 720
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Corn starch on a spoon above water in a glass bowl.
   review_version: 0.1
   editorial:
     - id: summary
@@ -11420,6 +11735,21 @@
 - target:
     kind: ingredient
     id: grits
+  hero:
+    asset: references/grits.jpg
+    title: Grits1.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Grits1.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/0/06/Grits1.jpg
+    creator: sashafatcat
+    licence: CC BY 2.0
+    licence_url: https://creativecommons.org/licenses/by/2.0
+    attribution_text: Grits1.jpg — sashafatcat
+    alt: A bowl of cooked grits served with breakfast foods.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 720
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A bowl of cooked grits served with breakfast foods.
   review_version: 0.1
   editorial:
     - id: summary
@@ -11536,6 +11866,21 @@
 - target:
     kind: ingredient
     id: kombucha-scoby
+  hero:
+    asset: references/kombucha-scoby.jpg
+    title: SCOBY mushroom.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:SCOBY_mushroom.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/1/1b/SCOBY_mushroom.jpg
+    creator: Lukas Chin
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    attribution_text: SCOBY mushroom.jpg — Lukas Chin
+    alt: A kombucha culture pellicle held in a hand.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 640
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A kombucha culture pellicle held in a hand.
   review_version: 0.1
   editorial:
     - id: summary
@@ -13711,6 +14056,21 @@
 - target:
     kind: ingredient
     id: gin
+  hero:
+    asset: references/gin.jpg
+    title: DecaturGins.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:DecaturGins.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/9/92/DecaturGins.jpg
+    creator: Decatur Wine & Spirits
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    attribution_text: DecaturGins.jpg — Decatur Wine & Spirits
+    alt: An assortment of bottled gins on shop shelves.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 720
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: An assortment of bottled gins on shop shelves.
   review_version: 0.1
   editorial:
     - id: summary
@@ -13791,6 +14151,21 @@
 - target:
     kind: ingredient
     id: vodka
+  hero:
+    asset: references/vodka.jpg
+    title: Smirnoff Red Label 8213.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Smirnoff_Red_Label_8213.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/d/de/Smirnoff_Red_Label_8213.jpg
+    creator: Ashley Pomeroy
+    licence: CC BY 4.0
+    licence_url: https://creativecommons.org/licenses/by/4.0
+    attribution_text: Smirnoff Red Label 8213.jpg — Ashley Pomeroy
+    alt: A labelled bottle of vodka.
+    reviewed_at: 2026-10-24
+    width: 640
+    height: 960
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A labelled bottle of vodka.
   review_version: 0.1
   editorial:
     - id: summary
@@ -13843,6 +14218,21 @@
 - target:
     kind: ingredient
     id: rum
+  hero:
+    asset: references/rum.jpg
+    title: A glass of rum.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:A_glass_of_rum.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/2/23/A_glass_of_rum.jpg
+    creator: Linus Bohman from Malmö, Sweden
+    licence: CC BY 2.0
+    licence_url: https://creativecommons.org/licenses/by/2.0
+    attribution_text: A glass of rum.jpg — Linus Bohman from Malmö, Sweden
+    alt: Amber rum in a stemmed glass.
+    reviewed_at: 2026-10-24
+    width: 451
+    height: 700
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Amber rum in a stemmed glass.
   review_version: 0.1
   editorial:
     - id: summary
@@ -13963,6 +14353,21 @@
 - target:
     kind: ingredient
     id: vermouth
+  hero:
+    asset: references/vermouth.jpg
+    title: Four bottles of vermouth.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Four_bottles_of_vermouth.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/f/f3/Four_bottles_of_vermouth.jpg
+    creator: Kenneth C. Zirkel
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    attribution_text: Four bottles of vermouth.jpg — Kenneth C. Zirkel
+    alt: Four bottles of vermouth with different labels.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 809
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Four bottles of vermouth with different labels.
   review_version: 0.1
   editorial:
     - id: summary
@@ -14136,6 +14541,21 @@
 - target:
     kind: ingredient
     id: absinthe
+  hero:
+    asset: references/absinthe.jpg
+    title: Absinthe-glass.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Absinthe-glass.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/e/e2/Absinthe-glass.jpg
+    creator: Eric Litton
+    licence: CC BY-SA 2.5
+    licence_url: https://creativecommons.org/licenses/by-sa/2.5
+    attribution_text: Absinthe-glass.jpg — Eric Litton
+    alt: A glass of green absinthe beside a perforated absinthe spoon.
+    reviewed_at: 2026-10-24
+    width: 418
+    height: 600
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A glass of green absinthe beside a perforated absinthe spoon.
   review_version: 0.1
   editorial:
     - id: summary
@@ -14185,6 +14605,21 @@
 - target:
     kind: ingredient
     id: amaro
+  hero:
+    asset: references/amaro.jpg
+    title: SomeAmari.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:SomeAmari.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/6/6b/SomeAmari.jpg
+    creator: Shabbychef at English Wikipedia
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    attribution_text: SomeAmari.jpg — Shabbychef at English Wikipedia
+    alt: Several bottles of amaro with a small filled glass.
+    reviewed_at: 2026-10-24
+    width: 913
+    height: 685
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Several bottles of amaro with a small filled glass.
   review_version: 0.1
   editorial:
     - id: summary
@@ -14450,6 +14885,21 @@
 - target:
     kind: ingredient
     id: bourbon
+  hero:
+    asset: references/bourbon.jpg
+    title: DecaturBourbons.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:DecaturBourbons.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/9/9b/DecaturBourbons.jpg
+    creator: Decatur Wine & Spirits
+    licence: CC BY 3.0
+    licence_url: https://creativecommons.org/licenses/by/3.0
+    attribution_text: DecaturBourbons.jpg — Decatur Wine & Spirits
+    alt: Bottled bourbon and other American whiskeys on shop shelves.
+    reviewed_at: 2026-10-24
+    width: 730
+    height: 800
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Bottled bourbon and other American whiskeys on shop shelves.
   review_version: 0.1
   editorial:
     - id: summary
@@ -14525,6 +14975,21 @@
 - target:
     kind: ingredient
     id: scotch-whisky
+  hero:
+    asset: references/scotch-whisky.jpg
+    title: Bowmore whisky 12 years.JPG
+    source_page: https://commons.wikimedia.org/wiki/File:Bowmore_whisky_12_years.JPG
+    source_file: https://upload.wikimedia.org/wikipedia/commons/0/00/Bowmore_whisky_12_years.JPG
+    creator: Sansvase
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    attribution_text: Bowmore whisky 12 years.JPG — Sansvase
+    alt: A measure of Scotch whisky in a tasting glass.
+    reviewed_at: 2026-10-24
+    width: 720
+    height: 960
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A measure of Scotch whisky in a tasting glass.
   review_version: 0.1
   editorial:
     - id: summary
@@ -14671,6 +15136,21 @@
 - target:
     kind: ingredient
     id: mezcal
+  hero:
+    asset: references/mezcal.jpg
+    title: Mezcal bottles .jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Mezcal_bottles_.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/5/58/Mezcal_bottles_.jpg
+    creator: ProtoplasmaKid
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    attribution_text: Mezcal bottles .jpg — ProtoplasmaKid
+    alt: Two bottles of mezcal on a shop counter.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 643
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Two bottles of mezcal on a shop counter.
   review_version: 0.1
   editorial:
     - id: summary
@@ -14743,6 +15223,21 @@
 - target:
     kind: ingredient
     id: brandy
+  hero:
+    asset: references/brandy.jpg
+    title: Cognac glass.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Cognac_glass.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/9/9a/Cognac_glass.jpg
+    creator: Didier Descouens
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    attribution_text: Cognac glass.jpg — Didier Descouens
+    alt: Amber brandy in a rounded stemmed glass.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 812
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Amber brandy in a rounded stemmed glass.
   review_version: 0.1
   editorial:
     - id: summary
@@ -14909,6 +15404,21 @@
 - target:
     kind: ingredient
     id: orange-liqueur
+  hero:
+    asset: references/orange-liqueur.jpg
+    title: Triple Sec.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Triple_Sec.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/d/de/Triple_Sec.jpg
+    creator: Chris Kirkman from Chapel Hill, North Carolina, United States
+    licence: CC BY 2.0
+    licence_url: https://creativecommons.org/licenses/by/2.0
+    attribution_text: Triple Sec.jpg — Chris Kirkman from Chapel Hill, North Carolina, United States
+    alt: A bottle of triple sec orange liqueur beside citrus fruit and a pineapple.
+    reviewed_at: 2026-10-24
+    width: 574
+    height: 960
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A bottle of triple sec orange liqueur beside citrus fruit and a pineapple.
   review_version: 0.1
   editorial:
     - id: summary
@@ -15208,6 +15718,21 @@
 - target:
     kind: ingredient
     id: grenadine
+  hero:
+    asset: references/grenadine.jpg
+    title: Grenadinesyrup.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Grenadinesyrup.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/2/29/Grenadinesyrup.jpg
+    creator: Badagnani
+    licence: CC BY 3.0
+    licence_url: https://creativecommons.org/licenses/by/3.0
+    attribution_text: Grenadinesyrup.jpg — Badagnani
+    alt: Grenadine syrup in a bottle and small glass.
+    reviewed_at: 2026-10-24
+    width: 683
+    height: 960
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Grenadine syrup in a bottle and small glass.
   review_version: 0.1
   editorial:
     - id: summary
@@ -15271,6 +15796,21 @@
 - target:
     kind: ingredient
     id: orgeat
+  hero:
+    asset: references/orgeat.jpg
+    title: Orgeat syrup flavored drinks.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Orgeat_syrup_flavored_drinks.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/f/f2/Orgeat_syrup_flavored_drinks.jpg
+    creator: Nicholas Gemini
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    attribution_text: Orgeat syrup flavored drinks.jpg — Nicholas Gemini
+    alt: Bottles of orgeat syrup on display.
+    reviewed_at: 2026-10-24
+    width: 720
+    height: 960
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Bottles of orgeat syrup on display.
   review_version: 0.1
   editorial:
     - id: summary
@@ -15324,6 +15864,21 @@
 - target:
     kind: ingredient
     id: ginger-beer
+  hero:
+    asset: references/ginger-beer.jpg
+    title: Ginger beer bottle assortment.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Ginger_beer_bottle_assortment.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/6/63/Ginger_beer_bottle_assortment.jpg
+    creator: Aatu Dorochenko
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    attribution_text: Ginger beer bottle assortment.jpg — Aatu Dorochenko
+    alt: An assortment of ginger beer bottles and cans.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 640
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: An assortment of ginger beer bottles and cans.
   review_version: 0.1
   editorial:
     - id: summary
@@ -15443,6 +15998,21 @@
 - target:
     kind: ingredient
     id: tonic-water
+  hero:
+    asset: references/tonic-water.jpg
+    title: Tonic water uv.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Tonic_water_uv.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/b/b2/Tonic_water_uv.jpg
+    creator: User:Splarka from en:wp
+    licence: Public domain
+    licence_url: https://commons.wikimedia.org/wiki/File:Tonic_water_uv.jpg#Licensing
+    attribution_text: Tonic water uv.jpg — User:Splarka from en:wp
+    alt: A bottle of tonic water under ordinary light on the left and ultraviolet light on the right.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 960
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A bottle of tonic water under ordinary light on the left and ultraviolet light on the right.
   review_version: 0.1
   editorial:
     - id: summary
@@ -15579,6 +16149,21 @@
 - target:
     kind: ingredient
     id: wine
+  hero:
+    asset: references/wine.jpg
+    title: Red and white wine in glass.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Red_and_white_wine_in_glass.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/a/af/Red_and_white_wine_in_glass.jpg
+    creator: André Karwath
+    licence: CC BY-SA 2.5
+    licence_url: https://creativecommons.org/licenses/by-sa/2.5
+    attribution_text: Red and white wine in glass.jpg — André Karwath
+    alt: Glasses of red and white wine side by side.
+    reviewed_at: 2026-10-24
+    width: 829
+    height: 800
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Glasses of red and white wine side by side.
   review_version: 0.1
   editorial:
     - id: summary
@@ -15633,6 +16218,21 @@
 - target:
     kind: ingredient
     id: champagne
+  hero:
+    asset: references/champagne.jpg
+    title: Glass of champagne.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Glass_of_champagne.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/4/40/Glass_of_champagne.jpg
+    creator: bgvjpe
+    licence: CC BY 2.0
+    licence_url: https://creativecommons.org/licenses/by/2.0
+    attribution_text: Glass of champagne.jpg — bgvjpe
+    alt: Pale sparkling champagne in a glass.
+    reviewed_at: 2026-10-24
+    width: 640
+    height: 960
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Pale sparkling champagne in a glass.
   review_version: 0.1
   editorial:
     - id: summary
@@ -15844,6 +16444,21 @@
 - target:
     kind: ingredient
     id: agave
+  hero:
+    asset: references/agave.jpg
+    title: Agave Syrup.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Agave_Syrup.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/7/7f/Agave_Syrup.jpg
+    creator: Sharky78
+    licence: CC BY 3.0
+    licence_url: https://creativecommons.org/licenses/by/3.0
+    attribution_text: Agave Syrup.jpg — Sharky78
+    alt: A labelled squeeze bottle of agave syrup.
+    reviewed_at: 2026-10-24
+    width: 720
+    height: 960
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A labelled squeeze bottle of agave syrup.
   review_version: 0.1
   editorial:
     - id: summary
@@ -24398,6 +25013,21 @@
 - target:
     kind: ingredient
     id: garlic-powder
+  hero:
+    asset: references/garlic-powder.jpg
+    title: Ground-Garlic 31534-480x360 (4904476773).jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Ground-Garlic_31534-480x360_(4904476773).jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/2/26/Ground-Garlic_31534-480x360_%284904476773%29.jpg
+    creator: Emilian Robert Vicol from Com. Balanesti, Romania
+    licence: CC BY 2.0
+    licence_url: https://creativecommons.org/licenses/by/2.0
+    attribution_text: Ground-Garlic 31534-480x360 (4904476773).jpg — Emilian Robert Vicol from Com. Balanesti, Romania
+    alt: A mound of pale garlic powder on foil.
+    reviewed_at: 2026-10-24
+    width: 480
+    height: 360
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A mound of pale garlic powder on foil.
   review_version: 0.1
   editorial:
     - id: summary
@@ -24473,6 +25103,21 @@
 - target:
     kind: ingredient
     id: mustard
+  hero:
+    asset: references/mustard.jpg
+    title: Mustard.JPG
+    source_page: https://commons.wikimedia.org/wiki/File:Mustard.JPG
+    source_file: https://upload.wikimedia.org/wikipedia/commons/f/f4/Mustard.JPG
+    creator: fuji01
+    licence: CC0
+    licence_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+    attribution_text: Mustard.JPG — fuji01
+    alt: Prepared mustard in a small white dish.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 635
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Prepared mustard in a small white dish.
   review_version: 0.1
   editorial:
     - id: summary
@@ -24498,6 +25143,21 @@
 - target:
     kind: ingredient
     id: tomato-sauce
+  hero:
+    asset: references/tomato-sauce.jpg
+    title: Fresh Tomato Sauce (Unsplash).jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Fresh_Tomato_Sauce_(Unsplash).jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/5/52/Fresh_Tomato_Sauce_%28Unsplash%29.jpg
+    creator: Dennis Klein klein2
+    licence: CC0
+    licence_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+    attribution_text: Fresh Tomato Sauce (Unsplash).jpg — Dennis Klein klein2
+    alt: Red tomato sauce in a glass jar beside tomatoes and herbs.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 640
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Red tomato sauce in a glass jar beside tomatoes and herbs.
   review_version: 0.1
   editorial:
     - id: summary
@@ -24523,6 +25183,21 @@
 - target:
     kind: ingredient
     id: mayonnaise
+  hero:
+    asset: references/mayonnaise.jpg
+    title: Mayonnaise (1).jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Mayonnaise_(1).jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/6/60/Mayonnaise_%281%29.jpg
+    creator: jules
+    licence: CC BY 2.0
+    licence_url: https://creativecommons.org/licenses/by/2.0
+    attribution_text: Mayonnaise (1).jpg — jules
+    alt: Pale mayonnaise in an open glass jar.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 639
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Pale mayonnaise in an open glass jar.
   review_version: 0.1
   editorial:
     - id: summary
@@ -24719,6 +25394,21 @@
 - target:
     kind: ingredient
     id: worcestershire-sauce
+  hero:
+    asset: references/worcestershire-sauce.jpg
+    title: Worcester Sauce 001.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Worcester_Sauce_001.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/4/4c/Worcester_Sauce_001.jpg
+    creator: Ocdp
+    licence: CC0
+    licence_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+    attribution_text: Worcester Sauce 001.jpg — Ocdp
+    alt: Brown Worcestershire sauce in a shallow glass dish.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 638
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Brown Worcestershire sauce in a shallow glass dish.
   review_version: 0.1
   editorial:
     - id: summary
@@ -24769,6 +25459,21 @@
 - target:
     kind: ingredient
     id: puff-pastry
+  hero:
+    asset: references/puff-pastry.jpg
+    title: Pate feuilletee 2.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Pate_feuilletee_2.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/9/90/Pate_feuilletee_2.jpg
+    creator: Popo le Chien
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    attribution_text: Pate feuilletee 2.jpg — Popo le Chien
+    alt: A close view of the layers in unbaked puff pastry.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 960
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A close view of the layers in unbaked puff pastry.
   review_version: 0.1
   editorial:
     - id: summary
@@ -24798,6 +25503,21 @@
 - target:
     kind: ingredient
     id: red-pepper-flakes
+  hero:
+    asset: references/red-pepper-flakes.jpg
+    title: 2014 Dried chilli flakes.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:2014_Dried_chilli_flakes.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/3/32/2014_Dried_chilli_flakes.jpg
+    creator: Takeaway
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    attribution_text: 2014 Dried chilli flakes.jpg — Takeaway
+    alt: Dried red pepper flakes in a spoon beside red chillies.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 960
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Dried red pepper flakes in a spoon beside red chillies.
   review_version: 0.1
   editorial:
     - id: summary
@@ -24861,6 +25581,21 @@
 - target:
     kind: ingredient
     id: ketchup
+  hero:
+    asset: references/ketchup.jpg
+    title: Ketchup 20160918 181342 (cropped).jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Ketchup_20160918_181342_(cropped).jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/f/f3/Ketchup_20160918_181342_%28cropped%29.jpg
+    creator: Kim Holger Kelting
+    licence: CC BY 4.0
+    licence_url: https://creativecommons.org/licenses/by/4.0
+    attribution_text: Ketchup 20160918 181342 (cropped).jpg — Kim Holger Kelting
+    alt: Red tomato ketchup in a small metal bowl.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 822
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Red tomato ketchup in a small metal bowl.
   review_version: 0.1
   editorial:
     - id: summary
@@ -24885,6 +25620,21 @@
 - target:
     kind: ingredient
     id: onion-powder
+  hero:
+    asset: references/onion-powder.jpg
+    title: Onion Powder, Penzeys Spices, Arlington Heights MA.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Onion_Powder,_Penzeys_Spices,_Arlington_Heights_MA.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/3/36/Onion_Powder%2C_Penzeys_Spices%2C_Arlington_Heights_MA.jpg
+    creator: John Phelan
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    attribution_text: Onion Powder, Penzeys Spices, Arlington Heights MA.jpg — John Phelan
+    alt: A mound of pale onion powder.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 720
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A mound of pale onion powder.
   review_version: 0.1
   editorial:
     - id: summary
@@ -24949,6 +25699,21 @@
 - target:
     kind: ingredient
     id: vanilla-extract
+  hero:
+    asset: references/vanilla-extract.jpg
+    title: VanillaExtract.png
+    source_page: https://commons.wikimedia.org/wiki/File:VanillaExtract.png
+    source_file: https://upload.wikimedia.org/wikipedia/commons/0/03/VanillaExtract.png
+    creator: Itineranttrader
+    licence: Public domain
+    licence_url: https://commons.wikimedia.org/wiki/File:VanillaExtract.png#Licensing
+    attribution_text: VanillaExtract.png — Itineranttrader
+    alt: Brown vanilla extract in a small clear bottle.
+    reviewed_at: 2026-10-24
+    width: 643
+    height: 960
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed. Transparency composited on white.
+    caption: Brown vanilla extract in a small clear bottle.
   review_version: 0.1
   editorial:
     - id: summary
@@ -25038,6 +25803,21 @@
 - target:
     kind: ingredient
     id: pork-chop
+  hero:
+    asset: references/pork-chop.jpg
+    title: Pork chops 167541218.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Pork_chops_167541218.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/2/2b/Pork_chops_167541218.jpg
+    creator: penny from Oakland, California, USA
+    licence: CC BY 2.0
+    licence_url: https://creativecommons.org/licenses/by/2.0
+    attribution_text: Pork chops 167541218.jpg — penny from Oakland, California, USA
+    alt: Cooked pork chops arranged on a plate.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 720
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Cooked pork chops arranged on a plate.
   review_version: 0.1
   editorial:
     - id: summary
@@ -25127,6 +25907,21 @@
 - target:
     kind: ingredient
     id: pork
+  hero:
+    asset: references/pork.jpg
+    title: Schweinebauch-2.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Schweinebauch-2.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/4/49/Schweinebauch-2.jpg
+    creator: Rainer Zenz
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    attribution_text: Schweinebauch-2.jpg — Rainer Zenz
+    alt: A raw piece of pork belly showing layers of fat and meat.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 639
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A raw piece of pork belly showing layers of fat and meat.
   review_version: 0.1
   editorial:
     - id: summary
@@ -25310,6 +26105,21 @@
 - target:
     kind: ingredient
     id: icing-sugar
+  hero:
+    asset: references/icing-sugar.jpg
+    title: Powdered Sugar - Macro.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Powdered_Sugar_-_Macro.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/5/5e/Powdered_Sugar_-_Macro.jpg
+    creator: Atm100
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    attribution_text: Powdered Sugar - Macro.jpg — Atm100
+    alt: A close view of white icing sugar in a bowl.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 540
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A close view of white icing sugar in a bowl.
   review_version: 0.1
   editorial:
     - id: summary
@@ -25466,6 +26276,21 @@
 - target:
     kind: ingredient
     id: turkey
+  hero:
+    asset: references/turkey.jpg
+    title: Thanksgiving Turkey.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Thanksgiving_Turkey.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/a/a3/Thanksgiving_Turkey.jpg
+    creator: Patrick Fitzgerald from Atlanta, GA, USA
+    licence: CC BY 2.0
+    licence_url: https://creativecommons.org/licenses/by/2.0
+    attribution_text: Thanksgiving Turkey.jpg — Patrick Fitzgerald from Atlanta, GA, USA
+    alt: A whole roasted turkey on a board.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 720
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A whole roasted turkey on a board.
   review_version: 0.1
   editorial:
     - id: summary
@@ -25517,6 +26342,21 @@
 - target:
     kind: ingredient
     id: curry-powder
+  hero:
+    asset: references/curry-powder.jpg
+    title: Curry powder in the spice-bazaar in Istanbul.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Curry_powder_in_the_spice-bazaar_in_Istanbul.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/6/60/Curry_powder_in_the_spice-bazaar_in_Istanbul.jpg
+    creator: Thomas Steiner
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0/
+    attribution_text: Curry powder in the spice-bazaar in Istanbul.jpg — Thomas Steiner
+    alt: Yellow curry powder displayed in a labelled spice-market container.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 640
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Yellow curry powder displayed in a labelled spice-market container.
   review_version: 0.1
   editorial:
     - id: summary
@@ -25889,6 +26729,21 @@
 - target:
     kind: ingredient
     id: hot-sauce
+  hero:
+    asset: references/hot-sauce.jpg
+    title: Fermented hot sauce.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Fermented_hot_sauce.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/a/a3/Fermented_hot_sauce.jpg
+    creator: Veganbaking.net from USA
+    licence: CC BY-SA 2.0
+    licence_url: https://creativecommons.org/licenses/by-sa/2.0
+    attribution_text: Fermented hot sauce.jpg — Veganbaking.net from USA
+    alt: A bottle of fermented hot sauce with a small portion on a saucer.
+    reviewed_at: 2026-10-24
+    width: 640
+    height: 960
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A bottle of fermented hot sauce with a small portion on a saucer.
   review_version: 0.1
   editorial:
     - id: summary
@@ -26168,6 +27023,21 @@
 - target:
     kind: ingredient
     id: hoisin-sauce
+  hero:
+    asset: references/hoisin-sauce.jpg
+    title: Hoisin sauce 1.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Hoisin_sauce_1.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/d/d1/Hoisin_sauce_1.jpg
+    creator: allen watkin from London, UK
+    licence: CC BY-SA 2.0
+    licence_url: https://creativecommons.org/licenses/by-sa/2.0
+    attribution_text: Hoisin sauce 1.jpg — allen watkin from London, UK
+    alt: A bowl of dark hoisin sauce served beside cooked food.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 833
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A bowl of dark hoisin sauce served beside cooked food.
   review_version: 0.1
   editorial:
     - id: summary
@@ -26297,6 +27167,21 @@
 - target:
     kind: ingredient
     id: sriracha
+  hero:
+    asset: references/sriracha.jpg
+    title: Siracha sauce.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Siracha_sauce.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/4/4e/Siracha_sauce.jpg
+    creator: Takeaway
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    attribution_text: Siracha sauce.jpg — Takeaway
+    alt: A bottle of sriracha sauce beside a small dish of the sauce.
+    reviewed_at: 2026-10-24
+    width: 720
+    height: 960
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A bottle of sriracha sauce beside a small dish of the sauce.
   review_version: 0.1
   editorial:
     - id: summary
@@ -26557,6 +27442,21 @@
 - target:
     kind: ingredient
     id: lamb
+  hero:
+    asset: references/lamb.jpg
+    title: Lamb meat (1).jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Lamb_meat_(1).jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/8/8c/Lamb_meat_%281%29.jpg
+    creator: I would appreciate being notified if you use my work outside Wikimedia. Do not copy this image illegally by ignoring the terms of the license below, as it is not in the public domain. If you would like special permission to use, license, or purchase the image please contact me to negotiate terms. More of my work can be found in my personal gallery .
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    attribution_text: Lamb meat (1).jpg — I would appreciate being notified if you use my work outside Wikimedia. Do not copy this image illegally by ignoring the terms of the license below, as it is not in the public domain. If you would like special permission to use, license, or purchase the image please contact me to negotiate terms. More of my work can be found in my personal gallery .
+    alt: A raw piece of lamb on a cutting board.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 894
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A raw piece of lamb on a cutting board.
   review_version: 0.1
   editorial:
     - id: summary
@@ -26703,6 +27603,21 @@
 - target:
     kind: ingredient
     id: chinese-five-spice
+  hero:
+    asset: references/chinese-five-spice.jpg
+    title: Five spice powder.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Five_spice_powder.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/b/b3/Five_spice_powder.jpg
+    creator: w:en:User:Leadehua
+    licence: Public domain
+    licence_url: https://commons.wikimedia.org/wiki/File:Five_spice_powder.jpg#Licensing
+    attribution_text: Five spice powder.jpg — w:en:User:Leadehua
+    alt: A labelled jar of Chinese five-spice powder with its lid removed.
+    reviewed_at: 2026-10-24
+    width: 638
+    height: 535
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A labelled jar of Chinese five-spice powder with its lid removed.
   review_version: 0.1
   editorial:
     - id: summary
@@ -26799,6 +27714,21 @@
 - target:
     kind: ingredient
     id: herbes-de-provence
+  hero:
+    asset: references/herbes-de-provence.jpg
+    title: Herbes de Provence 02.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Herbes_de_Provence_02.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/1/1b/Herbes_de_Provence_02.jpg
+    creator: Arnaud 25
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    attribution_text: Herbes de Provence 02.jpg — Arnaud 25
+    alt: Containers of herbes de Provence with dried herbs scattered nearby.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 720
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Containers of herbes de Provence with dried herbs scattered nearby.
   review_version: 0.1
   editorial:
     - id: summary
@@ -26872,6 +27802,21 @@
 - target:
     kind: ingredient
     id: peanut-oil
+  hero:
+    asset: references/peanut-oil.jpg
+    title: 4 gallons of peanut oil.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:4_gallons_of_peanut_oil.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/0/0c/4_gallons_of_peanut_oil.jpg
+    creator: emilee rader from Lansing, MI, USA
+    licence: CC BY-SA 2.0
+    licence_url: https://creativecommons.org/licenses/by-sa/2.0
+    attribution_text: 4 gallons of peanut oil.jpg — emilee rader from Lansing, MI, USA
+    alt: Peanut oil being poured from a container into a pot.
+    reviewed_at: 2026-10-24
+    width: 800
+    height: 600
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Peanut oil being poured from a container into a pot.
   review_version: 0.1
   editorial:
     - id: summary
@@ -26896,6 +27841,21 @@
 - target:
     kind: ingredient
     id: pork-shoulder
+  hero:
+    asset: references/pork-shoulder.jpg
+    title: Boston butt , boneless, tied.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Boston_butt_,_boneless,_tied.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/a/aa/Boston_butt_%2C_boneless%2C_tied.jpg
+    creator: Mark Miller
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    attribution_text: Boston butt , boneless, tied.jpg — Mark Miller
+    alt: A boneless pork shoulder roast tied with string.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 640
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A boneless pork shoulder roast tied with string.
   review_version: 0.1
   editorial:
     - id: summary
@@ -27111,6 +28071,21 @@
 - target:
     kind: ingredient
     id: vanilla-sugar
+  hero:
+    asset: references/vanilla-sugar.jpg
+    title: Vanillezucker.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Vanillezucker.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/0/07/Vanillezucker.jpg
+    creator: GeoTrinity
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    attribution_text: Vanillezucker.jpg — GeoTrinity
+    alt: Sugar in a jar with vanilla pods resting on top.
+    reviewed_at: 2026-10-24
+    width: 700
+    height: 763
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Sugar in a jar with vanilla pods resting on top.
   review_version: 0.1
   editorial:
     - id: summary
@@ -27175,6 +28150,21 @@
 - target:
     kind: ingredient
     id: yukon-potato
+  hero:
+    asset: references/yukon-potato.jpg
+    title: Yukon-gold-potatoes.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Yukon-gold-potatoes.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/f/fa/Yukon-gold-potatoes.jpg
+    creator: University of Guelph
+    licence: CC0
+    licence_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+    attribution_text: Yukon-gold-potatoes.jpg — University of Guelph
+    alt: Whole and halved Yukon Gold potatoes showing their yellow flesh.
+    reviewed_at: 2026-10-24
+    width: 250
+    height: 250
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Whole and halved Yukon Gold potatoes showing their yellow flesh.
   review_version: 0.1
   editorial:
     - id: summary
@@ -27339,6 +28329,21 @@
 - target:
     kind: ingredient
     id: liquid-smoke
+  hero:
+    asset: references/liquid-smoke.jpg
+    title: Liquid Smoke Spoonful.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Liquid_Smoke_Spoonful.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/0/06/Liquid_Smoke_Spoonful.jpg
+    creator: Ll1324
+    licence: CC0
+    licence_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+    attribution_text: Liquid Smoke Spoonful.jpg — Ll1324
+    alt: Amber liquid smoke in a spoon.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 534
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Amber liquid smoke in a spoon.
   review_version: 0.1
   editorial:
     - id: summary
@@ -27427,6 +28432,21 @@
 - target:
     kind: ingredient
     id: za-atar
+  hero:
+    asset: references/za-atar.jpg
+    title: Closeup image of za'atar, a blend of origanum syriacum (hyssop, sumac, sesame seeds and salt.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Closeup_image_of_za%27atar,_a_blend_of_origanum_syriacum_(hyssop,_sumac,_sesame_seeds_and_salt.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/8/8b/Closeup_image_of_za%27atar%2C_a_blend_of_origanum_syriacum_%28hyssop%2C_sumac%2C_sesame_seeds_and_salt.jpg
+    creator: Fshadid
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    attribution_text: Closeup image of za'atar, a blend of origanum syriacum (hyssop, sumac, sesame seeds and salt.jpg — Fshadid
+    alt: A mound of za'atar seasoning with visible sesame seeds.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 739
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A mound of za'atar seasoning with visible sesame seeds.
   review_version: 0.1
   editorial:
     - id: summary
@@ -27516,6 +28536,21 @@
 - target:
     kind: ingredient
     id: bechamel
+  hero:
+    asset: references/bechamel.jpg
+    title: 2021 Sos beszamelowy.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:2021_Sos_beszamelowy.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/8/8a/2021_Sos_beszamelowy.jpg
+    creator: Jacek Halicki
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    attribution_text: 2021 Sos beszamelowy.jpg — Jacek Halicki
+    alt: Pale béchamel sauce in a saucepan with a wooden spoon.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 675
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Pale béchamel sauce in a saucepan with a wooden spoon.
   review_version: 0.1
   editorial:
     - id: summary
@@ -27589,6 +28624,21 @@
 - target:
     kind: ingredient
     id: bouillon-cube
+  hero:
+    asset: references/bouillon-cube.jpg
+    title: Brühwürfel-1.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Br%C3%BChw%C3%BCrfel-1.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/f/f5/Br%C3%BChw%C3%BCrfel-1.jpg
+    creator: Rainer Z ...
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    attribution_text: Brühwürfel-1.jpg — Rainer Z ...
+    alt: Several bouillon cubes partly removed from their wrappers.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 789
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Several bouillon cubes partly removed from their wrappers.
   review_version: 0.1
   editorial:
     - id: summary
@@ -27691,6 +28741,21 @@
 - target:
     kind: ingredient
     id: chipotle-peppers
+  hero:
+    asset: references/chipotle-peppers.jpg
+    title: Capsicum annuum chipotle dried.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Capsicum_annuum_chipotle_dried.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/d/d4/Capsicum_annuum_chipotle_dried.jpg
+    creator: User:Carstor
+    licence: CC BY-SA 2.5
+    licence_url: https://creativecommons.org/licenses/by-sa/2.5
+    attribution_text: Capsicum annuum chipotle dried.jpg — User:Carstor
+    alt: Two dried chipotle peppers on a wooden surface.
+    reviewed_at: 2026-10-24
+    width: 911
+    height: 960
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Two dried chipotle peppers on a wooden surface.
   review_version: 0.1
   editorial:
     - id: summary
@@ -27754,6 +28819,21 @@
 - target:
     kind: ingredient
     id: cider-vinegar
+  hero:
+    asset: references/cider-vinegar.jpg
+    title: Apple Cider Vinegar (4108653248).jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Apple_Cider_Vinegar_(4108653248).jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/b/b5/Apple_Cider_Vinegar_%284108653248%29.jpg
+    creator: Veganbaking.net from USA
+    licence: CC BY-SA 2.0
+    licence_url: https://creativecommons.org/licenses/by-sa/2.0
+    attribution_text: Apple Cider Vinegar (4108653248).jpg — Veganbaking.net from USA
+    alt: Amber apple cider vinegar in a small glass bowl.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 640
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Amber apple cider vinegar in a small glass bowl.
   review_version: 0.1
   editorial:
     - id: summary
@@ -27923,6 +29003,21 @@
 - target:
     kind: ingredient
     id: dukkah
+  hero:
+    asset: references/dukkah.jpg
+    title: Du'ah (dukkah) - Egyptian spice mix.JPG
+    source_page: https://commons.wikimedia.org/wiki/File:Du%27ah_(dukkah)_-_Egyptian_spice_mix.JPG
+    source_file: https://upload.wikimedia.org/wikipedia/commons/0/0f/Du%27ah_%28dukkah%29_-_Egyptian_spice_mix.JPG
+    creator: Abissada
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    attribution_text: Du'ah (dukkah) - Egyptian spice mix.JPG — Abissada
+    alt: A coarse dukkah spice-and-nut mixture on a plate.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 637
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A coarse dukkah spice-and-nut mixture on a plate.
   review_version: 0.1
   editorial:
     - id: summary
@@ -28191,6 +29286,21 @@
 - target:
     kind: ingredient
     id: old-bay-seasoning
+  hero:
+    asset: references/old-bay-seasoning.jpg
+    title: Old Bay Seasoning.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Old_Bay_Seasoning.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/4/4f/Old_Bay_Seasoning.jpg
+    creator: L1veb4y0udi3
+    licence: CC0
+    licence_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+    attribution_text: Old Bay Seasoning.jpg — L1veb4y0udi3
+    alt: An Old Bay seasoning tin beside a mound of its spice mixture.
+    reviewed_at: 2026-10-24
+    width: 640
+    height: 960
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: An Old Bay seasoning tin beside a mound of its spice mixture.
   review_version: 0.1
   editorial:
     - id: summary
@@ -28215,6 +29325,21 @@
 - target:
     kind: ingredient
     id: orange-juice
+  hero:
+    asset: references/orange-juice.jpg
+    title: Orangejuice.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Orangejuice.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/0/05/Orangejuice.jpg
+    creator: rawpixel.com
+    licence: CC0
+    licence_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+    attribution_text: Orangejuice.jpg — rawpixel.com
+    alt: A glass of orange juice beside halved oranges.
+    reviewed_at: 2026-10-24
+    width: 641
+    height: 960
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A glass of orange juice beside halved oranges.
   review_version: 0.1
   editorial:
     - id: summary
@@ -28578,6 +29703,21 @@
 - target:
     kind: ingredient
     id: white-wine
+  hero:
+    asset: references/white-wine.jpg
+    title: White Wine Glas.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:White_Wine_Glas.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/7/71/White_Wine_Glas.jpg
+    creator: André Karwath aka Aka
+    licence: CC BY-SA 2.5
+    licence_url: https://creativecommons.org/licenses/by-sa/2.5
+    attribution_text: White Wine Glas.jpg — André Karwath aka Aka
+    alt: Pale white wine in a stemmed glass.
+    reviewed_at: 2026-10-24
+    width: 401
+    height: 800
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Pale white wine in a stemmed glass.
   review_version: 0.1
   editorial:
     - id: summary
@@ -28602,6 +29742,21 @@
 - target:
     kind: ingredient
     id: beer
+  hero:
+    asset: references/beer.jpg
+    title: Jeju beer 09 (cropped).jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Jeju_beer_09_(cropped).jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/e/e0/Jeju_beer_09_%28cropped%29.jpg
+    creator: KOREA.NET - Official page of the Republic of Korea
+    licence: CC BY 2.0
+    licence_url: https://creativecommons.org/licenses/by/2.0
+    attribution_text: Jeju beer 09 (cropped).jpg — KOREA.NET - Official page of the Republic of Korea
+    alt: Beer being poured from a tap into a glass.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 889
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Beer being poured from a tap into a glass.
   review_version: 0.1
   editorial:
     - id: summary
@@ -28650,6 +29805,21 @@
 - target:
     kind: ingredient
     id: octopus
+  hero:
+    asset: references/octopus.jpg
+    title: Octopuses in Tsukiji.JPG
+    source_page: https://commons.wikimedia.org/wiki/File:Octopuses_in_Tsukiji.JPG
+    source_file: https://upload.wikimedia.org/wikipedia/commons/0/09/Octopuses_in_Tsukiji.JPG
+    creator: Hu Totya
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0/
+    attribution_text: Octopuses in Tsukiji.JPG — Hu Totya
+    alt: Octopuses displayed in trays at a seafood market.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 720
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Octopuses displayed in trays at a seafood market.
   review_version: 0.1
   editorial:
     - id: summary
@@ -28674,6 +29844,21 @@
 - target:
     kind: ingredient
     id: oyster-sauce
+  hero:
+    asset: references/oyster-sauce.jpg
+    title: OysterSauce2.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:OysterSauce2.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/7/78/OysterSauce2.jpg
+    creator: Gossipguy
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    attribution_text: OysterSauce2.jpg — Gossipguy
+    alt: Thick dark oyster sauce being squeezed onto a spoon.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 720
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Thick dark oyster sauce being squeezed onto a spoon.
   review_version: 0.1
   editorial:
     - id: summary
@@ -28699,6 +29884,21 @@
 - target:
     kind: ingredient
     id: rookworst
+  hero:
+    asset: references/rookworst.jpg
+    title: Boerenkool met worst.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Boerenkool_met_worst.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/5/50/Boerenkool_met_worst.jpg
+    creator: Amin
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    attribution_text: Boerenkool met worst.jpg — Amin
+    alt: Sliced rookworst sausage served on mashed vegetables.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 720
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Sliced rookworst sausage served on mashed vegetables.
   review_version: 0.1
   editorial:
     - id: summary
@@ -28723,6 +29923,21 @@
 - target:
     kind: ingredient
     id: seafood
+  hero:
+    asset: references/seafood.jpg
+    title: Plateau van zeevruchten.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Plateau_van_zeevruchten.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/a/ae/Plateau_van_zeevruchten.jpg
+    creator: Frits Hoogesteger at nl.wikibooks
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0/
+    attribution_text: Plateau van zeevruchten.jpg — Frits Hoogesteger at nl.wikibooks
+    alt: An assorted seafood platter containing shellfish and prawns.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 960
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: An assorted seafood platter containing shellfish and prawns.
   review_version: 0.1
   editorial:
     - id: summary
@@ -28795,6 +30010,21 @@
 - target:
     kind: ingredient
     id: crab-meat
+  hero:
+    asset: references/crab-meat.jpg
+    title: Ristet brød med krabbekløer (4898535215).jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Ristet_br%C3%B8d_med_krabbekl%C3%B8er_(4898535215).jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/f/f9/Ristet_br%C3%B8d_med_krabbekl%C3%B8er_%284898535215%29.jpg
+    creator: cyclonebill from Copenhagen, Denmark
+    licence: CC BY-SA 2.0
+    licence_url: https://creativecommons.org/licenses/by-sa/2.0
+    attribution_text: Ristet brød med krabbekløer (4898535215).jpg — cyclonebill from Copenhagen, Denmark
+    alt: Crab meat piled on toast beside a lemon wedge.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 720
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Crab meat piled on toast beside a lemon wedge.
   review_version: 0.1
   editorial:
     - id: summary
@@ -28819,6 +30049,21 @@
 - target:
     kind: ingredient
     id: currants
+  hero:
+    asset: references/currants.jpg
+    title: Grape Rasins plus Zante Currants.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Grape_Rasins_plus_Zante_Currants.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/0/00/Grape_Rasins_plus_Zante_Currants.jpg
+    creator: Marc Kupper
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0/
+    attribution_text: Grape Rasins plus Zante Currants.jpg — Marc Kupper
+    alt: Larger raisins on the left and smaller dried Zante currants on the right, beside a ruler.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 677
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Larger raisins on the left and smaller dried Zante currants on the right, beside a ruler.
   review_version: 0.1
   editorial:
     - id: summary
@@ -28916,6 +30161,21 @@
 - target:
     kind: ingredient
     id: salt-pork
+  hero:
+    asset: references/salt-pork.jpg
+    title: Saltpork.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Saltpork.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/3/37/Saltpork.jpg
+    creator: User:TodoInTX
+    licence: Public domain
+    licence_url: https://commons.wikimedia.org/wiki/File:Saltpork.jpg#Licensing
+    attribution_text: Saltpork.jpg — User:TodoInTX
+    alt: A wrapped piece of salt pork with a shop label.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 720
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A wrapped piece of salt pork with a shop label.
   review_version: 0.1
   editorial:
     - id: summary
@@ -28965,6 +30225,21 @@
 - target:
     kind: ingredient
     id: venison
+  hero:
+    asset: references/venison.jpg
+    title: Venison Steaks.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Venison_Steaks.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/6/64/Venison_Steaks.jpg
+    creator: FotoosVanRobin from Netherlands
+    licence: CC BY-SA 2.0
+    licence_url: https://creativecommons.org/licenses/by-sa/2.0
+    attribution_text: Venison Steaks.jpg — FotoosVanRobin from Netherlands
+    alt: Two raw venison steaks on a plate.
+    reviewed_at: 2026-10-24
+    width: 850
+    height: 629
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Two raw venison steaks on a plate.
   review_version: 0.1
   editorial:
     - id: summary
@@ -29037,6 +30312,21 @@
 - target:
     kind: ingredient
     id: ice-cream
+  hero:
+    asset: references/ice-cream.jpg
+    title: Vanilla Ice Cream Cone at Camp Manitoulin.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Vanilla_Ice_Cream_Cone_at_Camp_Manitoulin.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/f/f3/Vanilla_Ice_Cream_Cone_at_Camp_Manitoulin.jpg
+    creator: Steven Depolo
+    licence: CC BY 2.0
+    licence_url: https://creativecommons.org/licenses/by/2.0
+    attribution_text: Vanilla Ice Cream Cone at Camp Manitoulin.jpg — Steven Depolo
+    alt: Scoops of vanilla ice cream in a cone.
+    reviewed_at: 2026-10-24
+    width: 427
+    height: 640
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Scoops of vanilla ice cream in a cone.
   review_version: 0.1
   editorial:
     - id: summary
@@ -29109,6 +30399,21 @@
 - target:
     kind: ingredient
     id: msg
+  hero:
+    asset: references/msg.jpg
+    title: Monosodium glutamate crystals.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Monosodium_glutamate_crystals.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/8/89/Monosodium_glutamate_crystals.jpg
+    creator: Ragesoss
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    attribution_text: Monosodium glutamate crystals.jpg — Ragesoss
+    alt: A mound of white monosodium glutamate crystals on a dark surface.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 639
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A mound of white monosodium glutamate crystals on a dark surface.
   review_version: 0.1
   editorial:
     - id: summary
@@ -29159,6 +30464,21 @@
 - target:
     kind: ingredient
     id: plum-tomato
+  hero:
+    asset: references/plum-tomato.jpg
+    title: Plum Tomatoes, Lexington MA.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Plum_Tomatoes,_Lexington_MA.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/b/b4/Plum_Tomatoes%2C_Lexington_MA.jpg
+    creator: John Phelan
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    attribution_text: Plum Tomatoes, Lexington MA.jpg — John Phelan
+    alt: Red plum tomatoes on a plate.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 720
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Red plum tomatoes on a plate.
   review_version: 0.1
   editorial:
     - id: summary
@@ -29256,6 +30576,21 @@
 - target:
     kind: ingredient
     id: savoiardi-biscuits
+  hero:
+    asset: references/savoiardi-biscuits.jpg
+    title: Biskotten-02.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Biskotten-02.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/0/0c/Biskotten-02.jpg
+    creator: Priwo
+    licence: Public domain
+    licence_url: https://commons.wikimedia.org/wiki/File:Biskotten-02.jpg#Licensing
+    attribution_text: Biskotten-02.jpg — Priwo
+    alt: A pile of long savoiardi sponge biscuits.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 720
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A pile of long savoiardi sponge biscuits.
   review_version: 0.1
   editorial:
     - id: summary
@@ -29304,6 +30639,21 @@
 - target:
     kind: ingredient
     id: scamorza-cheese
+  hero:
+    asset: references/scamorza-cheese.jpg
+    title: Scamorza chez un fromager.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Scamorza_chez_un_fromager.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/6/6b/Scamorza_chez_un_fromager.jpg
+    creator: Thomon
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    attribution_text: Scamorza chez un fromager.jpg — Thomon
+    alt: Scamorza cheeses hanging by strings at a cheese counter.
+    reviewed_at: 2026-10-24
+    width: 586
+    height: 960
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Scamorza cheeses hanging by strings at a cheese counter.
   review_version: 0.1
   editorial:
     - id: summary
@@ -29358,6 +30708,21 @@
 - target:
     kind: ingredient
     id: snail
+  hero:
+    asset: references/snail.jpg
+    title: Caracoles-del-restaurante-granero.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Caracoles-del-restaurante-granero.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/d/d7/Caracoles-del-restaurante-granero.jpg
+    creator: Restaurante Granero
+    licence: Public domain
+    licence_url: https://commons.wikimedia.org/wiki/File:Caracoles-del-restaurante-granero.jpg#Licensing
+    attribution_text: Caracoles-del-restaurante-granero.jpg — Restaurante Granero
+    alt: Cooked snails in their shells served in an earthenware dish.
+    reviewed_at: 2026-10-24
+    width: 700
+    height: 525
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Cooked snails in their shells served in an earthenware dish.
   review_version: 0.1
   editorial:
     - id: summary
@@ -29431,6 +30796,21 @@
 - target:
     kind: ingredient
     id: vermicelli
+  hero:
+    asset: references/vermicelli.jpg
+    title: Fideo (coiled vermicelli).JPG
+    source_page: https://commons.wikimedia.org/wiki/File:Fideo_(coiled_vermicelli).JPG
+    source_file: https://upload.wikimedia.org/wikipedia/commons/f/f2/Fideo_%28coiled_vermicelli%29.JPG
+    creator: Glane23
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0
+    attribution_text: Fideo (coiled vermicelli).JPG — Glane23
+    alt: Coils of fine dried vermicelli on a plate.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 681
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Coils of fine dried vermicelli on a plate.
   review_version: 0.1
   editorial:
     - id: summary
@@ -29582,6 +30962,21 @@
 - target:
     kind: ingredient
     id: english-muffins
+  hero:
+    asset: references/english-muffins.jpg
+    title: Harborview Bistro & Bar - January 2024 - Sarah Stierch 08.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Harborview_Bistro_%26_Bar_-_January_2024_-_Sarah_Stierch_08.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/e/e8/Harborview_Bistro_%26_Bar_-_January_2024_-_Sarah_Stierch_08.jpg
+    creator: Missvain
+    licence: CC BY 4.0
+    licence_url: https://creativecommons.org/licenses/by/4.0
+    attribution_text: Harborview Bistro & Bar - January 2024 - Sarah Stierch 08.jpg — Missvain
+    alt: A split toasted English muffin beside a small dish of butter.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 720
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: A split toasted English muffin beside a small dish of butter.
   review_version: 0.1
   editorial:
     - id: summary
@@ -29630,6 +31025,21 @@
 - target:
     kind: ingredient
     id: jam
+  hero:
+    asset: references/jam.jpg
+    title: Fruits jam variants.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Fruits_jam_variants.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/2/21/Fruits_jam_variants.jpg
+    creator: 毒島みるく
+    licence: CC0
+    licence_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+    attribution_text: Fruits jam variants.jpg — 毒島みるく
+    alt: Small portions of different fruit preserves arranged beside a ruler.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 377
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Small portions of different fruit preserves arranged beside a ruler.
   review_version: 0.1
   editorial:
     - id: summary
@@ -29702,6 +31112,21 @@
 - target:
     kind: ingredient
     id: marmalade
+  hero:
+    asset: references/marmalade.jpg
+    title: Homemade marmalade, England.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Homemade_marmalade,_England.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/3/30/Homemade_marmalade%2C_England.jpg
+    creator: Amanda Slater
+    licence: CC BY-SA 2.0
+    licence_url: https://creativecommons.org/licenses/by-sa/2.0
+    attribution_text: Homemade marmalade, England.jpg — Amanda Slater
+    alt: Orange marmalade in a glass jar.
+    reviewed_at: 2026-10-24
+    width: 720
+    height: 960
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Orange marmalade in a glass jar.
   review_version: 0.1
   editorial:
     - id: summary
@@ -29800,6 +31225,21 @@
 - target:
     kind: ingredient
     id: quark
+  hero:
+    asset: references/quark.jpg
+    title: Skimmed milk quark on spoon.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Skimmed_milk_quark_on_spoon.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/7/7b/Skimmed_milk_quark_on_spoon.jpg
+    creator: SKopp
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    attribution_text: Skimmed milk quark on spoon.jpg — SKopp
+    alt: White quark piled on a spoon.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 768
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: White quark piled on a spoon.
   review_version: 0.1
   editorial:
     - id: summary
@@ -29825,6 +31265,21 @@
 - target:
     kind: ingredient
     id: ramen-noodles
+  hero:
+    asset: references/ramen-noodles.jpg
+    title: Shoyu Ramen（Tokyo Ramen） - 01.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Shoyu_Ramen%EF%BC%88Tokyo_Ramen%EF%BC%89_-_01.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/c/c3/Shoyu_Ramen%EF%BC%88Tokyo_Ramen%EF%BC%89_-_01.jpg
+    creator: Quercus acuta
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0
+    attribution_text: Shoyu Ramen（Tokyo Ramen） - 01.jpg — Quercus acuta
+    alt: Ramen noodles served in a bowl of broth with toppings.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 720
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Ramen noodles served in a bowl of broth with toppings.
   review_version: 0.1
   editorial:
     - id: summary
@@ -29849,6 +31304,21 @@
 - target:
     kind: ingredient
     id: serrano-chilies
+  hero:
+    asset: references/serrano-chilies.jpg
+    title: Serranochilis.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Serranochilis.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/1/15/Serranochilis.jpg
+    creator: Cindy from Wisconsin, USA
+    licence: CC BY-SA 2.0
+    licence_url: https://creativecommons.org/licenses/by-sa/2.0
+    attribution_text: Serranochilis.jpg — Cindy from Wisconsin, USA
+    alt: Green and red serrano chillies growing on a plant.
+    reviewed_at: 2026-10-24
+    width: 718
+    height: 960
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Green and red serrano chillies growing on a plant.
   review_version: 0.1
   editorial:
     - id: summary
@@ -29945,6 +31415,21 @@
 - target:
     kind: ingredient
     id: toast
+  hero:
+    asset: references/toast.jpg
+    title: Toast-3.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Toast-3.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/3/35/Toast-3.jpg
+    creator: Rainer Z ...
+    licence: CC BY-SA 3.0
+    licence_url: https://creativecommons.org/licenses/by-sa/3.0/
+    attribution_text: Toast-3.jpg — Rainer Z ...
+    alt: Untoasted bread on the left and browned toast on the right.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 879
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Untoasted bread on the left and browned toast on the right.
   review_version: 0.1
   editorial:
     - id: summary
@@ -30139,6 +31624,21 @@
 - target:
     kind: ingredient
     id: rice-vinegar
+  hero:
+    asset: references/rice-vinegar.jpg
+    title: Rice vinegar.jpg
+    source_page: https://commons.wikimedia.org/wiki/File:Rice_vinegar.jpg
+    source_file: https://upload.wikimedia.org/wikipedia/commons/6/6b/Rice_vinegar.jpg
+    creator: Sotaque
+    licence: CC0
+    licence_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+    attribution_text: Rice vinegar.jpg — Sotaque
+    alt: Pale rice vinegar in a small white bowl.
+    reviewed_at: 2026-10-24
+    width: 960
+    height: 960
+    changes: Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+    caption: Pale rice vinegar in a small white bowl.
   review_version: 0.1
   editorial:
     - id: summary

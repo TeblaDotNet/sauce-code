@@ -5,7 +5,7 @@ import {createHash} from 'node:crypto';
 import {parse} from 'yaml';
 import {loadVocabulary} from '../src/vocabulary/node.ts';
 import {createReferencePage,renderReferenceHtml} from '../src/index.ts';
-import {preImageBatch3} from './helpers/pre-image-batch.ts';
+import {preImageBatch3,preImageBatch4} from './helpers/pre-image-batch.ts';
 const ledger=JSON.parse(readFileSync('docs/knowledge-images-batch-3.json','utf8'));
 const hash=(x:string|Buffer)=>createHash('sha256').update(x).digest('hex');
 const v=await loadVocabulary('knowledge');
@@ -27,7 +27,7 @@ test('image batch leaves all existing knowledge content and resources unchanged'
  assert.equal(hash(readFileSync('knowledge/resources.yaml')),ledger.before.resources_sha256);
  for(const [p,h]of Object.entries(ledger.canonicalFileHashes))assert.equal(hash(readFileSync(p)),h,p);
  for(const [p,h]of Object.entries(ledger.previousAssetHashes))assert.equal(hash(readFileSync('assets/references/'+p)),h,p);
- assert.equal(v.enrichments.length,911);assert.equal(v.enrichments.filter(e=>e.hero).length,249);
+ assert.equal(v.enrichments.length,911);assert.equal(preImageBatch4(v.enrichments).filter(e=>e.hero).length,249);
  assert.equal(ledger.pages.length,100);assert.equal(new Set(ledger.pages.map((r:{id:string})=>r.id)).size,100);
  assert.equal(ledger.pages.reduce((s:number,r:{bytes:number})=>s+r.bytes,0),ledger.optimisation.total_bytes);
 });

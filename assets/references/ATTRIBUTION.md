@@ -999,3 +999,403 @@ Kitchen-Silicone-Brush.jpg — Evan-Amos. [Public domain](https://commons.wikime
 ## muddler
 
 Muddler2.jpg — Dave Catania (Cachaca Dave).. [Public domain](https://commons.wikimedia.org/wiki/File:Muddler2.jpg#Licensing). [Source](https://commons.wikimedia.org/wiki/File:Muddler2.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## butter
+
+Švédský koláč naruby 904 (cropped).JPG — Matěj Baťha. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0). [Source](https://commons.wikimedia.org/wiki/File:%C5%A0v%C3%A9dsk%C3%BD_kol%C3%A1%C4%8D_naruby_904_(cropped).JPG). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## olive-oil
+
+Oliven V1.jpg — Poyraz 72. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0). [Source](https://commons.wikimedia.org/wiki/File:Oliven_V1.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## chicken
+
+Chickens in market.jpg — Tomás Castelazo. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0). [Source](https://commons.wikimedia.org/wiki/File:Chickens_in_market.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## coconut-milk
+
+Cononut milk.JPG — S Sepp. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0). [Source](https://commons.wikimedia.org/wiki/File:Cononut_milk.JPG). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## vinegar
+
+Eguilles 20110828 14.jpg — Georges Seguin ( Okki ). [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0). [Source](https://commons.wikimedia.org/wiki/File:Eguilles_20110828_14.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## beef
+
+Standing-rib-roast.jpg — Michael C. Berch, aka MCB at en.wikipedia. [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5). [Source](https://commons.wikimedia.org/wiki/File:Standing-rib-roast.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## soy-sauce
+
+Soy sauce 2.jpg — 국립국어원. [CC BY-SA 2.0 kr](https://creativecommons.org/licenses/by-sa/2.0/kr/deed.en). [Source](https://commons.wikimedia.org/wiki/File:Soy_sauce_2.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## yeast
+
+20100911 232323 Yeast Live.jpg — Bob Blaylock. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0). [Source](https://commons.wikimedia.org/wiki/File:20100911_232323_Yeast_Live.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## baking-powder
+
+BakingPowder.jpg — Lou Sander. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0). [Source](https://commons.wikimedia.org/wiki/File:BakingPowder.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## balsamic-vinegar
+
+Balsamic vinegar (drops).jpg — Andrea Levers. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0). [Source](https://commons.wikimedia.org/wiki/File:Balsamic_vinegar_(drops).jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## coconut-oil
+
+Coconut and oil.jpg — Phu Thinh Co. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0). [Source](https://commons.wikimedia.org/wiki/File:Coconut_and_oil.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## tomato-paste
+
+Tomato paste on spoon.jpg — SKopp. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0). [Source](https://commons.wikimedia.org/wiki/File:Tomato_paste_on_spoon.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## buttermilk
+
+Buttermilk-(right)-and-Milk-(left).jpg — Ukko-wc. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0). [Source](https://commons.wikimedia.org/wiki/File:Buttermilk-(right)-and-Milk-(left).jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## stock
+
+Making stock for pho bo.jpg — Blue Lotus. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0). [Source](https://commons.wikimedia.org/wiki/File:Making_stock_for_pho_bo.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## apple-juice
+
+Apfelsaft im Glas.jpg — Verband der deutschen Fruchtsaftindustrie e.V.. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0). [Source](https://commons.wikimedia.org/wiki/File:Apfelsaft_im_Glas.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## beef-brisket
+
+Brisketphoto.jpg — Josh Evnin from Chicago, IL, USA. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0). [Source](https://commons.wikimedia.org/wiki/File:Brisketphoto.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## lard
+
+Homelard.jpg — No machine-readable author provided. Peter G Werner~commonswiki assumed (based on copyright claims).. [CC BY 2.5](https://creativecommons.org/licenses/by/2.5). [Source](https://commons.wikimedia.org/wiki/File:Homelard.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## sesame-oil
+
+SesameSeedOil.png — Itineranttrader. [Public domain](https://commons.wikimedia.org/wiki/File:SesameSeedOil.png#Licensing). [Source](https://commons.wikimedia.org/wiki/File:SesameSeedOil.png). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed. Transparency composited on white.
+
+## fish-sauce
+
+Sauce de poisson.jpg — Assassas77. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0). [Source](https://commons.wikimedia.org/wiki/File:Sauce_de_poisson.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## creme-fraiche
+
+Crème d'Isigny 2.JPG — Patafisik. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0). [Source](https://commons.wikimedia.org/wiki/File:Cr%C3%A8me_d%27Isigny_2.JPG). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## cornflour
+
+Cornstarch mixed with water.jpg — Picasa author kalaya. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0). [Source](https://commons.wikimedia.org/wiki/File:Cornstarch_mixed_with_water.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## grits
+
+Grits1.jpg — sashafatcat. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0). [Source](https://commons.wikimedia.org/wiki/File:Grits1.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## kombucha-scoby
+
+SCOBY mushroom.jpg — Lukas Chin. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0). [Source](https://commons.wikimedia.org/wiki/File:SCOBY_mushroom.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## gin
+
+DecaturGins.jpg — Decatur Wine & Spirits. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0). [Source](https://commons.wikimedia.org/wiki/File:DecaturGins.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## vodka
+
+Smirnoff Red Label 8213.jpg — Ashley Pomeroy. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0). [Source](https://commons.wikimedia.org/wiki/File:Smirnoff_Red_Label_8213.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## rum
+
+A glass of rum.jpg — Linus Bohman from Malmö, Sweden. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0). [Source](https://commons.wikimedia.org/wiki/File:A_glass_of_rum.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## vermouth
+
+Four bottles of vermouth.jpg — Kenneth C. Zirkel. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0). [Source](https://commons.wikimedia.org/wiki/File:Four_bottles_of_vermouth.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## absinthe
+
+Absinthe-glass.jpg — Eric Litton. [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5). [Source](https://commons.wikimedia.org/wiki/File:Absinthe-glass.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## amaro
+
+SomeAmari.jpg — Shabbychef at English Wikipedia. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0). [Source](https://commons.wikimedia.org/wiki/File:SomeAmari.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## bourbon
+
+DecaturBourbons.jpg — Decatur Wine & Spirits. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0). [Source](https://commons.wikimedia.org/wiki/File:DecaturBourbons.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## scotch-whisky
+
+Bowmore whisky 12 years.JPG — Sansvase. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0). [Source](https://commons.wikimedia.org/wiki/File:Bowmore_whisky_12_years.JPG). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## mezcal
+
+Mezcal bottles .jpg — ProtoplasmaKid. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0). [Source](https://commons.wikimedia.org/wiki/File:Mezcal_bottles_.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## brandy
+
+Cognac glass.jpg — Didier Descouens. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0). [Source](https://commons.wikimedia.org/wiki/File:Cognac_glass.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## orange-liqueur
+
+Triple Sec.jpg — Chris Kirkman from Chapel Hill, North Carolina, United States. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0). [Source](https://commons.wikimedia.org/wiki/File:Triple_Sec.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## grenadine
+
+Grenadinesyrup.jpg — Badagnani. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0). [Source](https://commons.wikimedia.org/wiki/File:Grenadinesyrup.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## orgeat
+
+Orgeat syrup flavored drinks.jpg — Nicholas Gemini. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0). [Source](https://commons.wikimedia.org/wiki/File:Orgeat_syrup_flavored_drinks.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## ginger-beer
+
+Ginger beer bottle assortment.jpg — Aatu Dorochenko. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0). [Source](https://commons.wikimedia.org/wiki/File:Ginger_beer_bottle_assortment.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## tonic-water
+
+Tonic water uv.jpg — User:Splarka from en:wp. [Public domain](https://commons.wikimedia.org/wiki/File:Tonic_water_uv.jpg#Licensing). [Source](https://commons.wikimedia.org/wiki/File:Tonic_water_uv.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## wine
+
+Red and white wine in glass.jpg — André Karwath. [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5). [Source](https://commons.wikimedia.org/wiki/File:Red_and_white_wine_in_glass.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## champagne
+
+Glass of champagne.jpg — bgvjpe. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0). [Source](https://commons.wikimedia.org/wiki/File:Glass_of_champagne.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## agave
+
+Agave Syrup.jpg — Sharky78. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0). [Source](https://commons.wikimedia.org/wiki/File:Agave_Syrup.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## garlic-powder
+
+Ground-Garlic 31534-480x360 (4904476773).jpg — Emilian Robert Vicol from Com. Balanesti, Romania. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0). [Source](https://commons.wikimedia.org/wiki/File:Ground-Garlic_31534-480x360_(4904476773).jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## mustard
+
+Mustard.JPG — fuji01. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en). [Source](https://commons.wikimedia.org/wiki/File:Mustard.JPG). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## tomato-sauce
+
+Fresh Tomato Sauce (Unsplash).jpg — Dennis Klein klein2. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en). [Source](https://commons.wikimedia.org/wiki/File:Fresh_Tomato_Sauce_(Unsplash).jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## mayonnaise
+
+Mayonnaise (1).jpg — jules. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0). [Source](https://commons.wikimedia.org/wiki/File:Mayonnaise_(1).jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## worcestershire-sauce
+
+Worcester Sauce 001.jpg — Ocdp. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en). [Source](https://commons.wikimedia.org/wiki/File:Worcester_Sauce_001.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## puff-pastry
+
+Pate feuilletee 2.jpg — Popo le Chien. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0). [Source](https://commons.wikimedia.org/wiki/File:Pate_feuilletee_2.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## red-pepper-flakes
+
+2014 Dried chilli flakes.jpg — Takeaway. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0). [Source](https://commons.wikimedia.org/wiki/File:2014_Dried_chilli_flakes.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## ketchup
+
+Ketchup 20160918 181342 (cropped).jpg — Kim Holger Kelting. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0). [Source](https://commons.wikimedia.org/wiki/File:Ketchup_20160918_181342_(cropped).jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## onion-powder
+
+Onion Powder, Penzeys Spices, Arlington Heights MA.jpg — John Phelan. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0). [Source](https://commons.wikimedia.org/wiki/File:Onion_Powder,_Penzeys_Spices,_Arlington_Heights_MA.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## vanilla-extract
+
+VanillaExtract.png — Itineranttrader. [Public domain](https://commons.wikimedia.org/wiki/File:VanillaExtract.png#Licensing). [Source](https://commons.wikimedia.org/wiki/File:VanillaExtract.png). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed. Transparency composited on white.
+
+## pork-chop
+
+Pork chops 167541218.jpg — penny from Oakland, California, USA. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0). [Source](https://commons.wikimedia.org/wiki/File:Pork_chops_167541218.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## pork
+
+Schweinebauch-2.jpg — Rainer Zenz. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0). [Source](https://commons.wikimedia.org/wiki/File:Schweinebauch-2.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## icing-sugar
+
+Powdered Sugar - Macro.jpg — Atm100. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0). [Source](https://commons.wikimedia.org/wiki/File:Powdered_Sugar_-_Macro.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## turkey
+
+Thanksgiving Turkey.jpg — Patrick Fitzgerald from Atlanta, GA, USA. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0). [Source](https://commons.wikimedia.org/wiki/File:Thanksgiving_Turkey.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## curry-powder
+
+Curry powder in the spice-bazaar in Istanbul.jpg — Thomas Steiner. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). [Source](https://commons.wikimedia.org/wiki/File:Curry_powder_in_the_spice-bazaar_in_Istanbul.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## hot-sauce
+
+Fermented hot sauce.jpg — Veganbaking.net from USA. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0). [Source](https://commons.wikimedia.org/wiki/File:Fermented_hot_sauce.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## hoisin-sauce
+
+Hoisin sauce 1.jpg — allen watkin from London, UK. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0). [Source](https://commons.wikimedia.org/wiki/File:Hoisin_sauce_1.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## sriracha
+
+Siracha sauce.jpg — Takeaway. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0). [Source](https://commons.wikimedia.org/wiki/File:Siracha_sauce.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## lamb
+
+Lamb meat (1).jpg — I would appreciate being notified if you use my work outside Wikimedia. Do not copy this image illegally by ignoring the terms of the license below, as it is not in the public domain. If you would like special permission to use, license, or purchase the image please contact me to negotiate terms. More of my work can be found in my personal gallery .. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0). [Source](https://commons.wikimedia.org/wiki/File:Lamb_meat_(1).jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## chinese-five-spice
+
+Five spice powder.jpg — w:en:User:Leadehua. [Public domain](https://commons.wikimedia.org/wiki/File:Five_spice_powder.jpg#Licensing). [Source](https://commons.wikimedia.org/wiki/File:Five_spice_powder.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## herbes-de-provence
+
+Herbes de Provence 02.jpg — Arnaud 25. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0). [Source](https://commons.wikimedia.org/wiki/File:Herbes_de_Provence_02.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## peanut-oil
+
+4 gallons of peanut oil.jpg — emilee rader from Lansing, MI, USA. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0). [Source](https://commons.wikimedia.org/wiki/File:4_gallons_of_peanut_oil.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## pork-shoulder
+
+Boston butt , boneless, tied.jpg — Mark Miller. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0). [Source](https://commons.wikimedia.org/wiki/File:Boston_butt_,_boneless,_tied.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## vanilla-sugar
+
+Vanillezucker.jpg — GeoTrinity. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0). [Source](https://commons.wikimedia.org/wiki/File:Vanillezucker.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## yukon-potato
+
+Yukon-gold-potatoes.jpg — University of Guelph. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en). [Source](https://commons.wikimedia.org/wiki/File:Yukon-gold-potatoes.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## liquid-smoke
+
+Liquid Smoke Spoonful.jpg — Ll1324. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en). [Source](https://commons.wikimedia.org/wiki/File:Liquid_Smoke_Spoonful.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## za-atar
+
+Closeup image of za'atar, a blend of origanum syriacum (hyssop, sumac, sesame seeds and salt.jpg — Fshadid. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0). [Source](https://commons.wikimedia.org/wiki/File:Closeup_image_of_za%27atar,_a_blend_of_origanum_syriacum_(hyssop,_sumac,_sesame_seeds_and_salt.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## bechamel
+
+2021 Sos beszamelowy.jpg — Jacek Halicki. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0). [Source](https://commons.wikimedia.org/wiki/File:2021_Sos_beszamelowy.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## bouillon-cube
+
+Brühwürfel-1.jpg — Rainer Z .... [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0). [Source](https://commons.wikimedia.org/wiki/File:Br%C3%BChw%C3%BCrfel-1.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## chipotle-peppers
+
+Capsicum annuum chipotle dried.jpg — User:Carstor. [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5). [Source](https://commons.wikimedia.org/wiki/File:Capsicum_annuum_chipotle_dried.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## cider-vinegar
+
+Apple Cider Vinegar (4108653248).jpg — Veganbaking.net from USA. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0). [Source](https://commons.wikimedia.org/wiki/File:Apple_Cider_Vinegar_(4108653248).jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## dukkah
+
+Du'ah (dukkah) - Egyptian spice mix.JPG — Abissada. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0). [Source](https://commons.wikimedia.org/wiki/File:Du%27ah_(dukkah)_-_Egyptian_spice_mix.JPG). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## old-bay-seasoning
+
+Old Bay Seasoning.jpg — L1veb4y0udi3. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en). [Source](https://commons.wikimedia.org/wiki/File:Old_Bay_Seasoning.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## orange-juice
+
+Orangejuice.jpg — rawpixel.com. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en). [Source](https://commons.wikimedia.org/wiki/File:Orangejuice.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## white-wine
+
+White Wine Glas.jpg — André Karwath aka Aka. [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5). [Source](https://commons.wikimedia.org/wiki/File:White_Wine_Glas.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## beer
+
+Jeju beer 09 (cropped).jpg — KOREA.NET - Official page of the Republic of Korea. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0). [Source](https://commons.wikimedia.org/wiki/File:Jeju_beer_09_(cropped).jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## octopus
+
+Octopuses in Tsukiji.JPG — Hu Totya. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). [Source](https://commons.wikimedia.org/wiki/File:Octopuses_in_Tsukiji.JPG). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## oyster-sauce
+
+OysterSauce2.jpg — Gossipguy. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0). [Source](https://commons.wikimedia.org/wiki/File:OysterSauce2.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## rookworst
+
+Boerenkool met worst.jpg — Amin. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0). [Source](https://commons.wikimedia.org/wiki/File:Boerenkool_met_worst.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## seafood
+
+Plateau van zeevruchten.jpg — Frits Hoogesteger at nl.wikibooks. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). [Source](https://commons.wikimedia.org/wiki/File:Plateau_van_zeevruchten.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## currants
+
+Grape Rasins plus Zante Currants.jpg — Marc Kupper. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). [Source](https://commons.wikimedia.org/wiki/File:Grape_Rasins_plus_Zante_Currants.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## salt-pork
+
+Saltpork.jpg — User:TodoInTX. [Public domain](https://commons.wikimedia.org/wiki/File:Saltpork.jpg#Licensing). [Source](https://commons.wikimedia.org/wiki/File:Saltpork.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## venison
+
+Venison Steaks.jpg — FotoosVanRobin from Netherlands. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0). [Source](https://commons.wikimedia.org/wiki/File:Venison_Steaks.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## ice-cream
+
+Vanilla Ice Cream Cone at Camp Manitoulin.jpg — Steven Depolo. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0). [Source](https://commons.wikimedia.org/wiki/File:Vanilla_Ice_Cream_Cone_at_Camp_Manitoulin.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## msg
+
+Monosodium glutamate crystals.jpg — Ragesoss. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0). [Source](https://commons.wikimedia.org/wiki/File:Monosodium_glutamate_crystals.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## plum-tomato
+
+Plum Tomatoes, Lexington MA.jpg — John Phelan. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0). [Source](https://commons.wikimedia.org/wiki/File:Plum_Tomatoes,_Lexington_MA.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## savoiardi-biscuits
+
+Biskotten-02.jpg — Priwo. [Public domain](https://commons.wikimedia.org/wiki/File:Biskotten-02.jpg#Licensing). [Source](https://commons.wikimedia.org/wiki/File:Biskotten-02.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## scamorza-cheese
+
+Scamorza chez un fromager.jpg — Thomon. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0). [Source](https://commons.wikimedia.org/wiki/File:Scamorza_chez_un_fromager.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## snail
+
+Caracoles-del-restaurante-granero.jpg — Restaurante Granero. [Public domain](https://commons.wikimedia.org/wiki/File:Caracoles-del-restaurante-granero.jpg#Licensing). [Source](https://commons.wikimedia.org/wiki/File:Caracoles-del-restaurante-granero.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## vermicelli
+
+Fideo (coiled vermicelli).JPG — Glane23. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0). [Source](https://commons.wikimedia.org/wiki/File:Fideo_(coiled_vermicelli).JPG). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## english-muffins
+
+Harborview Bistro & Bar - January 2024 - Sarah Stierch 08.jpg — Missvain. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0). [Source](https://commons.wikimedia.org/wiki/File:Harborview_Bistro_%26_Bar_-_January_2024_-_Sarah_Stierch_08.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## jam
+
+Fruits jam variants.jpg — 毒島みるく. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en). [Source](https://commons.wikimedia.org/wiki/File:Fruits_jam_variants.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## marmalade
+
+Homemade marmalade, England.jpg — Amanda Slater. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0). [Source](https://commons.wikimedia.org/wiki/File:Homemade_marmalade,_England.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## quark
+
+Skimmed milk quark on spoon.jpg — SKopp. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0). [Source](https://commons.wikimedia.org/wiki/File:Skimmed_milk_quark_on_spoon.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## ramen-noodles
+
+Shoyu Ramen（Tokyo Ramen） - 01.jpg — Quercus acuta. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0). [Source](https://commons.wikimedia.org/wiki/File:Shoyu_Ramen%EF%BC%88Tokyo_Ramen%EF%BC%89_-_01.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## serrano-chilies
+
+Serranochilis.jpg — Cindy from Wisconsin, USA. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0). [Source](https://commons.wikimedia.org/wiki/File:Serranochilis.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## toast
+
+Toast-3.jpg — Rainer Z .... [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). [Source](https://commons.wikimedia.org/wiki/File:Toast-3.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## rice-vinegar
+
+Rice vinegar.jpg — Sotaque. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en). [Source](https://commons.wikimedia.org/wiki/File:Rice_vinegar.jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
+
+## crab-meat
+
+Ristet brød med krabbekløer (4898535215).jpg — cyclonebill from Copenhagen, Denmark. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0). [Source](https://commons.wikimedia.org/wiki/File:Ristet_br%C3%B8d_med_krabbekl%C3%B8er_(4898535215).jpg). Full frame retained; resized without upscaling to a maximum 960-pixel longest edge; encoded as progressive JPEG at quality 82 with optimisation; embedded metadata removed.
