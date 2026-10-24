@@ -3,7 +3,7 @@ schema_version: '0.3'
 status: draft8-vocabulary-review-pass-1
 current_recipe_count: 410
 legacy_evidence: bbc-food-10 vocabulary observations retained; recipe texts not distributed
-canonical_concept_count: 180
+canonical_concept_count: 195
 entries:
 - id: air-fryer
   canonical_name: air fryer
@@ -725,3 +725,63 @@ entries:
   canonical_name: jar lifter
   file: jar-lifter.yaml
   aliases: 0
+- id: bench-scraper
+  canonical_name: bench scraper
+  file: bench-scraper.yaml
+  aliases: 1
+- id: bowl-scraper
+  canonical_name: bowl scraper
+  file: bowl-scraper.yaml
+  aliases: 0
+- id: dough-docker
+  canonical_name: dough docker
+  file: dough-docker.yaml
+  aliases: 0
+- id: kitchen-timer
+  canonical_name: kitchen timer
+  file: kitchen-timer.yaml
+  aliases: 0
+- id: pizza-peel
+  canonical_name: pizza peel
+  file: pizza-peel.yaml
+  aliases: 0
+- id: baking-steel
+  canonical_name: baking steel
+  file: baking-steel.yaml
+  aliases: 1
+- id: pastry-wheel
+  canonical_name: pastry wheel
+  file: pastry-wheel.yaml
+  aliases: 0
+- id: piping-bag
+  canonical_name: piping bag
+  file: piping-bag.yaml
+  aliases: 1
+- id: offset-spatula
+  canonical_name: offset spatula
+  file: offset-spatula.yaml
+  aliases: 0
+- id: pasta-roller
+  canonical_name: pasta roller
+  file: pasta-roller.yaml
+  aliases: 0
+- id: rasp-grater
+  canonical_name: rasp grater
+  file: rasp-grater.yaml
+  aliases: 0
+- id: vacuum-sealer
+  canonical_name: vacuum sealer
+  file: vacuum-sealer.yaml
+  aliases: 0
+- id: tagine
+  canonical_name: tagine
+  file: tagine.yaml
+  aliases: 0
+- id: comal
+  canonical_name: comal
+  file: comal.yaml
+  aliases: 0
+- id: tawa
+  canonical_name: tawa
+  file: tawa.yaml
+  aliases: 1

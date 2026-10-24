@@ -1065,6 +1065,13 @@
       sources:
         - cia-knives
       review_version: 0.1
+    - id: batch-3-distinction
+      role: context
+      text: Slicing can be an intermediate stage before sticks or dice. The first slices set one dimension of the
+        later pieces, so inconsistent thickness at that stage carries through to the finished cut.
+      sources:
+        - cia-prep
+      review_version: 0.1
   resources:
     - resource: cia-knives
       role: introduction
@@ -1088,6 +1095,14 @@
         mince as identical.
       sources:
         - cia-knives
+      review_version: 0.1
+    - id: batch-3-distinction
+      role: context
+      text: Rough chopping still benefits from reasonably similar piece sizes when the pieces will cook together.
+        Irregular outlines and wildly different sizes are separate issues; a rustic cut need not mean uneven
+        doneness.
+      sources:
+        - cia-prep
       review_version: 0.1
   resources:
     - resource: cia-knives
@@ -1126,6 +1141,13 @@
       text: Aim for reasonably even pieces. With an onion, cuts in different directions turn slices into dice.
       sources:
         - rouxbe-dice
+      review_version: 0.1
+    - id: batch-3-distinction
+      role: context
+      text: Brunoise is a particular small, regular dice. The general instruction to dice does not automatically
+        request brunoise, so preserve any size cue in the recipe rather than inferring the finest cut.
+      sources:
+        - b3-cuts
       review_version: 0.1
   resources:
     - resource: rouxbe-dice
@@ -1878,6 +1900,14 @@
         consult the maker of your own knife for material-specific instructions.
       sources:
         - wusthof-care
+      review_version: 0.1
+    - id: batch-3-distinction
+      role: context
+      text: Separate usable vegetable trim from waste as you cut. Squaring food for regular cuts creates offcuts
+        that may suit stock or sauce; a precise presentation need not mean discarding all the remaining edible
+        material.
+      sources:
+        - cia-knives
       review_version: 0.1
   resources:
     - resource: cia-knives
@@ -3180,6 +3210,14 @@
       sources:
         - cia-prep
       review_version: 0.1
+    - id: batch-3-distinction
+      role: context
+      text: For herbs, an initial coarse cut can be followed by repeated cuts to reach the intended fineness.
+        Mincing does not require preserving the regular faces of a dice; its endpoint is the small-piece
+        texture required by the dish.
+      sources:
+        - cia-prep
+      review_version: 0.1
   resources:
     - resource: cia-prep
       role: introduction
@@ -3203,6 +3241,13 @@
       sources:
         - cia-prep
       review_version: 0.1
+    - id: batch-3-distinction
+      role: context
+      text: Cross-cutting julienned strips produces brunoise. Batonnet stops at a thicker stick; these names
+        distinguish the resulting shapes and sizes, not different knives that must be purchased.
+      sources:
+        - b3-cuts
+      review_version: 0.1
   resources:
     - resource: cia-prep
       role: introduction
@@ -3225,6 +3270,14 @@
         Select the surface for the texture needed in the dish.
       sources:
         - oxo-graters
+      review_version: 0.1
+    - id: batch-3-distinction
+      role: context
+      text: Fine grating can distribute hard cheese or citrus peel as small particles rather than visible strips. A
+        tool capable of both tasks does not make their ingredients interchangeable; the recipe still
+        determines what is being grated.
+      sources:
+        - b3-rasp
       review_version: 0.1
   resources:
     - resource: oxo-graters
@@ -3280,6 +3333,14 @@
         stop grating once the pale layer is exposed.
       sources:
         - usu-lemons
+      review_version: 0.1
+    - id: batch-3-distinction
+      role: context
+      text: Zesting keeps the coloured peel, whereas supreming citrus keeps the flesh and removes peel and segment
+        membranes. These preparations use different parts of the fruit and should not be treated as alternate
+        names for peeling.
+      sources:
+        - b3-citrus
       review_version: 0.1
   resources:
     - resource: usu-lemons
@@ -3413,6 +3474,14 @@
         evenly combined instead of continuing to beat the mixture.
       sources:
         - kab-cake-mixing
+      review_version: 0.1
+    - id: batch-3-distinction
+      role: context
+      text: Folding pastry into layers during lamination is a different context from gently folding a foam mixture.
+        A recipe must supply that context; repeated pastry folds are not an instruction to beat or stir a
+        foam.
+      sources:
+        - b2-laminate
       review_version: 0.1
   resources:
     - resource: kab-cake-mixing
@@ -4437,6 +4506,13 @@
       sources:
         - fsis-boards
       review_version: 0.1
+    - id: batch-3-distinction
+      role: context
+      text: Deep grooves and excessive wear can make a board difficult to clean effectively. Cleaning routines do
+        not remove that physical damage; USDA advises replacing worn boards with hard-to-clean grooves.
+      sources:
+        - b3-boards
+      review_version: 0.1
   resources:
     - resource: fsis-boards
       role: introduction
@@ -4459,6 +4535,14 @@
         chef’s knife rather than replacing it for every cutting task.
       sources:
         - wusthof-three
+      review_version: 0.1
+    - id: batch-3-distinction
+      role: context
+      text: Peeling and trimming should remove the unwanted layer without taking an unnecessary amount of flesh. A
+        short blade can work around small irregular areas; a large, tough rind calls for a different tool
+        choice.
+      sources:
+        - cia-prep
       review_version: 0.1
   resources:
     - resource: wusthof-three
@@ -4528,6 +4612,14 @@
         a narrow fine grater is useful for tasks such as citrus zest.
       sources:
         - oxo-graters
+      review_version: 0.1
+    - id: batch-3-distinction
+      role: context
+      text: A rasp form gives access to a small curved surface such as citrus peel. That access is a separate
+        consideration from the size of its teeth; grater shape and the fineness of the result are not the same
+        property.
+      sources:
+        - b3-rasp
       review_version: 0.1
   resources:
     - resource: oxo-graters
@@ -4627,6 +4719,14 @@
       sources:
         - oxo-sieve
       review_version: 0.1
+    - id: batch-3-distinction
+      role: context
+      text: "A support loop lets the illustrated strainer rest across a bowl while liquid drains. This support
+        arrangement is separate from mesh fineness: both the opening size and how the sieve sits on the
+        receiving vessel matter."
+      sources:
+        - oxo-sieve
+      review_version: 0.1
   resources:
     - resource: oxo-sieve
       role: introduction
@@ -4647,6 +4747,14 @@
       role: selection
       text: Handled rollers and handle-free French pins offer different ways to apply pressure. Choose a form that
         lets you control thickness and steer the dough comfortably.
+      sources:
+        - kab-pin
+      review_version: 0.1
+    - id: batch-3-distinction
+      role: context
+      text: End guides can limit the thickness of a dough sheet, but they do not guarantee a chosen diameter. If a
+        dough portion reaches the guide thickness first, its final outline may remain smaller than the recipe
+        requires.
       sources:
         - kab-pin
       review_version: 0.1
@@ -5463,6 +5571,14 @@
         the manual and dry them fully.
       sources:
         - marcato-clean
+      review_version: 0.1
+    - id: batch-3-distinction
+      role: context
+      text: The roller description above concerns the sheet-making form. A separate cutter determines noodle width;
+        changing roller thickness does not change the width of a cutter. Extrusion machines are another form
+        of pasta machine, not another setting on a sheet roller.
+      sources:
+        - b3-pasta
       review_version: 0.1
   resources:
     - resource: marcato-roller
@@ -7619,15 +7735,25 @@
   editorial:
     - id: summary
       role: summary
-      text: Kitchen shears are scissors designed for food-preparation tasks. They are used to snip ingredients and cut food or packaging.
+      text: Kitchen shears are scissors designed for food-preparation tasks. They are used to snip ingredients and
+        cut food or packaging.
       sources:
         - wusthof-shears
       review_version: 0.1
     - id: care
       role: care
-      text: Clean the blades and joint after food contact. Separate the blades for cleaning only if the design allows it; ordinary kitchen shears are not automatically bone-cutting poultry shears.
+      text: Clean the blades and joint after food contact. Separate the blades for cleaning only if the design
+        allows it; ordinary kitchen shears are not automatically bone-cutting poultry shears.
       sources:
         - wusthof-shears
+      review_version: 0.1
+    - id: batch-3-distinction
+      role: context
+      text: Snipping herbs, cutting kitchen twine and shaping parchment are different uses of the same shears. A
+        pull-apart joint aids access for cleaning, but it is a design feature to check rather than a property
+        of every pair.
+      sources:
+        - b3-shears
       review_version: 0.1
   resources:
     - resource: wusthof-shears
@@ -7685,17 +7811,26 @@
   editorial:
     - id: summary
       role: summary
-      text: A zester is a small cutting or grating tool for removing the coloured surface of citrus peel. It is used to prepare aromatic zest for cooking and garnishing.
+      text: A zester is a small cutting or grating tool for removing the coloured surface of citrus peel. It is used
+        to prepare aromatic zest for cooking and garnishing.
       sources:
         - microplane-zesters
         - oxo-graters
       review_version: 0.1
     - id: selection
       role: selection
-      text: Rasp-style zesters make fine shavings; other designs cut narrow strips. Match the cut to the garnish or mixture you need.
+      text: Rasp-style zesters make fine shavings; other designs cut narrow strips. Match the cut to the garnish or
+        mixture you need.
       sources:
         - microplane-zesters
         - oxo-graters
+      review_version: 0.1
+    - id: batch-3-distinction
+      role: context
+      text: A rasp-style zester can also grate hard cheese. This overlap explains why zesting tools appear among
+        graters without making every grater a tool for removing only the outer citrus peel.
+      sources:
+        - b3-rasp
       review_version: 0.1
   resources:
     - resource: microplane-zesters
@@ -10494,17 +10629,26 @@
   editorial:
     - id: summary
       role: summary
-      text: A kitchen scraper is a tool with an edge used against a work surface or bowl. It gathers or portions dough and helps remove clinging mixture.
+      text: A kitchen scraper is a tool with an edge used against a work surface or bowl. It gathers or portions
+        dough and helps remove clinging mixture.
       sources:
         - oxo-scraper
         - kab-bowl-scraper
       review_version: 0.1
     - id: context
       role: context
-      text: A rigid bench scraper can divide dough. That particular design should not be assumed when a recipe calls for a flexible bowl scraper.
+      text: A rigid bench scraper can divide dough. That particular design should not be assumed when a recipe calls
+        for a flexible bowl scraper.
       sources:
         - oxo-scraper
         - kab-bowl-scraper
+      review_version: 0.1
+    - id: batch-3-distinction
+      role: context
+      text: A bench knife can portion a dough into pieces before shaping. The scraper name alone does not specify a
+        cutting edge suitable for that job; choose the rigid bench form when portioning is the task.
+      sources:
+        - b3-bench
       review_version: 0.1
   resources:
     - resource: oxo-scraper
@@ -14516,6 +14660,14 @@
       sources:
         - b2-laminate
       review_version: 0.1
+    - id: batch-3-distinction
+      role: context
+      text: Rolling sets the dimensions of the sheet between folds. A pin with thickness guides controls one
+        dimension, not the full rectangle, so check the required shape as well as thickness when building
+        layers.
+      sources:
+        - kab-pin
+      review_version: 0.1
   resources:
     - resource: b2-laminate
       role: introduction
@@ -14541,6 +14693,13 @@
         purpose is narrower than general piercing.
       sources:
         - b2-dock
+      review_version: 0.1
+    - id: batch-3-distinction
+      role: context
+      text: "A dough docker repeats the puncturing action across a sheet. Its purpose differs from the continuous
+        cut made by a pastry wheel: cutting the outline of a pastry piece does not dock its surface."
+      sources:
+        - b3-ateco
       review_version: 0.1
   resources:
     - resource: b2-dock
@@ -14702,4 +14861,486 @@
       note: Direct salting differs from immersion in prepared brine.
       sources:
         - b2-brine
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: bench-scraper
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A rigid, handled blade used to divide dough and clear a work surface. Its straight edge is suited to
+        working on a bench; it is distinct from a flexible bowl scraper.
+      sources:
+        - b3-bench
+      review_version: 0.1
+  resources:
+    - resource: b3-bench
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: bowl-scraper
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A flexible scraper that follows the inside of a bowl to gather sticky dough or mixture. It need not have
+        the rigid blade or handle of a bench scraper.
+      sources:
+        - b3-bowl
+      review_version: 0.1
+  resources:
+    - resource: b3-bowl
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: dough-docker
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A tool that makes repeated impressions or perforations in dough to limit unwanted puffing. It performs
+        docking; a pastry wheel instead cuts along a line.
+      sources: &a1
+        - b3-ateco
+      review_version: 0.1
+  resources:
+    - resource: b3-ateco
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: used-for
+      target:
+        kind: process
+        id: dock
+      note: A tool that makes repeated impressions or perforations in dough to limit unwanted puffing. It performs
+        docking; a pastry wheel instead cuts along a line.
+      sources: *a1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: kitchen-timer
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A device for tracking a cooking or preparation interval, whether separate or built into an appliance.
+        Elapsed time is a cue to check the food, not a measurement of its temperature.
+      sources:
+        - landolakes-equipment
+      review_version: 0.1
+  resources:
+    - resource: landolakes-equipment
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: pizza-peel
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A broad, handled tool for supporting and moving pizza into or out of an oven. It transfers the pizza
+        rather than providing the stationary baking surface.
+      sources: &a1
+        - b3-peel
+      review_version: 0.1
+  resources:
+    - resource: b3-peel
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: commonly-used-with
+      target:
+        kind: equipment
+        id: pizza-stone
+      note: A broad, handled tool for supporting and moving pizza into or out of an oven. It transfers the pizza
+        rather than providing the stationary baking surface.
+      sources: *a1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: baking-steel
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A steel baking surface that stores heat and transfers it to dough in contact with it. Its heat transfer
+        differs from a baking stone, so the two are not simply interchangeable materials.
+      sources: &a1
+        - b3-steel
+      review_version: 0.1
+  resources:
+    - resource: b3-steel
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: equipment
+        id: pizza-stone
+      note: A steel baking surface that stores heat and transfers it to dough in contact with it. Its heat transfer
+        differs from a baking stone, so the two are not simply interchangeable materials.
+      sources: *a1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: pastry-wheel
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A handled cutting wheel for dough or pastry. Plain and fluted edges produce different cut edges; the
+        tool is distinct from a pastry blender that cuts fat into flour.
+      sources: &a1
+        - b3-ateco
+      review_version: 0.1
+  resources:
+    - resource: b3-ateco
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: equipment
+        id: pastry-blender
+      note: A handled cutting wheel for dough or pastry. Plain and fluted edges produce different cut edges; the
+        tool is distinct from a pastry blender that cuts fat into flour.
+      sources: *a1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: piping-bag
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A tapered bag for dispensing soft mixtures such as icing, cream or mashed potato. A fitted tip can shape
+        the output; piping is not limited to sweet decorations.
+      sources: &a1
+        - landolakes-equipment
+      review_version: 0.1
+  resources:
+    - resource: landolakes-equipment
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: used-for
+      target:
+        kind: process
+        id: pipe
+      note: A tapered bag for dispensing soft mixtures such as icing, cream or mashed potato. A fitted tip can shape
+        the output; piping is not limited to sweet decorations.
+      sources: *a1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: offset-spatula
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A spreading spatula whose blade is offset from the handle. The clearance helps spread icing or batter
+        without the handle being in the same plane as the food.
+      sources:
+        - b3-offset
+      review_version: 0.1
+  resources:
+    - resource: b3-offset
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: pasta-roller
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A pasta-making tool that presses dough between rollers into sheets of adjustable thickness. A roller
+        does not itself provide every cutting or extrusion function of a pasta machine.
+      sources: &a1
+        - b3-pasta
+      review_version: 0.1
+  resources:
+    - resource: b3-pasta
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: equipment
+        id: rolling-pin
+      note: A pasta-making tool that presses dough between rollers into sheets of adjustable thickness. A roller
+        does not itself provide every cutting or extrusion function of a pasta machine.
+      sources: *a1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: rasp-grater
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A long, narrow grater with a rasp-like cutting surface, often used for fine citrus zest or hard cheese.
+        Rasp describes the tool form; zest describes one use.
+      sources:
+        - b3-rasp
+      review_version: 0.1
+  resources:
+    - resource: b3-rasp
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: vacuum-sealer
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Equipment that removes air from compatible food packaging and closes or maintains its seal. Available
+        modes and liquid handling vary by model; removing air alone does not establish safe storage
+        conditions.
+      sources:
+        - b3-vacuum
+      review_version: 0.1
+  resources:
+    - resource: b3-vacuum
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: tagine
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A cooking vessel with a shallow base and tall conical lid, associated with Moroccan cooking. The name
+        also denotes dishes; this equipment identity is the vessel. Materials and heating compatibility vary.
+      sources:
+        - b3-tagine
+      review_version: 0.1
+  resources:
+    - resource: b3-tagine
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: comal
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A shallow cooking surface used in Mexican cooking for tortillas and toasting or roasting ingredients.
+        Clay examples establish that the identity cannot be reduced to a metal griddle.
+      sources:
+        - b3-comal
+      review_version: 0.1
+  resources:
+    - resource: b3-comal
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: tawa
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A shallow cooking surface used for foods such as flatbreads and dosa. Flat and slightly curved designs
+        serve different tasks; the name does not imply one coating or heat-source compatibility.
+      sources:
+        - b3-tawa
+      review_version: 0.1
+  resources:
+    - resource: b3-tawa
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: chiffonade
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Cut leaves into ribbons, commonly by stacking, rolling and slicing them. This leafy cut differs from
+        making sticks from firm vegetables.
+      sources: &a1
+        - b3-cuts
+      review_version: 0.1
+  resources:
+    - resource: b3-cuts
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: process
+        id: julienne
+      note: Cut leaves into ribbons, commonly by stacking, rolling and slicing them. This leafy cut differs from
+        making sticks from firm vegetables.
+      sources: *a1
+      review_version: 0.1
+- target:
+    kind: process
+    id: brunoise
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Cut very small, regular dice, commonly by cross-cutting julienned strips. It describes a deliberate cube
+        shape rather than an irregular mince.
+      sources: &a1
+        - b3-cuts
+      review_version: 0.1
+  resources:
+    - resource: b3-cuts
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: process
+        id: mince
+      note: Cut very small, regular dice, commonly by cross-cutting julienned strips. It describes a deliberate cube
+        shape rather than an irregular mince.
+      sources: *a1
+      review_version: 0.1
+- target:
+    kind: process
+    id: batonnet
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Cut vegetables into regular sticks thicker than julienne, as for crudités. Exact dimensions follow the
+        recipe or teaching convention.
+      sources: &a1
+        - b3-cuts
+      review_version: 0.1
+  resources:
+    - resource: b3-cuts
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: process
+        id: julienne
+      note: Cut vegetables into regular sticks thicker than julienne, as for crudités. Exact dimensions follow the
+        recipe or teaching convention.
+      sources: *a1
+      review_version: 0.1
+- target:
+    kind: process
+    id: tourne
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Trim vegetables into regular, curved oblong shapes. The classic seven-faced potato is one form, not a
+        rule for every vegetable; this is not ordinary turning during cooking.
+      sources:
+        - b3-tourne
+      review_version: 0.1
+  resources:
+    - resource: b3-tourne
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: concasse-tomato
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Prepare peeled, seeded tomato flesh in small pieces for a sauce or other dish. This scoped identity does
+        not make every use of the broader French verb concasser tomato preparation.
+      sources:
+        - b3-concasse
+      review_version: 0.1
+  resources:
+    - resource: b3-concasse
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: supreme-citrus
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Cut citrus segments free of their peel, white pith and enclosing membranes. This is more specific than
+        dividing an unpeeled fruit into wedges.
+      sources: &a1
+        - b3-citrus
+      review_version: 0.1
+  resources:
+    - resource: b3-citrus
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: process
+        id: zest
+      note: Cut citrus segments free of their peel, white pith and enclosing membranes. This is more specific than
+        dividing an unpeeled fruit into wedges.
+      sources: *a1
+      review_version: 0.1
+- target:
+    kind: process
+    id: truss
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Secure a bird with kitchen twine to hold its legs and wings close to the body for cooking. This entry
+        concerns poultry preparation, not every act of tying.
+      sources:
+        - b3-truss
+      review_version: 0.1
+  resources:
+    - resource: b3-truss
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: pipe
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Dispense a soft food mixture through a piping bag or tip to control its placement and shape. This
+        includes savoury mixtures as well as icing.
+      sources:
+        - landolakes-equipment
+      review_version: 0.1
+  resources:
+    - resource: landolakes-equipment
+      role: introduction
+      order: 1
       review_version: 0.1

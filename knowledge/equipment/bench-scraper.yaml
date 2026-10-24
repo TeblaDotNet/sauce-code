@@ -1,0 +1,17 @@
+id: bench-scraper
+kind: equipment
+canonical_name: bench scraper
+names:
+  en: bench scraper
+aliases:
+  - bench knife
+categories:
+  - preparation-tools
+type_of: scraper
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  definition: A rigid, handled blade used to divide dough and clear a work surface. Its straight edge is suited
+    to working on a bench; it is distinct from a flexible bowl scraper.
+  review_note: Batch 3 researched draft. Identity boundaries are editorial decisions; no human review claimed.

@@ -1,0 +1,16 @@
+id: bowl-scraper
+kind: equipment
+canonical_name: bowl scraper
+names:
+  en: bowl scraper
+aliases: []
+categories:
+  - preparation-tools
+type_of: scraper
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  definition: A flexible scraper that follows the inside of a bowl to gather sticky dough or mixture. It need
+    not have the rigid blade or handle of a bench scraper.
+  review_note: Batch 3 researched draft. Identity boundaries are editorial decisions; no human review claimed.

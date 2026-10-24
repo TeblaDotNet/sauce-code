@@ -1,0 +1,15 @@
+id: supreme-citrus
+kind: process
+canonical_name: supreme citrus
+names:
+  en: supreme citrus
+aliases: []
+categories:
+  - preparation-and-cutting
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  definition: Cut citrus segments free of their peel, white pith and enclosing membranes. This is more specific
+    than dividing an unpeeled fruit into wedges.
+  review_note: Batch 3 researched draft. Identity boundaries are editorial decisions; no human review claimed.

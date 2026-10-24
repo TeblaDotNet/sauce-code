@@ -1,0 +1,16 @@
+id: tawa
+kind: equipment
+canonical_name: tawa
+names:
+  en: tawa
+aliases:
+  - tava
+categories:
+  - cookware
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  definition: A shallow cooking surface used for foods such as flatbreads and dosa. Flat and slightly curved
+    designs serve different tasks; the name does not imply one coating or heat-source compatibility.
+  review_note: Batch 3 researched draft. Identity boundaries are editorial decisions; no human review claimed.

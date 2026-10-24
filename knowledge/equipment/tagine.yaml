@@ -1,0 +1,15 @@
+id: tagine
+kind: equipment
+canonical_name: tagine
+names:
+  en: tagine
+aliases: []
+categories:
+  - cookware
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  definition: A cooking vessel with a shallow base and tall conical lid, associated with Moroccan cooking. The
+    name also denotes dishes; this equipment identity is the vessel. Materials and heating compatibility vary.
+  review_note: Batch 3 researched draft. Identity boundaries are editorial decisions; no human review claimed.

@@ -3029,3 +3029,174 @@
   review_scope: text
   notes: Original factual summary only. Manufacturer examples do not establish universal capabilities. No
     timings, safety schedules, video review or endorsement.
+- id: b3-bench
+  title: Bench Knife
+  url: https://shop.kingarthurbaking.com/items/bench-knife
+  publisher: King Arthur Baking
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Factual identification and original summary only. Product examples do not establish universal
+    capabilities; no safety schedules or preservation guarantees inferred.
+- id: b3-bowl
+  title: Sourdough tools
+  url: https://www.kingarthurbaking.com/learn/guides/sourdough/tools
+  publisher: King Arthur Baking
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Factual identification and original summary only. Product examples do not establish universal
+    capabilities; no safety schedules or preservation guarantees inferred.
+- id: b3-ateco
+  title: "Ateco catalogue: pastry wheels and dough docker, pages 73–76"
+  url: https://www.atecousa.com/assets/ateco_catalog.pdf
+  publisher: Ateco
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Factual identification and original summary only. Product examples do not establish universal
+    capabilities; no safety schedules or preservation guarantees inferred.
+- id: b3-peel
+  title: "General Mills Pizza Guide: pizza tools"
+  url: https://www.generalmillsfoodservice.com/-/media/files/industry-resources/pizzeria/crust-tips-and-resources/pizza-interactive-product-guide.ashx
+  publisher: General Mills Foodservice
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Factual identification and original summary only. Product examples do not establish universal
+    capabilities; no safety schedules or preservation guarantees inferred.
+- id: b3-steel
+  title: Pizza steel vs. stone
+  url: https://www.kingarthurbaking.com/blog/2026/07/17/pizza-steel-vs-stone
+  publisher: King Arthur Baking
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Factual identification and original summary only. Product examples do not establish universal
+    capabilities; no safety schedules or preservation guarantees inferred.
+- id: b3-offset
+  title: Why an offset spatula is an essential baking tool
+  url: https://www.kingarthurbaking.com/blog/2022/12/09/baking-with-offset-spatula
+  publisher: King Arthur Baking
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Factual identification and original summary only. Product examples do not establish universal
+    capabilities; no safety schedules or preservation guarantees inferred.
+- id: b3-pasta
+  title: Pasta Roller KSMPSA
+  url: https://www.kitchenaid.com/countertop-appliances/stand-mixers/attachments/p.pasta-roller.KSMPSA.html
+  publisher: KitchenAid
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Factual identification and original summary only. Product examples do not establish universal
+    capabilities; no safety schedules or preservation guarantees inferred.
+- id: b3-rasp
+  title: Premium Classic Zester Grater
+  url: https://www.microplaneintl.com/en/our-products/premium-classic-series/zester-grater
+  publisher: Microplane
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Factual identification and original summary only. Product examples do not establish universal
+    capabilities; no safety schedules or preservation guarantees inferred.
+- id: b3-vacuum
+  title: Vacuuming modes
+  url: https://help.foodsaver.com/s/article/vacuuming-modes
+  publisher: FoodSaver
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Factual identification and original summary only. Product examples do not establish universal
+    capabilities; no safety schedules or preservation guarantees inferred.
+- id: b3-tagine
+  title: Tagine
+  url: https://www.lecreuset.co.uk/en_GB/tagine/cap0089.html
+  publisher: Le Creuset
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Factual identification and original summary only. Product examples do not establish universal
+    capabilities; no safety schedules or preservation guarantees inferred.
+- id: b3-comal
+  title: Mexican Clay Comal
+  url: https://www.ancientcookware.com/classic-mexican/mexican-clay-comal-detail
+  publisher: Ancient Cookware
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Factual identification and original summary only. Product examples do not establish universal
+    capabilities; no safety schedules or preservation guarantees inferred.
+- id: b3-tawa
+  title: "Cookware catalogue: tava and flat tava"
+  url: https://www.hawkinscookers.com/download/CW_Catalog.pdf
+  publisher: Hawkins
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Factual identification and original summary only. Product examples do not establish universal
+    capabilities; no safety schedules or preservation guarantees inferred.
+- id: b3-cuts
+  title: "Kitchen Language: Know Your Knife Cuts"
+  url: https://guide.michelin.com/en/article/dining-in/knife-cut-types
+  publisher: MICHELIN Guide / Rachel Tan
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Factual identification and original summary only. Product examples do not establish universal
+    capabilities; no safety schedules or preservation guarantees inferred.
+- id: b3-tourne
+  title: Tourner
+  url: https://chefsimon.com/articles/lexique-tourner
+  publisher: Chef Simon
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Factual identification and original summary only. Product examples do not establish universal
+    capabilities; no safety schedules or preservation guarantees inferred.
+- id: b3-concasse
+  title: Epépiner et concasser une tomate
+  url: https://chefsimon.com/gourmets/chef-simon/recettes/epepiner-et-concasser-une-tomate
+  publisher: Chef Simon
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Factual identification and original summary only. Product examples do not establish universal
+    capabilities; no safety schedules or preservation guarantees inferred.
+- id: b3-citrus
+  title: How to Cut Citrus for Salads with Chef Justin
+  url: https://noblecitrus.com/recipes/how-to-cut-citrus-for-salads-with-chef-justin/
+  publisher: Noble Citrus
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Factual identification and original summary only. Product examples do not establish universal
+    capabilities; no safety schedules or preservation guarantees inferred.
+- id: b3-truss
+  title: How to Carve a Chicken Like a Professional Chef
+  url: https://www.escoffier.edu/blog/recipes/how-to-carve-a-chicken/
+  publisher: Auguste Escoffier School of Culinary Arts
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Factual identification and original summary only. Product examples do not establish universal
+    capabilities; no safety schedules or preservation guarantees inferred.
+- id: b3-shears
+  title: WÜSTHOF Pull-Apart Shears
+  url: https://www.williams-sonoma.com/products/wusthof-pull-apart-kitchen-shears/
+  publisher: Williams Sonoma
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Factual identification and original summary only. Product examples do not establish universal
+    capabilities; no safety schedules or preservation guarantees inferred.
+- id: b3-boards
+  title: Cutting Boards
+  url: https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/cutting-boards
+  publisher: USDA FSIS
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Factual identification and original summary only. Product examples do not establish universal
+    capabilities; no safety schedules or preservation guarantees inferred.

@@ -28,8 +28,8 @@ for (const [name, id] of names) test('equipment name preserves wording and canon
 });
 
 test('regional and pre-existing names remain resolvable without new identities', () => {
-  assert.equal(vocabulary.entries.filter(e => e.kind === 'equipment').length, 180);
-  assert.equal(vocabulary.entries.filter(e => e.kind === 'equipment' && e.reference !== false).length, 179);
+  assert.equal(vocabulary.entries.filter(e => e.kind === 'equipment').length, 195);
+  assert.equal(vocabulary.entries.filter(e => e.kind === 'equipment' && e.reference !== false).length, 194);
   for (const [name, id] of [['baking sheet','baking-tray'],['baking tray','baking-tray'],['loaf tin','loaf-tin'],['skillet','frying-pan'],['parchment paper','baking-paper'],['aluminum foil','aluminium-foil'],['tin foil','aluminium-foil'],['foil','aluminium-foil']])
     assert.deepEqual(vocabulary.resolve(name, 'equipment').map(e => e.id), [id]);
   assert.equal(vocabulary.resolve('loaf-tin', 'equipment')[0].names['en-US'], 'loaf pan');

@@ -1,0 +1,16 @@
+id: vacuum-sealer
+kind: equipment
+canonical_name: vacuum sealer
+names:
+  en: vacuum sealer
+aliases: []
+categories:
+  - preservation-and-fermentation
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  definition: Equipment that removes air from compatible food packaging and closes or maintains its seal.
+    Available modes and liquid handling vary by model; removing air alone does not establish safe storage
+    conditions.
+  review_note: Batch 3 researched draft. Identity boundaries are editorial decisions; no human review claimed.
