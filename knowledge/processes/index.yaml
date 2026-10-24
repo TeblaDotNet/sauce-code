@@ -3,7 +3,7 @@ schema_version: '0.3'
 status: draft8-vocabulary-review-pass-1
 current_recipe_count: 410
 legacy_evidence: bbc-food-10 vocabulary observations retained; recipe texts not distributed
-canonical_concept_count: 252
+canonical_concept_count: 260
 entries:
 - id: add
   canonical_name: add
@@ -1012,4 +1012,36 @@ entries:
 - id: sieve
   canonical_name: sieve
   file: sieve.yaml
+  aliases: 0
+- id: laminate
+  canonical_name: laminate
+  file: laminate.yaml
+  aliases: 0
+- id: dock
+  canonical_name: dock
+  file: dock.yaml
+  aliases: 0
+- id: spatchcock
+  canonical_name: spatchcock
+  file: spatchcock.yaml
+  aliases: 0
+- id: clarify-butter
+  canonical_name: clarify butter
+  file: clarify-butter.yaml
+  aliases: 0
+- id: clarify-stock
+  canonical_name: clarify stock
+  file: clarify-stock.yaml
+  aliases: 0
+- id: bloom-gelatine
+  canonical_name: bloom gelatine
+  file: bloom-gelatine.yaml
+  aliases: 1
+- id: macerate
+  canonical_name: macerate
+  file: macerate.yaml
+  aliases: 0
+- id: dry-brine
+  canonical_name: dry brine
+  file: dry-brine.yaml
   aliases: 0

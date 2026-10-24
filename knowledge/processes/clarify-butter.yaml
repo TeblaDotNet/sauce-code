@@ -1,0 +1,15 @@
+id: clarify-butter
+kind: process
+canonical_name: clarify butter
+names:
+  en: clarify butter
+aliases: []
+categories:
+  - preparation-and-cutting
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  definition: Separate the fat of butter from its milk solids and watery component. Merely melting butter does
+    not complete clarification.
+  review_note: Batch 2 researched draft. Identity boundaries are editorial decisions; no human review claimed.

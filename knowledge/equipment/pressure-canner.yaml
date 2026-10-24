@@ -1,0 +1,15 @@
+id: pressure-canner
+kind: equipment
+canonical_name: pressure canner
+names:
+  en: pressure canner
+aliases: []
+categories:
+  - preservation-and-fermentation
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  definition: A pressure vessel designed to process jars for home canning. Small pressure cookers are not
+    interchangeable with the equipment used to establish canning schedules.
+  review_note: Batch 2 researched draft. Identity boundaries are editorial decisions; no human review claimed.

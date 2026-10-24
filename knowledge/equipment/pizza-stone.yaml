@@ -1,0 +1,15 @@
+id: pizza-stone
+kind: equipment
+canonical_name: pizza stone
+names:
+  en: pizza stone
+aliases: []
+categories:
+  - bakeware
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  definition: A heat-retaining baking surface that transfers oven heat to the base of dough. Bread and
+    flatbreads are other uses; a metal baking steel is a different material.
+  review_note: Batch 2 researched draft. Identity boundaries are editorial decisions; no human review claimed.

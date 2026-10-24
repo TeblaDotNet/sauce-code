@@ -1,0 +1,15 @@
+id: jar-lifter
+kind: equipment
+canonical_name: jar lifter
+names:
+  en: jar lifter
+aliases: []
+categories:
+  - preservation-and-fermentation
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  definition: A gripping tool for lifting canning jars while keeping them upright. Its jar-holding shape
+    distinguishes it from general serving tongs.
+  review_note: Batch 2 researched draft. Identity boundaries are editorial decisions; no human review claimed.

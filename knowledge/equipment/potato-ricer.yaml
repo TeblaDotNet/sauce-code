@@ -1,0 +1,15 @@
+id: potato-ricer
+kind: equipment
+canonical_name: potato ricer
+names:
+  en: potato ricer
+aliases: []
+categories:
+  - preparation-tools
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  definition: A hand press that forces cooked potato through perforations. It can also process suitable soft
+    fruit or vegetables; it differs mechanically from pounding with a masher.
+  review_note: Batch 2 researched draft. Identity boundaries are editorial decisions; no human review claimed.

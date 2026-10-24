@@ -1,0 +1,15 @@
+id: food-dehydrator
+kind: equipment
+canonical_name: food dehydrator
+names:
+  en: food dehydrator
+aliases: []
+categories:
+  - preservation-and-fermentation
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  definition: An electrical appliance that dries food using heat and circulating air. Capacity and airflow
+    arrangement vary; the appliance alone does not establish a safe preservation procedure.
+  review_note: Batch 2 researched draft. Identity boundaries are editorial decisions; no human review claimed.

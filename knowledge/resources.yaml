@@ -2822,3 +2822,210 @@
   type: reference
   checked_at: 2026-10-13
   review_scope: text
+- id: b2-can
+  title: Soft-Handled Can Opener
+  url: https://www.oxo.com/soft-handled-can-opener-433.html
+  publisher: OXO
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary only. Manufacturer examples do not establish universal capabilities. No
+    timings, safety schedules, video review or endorsement.
+- id: b2-spinner
+  title: Salad Spinner
+  url: https://www.oxo.com/salad-spinner.html
+  publisher: OXO
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary only. Manufacturer examples do not establish universal capabilities. No
+    timings, safety schedules, video review or endorsement.
+- id: b2-citrus
+  title: Citrus Squeezer
+  url: https://www.oxo.com/citrus-squeezer.html
+  publisher: OXO
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary only. Manufacturer examples do not establish universal capabilities. No
+    timings, safety schedules, video review or endorsement.
+- id: b2-brush
+  title: Silicone Pastry Brush
+  url: https://www.oxo.com/silicone-1-in-pastry-brush.html
+  publisher: OXO
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary only. Manufacturer examples do not establish universal capabilities. No
+    timings, safety schedules, video review or endorsement.
+- id: b2-funnel
+  title: Multi-Purpose Funnel Set
+  url: https://www.oxo.com/3-piece-multi-purpose-funnel-set.html
+  publisher: OXO
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary only. Manufacturer examples do not establish universal capabilities. No
+    timings, safety schedules, video review or endorsement.
+- id: b2-pastry
+  title: Dough Blender With Blades
+  url: https://www.oxo.com/dough-blender-with-blades.html
+  publisher: OXO
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary only. Manufacturer examples do not establish universal capabilities. No
+    timings, safety schedules, video review or endorsement.
+- id: b2-mill
+  title: Food Mill Use and Care
+  url: https://www.oxo.com/media/wysiwyg/PDF_Files/1071478_foodmill.pdf
+  publisher: OXO
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary only. Manufacturer examples do not establish universal capabilities. No
+    timings, safety schedules, video review or endorsement.
+- id: b2-ricer
+  title: Potato Ricer
+  url: https://www.oxo.com/potato-ricer.html
+  publisher: OXO
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary only. Manufacturer examples do not establish universal capabilities. No
+    timings, safety schedules, video review or endorsement.
+- id: b2-kettle
+  title: Adjustable Temperature Pour-Over Kettle
+  url: https://www.oxo.com/adjustable-temperature-pour-over-kettle.html
+  publisher: OXO
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary only. Manufacturer examples do not establish universal capabilities. No
+    timings, safety schedules, video review or endorsement.
+- id: b2-grinder
+  title: Spice and Nut Grinder
+  url: https://www.cuisinart.com/spice-and-nut-grinder/SG-10.html
+  publisher: Cuisinart
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary only. Manufacturer examples do not establish universal capabilities. No
+    timings, safety schedules, video review or endorsement.
+- id: b2-stone
+  title: Bread and Pizza Stone
+  url: https://shop.kingarthurbaking.com/items/king-arthur-bread-and-pizza-stone
+  publisher: King Arthur Baking
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary only. Manufacturer examples do not establish universal capabilities. No
+    timings, safety schedules, video review or endorsement.
+- id: b2-dry
+  title: Food Dehydrators
+  url: https://nchfp.uga.edu/how/dry/food-dehydrators/
+  publisher: National Center for Home Food Preservation
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary only. Manufacturer examples do not establish universal capabilities. No
+    timings, safety schedules, video review or endorsement.
+- id: b2-canners
+  title: How to Use Boiling Water and Pressure Canners
+  url: https://nchfp.uga.edu/how/can/general-canning-information/recommended-canners/
+  publisher: National Center for Home Food Preservation
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary only. Manufacturer examples do not establish universal capabilities. No
+    timings, safety schedules, video review or endorsement.
+- id: b2-laminate
+  title: How we make puff pastry at the King Arthur bakery
+  url: https://www.kingarthurbaking.com/blog/2013/08/02/puff-pastry-layer-it-like-the-pros
+  publisher: King Arthur Baking
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary only. Manufacturer examples do not establish universal capabilities. No
+    timings, safety schedules, video review or endorsement.
+- id: b2-dock
+  title: Shortbread Cookies
+  url: https://www.kingarthurbaking.com/recipes/shortbread-cookies-recipe
+  publisher: King Arthur Baking
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary only. Manufacturer examples do not establish universal capabilities. No
+    timings, safety schedules, video review or endorsement.
+- id: b2-spatchcock
+  title: How to spatchcock a chicken
+  url: https://tollbit.bbcgoodfood.com/videos/techniques/how-spatchcock-chicken-video
+  publisher: Good Food
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary only. Manufacturer examples do not establish universal capabilities. No
+    timings, safety schedules, video review or endorsement.
+- id: b2-clarify
+  title: Clarifier
+  url: https://chefsimon.com/articles/lexique-clarifier
+  publisher: Chef Simon
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary only. Manufacturer examples do not establish universal capabilities. No
+    timings, safety schedules, video review or endorsement.
+- id: b2-bloom
+  title: Gelatine FAQ
+  url: https://knoxgelatine.com/faq
+  publisher: Knox Canada
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary only. Manufacturer examples do not establish universal capabilities. No
+    timings, safety schedules, video review or endorsement.
+- id: b2-macerate
+  title: Macerating Fruit to Bring Out its Best
+  url: https://www.k-state.edu/news/you-asked-it/articles/2017/08/macerating-fruit-to-bring-out-its-best.html
+  publisher: Kansas State University
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary only. Manufacturer examples do not establish universal capabilities. No
+    timings, safety schedules, video review or endorsement.
+- id: b2-brine
+  title: Dry Brining
+  url: https://amazingribs.com/tested-recipes/salting-brining-curing-and-injecting/dry-brining/
+  publisher: AmazingRibs / Meathead
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary only. Manufacturer examples do not establish universal capabilities. No
+    timings, safety schedules, video review or endorsement.
+- id: b2-processors
+  title: Difference Between a Food Processor and Blender
+  url: https://www.kitchenaid.ca/en_ca/blog/s/food-processor-vs-blender.html
+  publisher: KitchenAid
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary only. Manufacturer examples do not establish universal capabilities. No
+    timings, safety schedules, video review or endorsement.
+- id: b2-mixers
+  title: Stand Mixer Buying Guide
+  url: https://www.kitchenaid.com/content/kitchenaid/en_us/countertop-appliances/stand-mixer-buying-guide.html
+  publisher: KitchenAid
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary only. Manufacturer examples do not establish universal capabilities. No
+    timings, safety schedules, video review or endorsement.
+- id: b2-ferment-tools
+  title: Fermenting Equipment
+  url: https://extension.illinois.edu/food-preservation/fermenting-equipment
+  publisher: Illinois Extension
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Original factual summary only. Manufacturer examples do not establish universal capabilities. No
+    timings, safety schedules, video review or endorsement.

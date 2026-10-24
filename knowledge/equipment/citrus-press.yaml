@@ -1,0 +1,16 @@
+id: citrus-press
+kind: equipment
+canonical_name: citrus press
+names:
+  en: citrus press
+aliases:
+  - citrus squeezer
+categories:
+  - preparation-tools
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  definition: A pressing tool that extracts juice by compressing citrus halves. This identity covers the press,
+    not every reamer or powered fruit juicer.
+  review_note: Batch 2 researched draft. Identity boundaries are editorial decisions; no human review claimed.

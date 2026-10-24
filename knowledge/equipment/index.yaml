@@ -3,7 +3,7 @@ schema_version: '0.3'
 status: draft8-vocabulary-review-pass-1
 current_recipe_count: 410
 legacy_evidence: bbc-food-10 vocabulary observations retained; recipe texts not distributed
-canonical_concept_count: 165
+canonical_concept_count: 180
 entries:
 - id: air-fryer
   canonical_name: air fryer
@@ -664,4 +664,64 @@ entries:
 - id: platter
   canonical_name: platter
   file: platter.yaml
+  aliases: 0
+- id: can-opener
+  canonical_name: can opener
+  file: can-opener.yaml
+  aliases: 0
+- id: electric-kettle
+  canonical_name: electric kettle
+  file: electric-kettle.yaml
+  aliases: 0
+- id: salad-spinner
+  canonical_name: salad spinner
+  file: salad-spinner.yaml
+  aliases: 0
+- id: citrus-press
+  canonical_name: citrus press
+  file: citrus-press.yaml
+  aliases: 1
+- id: pastry-brush
+  canonical_name: pastry brush
+  file: pastry-brush.yaml
+  aliases: 0
+- id: funnel
+  canonical_name: funnel
+  file: funnel.yaml
+  aliases: 0
+- id: food-mill
+  canonical_name: food mill
+  file: food-mill.yaml
+  aliases: 0
+- id: food-dehydrator
+  canonical_name: food dehydrator
+  file: food-dehydrator.yaml
+  aliases: 0
+- id: pastry-blender
+  canonical_name: pastry blender
+  file: pastry-blender.yaml
+  aliases: 1
+- id: pizza-stone
+  canonical_name: pizza stone
+  file: pizza-stone.yaml
+  aliases: 0
+- id: spice-grinder
+  canonical_name: spice grinder
+  file: spice-grinder.yaml
+  aliases: 0
+- id: potato-ricer
+  canonical_name: potato ricer
+  file: potato-ricer.yaml
+  aliases: 0
+- id: pressure-canner
+  canonical_name: pressure canner
+  file: pressure-canner.yaml
+  aliases: 0
+- id: water-bath-canner
+  canonical_name: water bath canner
+  file: water-bath-canner.yaml
+  aliases: 1
+- id: jar-lifter
+  canonical_name: jar lifter
+  file: jar-lifter.yaml
   aliases: 0

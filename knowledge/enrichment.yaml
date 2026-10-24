@@ -1173,6 +1173,14 @@
       sources:
         - cia-techniques
       review_version: 0.1
+    - id: batch-2-distinction
+      role: near-neighbours
+      text: Covering a roasting vessel changes how moisture escapes and introduces a trapped-steam environment.
+        Browning an exposed surface and retaining moisture under a lid are different aims; a recipe may
+        deliberately move between them.
+      sources:
+        - cia-reduce
+      review_version: 0.1
   resources:
     - resource: cia-techniques
       role: introduction
@@ -1290,6 +1298,14 @@
       sources:
         - cia-techniques
       review_version: 0.1
+    - id: batch-2-distinction
+      role: context
+      text: A covered cooking stage and an uncovered sauce-finishing stage can belong to the same dish. Removing the
+        lid encourages evaporation; this explains why the sauce may be reduced separately after the food is
+        tender.
+      sources:
+        - cia-reduce
+      review_version: 0.1
   resources:
     - resource: cia-techniques
       role: introduction
@@ -1364,6 +1380,14 @@
         traditions and methods, but one does not always imply the other.
       sources:
         - nchfp-pickle
+      review_version: 0.1
+    - id: batch-2-distinction
+      role: context
+      text: Fermentation names the microbial transformation, not a promise that living organisms remain in the
+        finished food. Later processing can change that. The process name alone does not establish a product’s
+        storage conditions or a health benefit.
+      sources:
+        - isapp-ferment
       review_version: 0.1
   resources:
     - resource: isapp-ferment
@@ -1717,6 +1741,14 @@
         - kitchenaid-use
         - kitchenaid-clean
       review_version: 0.1
+    - id: batch-2-distinction
+      role: near-neighbours
+      text: A processor can leave deliberately coarse pieces or use a disc to slice and shred. A blender is usually
+        chosen for a flowing, smooth mixture. Overlapping puree tasks do not make the appliances equivalent;
+        use the attachment and batch size the recipe actually needs.
+      sources:
+        - b2-processors
+      review_version: 0.1
   resources:
     - resource: kitchenaid-blenders
       role: introduction
@@ -1742,6 +1774,16 @@
       note: A handheld format for working directly in a suitable vessel.
       sources:
         - kitchenaid-blenders
+      review_version: 0.1
+    - relation: contrast-with
+      target:
+        kind: equipment
+        id: food-processor
+      note: A processor can leave deliberately coarse pieces or use a disc to slice and shred. A blender is usually
+        chosen for a flowing, smooth mixture. Overlapping puree tasks do not make the appliances equivalent;
+        use the attachment and batch size the recipe actually needs.
+      sources:
+        - b2-processors
       review_version: 0.1
 - target:
     kind: equipment
@@ -1923,6 +1965,14 @@
       sources:
         - nchfp-pressure
       review_version: 0.1
+    - id: batch-2-distinction
+      role: near-neighbours
+      text: A pressure-canner reference describes equipment and a validated jar-processing system. A pressure-cooker
+        recipe describes cooking a meal. Similar pressure-related names do not transfer one system’s evidence
+        to the other; choose the applicable documentation before treating them as substitutes.
+      sources:
+        - b2-canners
+      review_version: 0.1
   resources:
     - resource: presto-use
       role: introduction
@@ -1948,6 +1998,16 @@
       note: Use the appliance’s own operating and release instructions.
       sources:
         - presto-use
+      review_version: 0.1
+    - relation: contrast-with
+      target:
+        kind: equipment
+        id: pressure-canner
+      note: A pressure-canner reference describes equipment and a validated jar-processing system. A pressure-cooker
+        recipe describes cooking a meal. Similar pressure-related names do not transfer one system’s evidence
+        to the other; choose the applicable documentation before treating them as substitutes.
+      sources:
+        - b2-canners
       review_version: 0.1
 - target:
     kind: ingredient
@@ -3383,10 +3443,29 @@
       sources:
         - cia-moist-heat
       review_version: 0.1
+    - id: batch-2-distinction
+      role: near-neighbours
+      text: Boiling food immerses it in hot liquid; steaming exposes it to vapour above liquid. These are different
+        heat-transfer arrangements even when both begin with boiling water. A steamer basket therefore does
+        not make its contents boiled food.
+      sources:
+        - cia-moist-heat
+      review_version: 0.1
   resources:
     - resource: cia-moist-heat
       role: introduction
       order: 1
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: process
+        id: steam
+      note: Boiling food immerses it in hot liquid; steaming exposes it to vapour above liquid. These are different
+        heat-transfer arrangements even when both begin with boiling water. A steamer basket therefore does
+        not make its contents boiled food.
+      sources:
+        - cia-moist-heat
       review_version: 0.1
 - target:
     kind: process
@@ -3410,6 +3489,14 @@
       text: Watch the liquid, not just the hob setting. Reduce the heat if the pan develops a vigorous rolling boil.
       sources:
         - cia-moist-heat
+      review_version: 0.1
+    - id: batch-2-distinction
+      role: context
+      text: A simmer describes the liquid’s activity, while reduction describes losing liquid through evaporation. A
+        covered simmer can cook food without the same reduction as an uncovered pan. State the desired
+        consistency separately when a sauce must also concentrate.
+      sources:
+        - cia-reduce
       review_version: 0.1
   resources:
     - resource: cia-moist-heat
@@ -3438,6 +3525,14 @@
       role: judgement
       text: Fish and other delicate portions can break up under vigorous bubbling. Monitor the liquid and the food
         separately; the right liquid temperature does not alone establish that the centre is cooked.
+      sources:
+        - cia-poaching
+      review_version: 0.1
+    - id: batch-2-distinction
+      role: uses
+      text: Deep poaching fully surrounds the food with cooking liquid. The liquid can contribute flavour through
+        stock, aromatics or wine, while a serving sauce may be prepared separately. Poaching does not require
+        turning all of the cooking liquid into the final sauce.
       sources:
         - cia-poaching
       review_version: 0.1
@@ -3672,6 +3767,14 @@
       sources:
         - kab-windowpane
       review_version: 0.1
+    - id: batch-2-distinction
+      role: near-neighbours
+      text: Kneading develops a dough’s structure; pastry lamination preserves distinct layers of dough and fat
+        through rolling and folding. Both involve working dough, but continuous mixing is not a substitute for
+        the layer-building operation.
+      sources:
+        - b2-laminate
+      review_version: 0.1
   resources:
     - resource: kab-kneading
       role: introduction
@@ -3680,6 +3783,17 @@
     - resource: kab-windowpane
       role: deeper-explanation
       order: 2
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: process
+        id: laminate
+      note: Kneading develops a dough’s structure; pastry lamination preserves distinct layers of dough and fat
+        through rolling and folding. Both involve working dough, but continuous mixing is not a substitute for
+        the layer-building operation.
+      sources:
+        - b2-laminate
       review_version: 0.1
 - target:
     kind: process
@@ -3801,10 +3915,29 @@
       sources:
         - kab-blind-bake
       review_version: 0.1
+    - id: batch-2-distinction
+      role: near-neighbours
+      text: Docking controls puffing by making small holes; blind-baking cooks an empty pastry case. They can occur
+        together, but one is a preparation and the other a baking stage. Docking a crust does not mean that it
+        has already been blind-baked.
+      sources:
+        - b2-dock
+      review_version: 0.1
   resources:
     - resource: kab-blind-bake
       role: introduction
       order: 1
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: process
+        id: dock
+      note: Docking controls puffing by making small holes; blind-baking cooks an empty pastry case. They can occur
+        together, but one is a preparation and the other a baking stage. Docking a crust does not mean that it
+        has already been blind-baked.
+      sources:
+        - b2-dock
       review_version: 0.1
 - target:
     kind: process
@@ -3859,10 +3992,29 @@
       sources:
         - cia-reduce
       review_version: 0.1
+    - id: batch-2-distinction
+      role: near-neighbours
+      text: Adding a thickener and evaporating water can both change consistency, but they do not do the same work.
+        Reduction removes liquid rather than adding body to it. A recipe’s target volume and its texture cue
+        should therefore be read together.
+      sources:
+        - cia-reduce
+      review_version: 0.1
   resources:
     - resource: cia-reduce
       role: introduction
       order: 1
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: process
+        id: thicken
+      note: Adding a thickener and evaporating water can both change consistency, but they do not do the same work.
+        Reduction removes liquid rather than adding body to it. A recipe’s target volume and its texture cue
+        should therefore be read together.
+      sources:
+        - cia-reduce
       review_version: 0.1
 - target:
     kind: process
@@ -4866,10 +5018,29 @@
       sources:
         - ka-processor
       review_version: 0.1
+    - id: batch-2-distinction
+      role: near-neighbours
+      text: A blade chops material already in the bowl, whereas a slicing disc cuts food as it enters. Choosing a
+        disc instead of running the bowl blade changes the kind of result, not just its fineness. Blender
+        recipes with plentiful liquid may need a different work-bowl limit.
+      sources:
+        - b2-processors
+      review_version: 0.1
   resources:
     - resource: ka-processor
       role: introduction
       order: 1
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: equipment
+        id: blender
+      note: A blade chops material already in the bowl, whereas a slicing disc cuts food as it enters. Choosing a
+        disc instead of running the bowl blade changes the kind of result, not just its fineness. Blender
+        recipes with plentiful liquid may need a different work-bowl limit.
+      sources:
+        - b2-processors
       review_version: 0.1
 - target:
     kind: equipment
@@ -4973,6 +5144,15 @@
       sources:
         - fsis-thermometers
       review_version: 0.1
+    - id: batch-2-distinction
+      role: context
+      text: The measurement location matters as much as the display. An appliance thermometer describes the
+        surrounding cooking environment; a food probe describes the region around its sensing area. These
+        readings answer different questions, so an oven reading does not replace a measurement within the
+        food.
+      sources:
+        - fsis-thermometers
+      review_version: 0.1
   resources:
     - resource: fsis-thermometers
       role: introduction
@@ -5017,6 +5197,14 @@
       sources:
         - lodge-guide
         - lodge-enamel
+      review_version: 0.1
+    - id: batch-2-distinction
+      role: near-neighbours
+      text: The covered stage of a braise retains moisture; reducing its cooking liquid is a separate, evaporative
+        step. A Dutch oven can participate in both, but keeping the same lid position throughout does not
+        serve both purposes.
+      sources:
+        - cia-techniques
       review_version: 0.1
   resources:
     - resource: lodge-guide
@@ -5081,6 +5269,14 @@
         - wok-season
         - wok-round
       review_version: 0.1
+    - id: batch-2-distinction
+      role: context
+      text: Stir-fry ingredients are often added in stages because they need different cooking times. A wok provides
+        space for that sequence, but the vessel name does not make a crowded mixture a stir-fry. Match the
+        preparation and loading to the intended method.
+      sources:
+        - cia-techniques
+      review_version: 0.1
   resources:
     - resource: wok-season
       role: introduction
@@ -5137,6 +5333,14 @@
       sources:
         - oxo-mandoline
       review_version: 0.1
+    - id: batch-2-distinction
+      role: uses
+      text: "Thin, repeated vegetable slices are useful in fermented-vegetable preparation as well as salads.
+        Slicing and pounding have different jobs: a slicer sets piece shape, while pounding or massaging
+        releases juice. A uniform cut alone does not establish fermentation conditions."
+      sources:
+        - b2-ferment-tools
+      review_version: 0.1
   resources:
     - resource: oxo-mandoline
       role: introduction
@@ -5189,6 +5393,14 @@
       sources:
         - ka-mixers
         - ka-processor
+      review_version: 0.1
+    - id: batch-2-distinction
+      role: types
+      text: "Tilt-head and bowl-lift describe how the bowl and mixing head are accessed, not different culinary
+        processes. Optional pasta rollers and grinders are separate attachments: having a stand mixer does not
+        by itself provide those functions."
+      sources:
+        - b2-mixers
       review_version: 0.1
   resources:
     - resource: ka-mixers
@@ -9622,14 +9834,34 @@
       review_version: 0.1
     - id: purpose
       role: purpose
-      text: The cuts can help control curling or create a pattern. Their depth and spacing depend on the food; scoring does not mean cutting it into separate portions.
+      text: The cuts can help control curling or create a pattern. Their depth and spacing depend on the food;
+        scoring does not mean cutting it into separate portions.
       sources:
         - clubhouse-cooking-terms
+      review_version: 0.1
+    - id: batch-2-distinction
+      role: near-neighbours
+      text: Surface scoring and dough docking both make openings, but docking uses small punctures to limit puffing.
+        Do not treat a decorative or expansion-guiding slash as equivalent to pricking the dough across its
+        surface.
+      sources:
+        - b2-dock
       review_version: 0.1
   resources:
     - resource: clubhouse-cooking-terms
       role: introduction
       order: 1
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: process
+        id: dock
+      note: Surface scoring and dough docking both make openings, but docking uses small punctures to limit puffing.
+        Do not treat a decorative or expansion-guiding slash as equivalent to pricking the dough across its
+        surface.
+      sources:
+        - b2-dock
       review_version: 0.1
 - target:
     kind: process
@@ -10460,7 +10692,16 @@
   editorial:
     - id: summary
       role: summary
-      text: A steaming basket is a perforated insert that holds food above boiling water. It is used to cook food in steam inside a covered pan.
+      text: A steaming basket is a perforated insert that holds food above boiling water. It is used to cook food in
+        steam inside a covered pan.
+      sources:
+        - landolakes-equipment
+      review_version: 0.1
+    - id: batch-2-distinction
+      role: near-neighbours
+      text: The basket supports food above the water while allowing steam through; a lid and suitable pan complete
+        the cooking arrangement. A colander can drain food, but that alone does not establish that it fits a
+        covered pan or is suitable for heating.
       sources:
         - landolakes-equipment
       review_version: 0.1
@@ -10468,6 +10709,17 @@
     - resource: landolakes-equipment
       role: introduction
       order: 1
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: equipment
+        id: colander
+      note: The basket supports food above the water while allowing steam through; a lid and suitable pan complete
+        the cooking arrangement. A colander can drain food, but that alone does not establish that it fits a
+        covered pan or is suitable for heating.
+      sources:
+        - landolakes-equipment
       review_version: 0.1
 - target:
     kind: equipment
@@ -10617,25 +10869,38 @@
   editorial:
     - id: summary
       role: summary
-      text: A cast-iron frying pan is a shallow pan made from cast iron. It is used for frying, searing and suitable oven cooking.
+      text: A cast-iron frying pan is a shallow pan made from cast iron. It is used for frying, searing and suitable
+        oven cooking.
       sources:
         - lodge-care
       review_version: 0.1
     - id: mechanism
       role: mechanism
-      text: Cast iron holds heat well and responds less quickly to heat changes than a light pan. Preheat patiently and adjust the burner rather than assuming the highest setting gives the best result.
+      text: Cast iron holds heat well and responds less quickly to heat changes than a light pan. Preheat patiently
+        and adjust the burner rather than assuming the highest setting gives the best result.
       sources:
         - lodge-care
       review_version: 0.1
     - id: care
       role: care
-      text: For its seasoned iron, Lodge recommends cooling, hand washing, thorough drying and a light application of oil. Soap is permitted in that guidance; the seasoning is a bonded oil layer, not a reason to leave food residue behind.
+      text: For its seasoned iron, Lodge recommends cooling, hand washing, thorough drying and a light application
+        of oil. Soap is permitted in that guidance; the seasoning is a bonded oil layer, not a reason to leave
+        food residue behind.
       sources:
         - lodge-care
       review_version: 0.1
     - id: context
       role: context
-      text: Seasoned bare iron and enamelled cast iron have different surfaces. Follow the actual pan’s care and heat-source instructions, especially when coatings or handle materials differ.
+      text: Seasoned bare iron and enamelled cast iron have different surfaces. Follow the actual pan’s care and
+        heat-source instructions, especially when coatings or handle materials differ.
+      sources:
+        - lodge-guide
+      review_version: 0.1
+    - id: batch-2-distinction
+      role: near-neighbours
+      text: Skillet describes the shallow cooking form; cast iron describes the material. A cast-iron Dutch oven is
+        a deeper, lidded vessel. Shared material does not make their capacity, access for turning food or
+        evaporation behaviour identical.
       sources:
         - lodge-guide
       review_version: 0.1
@@ -10647,6 +10912,17 @@
     - resource: lodge-guide
       role: deeper-explanation
       order: 2
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: equipment
+        id: dutch-oven
+      note: Skillet describes the shallow cooking form; cast iron describes the material. A cast-iron Dutch oven is
+        a deeper, lidded vessel. Shared material does not make their capacity, access for turning food or
+        evaporation behaviour identical.
+      sources:
+        - lodge-guide
       review_version: 0.1
 - target:
     kind: equipment
@@ -13882,4 +14158,548 @@
     - resource: cf2-punch-mint-julep
       role: introduction
       order: 0
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: can-opener
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A tool that cuts open a food can, commonly using a cutting wheel. A bottle-opening attachment does not
+        make all bottle openers can openers.
+      sources:
+        - b2-can
+      review_version: 0.1
+  resources:
+    - resource: b2-can
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: electric-kettle
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A vessel with electrical water heating and a pouring spout. Adjustable temperature and gooseneck pouring
+        are model features, not requirements of every electric kettle.
+      sources:
+        - b2-kettle
+      review_version: 0.1
+  resources:
+    - resource: b2-kettle
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: salad-spinner
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A rotating basket within a bowl removes water from washed salad leaves. Its basket may drain like a
+        colander, but the spinning assembly is a distinct tool.
+      sources:
+        - b2-spinner
+      review_version: 0.1
+  resources:
+    - resource: b2-spinner
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: citrus-press
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A pressing tool that extracts juice by compressing citrus halves. This identity covers the press, not
+        every reamer or powered fruit juicer.
+      sources:
+        - b2-citrus
+      review_version: 0.1
+  resources:
+    - resource: b2-citrus
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: used-for
+      target:
+        kind: process
+        id: juice
+      note: Compression extracts citrus juice.
+      sources:
+        - b2-citrus
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: pastry-brush
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A brush for spreading liquids such as egg wash, syrup or melted butter over food. Bristle material and
+        heat tolerance depend on the actual brush.
+      sources:
+        - b2-brush
+      review_version: 0.1
+  resources:
+    - resource: b2-brush
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: used-for
+      target:
+        kind: process
+        id: brush
+      note: Transfers a liquid coating to food.
+      sources:
+        - b2-brush
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: funnel
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A transfer tool with a broad receiving opening and narrower outlet for filling containers. A strainer
+        may be added; filtering is not inherent to every funnel.
+      sources:
+        - b2-funnel
+      review_version: 0.1
+  resources:
+    - resource: b2-funnel
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: food-mill
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A hand-operated mill pushes soft food through a perforated disc. It can separate skins or seeds while
+        making puree, unlike a blender that cuts the mixture together.
+      sources:
+        - b2-mill
+      review_version: 0.1
+  resources:
+    - resource: b2-mill
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: used-for
+      target:
+        kind: process
+        id: puree
+      note: Passing soft food through a disc makes puree.
+      sources:
+        - b2-mill
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: food-dehydrator
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: An electrical appliance that dries food using heat and circulating air. Capacity and airflow arrangement
+        vary; the appliance alone does not establish a safe preservation procedure.
+      sources:
+        - b2-dry
+      review_version: 0.1
+  resources:
+    - resource: b2-dry
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: used-for
+      target:
+        kind: process
+        id: dry
+      note: Heat and airflow remove moisture; this is not a preservation guarantee.
+      sources:
+        - b2-dry
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: pastry-blender
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A handled set of blades or wires for cutting solid fat into dry ingredients. It is a hand tool, distinct
+        from a powered jug blender.
+      sources:
+        - b2-pastry
+      review_version: 0.1
+  resources:
+    - resource: b2-pastry
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: equipment
+        id: blender
+      note: A manual fat-cutting tool, not a powered liquid blender.
+      sources:
+        - b2-pastry
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: pizza-stone
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A heat-retaining baking surface that transfers oven heat to the base of dough. Bread and flatbreads are
+        other uses; a metal baking steel is a different material.
+      sources:
+        - b2-stone
+      review_version: 0.1
+  resources:
+    - resource: b2-stone
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: used-for
+      target:
+        kind: process
+        id: bake
+      note: A heated baking surface for dough.
+      sources:
+        - b2-stone
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: spice-grinder
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A mill or powered blade tool intended to grind spices. The documented electric example also grinds nuts;
+        that capability is not assumed for every grinder.
+      sources:
+        - b2-grinder
+      review_version: 0.1
+  resources:
+    - resource: b2-grinder
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: used-for
+      target:
+        kind: process
+        id: grind
+      note: Reduces spices to smaller particles.
+      sources:
+        - b2-grinder
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: potato-ricer
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A hand press that forces cooked potato through perforations. It can also process suitable soft fruit or
+        vegetables; it differs mechanically from pounding with a masher.
+      sources:
+        - b2-ricer
+      review_version: 0.1
+  resources:
+    - resource: b2-ricer
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: equipment
+        id: potato-masher
+      note: Pressing through holes differs from crushing with a masher.
+      sources:
+        - b2-ricer
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: pressure-canner
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A pressure vessel designed to process jars for home canning. Small pressure cookers are not
+        interchangeable with the equipment used to establish canning schedules.
+      sources:
+        - b2-canners
+      review_version: 0.1
+  resources:
+    - resource: b2-canners
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: equipment
+        id: pressure-cooker
+      note: Canning schedules are not transferable to small pressure cookers.
+      sources:
+        - b2-canners
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: water-bath-canner
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A deep, lidded vessel with a rack for processing jars submerged in boiling water. This is distinct from
+        a pressure canner; use a validated procedure for the food.
+      sources:
+        - b2-canners
+      review_version: 0.1
+  resources:
+    - resource: b2-canners
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: equipment
+        id: pressure-canner
+      note: Atmospheric boiling-water processing and pressure processing are distinct.
+      sources:
+        - b2-canners
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: jar-lifter
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A gripping tool for lifting canning jars while keeping them upright. Its jar-holding shape distinguishes
+        it from general serving tongs.
+      sources:
+        - b2-canners
+      review_version: 0.1
+  resources:
+    - resource: b2-canners
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: laminate
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: In pastry work, build distinct dough and fat layers through rolling and folding. Folding a mixture or
+        merely stacking ingredients does not necessarily laminate pastry.
+      sources:
+        - b2-laminate
+      review_version: 0.1
+  resources:
+    - resource: b2-laminate
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: process
+        id: fold
+      note: Pastry lamination builds dough and fat layers; not every fold does.
+      sources:
+        - b2-laminate
+      review_version: 0.1
+- target:
+    kind: process
+    id: dock
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Prick dough with small holes to let steam escape and limit unwanted puffing during baking. This pastry
+        purpose is narrower than general piercing.
+      sources:
+        - b2-dock
+      review_version: 0.1
+  resources:
+    - resource: b2-dock
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: process
+        id: pierce
+      note: Dough puncturing has a specific baking purpose.
+      sources:
+        - b2-dock
+      review_version: 0.1
+- target:
+    kind: process
+    id: spatchcock
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Prepare a whole bird by removing its backbone and opening it flat. This is a poultry-specific
+        preparation, not complete deboning or every form of butterflying.
+      sources:
+        - b2-spatchcock
+      review_version: 0.1
+  resources:
+    - resource: b2-spatchcock
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: process
+        id: debone
+      note: Opening poultry flat does not remove every bone.
+      sources:
+        - b2-spatchcock
+      review_version: 0.1
+- target:
+    kind: process
+    id: clarify-butter
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Separate the fat of butter from its milk solids and watery component. Merely melting butter does not
+        complete clarification.
+      sources:
+        - b2-clarify
+      review_version: 0.1
+  resources:
+    - resource: b2-clarify
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: process
+        id: melt
+      note: Melting does not itself separate all butter components.
+      sources:
+        - b2-clarify
+      review_version: 0.1
+- target:
+    kind: process
+    id: clarify-stock
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Remove suspended material from stock or broth to obtain a clearer liquid, as for consomme. This is
+        distinct from separating butterfat.
+      sources:
+        - b2-clarify
+      review_version: 0.1
+  resources:
+    - resource: b2-clarify
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: process
+        id: clarify-butter
+      note: Clearing broth and separating butterfat involve different materials.
+      sources:
+        - b2-clarify
+      review_version: 0.1
+- target:
+    kind: process
+    id: bloom-gelatine
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Hydrate gelatine in cold liquid before dissolving it into the preparation. This use of bloom is separate
+        from heating spices or wetting coffee.
+      sources:
+        - b2-bloom
+      review_version: 0.1
+  resources:
+    - resource: b2-bloom
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: process
+        id: dissolve
+      note: Cold hydration precedes dissolution.
+      sources:
+        - b2-bloom
+      review_version: 0.1
+- target:
+    kind: process
+    id: macerate
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Soften fruit by resting it with sugar or liquid. Sugar draws juice from the fruit; added liquid can also
+        carry flavour. This entry concerns culinary fruit preparation.
+      sources:
+        - b2-macerate
+      review_version: 0.1
+  resources:
+    - resource: b2-macerate
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: dry-brine
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Salt food in advance of cooking without immersing it in a prepared salt-water bath. This seasoning
+        technique is not a guarantee of preservation or a substitute for a validated curing method.
+      sources:
+        - b2-brine
+      review_version: 0.1
+  resources:
+    - resource: b2-brine
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: process
+        id: brine
+      note: Direct salting differs from immersion in prepared brine.
+      sources:
+        - b2-brine
       review_version: 0.1

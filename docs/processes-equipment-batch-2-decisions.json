@@ -1,0 +1,960 @@
+{
+  "status": "Generated research; human review outstanding",
+  "additions": [
+    {
+      "kind": "equipment",
+      "id": "can-opener",
+      "decision": "new",
+      "definition": "A tool that cuts open a food can, commonly using a cutting wheel. A bottle-opening attachment does not make all bottle openers can openers.",
+      "aliases": [],
+      "categories": [
+        "preparation-tools"
+      ],
+      "sources": [
+        "b2-can"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "Broader synonyms and model-specific operational claims are not inferred."
+    },
+    {
+      "kind": "equipment",
+      "id": "electric-kettle",
+      "decision": "new",
+      "definition": "A vessel with electrical water heating and a pouring spout. Adjustable temperature and gooseneck pouring are model features, not requirements of every electric kettle.",
+      "aliases": [],
+      "categories": [
+        "appliances"
+      ],
+      "sources": [
+        "b2-kettle"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "Broader synonyms and model-specific operational claims are not inferred."
+    },
+    {
+      "kind": "equipment",
+      "id": "salad-spinner",
+      "decision": "new",
+      "definition": "A rotating basket within a bowl removes water from washed salad leaves. Its basket may drain like a colander, but the spinning assembly is a distinct tool.",
+      "aliases": [],
+      "categories": [
+        "preparation-tools"
+      ],
+      "sources": [
+        "b2-spinner"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "Broader synonyms and model-specific operational claims are not inferred."
+    },
+    {
+      "kind": "equipment",
+      "id": "citrus-press",
+      "decision": "new",
+      "definition": "A pressing tool that extracts juice by compressing citrus halves. This identity covers the press, not every reamer or powered fruit juicer.",
+      "aliases": [
+        "citrus squeezer"
+      ],
+      "categories": [
+        "preparation-tools"
+      ],
+      "sources": [
+        "b2-citrus"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "Broader synonyms and model-specific operational claims are not inferred.",
+      "relationships": [
+        {
+          "relation": "used-for",
+          "target": {
+            "kind": "process",
+            "id": "juice"
+          },
+          "note": "Compression extracts citrus juice.",
+          "sources": [
+            "b2-citrus"
+          ],
+          "review_version": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "equipment",
+      "id": "pastry-brush",
+      "decision": "new",
+      "definition": "A brush for spreading liquids such as egg wash, syrup or melted butter over food. Bristle material and heat tolerance depend on the actual brush.",
+      "aliases": [],
+      "categories": [
+        "bakeware"
+      ],
+      "sources": [
+        "b2-brush"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "Broader synonyms and model-specific operational claims are not inferred.",
+      "relationships": [
+        {
+          "relation": "used-for",
+          "target": {
+            "kind": "process",
+            "id": "brush"
+          },
+          "note": "Transfers a liquid coating to food.",
+          "sources": [
+            "b2-brush"
+          ],
+          "review_version": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "equipment",
+      "id": "funnel",
+      "decision": "new",
+      "definition": "A transfer tool with a broad receiving opening and narrower outlet for filling containers. A strainer may be added; filtering is not inherent to every funnel.",
+      "aliases": [],
+      "categories": [
+        "preparation-tools"
+      ],
+      "sources": [
+        "b2-funnel"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "Broader synonyms and model-specific operational claims are not inferred."
+    },
+    {
+      "kind": "equipment",
+      "id": "food-mill",
+      "decision": "new",
+      "definition": "A hand-operated mill pushes soft food through a perforated disc. It can separate skins or seeds while making puree, unlike a blender that cuts the mixture together.",
+      "aliases": [],
+      "categories": [
+        "preparation-tools"
+      ],
+      "sources": [
+        "b2-mill"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "Broader synonyms and model-specific operational claims are not inferred.",
+      "relationships": [
+        {
+          "relation": "used-for",
+          "target": {
+            "kind": "process",
+            "id": "puree"
+          },
+          "note": "Passing soft food through a disc makes puree.",
+          "sources": [
+            "b2-mill"
+          ],
+          "review_version": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "equipment",
+      "id": "food-dehydrator",
+      "decision": "new",
+      "definition": "An electrical appliance that dries food using heat and circulating air. Capacity and airflow arrangement vary; the appliance alone does not establish a safe preservation procedure.",
+      "aliases": [],
+      "categories": [
+        "preservation-and-fermentation"
+      ],
+      "sources": [
+        "b2-dry"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "Broader synonyms and model-specific operational claims are not inferred.",
+      "relationships": [
+        {
+          "relation": "used-for",
+          "target": {
+            "kind": "process",
+            "id": "dry"
+          },
+          "note": "Heat and airflow remove moisture; this is not a preservation guarantee.",
+          "sources": [
+            "b2-dry"
+          ],
+          "review_version": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "equipment",
+      "id": "pastry-blender",
+      "decision": "new",
+      "definition": "A handled set of blades or wires for cutting solid fat into dry ingredients. It is a hand tool, distinct from a powered jug blender.",
+      "aliases": [
+        "dough blender"
+      ],
+      "categories": [
+        "bakeware"
+      ],
+      "sources": [
+        "b2-pastry"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "Broader synonyms and model-specific operational claims are not inferred.",
+      "relationships": [
+        {
+          "relation": "contrast-with",
+          "target": {
+            "kind": "equipment",
+            "id": "blender"
+          },
+          "note": "A manual fat-cutting tool, not a powered liquid blender.",
+          "sources": [
+            "b2-pastry"
+          ],
+          "review_version": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "equipment",
+      "id": "pizza-stone",
+      "decision": "new",
+      "definition": "A heat-retaining baking surface that transfers oven heat to the base of dough. Bread and flatbreads are other uses; a metal baking steel is a different material.",
+      "aliases": [],
+      "categories": [
+        "bakeware"
+      ],
+      "sources": [
+        "b2-stone"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "Broader synonyms and model-specific operational claims are not inferred.",
+      "relationships": [
+        {
+          "relation": "used-for",
+          "target": {
+            "kind": "process",
+            "id": "bake"
+          },
+          "note": "A heated baking surface for dough.",
+          "sources": [
+            "b2-stone"
+          ],
+          "review_version": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "equipment",
+      "id": "spice-grinder",
+      "decision": "new",
+      "definition": "A mill or powered blade tool intended to grind spices. The documented electric example also grinds nuts; that capability is not assumed for every grinder.",
+      "aliases": [],
+      "categories": [
+        "preparation-tools"
+      ],
+      "sources": [
+        "b2-grinder"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "Broader synonyms and model-specific operational claims are not inferred.",
+      "relationships": [
+        {
+          "relation": "used-for",
+          "target": {
+            "kind": "process",
+            "id": "grind"
+          },
+          "note": "Reduces spices to smaller particles.",
+          "sources": [
+            "b2-grinder"
+          ],
+          "review_version": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "equipment",
+      "id": "potato-ricer",
+      "decision": "new",
+      "definition": "A hand press that forces cooked potato through perforations. It can also process suitable soft fruit or vegetables; it differs mechanically from pounding with a masher.",
+      "aliases": [],
+      "categories": [
+        "preparation-tools"
+      ],
+      "sources": [
+        "b2-ricer"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "Broader synonyms and model-specific operational claims are not inferred.",
+      "relationships": [
+        {
+          "relation": "contrast-with",
+          "target": {
+            "kind": "equipment",
+            "id": "potato-masher"
+          },
+          "note": "Pressing through holes differs from crushing with a masher.",
+          "sources": [
+            "b2-ricer"
+          ],
+          "review_version": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "equipment",
+      "id": "pressure-canner",
+      "decision": "new",
+      "definition": "A pressure vessel designed to process jars for home canning. Small pressure cookers are not interchangeable with the equipment used to establish canning schedules.",
+      "aliases": [],
+      "categories": [
+        "preservation-and-fermentation"
+      ],
+      "sources": [
+        "b2-canners"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "Broader synonyms and model-specific operational claims are not inferred.",
+      "relationships": [
+        {
+          "relation": "contrast-with",
+          "target": {
+            "kind": "equipment",
+            "id": "pressure-cooker"
+          },
+          "note": "Canning schedules are not transferable to small pressure cookers.",
+          "sources": [
+            "b2-canners"
+          ],
+          "review_version": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "equipment",
+      "id": "water-bath-canner",
+      "decision": "new",
+      "definition": "A deep, lidded vessel with a rack for processing jars submerged in boiling water. This is distinct from a pressure canner; use a validated procedure for the food.",
+      "aliases": [
+        "boiling water canner"
+      ],
+      "categories": [
+        "preservation-and-fermentation"
+      ],
+      "sources": [
+        "b2-canners"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "Broader synonyms and model-specific operational claims are not inferred.",
+      "relationships": [
+        {
+          "relation": "contrast-with",
+          "target": {
+            "kind": "equipment",
+            "id": "pressure-canner"
+          },
+          "note": "Atmospheric boiling-water processing and pressure processing are distinct.",
+          "sources": [
+            "b2-canners"
+          ],
+          "review_version": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "equipment",
+      "id": "jar-lifter",
+      "decision": "new",
+      "definition": "A gripping tool for lifting canning jars while keeping them upright. Its jar-holding shape distinguishes it from general serving tongs.",
+      "aliases": [],
+      "categories": [
+        "preservation-and-fermentation"
+      ],
+      "sources": [
+        "b2-canners"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "Broader synonyms and model-specific operational claims are not inferred."
+    },
+    {
+      "kind": "process",
+      "id": "laminate",
+      "decision": "new",
+      "definition": "In pastry work, build distinct dough and fat layers through rolling and folding. Folding a mixture or merely stacking ingredients does not necessarily laminate pastry.",
+      "aliases": [],
+      "categories": [
+        "baking-and-pastry"
+      ],
+      "sources": [
+        "b2-laminate"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "Broader synonyms and model-specific operational claims are not inferred.",
+      "relationships": [
+        {
+          "relation": "contrast-with",
+          "target": {
+            "kind": "process",
+            "id": "fold"
+          },
+          "note": "Pastry lamination builds dough and fat layers; not every fold does.",
+          "sources": [
+            "b2-laminate"
+          ],
+          "review_version": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "process",
+      "id": "dock",
+      "decision": "new",
+      "definition": "Prick dough with small holes to let steam escape and limit unwanted puffing during baking. This pastry purpose is narrower than general piercing.",
+      "aliases": [],
+      "categories": [
+        "baking-and-pastry"
+      ],
+      "sources": [
+        "b2-dock"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "Broader synonyms and model-specific operational claims are not inferred.",
+      "relationships": [
+        {
+          "relation": "contrast-with",
+          "target": {
+            "kind": "process",
+            "id": "pierce"
+          },
+          "note": "Dough puncturing has a specific baking purpose.",
+          "sources": [
+            "b2-dock"
+          ],
+          "review_version": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "process",
+      "id": "spatchcock",
+      "decision": "new",
+      "definition": "Prepare a whole bird by removing its backbone and opening it flat. This is a poultry-specific preparation, not complete deboning or every form of butterflying.",
+      "aliases": [],
+      "categories": [
+        "preparation-and-cutting"
+      ],
+      "sources": [
+        "b2-spatchcock"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "Broader synonyms and model-specific operational claims are not inferred.",
+      "relationships": [
+        {
+          "relation": "contrast-with",
+          "target": {
+            "kind": "process",
+            "id": "debone"
+          },
+          "note": "Opening poultry flat does not remove every bone.",
+          "sources": [
+            "b2-spatchcock"
+          ],
+          "review_version": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "process",
+      "id": "clarify-butter",
+      "decision": "new",
+      "definition": "Separate the fat of butter from its milk solids and watery component. Merely melting butter does not complete clarification.",
+      "aliases": [],
+      "categories": [
+        "preparation-and-cutting"
+      ],
+      "sources": [
+        "b2-clarify"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "Broader synonyms and model-specific operational claims are not inferred.",
+      "relationships": [
+        {
+          "relation": "contrast-with",
+          "target": {
+            "kind": "process",
+            "id": "melt"
+          },
+          "note": "Melting does not itself separate all butter components.",
+          "sources": [
+            "b2-clarify"
+          ],
+          "review_version": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "process",
+      "id": "clarify-stock",
+      "decision": "new",
+      "definition": "Remove suspended material from stock or broth to obtain a clearer liquid, as for consomme. This is distinct from separating butterfat.",
+      "aliases": [],
+      "categories": [
+        "preparation-and-cutting"
+      ],
+      "sources": [
+        "b2-clarify"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "Broader synonyms and model-specific operational claims are not inferred.",
+      "relationships": [
+        {
+          "relation": "contrast-with",
+          "target": {
+            "kind": "process",
+            "id": "clarify-butter"
+          },
+          "note": "Clearing broth and separating butterfat involve different materials.",
+          "sources": [
+            "b2-clarify"
+          ],
+          "review_version": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "process",
+      "id": "bloom-gelatine",
+      "decision": "new",
+      "definition": "Hydrate gelatine in cold liquid before dissolving it into the preparation. This use of bloom is separate from heating spices or wetting coffee.",
+      "aliases": [
+        "bloom gelatin"
+      ],
+      "categories": [
+        "preparation-and-cutting"
+      ],
+      "sources": [
+        "b2-bloom"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "Broader synonyms and model-specific operational claims are not inferred.",
+      "relationships": [
+        {
+          "relation": "contrast-with",
+          "target": {
+            "kind": "process",
+            "id": "dissolve"
+          },
+          "note": "Cold hydration precedes dissolution.",
+          "sources": [
+            "b2-bloom"
+          ],
+          "review_version": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "process",
+      "id": "macerate",
+      "decision": "new",
+      "definition": "Soften fruit by resting it with sugar or liquid. Sugar draws juice from the fruit; added liquid can also carry flavour. This entry concerns culinary fruit preparation.",
+      "aliases": [],
+      "categories": [
+        "preparation-and-cutting"
+      ],
+      "sources": [
+        "b2-macerate"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "Broader synonyms and model-specific operational claims are not inferred."
+    },
+    {
+      "kind": "process",
+      "id": "dry-brine",
+      "decision": "new",
+      "definition": "Salt food in advance of cooking without immersing it in a prepared salt-water bath. This seasoning technique is not a guarantee of preservation or a substitute for a validated curing method.",
+      "aliases": [],
+      "categories": [
+        "preparation-and-cutting"
+      ],
+      "sources": [
+        "b2-brine"
+      ],
+      "review": "generated / unchecked",
+      "uncertainties": "Broader synonyms and model-specific operational claims are not inferred.",
+      "relationships": [
+        {
+          "relation": "contrast-with",
+          "target": {
+            "kind": "process",
+            "id": "brine"
+          },
+          "note": "Direct salting differs from immersion in prepared brine.",
+          "sources": [
+            "b2-brine"
+          ],
+          "review_version": 0.1
+        }
+      ]
+    }
+  ],
+  "improvements": [
+    {
+      "kind": "equipment",
+      "id": "blender",
+      "decision": "improved existing draft",
+      "added": "A processor can leave deliberately coarse pieces or use a disc to slice and shred. A blender is usually chosen for a flowing, smooth mixture. Overlapping puree tasks do not make the appliances equivalent; use the attachment and batch size the recipe actually needs.",
+      "sources": [
+        "b2-processors"
+      ],
+      "relationship": {
+        "relation": "contrast-with",
+        "kind": "equipment",
+        "id": "food-processor"
+      },
+      "review": "Draft / generated (0.1)",
+      "uncertainties": "Editorial comparison; no universal operating limits inferred."
+    },
+    {
+      "kind": "equipment",
+      "id": "food-processor",
+      "decision": "improved existing draft",
+      "added": "A blade chops material already in the bowl, whereas a slicing disc cuts food as it enters. Choosing a disc instead of running the bowl blade changes the kind of result, not just its fineness. Blender recipes with plentiful liquid may need a different work-bowl limit.",
+      "sources": [
+        "b2-processors"
+      ],
+      "relationship": {
+        "relation": "contrast-with",
+        "kind": "equipment",
+        "id": "blender"
+      },
+      "review": "Draft / generated (0.1)",
+      "uncertainties": "Editorial comparison; no universal operating limits inferred."
+    },
+    {
+      "kind": "equipment",
+      "id": "stand-mixer",
+      "decision": "improved existing draft",
+      "added": "Tilt-head and bowl-lift describe how the bowl and mixing head are accessed, not different culinary processes. Optional pasta rollers and grinders are separate attachments: having a stand mixer does not by itself provide those functions.",
+      "sources": [
+        "b2-mixers"
+      ],
+      "relationship": null,
+      "review": "Draft / generated (0.1)",
+      "uncertainties": "Editorial comparison; no universal operating limits inferred."
+    },
+    {
+      "kind": "equipment",
+      "id": "steaming-basket",
+      "decision": "improved existing draft",
+      "added": "The basket supports food above the water while allowing steam through; a lid and suitable pan complete the cooking arrangement. A colander can drain food, but that alone does not establish that it fits a covered pan or is suitable for heating.",
+      "sources": [
+        "landolakes-equipment"
+      ],
+      "relationship": {
+        "relation": "contrast-with",
+        "kind": "equipment",
+        "id": "colander"
+      },
+      "review": "Draft / generated (0.1)",
+      "uncertainties": "Editorial comparison; no universal operating limits inferred."
+    },
+    {
+      "kind": "equipment",
+      "id": "thermometer",
+      "decision": "improved existing draft",
+      "added": "The measurement location matters as much as the display. An appliance thermometer describes the surrounding cooking environment; a food probe describes the region around its sensing area. These readings answer different questions, so an oven reading does not replace a measurement within the food.",
+      "sources": [
+        "fsis-thermometers"
+      ],
+      "relationship": null,
+      "review": "Draft / generated (0.1)",
+      "uncertainties": "USDA refetch returned 403; restricted to existing sourced project evidence."
+    },
+    {
+      "kind": "equipment",
+      "id": "pressure-cooker",
+      "decision": "improved existing draft",
+      "added": "A pressure-canner reference describes equipment and a validated jar-processing system. A pressure-cooker recipe describes cooking a meal. Similar pressure-related names do not transfer one system’s evidence to the other; choose the applicable documentation before treating them as substitutes.",
+      "sources": [
+        "b2-canners"
+      ],
+      "relationship": {
+        "relation": "contrast-with",
+        "kind": "equipment",
+        "id": "pressure-canner"
+      },
+      "review": "Draft / generated (0.1)",
+      "uncertainties": "Editorial comparison; no universal operating limits inferred."
+    },
+    {
+      "kind": "equipment",
+      "id": "mandoline",
+      "decision": "improved existing draft",
+      "added": "Thin, repeated vegetable slices are useful in fermented-vegetable preparation as well as salads. Slicing and pounding have different jobs: a slicer sets piece shape, while pounding or massaging releases juice. A uniform cut alone does not establish fermentation conditions.",
+      "sources": [
+        "b2-ferment-tools"
+      ],
+      "relationship": null,
+      "review": "Draft / generated (0.1)",
+      "uncertainties": "Editorial comparison; no universal operating limits inferred."
+    },
+    {
+      "kind": "equipment",
+      "id": "wok",
+      "decision": "improved existing draft",
+      "added": "Stir-fry ingredients are often added in stages because they need different cooking times. A wok provides space for that sequence, but the vessel name does not make a crowded mixture a stir-fry. Match the preparation and loading to the intended method.",
+      "sources": [
+        "cia-techniques"
+      ],
+      "relationship": null,
+      "review": "Draft / generated (0.1)",
+      "uncertainties": "Editorial comparison; no universal operating limits inferred."
+    },
+    {
+      "kind": "equipment",
+      "id": "dutch-oven",
+      "decision": "improved existing draft",
+      "added": "The covered stage of a braise retains moisture; reducing its cooking liquid is a separate, evaporative step. A Dutch oven can participate in both, but keeping the same lid position throughout does not serve both purposes.",
+      "sources": [
+        "cia-techniques"
+      ],
+      "relationship": null,
+      "review": "Draft / generated (0.1)",
+      "uncertainties": "Editorial comparison; no universal operating limits inferred."
+    },
+    {
+      "kind": "equipment",
+      "id": "cast-iron-frying-pan",
+      "decision": "improved existing draft",
+      "added": "Skillet describes the shallow cooking form; cast iron describes the material. A cast-iron Dutch oven is a deeper, lidded vessel. Shared material does not make their capacity, access for turning food or evaporation behaviour identical.",
+      "sources": [
+        "lodge-guide"
+      ],
+      "relationship": {
+        "relation": "contrast-with",
+        "kind": "equipment",
+        "id": "dutch-oven"
+      },
+      "review": "Draft / generated (0.1)",
+      "uncertainties": "Editorial comparison; no universal operating limits inferred."
+    },
+    {
+      "kind": "process",
+      "id": "simmer",
+      "decision": "improved existing draft",
+      "added": "A simmer describes the liquid’s activity, while reduction describes losing liquid through evaporation. A covered simmer can cook food without the same reduction as an uncovered pan. State the desired consistency separately when a sauce must also concentrate.",
+      "sources": [
+        "cia-reduce"
+      ],
+      "relationship": null,
+      "review": "Draft / generated (0.1)",
+      "uncertainties": "Editorial comparison; no universal operating limits inferred."
+    },
+    {
+      "kind": "process",
+      "id": "boil",
+      "decision": "improved existing draft",
+      "added": "Boiling food immerses it in hot liquid; steaming exposes it to vapour above liquid. These are different heat-transfer arrangements even when both begin with boiling water. A steamer basket therefore does not make its contents boiled food.",
+      "sources": [
+        "cia-moist-heat"
+      ],
+      "relationship": {
+        "relation": "contrast-with",
+        "kind": "process",
+        "id": "steam"
+      },
+      "review": "Draft / generated (0.1)",
+      "uncertainties": "Editorial comparison; no universal operating limits inferred."
+    },
+    {
+      "kind": "process",
+      "id": "roast",
+      "decision": "improved existing draft",
+      "added": "Covering a roasting vessel changes how moisture escapes and introduces a trapped-steam environment. Browning an exposed surface and retaining moisture under a lid are different aims; a recipe may deliberately move between them.",
+      "sources": [
+        "cia-reduce"
+      ],
+      "relationship": null,
+      "review": "Draft / generated (0.1)",
+      "uncertainties": "Editorial comparison; no universal operating limits inferred."
+    },
+    {
+      "kind": "process",
+      "id": "braise",
+      "decision": "improved existing draft",
+      "added": "A covered cooking stage and an uncovered sauce-finishing stage can belong to the same dish. Removing the lid encourages evaporation; this explains why the sauce may be reduced separately after the food is tender.",
+      "sources": [
+        "cia-reduce"
+      ],
+      "relationship": null,
+      "review": "Draft / generated (0.1)",
+      "uncertainties": "Editorial comparison; no universal operating limits inferred."
+    },
+    {
+      "kind": "process",
+      "id": "knead",
+      "decision": "improved existing draft",
+      "added": "Kneading develops a dough’s structure; pastry lamination preserves distinct layers of dough and fat through rolling and folding. Both involve working dough, but continuous mixing is not a substitute for the layer-building operation.",
+      "sources": [
+        "b2-laminate"
+      ],
+      "relationship": {
+        "relation": "contrast-with",
+        "kind": "process",
+        "id": "laminate"
+      },
+      "review": "Draft / generated (0.1)",
+      "uncertainties": "Editorial comparison; no universal operating limits inferred."
+    },
+    {
+      "kind": "process",
+      "id": "reduce",
+      "decision": "improved existing draft",
+      "added": "Adding a thickener and evaporating water can both change consistency, but they do not do the same work. Reduction removes liquid rather than adding body to it. A recipe’s target volume and its texture cue should therefore be read together.",
+      "sources": [
+        "cia-reduce"
+      ],
+      "relationship": {
+        "relation": "contrast-with",
+        "kind": "process",
+        "id": "thicken"
+      },
+      "review": "Draft / generated (0.1)",
+      "uncertainties": "Editorial comparison; no universal operating limits inferred."
+    },
+    {
+      "kind": "process",
+      "id": "poach",
+      "decision": "improved existing draft",
+      "added": "Deep poaching fully surrounds the food with cooking liquid. The liquid can contribute flavour through stock, aromatics or wine, while a serving sauce may be prepared separately. Poaching does not require turning all of the cooking liquid into the final sauce.",
+      "sources": [
+        "cia-poaching"
+      ],
+      "relationship": null,
+      "review": "Draft / generated (0.1)",
+      "uncertainties": "Editorial comparison; no universal operating limits inferred."
+    },
+    {
+      "kind": "process",
+      "id": "score",
+      "decision": "improved existing draft",
+      "added": "Surface scoring and dough docking both make openings, but docking uses small punctures to limit puffing. Do not treat a decorative or expansion-guiding slash as equivalent to pricking the dough across its surface.",
+      "sources": [
+        "b2-dock"
+      ],
+      "relationship": {
+        "relation": "contrast-with",
+        "kind": "process",
+        "id": "dock"
+      },
+      "review": "Draft / generated (0.1)",
+      "uncertainties": "Editorial comparison; no universal operating limits inferred."
+    },
+    {
+      "kind": "process",
+      "id": "blind-bake",
+      "decision": "improved existing draft",
+      "added": "Docking controls puffing by making small holes; blind-baking cooks an empty pastry case. They can occur together, but one is a preparation and the other a baking stage. Docking a crust does not mean that it has already been blind-baked.",
+      "sources": [
+        "b2-dock"
+      ],
+      "relationship": {
+        "relation": "contrast-with",
+        "kind": "process",
+        "id": "dock"
+      },
+      "review": "Draft / generated (0.1)",
+      "uncertainties": "Editorial comparison; no universal operating limits inferred."
+    },
+    {
+      "kind": "process",
+      "id": "ferment",
+      "decision": "improved existing draft",
+      "added": "Fermentation names the microbial transformation, not a promise that living organisms remain in the finished food. Later processing can change that. The process name alone does not establish a product’s storage conditions or a health benefit.",
+      "sources": [
+        "isapp-ferment"
+      ],
+      "relationship": null,
+      "review": "Draft / generated (0.1)",
+      "uncertainties": "Editorial comparison; no universal operating limits inferred."
+    }
+  ],
+  "deferred": [
+    {
+      "terms": [
+        "fermentation crock",
+        "mortar and pestle",
+        "mandoline"
+      ],
+      "decision": "Already present",
+      "reason": "Existing identities retain their IDs; no duplicate needed."
+    },
+    {
+      "terms": [
+        "proof",
+        "score",
+        "blind bake",
+        "deglaze",
+        "render",
+        "caramelise",
+        "toast",
+        "pressure-cook",
+        "sous-vide cook",
+        "confit"
+      ],
+      "decision": "Existing concept",
+      "reason": "Current IDs already cover these techniques; proof is accepted by prove. No additional synonym inferred for sous-vide cook."
+    },
+    {
+      "terms": [
+        "temper",
+        "bloom",
+        "clarify"
+      ],
+      "decision": "Ambiguous bare head deferred",
+      "reason": "Existing temper-chocolate/eggs/spices and scoped new clarification/gelatine entries preserve senses. No universal alias."
+    },
+    {
+      "terms": [
+        "cold-smoke",
+        "flash-fry",
+        "dry-brine preservation schedules"
+      ],
+      "decision": "Deferred",
+      "reason": "Cold smoking needs dedicated safety review; flash-fry lacks a sufficiently stable boundary for this batch; dry-brine is only pre-cooking seasoning here."
+    },
+    {
+      "terms": [
+        "bench scraper",
+        "digital probe thermometer",
+        "Microplane-style grater",
+        "kitchen torch",
+        "pasta roller"
+      ],
+      "decision": "Narrower or overlapping existing concept; defer names",
+      "reason": "Compare scraper, thermometer, grater/zester, blowtorch and pasta-machine. Brand, sensing format and roller-only scope are not blanket aliases."
+    },
+    {
+      "terms": [
+        "vacuum sealer",
+        "dough docker",
+        "kitchen timer"
+      ],
+      "decision": "Next bounded equipment queue",
+      "reason": "Distinct candidates not implemented in this batch; detailed source/scope review remains. Vacuum packaging is not a preservation guarantee."
+    },
+    {
+      "terms": [
+        "tawa",
+        "comal",
+        "tagine",
+        "tandoor"
+      ],
+      "decision": "Regional research deferred",
+      "reason": "No equivalence with metal-griddle, clay-casserole or oven asserted. Need regional educational evidence covering materials, shape, heat source and equipment-versus-dish senses."
+    },
+    {
+      "terms": [
+        "canning equipment"
+      ],
+      "decision": "Split into concrete equipment",
+      "reason": "Added pressure-canner, water-bath-canner and jar-lifter; no generic catch-all alias."
+    }
+  ]
+}
