@@ -20,10 +20,11 @@ for(const row of ledger.pages) test('Existing-page batch 1 sourced provisional r
 test('Existing-page batch 1 leaves canonical knowledge files byte-identical',()=>{
   for(const [path,hash] of Object.entries(ledger.canonicalFileHashes))assert.equal(createHash('sha256').update(readFileSync(path)).digest('hex'),hash,path);
 });
-test('Existing-page batch 1 selection and complete eligible backlog agree',()=>{
+test('Existing-page batch 1 selection and historical eligible backlog agree',()=>{
   assert.equal(ledger.pages.length,30);
   for(const kind of ['equipment','process'])assert.equal(ledger.pages.filter((p:ConceptTarget)=>p.kind===kind).length,15);
-  const missing=v.entries.filter(e=>['equipment','process'].includes(e.kind)&&createReferencePage(v,e.kind,e.id)&&!v.enrichments.some(x=>x.target.kind===e.kind&&x.target.id===e.id));
+  const snapshot=v.enrichments.slice(0,ledger.after.enriched);
+  const missing=v.entries.filter(e=>['equipment','process'].includes(e.kind)&&createReferencePage(v,e.kind,e.id)&&!snapshot.some(x=>x.target.kind===e.kind&&x.target.id===e.id));
   assert.deepEqual(missing.map(e=>e.kind+':'+e.id).sort(),ledger.backlog.map((e:ConceptTarget)=>e.kind+':'+e.id).sort());
   assert.equal(missing.filter(e=>e.kind==='equipment').length,38);assert.equal(missing.filter(e=>e.kind==='process').length,60);
   assert.equal(v.entries.length,969);assert.equal(v.entries.filter(e=>createReferencePage(v,e.kind,e.id)).length,913);

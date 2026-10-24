@@ -18911,3 +18911,816 @@
       note: Beating combines raw egg; scrambling forms curds during heating.
       sources: *a30
       review_version: 0.1
+
+- target:
+    kind: equipment
+    id: plate
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A shallow piece of tableware for presenting individual portions. Side plates suit smaller servings
+        or sandwiches, while deeper plate forms can hold saucier foods.
+      sources: &a1
+        - ep2-plate
+        - ep2-soup-plate
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Consider the usable surface and depth, not just the outside diameter. A broad rim reduces the
+        central serving area, and a flat plate contains liquid differently from a soup plate. Materials
+        and sizes vary; plate alone does not specify bakeware.
+      sources: *a1
+      review_version: 0.1
+  resources:
+    - resource: ep2-plate
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: ep2-soup-plate
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: equipment
+        id: soup-plate
+      note: A soup plate provides a deeper central well for liquid-containing foods.
+      sources: *a1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: dish
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: "A broad term for a vessel used to hold, prepare or present food. A baking dish is one particular
+        form: its sides contain layered mixtures and liquids during oven cooking."
+      sources: &a2
+        - ep2-dish
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Some purpose-made baking dishes also serve for marinating, breading or taking a bake to the table.
+        Those capabilities belong to the particular vessel. The unqualified word dish does not tell you
+        its depth, capacity or compatibility with direct heat.
+      sources: *a2
+      review_version: 0.1
+  resources:
+    - resource: ep2-dish
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: jar
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: "A container with an opening that can be closed with a lid. The mouth affects access: wide-mouth
+        canning jars are easier to fill and empty than narrower examples."
+      sources: &a3
+        - ep2-jars
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Closure design matters independently of capacity. A screw band, lid and sealing surface work
+        together on a purpose-made canning jar; an ordinary storage jar is not evidence of suitability
+        for a heat-processing recipe.
+      sources: *a3
+      review_version: 0.1
+  resources:
+    - resource: ep2-jars
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: cloth
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A flexible fabric used as a preparation aid. In strudel making, a cloth spread over the work area
+        supports the thin dough and can help lift and roll it around the filling.
+      sources: &a4
+        - ep2-cloth
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: "This use relies on a broad flexible support rather than a rigid board. Other food-contact tasks
+        require different fabric properties: a cloth used to guide dough is not automatically a fine
+        straining cloth. Choose it for the operation described."
+      sources: *a4
+      review_version: 0.1
+  resources:
+    - resource: ep2-cloth
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: baking-mold
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A baking vessel whose cavity gives the bake its form. A shaped cake pan illustrates how the
+        finished surface follows the details of the mold.
+      sources: &a5
+        - ep2-mold
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: "Release is part of the preparation: grease or otherwise prepare the cavity as directed for that
+        recipe and material. Intricate shapes need attention to recesses, and batter needs room to
+        expand. Do not assume a non-stick surface removes every preparation step."
+      sources: *a5
+      review_version: 0.1
+  resources:
+    - resource: ep2-mold
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: squeeze-bottle
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A squeezable container that dispenses liquid through a tip, allowing one-handed application.
+        Typical uses include adding oil to a pan or drawing sauce lines over a finished dish.
+      sources: &a6
+        - ep2-squeeze
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: The tip controls the stream; a fine tip favours a narrow drizzle. The cited bottle has an attached
+        cap, but closures and materials vary. Dispensing convenience does not establish suitability for
+        heating the bottle or for long-term storage.
+      sources: *a6
+      review_version: 0.1
+  resources:
+    - resource: ep2-squeeze
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: gridiron
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: An open framework of metal bars used to support food over heat. Historical hearth examples held
+        meat or fish above hot coals.
+      sources: &a7
+        - ep2-gridiron
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Gaps between the bars distinguish it from a solid griddle surface. Food rests on the bars rather
+        than on a continuous plate; a museum example documents this construction without making every
+        gridiron a complete barbecue appliance.
+      sources: *a7
+      review_version: 0.1
+  resources:
+    - resource: ep2-gridiron
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: equipment
+        id: metal-griddle
+      note: An open barred surface differs from a continuous cooking plate.
+      sources: *a7
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: cup
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A small open vessel for drinking or holding a portion. Coffee and tea cups are sold in different
+        capacities, sometimes with matching saucers.
+      sources: &a8
+        - ep2-cup
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: "A cup chosen for serving is not necessarily a measuring cup. Its capacity belongs to that vessel:
+        the equipment name cannot establish a standard recipe volume or a conversion basis for a quantity
+        written in cups."
+      sources: *a8
+      review_version: 0.1
+  resources:
+    - resource: ep2-cup
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: soup-plate
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A deep plate whose recessed centre can hold soup or other foods with liquid. It sits between a flat
+        plate and a bowl in serving form.
+      sources: &a9
+        - ep2-soup-plate
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: The depth is useful for saucy dishes as well as soup, but capacity still varies by design. A recipe
+        using a soup plate names a vessel shape; it does not establish a standard portion size or show
+        that a modern example can go in the oven.
+      sources: *a9
+      review_version: 0.1
+  resources:
+    - resource: ep2-soup-plate
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: clay-casserole
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A casserole vessel made from clay-based ceramic, used for preparations such as stews or oven bakes
+        when the vessel is designed for that heat source.
+      sources: &a10
+        - ep2-clay
+        - ep2-dish
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Ceramic cookware is not one compatibility class. The cited Emile Henry stewpot has its own
+        gradual-heating instructions, while Le Creuset stoneware baking dishes exclude stovetop use.
+        Follow the particular vessel instructions rather than assuming clay means flame-safe; sudden
+        temperature changes also need care.
+      sources: *a10
+      review_version: 0.1
+  resources:
+    - resource: ep2-clay
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: ep2-dish
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: glass-jars
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Glass containers with closable mouths, used to hold food. For home canning, purpose-made threaded
+        jars and compatible lids provide a defined sealing arrangement.
+      sources: &a11
+        - ep2-jars
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Check the jar as well as its closure. Scratches or damaged sealing surfaces can matter during
+        processing, and washing an empty jar does not itself sterilize it. This material description is
+        not a canning schedule or proof that a reused commercial jar is suitable.
+      sources: *a11
+      review_version: 0.1
+  resources:
+    - resource: ep2-jars
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: tray
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A broad, relatively shallow support used to gather, carry or arrange items. Serving trays may have
+        handles to help move several items together.
+      sources: &a12
+        - ep2-tray
+        - ep2-mold
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: A carrying tray and a baking sheet share a broad shape but differ in intended use. Where a recipe
+        puts a tray in the oven, select an oven-suitable baking tray; a serving tray with coated surfaces
+        or wooden handles does not establish that capability.
+      sources: *a12
+      review_version: 0.1
+  resources:
+    - resource: ep2-tray
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: ep2-mold
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: teaspoon
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A small spoon used for stirring tea or coffee and for handling small portions, including desserts.
+        It is a table utensil with a bowl and handle.
+      sources: &a13
+        - ep2-teaspoon
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: "Its shape gives access to a cup or a small amount of food. Here teaspoon identifies equipment, not
+        a calibrated measuring spoon: the name alone does not make a spoonful an exact recipe quantity."
+      sources: *a13
+      review_version: 0.1
+  resources:
+    - resource: ep2-teaspoon
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: equipment
+        id: measuring-spoon
+      note: A small table utensil does not establish calibrated capacity.
+      sources: *a13
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: platter
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A broad serving dish used to present food for sharing. Some designs include a separate central
+        space for dip surrounded by room for vegetables, cheese or other small foods.
+      sources: &a14
+        - ep2-platter
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: "Choose the arrangement for the food being served: an uninterrupted surface and a divided dip
+        platter do different jobs. Product-specific heat ratings do not make every platter oven-safe, and
+        a serving form is not a substitute for a specified baking vessel."
+      sources: *a14
+      review_version: 0.1
+  resources:
+    - resource: ep2-platter
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: equipment
+    id: pitcher
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A vessel for holding and pouring drinks into smaller servings. Pitchers can serve a batch of
+        lemonade or other mixed drinks rather than one individual portion.
+      sources: &a15
+        - ep2-pitcher
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Capacity, material and opening affect how it is used. The cited stoneware pitcher is designed for
+        hot or cold drinks, but that product capability should not be assumed for every pitcher; check
+        the vessel when serving hot liquids.
+      sources: *a15
+      review_version: 0.1
+  resources:
+    - resource: ep2-pitcher
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: refrigerate
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Place food in a refrigerator to keep it chilled. Refrigeration slows bacterial growth; it is a
+        storage condition rather than a cooking or freezing step.
+      sources: &a16
+        - fda-refrigerator
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: "Cold air needs room to circulate, so avoid tightly overpacking the appliance. Covered containers
+        help keep stored foods separated, and an appliance thermometer checks the actual temperature.
+        Follow food-specific storage guidance: the verb refrigerate alone does not specify a safe storage
+        life."
+      sources: *a16
+      review_version: 0.1
+  resources:
+    - resource: fda-refrigerator
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: press
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Apply pressure to food or a mixture for a stated result. Pressing shortbread dough into a pan
+        shapes an even layer; pressing cut tomatoes can release pulp and seeds.
+      sources: &a17
+        - b2-dock
+        - b3-concasse
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: The object and direction determine the task. Shaping dough, attaching a coating and forcing food
+        through a sieve are not interchangeable instructions. Use the recipe's endpoint rather than
+        treating press as a fixed force or a request to puree everything.
+      sources: *a17
+      review_version: 0.1
+  resources:
+    - resource: b2-dock
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: b3-concasse
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1
+- target:
+    kind: process
+    id: turn
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Change which side of a piece of food faces the heat or cooking surface. In frying, turning exposes
+        another surface for cooking and browning.
+      sources: &a18
+        - cia-frying
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Use a suitable utensil to move the piece without unnecessarily piercing its crust. How often to
+        turn depends on the method; the handling appropriate to pan-frying is not automatically the same
+        as for food immersed in fat.
+      sources: *a18
+      review_version: 0.1
+  resources:
+    - resource: cia-frying
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: wash
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Clean the surface of food using an appropriate washing method. For fresh produce, FDA guidance uses
+        running water; firm produce can also be rubbed or scrubbed with a clean produce brush.
+      sources: &a19
+        - ep2-wash
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Produce washing is not sterilization, and soap or detergent is not recommended on fruits and
+        vegetables. Ready-to-eat produce labelled as pre-washed can be used without another wash. These
+        produce instructions should not be generalized to every food.
+      sources: *a19
+      review_version: 0.1
+  resources:
+    - resource: ep2-wash
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: seal
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Close an opening or join edges so the contents are held in place. In a hand pie, pressing the
+        pastry edges together with a fork helps keep filling from escaping at the seam.
+      sources: &a20
+        - ep2-seal
+        - ep2-jars
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: "In storage instructions, seal may instead refer to closing a bag or container. The object
+        determines the operation: a pastry seam is not a vacuum seal, and closing a lid does not by
+        itself establish a safe preservation process."
+      sources: *a20
+      review_version: 0.1
+  resources:
+    - resource: ep2-seal
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: ep2-jars
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1
+- target:
+    kind: process
+    id: separate
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Divide components so they can be handled independently. Separating an egg keeps the yolk apart from
+        the white, allowing each to be used where the recipe needs it.
+      sources: &a21
+        - ep2-separate
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: An egg separator lets the white pass through while retaining the yolk. Elsewhere the recipe may ask
+        to separate cloves or pieces of food; those are different physical tasks. Read what must be
+        separated rather than assuming the verb always means egg separation.
+      sources: *a21
+      review_version: 0.1
+  resources:
+    - resource: ep2-separate
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: wrap
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Enclose food or a preparation in a flexible covering. Pastry disks may be wrapped before chilling
+        so they can rest as individual prepared pieces.
+      sources: &a22
+        - ep1-pie
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: The material must suit the next step. A wrapper used while chilling is not automatically suitable
+        for baking or other heating. Wrapping also differs from simply laying a loose cover over a bowl;
+        follow the recipe's instruction about what is enclosed.
+      sources: *a22
+      review_version: 0.1
+  resources:
+    - resource: ep1-pie
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: pat-dry
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Blot surface moisture with a clean absorbent cloth or paper towel. After washing produce, drying
+        removes water remaining on the outside.
+      sources: &a23
+        - ep2-wash
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Gentle contact targets surface droplets rather than squeezing liquid out of the food or dehydrating
+        it throughout. FDA produce guidance specifies a clean cloth or paper towel; reusing a soiled
+        cloth defeats that handling step.
+      sources: *a23
+      review_version: 0.1
+  resources:
+    - resource: ep2-wash
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: slow-cook
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Cook with gentle heat over an extended period. A covered electric slow cooker is one
+        implementation, combining heat from the pot with moisture and steam inside the vessel.
+      sources: &a24
+        - fsis-slow-cooker
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: High and low settings change the cooking rate, and lifting the lid loses heat. Use a recipe and
+        loading guidance suited to the appliance; the general instruction slow-cook does not justify an
+        arbitrary low setting or a universal duration for every food.
+      sources: *a24
+      review_version: 0.1
+  resources:
+    - resource: fsis-slow-cooker
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: skin
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Remove the skin of an ingredient. For tomatoes, brief exposure to hot water followed by rapid
+        cooling can loosen the skin so it can be peeled away.
+      sources: &a25
+        - ep2-skin
+        - ep2-fish-preparation
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: "The method depends on the food: removing skin from a fish is different from loosening tomato skin.
+        Descaling removes scales from a fish surface and is a separate operation; skin does not prescribe
+        one knife technique for every ingredient."
+      sources: *a25
+      review_version: 0.1
+  resources:
+    - resource: ep2-skin
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: ep2-fish-preparation
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: process
+        id: descale
+      note: Removing the skin differs from removing scales attached to it.
+      sources: *a25
+      review_version: 0.1
+- target:
+    kind: process
+    id: descale
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Remove scales from the surface of a fish using a scaler or an appropriate knife action. The scales
+        are detached from the skin rather than the whole skin being removed.
+      sources: &a26
+        - ep2-descale
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Descaling is one preparatory task among others such as trimming fins or gutting. Whether it is
+        needed depends on the species and intended preparation; it should not be treated as a synonym for
+        filleting or skinning.
+      sources: *a26
+      review_version: 0.1
+  resources:
+    - resource: ep2-descale
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: process
+        id: skin
+      note: Descaling need not remove the skin itself.
+      sources: *a26
+      review_version: 0.1
+- target:
+    kind: process
+    id: temper-spices
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Heat spices in hot oil or ghee so their flavour passes into the fat. In Indian cooking, the
+        flavoured fat may start a dish or be added near the end as a finishing step.
+      sources: &a27
+        - ep2-spices
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: The sequence matters because different spices and aromatics cook at different rates. This is
+        distinct from dry-roasting spices, and from tempering chocolate or eggs. Tadka is one relevant
+        culinary context, not a universal replacement name for every practice involving spices and fat.
+      sources: *a27
+      review_version: 0.1
+  resources:
+    - resource: ep2-spices
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: process
+    id: shock
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Cool food rapidly, often immediately after a hot-water or steam treatment. Plunging blanched
+        vegetables into cold or ice water interrupts continued cooking.
+      sources: &a28
+        - nchfp-blanch
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Blanching supplies the heat; shocking supplies the rapid cooling. They can be consecutive steps
+        without being the same action. In the cited vegetable-freezing guidance, the vegetables are then
+        drained thoroughly; chilling slowly in a refrigerator is a different cooling approach.
+      sources: *a28
+      review_version: 0.1
+  resources:
+    - resource: nchfp-blanch
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: process
+        id: blanch
+      note: Rapid cooling follows the heat treatment as a distinct step.
+      sources: *a28
+      review_version: 0.1
+- target:
+    kind: process
+    id: butter
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Apply or incorporate butter as the preparation requires. Buttering a mold coats its surface to help
+        release the bake; buttering bread spreads butter onto the food itself.
+      sources: &a29
+        - ep2-butter
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: The object matters. Adding butter to a sauce is different from coating a pan, and a buttered mold
+        may still need flour or another lining. Follow the specified preparation rather than assuming
+        butter alone makes every bake release cleanly.
+      sources: *a29
+      review_version: 0.1
+  resources:
+    - resource: ep2-butter
+      role: introduction
+      order: 1
+      review_version: 0.1
+  associations:
+    - relation: contrast-with
+      target:
+        kind: process
+        id: flour
+      note: A mold may be buttered and then floured; these are separate coatings.
+      sources: *a29
+      review_version: 0.1
+- target:
+    kind: process
+    id: flour
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Coat or dust a surface with flour. On a buttered baking mold, moving the mold spreads flour over
+        the base and sides; tapping removes the excess.
+      sources: &a30
+        - ep2-flour
+        - ep1-pie
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: On a pastry work surface, a light dusting helps control sticking during rolling. Both uses put
+        flour on a surface rather than treating it as a measured ingredient to mix in. The amount and
+        surface preparation depend on the recipe.
+      sources: *a30
+      review_version: 0.1
+  resources:
+    - resource: ep2-flour
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: ep1-pie
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1

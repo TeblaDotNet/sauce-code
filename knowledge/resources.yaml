@@ -4065,3 +4065,211 @@
   review_scope: text
   notes: Text consulted for provisional original summaries. Manufacturer examples do not establish
     universal compatibility or operating limits.
+
+- id: ep2-plate
+  title: Salad & side plates
+  url: https://www.ikea.com/us/en/cat/side-plates-18863/
+  publisher: IKEA
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for provisional original summaries. Product examples do not establish universal
+    materials, dimensions or operating limits.
+- id: ep2-soup-plate
+  title: Deep plates
+  url: https://www.ikea.com/ch/en/cat/deep-plates-18862/
+  publisher: IKEA
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for provisional original summaries. Product examples do not establish universal
+    materials, dimensions or operating limits.
+- id: ep2-dish
+  title: Baking Dishes
+  url: https://www.lecreuset.ca/en_CA/bakeware/baking-dishes
+  publisher: Le Creuset
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for provisional original summaries. Product examples do not establish universal
+    materials, dimensions or operating limits.
+- id: ep2-jars
+  title: Recommended Jars and Lids
+  url: https://nchfp.uga.edu/how/can/general-canning-information/recommended-jars-and-lids/
+  publisher: National Center for Home Food Preservation
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for provisional original summaries. Product examples do not establish universal
+    materials, dimensions or operating limits.
+- id: ep2-cloth
+  title: Homemade Strudel
+  url: https://www.kingarthurbaking.com/blog/2017/01/19/homemade-strudel
+  publisher: King Arthur Baking
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for provisional original summaries. Product examples do not establish universal
+    materials, dimensions or operating limits.
+- id: ep2-mold
+  title: Bundt Cake
+  url: https://www.kingarthurbaking.com/learn/guides/bundt-cake
+  publisher: King Arthur Baking
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for provisional original summaries. Product examples do not establish universal
+    materials, dimensions or operating limits.
+- id: ep2-squeeze
+  title: OXO Chef's Squeeze Bottles - 12 ounces
+  url: https://www.oxo.com/chef-s-squeeze-bottles-6-ounces-1-3613-0.html
+  publisher: OXO
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for provisional original summaries. Product examples do not establish universal
+    materials, dimensions or operating limits.
+- id: ep2-gridiron
+  title: Gridiron (dated 1708)
+  url: https://www.manuscriptcookbookssurvey.org/collection/Detail/utensils/1162
+  publisher: Manuscript Cookbooks Survey / Colonial Williamsburg
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Collection record for Colonial Williamsburg object 2016-99. Historical example establishes an open
+    barred cooking surface, not all modern designs.
+- id: ep2-cup
+  title: Mugs and cups
+  url: https://www.ikea.is/en/products/dining-room/coffee-and-tea/mugs-and-cups
+  publisher: IKEA Iceland
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for provisional original summaries. Product examples do not establish universal
+    materials, dimensions or operating limits.
+- id: ep2-clay
+  title: "Ma Cocotte / My Stewpot: use and care manual"
+  url: https://www.everythingkitchens.com/amfile/file/download/file/3708/product/74048/
+  publisher: Emile Henry
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Manufacturer manual hosted by Everything Kitchens. Indexed French text consulted; direct fetch
+    returned 403. Guidance is specific to this ceramic stewpot, not all clay cookware.
+- id: ep2-tray
+  title: GRONFISK Tray with handle
+  url: https://www.ikea.com/us/en/p/groenfisk-tray-with-handle-bamboo-white-20579066/
+  publisher: IKEA
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for provisional original summaries. Product examples do not establish universal
+    materials, dimensions or operating limits.
+- id: ep2-teaspoon
+  title: Tea/coffee spoon Signum stonewashed
+  url: https://www.wmf-professional.com/teacoffee-spoon-signum-stonewashed.html
+  publisher: WMF Professional
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for provisional original summaries. Product examples do not establish universal
+    materials, dimensions or operating limits.
+- id: ep2-platter
+  title: Signature Oval Chip & Dip Platter
+  url: https://www.lecreuset.com/signature-oval-chip-and-dip-platter-13-in-white/72000034010000.html
+  publisher: Le Creuset
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for provisional original summaries. Product examples do not establish universal
+    materials, dimensions or operating limits.
+- id: ep2-pitcher
+  title: Signature Pitcher
+  url: https://www.lecreuset.com/signature-pitcher/70901US.html
+  publisher: Le Creuset
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for provisional original summaries. Product examples do not establish universal
+    materials, dimensions or operating limits.
+- id: ep2-wash
+  title: Selecting and Serving Produce Safely
+  url: https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely
+  publisher: US Food and Drug Administration
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for provisional original summaries. Product examples do not establish universal
+    materials, dimensions or operating limits.
+- id: ep2-seal
+  title: The return of hand pies
+  url: https://www.kingarthurbaking.com/blog/2018/07/02/the-return-of-hand-pies
+  publisher: King Arthur Baking
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for provisional original summaries. Product examples do not establish universal
+    materials, dimensions or operating limits.
+- id: ep2-separate
+  title: Important Food Safety Information
+  url: https://www.incredibleegg.org/egg-handling-storage-tips/
+  publisher: American Egg Board
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for provisional original summaries. Product examples do not establish universal
+    materials, dimensions or operating limits.
+- id: ep2-skin
+  title: Monder
+  url: https://chefsimon.com/articles/lexique-monder
+  publisher: Chef Simon
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for provisional original summaries. Product examples do not establish universal
+    materials, dimensions or operating limits.
+- id: ep2-fish-preparation
+  title: Techniques appliquees a la preparation des poissons
+  url: https://chefsimon.com/articles/sommaire-techniques-appliquees-a-la-preparation-des-poissons
+  publisher: Chef Simon
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for provisional original summaries. Product examples do not establish universal
+    materials, dimensions or operating limits.
+- id: ep2-descale
+  title: Ecailler un poisson portion
+  url: https://chefsimon.com/gourmets/chef-simon/recettes/ecailler-un-poisson-portion
+  publisher: Chef Simon
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for provisional original summaries. Product examples do not establish universal
+    materials, dimensions or operating limits.
+- id: ep2-spices
+  title: "Cinnamon Kitchen: The Cookbook — Tempering (p. 27)"
+  url: https://api.pageplace.de/preview/DT0400.9781472934932_A29775035/preview-9781472934932_A29775035.pdf
+  publisher: Vivek Singh / Absolute Press
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Publisher preview text, printed page 27. Original summary of spice tempering and its
+    beginning/finishing uses; no copied recipe or universal timing.
+- id: ep2-butter
+  title: Beurrer
+  url: https://chefsimon.com/articles/lexique-beurrer
+  publisher: Chef Simon
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for provisional original summaries. Product examples do not establish universal
+    materials, dimensions or operating limits.
+- id: ep2-flour
+  title: Chemiser un moule
+  url: https://chefsimon.com/gourmets/chef-simon/recettes/chemiser-un-moule
+  publisher: Chef Simon
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Text consulted for provisional original summaries. Product examples do not establish universal
+    materials, dimensions or operating limits.
