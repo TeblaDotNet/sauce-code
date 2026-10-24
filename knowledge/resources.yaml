@@ -5624,3 +5624,526 @@
   review_scope: text
   notes: Public source text consulted for provisional original culinary explanations. Product examples do
     not establish universal formulations, substitutions or operating limits.
+
+- id: ig4-cured
+  title: Fresh Pork From Farm to Table
+  url: https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/meat-catfish/fresh-pork-farm-table
+  publisher: USDA FSIS
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Publicly indexed source text consulted; direct page access was restricted. Used only for the
+    distinction between fresh and cured pork, not curing instructions or safety limits.
+- id: ig4-wine
+  title: A guide to wine types and styles
+  url: https://www.wsetglobal.com/knowledge-centre/blog/2023/october/03/how-many-wine-types-and-styles-are-there
+  publisher: WSET
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig4-beer
+  title: Beer Ingredients
+  url: https://www.brewersassociation.org/online-courses/beer-ingredients/
+  publisher: Brewers Association
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig4-fruit
+  title: "Fruit: harvesting"
+  url: https://www.rhs.org.uk/fruit/fruit-trees/harvesting
+  publisher: Royal Horticultural Society
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig4-octopus
+  title: Octopus recipes
+  url: https://www.greatbritishchefs.com/collections/octopus-recipes
+  publisher: Great British Chefs
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig4-oyster
+  title: Premium Oyster Sauce
+  url: https://usa.lkk.com/en/products/premium-oyster-sauce
+  publisher: Lee Kum Kee
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig4-rook
+  title: Gelderse Rookworst 285g
+  url: https://www.unox.nl/p/gelderse-rookworst-285g.html/08720182718495
+  publisher: Unox
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig4-seafood
+  title: Shellfish in Multiple Retail 2025
+  url: https://www.seafish.org/media/kbdnbdvt/shellfish-in-multiple-retail-2025.pdf
+  publisher: Seafish
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig4-sourdough
+  title: Sourdough Baking
+  url: https://www.kingarthurbaking.com/learn/guides/sourdough
+  publisher: King Arthur Baking
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig4-rub
+  title: Grill Mates Barbecue Rub
+  url: https://www.mccormick.com/products/mccormick-r-grill-mates-r-barbecue-rub-6-oz
+  publisher: McCormick
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig4-crab
+  title: Crab Meat
+  url: https://www.phillipsfoods.com/products/crab-meat/
+  publisher: Phillips Foods
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig4-currants
+  title: California Zante Currants
+  url: https://m.sunmaid.com/products/zante-currants/
+  publisher: Sun-Maid
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig4-gooseberry
+  title: How to Grow Gooseberries
+  url: https://www.rhs.org.uk/fruit/gooseberries/grow-your-own
+  publisher: Royal Horticultural Society
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig4-ice
+  title: Quality Serves
+  url: https://www.diageobaracademy.com/en-us/home/bartender-skills-and-techniques/quality-serves
+  publisher: Diageo Bar Academy
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig4-peppers
+  title: Culinary Peppercorn Melange
+  url: https://www.mccormick.com/collections/all-mccormick-for-chefs-foodservice-products/products/mccormick-culinary-peppercorn-melange-15-oz
+  publisher: McCormick
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig4-saltpork
+  title: Bacon and Food Safety — salt pork distinction
+  url: https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/meat-catfish/bacon-and-food-safety
+  publisher: USDA FSIS
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public indexed text consulted for the salt-pork distinction only; no preservation procedure or
+    safety schedule reproduced.
+- id: ig4-totopos
+  title: Totopos de Maiz
+  url: https://www.twotopos.com/
+  publisher: Twotopos
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig4-venison
+  title: Wholesale and Food Service — venison cuts
+  url: https://www.highlandgame.com/wholesale-and-food-service
+  publisher: Highland Game
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig4-icecream
+  title: ICE21E instruction booklet — Simple Vanilla Ice Cream
+  url: https://www.cuisinart.es/on/demandware.static/-/Sites-es-cuisinart-Library/default/dw8ec7ef59/information-booklets/ICE21E_Manual.pdf
+  publisher: Cuisinart
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig4-flax
+  title: Brown Flaxseeds
+  url: https://www.bobsredmill.com/product/brown-flaxseeds?bvstate=pg%3A2%2Fct%3Ar
+  publisher: Bob’s Red Mill
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig4-massaman
+  title: Curry paste ingredients — frequently asked questions
+  url: https://us.maejum.com/pages/faqs
+  publisher: Mae Jum
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig4-msg
+  title: What is AJI-NO-MOTO and How is it Made?
+  url: https://www.ajinomoto.com/msg/what-is-aji-no-moto-and-how-is-it-made
+  publisher: Ajinomoto
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig4-orange
+  title: Orange Juice — Original from concentrate
+  url: https://www.coca-cola.com/us/en/brands/minute-maid/products/orange-juice
+  publisher: Minute Maid / Coca-Cola
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig4-tomato
+  title: Whole Peeled Plum Tomatoes
+  url: https://m.hunts.com/whole-tomatoes/whole-peeled-plum-tomatoes
+  publisher: Hunt’s
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig4-chilli
+  title: Chilli Powder
+  url: https://www.trsfood.com/product/trs-chilli-powder/
+  publisher: TRS
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig4-redcurry
+  title: Thai Kitchen Red Curry Paste
+  url: https://www.mccormick.com/products/thai-kitchen-red-curry-paste-35-oz
+  publisher: Thai Kitchen / McCormick
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig4-savoiardi
+  title: Ladyfingers Technical Data Sheet
+  url: https://d2x8t3l62uwvtb.cloudfront.net/6246/V_10_01-Savoiardi-Forno-Bonomi-B2C.pdf
+  publisher: Bonomi
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Manufacturer technical sheet hosted by a distributor; historical product example, not a current
+    universal formulation.
+- id: ig4-sazon
+  title: Sazon with Coriander and Annatto
+  url: https://www.goya.com/en/products/sazon-with-coriander-and-annatto/?nl=cooking&te=1
+  publisher: Goya
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig4-scamorza
+  title: Scamorza
+  url: https://www.auricchio.it/en/brands-and-products/giovanni-colombo-en/scamorza
+  publisher: Auricchio
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig4-seaweed
+  title: Ingredients glossary — edible seaweeds
+  url: https://www.kikkoman.com/en/cookbook/glossary/ingredients/
+  publisher: Kikkoman
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig4-snail
+  title: Snails with garlic butter and Gorgonzola
+  url: https://www.greatbritishchefs.com/recipes/snails-garlic-butter-recipe
+  publisher: Dominic Chapman / Great British Chefs
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig4-vermicelli
+  title: Vermicelli no. 170
+  url: https://shop.dececco.com/it-it/prodotto/pasta-di-semola-di-grano-duro-vermicelli-n-170-de-cecco
+  publisher: De Cecco
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig4-canadian
+  title: Pizza Style Canadian Bacon
+  url: https://www.hormel.com/brands/hormel-pepperoni/product/canadian-bacon/
+  publisher: Hormel
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig4-cashew
+  title: Pure Cashew Paste
+  url: https://www.barry-callebaut.com/en-GB/manufacturers/products/cashew-paste-cashewbutter/NPO-CA2-T71
+  publisher: La Morella Nuts / Barry Callebaut
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig4-clam
+  title: Clam juice and processing — About Us
+  url: https://barharborfoods.com/about-us/
+  publisher: Bar Harbor Foods
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig4-clams
+  title: Products — clams and packing brine
+  url: https://barharborfoods.com/products/
+  publisher: Bar Harbor Foods
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig4-icing
+  title: Quick and Easy Icing
+  url: https://www.kingarthurbaking.com/recipes/quick-and-easy-icing-recipe
+  publisher: King Arthur Baking
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig4-muffins
+  title: English Muffins
+  url: https://www.kingarthurbaking.com/recipes/english-muffins-recipe
+  publisher: King Arthur Baking
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig4-preserves
+  title: Types of Jellied Products
+  url: https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/types-of-jellied-products/
+  publisher: National Center for Home Food Preservation
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig4-mustard
+  title: Mustard — Home Vegetable Gardening
+  url: https://extension.illinois.edu/gardening/mustard
+  publisher: Illinois Extension
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig4-parmigiano
+  title: Sensory analysis
+  url: https://www.parmigianoreggiano.com/product-guide-sensory-analysis
+  publisher: Consorzio del Formaggio Parmigiano Reggiano
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig4-pickle
+  title: Pickle Juicers
+  url: https://www.mtolivepickles.com/our-pickle-products/pickle-juicers/
+  publisher: Mt. Olive Pickles
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig4-quark
+  title: Quark
+  url: https://www.arlafoods.co.uk/brands/arla/quark/
+  publisher: Arla
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig4-ramen
+  title: "Our process: the building blocks of ramen"
+  url: https://sunnoodle.com/our-process/
+  publisher: Sun Noodle
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig4-serrano
+  title: Serrano Pepper
+  url: https://bonnieplants.com/products/serrano-pepper?bvstate=pg%3A2%2Fct%3Ar
+  publisher: Bonnie Plants
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig4-shaoxing
+  title: Corporate Link 89 — Shaoxing Huadiao Wine
+  url: https://www.leekumkeegroup.com/wp-content/uploads/2021/12/lkk_corplink-89.pdf
+  publisher: Lee Kum Kee
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig4-pancetta
+  title: Pancetta Affumicata
+  url: https://shop.fumagallisalumi.it/catalogo/prodotti/le-pancette/pancette-tese/pancetta-affumicata-trancio-sottovuoto
+  publisher: Fumagalli
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig4-teriyaki
+  title: Teriyaki Marinade and Sauce
+  url: https://kikkomanusa.com/foodservice/products/teriyaki-marinade-sauce/
+  publisher: Kikkoman
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig4-toast
+  title: Broad bean and feta cheese toasts
+  url: https://www.bbcgoodfoodme.com/recipes/broad-bean-and-feta-cheese-toasts/
+  publisher: Good Food
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig4-vanilla
+  title: Frequently Asked Questions — vanilla products
+  url: https://nielsenmassey.com/faq/
+  publisher: Nielsen-Massey
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig4-chicken
+  title: Roasted Chicken Base
+  url: https://www.betterthanbouillon.com/products/roasted-chicken-base/
+  publisher: Better Than Bouillon
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig4-chipotle
+  title: Chipotle Paste — supplier product information
+  url: https://pettywood.direct/brands/santa-maria/chipotle-paste/
+  publisher: Petty Wood / Santa Maria
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig4-crumpet
+  title: Crumpets
+  url: https://www.kingarthurbaking.com/recipes/crumpets-recipe
+  publisher: King Arthur Baking
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig4-fajita
+  title: Fajita Seasoning Mix
+  url: https://www.mccormick.com/collections/mccormick/products/mccormick-r-fajita-seasoning-mix-1-oz
+  publisher: McCormick
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig4-laksa
+  title: Malaysian Laksa Curry Paste
+  url: https://ayam.com/products/meal-pastes/product/malaysian-laksa-paste-185g
+  publisher: AYAM
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig4-vinegar
+  title: Rice Vinegar
+  url: https://kikkomanusa.com/foodservice/products/rice-vinegar/
+  publisher: Kikkoman
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig4-sourcream
+  title: Sour Cream
+  url: https://www.daisybrand.com/Sour-Cream/
+  publisher: Daisy Brand
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.
+- id: ig4-wrap
+  title: Frequently Asked Questions — tortillas and wraps
+  url: https://www.missionfoods.com/faq
+  publisher: Mission Foods
+  type: reference
+  checked_at: 2026-10-24
+  review_scope: text
+  notes: Public source text consulted for provisional original culinary explanations. Product examples do
+    not establish universal formulations, substitutions or operating limits.

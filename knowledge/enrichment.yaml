@@ -25124,3 +25124,1715 @@
       role: introduction
       order: 1
       review_version: 0.1
+
+- target:
+    kind: ingredient
+    id: white-wine
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A wine category that includes dry, medium and sweet styles, with aromas and body varying between
+        wines. White wine is therefore more specific than wine, but not a single flavour profile.
+      sources: &a1
+        - ig4-wine
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: "When a dish requests dry white wine, keep that qualification: sweetness is not determined by
+        colour alone. Use the specified style rather than selecting solely by grape name. The ingredient
+        name does not establish how much alcohol remains after a particular cooking method."
+      sources: *a1
+      review_version: 0.1
+  resources:
+    - resource: ig4-wine
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: beer
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A fermented drink whose core brewing ingredients include water, malt, hops and yeast. Ingredient
+        choices help create different beer styles and their flavour profiles.
+      sources: &a2
+        - ig4-beer
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Keep style instructions such as stout or porter when a recipe supplies them. A different beer can
+        alter the flavour balance, so the generic name does not imply that all beers taste alike. It also
+        provides no guarantee that cooking removes all alcohol.
+      sources: *a2
+      review_version: 0.1
+  resources:
+    - resource: ig4-beer
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: berries
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A culinary grouping that includes soft fruits such as strawberries, raspberries, blackberries and
+        blueberries. It is useful in a recipe without specifying a single fruit or botanical category.
+      sources: &a3
+        - ig4-fruit
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Choose the named fruit where one is supplied and handle delicate ripe fruit gently. Ripeness
+        changes flavour and softness. Fresh berries used as a topping should not automatically be treated
+        as equivalent to cooked fruit or a sweetened fruit preparation.
+      sources: *a3
+      review_version: 0.1
+  resources:
+    - resource: ig4-fruit
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: octopus
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A seafood ingredient with arms that may be served whole or sliced. Its naturally firm flesh can
+        become tender through suitable preparation, and cooked octopus is used in dishes such as salads.
+      sources: &a4
+        - ig4-octopus
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Check whether the recipe starts with raw or already cooked octopus. Whole arms and thin slices
+        present different textures and portions. Follow the preparation written for that starting state
+        instead of assigning every octopus one cooking time.
+      sources: *a4
+      review_version: 0.1
+  resources:
+    - resource: ig4-octopus
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: oyster-sauce
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A savoury, subtly sweet prepared sauce made with oyster extract. The cited product also contains
+        sugar, salt and thickening ingredients, illustrating the sauce’s combined seasoning and texture
+        roles.
+      sources: &a5
+        - ig4-oyster
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Use it as a condiment or cooking ingredient according to the recipe. It is not the liquid from a
+        freshly opened oyster, nor an equal replacement for fish sauce. Formulations differ, so check the
+        actual label rather than assuming one universal composition.
+      sources: *a5
+      review_version: 0.1
+  resources:
+    - resource: ig4-oyster
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: rookworst
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A Dutch-style smoked or smoke-flavoured sausage associated with dishes such as pea soup and
+        stamppot. The cited Gelderse product is primarily pork with seasoning and smoke flavouring.
+      sources: &a6
+        - ig4-rook
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Retain instructions to slice or chop, and follow the particular product’s preparation directions.
+        The name does not guarantee one meat mixture or smoking method. A packaged example’s heating
+        instructions should not be transferred automatically to every sausage sold as rookworst.
+      sources: *a6
+      review_version: 0.1
+  resources:
+    - resource: ig4-rook
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: seafood
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A broad culinary category covering fish and shellfish. Shellfish themselves include crustaceans
+        such as crab and prawns, bivalves such as clams, and cephalopods such as squid and octopus.
+      sources: &a7
+        - ig4-seafood
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Identify the actual ingredient before following a preparation. A fish fillet, shelled prawn and
+        whole clam have different physical structures and edible portions. The umbrella name does not
+        establish a uniform cooking method or make every seafood suitable for an uncooked dish.
+      sources: *a7
+      review_version: 0.1
+  resources:
+    - resource: ig4-seafood
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: sourdough
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Sourdough can name both a bread and the starter used to raise it. A starter is a culture of yeasts
+        and bacteria in a flour-and-liquid mixture, contributing leavening and flavour.
+      sources: &a8
+        - ig4-sourdough
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: When sourdough is measured into a bread dough, check that the recipe means starter rather than
+        finished bread. Starters vary in flour, consistency and activity; equal volumes need not behave
+        identically. Preserve ripe, fed or discard instructions instead of assuming one standard starter.
+      sources: *a8
+      review_version: 0.1
+  resources:
+    - resource: ig4-sourdough
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: barbecue-rub
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A seasoning mixture applied to food, often before grilling or roasting. The cited dry rub combines
+        spices with sugar and salt, contributing several flavours in one blend.
+      sources: &a9
+        - ig4-rub
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Check the mix before adding separate seasoning. A dry rub does not bring the same moisture or
+        coating texture as a barbecue sauce. Different blends can vary in sweetness, heat and smoke
+        flavour; the name does not require one formula.
+      sources: *a9
+      review_version: 0.1
+  resources:
+    - resource: ig4-rub
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: crab-meat
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: The edible flesh removed from a crab, sold in forms such as large lumps, smaller pieces and claw
+        meat. These forms suit different textures and presentations.
+      sources: &a10
+        - ig4-crab
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Choose the grade and starting state requested by the recipe. Large intact pieces can be lost
+        through vigorous mixing, while smaller pieces distribute through a filling. The name does not
+        specify a crab species or mean every product has the same preparation and handling requirements.
+      sources: *a10
+      review_version: 0.1
+  resources:
+    - resource: ig4-crab
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: currants
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: In many baking recipes, currants are small dried grapes, also called Zante currants. The cited
+        product is made from Black Corinth grapes and is used in breads and other baked goods.
+      sources: &a11
+        - ig4-currants
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: "Fresh red or black currants are a different fruit use. Check the recipe context before choosing:
+        dried pieces in a pudding do not contribute the same liquid or texture as fresh berries. Keep
+        washing, soaking or drying instructions as preparation steps."
+      sources: *a11
+      review_version: 0.1
+  resources:
+    - resource: ig4-currants
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: gooseberries
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A soft fruit available in green, yellow and red varieties. Dessert types can be eaten ripe, while
+        culinary types are commonly used in pies, fools, jams and sauces.
+      sources: &a12
+        - ig4-gooseberry
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Underripe fruit and fully ripe fruit differ in tartness and softness. Follow instructions such as
+        stewed with its juice instead of substituting the same volume of raw berries. Colour alone does
+        not specify sweetness or whether the fruit has already been cooked.
+      sources: *a12
+      review_version: 0.1
+  resources:
+    - resource: ig4-gooseberry
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: ice
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Frozen water used to chill drinks and other preparations. Cubed and crushed ice provide different
+        serving experiences, and melting ice contributes water as well as cooling.
+      sources: &a13
+        - ig4-ice
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Retain the requested form, including cracked or crushed. Ice used while mixing may be strained
+        away, whereas serving ice remains in the glass. The instruction determines that role; an amount
+        of ice does not imply a fixed dilution in every drink.
+      sources: *a13
+      review_version: 0.1
+  resources:
+    - resource: ig4-ice
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: peppers
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: This broad label needs its recipe qualifiers. In the existing pepper-sauce use it describes ground
+        rose, green and black pepper; commercial peppercorn mixtures similarly combine several
+        differently coloured seasonings.
+      sources: &a14
+        - ig4-peppers
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Read the named components before choosing an ingredient. A peppercorn blend is not a bowl of
+        chopped sweet peppers. Mixtures vary, and pink peppercorns need not be the same botanical
+        material as black pepper. This context leaves the existing broad identity unchanged.
+      sources: *a14
+      review_version: 0.1
+  resources:
+    - resource: ig4-peppers
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: salt-pork
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A heavily salted pork ingredient, commonly from the belly or side. It is used differently from
+        fresh pork and is traditionally distinguished from smoked bacon.
+      sources: &a15
+        - ig4-saltpork
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Its salt contribution matters when seasoning the rest of a dish. Recipes may request soaking or
+        blanching to reduce saltiness; follow the particular preparation rather than assuming the
+        ingredient is ready to use in every context. This description supplies no home-curing or storage
+        procedure.
+      sources: *a15
+      review_version: 0.1
+  resources:
+    - resource: ig4-saltpork
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: totopos
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Crisp corn pieces eaten as a snack or with accompaniments. The cited Mexican producer makes totopos
+        from nixtamalised corn in several seasoned forms.
+      sources: &a16
+        - ig4-totopos
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Use the type requested for serving or dipping. Their crisp texture is different from a soft
+        tortilla used to wrap a filling. Seasoned varieties can change the salt and flavour balance, so
+        the name does not establish one shape, thickness or seasoning formula.
+      sources: *a16
+      review_version: 0.1
+  resources:
+    - resource: ig4-totopos
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: venison
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Meat commonly supplied from deer, with cuts ranging from loin and haunch to neck and shoulder.
+        These cuts offer different structures and culinary uses.
+      sources: &a17
+        - ig4-venison
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: The cited supplier distinguishes haunch steaks from diced neck and shoulder intended for moist
+        cooking. Keep the recipe’s cut specification rather than treating all venison as a tender steak.
+        Farmed or wild origin and portion size are separate details, not established by the general name.
+      sources: *a17
+      review_version: 0.1
+  resources:
+    - resource: ig4-venison
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: fish-broth
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A fish-flavoured cooking liquid used in soups and other dishes. A strained preparation from fish
+        material and aromatics is one way to provide that flavour.
+      sources: &a18
+        - ig3-fishstock
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Broth and stock overlap in culinary naming, so check the recipe and product rather than assuming a
+        strict boundary. Prepared liquid differs from bones or concentrated seasoning. Its salt level and
+        concentration determine how it affects the dish, especially if the liquid is reduced.
+      sources: *a18
+      review_version: 0.1
+  resources:
+    - resource: ig3-fishstock
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: fresh-fruit
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Fruit used in its fresh state rather than as a dried or cooked preparation. The category includes
+        fruits with quite different textures, skins, stones and edible portions.
+      sources: &a19
+        - ig4-fruit
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Choose the fruit named by the recipe where available and prepare the edible part for its intended
+        use. Ripeness changes sweetness and softness. A whole-fruit purchase weight is not necessarily
+        the prepared amount, and fresh fruit does not automatically replace jam or dried fruit.
+      sources: *a19
+      review_version: 0.1
+  resources:
+    - resource: ig4-fruit
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: ice-cream
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A sweetened frozen preparation whose texture depends on both its mixture and freezing process. The
+        cited dairy recipe combines milk, cream and sugar, then churns it to a creamy consistency.
+      sources: &a20
+        - ig4-icecream
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Some recipes use eggs and others do not. Follow the requested flavour and product rather than
+        assuming one formula. Softly churned ice cream and a firmer frozen portion handle differently;
+        melting it also changes how it behaves as a topping or mixture ingredient.
+      sources: *a20
+      review_version: 0.1
+  resources:
+    - resource: ig4-icecream
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: linseed
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: The seeds of flax, used in foods such as breads, cereals and grain dishes. Whole seeds provide
+        small distinct pieces and can also be ground into flaxseed meal.
+      sources: &a21
+        - ig4-flax
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Retain the recipe’s whole or ground instruction. Grinding changes how the seed distributes through
+        a dough or mixture, so the forms are not simply identical spoonfuls. Use a culinary product; this
+        ingredient context does not describe industrial linseed preparations.
+      sources: *a21
+      review_version: 0.1
+  resources:
+    - resource: ig4-flax
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: massaman-curry-paste
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A concentrated seasoning paste for Massaman-style curry. The cited preparation combines chilli,
+        alliums and lemongrass with spices such as cinnamon, cardamom and nutmeg.
+      sources: &a22
+        - ig4-massaman
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: It supplies a flavour base rather than a complete curry sauce. Follow the recipe for additional
+        liquid and ingredients. Manufacturers and cooks use different formulations, so the name alone
+        does not guarantee heat level, salt content or the presence or absence of shellfish.
+      sources: *a22
+      review_version: 0.1
+  resources:
+    - resource: ig4-massaman
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: msg
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Monosodium glutamate, used to supply umami, the savoury taste. It is added as a seasoning in foods
+        such as soups, sauces and broths.
+      sources: &a23
+        - ig4-msg
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: MSG is not a complete stock powder or an aromatic herb-and-spice mixture. Its role is flavour
+        enhancement rather than providing the bulk of a cooking liquid. Follow the recipe’s quantity;
+        this description makes no nutritional claim or universal replacement recommendation for table
+        salt.
+      sources: *a23
+      review_version: 0.1
+  resources:
+    - resource: ig4-msg
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: orange-juice-concentrate
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Orange juice in concentrated form, used to make juice or to add orange flavour with less
+        accompanying water. Prepared juice from concentrate includes water added back to the concentrated
+        ingredient.
+      sources: &a24
+        - ig4-orange
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Follow instructions such as thawed and undiluted literally. A recipe using concentrate is not
+        necessarily asking for a glass of reconstituted juice. Products can have different strengths, so
+        use the specified product directions when dilution is actually requested.
+      sources: *a24
+      review_version: 0.1
+  resources:
+    - resource: ig4-orange
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: plum-tomato
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A tomato type used in sauces and other cooked preparations. It is also sold whole and peeled in
+        cans; the cited product packs firm tomatoes in their juice.
+      sources: &a25
+        - ig4-tomato
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Retain fresh, peeled or canned qualifiers. Tomatoes packed with juice contribute a different
+        measured mixture from drained pieces or a fresh chopped tomato. The name does not itself
+        prescribe draining, removing seeds or replacing the tomato with concentrated paste.
+      sources: *a25
+      review_version: 0.1
+  resources:
+    - resource: ig4-tomato
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: red-chilli-powder
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A dry chilli seasoning used to add heat and colour to food. In the cited product, chilli powder is
+        used directly as a seasoning rather than as a prepared curry sauce.
+      sources: &a26
+        - ig4-chilli
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Check that the product matches the recipe’s intended ground chilli form. Products called chilli
+        powder can differ in strength and composition; a blended seasoning is not automatically
+        equivalent. The red colour does not provide a reliable measure of heat or a universal
+        spoon-for-spoon substitution.
+      sources: *a26
+      review_version: 0.1
+  resources:
+    - resource: ig4-chilli
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: red-curry-paste
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A concentrated curry seasoning paste. The cited Thai-style product combines red chilli with
+        aromatic ingredients including garlic, lemongrass and galangal.
+      sources: &a27
+        - ig4-redcurry
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: A recipe may combine the paste with coconut milk or broth to form a sauce or soup. The paste itself
+        is not that finished liquid. Keep the requested style and product in view, since colour alone
+        does not specify strength or an identical ingredient list.
+      sources: *a27
+      review_version: 0.1
+  resources:
+    - resource: ig4-redcurry
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: salad-oil
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: An oil chosen for a salad or dressing rather than a specific botanical ingredient. The existing
+        recipe offers olive, canola or sunflower oil as alternatives.
+      sources: &a28
+        - ig3-vegoil
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Use the recipe’s preferred flavour and the actual oil’s intended use. A mild vegetable oil and a
+        more aromatic oil can give different results even though both can be used in dressings. The label
+        does not mean a ready-made dressing containing vinegar, salt and other ingredients.
+      sources: *a28
+      review_version: 0.1
+  resources:
+    - resource: ig3-vegoil
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: savoiardi-biscuits
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Elongated, light biscuits also known as ladyfingers. The cited manufacturer’s example is an
+        egg-containing baked biscuit with a porous interior and a sugared surface.
+      sources: &a29
+        - ig4-savoiardi
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: "Follow the dessert’s instructions for dipping or layering: the biscuit structure is part of the
+        result, not just its sweetness. Product size and composition vary, so a biscuit count is not a
+        universal weight. Do not automatically substitute a dense cookie or a whole sponge cake."
+      sources: *a29
+      review_version: 0.1
+  resources:
+    - resource: ig4-savoiardi
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: sazon
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A prepared seasoning blend used to flavour dishes. The cited coriander-and-annatto version includes
+        aromatic seasonings and ingredients that give colour.
+      sources: &a30
+        - ig4-sazon
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Check the particular variant before adding it to a recipe. A packet may also contribute salt and
+        other flavour enhancers, so sazon is not simply ground annatto or coriander. The generic name
+        does not prescribe one formula or make every packet the same measured amount.
+      sources: *a30
+      review_version: 0.1
+  resources:
+    - resource: ig4-sazon
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: scamorza-cheese
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A stretched-curd cheese with a compact, elastic texture. It is available in white and smoked forms,
+        which can contribute different flavour to a dish.
+      sources: &a31
+        - ig4-scamorza
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Keep the smoked or unsmoked qualifier where supplied. Diced pieces, slices and grated cheese
+        distribute differently in a filling or baked preparation. Scamorza’s relationship to other
+        stretched-curd cheeses does not make them identical ingredients or guarantee the same result in
+        every recipe.
+      sources: *a31
+      review_version: 0.1
+  resources:
+    - resource: ig4-scamorza
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: seaweed
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A broad name covering several edible seaweeds with different uses. Examples in Japanese cooking
+        include nori, kombu and wakame; nori may be prepared as sheets for wrapping rice.
+      sources: &a32
+        - ig4-seaweed
+        - kikkoman-nori
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Choose the type and form requested by the recipe. A dry sheet, flakes and rehydrated pieces are not
+        equivalent measured ingredients. This page does not select one species whenever a recipe says
+        seaweed or provide identification guidance for gathering wild material.
+      sources: *a32
+      review_version: 0.1
+  resources:
+    - resource: ig4-seaweed
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: kikkoman-nori
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: snail
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: An ingredient used in dishes such as escargots with garlic butter. The cited chef’s preparation
+        uses snails cooked with a flavourful liquid before finishing them with butter and other toppings.
+      sources: &a33
+        - ig4-snail
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Use the specified culinary product and preparation state. Snail meat, filled shells and a prepared
+        canned product are different starting points. This example explains a dish context; it does not
+        identify edible wild species or provide a collection, purging or preservation procedure.
+      sources: *a33
+      review_version: 0.1
+  resources:
+    - resource: ig4-snail
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: thai-red-curry-paste
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A Thai-style flavour base combining red chilli with aromatic ingredients such as garlic, lemongrass
+        and galangal. It is used in curries, soups and other seasoned preparations.
+      sources: &a34
+        - ig4-redcurry
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: The paste is concentrated relative to a prepared curry sauce. Add the liquids and other ingredients
+        required by the recipe. Different formulations can vary in heat and composition; the Thai red
+        label does not establish one salt level or guarantee the same dietary properties as the cited
+        product.
+      sources: *a34
+      review_version: 0.1
+  resources:
+    - resource: ig4-redcurry
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: vanilla-ice-cream
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Ice cream flavoured with vanilla. The cited recipe uses milk, cream, sugar and vanilla, showing one
+        dairy preparation without an egg custard base.
+      sources: &a35
+        - ig4-icecream
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Vanilla specifies the flavour rather than a universal formula. Choose the form requested for
+        scooping, softening or mixing into a dessert. Visible vanilla seeds are not required by the
+        general name, and a scoop does not establish a fixed volume or weight.
+      sources: *a35
+      review_version: 0.1
+  resources:
+    - resource: ig4-icecream
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: vermicelli
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A name applied to strand-shaped pasta or noodles. The cited Italian vermicelli is durum-wheat pasta
+        and is relatively substantial; rice-noodle products illustrate a different strand ingredient.
+      sources: &a36
+        - ig4-vermicelli
+        - ig3-noodle
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Use the recipe context and packet rather than assuming vermicelli always means extremely thin rice
+        noodles. Grain, thickness and starting state affect preparation. This explanation preserves the
+        broad name without adding aliases or treating all long noodles as interchangeable.
+      sources: *a36
+      review_version: 0.1
+  resources:
+    - resource: ig4-vermicelli
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: ig3-noodle
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: canadian-bacon
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A cured pork product sold in forms such as slices for toppings and breakfast dishes. The cited
+        pizza-style example includes formed pork pieces, illustrating variation in how products are made.
+      sources: &a37
+        - ig4-canadian
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Check the actual cut and form rather than assuming every Canadian bacon product is identical. It
+        gives a different physical result from long strips of belly bacon. Keep the recipe’s slicing and
+        preparation instructions; the name is not a complete cooking instruction.
+      sources: *a37
+      review_version: 0.1
+  resources:
+    - resource: ig4-canadian
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: cashew-paste
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Cashews processed into a paste. The cited confectionery product is pure roasted cashew paste, used
+        for mixing and flavouring rather than as whole nut pieces.
+      sources: &a38
+        - ig4-cashew
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: A recipe-made paste may also contain liquid, so check the preparation rather than assuming every
+        paste has the same consistency. Ground cashews distribute through a sauce differently from
+        chopped nuts. The product example does not prescribe roasting or a fixed amount of water for all
+        cashew pastes.
+      sources: *a38
+      review_version: 0.1
+  resources:
+    - resource: ig4-cashew
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: celery-leaves
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: The leafy part of celery, used separately when a recipe requests it. It contributes leafy texture
+        rather than the crisp, fibrous structure of chopped stalks.
+      sources: &a39
+        - purdue-celery
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: "Retain instructions such as chopped and remove unwanted stalk pieces when the dish calls
+        specifically for leaves. The shared plant does not make celery seed the same measured ingredient:
+        seeds are a more concentrated seasoning. The name also does not refer to the dense celeriac
+        base."
+      sources: *a39
+      review_version: 0.1
+  resources:
+    - resource: purdue-celery
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: clam-juice
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A clam-flavoured liquid used in seafood soups and other preparations. The cited producer makes its
+        bottled juice from clam material and liquor with water, filtering the result.
+      sources: &a40
+        - ig4-clam
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Use the liquid at the strength expected by the recipe. It contributes flavour and moisture rather
+        than the texture of clam meat. Bottled products and liquid retained from cooking or packing clams
+        can differ, so the name does not establish one salt level or concentration.
+      sources: *a40
+      review_version: 0.1
+  resources:
+    - resource: ig4-clam
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: confectioners-sugar-icing
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: An icing made by mixing confectioners’ sugar with liquid, often with flavouring. It can form a
+        pourable or drizzleable finish for cakes, rolls and other baked goods.
+      sources: &a41
+        - ig4-icing
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Its consistency depends on how much liquid is added. A prepared icing is not measured as though it
+        were dry powdered sugar, and it is not necessarily royal icing. Follow the intended finish rather
+        than assuming every version sets to the same hardness.
+      sources: *a41
+      review_version: 0.1
+  resources:
+    - resource: ig4-icing
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: english-muffins
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Small bread portions commonly cooked on a griddle or skillet, with an open interior when split. The
+        cited recipe uses a yeast-raised dough rather than a sweet cake batter.
+      sources: &a42
+        - ig4-muffins
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Split the muffin when the recipe requires halves for toppings or sandwiches. Its name does not mean
+        a cup-shaped sweet muffin. Shape and size vary, and a single muffin does not imply one fixed
+        weight or an identical texture across products.
+      sources: *a42
+      review_version: 0.1
+  resources:
+    - resource: ig4-muffins
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: ice-cubes
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Individual pieces of frozen water used to chill a drink or preparation. Cubes are one ice form
+        alongside crushed or cracked ice.
+      sources: &a43
+        - ig4-ice
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: "Keep the serving instruction separate from the mixing instruction: cubes may remain in a glass or
+        be strained out after chilling. Their size and the time spent in liquid affect the result. A
+        count of cubes is not a universal amount of water or a fixed dilution."
+      sources: *a43
+      review_version: 0.1
+  resources:
+    - resource: ig4-ice
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: jam
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A thick fruit spread commonly made from crushed or chopped fruit with sugar. The fruit remains part
+        of the texture rather than being represented only by strained juice.
+      sources: &a44
+        - ig4-preserves
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Use the variety and consistency requested for filling or spreading. A chunky jam behaves
+        differently from a clear jelly. This description supplies neither a preservation recipe nor a
+        rule that all jams have the same sugar content.
+      sources: *a44
+      review_version: 0.1
+  resources:
+    - resource: ig4-preserves
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: jelly
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: In the fruit-preserve sense, a gel made from fruit juice, usually with sugar. It is smoother and
+        clearer than a spread containing crushed fruit.
+      sources: &a45
+        - ig4-preserves
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: The term has other regional uses, including gelled desserts. Read the recipe context; the existing
+        meat accompaniment names fruit varieties. Jelly is not automatically interchangeable with jam
+        when clarity or texture matters.
+      sources: *a45
+      review_version: 0.1
+  resources:
+    - resource: ig4-preserves
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: lemon-wedge
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A cut portion of lemon that retains flesh and peel, often supplied alongside food. It offers juice
+        for squeezing while remaining a separate piece at service.
+      sources: &a46
+        - usu-lemons
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: "A wedge is not a fixed spoonful of lemon juice: fruit size and the cut determine its yield. Follow
+        whether it is for serving or mixing into the dish. Keep it distinct from a strip of zest, which
+        contributes aroma without the same flesh and juice."
+      sources: *a46
+      review_version: 0.1
+  resources:
+    - resource: usu-lemons
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: marmalade
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A fruit preserve with pieces of fruit or peel suspended in a gel, often made with citrus. The peel
+        contributes texture as well as flavour.
+      sources: &a47
+        - ig4-preserves
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Fine-cut and thicker-cut preparations need not behave identically in a filling or glaze. Preserve
+        the named fruit and texture when supplied. This definition does not establish a canning method,
+        universal bitterness or a fixed sugar concentration.
+      sources: *a47
+      review_version: 0.1
+  resources:
+    - resource: ig4-preserves
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: mustard-greens
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: The leaves of mustard plants used as a vegetable. Younger tender leaves can be used in salads,
+        while larger, stronger-flavoured leaves are commonly cooked.
+      sources: &a48
+        - ig4-mustard
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Prepare the leaf size and texture called for in the dish rather than substituting prepared mustard
+        condiment. Stems and leaves may need different handling. The name describes leafy greens, not a
+        spoonful of mustard seed or powder, and it does not guarantee identical pungency across
+        varieties.
+      sources: *a48
+      review_version: 0.1
+  resources:
+    - resource: ig4-mustard
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: parmigiano-reggiano
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: An aged cheese with a granular, increasingly crumbly texture as it matures. Its flavour and aroma
+        develop with ageing, so younger and longer-aged pieces need not taste identical.
+      sources: &a49
+        - ig4-parmigiano
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: It may be broken into pieces or grated for a dish. Keep the preparation and age specification where
+        the recipe provides one; the same weight in large fragments distributes differently from fine
+        grating. This context does not create new aliases for other hard cheeses.
+      sources: *a49
+      review_version: 0.1
+  resources:
+    - resource: ig4-parmigiano
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: pickle-juice
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: The liquid associated with pickles, also sold separately as a flavouring ingredient. The cited
+        dill-pickle brine is used in dressings, dipping sauces and other preparations.
+      sources: &a50
+        - ig4-pickle
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: "Check the pickle style before adding it: sweet, dill and other seasonings change the flavour
+        contribution. It brings liquid and seasoning together rather than acting as plain vinegar. This
+        culinary use does not establish that used pickle liquid is suitable for preserving another batch
+        of food."
+      sources: *a50
+      review_version: 0.1
+  resources:
+    - resource: ig4-pickle
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: quark
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A fresh, smooth, spoonable cheese with a mild tang. It is used in sweet and savoury preparations,
+        including baking, dips and sauces.
+      sources: &a51
+        - ig4-quark
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: The cited product is one formulation; quark does not universally mean fat-free. Consider the actual
+        consistency when following a recipe. Its thick cheese texture is different from milk, and a
+        substitution with yoghurt or another fresh cheese may change how much liquid the mixture
+        receives.
+      sources: *a51
+      review_version: 0.1
+  resources:
+    - resource: ig4-quark
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: ramen-noodles
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Wheat-based noodles commonly made with water, salt and kansui, an alkaline ingredient. Their
+        texture and shape are deliberately varied for different soups and dishes.
+      sources: &a52
+        - ig4-ramen
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Check whether the recipe expects fresh, frozen or dried noodles and use the product’s preparation
+        guidance. The noodles are not automatically a complete meal with broth and seasoning. Width,
+        waviness and portion size vary; the name supplies no universal cooking time.
+      sources: *a52
+      review_version: 0.1
+  resources:
+    - resource: ig4-ramen
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: serrano-chilies
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A hot chilli type with slender fruits that can mature from green to red. Serranos are used in
+        preparations such as salsa and pico de gallo.
+      sources: &a53
+        - ig4-serrano
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Retain the recipe’s colour and preparation instructions. Whole, sliced and finely chopped chillies
+        distribute their flavour differently. A pepper count does not guarantee a fixed strength, and a
+        green serrano should not be assumed to be a mild sweet pepper.
+      sources: *a53
+      review_version: 0.1
+  resources:
+    - resource: ig4-serrano
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: shaoxing-wine
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A Chinese wine used to add aroma and depth to food. The cited Shaoxing Huadiao product is fermented
+        from glutinous rice with wheat and has an amber colour.
+      sources: &a54
+        - ig4-shaoxing
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Choose the product and amount specified by the recipe rather than treating rice wine and rice
+        vinegar as equivalent. Bottles can differ in formulation and maturation. The name does not
+        establish a fixed cooking substitution or prove that all alcohol disappears during preparation.
+      sources: *a54
+      review_version: 0.1
+  resources:
+    - resource: ig4-shaoxing
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: smoked-pancetta
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A smoked form of pancetta, a pork-belly product prepared with salt and seasoning. It contributes a
+        smoke character in addition to the pork and fat.
+      sources: &a55
+        - ig4-pancetta
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Keep the smoked qualifier when selecting the ingredient; ordinary pancetta need not give the same
+        flavour. Dice or slice as directed so that the pieces suit the dish. Neither curing nor smoking
+        alone supplies a complete cooking instruction for every product.
+      sources: *a55
+      review_version: 0.1
+  resources:
+    - resource: ig4-pancetta
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: teriyaki-sauce
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A prepared sweet-savoury sauce used for marinating, seasoning and finishing food. The cited product
+        combines soy sauce with sweetening and other flavouring ingredients.
+      sources: &a56
+        - ig4-teriyaki
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Check whether the recipe expects a thin marinade or a thicker coating sauce. Products need not have
+        the same sweetness, salt level or viscosity. Teriyaki sauce is not simply plain soy sauce, and
+        adding it also introduces the other components of the particular blend.
+      sources: *a56
+      review_version: 0.1
+  resources:
+    - resource: ig4-teriyaki
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: toast
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Bread browned and crisped with heat, for example under a grill or in a toaster. It can provide a
+        firmer base for toppings than the same bread before toasting.
+      sources: &a57
+        - ig4-toast
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Retain the bread type and slice thickness when specified. Toast describes a preparation, not a
+        separate grain or one standard slice weight. A topping recipe may need warm crisp slices, while
+        crumbs made from toast are a different physical form.
+      sources: *a57
+      review_version: 0.1
+  resources:
+    - resource: ig4-toast
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: vanilla-flavouring
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: An ingredient used to impart vanilla aroma. Vanilla products include extracts, powders and other
+        flavourings, with different carriers and formulations.
+      sources: &a58
+        - ig4-vanilla
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Read the product and recipe together rather than assuming a generic flavouring is a vanilla bean or
+        a spoonful of vanilla sugar. The form determines how it mixes into food. This general entry does
+        not impose one strength, alcohol content or artificial-versus-extracted composition.
+      sources: *a58
+      review_version: 0.1
+  resources:
+    - resource: ig4-vanilla
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: chicken-bouillon
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A chicken-flavoured bouillon product used as a base for cooking liquids and seasoning. The cited
+        example is a spoonable concentrate containing chicken and other ingredients.
+      sources: &a59
+        - ig4-chicken
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Identify whether the recipe means concentrate, a cube or prepared liquid. Follow the actual
+        product’s dilution directions where dilution is requested. A spoonful of base is not the same
+        amount of liquid as a spoonful of broth, and its salt contribution belongs in the dish’s
+        seasoning balance.
+      sources: *a59
+      review_version: 0.1
+  resources:
+    - resource: ig4-chicken
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: chipotle-paste
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A moist seasoning paste based on smoked chillies. The cited product combines chipotle chilli with
+        tomato, onion, garlic and other ingredients to provide a smoky, hot flavour base.
+      sources: &a60
+        - ig4-chipotle
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Use the paste rather than assuming it is pure ground chilli. Its additional liquid and seasoning
+        can affect a sauce or filling. Product formulations vary, so it is not automatically equivalent
+        to a whole dried chipotle or another chilli paste at the same volume.
+      sources: *a60
+      review_version: 0.1
+  resources:
+    - resource: ig4-chipotle
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: clam-liquid
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Liquid associated with clams, such as cooking liquor or the liquid in a prepared clam product. The
+        cited producer packs its clams with an added brine.
+      sources: &a61
+        - ig4-clams
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Follow whether the recipe asks to reserve, drain or add that liquid. Packing brine is not
+        necessarily the same as a bottled clam juice or an unseasoned stock. Check its flavour and the
+        recipe’s expected amount rather than assuming a universal salt level.
+      sources: *a61
+      review_version: 0.1
+  resources:
+    - resource: ig4-clams
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: crumpet
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A small, moist bread-like griddle product with holes that reach its top surface. Those holes hold
+        butter and other toppings when the crumpet is toasted.
+      sources: &a62
+        - ig4-crumpet
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Crumpets are commonly toasted whole rather than split like an English muffin. The cited recipe
+        illustrates their batter-based texture, but does not fix every product’s formula. Keep the
+        serving instruction and desired texture in view rather than treating a crumpet as a sweet
+        cake-style muffin.
+      sources: *a62
+      review_version: 0.1
+  resources:
+    - resource: ig4-crumpet
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: fajita-seasoning-mix
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A prepared mix used to season fajita fillings and related dishes. The cited product combines
+        aromatic seasonings such as cumin, oregano and garlic with other ingredients.
+      sources: &a63
+        - ig4-fajita
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Read the packet before adding more salt or choosing the amount. Some mixes also include starches or
+        acidic ingredients, so this is not a single spice. Follow the recipe or product’s intended
+        application rather than assuming every fajita mix has the same strength or thickening effect.
+      sources: *a63
+      review_version: 0.1
+  resources:
+    - resource: ig4-fajita
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: laksa-paste
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A seasoning paste used to build laksa-style dishes. The cited curry-laksa product combines
+        ingredients such as galangal, lemongrass, chilli and turmeric for a coconut-based noodle soup.
+      sources: &a64
+        - ig4-laksa
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: "The paste is not the complete soup: liquid, noodles and other ingredients are added according to
+        the recipe. Laksa preparations vary, so this example does not define every regional style or
+        guarantee one level of heat. Check the actual formula where ingredients matter."
+      sources: *a64
+      review_version: 0.1
+  resources:
+    - resource: ig4-laksa
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: rice-vinegar
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A vinegar made from rice, used for acidity in dressings, sauces and other preparations. The cited
+        product has a mild flavour alongside its tartness.
+      sources: &a65
+        - ig4-vinegar
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Check whether the recipe asks for plain or seasoned rice vinegar, since added seasonings affect the
+        result. It is not the same ingredient as a rice wine. This culinary description does not give an
+        acidity standard for preservation or a universal substitute for another vinegar.
+      sources: *a65
+      review_version: 0.1
+  resources:
+    - resource: ig4-vinegar
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: soured-cream
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A thick, tangy cream product made by culturing cream. It is used as a topping and as an ingredient
+        in sauces, dressings and baked dishes.
+      sources: &a66
+        - ig4-sourcream
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: The culinary name refers to a prepared product, not permission to use cream that has spoiled. The
+        cited producer makes one formulation; products can differ in fat level and added ingredients.
+        Match the recipe’s intended texture rather than assuming it behaves exactly like pouring cream.
+      sources: *a66
+      review_version: 0.1
+  resources:
+    - resource: ig4-sourcream
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: tortilla-wrap
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A tortilla-style flatbread used to enclose a filling. Wrap products are often larger than small
+        tortillas and may be made in different flavours and formulations.
+      sources: &a67
+        - ig4-wrap
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Choose a size and texture suited to the recipe rather than treating one wrap as a fixed weight.
+        Flour-based and alternative-grain products can handle differently. A soft wrap is also a
+        different starting form from a crisp tortilla chip or tostada.
+      sources: *a67
+      review_version: 0.1
+  resources:
+    - resource: ig4-wrap
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: vermicelli-noodles
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Strand-shaped noodles whose ingredients depend on the product and culinary tradition. Rice versions
+        and wheat-pasta vermicelli illustrate why the name alone is insufficient to identify the grain.
+      sources: &a68
+        - ig3-noodle
+        - ig4-vermicelli
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Read the recipe and packet for material, thickness and preparation state. Do not assume every
+        vermicelli is the same fine rice noodle or cooks in the same time. The existing identity is
+        retained; this explanation does not merge noodle entries or create replacement rules.
+      sources: *a68
+      review_version: 0.1
+  resources:
+    - resource: ig3-noodle
+      role: introduction
+      order: 1
+      review_version: 0.1
+    - resource: ig4-vermicelli
+      role: deeper-explanation
+      order: 2
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: pork-roast
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: A piece of pork used for a roast-style preparation. Pork is sold in cuts with different amounts of
+        fat, bone and connective tissue, so a roast is not one uniform anatomical cut.
+      sources: &a69
+        - ig2-pork
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Keep the recipe’s cut description, such as loin or shoulder, alongside the general name. A method
+        intended for one cut should not be transferred solely because another is also a pork roast. The
+        name does not supply a fixed weight or cooking schedule.
+      sources: *a69
+      review_version: 0.1
+  resources:
+    - resource: ig2-pork
+      role: introduction
+      order: 1
+      review_version: 0.1
+- target:
+    kind: ingredient
+    id: cured-pork
+  review_version: 0.1
+  editorial:
+    - id: summary
+      role: summary
+      text: Pork that has undergone curing, represented by products such as ham, bacon and sausages. Curing
+        adds a preparation distinction beyond the original meat or cut.
+      sources: &a70
+        - ig4-cured
+      review_version: 0.1
+    - id: practical-context
+      role: context
+      text: Identify the particular product before using it in a recipe. Different cured meats contribute
+        different textures and seasoning, and curing does not by itself specify whether the product is
+        cooked or smoked. This broad description supplies no home-curing method or preservation
+        assurance.
+      sources: *a70
+      review_version: 0.1
+  resources:
+    - resource: ig4-cured
+      role: introduction
+      order: 1
+      review_version: 0.1
