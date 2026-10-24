@@ -33,7 +33,10 @@
     "docs:check": "node tools/check-docs.ts",
     "source:check": "node tools/check-public-source.ts",
     "prepack": "tsc -p tsconfig.build.json",
-    "package:smoke": "node tools/package-smoke.ts"
+    "package:smoke": "node tools/package-smoke.ts",
+    "standalone:build": "node tools/build-standalone.ts",
+    "standalone:smoke": "node tools/check-standalone.ts",
+    "standalone:library": "node tools/check-standalone-library.ts"
   },
   "dependencies": {
     "yaml": "^2.8.0"

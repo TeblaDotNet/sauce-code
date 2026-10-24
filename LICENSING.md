@@ -56,3 +56,7 @@ The unmodified texts are retained locally; the GPL “or later” option is gran
 ## Reference hero photographs
 
 Optional images in `assets/references/` retain their individual public-domain, CC0, CC BY or CC BY-SA terms. They are not relicensed under the knowledge CC0 grant. See [image credits](assets/references/ATTRIBUTION.md) and the adjacent selection register for creators, source pages, licence links and derivative details.
+
+## Standalone runtime packaging
+
+Standalone builds also embed Bun 1.4.4. Its upstream runtime and linked-library notices, including JavaScriptCore relinking instructions, are retained in [Bun-1.4.4.md](LICENSES/Bun-1.4.4.md) and copied into each distribution. Core's existing terms are unchanged. Generated snapshots embed knowledge metadata, not reference photograph bytes. Keep all supplied licence and notice files with redistributed executables.

@@ -28,3 +28,7 @@ test source recipes/
 site-dist/
 # Local hosting rehearsal and release packages
 hosting-work/
+
+# Standalone executable distributions
+standalone/
+.bun-cache/

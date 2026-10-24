@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-24",
+  "branch": "codex/standalone-cli-v1",
+  "base_revision": "21955eeb8e50fa84f96f36912ed2c0598b6e9641",
+  "compiler": "Bun 1.4.4+38afee6c8",
+  "node": "24.22.1",
+  "architecture": "Shared CLI adapter; unchanged independent Core public APIs; canonical generated snapshot; Bun only in build tooling",
+  "cli_parity": {
+    "cases": 98,
+    "fixtures": 8,
+    "comparison": "Exact stdout, stderr, exit status and output-file bytes; no normalisation",
+    "isolated": true,
+    "scope": "Fresh external directory, empty PATH, no Core installation or development files in that directory; not a fresh VM"
+  },
+  "library_parity": {
+    "status": "passed",
+    "full_canonical_snapshot": "passed",
+    "operations": [
+      "same-unit scaling",
+      "ambiguous cups refuse conversion",
+      "density eligibility",
+      "mass conversion",
+      "temperature conversion",
+      "custom units",
+      "reference rendering",
+      "Unicode recipe rendering"
+    ]
+  },
+  "validation": {
+    "typecheck": "passed",
+    "build": "passed",
+    "core_tests": 1187,
+    "docs": "passed",
+    "quality_audit": "passed; existing findings unchanged",
+    "corpus_parsed": 490,
+    "corpus_failures": 0,
+    "node_package_external_install": "passed; 1085 files; no development dependencies",
+    "source_audit": "passed; 1286 files, 969 knowledge entries, 14 samples",
+    "diff_check": "passed"
+  },
+  "binaries": [
+    {
+      "target": "windows-x64",
+      "file": "opensauce.exe",
+      "bytes": 117067264,
+      "sha256": "bf7c755e175ed82be61ae4035059efa1d993d2d2e6216f30db586a83242e07c4",
+      "compiled": true,
+      "executed": true,
+      "parity_tested": true
+    },
+    {
+      "target": "linux-x64",
+      "file": "opensauce",
+      "bytes": 110917808,
+      "sha256": "9ec5493cf01a89851fbf085294d238beab66fb03921de3c46db45027c8051afb",
+      "compiled": true,
+      "executed": false,
+      "parity_tested": false
+    },
+    {
+      "target": "linux-arm64",
+      "file": "opensauce",
+      "bytes": 111004664,
+      "sha256": "aa8ad712150b922f046e8813393857220f26ad9785d53f3a7075968e4b709a9e",
+      "compiled": true,
+      "executed": false,
+      "parity_tested": false
+    },
+    {
+      "target": "darwin-x64",
+      "file": "opensauce",
+      "bytes": 99954144,
+      "sha256": "279c6b278b3c8a6ef074739098423c97f934438d427606721266beeca8acee76",
+      "compiled": true,
+      "executed": false,
+      "parity_tested": false
+    },
+    {
+      "target": "darwin-arm64",
+      "file": "opensauce",
+      "bytes": 90959714,
+      "sha256": "677a7077d45330d9e2a6266e51800ed94ab7317cfe3894aa33bdb87a579518e1",
+      "compiled": true,
+      "executed": false,
+      "parity_tested": false
+    }
+  ],
+  "repeat_windows_build": "Byte-identical SHA-256 in repeated builds on this host",
+  "limitations": [
+    "Linux/macOS compilation only; no native execution",
+    "Unsigned binaries, no installers or publication",
+    "No new scaling/conversion/reference CLI commands",
+    "Bun runtime makes executables approximately 91–117 MB",
+    "No cross-host bit-for-bit reproducibility guarantee"
+  ],
+  "publication": "Local commits only; no merge, push or deployment"
+}

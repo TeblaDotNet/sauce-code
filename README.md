@@ -162,6 +162,9 @@ For developers integrating Sauce Code into software, the reusable library lives 
 
 ### Optional CLI
 
+A [standalone executable](docs/standalone-cli.md) is now available as a local development build for Windows x64. It needs no Node.js or Bun installation. The existing Node package below remains supported for developers; other executable targets are compiled but not yet runtime-tested.
+
+
 The CLI validates and renders ordinary plain-text `.opensauce` files. It is optional; no editor integration is required. Node 24+ and npm are needed to install a prepared archive, but pnpm, TypeScript, a source checkout, Corpus and Site are not.
 
 The package retains the development name `@open-sauce/core` at version `0.1.0`. It has **not been published to npm**; registry/name availability remains a publication follow-up. Given a locally prepared archive:
