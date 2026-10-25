@@ -1,13 +1,15 @@
-id: raspberry-syrup
-kind: ingredient
-canonical_name: raspberry syrup
-names:
-  en: raspberry syrup
-curation:
-  origin: generated
-  review: unchecked
-categories:
-  - beverages
-evidence:
-  review_note: Cocktail Foundation v2; generated identity, source-specific use,
-    not human reviewed.
+{
+  "id": "raspberry-syrup",
+  "kind": "ingredient",
+  "canonical_name": "raspberry syrup",
+  "names": {
+    "en": "raspberry syrup"
+  },
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "review_note": "Cocktail Foundation v2; generated identity, source-specific use, not human reviewed."
+  }
+}

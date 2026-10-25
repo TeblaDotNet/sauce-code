@@ -1,19 +1,20 @@
-id: clay-casserole
-kind: equipment
-canonical_name: clay casserole
-names:
-  en: clay casserole
-plural_names:
-  en: clay casseroles
-type_of: casserole-dish
-curation:
-  origin: generated
-  review: unchecked
-evidence:
-  definition: A casserole vessel made of clay. Heat-source suitability depends on
-    the particular vessel; clay does not imply stovetop safety.
-  review_note: "Processes & Equipment v1: bounded generated review; see
-    docs/processes-equipment-v1-decisions.json for context and limitations."
-categories:
-  - cookware
-  - bakeware
+{
+  "id": "clay-casserole",
+  "kind": "equipment",
+  "canonical_name": "clay casserole",
+  "names": {
+    "en": "clay casserole"
+  },
+  "plural_names": {
+    "en": "clay casseroles"
+  },
+  "type_of": "casserole-dish",
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "definition": "A casserole vessel made of clay. Heat-source suitability depends on the particular vessel; clay does not imply stovetop safety.",
+    "review_note": "Processes & Equipment v1: bounded generated review; see docs/processes-equipment-v1-decisions.json for context and limitations."
+  }
+}

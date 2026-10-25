@@ -1,16 +1,17 @@
-id: make-starch-slurry
-kind: process
-canonical_name: make starch slurry
-names:
-  en: make starch slurry
-aliases: []
-categories:
-  - general-cooking
-curation:
-  origin: generated
-  review: unchecked
-evidence:
-  definition: Disperse starch in cold liquid before incorporating it into a hot preparation for thickening.
-    Preparing the dispersion is separate from the later cooking stage. The starch type and recipe determine
-    proportions and treatment.
-  review_note: Batch 7 researched draft. Identity boundaries are editorial decisions; no human review claimed.
+{
+  "id": "make-starch-slurry",
+  "kind": "process",
+  "canonical_name": "make starch slurry",
+  "names": {
+    "en": "make starch slurry"
+  },
+  "aliases": [],
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "definition": "Disperse starch in cold liquid before incorporating it into a hot preparation for thickening. Preparing the dispersion is separate from the later cooking stage. The starch type and recipe determine proportions and treatment.",
+    "review_note": "Batch 7 researched draft. Identity boundaries are editorial decisions; no human review claimed."
+  }
+}

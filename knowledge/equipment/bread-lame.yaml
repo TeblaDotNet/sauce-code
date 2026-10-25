@@ -1,16 +1,19 @@
-id: bread-lame
-kind: equipment
-canonical_name: bread lame
-names:
-  en: bread lame
-aliases:
-  - bread slashing lame
-categories:
-  - bakeware
-curation:
-  origin: generated
-  review: unchecked
-evidence:
-  definition: A handled blade for scoring bread dough before baking. It makes controlled surface cuts that guide
-    expansion; a bare replacement razor blade is not the complete tool.
-  review_note: Batch 4 researched draft. Identity boundaries are editorial decisions; no human review claimed.
+{
+  "id": "bread-lame",
+  "kind": "equipment",
+  "canonical_name": "bread lame",
+  "names": {
+    "en": "bread lame"
+  },
+  "aliases": [
+    "bread slashing lame"
+  ],
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "definition": "A handled blade for scoring bread dough before baking. It makes controlled surface cuts that guide expansion; a bare replacement razor blade is not the complete tool.",
+    "review_note": "Batch 4 researched draft. Identity boundaries are editorial decisions; no human review claimed."
+  }
+}

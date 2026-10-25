@@ -1,15 +1,17 @@
-id: bottle-opener
-kind: equipment
-canonical_name: bottle opener
-names:
-  en: bottle opener
-aliases: []
-categories:
-  - coffee-and-bar
-curation:
-  origin: generated
-  review: unchecked
-evidence:
-  definition: A tool for lifting a crown cap from a bottle. Some designs also carry a can-piercing point; that
-    additional feature does not make every opener a can opener or a corkscrew.
-  review_note: Batch 7 researched draft. Identity boundaries are editorial decisions; no human review claimed.
+{
+  "id": "bottle-opener",
+  "kind": "equipment",
+  "canonical_name": "bottle opener",
+  "names": {
+    "en": "bottle opener"
+  },
+  "aliases": [],
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "definition": "A tool for lifting a crown cap from a bottle. Some designs also carry a can-piercing point; that additional feature does not make every opener a can opener or a corkscrew.",
+    "review_note": "Batch 7 researched draft. Identity boundaries are editorial decisions; no human review claimed."
+  }
+}

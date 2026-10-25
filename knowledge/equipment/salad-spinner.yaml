@@ -1,15 +1,17 @@
-id: salad-spinner
-kind: equipment
-canonical_name: salad spinner
-names:
-  en: salad spinner
-aliases: []
-categories:
-  - preparation-tools
-curation:
-  origin: generated
-  review: unchecked
-evidence:
-  definition: A rotating basket within a bowl removes water from washed salad leaves. Its basket may drain like
-    a colander, but the spinning assembly is a distinct tool.
-  review_note: Batch 2 researched draft. Identity boundaries are editorial decisions; no human review claimed.
+{
+  "id": "salad-spinner",
+  "kind": "equipment",
+  "canonical_name": "salad spinner",
+  "names": {
+    "en": "salad spinner"
+  },
+  "aliases": [],
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "definition": "A rotating basket within a bowl removes water from washed salad leaves. Its basket may drain like a colander, but the spinning assembly is a distinct tool.",
+    "review_note": "Batch 2 researched draft. Identity boundaries are editorial decisions; no human review claimed."
+  }
+}

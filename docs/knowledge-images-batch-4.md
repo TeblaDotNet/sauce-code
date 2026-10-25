@@ -2,7 +2,7 @@
 
 100 more existing ingredient pages now have locally hosted, attributed images. Coverage rises from 249 to **349 of 911 enriched pages**, leaving **562** without images. This batch changes image metadata and assets only: no recipe, canonical identity, relationship, resource or knowledge prose changes.
 
-The new files total **11,440,568 bytes (10.9 MiB)**. Each is an optimised progressive JPEG at quality 82, at most 960 pixels on its longest edge, without upscaling and below 350 KB. Full source frames are retained. Embedded metadata is removed; credits remain visible on the page and in the [asset attribution](../assets/references/ATTRIBUTION.md) and [batch ledger](knowledge-images-batch-4.json).
+The new files total **11,440,568 bytes (10.9 MiB)**. Each is an optimised progressive JPEG at quality 82, at most 960 pixels on its longest edge, without upscaling and below 350 KB. Full source frames are retained. Embedded metadata is removed; credits remain visible on the page and in the [asset attribution](knowledge-ownership.md) and [batch ledger](knowledge-images-batch-4.json).
 
 ## Curation
 

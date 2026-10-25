@@ -1,15 +1,17 @@
-id: pastry-brush
-kind: equipment
-canonical_name: pastry brush
-names:
-  en: pastry brush
-aliases: []
-categories:
-  - bakeware
-curation:
-  origin: generated
-  review: unchecked
-evidence:
-  definition: A brush for spreading liquids such as egg wash, syrup or melted butter over food. Bristle material
-    and heat tolerance depend on the actual brush.
-  review_note: Batch 2 researched draft. Identity boundaries are editorial decisions; no human review claimed.
+{
+  "id": "pastry-brush",
+  "kind": "equipment",
+  "canonical_name": "pastry brush",
+  "names": {
+    "en": "pastry brush"
+  },
+  "aliases": [],
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "definition": "A brush for spreading liquids such as egg wash, syrup or melted butter over food. Bristle material and heat tolerance depend on the actual brush.",
+    "review_note": "Batch 2 researched draft. Identity boundaries are editorial decisions; no human review claimed."
+  }
+}

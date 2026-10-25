@@ -1,24 +1,35 @@
-id: stock-pot
-kind: equipment
-canonical_name: stock pot
-names:
-  en: stock pot
-status: canonical-seed
-aliases:
-- name: stockpot
-  type: spelling
-
-evidence:
-  current_recipe_count: 1
-  current_observation_count: 1
-  legacy_observation_count: 0
-  observed_terms:
-  - term: stock pot
-    count: 1
-  seen_in:
-  - examples/public-domain-recipes/aljotta/aljotta.opensauce
-observed_qualifiers:
-- value: tall
-  count: 1
-categories:
-  - cookware
+{
+  "id": "stock-pot",
+  "kind": "equipment",
+  "canonical_name": "stock pot",
+  "names": {
+    "en": "stock pot"
+  },
+  "status": "canonical-seed",
+  "aliases": [
+    {
+      "name": "stockpot",
+      "type": "spelling"
+    }
+  ],
+  "evidence": {
+    "current_recipe_count": 1,
+    "current_observation_count": 1,
+    "legacy_observation_count": 0,
+    "observed_terms": [
+      {
+        "term": "stock pot",
+        "count": 1
+      }
+    ],
+    "seen_in": [
+      "examples/public-domain-recipes/aljotta/aljotta.opensauce"
+    ]
+  },
+  "observed_qualifiers": [
+    {
+      "value": "tall",
+      "count": 1
+    }
+  ]
+}

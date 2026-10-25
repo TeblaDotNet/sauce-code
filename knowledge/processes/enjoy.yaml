@@ -1,15 +1,17 @@
-id: enjoy
-kind: process
-canonical_name: enjoy
-names:
-  en: enjoy
-reference: false
-curation:
-  origin: generated
-  review: unchecked
-evidence:
-  definition: A conventional invitation to enjoy the finished food; not a transformation.
-  review_note: "Processes & Equipment v1: bounded generated review; see
-    docs/processes-equipment-v1-decisions.json for context and limitations."
-categories:
-  - general-cooking
+{
+  "id": "enjoy",
+  "kind": "process",
+  "canonical_name": "enjoy",
+  "names": {
+    "en": "enjoy"
+  },
+  "reference": false,
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "definition": "A conventional invitation to enjoy the finished food; not a transformation.",
+    "review_note": "Processes & Equipment v1: bounded generated review; see docs/processes-equipment-v1-decisions.json for context and limitations."
+  }
+}

@@ -1,15 +1,17 @@
-id: spatchcock
-kind: process
-canonical_name: spatchcock
-names:
-  en: spatchcock
-aliases: []
-categories:
-  - preparation-and-cutting
-curation:
-  origin: generated
-  review: unchecked
-evidence:
-  definition: Prepare a whole bird by removing its backbone and opening it flat. This is a poultry-specific
-    preparation, not complete deboning or every form of butterflying.
-  review_note: Batch 2 researched draft. Identity boundaries are editorial decisions; no human review claimed.
+{
+  "id": "spatchcock",
+  "kind": "process",
+  "canonical_name": "spatchcock",
+  "names": {
+    "en": "spatchcock"
+  },
+  "aliases": [],
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "definition": "Prepare a whole bird by removing its backbone and opening it flat. This is a poultry-specific preparation, not complete deboning or every form of butterflying.",
+    "review_note": "Batch 2 researched draft. Identity boundaries are editorial decisions; no human review claimed."
+  }
+}

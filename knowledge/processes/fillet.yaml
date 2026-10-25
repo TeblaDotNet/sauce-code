@@ -1,12 +1,14 @@
-id: fillet
-kind: process
-canonical_name: fillet
-names:
-  en: fillet
-reference: true
-curation:
-  origin: generated
-  review: unchecked
-scope: "Separate a fillet from a fish or another appropriate cut, according to the food and context. Filleting is not interchangeable with every form of deboning, and does not guarantee that every small bone has been removed."
-categories:
-  - preparation-and-cutting
+{
+  "id": "fillet",
+  "kind": "process",
+  "canonical_name": "fillet",
+  "names": {
+    "en": "fillet"
+  },
+  "reference": true,
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "scope": "Separate a fillet from a fish or another appropriate cut, according to the food and context. Filleting is not interchangeable with every form of deboning, and does not guarantee that every small bone has been removed."
+}

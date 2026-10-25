@@ -1,16 +1,19 @@
-id: cake-turntable
-kind: equipment
-canonical_name: cake turntable
-names:
-  en: cake turntable
-aliases:
-  - revolving cake stand
-categories:
-  - preparation-tools
-curation:
-  origin: generated
-  review: unchecked
-evidence:
-  definition: A rotating platform that supports a cake during decoration. Rotation brings successive surfaces
-    within reach without repeatedly lifting the cake.
-  review_note: Batch 5 researched draft. Identity boundaries are editorial decisions; no human review claimed.
+{
+  "id": "cake-turntable",
+  "kind": "equipment",
+  "canonical_name": "cake turntable",
+  "names": {
+    "en": "cake turntable"
+  },
+  "aliases": [
+    "revolving cake stand"
+  ],
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "definition": "A rotating platform that supports a cake during decoration. Rotation brings successive surfaces within reach without repeatedly lifting the cake.",
+    "review_note": "Batch 5 researched draft. Identity boundaries are editorial decisions; no human review claimed."
+  }
+}

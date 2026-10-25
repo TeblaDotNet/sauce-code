@@ -1,17 +1,25 @@
-id: coupe
-kind: equipment
-canonical_name: coupe
-names:
-  en: coupe
-curation:
-  origin: generated
-  review: unchecked
-categories:
-  - coffee-and-bar
-evidence:
-  review_note: Cocktail Foundation v2; source-informed generated identity and prose, not human reviewed.
-  sources:
-    - title: Guide to glassware
-      url: https://www.thebar.com/en-us/articles/guide-to-glassware
-    - title: Division Bell
-      url: https://punchdrink.com/recipes/division-bell/
+{
+  "id": "coupe",
+  "kind": "equipment",
+  "canonical_name": "coupe",
+  "names": {
+    "en": "coupe"
+  },
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "review_note": "Cocktail Foundation v2; source-informed generated identity and prose, not human reviewed.",
+    "sources": [
+      {
+        "title": "Guide to glassware",
+        "url": "https://www.thebar.com/en-us/articles/guide-to-glassware"
+      },
+      {
+        "title": "Division Bell",
+        "url": "https://punchdrink.com/recipes/division-bell/"
+      }
+    ]
+  }
+}

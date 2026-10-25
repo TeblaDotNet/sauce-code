@@ -1,26 +1,35 @@
-id: baking-dish
-kind: equipment
-canonical_name: baking dish
-names:
-  en: baking dish
-status: canonical-seed
-evidence:
-  current_recipe_count: 0
-  current_observation_count: 0
-  legacy_observation_count: 1
-  observed_terms: []
-  seen_in: []
-  legacy_terms:
-    - term: baking dish
-      count: 1
-observed_qualifiers:
-  - value: shallow
-    count: 1
-categories:
-  - cookware
-  - bakeware
-aliases:
-  - oven dish
-curation:
-  origin: generated
-  review: unchecked
+{
+  "id": "baking-dish",
+  "kind": "equipment",
+  "canonical_name": "baking dish",
+  "names": {
+    "en": "baking dish"
+  },
+  "status": "canonical-seed",
+  "evidence": {
+    "current_recipe_count": 0,
+    "current_observation_count": 0,
+    "legacy_observation_count": 1,
+    "observed_terms": [],
+    "seen_in": [],
+    "legacy_terms": [
+      {
+        "term": "baking dish",
+        "count": 1
+      }
+    ]
+  },
+  "observed_qualifiers": [
+    {
+      "value": "shallow",
+      "count": 1
+    }
+  ],
+  "aliases": [
+    "oven dish"
+  ],
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  }
+}

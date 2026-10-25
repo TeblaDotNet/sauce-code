@@ -1,16 +1,19 @@
-id: pastry-blender
-kind: equipment
-canonical_name: pastry blender
-names:
-  en: pastry blender
-aliases:
-  - dough blender
-categories:
-  - bakeware
-curation:
-  origin: generated
-  review: unchecked
-evidence:
-  definition: A handled set of blades or wires for cutting solid fat into dry ingredients. It is a hand tool,
-    distinct from a powered jug blender.
-  review_note: Batch 2 researched draft. Identity boundaries are editorial decisions; no human review claimed.
+{
+  "id": "pastry-blender",
+  "kind": "equipment",
+  "canonical_name": "pastry blender",
+  "names": {
+    "en": "pastry blender"
+  },
+  "aliases": [
+    "dough blender"
+  ],
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "definition": "A handled set of blades or wires for cutting solid fat into dry ingredients. It is a hand tool, distinct from a powered jug blender.",
+    "review_note": "Batch 2 researched draft. Identity boundaries are editorial decisions; no human review claimed."
+  }
+}

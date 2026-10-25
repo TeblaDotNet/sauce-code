@@ -1,16 +1,17 @@
-id: seed-temper-chocolate
-kind: process
-canonical_name: seed temper chocolate
-names:
-  en: seed temper chocolate
-aliases: []
-categories:
-  - baking-and-pastry
-curation:
-  origin: generated
-  review: unchecked
-evidence:
-  definition: Temper melted chocolate by stirring in previously tempered chocolate that supplies suitable
-    cocoa-butter crystals. The seed’s condition matters; this is not simply adding any cold chocolate. Check
-    the resulting temper rather than relying only on temperature.
-  review_note: Batch 6 researched draft. Identity boundaries are editorial decisions; no human review claimed.
+{
+  "id": "seed-temper-chocolate",
+  "kind": "process",
+  "canonical_name": "seed temper chocolate",
+  "names": {
+    "en": "seed temper chocolate"
+  },
+  "aliases": [],
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "definition": "Temper melted chocolate by stirring in previously tempered chocolate that supplies suitable cocoa-butter crystals. The seed’s condition matters; this is not simply adding any cold chocolate. Check the resulting temper rather than relying only on temperature.",
+    "review_note": "Batch 6 researched draft. Identity boundaries are editorial decisions; no human review claimed."
+  }
+}

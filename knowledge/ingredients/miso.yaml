@@ -1,22 +1,29 @@
-id: miso
-kind: ingredient
-canonical_name: miso
-names:
-  en: miso
-status: canonical-seed
-evidence:
-  current_recipe_count: 1
-  current_observation_count: 1
-  legacy_observation_count: 0
-  observed_terms:
-  - term: miso
-    count: 1
-  seen_in:
-  - examples/public-domain-recipes/miso-soup/miso-soup.opensauce
-aliases:
-- name: miso paste
-  type: review-pass-1-lexical
-categories:
-  - sauces-and-condiments
-  - fermented-foods
-  - pantry-products
+{
+  "id": "miso",
+  "kind": "ingredient",
+  "canonical_name": "miso",
+  "names": {
+    "en": "miso"
+  },
+  "status": "canonical-seed",
+  "evidence": {
+    "current_recipe_count": 1,
+    "current_observation_count": 1,
+    "legacy_observation_count": 0,
+    "observed_terms": [
+      {
+        "term": "miso",
+        "count": 1
+      }
+    ],
+    "seen_in": [
+      "examples/public-domain-recipes/miso-soup/miso-soup.opensauce"
+    ]
+  },
+  "aliases": [
+    {
+      "name": "miso paste",
+      "type": "review-pass-1-lexical"
+    }
+  ]
+}

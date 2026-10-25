@@ -1,13 +1,15 @@
-id: marmalade-cordial
-kind: ingredient
-canonical_name: marmalade cordial
-names:
-  en: marmalade cordial
-curation:
-  origin: generated
-  review: unchecked
-categories:
-  - beverages
-evidence:
-  review_note: Cocktail Foundation v2; generated identity, source-specific use,
-    not human reviewed.
+{
+  "id": "marmalade-cordial",
+  "kind": "ingredient",
+  "canonical_name": "marmalade cordial",
+  "names": {
+    "en": "marmalade cordial"
+  },
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "review_note": "Cocktail Foundation v2; generated identity, source-specific use, not human reviewed."
+  }
+}

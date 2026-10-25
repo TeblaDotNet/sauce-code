@@ -1,19 +1,25 @@
-id: bar-spoon
-kind: equipment
-canonical_name: bar spoon
-names:
-  en: bar spoon
-curation:
-  origin: generated
-  review: unchecked
-categories:
-  - coffee-and-bar
-evidence:
-  review_note: Cocktail Foundation v1; source-informed generated identity and
-    prose, not human reviewed.
-  sources:
-    - title: Basic cocktail equipment
-      url: https://www.diffordsguide.com/g/1150/how-to-make-cocktails/basic-cocktail-equipment
-aliases:
-  - barspoon
-  - cocktail spoon
+{
+  "id": "bar-spoon",
+  "kind": "equipment",
+  "canonical_name": "bar spoon",
+  "names": {
+    "en": "bar spoon"
+  },
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "review_note": "Cocktail Foundation v1; source-informed generated identity and prose, not human reviewed.",
+    "sources": [
+      {
+        "title": "Basic cocktail equipment",
+        "url": "https://www.diffordsguide.com/g/1150/how-to-make-cocktails/basic-cocktail-equipment"
+      }
+    ]
+  },
+  "aliases": [
+    "barspoon",
+    "cocktail spoon"
+  ]
+}

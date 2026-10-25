@@ -1,16 +1,17 @@
-id: coffee-grinder
-kind: equipment
-canonical_name: coffee grinder
-names:
-  en: coffee grinder
-aliases: []
-categories:
-  - coffee-and-bar
-curation:
-  origin: generated
-  review: unchecked
-evidence:
-  definition: A tool that reduces roasted coffee beans to particles for brewing. Grind adjustment and mechanism
-    vary; a grinder prepares grounds but does not brew the drink. The documented burr grinder is one example,
-    not a definition of every coffee grinder.
-  review_note: Batch 6 researched draft. Identity boundaries are editorial decisions; no human review claimed.
+{
+  "id": "coffee-grinder",
+  "kind": "equipment",
+  "canonical_name": "coffee grinder",
+  "names": {
+    "en": "coffee grinder"
+  },
+  "aliases": [],
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "definition": "A tool that reduces roasted coffee beans to particles for brewing. Grind adjustment and mechanism vary; a grinder prepares grounds but does not brew the drink. The documented burr grinder is one example, not a definition of every coffee grinder.",
+    "review_note": "Batch 6 researched draft. Identity boundaries are editorial decisions; no human review claimed."
+  }
+}

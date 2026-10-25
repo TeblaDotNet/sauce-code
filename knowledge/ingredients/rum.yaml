@@ -1,34 +1,52 @@
-id: rum
-kind: ingredient
-canonical_name: rum
-names:
-  en: rum
-curation:
-  origin: generated
-  review: unchecked
-categories:
-  - beverages
-evidence:
-  review_note: Cocktail Foundation v1; source-informed generated identity and
-    prose, not human reviewed.
-  sources:
-    - title: Dark and gold rums
-      url: https://www.bacardi.com/us/en/dark-gold-rums/
-    - title: Appreciating and assessing rum
-      url: https://www.diffordsguide.com/bws/1257/rum/assessing
-variants:
-  jamaican:
-    names:
-      en: Jamaican
-  blackstrap:
-    names:
-      en: blackstrap
-  light-gold:
-    names:
-      en: light gold
-  caribbean-blend:
-    names:
-      en: Caribbean blend
-  white:
-    names:
-      en: white
+{
+  "id": "rum",
+  "kind": "ingredient",
+  "canonical_name": "rum",
+  "names": {
+    "en": "rum"
+  },
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "review_note": "Cocktail Foundation v1; source-informed generated identity and prose, not human reviewed.",
+    "sources": [
+      {
+        "title": "Dark and gold rums",
+        "url": "https://www.bacardi.com/us/en/dark-gold-rums/"
+      },
+      {
+        "title": "Appreciating and assessing rum",
+        "url": "https://www.diffordsguide.com/bws/1257/rum/assessing"
+      }
+    ]
+  },
+  "variants": {
+    "jamaican": {
+      "names": {
+        "en": "Jamaican"
+      }
+    },
+    "blackstrap": {
+      "names": {
+        "en": "blackstrap"
+      }
+    },
+    "light-gold": {
+      "names": {
+        "en": "light gold"
+      }
+    },
+    "caribbean-blend": {
+      "names": {
+        "en": "Caribbean blend"
+      }
+    },
+    "white": {
+      "names": {
+        "en": "white"
+      }
+    }
+  }
+}

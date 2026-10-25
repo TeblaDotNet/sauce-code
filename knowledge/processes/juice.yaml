@@ -1,15 +1,16 @@
-id: juice
-kind: process
-canonical_name: juice
-names:
-  en: juice
-curation:
-  origin: generated
-  review: unchecked
-evidence:
-  definition: Extract juice from produce; distinct from expressing aromatic peel oil.
-  review_note: "Processes & Equipment v1: bounded generated review; see
-    docs/processes-equipment-v1-decisions.json for context and limitations."
-categories:
-  - preparation-and-cutting
-  - beverage-and-bar
+{
+  "id": "juice",
+  "kind": "process",
+  "canonical_name": "juice",
+  "names": {
+    "en": "juice"
+  },
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "definition": "Extract juice from produce; distinct from expressing aromatic peel oil.",
+    "review_note": "Processes & Equipment v1: bounded generated review; see docs/processes-equipment-v1-decisions.json for context and limitations."
+  }
+}

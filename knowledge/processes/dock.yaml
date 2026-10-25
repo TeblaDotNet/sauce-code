@@ -1,15 +1,17 @@
-id: dock
-kind: process
-canonical_name: dock
-names:
-  en: dock
-aliases: []
-categories:
-  - baking-and-pastry
-curation:
-  origin: generated
-  review: unchecked
-evidence:
-  definition: Prick dough with small holes to let steam escape and limit unwanted puffing during baking. This
-    pastry purpose is narrower than general piercing.
-  review_note: Batch 2 researched draft. Identity boundaries are editorial decisions; no human review claimed.
+{
+  "id": "dock",
+  "kind": "process",
+  "canonical_name": "dock",
+  "names": {
+    "en": "dock"
+  },
+  "aliases": [],
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "definition": "Prick dough with small holes to let steam escape and limit unwanted puffing during baking. This pastry purpose is narrower than general piercing.",
+    "review_note": "Batch 2 researched draft. Identity boundaries are editorial decisions; no human review claimed."
+  }
+}

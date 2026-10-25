@@ -3,7 +3,7 @@ import type { VocabularyEntry } from './index.ts';
 import { canonicalEntry } from './canonical.ts';
 import { validateKnowledgeSnapshot } from './snapshot.ts';
 import type { KnowledgeSnapshot } from './snapshot.ts';
-import { browsingCategoryRegistry } from './categories.ts';
+import { validateBrowsingTaxonomy } from './categories.ts';
 
 export interface CanonicalManifest { digest: string; entries: readonly VocabularyEntry[] }
 export interface KnowledgeProvider {
@@ -86,7 +86,7 @@ export async function composeKnowledge(vocabulary: Vocabulary, provider?: Knowle
   const actual=vocabulary.entries.map(canonicalEntry),expected=pin.entries.map(e=>canonicalEntry(runtimeVocabularyEntry(e)));
   if(stableKnowledgeJson(actual)!==stableKnowledgeJson(expected))fail('Canonical manifest does not match this vocabulary');
   validateKnowledgeSnapshot(provider.snapshot,vocabulary,pin.digest);
-  if(provider.taxonomy!==undefined&&stableKnowledgeJson(provider.taxonomy)!==stableKnowledgeJson(browsingCategoryRegistry))fail('Unsupported taxonomy change');
+  if(provider.taxonomy!==undefined)validateBrowsingTaxonomy(provider.taxonomy);
   if(provider.compatibility!==undefined&&!Array.isArray(provider.compatibility))fail('Invalid compatibility sidecar');
   const entries=structuredClone(actual);
   overlay(entries,provider.compatibility??[]);
@@ -95,5 +95,5 @@ export async function composeKnowledge(vocabulary: Vocabulary, provider?: Knowle
     for(const part of q.target.parts??[])entry=entry.parts[part];
     Object.assign(entry,structuredClone(q.values));
   }
-  return new Vocabulary(entries,provider.snapshot);
+  return new Vocabulary(entries,provider.snapshot,provider.taxonomy);
 }

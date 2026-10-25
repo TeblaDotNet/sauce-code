@@ -1,12 +1,14 @@
-id: lacto-ferment
-kind: process
-canonical_name: lacto ferment
-names:
-  en: lacto ferment
-reference: true
-curation:
-  origin: generated
-  review: unchecked
-scope: "A fermentation specialisation in which lactic-acid-producing microorganisms contribute to the transformation of food. It differs from simply adding acid to a pickle. This scope is not a preservation procedure or a shelf-stability claim."
-categories:
-  - preservation-and-fermentation
+{
+  "id": "lacto-ferment",
+  "kind": "process",
+  "canonical_name": "lacto ferment",
+  "names": {
+    "en": "lacto ferment"
+  },
+  "reference": true,
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "scope": "A fermentation specialisation in which lactic-acid-producing microorganisms contribute to the transformation of food. It differs from simply adding acid to a pickle. This scope is not a preservation procedure or a shelf-stability claim."
+}

@@ -1,12 +1,14 @@
-id: pressure-cook
-kind: process
-canonical_name: pressure cook
-names:
-  en: pressure cook
-reference: true
-curation:
-  origin: generated
-  review: unchecked
-scope: "Cook under elevated pressure in suitable cooking equipment. Pressure cooking is not pressure canning and does not by itself establish preservation or shelf stability."
-categories:
-  - moist-heat-cooking
+{
+  "id": "pressure-cook",
+  "kind": "process",
+  "canonical_name": "pressure cook",
+  "names": {
+    "en": "pressure cook"
+  },
+  "reference": true,
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "scope": "Cook under elevated pressure in suitable cooking equipment. Pressure cooking is not pressure canning and does not by itself establish preservation or shelf stability."
+}

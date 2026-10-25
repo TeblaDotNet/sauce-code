@@ -55,31 +55,6 @@ test('family links neither inherit metadata nor fold child usage into parent or 
   assert.deepEqual(ancestor.types?.map(t => t.id), ['family']);
 });
 
-test('egg and lemon parts have stable anchors and exact distinct-recipe backlinks including action context', () => {
-  const corpus = [
-    ['yolk', '::ingredients\n(egg) 2\n::instructions\n(egg: yolks) <separate>\n(egg: yolk) <beat>'],
-    ['context', '::ingredients\n(egg)\n(lemon)\n::instructions\n{mix} <stir, with (egg: white)>\n{mix} <stir, with (lemon: juice, bottled)>'],
-    ['fresh', '::ingredients\n(lemon: juice, fresh) 1tsp'],
-    ['unknown', '::ingredients\n(egg: mystery)'],
-  ].map(([id, source]) => ({id, name: id, recipe: parseRecipe(source, {vocabulary})}));
-  const usage = buildUsageIndex(corpus);
-  const egg = createReferencePage(vocabulary, 'ingredient', 'egg', usage)!;
-  assert.deepEqual(egg.parts.find(p => p.id === 'yolk')!.usage!.map(r => r.id), ['yolk']);
-  assert.deepEqual(egg.parts.find(p => p.id === 'white')!.usage!.map(r => r.id), ['context']);
-  assert.deepEqual(egg.parts.find(p => p.id === 'shell')!.usage, []);
-  const juice = createReferencePage(vocabulary, 'ingredient', 'lemon', usage)!.parts.find(p => p.id === 'juice')!;
-  assert.equal(juice.anchor, 'part-juice');
-  assert.deepEqual(juice.usage!.map(r => r.id), ['context', 'fresh']);
-  assert.equal(partAnchor(['yolk']), 'part-yolk');
-  assert.equal(partAnchor(['thigh', 'skin']), 'part-thigh/skin');
-  assert.match(renderHtml(corpus[1].recipe, {referenceUrl: recipeReferenceUrl}), /href="\/reference\/ingredient\/lemon#part-juice"/);
-  const html = renderReferenceHtml(egg, {recipeUrl: id => `/recipes/${id}/`});
-  assert.match(html, /<h2 class="ref-section-heading">::parts<\/h2>/);
-  const yolkSection = html.split('id="part-yolk"')[1].split('</section>')[0];
-  assert.match(yolkSection, /href="\/recipes\/yolk\/"/);
-  assert.doesNotMatch(yolkSection, /href="\/recipes\/context\/"/);
-});
-
 test('nested part backlinks require the complete exact path and local aliases', () => {
   const v = new Vocabulary([ingredient('fruit', {parts: {peel: {names: {en: 'peel'}, aliases: ['rind'], parts: {outer: {names: {en: 'outer'}}}}}})]);
   const r = parseRecipe('::ingredients\n(fruit: rind: outer)\n(fruit: peel: unknown)', {vocabulary: v});

@@ -1,18 +1,25 @@
-id: amaro
-kind: ingredient
-canonical_name: amaro
-names:
-  en: amaro
-curation:
-  origin: generated
-  review: unchecked
-categories:
-  - beverages
-evidence:
-  review_note: Cocktail Foundation v1; source-informed generated identity and
-    prose, not human reviewed.
-  sources:
-    - title: Amaro Nonino Quintessentia
-      url: https://www.grappanonino.it/en/amaro-and-liqueurs/amaro-nonino-quintessentia/
-    - title: Averna product
-      url: https://www.amaroaverna.com/int/product/
+{
+  "id": "amaro",
+  "kind": "ingredient",
+  "canonical_name": "amaro",
+  "names": {
+    "en": "amaro"
+  },
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "review_note": "Cocktail Foundation v1; source-informed generated identity and prose, not human reviewed.",
+    "sources": [
+      {
+        "title": "Amaro Nonino Quintessentia",
+        "url": "https://www.grappanonino.it/en/amaro-and-liqueurs/amaro-nonino-quintessentia/"
+      },
+      {
+        "title": "Averna product",
+        "url": "https://www.amaroaverna.com/int/product/"
+      }
+    ]
+  }
+}

@@ -1,17 +1,25 @@
-id: ginger-beer
-kind: ingredient
-canonical_name: ginger beer
-names:
-  en: ginger beer
-curation:
-  origin: generated
-  review: unchecked
-categories:
-  - beverages
-evidence:
-  review_note: Cocktail Foundation v2; source-informed generated identity and prose, not human reviewed.
-  sources:
-    - title: Our story — mixers
-      url: https://fever-tree.com/index.php/en-gb/our-story
-    - title: Andalusian Buck
-      url: https://jeffreymorgenthaler.com/andalusian-buck/
+{
+  "id": "ginger-beer",
+  "kind": "ingredient",
+  "canonical_name": "ginger beer",
+  "names": {
+    "en": "ginger beer"
+  },
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "review_note": "Cocktail Foundation v2; source-informed generated identity and prose, not human reviewed.",
+    "sources": [
+      {
+        "title": "Our story — mixers",
+        "url": "https://fever-tree.com/index.php/en-gb/our-story"
+      },
+      {
+        "title": "Andalusian Buck",
+        "url": "https://jeffreymorgenthaler.com/andalusian-buck/"
+      }
+    ]
+  }
+}

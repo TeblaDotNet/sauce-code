@@ -209,3 +209,7 @@ The Core repository contains a pinned representative sample, not the full recipe
 Conversion maturity, authorship and human review are separate. Reworked examples are not automatically human-reviewed recipes. No recipe was rewritten or promoted by this extraction.
 
 Recipe classification metadata is optional: a minimal recipe remains valid without category, dietary, cuisine or region labels. A dietary label is not a guarantee of suitability; check ingredients, substitutions and product labels. No corpus-wide dietary, cuisine or region inference is performed.
+
+## Knowledge ownership
+
+Core is independently installable and testable without the Open Sauce Food Knowledge repository. Canonical-only distributions contain no articles, photograph data or browsing labels. Explicit provider composition adds those optional fields; see [ownership and historical attribution](docs/knowledge-ownership.md) and [provider contracts](docs/knowledge-provider.md).

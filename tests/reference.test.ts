@@ -7,21 +7,6 @@ import type { SourcedQuantity, Statement } from '../src/index.ts';
 import { loadVocabulary } from '../src/vocabulary/node.ts';
 
 const vocabulary = await loadVocabulary('knowledge');
-test('reference model projects rich egg knowledge, provenance and groups without mutating vocabulary', () => {
-  const before = JSON.stringify(vocabulary.entries);
-  const page = createReferencePage(vocabulary, 'ingredient', 'egg')!;
-  assert.equal(page.name, 'egg'); assert.equal(page.pluralNames?.en, 'eggs');
-  assert.deepEqual(page.parts.map(p => p.path), [['yolk'], ['white'], ['shell']]);
-  assert.equal(page.groups[0].id, 'separated_contents');
-  assert.equal(page.groups[0].processUrl, '/reference/process/separate');
-  assert.deepEqual(page.groups[0].members.map(p => p.anchor), ['part-yolk', 'part-white']);
-  assert.match(page.groups[0].sources![0].citation, /tiramisu/);
-  assert.ok(page.evidence?.seen_in); assert.ok(page.observations.qualifiers?.length);
-  assert.equal(page.usage, undefined); assert.equal(page.typical_mass, undefined);
-  page.parts[0].names['en-GB'] = 'edited projection';
-  assert.equal(JSON.stringify(vocabulary.entries), before);
-  assert.equal(createReferencePage(vocabulary, 'ingredient', 'missing'), undefined);
-});
 
 test('sparse courgette and flour retain names and aliases without empty knowledge modules', () => {
   const courgette = createReferencePage(vocabulary, 'ingredient', 'courgette')!;

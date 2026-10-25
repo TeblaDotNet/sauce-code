@@ -1,15 +1,17 @@
-id: devein-prawns
-kind: process
-canonical_name: devein prawns
-names:
-  en: devein prawns
-aliases: []
-categories:
-  - preparation-and-cutting
-curation:
-  origin: generated
-  review: unchecked
-evidence:
-  definition: Remove the intestinal tract from a prawn along its back. This preparation is distinct from
-    removing its shell or butterflying the flesh, even when those operations occur in the same sequence.
-  review_note: Batch 5 researched draft. Identity boundaries are editorial decisions; no human review claimed.
+{
+  "id": "devein-prawns",
+  "kind": "process",
+  "canonical_name": "devein prawns",
+  "names": {
+    "en": "devein prawns"
+  },
+  "aliases": [],
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "definition": "Remove the intestinal tract from a prawn along its back. This preparation is distinct from removing its shell or butterflying the flesh, even when those operations occur in the same sequence.",
+    "review_note": "Batch 5 researched draft. Identity boundaries are editorial decisions; no human review claimed."
+  }
+}

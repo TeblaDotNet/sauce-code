@@ -1,17 +1,25 @@
-id: muddler
-kind: equipment
-canonical_name: muddler
-names:
-  en: muddler
-curation:
-  origin: generated
-  review: unchecked
-categories:
-  - coffee-and-bar
-evidence:
-  review_note: Cocktail Foundation v2; source-informed generated identity and prose, not human reviewed.
-  sources:
-    - title: Mint Julep
-      url: https://punchdrink.com/recipes/mint-julep/
-    - title: Sherry Cobbler
-      url: https://punchdrink.com/recipes/sherry-cobbler/
+{
+  "id": "muddler",
+  "kind": "equipment",
+  "canonical_name": "muddler",
+  "names": {
+    "en": "muddler"
+  },
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "review_note": "Cocktail Foundation v2; source-informed generated identity and prose, not human reviewed.",
+    "sources": [
+      {
+        "title": "Mint Julep",
+        "url": "https://punchdrink.com/recipes/mint-julep/"
+      },
+      {
+        "title": "Sherry Cobbler",
+        "url": "https://punchdrink.com/recipes/sherry-cobbler/"
+      }
+    ]
+  }
+}

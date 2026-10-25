@@ -1,16 +1,18 @@
-id: offset-spatula
-kind: equipment
-canonical_name: offset spatula
-names:
-  en: offset spatula
-aliases: []
-categories:
-  - bakeware
-type_of: spatula
-curation:
-  origin: generated
-  review: unchecked
-evidence:
-  definition: A spreading spatula whose blade is offset from the handle. The clearance helps spread icing or
-    batter without the handle being in the same plane as the food.
-  review_note: Batch 3 researched draft. Identity boundaries are editorial decisions; no human review claimed.
+{
+  "id": "offset-spatula",
+  "kind": "equipment",
+  "canonical_name": "offset spatula",
+  "names": {
+    "en": "offset spatula"
+  },
+  "aliases": [],
+  "type_of": "spatula",
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "definition": "A spreading spatula whose blade is offset from the handle. The clearance helps spread icing or batter without the handle being in the same plane as the food.",
+    "review_note": "Batch 3 researched draft. Identity boundaries are editorial decisions; no human review claimed."
+  }
+}

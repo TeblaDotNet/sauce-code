@@ -2,7 +2,7 @@
 
 100 existing ingredient pages now have reviewed, locally hosted photographs. Coverage rises from 49 to **149 of 911 enriched pages**, leaving **762** without images. No recipe, canonical identity, relationship, resource or knowledge prose was changed.
 
-The new assets total **11,293,827 bytes (10.8 MiB)**. Each is an optimised progressive JPEG, quality 82, at most 960 pixels on its longest edge and below 350 KB. Full frames are retained without upscaling. Sources are Wikimedia Commons file records with public-domain, CC0, CC BY or CC BY-SA licensing; exact versions and ports are preserved. Creator credit, original source, licence link, caption, dimensions, derivative notice and checksum are recorded for every image in [the ledger](knowledge-images-batch-2.json) and [asset attribution](../assets/references/ATTRIBUTION.md).
+The new assets total **11,293,827 bytes (10.8 MiB)**. Each is an optimised progressive JPEG, quality 82, at most 960 pixels on its longest edge and below 350 KB. Full frames are retained without upscaling. Sources are Wikimedia Commons file records with public-domain, CC0, CC BY or CC BY-SA licensing; exact versions and ports are preserved. Creator credit, original source, licence link, caption, dimensions, derivative notice and checksum are recorded for every image in [the ledger](knowledge-images-batch-2.json) and [asset attribution](knowledge-ownership.md).
 
 ## Selection and limitations
 

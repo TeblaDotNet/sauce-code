@@ -1,15 +1,17 @@
-id: dry-brine
-kind: process
-canonical_name: dry brine
-names:
-  en: dry brine
-aliases: []
-categories:
-  - preparation-and-cutting
-curation:
-  origin: generated
-  review: unchecked
-evidence:
-  definition: Salt food in advance of cooking without immersing it in a prepared salt-water bath. This seasoning
-    technique is not a guarantee of preservation or a substitute for a validated curing method.
-  review_note: Batch 2 researched draft. Identity boundaries are editorial decisions; no human review claimed.
+{
+  "id": "dry-brine",
+  "kind": "process",
+  "canonical_name": "dry brine",
+  "names": {
+    "en": "dry brine"
+  },
+  "aliases": [],
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "definition": "Salt food in advance of cooking without immersing it in a prepared salt-water bath. This seasoning technique is not a guarantee of preservation or a substitute for a validated curing method.",
+    "review_note": "Batch 2 researched draft. Identity boundaries are editorial decisions; no human review claimed."
+  }
+}

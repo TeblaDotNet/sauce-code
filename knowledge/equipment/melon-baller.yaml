@@ -1,15 +1,17 @@
-id: melon-baller
-kind: equipment
-canonical_name: melon baller
-names:
-  en: melon baller
-aliases: []
-categories:
-  - preparation-tools
-curation:
-  origin: generated
-  review: unchecked
-evidence:
-  definition: A small rounded scoop used to cut ball-shaped portions from melon or other suitable flesh. Scoop
-    diameter determines the portion shape; it is not a calibrated measuring spoon.
-  review_note: Batch 4 researched draft. Identity boundaries are editorial decisions; no human review claimed.
+{
+  "id": "melon-baller",
+  "kind": "equipment",
+  "canonical_name": "melon baller",
+  "names": {
+    "en": "melon baller"
+  },
+  "aliases": [],
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "definition": "A small rounded scoop used to cut ball-shaped portions from melon or other suitable flesh. Scoop diameter determines the portion shape; it is not a calibrated measuring spoon.",
+    "review_note": "Batch 4 researched draft. Identity boundaries are editorial decisions; no human review claimed."
+  }
+}

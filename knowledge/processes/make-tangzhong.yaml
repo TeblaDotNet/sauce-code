@@ -1,16 +1,17 @@
-id: make-tangzhong
-kind: process
-canonical_name: make tangzhong
-names:
-  en: make tangzhong
-aliases: []
-categories:
-  - baking-and-pastry
-curation:
-  origin: generated
-  review: unchecked
-evidence:
-  definition: Cook a portion of a bread recipe’s flour and liquid together into a paste before incorporating it
-    into the dough. This pre-gelatinises starch; it differs from making yudane by pouring boiling water over
-    flour. Neither method is a fermented starter.
-  review_note: Batch 5 researched draft. Identity boundaries are editorial decisions; no human review claimed.
+{
+  "id": "make-tangzhong",
+  "kind": "process",
+  "canonical_name": "make tangzhong",
+  "names": {
+    "en": "make tangzhong"
+  },
+  "aliases": [],
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "definition": "Cook a portion of a bread recipe’s flour and liquid together into a paste before incorporating it into the dough. This pre-gelatinises starch; it differs from making yudane by pouring boiling water over flour. Neither method is a fermented starter.",
+    "review_note": "Batch 5 researched draft. Identity boundaries are editorial decisions; no human review claimed."
+  }
+}

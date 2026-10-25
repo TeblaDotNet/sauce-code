@@ -1,15 +1,17 @@
-id: batonnet
-kind: process
-canonical_name: batonnet
-names:
-  en: batonnet
-aliases: []
-categories:
-  - preparation-and-cutting
-curation:
-  origin: generated
-  review: unchecked
-evidence:
-  definition: Cut vegetables into regular sticks thicker than julienne, as for crudités. Exact dimensions follow
-    the recipe or teaching convention.
-  review_note: Batch 3 researched draft. Identity boundaries are editorial decisions; no human review claimed.
+{
+  "id": "batonnet",
+  "kind": "process",
+  "canonical_name": "batonnet",
+  "names": {
+    "en": "batonnet"
+  },
+  "aliases": [],
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "definition": "Cut vegetables into regular sticks thicker than julienne, as for crudités. Exact dimensions follow the recipe or teaching convention.",
+    "review_note": "Batch 3 researched draft. Identity boundaries are editorial decisions; no human review claimed."
+  }
+}

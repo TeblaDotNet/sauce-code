@@ -1,17 +1,18 @@
-id: baguette-pan
-kind: equipment
-canonical_name: baguette pan
-names:
-  en: baguette pan
-aliases: []
-categories:
-  - bakeware
-type_of: baking-pan
-curation:
-  origin: generated
-  review: unchecked
-evidence:
-  definition: A baking pan with long channels supporting baguettes. Perforated examples let moisture escape
-    through the pan; not every pan shares the same material or coating. It is a baking vessel, unlike a cloth
-    used only for proofing.
-  review_note: Batch 6 researched draft. Identity boundaries are editorial decisions; no human review claimed.
+{
+  "id": "baguette-pan",
+  "kind": "equipment",
+  "canonical_name": "baguette pan",
+  "names": {
+    "en": "baguette pan"
+  },
+  "aliases": [],
+  "type_of": "baking-pan",
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "definition": "A baking pan with long channels supporting baguettes. Perforated examples let moisture escape through the pan; not every pan shares the same material or coating. It is a baking vessel, unlike a cloth used only for proofing.",
+    "review_note": "Batch 6 researched draft. Identity boundaries are editorial decisions; no human review claimed."
+  }
+}

@@ -1,16 +1,21 @@
-id: absinthe
-kind: ingredient
-canonical_name: absinthe
-names:
-  en: absinthe
-curation:
-  origin: generated
-  review: unchecked
-categories:
-  - beverages
-evidence:
-  review_note: Cocktail Foundation v1; source-informed generated identity and
-    prose, not human reviewed.
-  sources:
-    - title: La Fée Parisienne Absinthe Supérieure
-      url: https://lafee.com/la-fee-parisienne-absinthe-superieure/
+{
+  "id": "absinthe",
+  "kind": "ingredient",
+  "canonical_name": "absinthe",
+  "names": {
+    "en": "absinthe"
+  },
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "review_note": "Cocktail Foundation v1; source-informed generated identity and prose, not human reviewed.",
+    "sources": [
+      {
+        "title": "La Fée Parisienne Absinthe Supérieure",
+        "url": "https://lafee.com/la-fee-parisienne-absinthe-superieure/"
+      }
+    ]
+  }
+}

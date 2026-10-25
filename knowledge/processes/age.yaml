@@ -1,20 +1,27 @@
-id: age
-kind: process
-canonical_name: age
-names:
-  en: age
-status: canonical-seed
-curation:
-  origin: generated
-  review: unchecked
-evidence:
-  current_recipe_count: 1
-  current_observation_count: 1
-  legacy_observation_count: 0
-  observed_terms:
-  - term: age
-    count: 1
-  seen_in:
-  - examples/public-domain-recipes/cheese/cheese.opensauce
-categories:
-  - preservation-and-fermentation
+{
+  "id": "age",
+  "kind": "process",
+  "canonical_name": "age",
+  "names": {
+    "en": "age"
+  },
+  "status": "canonical-seed",
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "current_recipe_count": 1,
+    "current_observation_count": 1,
+    "legacy_observation_count": 0,
+    "observed_terms": [
+      {
+        "term": "age",
+        "count": 1
+      }
+    ],
+    "seen_in": [
+      "examples/public-domain-recipes/cheese/cheese.opensauce"
+    ]
+  }
+}

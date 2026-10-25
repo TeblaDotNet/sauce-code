@@ -62,7 +62,7 @@ export function renderReferenceHtml(page: ReferencePage, options: ReferenceHtmlO
 
   return `<article class="os-reference" data-kind="${escape(page.kind)}" data-colour="${options.colour === false ? 'off' : 'on'}"><header><h1>${escape(page.name)}</h1>${enriched ? '' : identity}</header>` +
     renderReferenceEnrichment(page, options.heroUrl) +
-    section('Browsing categories', list(browsingCategories(page.kind, page.categories ?? []).map(c => link(options.categoryUrl?.(page.kind,c.id),c.name)))) +
+    section('Browsing categories', list(browsingCategories(page.kind, page.categories ?? [], page.taxonomy).map(c => link(options.categoryUrl?.(page.kind,c.id),c.name)))) +
     (enriched && page.typeOf ? `<p>A kind of ${link(page.typeOf.url, page.typeOf.name)}.</p>` : '') +
     (enriched ? section('types', list((page.types ?? []).map(t => link(t.url, t.name))), true) : '') +
     (enriched ? '<details class="ref-record-details"><summary>Names and reference details</summary>' + identity : '') +

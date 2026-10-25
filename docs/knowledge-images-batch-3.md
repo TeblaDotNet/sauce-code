@@ -2,7 +2,7 @@
 
 100 existing equipment pages receive reviewed, locally hosted photographs. Coverage rises from 149 to **249 of 911 enriched pages**, leaving **662** without images. Together, batches 2 and 3 add 200 images: 100 ingredient pages and 100 equipment pages. No recipe, canonical identity, relationship, resource or knowledge prose was changed.
 
-The new equipment images total **9,304,362 bytes (8.9 MiB)**; both batches total **20,598,189 bytes (19.6 MiB)**. Images are full-frame progressive JPEGs at quality 82, at most 960 pixels on the longest edge, without upscaling and below 350 KB each. Embedded metadata is removed; attribution remains in the page, [asset credits](../assets/references/ATTRIBUTION.md) and [machine-readable ledger](knowledge-images-batch-3.json). File-specific Commons metadata records creator, original file, source page and exact licence version/port. Only public-domain, CC0, CC BY and CC BY-SA images were selected.
+The new equipment images total **9,304,362 bytes (8.9 MiB)**; both batches total **20,598,189 bytes (19.6 MiB)**. Images are full-frame progressive JPEGs at quality 82, at most 960 pixels on the longest edge, without upscaling and below 350 KB each. Embedded metadata is removed; attribution remains in the page, [asset credits](knowledge-ownership.md) and [machine-readable ledger](knowledge-images-batch-3.json). File-specific Commons metadata records creator, original file, source page and exact licence version/port. Only public-domain, CC0, CC BY and CC BY-SA images were selected.
 
 ## Selection and limitations
 

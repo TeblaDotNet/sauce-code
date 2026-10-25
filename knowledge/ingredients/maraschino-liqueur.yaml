@@ -1,19 +1,29 @@
-id: maraschino-liqueur
-kind: ingredient
-canonical_name: maraschino liqueur
-names:
-  en: maraschino liqueur
-curation:
-  origin: generated
-  review: unchecked
-categories:
-  - beverages
-evidence:
-  review_note: Cocktail Foundation v2; source-informed generated identity and prose, not human reviewed.
-  sources:
-    - title: Maraschino Originale
-      url: https://www.luxardo.it/liqueurs-and-distillates/maraschino-originale/
-    - title: Division Bell
-      url: https://punchdrink.com/recipes/division-bell/
-    - title: Mary Pickford
-      url: https://iba-world.com/iba-cocktail/mary-pickford/
+{
+  "id": "maraschino-liqueur",
+  "kind": "ingredient",
+  "canonical_name": "maraschino liqueur",
+  "names": {
+    "en": "maraschino liqueur"
+  },
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "review_note": "Cocktail Foundation v2; source-informed generated identity and prose, not human reviewed.",
+    "sources": [
+      {
+        "title": "Maraschino Originale",
+        "url": "https://www.luxardo.it/liqueurs-and-distillates/maraschino-originale/"
+      },
+      {
+        "title": "Division Bell",
+        "url": "https://punchdrink.com/recipes/division-bell/"
+      },
+      {
+        "title": "Mary Pickford",
+        "url": "https://iba-world.com/iba-cocktail/mary-pickford/"
+      }
+    ]
+  }
+}

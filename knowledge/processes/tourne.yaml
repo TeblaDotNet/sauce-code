@@ -1,15 +1,17 @@
-id: tourne
-kind: process
-canonical_name: tourne
-names:
-  en: tourne
-aliases: []
-categories:
-  - preparation-and-cutting
-curation:
-  origin: generated
-  review: unchecked
-evidence:
-  definition: Trim vegetables into regular, curved oblong shapes. The classic seven-faced potato is one form,
-    not a rule for every vegetable; this is not ordinary turning during cooking.
-  review_note: Batch 3 researched draft. Identity boundaries are editorial decisions; no human review claimed.
+{
+  "id": "tourne",
+  "kind": "process",
+  "canonical_name": "tourne",
+  "names": {
+    "en": "tourne"
+  },
+  "aliases": [],
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "definition": "Trim vegetables into regular, curved oblong shapes. The classic seven-faced potato is one form, not a rule for every vegetable; this is not ordinary turning during cooking.",
+    "review_note": "Batch 3 researched draft. Identity boundaries are editorial decisions; no human review claimed."
+  }
+}

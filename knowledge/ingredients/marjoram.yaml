@@ -1,20 +1,29 @@
-id: marjoram
-kind: ingredient
-canonical_name: marjoram
-names:
-  en: marjoram
-status: canonical-seed
-evidence:
-  current_recipe_count: 1
-  current_observation_count: 1
-  legacy_observation_count: 0
-  observed_terms:
-  - term: marjoram
-    count: 1
-  seen_in:
-  - examples/public-domain-recipes/aljotta/aljotta.opensauce
-observed_qualifiers:
-- value: fresh
-  count: 1
-categories:
-  - herbs-and-spices
+{
+  "id": "marjoram",
+  "kind": "ingredient",
+  "canonical_name": "marjoram",
+  "names": {
+    "en": "marjoram"
+  },
+  "status": "canonical-seed",
+  "evidence": {
+    "current_recipe_count": 1,
+    "current_observation_count": 1,
+    "legacy_observation_count": 0,
+    "observed_terms": [
+      {
+        "term": "marjoram",
+        "count": 1
+      }
+    ],
+    "seen_in": [
+      "examples/public-domain-recipes/aljotta/aljotta.opensauce"
+    ]
+  },
+  "observed_qualifiers": [
+    {
+      "value": "fresh",
+      "count": 1
+    }
+  ]
+}

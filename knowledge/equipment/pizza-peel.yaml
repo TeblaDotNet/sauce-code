@@ -1,15 +1,17 @@
-id: pizza-peel
-kind: equipment
-canonical_name: pizza peel
-names:
-  en: pizza peel
-aliases: []
-categories:
-  - bakeware
-curation:
-  origin: generated
-  review: unchecked
-evidence:
-  definition: A broad, handled tool for supporting and moving pizza into or out of an oven. It transfers the
-    pizza rather than providing the stationary baking surface.
-  review_note: Batch 3 researched draft. Identity boundaries are editorial decisions; no human review claimed.
+{
+  "id": "pizza-peel",
+  "kind": "equipment",
+  "canonical_name": "pizza peel",
+  "names": {
+    "en": "pizza peel"
+  },
+  "aliases": [],
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "definition": "A broad, handled tool for supporting and moving pizza into or out of an oven. It transfers the pizza rather than providing the stationary baking surface.",
+    "review_note": "Batch 3 researched draft. Identity boundaries are editorial decisions; no human review claimed."
+  }
+}

@@ -1,15 +1,17 @@
-id: pastry-wheel
-kind: equipment
-canonical_name: pastry wheel
-names:
-  en: pastry wheel
-aliases: []
-categories:
-  - bakeware
-curation:
-  origin: generated
-  review: unchecked
-evidence:
-  definition: A handled cutting wheel for dough or pastry. Plain and fluted edges produce different cut edges;
-    the tool is distinct from a pastry blender that cuts fat into flour.
-  review_note: Batch 3 researched draft. Identity boundaries are editorial decisions; no human review claimed.
+{
+  "id": "pastry-wheel",
+  "kind": "equipment",
+  "canonical_name": "pastry wheel",
+  "names": {
+    "en": "pastry wheel"
+  },
+  "aliases": [],
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "definition": "A handled cutting wheel for dough or pastry. Plain and fluted edges produce different cut edges; the tool is distinct from a pastry blender that cuts fat into flour.",
+    "review_note": "Batch 3 researched draft. Identity boundaries are editorial decisions; no human review claimed."
+  }
+}

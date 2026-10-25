@@ -1,16 +1,20 @@
-id: jug
-kind: equipment
-canonical_name: jug
-names:
-  en: jug
-status: canonical-seed
-evidence:
-  legacy_observation_count: 0
-  observed_terms:
-    - term: jug
-      count: 1
-  seen_in: []
-  scope: Historical observations; publication-excluded recipe citations removed.
-    Not current usage counts.
-categories:
-  - storage-and-containers
+{
+  "id": "jug",
+  "kind": "equipment",
+  "canonical_name": "jug",
+  "names": {
+    "en": "jug"
+  },
+  "status": "canonical-seed",
+  "evidence": {
+    "legacy_observation_count": 0,
+    "observed_terms": [
+      {
+        "term": "jug",
+        "count": 1
+      }
+    ],
+    "seen_in": [],
+    "scope": "Historical observations; publication-excluded recipe citations removed. Not current usage counts."
+  }
+}

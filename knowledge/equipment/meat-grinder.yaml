@@ -1,16 +1,17 @@
-id: meat-grinder
-kind: equipment
-canonical_name: meat grinder
-names:
-  en: meat grinder
-aliases: []
-categories:
-  - appliances
-curation:
-  origin: generated
-  review: unchecked
-evidence:
-  definition: A device that cuts meat and forces it through a perforated grinding plate. Plate openings
-    influence the resulting texture. It may be a separate machine or an attachment; grinding and filling
-    sausage casings are distinct operations.
-  review_note: Batch 7 researched draft. Identity boundaries are editorial decisions; no human review claimed.
+{
+  "id": "meat-grinder",
+  "kind": "equipment",
+  "canonical_name": "meat grinder",
+  "names": {
+    "en": "meat grinder"
+  },
+  "aliases": [],
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "definition": "A device that cuts meat and forces it through a perforated grinding plate. Plate openings influence the resulting texture. It may be a separate machine or an attachment; grinding and filling sausage casings are distinct operations.",
+    "review_note": "Batch 7 researched draft. Identity boundaries are editorial decisions; no human review claimed."
+  }
+}

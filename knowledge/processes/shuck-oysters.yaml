@@ -1,16 +1,17 @@
-id: shuck-oysters
-kind: process
-canonical_name: shuck oysters
-names:
-  en: shuck oysters
-aliases: []
-categories:
-  - preparation-and-cutting
-curation:
-  origin: generated
-  review: unchecked
-evidence:
-  definition: Open an oyster shell and release the flesh from its attachment using an oyster knife. This is a
-    preparation operation, not cooking or a guarantee that an oyster is safe to eat raw. The scoped name
-    avoids conflating it with husking corn.
-  review_note: Batch 5 researched draft. Identity boundaries are editorial decisions; no human review claimed.
+{
+  "id": "shuck-oysters",
+  "kind": "process",
+  "canonical_name": "shuck oysters",
+  "names": {
+    "en": "shuck oysters"
+  },
+  "aliases": [],
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "definition": "Open an oyster shell and release the flesh from its attachment using an oyster knife. This is a preparation operation, not cooking or a guarantee that an oyster is safe to eat raw. The scoped name avoids conflating it with husking corn.",
+    "review_note": "Batch 5 researched draft. Identity boundaries are editorial decisions; no human review claimed."
+  }
+}

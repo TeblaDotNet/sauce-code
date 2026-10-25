@@ -1,15 +1,17 @@
-id: truss
-kind: process
-canonical_name: truss
-names:
-  en: truss
-aliases: []
-categories:
-  - preparation-and-cutting
-curation:
-  origin: generated
-  review: unchecked
-evidence:
-  definition: Secure a bird with kitchen twine to hold its legs and wings close to the body for cooking. This
-    entry concerns poultry preparation, not every act of tying.
-  review_note: Batch 3 researched draft. Identity boundaries are editorial decisions; no human review claimed.
+{
+  "id": "truss",
+  "kind": "process",
+  "canonical_name": "truss",
+  "names": {
+    "en": "truss"
+  },
+  "aliases": [],
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "definition": "Secure a bird with kitchen twine to hold its legs and wings close to the body for cooking. This entry concerns poultry preparation, not every act of tying.",
+    "review_note": "Batch 3 researched draft. Identity boundaries are editorial decisions; no human review claimed."
+  }
+}

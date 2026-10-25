@@ -1,17 +1,25 @@
-id: float
-kind: process
-canonical_name: float
-names:
-  en: float
-curation:
-  origin: generated
-  review: unchecked
-categories:
-  - beverage-and-bar
-evidence:
-  review_note: Cocktail Foundation v2; source-informed generated identity and prose, not human reviewed.
-  sources:
-    - title: How to layer cocktails
-      url: https://www.diffordsguide.com/g/1150/how-to-make-cocktails/how-to-layer
-    - title: Penicillin
-      url: https://punchdrink.com/recipes/penicillin/
+{
+  "id": "float",
+  "kind": "process",
+  "canonical_name": "float",
+  "names": {
+    "en": "float"
+  },
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "review_note": "Cocktail Foundation v2; source-informed generated identity and prose, not human reviewed.",
+    "sources": [
+      {
+        "title": "How to layer cocktails",
+        "url": "https://www.diffordsguide.com/g/1150/how-to-make-cocktails/how-to-layer"
+      },
+      {
+        "title": "Penicillin",
+        "url": "https://punchdrink.com/recipes/penicillin/"
+      }
+    ]
+  }
+}

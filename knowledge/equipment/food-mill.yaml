@@ -1,15 +1,17 @@
-id: food-mill
-kind: equipment
-canonical_name: food mill
-names:
-  en: food mill
-aliases: []
-categories:
-  - preparation-tools
-curation:
-  origin: generated
-  review: unchecked
-evidence:
-  definition: A hand-operated mill pushes soft food through a perforated disc. It can separate skins or seeds
-    while making puree, unlike a blender that cuts the mixture together.
-  review_note: Batch 2 researched draft. Identity boundaries are editorial decisions; no human review claimed.
+{
+  "id": "food-mill",
+  "kind": "equipment",
+  "canonical_name": "food mill",
+  "names": {
+    "en": "food mill"
+  },
+  "aliases": [],
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "definition": "A hand-operated mill pushes soft food through a perforated disc. It can separate skins or seeds while making puree, unlike a blender that cuts the mixture together.",
+    "review_note": "Batch 2 researched draft. Identity boundaries are editorial decisions; no human review claimed."
+  }
+}

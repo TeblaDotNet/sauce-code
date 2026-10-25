@@ -1,16 +1,17 @@
-id: enrobe-chocolate
-kind: process
-canonical_name: enrobe with chocolate
-names:
-  en: enrobe with chocolate
-aliases: []
-categories:
-  - coating-and-breading
-curation:
-  origin: generated
-  review: unchecked
-evidence:
-  definition: Cover a prepared centre with a chocolate shell. Hand dipping is one way to apply the coating; the
-    chocolate’s fluidity and removal of excess affect shell thickness. Applying the shell is distinct from
-    tempering the chocolate beforehand.
-  review_note: Batch 6 researched draft. Identity boundaries are editorial decisions; no human review claimed.
+{
+  "id": "enrobe-chocolate",
+  "kind": "process",
+  "canonical_name": "enrobe with chocolate",
+  "names": {
+    "en": "enrobe with chocolate"
+  },
+  "aliases": [],
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "definition": "Cover a prepared centre with a chocolate shell. Hand dipping is one way to apply the coating; the chocolate’s fluidity and removal of excess affect shell thickness. Applying the shell is distinct from tempering the chocolate beforehand.",
+    "review_note": "Batch 6 researched draft. Identity boundaries are editorial decisions; no human review claimed."
+  }
+}

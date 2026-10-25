@@ -1,15 +1,17 @@
-id: cannoli-form
-kind: equipment
-canonical_name: cannoli form
-names:
-  en: cannoli form
-aliases: []
-categories:
-  - preparation-tools
-curation:
-  origin: generated
-  review: unchecked
-evidence:
-  definition: A cylindrical form supporting a cannoli shell during shaping and cooking. The removable form
-    establishes the hollow centre; it is not part of the finished food.
-  review_note: Batch 5 researched draft. Identity boundaries are editorial decisions; no human review claimed.
+{
+  "id": "cannoli-form",
+  "kind": "equipment",
+  "canonical_name": "cannoli form",
+  "names": {
+    "en": "cannoli form"
+  },
+  "aliases": [],
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "definition": "A cylindrical form supporting a cannoli shell during shaping and cooking. The removable form establishes the hollow centre; it is not part of the finished food.",
+    "review_note": "Batch 5 researched draft. Identity boundaries are editorial decisions; no human review claimed."
+  }
+}

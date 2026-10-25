@@ -1,17 +1,23 @@
-id: thai-red-curry-paste
-kind: ingredient
-canonical_name: Thai red curry paste
-names:
-  en: Thai red curry paste
-status: canonical-seed
-evidence:
-  current_recipe_count: 1
-  current_observation_count: 1
-  legacy_observation_count: 0
-  observed_terms:
-  - term: Thai red curry paste
-    count: 1
-  seen_in:
-  - examples/public-domain-recipes/fall-vegetable-and-chickpea-curry/fall-vegetable-and-chickpea-curry.opensauce
-categories:
-  - sauces-and-condiments
+{
+  "id": "thai-red-curry-paste",
+  "kind": "ingredient",
+  "canonical_name": "Thai red curry paste",
+  "names": {
+    "en": "Thai red curry paste"
+  },
+  "status": "canonical-seed",
+  "evidence": {
+    "current_recipe_count": 1,
+    "current_observation_count": 1,
+    "legacy_observation_count": 0,
+    "observed_terms": [
+      {
+        "term": "Thai red curry paste",
+        "count": 1
+      }
+    ],
+    "seen_in": [
+      "examples/public-domain-recipes/fall-vegetable-and-chickpea-curry/fall-vegetable-and-chickpea-curry.opensauce"
+    ]
+  }
+}

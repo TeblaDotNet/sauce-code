@@ -40,7 +40,8 @@ export async function loadVocabulary(root: string, options: { canonicalOnly?: bo
   const enrichments = await optional('enrichment.yaml');
   if (resources !== undefined && !Array.isArray(resources)) throw new Error('Invalid resource registry');
   if (enrichments !== undefined && !Array.isArray(enrichments)) throw new Error('Invalid enrichment registry');
-  return new Vocabulary(entries, {resources, enrichments});
+  const taxonomy = await optional('taxonomy.json');
+  return new Vocabulary(entries, {resources, enrichments}, taxonomy);
 }
 
 /** Does not read article/resource registries or image assets. */

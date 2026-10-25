@@ -1,15 +1,17 @@
-id: silicone-baking-mat
-kind: equipment
-canonical_name: silicone baking mat
-names:
-  en: silicone baking mat
-aliases: []
-categories:
-  - bakeware
-curation:
-  origin: generated
-  review: unchecked
-evidence:
-  definition: A reusable silicone baking liner laid on a tray. It is distinct from a pastry cloth used for
-    rolling dough and from disposable baking paper.
-  review_note: Batch 5 researched draft. Identity boundaries are editorial decisions; no human review claimed.
+{
+  "id": "silicone-baking-mat",
+  "kind": "equipment",
+  "canonical_name": "silicone baking mat",
+  "names": {
+    "en": "silicone baking mat"
+  },
+  "aliases": [],
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "definition": "A reusable silicone baking liner laid on a tray. It is distinct from a pastry cloth used for rolling dough and from disposable baking paper.",
+    "review_note": "Batch 5 researched draft. Identity boundaries are editorial decisions; no human review claimed."
+  }
+}

@@ -1,15 +1,16 @@
-id: sieve
-kind: process
-canonical_name: sieve
-names:
-  en: sieve
-curation:
-  origin: generated
-  review: unchecked
-evidence:
-  definition: Pass material through a sieve to separate particles; may concern dry
-    powders or liquids, without equating every straining method.
-  review_note: "Processes & Equipment v1: bounded generated review; see
-    docs/processes-equipment-v1-decisions.json for context and limitations."
-categories:
-  - preparation-and-cutting
+{
+  "id": "sieve",
+  "kind": "process",
+  "canonical_name": "sieve",
+  "names": {
+    "en": "sieve"
+  },
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "definition": "Pass material through a sieve to separate particles; may concern dry powders or liquids, without equating every straining method.",
+    "review_note": "Processes & Equipment v1: bounded generated review; see docs/processes-equipment-v1-decisions.json for context and limitations."
+  }
+}

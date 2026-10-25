@@ -1,20 +1,26 @@
-id: butchers-twine
-kind: equipment
-canonical_name: butcher’s twine
-names:
-  en: butcher’s twine
-status: canonical-seed
-aliases:
-- name: kitchen twine
-  type: equivalent-name
-
-evidence:
-  legacy_observation_count: 0
-  observed_terms:
-    - term: butcher’s twine
-      count: 1
-  seen_in: []
-  scope: Historical observations; publication-excluded recipe citations removed.
-    Not current usage counts.
-categories:
-  - preparation-tools
+{
+  "id": "butchers-twine",
+  "kind": "equipment",
+  "canonical_name": "butcher’s twine",
+  "names": {
+    "en": "butcher’s twine"
+  },
+  "status": "canonical-seed",
+  "aliases": [
+    {
+      "name": "kitchen twine",
+      "type": "equivalent-name"
+    }
+  ],
+  "evidence": {
+    "legacy_observation_count": 0,
+    "observed_terms": [
+      {
+        "term": "butcher’s twine",
+        "count": 1
+      }
+    ],
+    "seen_in": [],
+    "scope": "Historical observations; publication-excluded recipe citations removed. Not current usage counts."
+  }
+}

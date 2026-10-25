@@ -73,6 +73,7 @@ export interface ReferencePart extends ReferenceKnowledge {
 export interface ReferenceKnowledge extends QuantitativeKnowledge { parts: ReferencePart[]; groups: ReferenceGroup[] }
 export interface ReferenceRelation { id: string; name: string; url?: string }
 export interface ReferencePage extends ReferenceKnowledge {
+  taxonomy?: import('../vocabulary/categories.ts').BrowsingTaxonomy;
   enrichment?: import('../vocabulary/enrichment.ts').ReferenceEnrichment;
   resources?: import('../vocabulary/enrichment.ts').ExternalResource[];
   contextualLinks?: { name: string; url?: string }[];
@@ -130,7 +131,7 @@ export function createReferencePage(vocabulary: Vocabulary, kind: ReferenceKind,
         members: group.parts.map(id => ({ id, anchor: partAnchor([...path, id]) })) };
     })
   });
-  return structuredClone({ ...knowledge(entry, []), id, kind, name: displayName(entry.names, entry.canonical_name ?? id),
+  return structuredClone({ ...(Object.values(vocabulary.taxonomy).some(rows=>rows.length)?{taxonomy:vocabulary.taxonomy}:{}), ...knowledge(entry, []), id, kind, name: displayName(entry.names, entry.canonical_name ?? id),
     enrichment,
     resources: enrichment ? vocabulary.resources.filter(r =>
       [...(enrichment.editorial ?? []).flatMap(b => b.sources ?? []), ...(enrichment.resources ?? []).map(a => a.resource),

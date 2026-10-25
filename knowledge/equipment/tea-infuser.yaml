@@ -1,16 +1,17 @@
-id: tea-infuser
-kind: equipment
-canonical_name: tea infuser
-names:
-  en: tea infuser
-aliases: []
-categories:
-  - coffee-and-bar
-curation:
-  origin: generated
-  review: unchecked
-evidence:
-  definition: A perforated holder that keeps loose tea together while water circulates through it during
-    steeping. It can be removed with the leaves inside. This differs from catching leaves in a strainer as
-    already brewed tea is poured.
-  review_note: Batch 6 researched draft. Identity boundaries are editorial decisions; no human review claimed.
+{
+  "id": "tea-infuser",
+  "kind": "equipment",
+  "canonical_name": "tea infuser",
+  "names": {
+    "en": "tea infuser"
+  },
+  "aliases": [],
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "definition": "A perforated holder that keeps loose tea together while water circulates through it during steeping. It can be removed with the leaves inside. This differs from catching leaves in a strainer as already brewed tea is poured.",
+    "review_note": "Batch 6 researched draft. Identity boundaries are editorial decisions; no human review claimed."
+  }
+}

@@ -6,7 +6,7 @@ Thirty existing ingredient reference pages gain their first photograph. Image-be
 
 ## Selection and licensing
 
-The first batch favours recognisable produce and herbs. Each selected Commons image has image-specific licence metadata, creator credit, source-page and original-file URLs, and an acquisition URL recorded in the [decision ledger](knowledge-images-batch-1.json). Credits render visibly through the existing reference renderer and are also retained in [image attribution](../assets/references/ATTRIBUTION.md). CC BY-SA derivatives retain their source licence; photographs are not relicensed under the knowledge-data CC0 grant. Public-domain USDA images retain their agency/source credit; the green-bean source does not identify an individual photographer.
+The first batch favours recognisable produce and herbs. Each selected Commons image has image-specific licence metadata, creator credit, source-page and original-file URLs, and an acquisition URL recorded in the [decision ledger](knowledge-images-batch-1.json). Credits render visibly through the existing reference renderer and are also retained in [image attribution](knowledge-ownership.md). CC BY-SA derivatives retain their source licence; photographs are not relicensed under the knowledge-data CC0 grant. Public-domain USDA images retain their agency/source credit; the green-bean source does not identify an individual photographer.
 
 All selected full frames were visually inspected. Rejected search candidates included leek flowers, a musician named Scallions, non-bell peppers, and ambiguous bean imagery. No restricted noncommercial or GFDL-only option was selected. Existing 19 images and their credits remain intact.
 

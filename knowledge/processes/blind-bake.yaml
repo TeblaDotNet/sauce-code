@@ -1,12 +1,14 @@
-id: blind-bake
-kind: process
-canonical_name: blind bake
-names:
-  en: blind bake
-reference: true
-curation:
-  origin: generated
-  review: unchecked
-scope: "Bake a pastry case without its eventual filling, either partly or fully as the recipe requires. This is a scoped baking technique, not a synonym for all baking."
-categories:
-  - baking-and-pastry
+{
+  "id": "blind-bake",
+  "kind": "process",
+  "canonical_name": "blind bake",
+  "names": {
+    "en": "blind bake"
+  },
+  "reference": true,
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "scope": "Bake a pastry case without its eventual filling, either partly or fully as the recipe requires. This is a scoped baking technique, not a synonym for all baking."
+}

@@ -92,18 +92,6 @@ for (const part of ['yolk', 'white']) test('egg ' + part + ' shares the nested s
   assert.deepEqual(inverse.tokens[1].partResolution?.ids, [part]);
 });
 
-test('legacy self-rising wording is accepted with explicit compatibility warning, not asserted exact', () => {
-  const source = '::recipe\nlocale: en-US\n::ingredients\n(self-rising flour)';
-  const {recipe, tokens} = things(source);
-  assert.equal(recipe.source, source); assert.equal(tokens[0].canonicalId, 'self-raising-flour');
-  assert.ok(recipe.diagnostics.some(d => d.code === 'INGREDIENT_COMPATIBILITY'));
-  const entry = vocabulary.resolve('self-raising-flour', 'ingredient')[0];
-  assert.equal(entry.names['en-US'], undefined);
-  assert.equal(entry.regional_mappings?.[0].relation, 'approximate-equivalent');
-  assert.equal(vocabulary.resolveIngredient('self-rising flour')[0].warnings?.length, 1);
-  assert.equal(vocabulary.resolveIngredient('self raising flour')[0].warnings, undefined);
-});
-
 test('loader/index and JSON transport preserve new metadata without changing entry count', () => {
   assert.equal(vocabulary.entries.length, 969);
   const copy = new Vocabulary(JSON.parse(JSON.stringify(vocabulary.entries)));

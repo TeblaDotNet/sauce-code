@@ -1,15 +1,17 @@
-id: tortilla-press
-kind: equipment
-canonical_name: tortilla press
-names:
-  en: tortilla press
-aliases: []
-categories:
-  - preparation-tools
-curation:
-  origin: generated
-  review: unchecked
-evidence:
-  definition: A hinged pair of plates with a lever for flattening portions of dough. Pressing shapes the
-    tortilla before cooking; the hand press is not itself a heated griddle.
-  review_note: Batch 4 researched draft. Identity boundaries are editorial decisions; no human review claimed.
+{
+  "id": "tortilla-press",
+  "kind": "equipment",
+  "canonical_name": "tortilla press",
+  "names": {
+    "en": "tortilla press"
+  },
+  "aliases": [],
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "definition": "A hinged pair of plates with a lever for flattening portions of dough. Pressing shapes the tortilla before cooking; the hand press is not itself a heated griddle.",
+    "review_note": "Batch 4 researched draft. Identity boundaries are editorial decisions; no human review claimed."
+  }
+}

@@ -1,16 +1,18 @@
-id: oven-thermometer
-kind: equipment
-canonical_name: oven thermometer
-names:
-  en: oven thermometer
-aliases: []
-categories:
-  - measuring
-type_of: thermometer
-curation:
-  origin: generated
-  review: unchecked
-evidence:
-  definition: A thermometer intended to measure the air temperature inside an oven. It checks the cooking
-    environment, not the temperature inside the food.
-  review_note: Batch 4 researched draft. Identity boundaries are editorial decisions; no human review claimed.
+{
+  "id": "oven-thermometer",
+  "kind": "equipment",
+  "canonical_name": "oven thermometer",
+  "names": {
+    "en": "oven thermometer"
+  },
+  "aliases": [],
+  "type_of": "thermometer",
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "definition": "A thermometer intended to measure the air temperature inside an oven. It checks the cooking environment, not the temperature inside the food.",
+    "review_note": "Batch 4 researched draft. Identity boundaries are editorial decisions; no human review claimed."
+  }
+}

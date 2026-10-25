@@ -1,22 +1,24 @@
-id: squeeze-bottle
-kind: equipment
-canonical_name: squeeze bottle
-names:
-  en: squeeze bottle
-plural_names:
-  en: squeeze bottles
-aliases:
-  - squirt bottle
-  - squirt bottles
-type_of: bottle
-curation:
-  origin: generated
-  review: unchecked
-evidence:
-  definition: A squeezable bottle with a dispensing opening for applying sauces or
-    other liquids.
-  review_note: "Processes & Equipment v1: bounded generated review; see
-    docs/processes-equipment-v1-decisions.json for context and limitations."
-categories:
-  - preparation-tools
-  - storage-and-containers
+{
+  "id": "squeeze-bottle",
+  "kind": "equipment",
+  "canonical_name": "squeeze bottle",
+  "names": {
+    "en": "squeeze bottle"
+  },
+  "plural_names": {
+    "en": "squeeze bottles"
+  },
+  "aliases": [
+    "squirt bottle",
+    "squirt bottles"
+  ],
+  "type_of": "bottle",
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "definition": "A squeezable bottle with a dispensing opening for applying sauces or other liquids.",
+    "review_note": "Processes & Equipment v1: bounded generated review; see docs/processes-equipment-v1-decisions.json for context and limitations."
+  }
+}

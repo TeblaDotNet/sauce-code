@@ -55,7 +55,7 @@ The unmodified texts are retained locally; the GPL “or later” option is gran
 
 ## Reference hero photographs
 
-Optional images in `assets/references/` retain their individual public-domain, CC0, CC BY or CC BY-SA terms. They are not relicensed under the knowledge CC0 grant. See [image credits](assets/references/ATTRIBUTION.md) and the adjacent selection register for creators, source pages, licence links and derivative details.
+Optional images in `assets/references/` retain their individual public-domain, CC0, CC BY or CC BY-SA terms. They are not relicensed under the knowledge CC0 grant. See [image credits](docs/knowledge-ownership.md) and the adjacent selection register for creators, source pages, licence links and derivative details.
 
 ## Standalone runtime packaging
 

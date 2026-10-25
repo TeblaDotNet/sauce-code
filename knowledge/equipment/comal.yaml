@@ -1,15 +1,17 @@
-id: comal
-kind: equipment
-canonical_name: comal
-names:
-  en: comal
-aliases: []
-categories:
-  - cookware
-curation:
-  origin: generated
-  review: unchecked
-evidence:
-  definition: A shallow cooking surface used in Mexican cooking for tortillas and toasting or roasting
-    ingredients. Clay examples establish that the identity cannot be reduced to a metal griddle.
-  review_note: Batch 3 researched draft. Identity boundaries are editorial decisions; no human review claimed.
+{
+  "id": "comal",
+  "kind": "equipment",
+  "canonical_name": "comal",
+  "names": {
+    "en": "comal"
+  },
+  "aliases": [],
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "definition": "A shallow cooking surface used in Mexican cooking for tortillas and toasting or roasting ingredients. Clay examples establish that the identity cannot be reduced to a metal griddle.",
+    "review_note": "Batch 3 researched draft. Identity boundaries are editorial decisions; no human review claimed."
+  }
+}

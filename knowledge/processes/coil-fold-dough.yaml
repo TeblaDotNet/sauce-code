@@ -1,16 +1,17 @@
-id: coil-fold-dough
-kind: process
-canonical_name: coil fold dough
-names:
-  en: coil fold dough
-aliases: []
-categories:
-  - baking-and-pastry
-curation:
-  origin: generated
-  review: unchecked
-evidence:
-  definition: Use coil folds to build structure in bread dough during bulk fermentation. This gentle folding
-    method is distinct from stretching an edge over the dough or laminating it out broadly. It is a
-    dough-development step, not the final shaping of the loaf.
-  review_note: Batch 7 researched draft. Identity boundaries are editorial decisions; no human review claimed.
+{
+  "id": "coil-fold-dough",
+  "kind": "process",
+  "canonical_name": "coil fold dough",
+  "names": {
+    "en": "coil fold dough"
+  },
+  "aliases": [],
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "definition": "Use coil folds to build structure in bread dough during bulk fermentation. This gentle folding method is distinct from stretching an edge over the dough or laminating it out broadly. It is a dough-development step, not the final shaping of the loaf.",
+    "review_note": "Batch 7 researched draft. Identity boundaries are editorial decisions; no human review claimed."
+  }
+}

@@ -1,20 +1,27 @@
-id: braise
-kind: process
-canonical_name: braise
-names:
-  en: braise
-status: canonical-seed
-curation:
-  origin: generated
-  review: unchecked
-evidence:
-  current_recipe_count: 1
-  current_observation_count: 1
-  legacy_observation_count: 0
-  observed_terms:
-  - term: braise
-    count: 1
-  seen_in:
-  - examples/public-domain-recipes/mapo-tofu/mapo-tofu.opensauce
-categories:
-  - moist-heat-cooking
+{
+  "id": "braise",
+  "kind": "process",
+  "canonical_name": "braise",
+  "names": {
+    "en": "braise"
+  },
+  "status": "canonical-seed",
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "current_recipe_count": 1,
+    "current_observation_count": 1,
+    "legacy_observation_count": 0,
+    "observed_terms": [
+      {
+        "term": "braise",
+        "count": 1
+      }
+    ],
+    "seen_in": [
+      "examples/public-domain-recipes/mapo-tofu/mapo-tofu.opensauce"
+    ]
+  }
+}

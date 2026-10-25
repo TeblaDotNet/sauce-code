@@ -1,16 +1,17 @@
-id: corkscrew
-kind: equipment
-canonical_name: corkscrew
-names:
-  en: corkscrew
-aliases: []
-categories:
-  - coffee-and-bar
-curation:
-  origin: generated
-  review: unchecked
-evidence:
-  definition: A tool with a spiral worm that engages a cork so it can be withdrawn from a bottle. Lever and
-    winged mechanisms provide different ways to lift it. Removing a cork is distinct from levering off a crown
-    cap.
-  review_note: Batch 7 researched draft. Identity boundaries are editorial decisions; no human review claimed.
+{
+  "id": "corkscrew",
+  "kind": "equipment",
+  "canonical_name": "corkscrew",
+  "names": {
+    "en": "corkscrew"
+  },
+  "aliases": [],
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "definition": "A tool with a spiral worm that engages a cork so it can be withdrawn from a bottle. Lever and winged mechanisms provide different ways to lift it. Removing a cork is distinct from levering off a crown cap.",
+    "review_note": "Batch 7 researched draft. Identity boundaries are editorial decisions; no human review claimed."
+  }
+}

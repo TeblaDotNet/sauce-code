@@ -1,27 +1,28 @@
-id: self-raising-flour
-kind: ingredient
-type_of: flour
-canonical_name: self-raising flour
-names:
-  en-GB: self-raising flour
-aliases:
-  - self raising flour
-  - name: self-rising flour
-    warning: Legacy regional wording accepted for compatibility; exact formulation equivalence is not established.
-regional_mappings:
-  - name: self-rising flour
-    locale: en-US
-    relation: approximate-equivalent
-    scope: Regional comparison only; formulation equivalence is not established.
-curation:
-  origin: generated
-  review: unchecked
-evidence:
-  migration: ingredient-migrations-v1
-  decision: Human-approved promotion to an independent Flour-family concept.
-  seen_in:
-    - examples/public-domain-recipes/butter-cake/butter-cake.opensauce
-    - examples/public-domain-recipes/damper/damper.opensauce
-categories:
-  - grains-and-flours
-  - baking-ingredients
+{
+  "id": "self-raising-flour",
+  "kind": "ingredient",
+  "type_of": "flour",
+  "canonical_name": "self-raising flour",
+  "names": {
+    "en-GB": "self-raising flour"
+  },
+  "aliases": [
+    "self raising flour",
+    {
+      "name": "self-rising flour",
+      "warning": "Legacy regional wording accepted for compatibility; exact formulation equivalence is not established."
+    }
+  ],
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "migration": "ingredient-migrations-v1",
+    "decision": "Human-approved promotion to an independent Flour-family concept.",
+    "seen_in": [
+      "examples/public-domain-recipes/butter-cake/butter-cake.opensauce",
+      "examples/public-domain-recipes/damper/damper.opensauce"
+    ]
+  }
+}

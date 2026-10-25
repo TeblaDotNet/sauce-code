@@ -1,15 +1,17 @@
-id: clarify-stock
-kind: process
-canonical_name: clarify stock
-names:
-  en: clarify stock
-aliases: []
-categories:
-  - preparation-and-cutting
-curation:
-  origin: generated
-  review: unchecked
-evidence:
-  definition: Remove suspended material from stock or broth to obtain a clearer liquid, as for consomme. This is
-    distinct from separating butterfat.
-  review_note: Batch 2 researched draft. Identity boundaries are editorial decisions; no human review claimed.
+{
+  "id": "clarify-stock",
+  "kind": "process",
+  "canonical_name": "clarify stock",
+  "names": {
+    "en": "clarify stock"
+  },
+  "aliases": [],
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "definition": "Remove suspended material from stock or broth to obtain a clearer liquid, as for consomme. This is distinct from separating butterfat.",
+    "review_note": "Batch 2 researched draft. Identity boundaries are editorial decisions; no human review claimed."
+  }
+}

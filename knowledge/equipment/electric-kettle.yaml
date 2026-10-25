@@ -1,15 +1,17 @@
-id: electric-kettle
-kind: equipment
-canonical_name: electric kettle
-names:
-  en: electric kettle
-aliases: []
-categories:
-  - appliances
-curation:
-  origin: generated
-  review: unchecked
-evidence:
-  definition: A vessel with electrical water heating and a pouring spout. Adjustable temperature and gooseneck
-    pouring are model features, not requirements of every electric kettle.
-  review_note: Batch 2 researched draft. Identity boundaries are editorial decisions; no human review claimed.
+{
+  "id": "electric-kettle",
+  "kind": "equipment",
+  "canonical_name": "electric kettle",
+  "names": {
+    "en": "electric kettle"
+  },
+  "aliases": [],
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "definition": "A vessel with electrical water heating and a pouring spout. Adjustable temperature and gooseneck pouring are model features, not requirements of every electric kettle.",
+    "review_note": "Batch 2 researched draft. Identity boundaries are editorial decisions; no human review claimed."
+  }
+}

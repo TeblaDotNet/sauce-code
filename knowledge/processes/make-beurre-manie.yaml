@@ -1,16 +1,17 @@
-id: make-beurre-manie
-kind: process
-canonical_name: make beurre manie
-names:
-  en: make beurre manie
-aliases: []
-categories:
-  - general-cooking
-curation:
-  origin: generated
-  review: unchecked
-evidence:
-  definition: Work softened butter and flour together without first cooking them into a roux. The resulting
-    paste can be incorporated into a sauce for thickening. Preparing this paste and cooking out the flour in
-    the sauce are separate stages.
-  review_note: Batch 6 researched draft. Identity boundaries are editorial decisions; no human review claimed.
+{
+  "id": "make-beurre-manie",
+  "kind": "process",
+  "canonical_name": "make beurre manie",
+  "names": {
+    "en": "make beurre manie"
+  },
+  "aliases": [],
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "definition": "Work softened butter and flour together without first cooking them into a roux. The resulting paste can be incorporated into a sauce for thickening. Preparing this paste and cooking out the flour in the sauce are separate stages.",
+    "review_note": "Batch 6 researched draft. Identity boundaries are editorial decisions; no human review claimed."
+  }
+}

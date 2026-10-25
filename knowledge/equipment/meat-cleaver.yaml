@@ -1,17 +1,18 @@
-id: meat-cleaver
-kind: equipment
-canonical_name: meat cleaver
-names:
-  en: meat cleaver
-aliases: []
-categories:
-  - knives-and-cutting
-type_of: knife
-curation:
-  origin: generated
-  review: unchecked
-evidence:
-  definition: A broad, sturdy knife intended for heavy chopping during meat preparation. It differs from a thin
-    slicing knife with a similar rectangular outline. Bone-cutting suitability depends on the particular
-    blade; the unqualified word cleaver is not treated as a universal synonym.
-  review_note: Batch 6 researched draft. Identity boundaries are editorial decisions; no human review claimed.
+{
+  "id": "meat-cleaver",
+  "kind": "equipment",
+  "canonical_name": "meat cleaver",
+  "names": {
+    "en": "meat cleaver"
+  },
+  "aliases": [],
+  "type_of": "knife",
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "definition": "A broad, sturdy knife intended for heavy chopping during meat preparation. It differs from a thin slicing knife with a similar rectangular outline. Bone-cutting suitability depends on the particular blade; the unqualified word cleaver is not treated as a universal synonym.",
+    "review_note": "Batch 6 researched draft. Identity boundaries are editorial decisions; no human review claimed."
+  }
+}

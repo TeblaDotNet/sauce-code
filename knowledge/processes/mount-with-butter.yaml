@@ -1,17 +1,19 @@
-id: mount-with-butter
-kind: process
-canonical_name: mount with butter
-names:
-  en: mount with butter
-aliases:
-  - monter au beurre
-categories:
-  - mixing-and-emulsifying
-curation:
-  origin: generated
-  review: unchecked
-evidence:
-  definition: Incorporate pieces of butter into a sauce to form a smooth emulsion as a finishing step. It
-    differs from cooking flour in fat for a roux or simply melting butter on its own; excessive heat can
-    separate the finished emulsion.
-  review_note: Batch 5 researched draft. Identity boundaries are editorial decisions; no human review claimed.
+{
+  "id": "mount-with-butter",
+  "kind": "process",
+  "canonical_name": "mount with butter",
+  "names": {
+    "en": "mount with butter"
+  },
+  "aliases": [
+    "monter au beurre"
+  ],
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "definition": "Incorporate pieces of butter into a sauce to form a smooth emulsion as a finishing step. It differs from cooking flour in fat for a roux or simply melting butter on its own; excessive heat can separate the finished emulsion.",
+    "review_note": "Batch 5 researched draft. Identity boundaries are editorial decisions; no human review claimed."
+  }
+}

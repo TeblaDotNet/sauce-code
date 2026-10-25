@@ -1,16 +1,17 @@
-id: extrude-pasta
-kind: process
-canonical_name: extrude pasta
-names:
-  en: extrude pasta
-aliases: []
-categories:
-  - preparation-and-cutting
-curation:
-  origin: generated
-  review: unchecked
-evidence:
-  definition: Press pasta dough through a shaped die and cut the emerging pasta to length. The die determines
-    the profile. Rolling a sheet and cutting strips can produce pasta too, but uses a different forming
-    method.
-  review_note: Batch 7 researched draft. Identity boundaries are editorial decisions; no human review claimed.
+{
+  "id": "extrude-pasta",
+  "kind": "process",
+  "canonical_name": "extrude pasta",
+  "names": {
+    "en": "extrude pasta"
+  },
+  "aliases": [],
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "definition": "Press pasta dough through a shaped die and cut the emerging pasta to length. The die determines the profile. Rolling a sheet and cutting strips can produce pasta too, but uses a different forming method.",
+    "review_note": "Batch 7 researched draft. Identity boundaries are editorial decisions; no human review claimed."
+  }
+}

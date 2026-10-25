@@ -1,16 +1,18 @@
-id: wok-ladle
-kind: equipment
-canonical_name: wok ladle
-names:
-  en: wok ladle
-aliases: []
-categories:
-  - preparation-tools
-type_of: ladle
-curation:
-  origin: generated
-  review: unchecked
-evidence:
-  definition: A long-handled, bowl-headed utensil used in wok cooking. It can carry liquid as well as move
-    ingredients. A wok shovel and a wok ladle are separate tools even when sold as a matched set.
-  review_note: Batch 7 researched draft. Identity boundaries are editorial decisions; no human review claimed.
+{
+  "id": "wok-ladle",
+  "kind": "equipment",
+  "canonical_name": "wok ladle",
+  "names": {
+    "en": "wok ladle"
+  },
+  "aliases": [],
+  "type_of": "ladle",
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "definition": "A long-handled, bowl-headed utensil used in wok cooking. It can carry liquid as well as move ingredients. A wok shovel and a wok ladle are separate tools even when sold as a matched set.",
+    "review_note": "Batch 7 researched draft. Identity boundaries are editorial decisions; no human review claimed."
+  }
+}

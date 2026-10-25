@@ -1,14 +1,14 @@
-id: temper-eggs
-kind: process
-canonical_name: temper eggs
-names:
-  en: temper eggs
-reference: true
-curation:
-  origin: generated
-  review: unchecked
-scope: "Gradually equalise temperature when combining eggs, custards or similar mixtures with a hotter component, limiting abrupt heating and unwanted coagulation. This is not chocolate tempering or spice tempering."
-categories:
-  - mixing-and-emulsifying
-  - baking-and-pastry
-  - general-cooking
+{
+  "id": "temper-eggs",
+  "kind": "process",
+  "canonical_name": "temper eggs",
+  "names": {
+    "en": "temper eggs"
+  },
+  "reference": true,
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "scope": "Gradually equalise temperature when combining eggs, custards or similar mixtures with a hotter component, limiting abrupt heating and unwanted coagulation. This is not chocolate tempering or spice tempering."
+}

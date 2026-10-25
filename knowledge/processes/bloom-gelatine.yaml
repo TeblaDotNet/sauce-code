@@ -1,16 +1,19 @@
-id: bloom-gelatine
-kind: process
-canonical_name: bloom gelatine
-names:
-  en: bloom gelatine
-aliases:
-  - bloom gelatin
-categories:
-  - preparation-and-cutting
-curation:
-  origin: generated
-  review: unchecked
-evidence:
-  definition: Hydrate gelatine in cold liquid before dissolving it into the preparation. This use of bloom is
-    separate from heating spices or wetting coffee.
-  review_note: Batch 2 researched draft. Identity boundaries are editorial decisions; no human review claimed.
+{
+  "id": "bloom-gelatine",
+  "kind": "process",
+  "canonical_name": "bloom gelatine",
+  "names": {
+    "en": "bloom gelatine"
+  },
+  "aliases": [
+    "bloom gelatin"
+  ],
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "definition": "Hydrate gelatine in cold liquid before dissolving it into the preparation. This use of bloom is separate from heating spices or wetting coffee.",
+    "review_note": "Batch 2 researched draft. Identity boundaries are editorial decisions; no human review claimed."
+  }
+}

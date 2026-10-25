@@ -1,15 +1,17 @@
-id: funnel
-kind: equipment
-canonical_name: funnel
-names:
-  en: funnel
-aliases: []
-categories:
-  - preparation-tools
-curation:
-  origin: generated
-  review: unchecked
-evidence:
-  definition: A transfer tool with a broad receiving opening and narrower outlet for filling containers. A
-    strainer may be added; filtering is not inherent to every funnel.
-  review_note: Batch 2 researched draft. Identity boundaries are editorial decisions; no human review claimed.
+{
+  "id": "funnel",
+  "kind": "equipment",
+  "canonical_name": "funnel",
+  "names": {
+    "en": "funnel"
+  },
+  "aliases": [],
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "definition": "A transfer tool with a broad receiving opening and narrower outlet for filling containers. A strainer may be added; filtering is not inherent to every funnel.",
+    "review_note": "Batch 2 researched draft. Identity boundaries are editorial decisions; no human review claimed."
+  }
+}

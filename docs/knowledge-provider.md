@@ -1,3 +1,7 @@
+# Stage 4B ownership update
+
+Editorial source ownership has moved to the explicit Knowledge provider. Core retains canonical vocabulary and structural validation only. See [ownership and historical attribution](knowledge-ownership.md). The Stage 3 transition described below is retained as historical context; its deferred-removal status no longer describes the validated Stage 4B state.
+
 # Optional offline knowledge providers (Stage 3)
 
 Status: **provider-ready, ownership cutover deferred**. The active Core combined

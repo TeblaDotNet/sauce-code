@@ -1,19 +1,29 @@
-id: non-alcoholic-botanical-drink
-kind: ingredient
-canonical_name: non-alcoholic botanical drink
-names:
-  en: non-alcoholic botanical drink
-curation:
-  origin: generated
-  review: unchecked
-categories:
-  - beverages
-evidence:
-  review_note: Cocktail Foundation v2; source-informed generated identity and prose, not human reviewed.
-  sources:
-    - title: Garden Spritz
-      url: https://www.seedlipdrinks.com/en-gb/recipes/seedlip-garden-spritz
-    - title: Grove Spritz
-      url: https://www.seedlipdrinks.com/en-us/recipes/seedlip-grove-spritz
-    - title: Citrus Fizz
-      url: https://www.seedlipdrinks.com/en-us/recipes/citrus-fizz
+{
+  "id": "non-alcoholic-botanical-drink",
+  "kind": "ingredient",
+  "canonical_name": "non-alcoholic botanical drink",
+  "names": {
+    "en": "non-alcoholic botanical drink"
+  },
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "review_note": "Cocktail Foundation v2; source-informed generated identity and prose, not human reviewed.",
+    "sources": [
+      {
+        "title": "Garden Spritz",
+        "url": "https://www.seedlipdrinks.com/en-gb/recipes/seedlip-garden-spritz"
+      },
+      {
+        "title": "Grove Spritz",
+        "url": "https://www.seedlipdrinks.com/en-us/recipes/seedlip-grove-spritz"
+      },
+      {
+        "title": "Citrus Fizz",
+        "url": "https://www.seedlipdrinks.com/en-us/recipes/citrus-fizz"
+      }
+    ]
+  }
+}

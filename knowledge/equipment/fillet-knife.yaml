@@ -1,18 +1,20 @@
-id: fillet-knife
-kind: equipment
-canonical_name: fillet knife
-names:
-  en: fillet knife
-aliases:
-  - fish filleting knife
-categories:
-  - knives-and-cutting
-type_of: knife
-curation:
-  origin: generated
-  review: unchecked
-evidence:
-  definition: A long, narrow-bladed knife suited to following a fish’s backbone and separating or skinning
-    fillets. Flexibility varies with design. It is distinct from gripping tongs used to extract individual pin
-    bones.
-  review_note: Batch 6 researched draft. Identity boundaries are editorial decisions; no human review claimed.
+{
+  "id": "fillet-knife",
+  "kind": "equipment",
+  "canonical_name": "fillet knife",
+  "names": {
+    "en": "fillet knife"
+  },
+  "aliases": [
+    "fish filleting knife"
+  ],
+  "type_of": "knife",
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "definition": "A long, narrow-bladed knife suited to following a fish’s backbone and separating or skinning fillets. Flexibility varies with design. It is distinct from gripping tongs used to extract individual pin bones.",
+    "review_note": "Batch 6 researched draft. Identity boundaries are editorial decisions; no human review claimed."
+  }
+}

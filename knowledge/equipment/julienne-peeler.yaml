@@ -1,17 +1,18 @@
-id: julienne-peeler
-kind: equipment
-canonical_name: julienne peeler
-names:
-  en: julienne peeler
-aliases: []
-categories:
-  - knives-and-cutting
-type_of: vegetable-peeler
-curation:
-  origin: generated
-  review: unchecked
-evidence:
-  definition: A hand tool with a divided cutting edge that draws narrow strips from vegetables. It produces
-    strips rather than a broad peel; their dimensions depend on the blade, so the tool name does not promise a
-    particular classical knife-cut size.
-  review_note: Batch 5 researched draft. Identity boundaries are editorial decisions; no human review claimed.
+{
+  "id": "julienne-peeler",
+  "kind": "equipment",
+  "canonical_name": "julienne peeler",
+  "names": {
+    "en": "julienne peeler"
+  },
+  "aliases": [],
+  "type_of": "vegetable-peeler",
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "definition": "A hand tool with a divided cutting edge that draws narrow strips from vegetables. It produces strips rather than a broad peel; their dimensions depend on the blade, so the tool name does not promise a particular classical knife-cut size.",
+    "review_note": "Batch 5 researched draft. Identity boundaries are editorial decisions; no human review claimed."
+  }
+}

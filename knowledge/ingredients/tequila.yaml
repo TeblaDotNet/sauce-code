@@ -1,28 +1,45 @@
-id: tequila
-kind: ingredient
-canonical_name: tequila
-names:
-  en: tequila
-curation:
-  origin: generated
-  review: unchecked
-categories:
-  - beverages
-evidence:
-  review_note: Cocktail Foundation v2; source-informed generated identity and prose, not human reviewed.
-  sources:
-    - title: El Tesoro Blanco
-      url: https://www.eltesorotequila.com/tequilas/el-tesoro-blanco
-    - title: El Tesoro Reposado
-      url: https://www.eltesorotequila.com/tequilas/el-tesoro-reposado
-    - title: Oaxaca Old-Fashioned
-      url: https://punchdrink.com/recipes/oaxaca-old-fashioned/
-    - title: The Original Margarita
-      url: https://www.cointreau.com/us/en/cocktails/the-original-margarita
-variants:
-  blanco:
-    names:
-      en: blanco
-  reposado:
-    names:
-      en: reposado
+{
+  "id": "tequila",
+  "kind": "ingredient",
+  "canonical_name": "tequila",
+  "names": {
+    "en": "tequila"
+  },
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "review_note": "Cocktail Foundation v2; source-informed generated identity and prose, not human reviewed.",
+    "sources": [
+      {
+        "title": "El Tesoro Blanco",
+        "url": "https://www.eltesorotequila.com/tequilas/el-tesoro-blanco"
+      },
+      {
+        "title": "El Tesoro Reposado",
+        "url": "https://www.eltesorotequila.com/tequilas/el-tesoro-reposado"
+      },
+      {
+        "title": "Oaxaca Old-Fashioned",
+        "url": "https://punchdrink.com/recipes/oaxaca-old-fashioned/"
+      },
+      {
+        "title": "The Original Margarita",
+        "url": "https://www.cointreau.com/us/en/cocktails/the-original-margarita"
+      }
+    ]
+  },
+  "variants": {
+    "blanco": {
+      "names": {
+        "en": "blanco"
+      }
+    },
+    "reposado": {
+      "names": {
+        "en": "reposado"
+      }
+    }
+  }
+}

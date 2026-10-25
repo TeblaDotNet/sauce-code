@@ -1,17 +1,18 @@
-id: bakers-couche
-kind: equipment
-canonical_name: baker’s couche
-names:
-  en: baker’s couche
-aliases: []
-categories:
-  - bakeware
-type_of: cloth
-curation:
-  origin: generated
-  review: unchecked
-evidence:
-  definition: A cloth folded into channels to support shaped bread dough during its final rise. The dough is
-    then transferred to a baking surface. Its proofing role differs from a pastry cloth used under a rolling
-    pin.
-  review_note: Batch 6 researched draft. Identity boundaries are editorial decisions; no human review claimed.
+{
+  "id": "bakers-couche",
+  "kind": "equipment",
+  "canonical_name": "baker’s couche",
+  "names": {
+    "en": "baker’s couche"
+  },
+  "aliases": [],
+  "type_of": "cloth",
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "definition": "A cloth folded into channels to support shaped bread dough during its final rise. The dough is then transferred to a baking surface. Its proofing role differs from a pastry cloth used under a rolling pin.",
+    "review_note": "Batch 6 researched draft. Identity boundaries are editorial decisions; no human review claimed."
+  }
+}

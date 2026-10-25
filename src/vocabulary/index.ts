@@ -11,8 +11,8 @@ import type { Curation } from '../curation.ts';
 import type { IngredientKnowledge, IngredientPart, PartGroup } from './knowledge.ts';
 export * from './knowledge.ts';
 export * from './categories.ts';
-import { validateBrowsingCategories } from './categories.ts';
-import type { BrowsingCategoryId } from './categories.ts';
+import { validateBrowsingCategories, validateBrowsingTaxonomy, browsingCategoryRegistry } from './categories.ts';
+import type { BrowsingCategoryId, BrowsingTaxonomy } from './categories.ts';
 export interface IngredientState { names: Record<string, string>; aliases?: string[] }
 export interface VocabularyEntry extends IngredientKnowledge {
   exact_names?: ExactIngredientName[];
@@ -57,7 +57,10 @@ export class Vocabulary {
   readonly entries: readonly VocabularyEntry[];
   readonly resources: readonly ExternalResource[];
   readonly enrichments: readonly ReferenceEnrichment[];
-  constructor(entries: readonly VocabularyEntry[], enrichment: EnrichmentData = {}) {
+  readonly taxonomy: BrowsingTaxonomy;
+  constructor(entries: readonly VocabularyEntry[], enrichment: EnrichmentData = {}, taxonomy?: BrowsingTaxonomy) {
+    if(taxonomy)validateBrowsingTaxonomy(taxonomy);
+    this.taxonomy=structuredClone(taxonomy??browsingCategoryRegistry);
     for (const entry of entries) {
       for (const message of readCuration(entry.curation).warnings)
         this.diagnostics.push({ severity: 'warning', code: 'INVALID_CURATION', entryId: entry.id, message });
@@ -67,7 +70,7 @@ export class Vocabulary {
         throw new Error(`Invalid type_of on ${entry.id}: expected one canonical ingredient or equipment ID`);
       if (entry.scope !== undefined && (entry.kind !== 'process' || typeof entry.scope !== 'string' || !entry.scope.trim()))
         throw new Error('Invalid process scope on ' + entry.id);
-      validateBrowsingCategories(entry.kind, entry.categories, entry.id);
+      validateBrowsingCategories(entry.kind, entry.categories, entry.id, taxonomy);
       for (const field of ['exact_names', 'regional_mappings', 'canonical_target'] as const)
         if (entry[field] !== undefined && entry.kind !== 'ingredient') throw new Error('Ingredient localisation on non-ingredient: ' + entry.id);
       if (entry.exact_names !== undefined) validateNames(entry.exact_names);

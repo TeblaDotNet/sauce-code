@@ -1,12 +1,14 @@
-id: pickle
-kind: process
-canonical_name: pickle
-names:
-  en: pickle
-reference: true
-curation:
-  origin: generated
-  review: unchecked
-scope: "Prepare food in an acidic environment, which may come from added acid or fermentation. Pickling is not necessarily fermentation and the name alone does not establish shelf stability or a safe preservation procedure."
-categories:
-  - preservation-and-fermentation
+{
+  "id": "pickle",
+  "kind": "process",
+  "canonical_name": "pickle",
+  "names": {
+    "en": "pickle"
+  },
+  "reference": true,
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "scope": "Prepare food in an acidic environment, which may come from added acid or fermentation. Pickling is not necessarily fermentation and the name alone does not establish shelf stability or a safe preservation procedure."
+}

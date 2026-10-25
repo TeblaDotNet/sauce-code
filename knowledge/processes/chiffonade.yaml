@@ -1,15 +1,17 @@
-id: chiffonade
-kind: process
-canonical_name: chiffonade
-names:
-  en: chiffonade
-aliases: []
-categories:
-  - preparation-and-cutting
-curation:
-  origin: generated
-  review: unchecked
-evidence:
-  definition: Cut leaves into ribbons, commonly by stacking, rolling and slicing them. This leafy cut differs
-    from making sticks from firm vegetables.
-  review_note: Batch 3 researched draft. Identity boundaries are editorial decisions; no human review claimed.
+{
+  "id": "chiffonade",
+  "kind": "process",
+  "canonical_name": "chiffonade",
+  "names": {
+    "en": "chiffonade"
+  },
+  "aliases": [],
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "definition": "Cut leaves into ribbons, commonly by stacking, rolling and slicing them. This leafy cut differs from making sticks from firm vegetables.",
+    "review_note": "Batch 3 researched draft. Identity boundaries are editorial decisions; no human review claimed."
+  }
+}

@@ -1,16 +1,18 @@
-id: pasta-roller
-kind: equipment
-canonical_name: pasta roller
-names:
-  en: pasta roller
-aliases: []
-categories:
-  - preparation-tools
-type_of: pasta-machine
-curation:
-  origin: generated
-  review: unchecked
-evidence:
-  definition: A pasta-making tool that presses dough between rollers into sheets of adjustable thickness. A
-    roller does not itself provide every cutting or extrusion function of a pasta machine.
-  review_note: Batch 3 researched draft. Identity boundaries are editorial decisions; no human review claimed.
+{
+  "id": "pasta-roller",
+  "kind": "equipment",
+  "canonical_name": "pasta roller",
+  "names": {
+    "en": "pasta roller"
+  },
+  "aliases": [],
+  "type_of": "pasta-machine",
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "definition": "A pasta-making tool that presses dough between rollers into sheets of adjustable thickness. A roller does not itself provide every cutting or extrusion function of a pasta machine.",
+    "review_note": "Batch 3 researched draft. Identity boundaries are editorial decisions; no human review claimed."
+  }
+}

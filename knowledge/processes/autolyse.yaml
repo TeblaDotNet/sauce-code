@@ -1,12 +1,14 @@
-id: autolyse
-kind: process
-canonical_name: autolyse
-names:
-  en: autolyse
-reference: true
-curation:
-  origin: generated
-  review: unchecked
-scope: "A dough-development rest associated with hydrating flour with water before further mixing. It is distinct from proofing or a generic fermentation stage; recipes may vary in their use of the term."
-categories:
-  - baking-and-pastry
+{
+  "id": "autolyse",
+  "kind": "process",
+  "canonical_name": "autolyse",
+  "names": {
+    "en": "autolyse"
+  },
+  "reference": true,
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "scope": "A dough-development rest associated with hydrating flour with water before further mixing. It is distinct from proofing or a generic fermentation stage; recipes may vary in their use of the term."
+}

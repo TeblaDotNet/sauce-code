@@ -53,24 +53,3 @@ test('bundled canonical vocabulary retains language and styled export without pr
  assert.match(renderCode(recipe),/egg/);assert.match(renderCompact(recipe,{vocabulary:c}),/yolk/i);assert.match(renderHtmlDocument(recipe,{vocabulary:c,theme:'dark'}),/<!doctype html>/i);
  assert.equal(createReferencePage(c,'ingredient','egg')!.enrichment,undefined);
 });
-const knowledge=process.env.OSF_MIGRATION_KNOWLEDGE,baseline=process.env.OSF_STAGE0,corpus=process.env.OSF_CORPUS;
-test('Stage 0 independent combined model equals real provider composition and all 490 recipes',{skip:!knowledge||!baseline||!corpus},async()=>{
- const old=await import(pathToFileURL(join(baseline!,'src/index.ts')).href),oldNode=await import(pathToFileURL(join(baseline!,'src/vocabulary/node.ts')).href);
- const original=await oldNode.loadVocabulary(join(baseline!,'knowledge'));
- const canonical=await loadCanonicalVocabulary('knowledge');
- const provider=await loadKnowledgeProvider(join(knowledge!,'dist/snapshot.json'),{canonicalManifestPath:join(knowledge!,'validation/canonical-manifest.json'),compatibilityPath:join(knowledge!,'dist/compatibility.json'),taxonomyPath:join(knowledge!,'dist/taxonomy.json')});
- const combined=await composeKnowledge(canonical,provider);
- assert.deepEqual(combined.entries,original.entries);assert.deepEqual(combined.resources,original.resources);assert.deepEqual(combined.enrichments,original.enrichments);assert.deepEqual(combined.diagnostics,original.diagnostics);
- assert.equal(combined.entries.length,969);assert.equal(combined.enrichments.length,911);assert.equal(combined.resources.length,775);assert.equal(combined.enrichments.filter(e=>e.hero).length,349);
- let refs=0;for(const e of original.entries){const expected=old.createReferencePage(original,e.kind,e.id),actual=createReferencePage(combined,e.kind,e.id);assert.deepEqual(actual,expected,e.id);if(actual)refs++;
-  for(const term of [e.id,...Object.values(e.names),...Object.values(e.plural_names??{}),...(e.aliases??[]).map((a:any)=>typeof a==='string'?a:a.name),...(e.exact_names??[]).map((a:any)=>a.name)])for(const locale of [undefined,'en-GB','en-US'])assert.deepEqual(combined.resolve(term as string,e.kind,locale),original.resolve(term,e.kind,locale));
- }assert.equal(refs,913);
- const oldRefs=await import(pathToFileURL(join(baseline!,'src/reference/index.ts')).href);const newRefs=await import('../src/reference/index.ts');assert.deepEqual(newRefs.ingredientCompatibilityRoutes,oldRefs.ingredientCompatibilityRoutes);assert.deepEqual(newRefs.nonReferenceProcessCompatibilityIds,oldRefs.nonReferenceProcessCompatibilityIds);
- const measurements=combined.enrichments.flatMap(e=>e.measurements??[]);assert.equal(measurements.length,1);assert.equal(measurements[0].conversion_eligible,false);assert.equal(convertReaderDensity(measurements,readerQuantity('1 US cup')!,{target:{kind:'ingredient',id:'brown-sugar'},to:'g'}).ok,false);
- const promoted=structuredClone(provider);promoted.snapshot.enrichments!.find(e=>e.measurements?.length)!.measurements![0].conversion_eligible=true;await assert.rejects(composeKnowledge(canonical,promoted));
- const sourceInventory=JSON.parse(await readFile(resolve(corpus!,'../_work/stage-0/content-inventory.json'),'utf8')).corpus;
- const recipes:string[]=[];async function walk(dir:string){for(const e of await readdir(dir,{withFileTypes:true})){const p=join(dir,e.name);if(e.isDirectory())await walk(p);else if(p.endsWith('.opensauce'))recipes.push(p);}}await walk(join(corpus!,'examples'));assert.equal(recipes.length,490);
- for(const file of recipes){const bytes=await readFile(file),relative=file.slice(resolve(corpus!).length+1).replaceAll('\\','/');assert.equal(createHash('sha256').update(bytes).digest('hex'),sourceInventory.find((f:any)=>f.path===relative)?.sha256,relative);
-  const a=old.parseRecipe(bytes.toString(),{filename:file,vocabulary:original}),b=parseRecipe(bytes.toString(),{filename:file,vocabulary:combined});assert.deepEqual(b,a,file);assert.equal(renderCode(b),old.renderCode(a));assert.equal(renderCompact(b,{vocabulary:combined}),old.renderCompact(a,{vocabulary:original}));for(const view of ['code','compact'] as const)assert.equal(renderHtml(b,{view,vocabulary:combined}),old.renderHtml(a,{view,vocabulary:original}));
- }
-});

@@ -1,25 +1,36 @@
-id: icing-sugar
-kind: ingredient
-exact_names:
-  - name: powdered sugar
-    locale: en-US
-    scope: Exact regional culinary name.
-canonical_name: icing sugar
-names:
-  en: icing sugar
-status: canonical-seed
-evidence:
-  current_recipe_count: 1
-  current_observation_count: 1
-  legacy_observation_count: 0
-  observed_terms:
-  - term: icing sugar
-    count: 1
-  seen_in:
-  - examples/public-domain-recipes/quarkbaellchen/quarkbaellchen.opensauce
-observed_qualifiers:
-- value: optional
-  count: 1
-categories:
-  - sugars-and-sweeteners
-  - baking-ingredients
+{
+  "id": "icing-sugar",
+  "kind": "ingredient",
+  "exact_names": [
+    {
+      "name": "powdered sugar",
+      "locale": "en-US",
+      "scope": "Exact regional culinary name."
+    }
+  ],
+  "canonical_name": "icing sugar",
+  "names": {
+    "en": "icing sugar"
+  },
+  "status": "canonical-seed",
+  "evidence": {
+    "current_recipe_count": 1,
+    "current_observation_count": 1,
+    "legacy_observation_count": 0,
+    "observed_terms": [
+      {
+        "term": "icing sugar",
+        "count": 1
+      }
+    ],
+    "seen_in": [
+      "examples/public-domain-recipes/quarkbaellchen/quarkbaellchen.opensauce"
+    ]
+  },
+  "observed_qualifiers": [
+    {
+      "value": "optional",
+      "count": 1
+    }
+  ]
+}

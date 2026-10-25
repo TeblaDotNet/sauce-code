@@ -1,17 +1,18 @@
-id: wok-spatula
-kind: equipment
-canonical_name: wok spatula
-names:
-  en: wok spatula
-aliases: []
-categories:
-  - preparation-tools
-type_of: spatula
-curation:
-  origin: generated
-  review: unchecked
-evidence:
-  definition: A shovel-shaped cooking utensil used with a wok. Its head moves and lifts food, while a wok ladle
-    has a bowl for holding liquid. Tool size should suit the wok; regional names are not assumed to be
-    universal aliases.
-  review_note: Batch 7 researched draft. Identity boundaries are editorial decisions; no human review claimed.
+{
+  "id": "wok-spatula",
+  "kind": "equipment",
+  "canonical_name": "wok spatula",
+  "names": {
+    "en": "wok spatula"
+  },
+  "aliases": [],
+  "type_of": "spatula",
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "definition": "A shovel-shaped cooking utensil used with a wok. Its head moves and lifts food, while a wok ladle has a bowl for holding liquid. Tool size should suit the wok; regional names are not assumed to be universal aliases.",
+    "review_note": "Batch 7 researched draft. Identity boundaries are editorial decisions; no human review claimed."
+  }
+}

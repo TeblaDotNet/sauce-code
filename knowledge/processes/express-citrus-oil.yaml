@@ -1,15 +1,21 @@
-id: express-citrus-oil
-kind: process
-canonical_name: express citrus oil
-names:
-  en: express citrus oil
-curation:
-  origin: generated
-  review: unchecked
-categories:
-  - beverage-and-bar
-evidence:
-  review_note: Cocktail Foundation v2; source-informed generated identity and prose, not human reviewed.
-  sources:
-    - title: How to express a citrus zest twist
-      url: https://www.diffordsguide.com/g/1269/cocktail-garnishes/citrus-zest-twists
+{
+  "id": "express-citrus-oil",
+  "kind": "process",
+  "canonical_name": "express citrus oil",
+  "names": {
+    "en": "express citrus oil"
+  },
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "review_note": "Cocktail Foundation v2; source-informed generated identity and prose, not human reviewed.",
+    "sources": [
+      {
+        "title": "How to express a citrus zest twist",
+        "url": "https://www.diffordsguide.com/g/1269/cocktail-garnishes/citrus-zest-twists"
+      }
+    ]
+  }
+}

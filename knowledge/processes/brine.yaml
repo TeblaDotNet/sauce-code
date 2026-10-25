@@ -1,12 +1,14 @@
-id: brine
-kind: process
-canonical_name: brine
-names:
-  en: brine
-reference: true
-curation:
-  origin: generated
-  review: unchecked
-scope: "Treat food with a salt solution for seasoning or other intended changes. Brining is distinct from marinating and curing, although a preparation may involve more than one technique. The term alone establishes neither preservation nor shelf stability."
-categories:
-  - preservation-and-fermentation
+{
+  "id": "brine",
+  "kind": "process",
+  "canonical_name": "brine",
+  "names": {
+    "en": "brine"
+  },
+  "reference": true,
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "scope": "Treat food with a salt solution for seasoning or other intended changes. Brining is distinct from marinating and curing, although a preparation may involve more than one technique. The term alone establishes neither preservation nor shelf stability."
+}

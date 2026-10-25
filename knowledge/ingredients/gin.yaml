@@ -1,27 +1,41 @@
-id: gin
-kind: ingredient
-canonical_name: gin
-names:
-  en: gin
-curation:
-  origin: generated
-  review: unchecked
-categories:
-  - beverages
-evidence:
-  review_note: Cocktail Foundation v1; source-informed generated identity and
-    prose, not human reviewed.
-  sources:
-    - title: What is gin?
-      url: https://www.theginguild.com/about-the-gin-guild/what-is-gin/
-    - title: Old Tom gin
-      url: https://www.theginguild.com/about-the-gin-guild/what-is-gin/old-tom-gin/
-    - title: Dry Martini
-      url: https://iba-world.com/iba-cocktail/dry-martini/
-variants:
-  london-dry:
-    names:
-      en: London dry
-  old-tom:
-    names:
-      en: Old Tom
+{
+  "id": "gin",
+  "kind": "ingredient",
+  "canonical_name": "gin",
+  "names": {
+    "en": "gin"
+  },
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "review_note": "Cocktail Foundation v1; source-informed generated identity and prose, not human reviewed.",
+    "sources": [
+      {
+        "title": "What is gin?",
+        "url": "https://www.theginguild.com/about-the-gin-guild/what-is-gin/"
+      },
+      {
+        "title": "Old Tom gin",
+        "url": "https://www.theginguild.com/about-the-gin-guild/what-is-gin/old-tom-gin/"
+      },
+      {
+        "title": "Dry Martini",
+        "url": "https://iba-world.com/iba-cocktail/dry-martini/"
+      }
+    ]
+  },
+  "variants": {
+    "london-dry": {
+      "names": {
+        "en": "London dry"
+      }
+    },
+    "old-tom": {
+      "names": {
+        "en": "Old Tom"
+      }
+    }
+  }
+}

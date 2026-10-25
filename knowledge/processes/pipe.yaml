@@ -1,15 +1,17 @@
-id: pipe
-kind: process
-canonical_name: pipe
-names:
-  en: pipe
-aliases: []
-categories:
-  - baking-and-pastry
-curation:
-  origin: generated
-  review: unchecked
-evidence:
-  definition: Dispense a soft food mixture through a piping bag or tip to control its placement and shape. This
-    includes savoury mixtures as well as icing.
-  review_note: Batch 3 researched draft. Identity boundaries are editorial decisions; no human review claimed.
+{
+  "id": "pipe",
+  "kind": "process",
+  "canonical_name": "pipe",
+  "names": {
+    "en": "pipe"
+  },
+  "aliases": [],
+  "curation": {
+    "origin": "generated",
+    "review": "unchecked"
+  },
+  "evidence": {
+    "definition": "Dispense a soft food mixture through a piping bag or tip to control its placement and shape. This includes savoury mixtures as well as icing.",
+    "review_note": "Batch 3 researched draft. Identity boundaries are editorial decisions; no human review claimed."
+  }
+}
