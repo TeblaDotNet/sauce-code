@@ -1,13 +1,6 @@
-# Stage 4B ownership update
+# Optional offline knowledge providers
 
-Editorial source ownership has moved to the explicit Knowledge provider. Core retains canonical vocabulary and structural validation only. See [ownership and historical attribution](knowledge-ownership.md). The Stage 3 transition described below is retained as historical context; its deferred-removal status no longer describes the validated Stage 4B state.
-
-# Optional offline knowledge providers (Stage 3)
-
-Status: **provider-ready, ownership cutover deferred**. The active Core combined
-sources remain authoritative until Site migration; Knowledge remains the verified
-migration candidate. Package and standalone distributions are canonical-only.
-No source article, photograph, recipe or identity has been deleted or rewritten.
+Core owns canonical identities; Knowledge owns active editorial content, taxonomy and photographs. Package and standalone distributions are canonical-only. Open Sauce Food Knowledge is the default optional provider, but nothing selects or downloads it implicitly. Missing articles do not invalidate canonical concepts. See [ownership](knowledge-ownership.md) and [ecosystem](ecosystem.md).
 
 ## APIs
 
@@ -62,8 +55,7 @@ Names, aliases, IDs, states, variants, part identities, group members and refere
 eligibility cannot be overwritten. Quantities use the snapshot's validated quantity
 records instead of arbitrary sidecar overlays. Input data is not mutated.
 
-Optional taxonomy must equal the existing registry. Changing taxonomy or migrating
-its compatibility implementation is later work; no category IDs or routes change.
+Optional taxonomy is validated and supplied explicitly by the provider. Browsing categories are editorial data, not mandatory language semantics.
 Provider absence supplies no articles/measurements, but all canonical identities,
 renderers, supported conversions and same-unit scaling remain usable.
 
@@ -82,24 +74,6 @@ an offline provider through these APIs, or inject a composed vocabulary through
 relevant attribution. There is no mandatory Knowledge dependency, provider download,
 install hook or new provider CLI option. Existing licence notices are retained.
 
-## Why source ownership cutover is deferred
-
-Site currently copies Core's knowledge and assets directly into its integration
-workspace. Its release provenance also identifies only Core, Corpus and Site.
-Deleting active Core content now would leave image loading and expected reference
-counts broken or give release receipts incomplete input provenance. Stage 4 must
-add explicit Knowledge input/commit validation, compose its snapshot/sidecars, map
-its images and validate build/routes/browser/release inventory before removal.
-
-Core's original combined loader and source remain operational in the meantime.
-Knowledge is not yet the sole writable authority. Retain Stage 0/1/2 rollback refs;
-no merge, publication or deployment is part of Stage 3.
-
 ## Verification
 
-`tests/knowledge-provider.test.ts` exercises portable/Node APIs and hostile overlays.
-Set `OSF_MIGRATION_KNOWLEDGE`, `OSF_STAGE0` (an untouched Stage 0 source export) and
-`OSF_CORPUS` to run the independent baseline/reference/490-recipe parity test. It
-explicitly skips when those external migration inputs are unavailable. Normal Core
-provider tests do not require Knowledge or Corpus. Package smoke and isolated
-standalone tests verify installed operation without provider content.
+Core tests/knowledge-provider.test.ts covers synthetic portable/Node composition and hostile overlays without requiring Knowledge. Historical real-content parity moved to Knowledge tests/editorial/provider-baseline.test.ts; use Knowledge README prerequisites, including frozen Stage 0 history and Corpus. Site four-input integration now consumes the provider explicitly. Source ownership cutover completed in Stage 4B.

@@ -4,6 +4,16 @@ Copyright © 2026 Tebla and Open Sauce Food contributors, for their respective
 contributions. These grants apply only to rights the contributors hold. The root
 [LICENSE](LICENSE) is a scope pointer, not a blanket grant over third-party material.
 
+## Current repository scope
+
+Current Core paths: original src/, tools/, tests/ and build configuration are MIT; owned canonical YAML under knowledge/ingredients, knowledge/equipment and knowledge/processes is CC0 within rights held; authored specification/docs are CC BY 4.0. Representative recipe encodings and imported evidence retain their layered terms. Active articles and photographs now belong to Knowledge, full recipes to Corpus, and presentation/fonts to Site.
+
+This clarification changes no historical grant, copyright credit or third-party notice. [Knowledge rights findings](../knowledge/docs/rights.md) remain an unresolved publication gate for article prose; photographs have individual licences.
+
+## Retained original scope table (historical paths)
+
+The table below preserves the pre-split grants. Paths belonging to another repository are historical ownership references, not files supplied here.
+
 | Material / paths | Terms |
 |---|---|
 | Original parser, model, renderers, vocabulary/reference tooling in `src/`; TypeScript/JavaScript tooling in `tools/`; test code in `tests/`; `demo/app.js`; build/package configuration and GitHub workflow configuration | [MIT](LICENSES/MIT.txt) |
@@ -16,8 +26,7 @@ contributions. These grants apply only to rights the contributors hold. The root
 
 For CC BY material, credit **Tebla and Open Sauce Food contributors**, identify Open
 Sauce Food and the source/version you used, link the licence and indicate your changes.
-Preserve supplied source-author credits independently. The final repository URL will
-be chosen before publication; none is invented here.
+Preserve supplied source-author credits independently. Identify the actual source revision used; planned repository renaming does not change these credits.
 
 ## Presentation provenance and GPL scope
 
@@ -55,8 +64,8 @@ The unmodified texts are retained locally; the GPL “or later” option is gran
 
 ## Reference hero photographs
 
-Optional images in `assets/references/` retain their individual public-domain, CC0, CC BY or CC BY-SA terms. They are not relicensed under the knowledge CC0 grant. See [image credits](docs/knowledge-ownership.md) and the adjacent selection register for creators, source pages, licence links and derivative details.
+Optional images now in Knowledge assets/references/ retain their individual public-domain, CC0, CC BY or CC BY-SA terms. They are not relicensed under the knowledge CC0 grant. See [image credits](docs/knowledge-ownership.md) and the adjacent selection register for creators, source pages, licence links and derivative details.
 
 ## Standalone runtime packaging
 
-Standalone builds also embed Bun 1.4.4. Its upstream runtime and linked-library notices, including JavaScriptCore relinking instructions, are retained in [Bun-1.4.4.md](LICENSES/Bun-1.4.4.md) and copied into each distribution. Core's existing terms are unchanged. Generated snapshots embed knowledge metadata, not reference photograph bytes. Keep all supplied licence and notice files with redistributed executables.
+Standalone builds also embed Bun 1.4.4. Its upstream runtime and linked-library notices, including JavaScriptCore relinking instructions, are retained in [Bun-1.4.4.md](LICENSES/Bun-1.4.4.md) and copied into each distribution. Core's existing terms are unchanged. Generated standalone snapshots embed canonical identity metadata, not editorial articles or photograph bytes. Keep all supplied licence and notice files with redistributed executables.

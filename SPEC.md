@@ -1,8 +1,10 @@
-# Open Sauce Food Recipe Format
+# Sauce Code Recipe Format
 
 ## Sauce Code — Draft 8
 
-Open Sauce Food is a human-readable recipe language and shared culinary knowledge base, designed for personal recipe collection, versioning, remixing and collaboration.
+Sauce Code — an open, structured language for recipes.
+
+Open Sauce Food is the culinary encyclopaedia and recipe collection built using Sauce Code. This document specifies the language; editorial knowledge is optional.
 
 Recipe files use the `.opensauce` extension.
 
@@ -10,13 +12,13 @@ The basic idea is simple:
 
 A recipe should still make sense if you open it in a plain text editor, while containing enough structure for software to understand useful things about it.
 
-That means Open Sauce Food sits somewhere between ordinary recipe prose and a programming language.
+That means Sauce Code sits somewhere between ordinary recipe prose and a programming language.
 
 It is not an attempt to make dinner executable by a robot. Humans are still expected to know roughly what “golden brown” looks like.
 
 ## The three recipe views
 
-Open Sauce Food recipes can be shown in three ways:
+Sauce Code recipes can be shown in three ways:
 
 **Sauce Code**
 
@@ -101,7 +103,7 @@ Ingredients and equipment both use parentheses:
 (chef knife)
 ```
 
-The section tells Open Sauce Food whether the thing is an ingredient or equipment.
+The section tells a Sauce Code parser whether the thing is an ingredient or equipment.
 
 Qualifiers can be added with commas:
 
@@ -481,7 +483,7 @@ These markers are deliberately descriptive rather than mathematical error bounds
 
 Nobody needs `~~1 handful` converted into 31.742g.
 
-Precision belongs to the quantity expression, not the ingredient. Unit conversion and serving scaling are not implemented here; a future conversion must preserve the source precision rather than introduce falsely precise decimals.
+Precision belongs to the quantity expression, not the ingredient. Core implements conservative serving scaling and supported unit conversion outside the grammar; these operations must preserve source precision rather than introduce falsely precise decimals. See [reading and scaling](docs/reading-scaling.md) for supported operations and limitations.
 
 ## Equivalent quantities
 
@@ -574,7 +576,7 @@ The original recipe can remain available next to the structured version instead 
 
 Sauce Code is only one part of Open Sauce Food.
 
-Ingredients, equipment and processes can resolve against a shared version-controlled culinary knowledge base.
+Ingredients, equipment and processes can resolve against Sauce Code Core's version-controlled canonical vocabulary. Open Sauce Food Knowledge supplies optional articles, sources, photographs, browsing taxonomy and quantitative observations; it does not maintain a second independently editable vocabulary.
 
 That knowledge can describe things such as:
 
