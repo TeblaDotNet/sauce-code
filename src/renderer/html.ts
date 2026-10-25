@@ -32,6 +32,8 @@ export interface HtmlRenderOptions extends RenderOptions {
   assetBaseUrl?: string;
   /** Descriptive fallback for the recipe metadata image. */
   imageAlt?: string;
+  /** Explicit adapter-supplied raster data URLs, keyed by authored image path. */
+  embeddedImages?: ReadonlyMap<string, string>;
   referenceUrl?: (target: ReferenceTarget) => string | undefined;
   /** Plain-text display hooks are inherited; returning HTML never bypasses escaping. */
 }
@@ -66,8 +68,11 @@ export function renderHtml(recipe: Recipe, options: HtmlRenderOptions = {}): str
     ? `<aside class="os-comment" aria-label="Author comment"># ${e(value)}</aside>` : '';
   function image(path: string, alt: string): string {
     if (options.images === false) return '';
-    let url = safeUrl(path);
-    if (url && options.assetBaseUrl) {
+    const embedded = options.embeddedImages?.get(path);
+    // Never allow arbitrary data URLs or SVG/script payloads through this opt-in.
+    const data = embedded && /^data:image\/(?:png|jpeg|gif|webp);base64,[A-Za-z0-9+/]+={0,2}$/.test(embedded) ? embedded : undefined;
+    let url = data ?? safeUrl(path);
+    if (url && !data && options.assetBaseUrl) {
       const base = safeUrl(options.assetBaseUrl);
       if (!base) url = undefined;
       else {

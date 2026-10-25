@@ -1,6 +1,7 @@
 import type { Node, Recipe, Statement, Token } from '../model/index.ts';
 import type { RenderOptions } from './index.ts';
 import { thingLabeler } from './thing-label.ts';
+import { readerQuantity } from '../reading.ts';
 import { amountTokens, isStructuredValue } from './syntax.ts';
 
 /** Internal phrasing representation. Labels are plain text, never HTML. */
@@ -65,6 +66,17 @@ export function compactPhrasing(recipe: Recipe, options: RenderOptions) {
     if (operands.length > 1 && !tokens.some(t => ['=', '-OR-'].includes(t.raw)) &&
       operands.every(ts => ts.some(t => t.kind === 'thing' || t.kind === 'result')))
       return humanList(operands.map(ts => expression(ts)));
+    const meaningful = tokens.filter(t => t.raw.trim());
+    const head = meaningful[0], tail = meaningful.slice(1);
+    const ingredient = head?.thingKind === 'ingredient' || head?.choiceKind === 'ingredient' ||
+      head?.thingKind === 'ambiguous' && !!head.declarationIds?.length && head.declarationIds.every(id =>
+        byId.get(id)?.tokens.find(t => t.kind === 'thing')?.thingKind === 'ingredient');
+    const quantity = head?.kind === 'thing' && ingredient && tail.every(t => t.kind === 'text' || t.kind === 'operator' && ['!','~','~~','/'].includes(t.raw))
+      ? readerQuantity(tail.map(t => t.raw).join('').trim(), recipe.locale) : undefined;
+    if (instructionContext && quantity && (['mass','volume'].includes(quantity.dimension) || /^cups?$/i.test(quantity.unit))) {
+      const amount = trim(tail.flatMap(t => text(({ '!': 'measure closely: ', '~': 'approximately ', '~~': 'very approximately ' } as Record<string,string>)[t.raw] ?? t.raw, true)));
+      return [...amount, ...text(' of '), ...term(head)];
+    }
     return trim(tokens.flatMap(t => {
     if (t.kind === 'thing' || t.kind === 'result') return term(t);
     if (t.kind === 'image') return options.images === false ? [] : [{ token: t, text: t.raw }];
@@ -89,7 +101,8 @@ export function compactPhrasing(recipe: Recipe, options: RenderOptions) {
   const action = (t: Token, object: Phrase): Phrase => {
     const name = options.formatTerm?.(t) ?? t.name!;
     const params = (t.parameters ?? []).map(p => options.formatValue?.(p, 'parameter') ?? duration(p));
-    const namedObject = object.length ? [...text('the '), ...object] : text('it');
+    const article = object[0]?.value ? '' : 'the ';
+    const namedObject = object.length ? [...text(article), ...object] : text('it');
     if (name === 'level surface' && !params.length) return term(t, 'level the surface');
     if (name === 'spoon' && params.length === 1 && /\b(tin|pan|bowl|dish|mould|mold|glass|ramekin)\b/.test(params[0]))
       return [...term(t, 'spoon'), ...(object.length ? [...text(' '), ...namedObject] : []), ...text(` into the ${params[0]}`)];
@@ -117,7 +130,7 @@ export function compactPhrasing(recipe: Recipe, options: RenderOptions) {
       }
       return ` (${params[i]})`;
     });
-    return [...term(t, name), ...(object.length ? [...text(' the '), ...object] : []),
+    return [...term(t, name), ...(object.length ? [...text(' ' + article), ...object] : []),
       ...suffixes.flatMap((suffix, i) => {
         const context = t.parameterParts?.[i];
         if (!options.formatValue && context?.tokens.some(t => t.kind === 'thing')) {

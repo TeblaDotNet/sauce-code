@@ -29,18 +29,18 @@ executable's SHA-256 against `manifest.json`, for example with
 `Get-FileHash .\opensauce.exe -Algorithm SHA256`. A locally supplied checksum detects
 accidental changes; these builds are not signed and have no installer or updater.
 
-HTML is an unstyled semantic fragment, not the complete demonstration site.
+HTML remains an unstyled semantic fragment by default. Opt in to an offline document with `--theme`; see [export options](cli-export.md).
 `--no-knowledge` disables resolution. Unknown culinary terms do not make a recipe
 invalid. Parse errors prevent rendering; warnings are printed to stderr. Output
 files may be replaced, but the input and its hardlink aliases are protected.
 There is no runtime network lookup. External source/reference URLs in knowledge
-are retained as metadata; third-party photographs are not embedded.
+are retained as metadata; knowledge-base photographs are not embedded. Explicit `--embed-images` includes eligible local recipe images; it never downloads them.
 
 ## Platform status
 
 | Target | Compiled | Executed | CLI parity |
 |---|---|---|---|
-| Windows x64 | Yes | Yes | 98 cases, byte-for-byte stdout/stderr/status and output files |
+| Windows x64 | Yes | Yes | Byte-for-byte stdout/stderr/status and output files (latest receipt under `work/standalone-evidence/`) |
 | Linux x64 | Yes | No | Untested |
 | Linux ARM64 | Yes | No | Untested |
 | macOS x64 | Yes | No | Untested |
@@ -102,14 +102,15 @@ injects version and an embedded snapshot reconstructed with the portable
 The public `@open-sauce/core` API remains importable independently. It does not
 import CLI argument handling, stdout/stderr plumbing or Bun APIs. Reading/scaling,
 quantity conversion and reference rendering remain library APIs that a future GUI
-can call directly; they are not newly exposed CLI commands in this milestone.
+can call directly. The CLI now exposes serving scaling through `render --servings`;
+conversion and reference operations remain library APIs.
 A separate compiled library probe exercises these APIs and compares the complete
 snapshot against canonical Node-loaded knowledge. No language-server repository,
 GUI, recipe source or website change is included.
 
 The existing Node package still uses its bundled YAML and requires Node 24+.
 `pnpm package:smoke` verifies a packed external installation and public imports.
-The only user-visible help change clarifies the two runtime requirements.
+Help also documents opt-in styled HTML, local image embedding and serving scaling.
 
 ## Licences and limitations
 
@@ -123,4 +124,6 @@ Executables are large because they include a JavaScript runtime (roughly 91–11
 in this trial). Native Linux/macOS acceptance, signing, installers and release
 publication remain future work. No network service, automatic update or GUI was added.
 
-Detailed build sizes, checksums and acceptance results: [validation receipt](standalone-cli-validation.json). Each generated distribution manifest records its actual build revision; pre-commit trial manifests explicitly identify tracked changes.
+Original standalone-v1 build evidence: [validation receipt](standalone-cli-validation.json).
+For current exports and limits see [CLI exports](cli-export.md); current executable
+checksums and source commits are recorded in the generated distribution manifests. Each generated distribution manifest records its actual build revision; pre-commit trial manifests explicitly identify tracked changes.
