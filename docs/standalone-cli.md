@@ -78,7 +78,7 @@ by the distributed executable. Run the commands from Core; `standalone:smoke`
 accepts an optional executable path as its first argument.
 
 The Node build tool generates a JSON snapshot through the existing
-`loadVocabulary` loader and compiles a tiny adapter with Bun's supported
+`loadCanonicalVocabulary` loader and compiles a tiny adapter with Bun's supported
 [`Bun.build({compile: ...})`](https://bun.sh/docs/bundler/executables) API. The
 snapshot is regenerated from canonical sources, never maintained by hand. The
 compiler version is pinned and nearby dotenv/Bun configuration auto-loading is
@@ -108,7 +108,7 @@ A separate compiled library probe exercises these APIs and compares the complete
 snapshot against canonical Node-loaded knowledge. No language-server repository,
 GUI, recipe source or website change is included.
 
-The existing Node package still uses its bundled YAML and requires Node 24+.
+The Node package uses generated canonical-only JSON and requires Node 24+. Neither distribution bundles encyclopaedia articles, source registries or photographs.
 `pnpm package:smoke` verifies a packed external installation and public imports.
 Help also documents opt-in styled HTML, local image embedding and serving scaling.
 

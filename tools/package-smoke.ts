@@ -24,7 +24,11 @@ const packed = JSON.parse(npm(['pack','--json','--pack-destination',temp], repo)
 const archive = join(temp, packed.filename);
 const files: string[] = packed.files.map((f: {path:string}) => f.path);
 assert.ok(files.includes('dist/cli.js') && files.includes('dist/index.d.ts'));
-assert.ok(files.includes('knowledge/ingredients/index.yaml'));
+assert.ok(files.includes('dist/canonical-vocabulary.json'));
+assert.ok(files.every(f=>!f.startsWith('knowledge/')&&!f.startsWith('assets/references/')));
+const canonical=JSON.parse(readFileSync(join(repo,'dist/canonical-vocabulary.json'),'utf8'));
+assert.deepEqual(Object.keys(canonical),['entries']);assert.equal(canonical.entries.length,969);
+assert.ok(canonical.entries.every((e:any)=>!e.categories&&!e.regional_mappings&&!e.nutrition&&!e.reference_density&&!e.typical_mass));
 assert.ok(files.every(f => !/^(src|tests|tools|examples|node_modules|\.git)\//.test(f)));
 writeFileSync(join(temp,'package.json'), JSON.stringify({name:'opensauce-install-smoke',private:true,type:'module'}));
 npm(['install','--ignore-scripts','--omit=dev','--no-audit','--no-fund',archive]);

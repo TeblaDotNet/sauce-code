@@ -179,7 +179,7 @@ opensauce --help
 opensauce --version
 ```
 
-`check` requires no knowledge resolution. Rendering uses the bundled Core knowledge YAML, resolved from the installed package; `--no-knowledge` disables resolution. Unknown culinary terms do not by themselves make a recipe invalid. Bundled knowledge does not supply hosted reference pages or images.
+`check` requires no knowledge resolution. Rendering uses the bundled canonical vocabulary JSON, resolved from the installed package; `--no-knowledge` disables resolution. Unknown culinary terms do not by themselves make a recipe invalid. Bundled vocabulary does not include encyclopaedia articles, source registries or photographs. Applications can explicitly compose an optional offline provider; see [knowledge providers](docs/knowledge-provider.md).
 
 HTML output is an unstyled semantic **fragment**, using the renderer's Sauce Code view. It is not a complete styled webpage. Compact and Code write plain text. Output goes to stdout unless `--output` is supplied; diagnostics go to stderr. Parse errors stop rendering and return a non-zero status; warnings do not. The CLI refuses to overwrite its input, including file aliases. Other existing output files are replaced.
 

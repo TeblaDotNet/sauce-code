@@ -36,7 +36,7 @@ HTML is an unstyled semantic fragment unless --theme selects an offline document
 code-html produces a highlighted Code document (default theme: auto).
 --servings scales supported ingredient declarations, keeping authored units;
 unsupported amounts and instruction quantities stay literal, with warnings.
-Rendering uses bundled knowledge;
+Rendering uses bundled canonical vocabulary;
 --no-knowledge disables resolution. Check never requires knowledge.
 Parse errors prevent rendering. Warnings go to stderr and do not fail.
 `;

@@ -15,7 +15,6 @@
   },
   "files": [
     "dist",
-    "knowledge/**/*.yaml",
     "LICENSE",
     "LICENSING.md",
     "LICENSES",
@@ -26,13 +25,13 @@
   },
   "scripts": {
     "check": "tsc --noEmit",
-    "build": "tsc -p tsconfig.build.json",
+    "build": "tsc -p tsconfig.build.json && node tools/build-package-vocabulary.ts",
     "test": "node --test tests/*.test.ts",
     "corpus": "node tools/corpus.ts",
     "quality:audit": "node tools/quality-audit.ts",
     "docs:check": "node tools/check-docs.ts",
     "source:check": "node tools/check-public-source.ts",
-    "prepack": "tsc -p tsconfig.build.json",
+    "prepack": "tsc -p tsconfig.build.json && node tools/build-package-vocabulary.ts",
     "package:smoke": "node tools/package-smoke.ts",
     "standalone:build": "node tools/build-standalone.ts",
     "standalone:smoke": "node tools/check-standalone.ts",

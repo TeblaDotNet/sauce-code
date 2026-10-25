@@ -3,7 +3,7 @@ import {resolve,join,relative} from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {spawnSync} from 'node:child_process';
 import {createHash} from 'node:crypto';
-import {loadVocabulary} from '../src/vocabulary/node.ts';
+import {loadCanonicalVocabulary} from '../src/vocabulary/node.ts';
 
 const root=fileURLToPath(new URL('../',import.meta.url));
 const targets=['windows-x64','linux-x64','linux-arm64','darwin-x64','darwin-arm64'];
@@ -21,7 +21,7 @@ if(compilerVersion!=='1.4.4')throw Error('Use the validated Bun 1.4.4 compiler (
 const compilerRevision=command(compiler,['--revision']);
 const hash=(data:string|Buffer)=>createHash('sha256').update(data).digest('hex');
 const pkg=JSON.parse(await readFile(join(root,'package.json'),'utf8'));
-const vocabulary=await loadVocabulary(join(root,'knowledge'));
+const vocabulary=await loadCanonicalVocabulary(join(root,'knowledge'));
 const snapshot={version:pkg.version,entries:vocabulary.entries,resources:vocabulary.resources,enrichments:vocabulary.enrichments};
 const generated=join(root,'work/standalone-generated');await mkdir(generated,{recursive:true});
 const snapshotText=JSON.stringify(snapshot)+'\n';await writeFile(join(generated,'knowledge.json'),snapshotText);
@@ -49,7 +49,7 @@ for(const target of [...new Set(requested)]){
  console.log(command(compiler,['--no-env-file',join(generated,'compile.js')]));
  for(const file of ['LICENSE','LICENSING.md'])await cp(join(root,file),join(output,file));
  await cp(join(root,'LICENSES'),join(output,'LICENSES'),{recursive:true});
- await writeFile(join(output,'THIRD-PARTY-NOTICES.txt'),'Includes the Bun 1.4.4 runtime. Its licence, linked-library notices and relinking instructions are in LICENSES/Bun-1.4.4.md. Core knowledge retains its layered terms in LICENSING.md. The embedded snapshot contains knowledge metadata and source/credit links, not third-party photographs. No YAML parser, compiler, test fixtures or repository checkout is required at runtime.\n');
+ await writeFile(join(output,'THIRD-PARTY-NOTICES.txt'),'Includes the Bun 1.4.4 runtime. Its licence, linked-library notices and relinking instructions are in LICENSES/Bun-1.4.4.md. Core knowledge retains its layered terms in LICENSING.md. The embedded snapshot contains canonical vocabulary and identity provenance only, with no encyclopaedia articles, source registry or photographs. No YAML parser, compiler, test fixtures or repository checkout is required at runtime.\n');
  const bytes=await readFile(join(output,executable));
  const manifest={schema:1,package:pkg.name,version:pkg.version,core_revision:gitRevision,tracked_changes:dirty,source_sha256:sourceFiles,compiler:{name:'Bun',version:compilerVersion,revision:compilerRevision},build_host:{platform:process.platform,arch:process.arch,node:process.version},target:'bun-'+target,dependencies:{yaml:JSON.parse(await readFile(join(root,'node_modules/yaml/package.json'),'utf8')).version},knowledge:{entries:vocabulary.entries.length,resources:vocabulary.resources.length,enrichments:vocabulary.enrichments.length,snapshot_sha256:hash(snapshotText)},executable:{file:executable,bytes:bytes.length,sha256:hash(bytes)},validation:'Compilation only; execution/parity results are recorded separately.'};
  await writeFile(join(output,'manifest.json'),JSON.stringify(manifest,null,2)+'\n');

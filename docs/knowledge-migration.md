@@ -71,3 +71,5 @@ rendering, snapshots, ownership, unknown fields and reconstruction. Set `OSF_COR
 to the sibling Corpus checkout to require parity for all 490 recipes; otherwise
 that external-corpus test explicitly skips. Run the normal Core checks, clean-export
 public-source audit, package smoke and standalone CLI parity before committing.
+
+Stage 3 adds [optional provider composition](knowledge-provider.md) and canonical-only distributions. Active source ownership cutover remains deferred to Site migration.

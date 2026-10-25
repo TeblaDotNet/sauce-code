@@ -1,3 +1,4 @@
+import { fileURLToPath } from 'node:url';
 import { readdir, readFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { parse } from 'yaml';
@@ -45,4 +46,19 @@ export async function loadVocabulary(root: string, options: { canonicalOnly?: bo
 /** Does not read article/resource registries or image assets. */
 export function loadCanonicalVocabulary(root: string): Promise<Vocabulary> {
   return loadVocabulary(root, { canonicalOnly: true });
+}
+
+export { loadKnowledgeProvider } from './provider-node.ts';
+
+/** Built package resource; the source-tree fallback is canonical-only as well. */
+export async function loadBundledCanonicalVocabulary(): Promise<Vocabulary> {
+  let text: string;
+  try { text=await readFile(new URL('../canonical-vocabulary.json',import.meta.url),'utf8'); }
+  catch(error) {
+    if((error as NodeJS.ErrnoException).code!=='ENOENT')throw error;
+    return loadCanonicalVocabulary(fileURLToPath(new URL('../../knowledge/',import.meta.url)));
+  }
+  const data=JSON.parse(text);
+  if(!data||!Array.isArray(data.entries)||Object.keys(data).some(k=>k!=='entries'))throw Error('Invalid bundled canonical vocabulary');
+  return new Vocabulary(data.entries);
 }

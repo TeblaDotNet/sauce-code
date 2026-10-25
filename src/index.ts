@@ -12,3 +12,4 @@ export * from './reading.ts';
 export * from './renderer/document.ts';
 export * from './reading-export.ts';
 export * from './vocabulary/snapshot.ts';
+export * from './vocabulary/provider.ts';
