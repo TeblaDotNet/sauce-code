@@ -61,7 +61,7 @@ export interface Group {
 export interface Metadata { kind: 'metadata'; id: string; span: Span; indent: number; key: string; value: string; comment?: string }
 export interface Prose { kind: 'prose' | 'comment' | 'blank'; id: string; span: Span; indent: number; text: string; comment?: string }
 export type Node = Statement | Group | Metadata | Prose;
-/** Opaque upstream provenance, never interpreted as Open Sauce Food Code. */
+/** Opaque upstream provenance, never interpreted as Sauce Code. */
 export interface OriginalSourcePayload { text: string; span: Span; closed: boolean }
 export interface Section { name: string; span: Span; comment?: string; children: Node[]; originalSource?: OriginalSourcePayload }
 export interface Recipe {

@@ -44,7 +44,17 @@ function duration(value: string): string {
   return `${m[1] === '!' ? 'measure closely: ' : m[1] === '~~' ? 'very approximately ' : m[1] ? 'approximately ' : ''}${m[2].replace('-', '–')} ${unit}${m[2] === '1' ? '' : 's'}`;
 }
 
-/** Shared by text and HTML; token identity survives phrasing and inherited subjects. */
+/**
+ * Shared by text and HTML; token identity survives phrasing and inherited subjects.
+ * statement selects a pure multiline assignment first, then a local choice,
+ * instruction phrasing, or a literal expression. instruction splits alternatives
+ * before assignment/addition prefixes and the ordered action chain.
+ *
+ * Subjects follow parser inheritance IDs; operands/amounts come from authored
+ * tokens, not a simulated cooking state. Never infer an unspecified remaining
+ * amount or guess an action target to improve prose. Unrecognised parameters and
+ * qualifiers stay visible, even when the resulting wording is awkward.
+ */
 export function compactPhrasing(recipe: Recipe, options: RenderOptions) {
   const labelThing = thingLabeler(recipe);
   let instructionContext = false;
@@ -73,6 +83,7 @@ export function compactPhrasing(recipe: Recipe, options: RenderOptions) {
         byId.get(id)?.tokens.find(t => t.kind === 'thing')?.thingKind === 'ingredient');
     const quantity = head?.kind === 'thing' && ingredient && tail.every(t => t.kind === 'text' || t.kind === 'operator' && ['!','~','~~','/'].includes(t.raw))
       ? readerQuantity(tail.map(t => t.raw).join('').trim(), recipe.locale) : undefined;
+    // Move only a recognised ingredient amount before its name; never calculate it.
     if (instructionContext && quantity && (['mass','volume'].includes(quantity.dimension) || /^cups?$/i.test(quantity.unit))) {
       const amount = trim(tail.flatMap(t => text(({ '!': 'measure closely: ', '~': 'approximately ', '~~': 'very approximately ' } as Record<string,string>)[t.raw] ?? t.raw, true)));
       return [...amount, ...text(' of '), ...term(head)];
@@ -90,6 +101,7 @@ export function compactPhrasing(recipe: Recipe, options: RenderOptions) {
     if (copy.at(-1)?.raw === '+') copy.pop();
     return copy;
   };
+  // Follow explicit parser links, not the nearest plausible culinary object.
   const subject = (n: Statement): Phrase => {
     if (n.inheritedSubjectId) {
       const parent = byId.get(n.inheritedSubjectId);
@@ -128,6 +140,7 @@ export function compactPhrasing(recipe: Recipe, options: RenderOptions) {
         if (/^(mix|beat|stir|whisk|bake|boil|simmer|fry|reduce|cook|heat|roast|cool|rest|spoon|pour|ladle|transfer|place)$/.test(name) && /\b(bowl|pan|saucepan|pot|oven|tin|tray|dish|maker)$/.test(p))
           return ` ${/^(spoon|pour|ladle|transfer|place)$/.test(name) ? 'into' : 'in'} the ${p}`;
       }
+      // Unknown parameters stay parenthetical rather than acquiring an inferred role.
       return ` (${params[i]})`;
     });
     return [...term(t, name), ...(object.length ? [...text(' ' + article), ...object] : []),
@@ -189,6 +202,7 @@ export function compactPhrasing(recipe: Recipe, options: RenderOptions) {
       } else parts.push(n.inheritedSubjectId ? [...text('Add '), ...expression(operands), ...text(' to the '), ...subject(n)]
         : [...text('Combine '), ...expression(operands)]);
     } else if (firstProcess < 0) return expression(tokens);
+    // Only the first action receives the explicit subject; later operands stay in order.
     let currentSubject = omitSubject ? [] : subject(n);
     for (let i = firstProcess; i >= 0 && i < tokens.length; i++) {
       const t = tokens[i];

@@ -19,7 +19,22 @@ function thingStructure(head: string) {
   return { structure, at, selection };
 }
 
-/** Parse with recovery. Errors are returned in diagnostics; source is never discarded. */
+/**
+ * Parse with recovery; diagnostics describe problems without discarding source.
+ *
+ * Execution map:
+ * - Scan physical lines: sections and opaque ::source fences precede ordinary syntax.
+ * - Consume tokens and build explicit groups/indented continuations. The group stack
+ *   saves the enclosing target and statement-parent chain.
+ * - Validate alternatives/locale, then index ingredient/equipment declarations.
+ * - Annotate quantities, local references and optional canonical resolution;
+ *   finally project metadata. These passes never rewrite token.raw.
+ *
+ * Spans use original UTF-16 offsets (end exclusive), with one-based line/column.
+ * Newline widths advance offsets; display indentation expands tabs, offsets do not.
+ * Recovery retains malformed tokens/prose and emits diagnostics in encounter order
+ * within each pass. Neither syntax errors nor failed resolution repair source.
+ */
 export function parseRecipe(source: string, options: ParseOptions = {}): Recipe {
   const recipe: Recipe = { modelVersion: 1, source, filename: options.filename, preamble: [], sections: [], diagnostics: [] };
   let serial = 0;
@@ -34,6 +49,7 @@ export function parseRecipe(source: string, options: ParseOptions = {}): Recipe 
   let pendingRepeat: Group | undefined;
   let sourceState: 'awaiting' | 'open' | undefined;
 
+  // Every consumed slice advances p; nested context tokens retain absolute spans.
   function tokenize(text: string, span: Span): Token[] {
     const tokens: Token[] = [];
     let p = 0;
@@ -193,6 +209,7 @@ export function parseRecipe(source: string, options: ParseOptions = {}): Recipe 
     const contentSpan: Span = { ...lineSpan, start: offset + leading.length, column: leading.length + 1 };
     offset += full.length;
     const trimmed = raw.slice(leading.length);
+    // Raw payload wins over section/comment/token recognition, even for syntax-like text.
     if (sourceState === 'open') {
       if (raw === '>>>') { section!.originalSource!.closed = true; sourceState = undefined; }
       else { section!.originalSource!.text += full; section!.originalSource!.span.end = offset; }
@@ -302,6 +319,7 @@ export function parseRecipe(source: string, options: ParseOptions = {}): Recipe 
     recipe.locale = locales[0].value.trim();
   else for (const node of locales) report('warning', 'INVALID_LOCALE', 'Expected one valid authoring locale; wording retained and locale not applied.', node.span);
 
+  // Index all declarations before resolving uses; ambiguity is reported, not guessed.
   const declarations = new Map<string, { token: Token; node: Statement; kind: 'ingredient' | 'equipment' | 'choice' }[]>();
   const visit = (nodes: Node[], fn: (s: Statement) => void): void => {
     for (const n of nodes) {
