@@ -2,10 +2,11 @@ import { readdir, readFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { parse } from 'yaml';
 import { Vocabulary } from './index.ts';
+import { canonicalEntry } from './canonical.ts';
 import type { VocabularyEntry } from './index.ts';
 
 /** Node-only adapter; observed forms/qualifiers are evidence, never aliases. */
-export async function loadVocabulary(root: string): Promise<Vocabulary> {
+export async function loadVocabulary(root: string, options: { canonicalOnly?: boolean } = {}): Promise<Vocabulary> {
   const entries: VocabularyEntry[] = [];
   for (const [folder, kind] of [['ingredients', 'ingredient'], ['equipment', 'equipment'], ['processes', 'process']] as const) {
     const index = parse(await readFile(join(root, folder, 'index.yaml'), 'utf8'));
@@ -26,9 +27,10 @@ export async function loadVocabulary(root: string): Promise<Vocabulary> {
       for (const field of ['exact_names', 'regional_mappings', 'canonical_target', 'scope', 'categories', 'states', 'type_of', 'plural_names', 'variants', 'parts', 'part_groups', 'typical_mass', 'reference_density', 'nutrition',
         'reference', 'curation', 'status', 'evidence', 'observed_parameters', 'observed_qualifiers'] as const)
         if (data[field] !== undefined) Object.assign(entry, { [field]: data[field] });
-      entries.push(entry);
+      entries.push(options.canonicalOnly ? canonicalEntry(entry) : entry);
     }
   }
+  if (options.canonicalOnly) return new Vocabulary(entries);
   const optional = async (file: string) => {
     try { return parse(await readFile(join(root, file), 'utf8')); }
     catch (error) { if ((error as NodeJS.ErrnoException).code === 'ENOENT') return undefined; throw error; }
@@ -38,4 +40,9 @@ export async function loadVocabulary(root: string): Promise<Vocabulary> {
   if (resources !== undefined && !Array.isArray(resources)) throw new Error('Invalid resource registry');
   if (enrichments !== undefined && !Array.isArray(enrichments)) throw new Error('Invalid enrichment registry');
   return new Vocabulary(entries, {resources, enrichments});
+}
+
+/** Does not read article/resource registries or image assets. */
+export function loadCanonicalVocabulary(root: string): Promise<Vocabulary> {
+  return loadVocabulary(root, { canonicalOnly: true });
 }

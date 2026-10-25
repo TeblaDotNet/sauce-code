@@ -11,3 +11,4 @@ export * from './reference/html.ts';
 export * from './reading.ts';
 export * from './renderer/document.ts';
 export * from './reading-export.ts';
+export * from './vocabulary/snapshot.ts';
