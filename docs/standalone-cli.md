@@ -3,7 +3,7 @@
 The standalone executable validates and renders Sauce Code without Node.js, npm,
 pnpm, Bun, a Core checkout or external knowledge YAML at runtime. It is an optional
 adapter around the same Core implementation used by the Node-compatible package.
-No GUI is included. These are local, unsigned development builds, not published releases.
+No GUI is included. Download unsigned archives and SHA-256 checksums from [GitHub Releases](https://github.com/TeblaDotNet/sauce-code/releases/latest). Windows x64 is native-tested; Linux/macOS targets are cross-compiled only.
 
 ## Install and use on Windows
 
@@ -121,8 +121,8 @@ layered code/knowledge/source terms continue to apply. The YAML parser is a buil
 input for the snapshot, not a standalone runtime dependency.
 
 Executables are large because they include a JavaScript runtime (roughly 91–117 MB
-in this trial). Native Linux/macOS acceptance, signing, installers and release
-publication remain future work. No network service, automatic update or GUI was added.
+in this trial). Native Linux/macOS acceptance, signing and installers
+remain future work. No network service, automatic update or GUI was added.
 
 Original standalone-v1 build evidence: [validation receipt](standalone-cli-validation.json).
 For current exports and limits see [CLI exports](cli-export.md); current executable

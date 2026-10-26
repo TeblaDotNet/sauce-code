@@ -4,7 +4,7 @@ Choose one entry point; editors are optional. No GUI or web editor is required.
 
 ## Windows standalone
 
-Obtain the maintainer-provided Windows build, retaining its LICENSES and notices. Public release hosting is not established by this guide. Copy the distribution into a directory you own; [standalone instructions](standalone-cli.md) cover the existing installation paths and optional PATH setup.
+Download the Windows ZIP from [GitHub Releases](https://github.com/TeblaDotNet/sauce-code/releases/latest), verify it against SHA256SUMS.txt and retain its LICENSES and notices. Copy the distribution into a directory you own; [standalone instructions](standalone-cli.md) cover the existing installation paths and optional PATH setup.
 
 From the executable directory, with the README recipe saved as dough.opensauce:
 ```powershell
@@ -31,7 +31,7 @@ Requires Node 24+. From a Core checkout with development dependencies installed,
 
 ## Editors
 
-[VS Code](https://github.com/TeblaDotNet/sauce-code-vscode/blob/main/README.md): use Extensions → Install from VSIX, selecting the provided open-sauce-food-0.3.1.vsix. The identifier remains `tebla-local.open-sauce-food`. Syntax support and bundled completion are implemented; preview, diagnostics, formatting and navigation are not claimed. No external Core/Node installation is needed for the packaged extension.
+[VS Code](https://github.com/TeblaDotNet/sauce-code-vscode/blob/main/README.md): use Extensions → Install from VSIX, selecting sauce-code-vscode-v0.3.1.vsix from its [GitHub Releases](https://github.com/TeblaDotNet/sauce-code-vscode/releases/latest). The identifier remains `tebla-local.open-sauce-food`. Syntax support and bundled completion are implemented; preview, diagnostics, formatting and navigation are not claimed. No external Core/Node installation is needed for the packaged extension.
 
 [Vim/Neovim](https://github.com/TeblaDotNet/sauce-code-vim/blob/main/README.md): install the runtime directory using native package loading; syntax, comments and basic indentation need no external software. The [standalone LSP](https://github.com/TeblaDotNet/sauce-code-language-server/blob/main/README.md) is optional for completion. Neovim's native LSP configuration requires the documented supported version; Vim syntax itself is not an LSP client.
 

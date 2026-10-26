@@ -33,7 +33,7 @@ The Compact renderer produces:
 
 ## Use it
 
-The Windows executable runs without Node.js, Bun, pnpm or a local Core checkout. Use a build supplied by the maintainer and keep its licence notices. No public executable download or npm release is claimed here.
+The Windows executable runs without Node.js, Bun, pnpm or a local Core checkout. Download the appropriate archive from [GitHub Releases](https://github.com/TeblaDotNet/sauce-code/releases/latest), verify its SHA-256 checksum and keep its licence notices. No npm registry package is published.
 
 ```powershell
 .\opensauce.exe check dough.opensauce
