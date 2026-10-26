@@ -22,7 +22,7 @@ separated from ownership of recipe sources.
 These are differences of emphasis and representation, not a claim that Cooklang
 cannot model related ideas or that Open Sauce Food is better. Open Sauce Food's language,
 knowledge base and tooling remain experimental. A possible Cooklang exporter is
-[future work](ROADMAP.md), not an existing compatibility guarantee.
+[future work](roadmap.md), not an existing compatibility guarantee.
 
 ## Open Sauce at opensauce.com
 
