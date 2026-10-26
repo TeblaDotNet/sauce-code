@@ -8,7 +8,7 @@ contributions. These grants apply only to rights the contributors hold. The root
 
 Current Core paths: original src/, tools/, tests/ and build configuration are MIT; owned canonical YAML under knowledge/ingredients, knowledge/equipment and knowledge/processes is CC0 within rights held; authored specification/docs are CC BY 4.0. Representative recipe encodings and imported evidence retain their layered terms. Active articles and photographs now belong to Knowledge, full recipes to Corpus, and presentation/fonts to Site.
 
-This clarification changes no historical grant, copyright credit or third-party notice. [Knowledge rights findings](../knowledge/docs/rights.md) remain an unresolved publication gate for article prose; photographs have individual licences.
+This clarification changes no historical grant, copyright credit or third-party notice. [Knowledge rights findings](../knowledge/docs/rights.md) describe scoped reuse grants and targeted publication-risk review; specific unresolved copying concerns require clearance or remediation. Photographs have individual licences.
 
 ## Retained original scope table (historical paths)
 
