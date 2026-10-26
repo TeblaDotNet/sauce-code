@@ -6,9 +6,9 @@ Start with the [repository map and setup matrix](docs/ecosystem.md). Core owns t
 
 - Propose language changes against [SPEC.md](SPEC.md), with concrete recipe examples and compatibility implications. Do not silently reinterpret existing syntax.
 - Propose canonical identities in Core with evidence for aliases, parts, variants, states and relationships. An observed phrase is not automatically a synonym; unresolved ambiguity is preferable to false equivalence.
-- Contribute articles, citations, images and observations in [Knowledge](../knowledge/README.md). State uncertainty and review status. Citation is not permission to reproduce prose; record rights and attribution separately.
-- Improve conversions in [Corpus](../corpus/README.md), comparing source and structured recipe. Preserve quantities, alternatives, sequence and provenance; do not infer missing steps or silently promote generated work to human-reviewed.
-- Change website presentation or release tooling in [Site](../site/README.md). Local validation grants no production authorization.
+- Contribute articles, citations, images and observations in [Knowledge](https://github.com/TeblaDotNet/open-sauce-food-knowledge/blob/main/README.md). State uncertainty and review status. Citation is not permission to reproduce prose; record rights and attribution separately.
+- Improve conversions in [Corpus](https://github.com/TeblaDotNet/open-sauce-food-corpus/blob/main/README.md), comparing source and structured recipe. Preserve quantities, alternatives, sequence and provenance; do not infer missing steps or silently promote generated work to human-reviewed.
+- Change website presentation or release tooling in Site (private contributor path: `../site/README.md`). Local validation grants no production authorization.
 - Editor integrations have their own focused READMEs; keep parser semantics in Core.
 
 Classification metadata is optional. Dietary labels are not a guarantee of suitability; check actual ingredients and substitutions.

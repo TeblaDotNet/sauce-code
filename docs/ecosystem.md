@@ -1,6 +1,6 @@
 # Sauce Code and Open Sauce Food ecosystem
 
-Sauce Code is the language and tooling. Open Sauce Food is the culinary encyclopaedia and recipe collection built using it. This is the current local development contract, not a claim that all inputs are publicly downloadable.
+Sauce Code is the language and tooling. Open Sauce Food is the culinary encyclopaedia and recipe collection built using it. This describes the local development contract and verified GitHub destinations. Site source remains private.
 
 ## Ownership and dependency direction
 
@@ -42,6 +42,16 @@ Language syntax, canonical IDs/aliases and measurement algorithms belong in Core
 
 ## Naming and publication status
 
-Directory names above are current local names. Existing historical GitHub names still contain open-sauce-food; this documentation does not rename them. Knowledge's proposed destination is `TeblaDotNet/open-sauce-food-knowledge`, currently unpublished. Future Sauce Code repository naming is a Stage 7 decision, not a live link. Site remains private. No public-only clone/build recipe for the complete ecosystem is promised.
+Clone public repositories into the local directory names used above when following sibling-based contributor commands. The existing Core repository was renamed from open-sauce-food to sauce-code; the old name must not be reused, so historical redirects remain intact. Site remains private. Source publication does not publish npm packages, extensions or executable releases.
 
-[Contribution and AI-development policy](../CONTRIBUTING.md) · [API contracts](api.md) · [Knowledge testing](../../knowledge/README.md) · [Site runbook](../../site/hosting/RUNBOOK.md)
+| Local directory | GitHub source |
+| --- | --- |
+| core | [TeblaDotNet/sauce-code](https://github.com/TeblaDotNet/sauce-code) |
+| knowledge | [TeblaDotNet/open-sauce-food-knowledge](https://github.com/TeblaDotNet/open-sauce-food-knowledge) |
+| corpus | [TeblaDotNet/open-sauce-food-corpus](https://github.com/TeblaDotNet/open-sauce-food-corpus) |
+| site | TeblaDotNet/open-sauce-food-site (private; contributor access required) |
+| language-server | [TeblaDotNet/sauce-code-language-server](https://github.com/TeblaDotNet/sauce-code-language-server) |
+| vscode-extension | [TeblaDotNet/sauce-code-vscode](https://github.com/TeblaDotNet/sauce-code-vscode) |
+| vim-plugin | [TeblaDotNet/sauce-code-vim](https://github.com/TeblaDotNet/sauce-code-vim) |
+
+[Contribution and AI-development policy](../CONTRIBUTING.md) · [API contracts](api.md) · [Knowledge testing](https://github.com/TeblaDotNet/open-sauce-food-knowledge/blob/main/README.md) · Site runbook (private contributor path: `../../site/hosting/RUNBOOK.md`)

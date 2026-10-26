@@ -31,8 +31,8 @@ Requires Node 24+. From a Core checkout with development dependencies installed,
 
 ## Editors
 
-[VS Code](../../vscode-extension/README.md): use Extensions → Install from VSIX, selecting the provided open-sauce-food-0.3.1.vsix. The identifier remains `tebla-local.open-sauce-food`. Syntax support and bundled completion are implemented; preview, diagnostics, formatting and navigation are not claimed. No external Core/Node installation is needed for the packaged extension.
+[VS Code](https://github.com/TeblaDotNet/sauce-code-vscode/blob/main/README.md): use Extensions → Install from VSIX, selecting the provided open-sauce-food-0.3.1.vsix. The identifier remains `tebla-local.open-sauce-food`. Syntax support and bundled completion are implemented; preview, diagnostics, formatting and navigation are not claimed. No external Core/Node installation is needed for the packaged extension.
 
-[Vim/Neovim](../../vim-plugin/README.md): install the runtime directory using native package loading; syntax, comments and basic indentation need no external software. The [standalone LSP](../../language-server/README.md) is optional for completion. Neovim's native LSP configuration requires the documented supported version; Vim syntax itself is not an LSP client.
+[Vim/Neovim](https://github.com/TeblaDotNet/sauce-code-vim/blob/main/README.md): install the runtime directory using native package loading; syntax, comments and basic indentation need no external software. The [standalone LSP](https://github.com/TeblaDotNet/sauce-code-language-server/blob/main/README.md) is optional for completion. Neovim's native LSP configuration requires the documented supported version; Vim syntax itself is not an LSP client.
 
 No package publication or editor installation into your normal profile is performed by reading this guide.

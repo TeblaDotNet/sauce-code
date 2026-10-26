@@ -68,7 +68,7 @@ Open Sauce Food is the cookbook and culinary reference project built with Sauce 
   <img src="assets/brand/open-sauce-food-wordmark-light.svg" alt="Open Sauce Food" width="480">
 </picture>
 
-Its [Knowledge repository](../knowledge/README.md) provides optional articles, sources, photographs, browsing categories and measurements. The [Corpus](../corpus/README.md) holds recipes, while the [Site](../site/README.md) brings everything together for publication. Open Sauce Food is the recommended knowledge provider, not a requirement for using the language.
+Its [Knowledge repository](https://github.com/TeblaDotNet/open-sauce-food-knowledge/blob/main/README.md) provides optional articles, sources, photographs, browsing categories and measurements. The [Corpus](https://github.com/TeblaDotNet/open-sauce-food-corpus/blob/main/README.md) holds recipes, while the Site (private contributor path: `../site/README.md`) brings everything together for publication. Open Sauce Food is the recommended knowledge provider, not a requirement for using the language.
 
 ## Develop and contribute
 

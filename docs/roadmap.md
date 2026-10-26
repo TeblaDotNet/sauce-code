@@ -6,6 +6,6 @@ Future work includes reader naming-locale controls, baker's percentages, broader
 
 Personal collections, recipe lineage/forks, shared-title topic pages and richer conditional method branches remain future application work. Editorial browsing categories belong to optional Knowledge; they are not mandatory semantic type_of relationships.
 
-Core's local package contains compiled code and canonical resources. Editorial Knowledge is separately owned and currently unpublished; Site remains private. Four-input release contracts are implemented. Public distribution and repository naming require the separate Stage 7 transition, not a change to language semantics.
+Core's local package contains compiled code and canonical resources. Editorial Knowledge has its own public repository; Site remains private. Four-input release contracts are implemented. Stage 7 publishes the source repositories; package/extension/binary releases and Site deployment remain separately authorized work.
 
 Rendering or passing tests does not establish human culinary review, scientific validation or reproduction rights. See [ecosystem and setup](ecosystem.md) and [contribution policy](../CONTRIBUTING.md).

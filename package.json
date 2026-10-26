@@ -48,5 +48,13 @@
   "license": "SEE LICENSE IN LICENSE",
   "bin": {
     "opensauce": "./dist/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TeblaDotNet/sauce-code.git"
+  },
+  "homepage": "https://github.com/TeblaDotNet/sauce-code#readme",
+  "bugs": {
+    "url": "https://github.com/TeblaDotNet/sauce-code/issues"
   }
 }
