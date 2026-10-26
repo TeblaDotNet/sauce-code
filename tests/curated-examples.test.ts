@@ -12,7 +12,6 @@ for(const item of manifest.recipes as {path:string;sha256:string}[])test('pinned
  assert.equal(recipe.source,source);assert.ok(renderCompact(recipe));assert.ok(renderHtml(recipe));
  assert.deepEqual(parseRecipe(renderCode(recipe)).diagnostics.filter(d=>d.severity==='error'),[]);
 });
-test('public README wordmarks retain both real SVG sources',async()=>{
- const readme=await readFile('README.md','utf8');
- for(const variant of ['light','dark']){const p='assets/brand/open-sauce-food-wordmark-'+variant+'.svg';assert.ok(readme.includes(p));assert.match(await readFile(p,'utf8'),/<svg\b/);}
+test('retained wordmark assets contain both real SVG sources',async()=>{
+ for(const variant of ['light','dark']){const p='assets/brand/open-sauce-food-wordmark-'+variant+'.svg';assert.match(await readFile(p,'utf8'),/<svg\b/);}
 });

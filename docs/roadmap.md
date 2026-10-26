@@ -1,11 +1,15 @@
-# Direction
+# Roadmap
 
-Sauce Code should remain useful independently of a website or culinary provider. Authoring locale, canonical parts/variants/states, conservative reading/scaling, supported unit/temperature conversion, standalone CLI, LSP completion and both editor integrations are implemented. Site provides persistent measurement/temperature settings and serving controls on recipe/specification pages.
+Sauce Code is usable today as a recipe language, parser, renderer and command-line tool. It also has autocomplete support in VS Code and other LSP-compatible editors.
 
-Future work includes reader naming-locale controls, baker's percentages, broader evidence-backed quantitative coverage, functional ingredient properties, wiki-style knowledge editing, a product/expression registry and a nutrition subsystem. Neither arbitrary ingredient density conversion nor nutrition calculation is available today.
+The next work is about making Sauce Code better to **write** and more useful with **real recipes**:
 
-Personal collections, recipe lineage/forks, shared-title topic pages and richer conditional method branches remain future application work. Editorial browsing categories belong to optional Knowledge; they are not mandatory semantic type_of relationships.
+- **VS Code live Compact preview:** show readable instructions alongside the source while editing.
+- **Editor diagnostics:** explain problems in incomplete or invalid recipes without overwhelming people as they type.
+- **Recipe quality:** improve conversions in the [Open Sauce Food Corpus](https://github.com/TeblaDotNet/open-sauce-food-corpus) and use the difficult cases to guide language changes.
+- **Measurements:** gradually add evidence-backed ingredient masses and densities so more useful conversions become possible.
+- **Vocabulary and reference material:** expand ingredient coverage and improve the [Open Sauce Food Knowledge](https://github.com/TeblaDotNet/open-sauce-food-knowledge) articles.
 
-Core's local package contains compiled code and canonical resources. Editorial Knowledge has its own public repository; Site remains private. Four-input release contracts are implemented. Stage 7 publishes the source repositories; package/extension/binary releases and Site deployment remain separately authorized work.
+Longer-term ideas include baker's percentages, nutrition, richer branching instructions and easier recipe editing. These aren't current features or commitments to a release date.
 
-Rendering or passing tests does not establish human culinary review, scientific validation or reproduction rights. See [ecosystem and setup](ecosystem.md) and [contribution policy](../CONTRIBUTING.md).
+Sauce Code will remain usable independently of the Open Sauce Food website. For the current technical details, see the [specification](../SPEC.md), [API guide](api.md) and [reading/scaling notes](reading-scaling.md).

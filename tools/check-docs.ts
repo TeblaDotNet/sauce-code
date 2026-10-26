@@ -9,6 +9,6 @@ for(const p of docs){const t=readFileSync(p,'utf8').replace(/```[\s\S]*?```/g,''
 assert.deepEqual(missing,[]);
 const readme=readFileSync('README.md','utf8'),example=readme.match(/```opensauce\r?\n([\s\S]*?)```/)![1];
 const recipe=parseRecipe(example);assert.deepEqual(recipe.diagnostics,[]);
-const compact=readme.match(/> Combine[^\n]+\n> Mix[^\n]+/);
-assert.ok(compact,'README must retain its matching Compact example');assert.equal(renderCompact(recipe).split('Instructions:\n')[1].trim(),compact[0].replace(/^> /gm,'').replaceAll('\r',''));
+const compact=readme.match(/The Compact renderer produces:\r?\n\r?\n((?:>[^\n]*\n?)+)/);
+assert.ok(compact,'README must retain its matching Compact example');assert.equal(renderCompact(recipe).split('Instructions:\n')[1].trim(),compact[1].trimEnd().replace(/^> /gm,'').replaceAll('\r',''));
 console.log(JSON.stringify({documents:docs.length,missing,readmeExample:'passed'}));

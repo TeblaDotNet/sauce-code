@@ -1,92 +1,74 @@
 # Sauce Code
 
-Sauce Code is a plain-text language for writing recipes that software can understand. In a `.opensauce` file, ingredients, equipment, actions and results have explicit roles, so tools can check a recipe, link familiar terms and render it in different ways. The original wording is preserved. Sauce Code won't guess missing quantities or tell you whether a recipe is safe or tastes good.
+Sauce Code is a plain-text recipe language. It gives ingredients, equipment and cooking steps a structure that software can work with, while keeping the recipe readable and editable as text.
 
-## A short example
+You can check a recipe, turn it into a reading-friendly version, render it as HTML or adjust supported ingredient quantities for a different number of servings.
 
-Save this as `dough.opensauce`:
+## Example
+
+Save this small lemon dressing as `dressing.opensauce`:
 
 ```opensauce
 ::recipe
-name: Dough preparation
+name: Lemon dressing
 serves: 2
 
 ::ingredients
-(flour; plain @ Example Mill) 250g
-(egg: yolk) 2
-
-::equipment
-(mixing bowl)
+(olive oil) 3 tbsp
+(lemon juice) 1 tbsp
+(salt) 1 pinch
 
 ::instructions
-{dough} = (flour) + (egg: yolk)
-{dough} <mix, in (mixing bowl)>
-    <rest, 20m>
+{dressing} = (olive oil) + (lemon juice) + (salt)
+{dressing} <mix>
 ```
 
 The Compact renderer produces:
 
-> Combine flour and egg yolk to make dough.
-> Mix the dough in mixing bowl, then rest for 20 minutes.
+> Combine olive oil, lemon juice, and salt to make dressing.
+> Mix the dressing.
 
-`(thing)` refers to an ingredient or piece of equipment; `<action>` describes a process; and `{result}` names something made within the recipe. The `: yolk` suffix selects a part, `; plain` a variant, and `@ Example Mill` a product label written by the author. These labels do not automatically create new entries in the shared vocabulary. The full syntax is in the [specification](SPEC.md).
+Parentheses mark ingredients or equipment, angle brackets mark actions, and braces name something made in the recipe. The [specification](SPEC.md) covers the full syntax.
 
-## Use it
+Sauce Code's **Compact** renderer turns structured steps into ordinary recipe instructions. You can also view the structured Code rendering or create an HTML page. Try the example with the commands below.
 
-The Windows executable runs without Node.js, Bun, pnpm or a local Core checkout. Download the appropriate archive from [GitHub Releases](https://github.com/TeblaDotNet/sauce-code/releases/latest), verify its SHA-256 checksum and keep its licence notices. No npm registry package is published.
+## Get started
+
+Download a standalone build from [Sauce Code v0.1.0](https://github.com/TeblaDotNet/sauce-code/releases/latest), or [build from source](docs/installation.md). On Windows, extract the standalone distribution and run `opensauce.exe` in PowerShell:
 
 ```powershell
-.\opensauce.exe check dough.opensauce
-.\opensauce.exe render dough.opensauce --format compact
-.\opensauce.exe render dough.opensauce --format html --theme auto --servings 4
-.\opensauce.exe render dough.opensauce --format code-html --theme dark
+.\opensauce.exe check dressing.opensauce
+.\opensauce.exe render dressing.opensauce --format compact
+.\opensauce.exe render dressing.opensauce --format html --theme auto --servings 4 --output dressing.html
 ```
 
-See the [installation guide](docs/installation.md), [standalone distribution notes](docs/standalone-cli.md) and [HTML/scaling export guide](docs/cli-export.md). The Windows executable has been run and tested; Linux and macOS builds have been compiled but not tested on those systems.
+The [installation guide](docs/installation.md) also covers the Node.js package and editors. Windows has been tested directly; other standalone targets should be checked against the platform notes before use.
 
-For JavaScript applications, `@open-sauce/core@0.1.0` supports Node.js 24+. Its library APIs are independent of the CLI. Portable functions do not need filesystem access or Bun; file loading is handled by the Node adapters. See [API usage and error handling](docs/api.md).
+## What it can do
 
-## Features
+- Parse recipes and report syntax problems while retaining the original source.
+- Recognise shared ingredients, equipment and cooking processes, including aliases, parts and variants.
+- Render recipes as Sauce Code, Compact instructions or HTML.
+- Scale supported ingredient amounts and convert supported units for reading, without changing the source file.
+- Provide syntax highlighting and autocomplete in [VS Code](https://github.com/TeblaDotNet/sauce-code-vscode), plus [Vim/Neovim support](https://github.com/TeblaDotNet/sauce-code-vim).
 
-- Source-preserving parser, AST, spans and recoverable diagnostics, with optional vocabulary resolution.
-- Canonical ingredients, equipment and processes; supported parts, variants, states and locale-sensitive ambiguity.
-- Normalised Sauce Code, Compact and semantic HTML rendering; original source remains separate.
-- Conservative serving scaling, same-dimension unit/temperature conversion and precision-aware reading.
-- Standalone CLI; completion-only Language Server; VS Code highlighting/autocomplete; dependency-free Vim/Neovim syntax support.
-- Explicit optional culinary providers. No automatic provider download or discovery.
+Not every quantity can be converted or scaled safely. See [reading and scaling](docs/reading-scaling.md) for the details.
 
-Scaling a supported numeric ingredient quantity keeps the unit written in the recipe, even if Core cannot convert it. Converting cups to a volume requires a known cup standard; converting between mass and volume needs eligible measurements for the specific ingredient. Nutrition calculations and general-purpose density conversion are not available. See [reading and scaling limits](docs/reading-scaling.md) and the [roadmap](docs/roadmap.md).
+## Using Sauce Code in software
 
-## Canonical vocabulary and culinary knowledge
+The `@open-sauce/core` package exposes the parser, renderers and other APIs for Node.js applications. [API documentation](docs/api.md) explains the supported interfaces. Core is independent of the Open Sauce Food website and its culinary articles.
 
-Sauce Code defines shared ingredient, equipment and process identities, including their names, aliases and structural relationships. Recipes can still be parsed without that vocabulary, and an unfamiliar or locally named ingredient is not a syntax error. A shared term does not need an encyclopaedia article.
+[Open Sauce Food](https://tebla.net/opensaucefood/) is the cookbook and culinary reference project built with Sauce Code. Its [Knowledge repository](https://github.com/TeblaDotNet/open-sauce-food-knowledge) provides articles, photographs and sources; its [Corpus](https://github.com/TeblaDotNet/open-sauce-food-corpus) holds recipes.
 
-Open Sauce Food is the cookbook and culinary reference project built with Sauce Code.
+## Development
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/brand/open-sauce-food-wordmark-dark.svg">
-  <img src="assets/brand/open-sauce-food-wordmark-light.svg" alt="Open Sauce Food" width="480">
-</picture>
+Building Core requires Node.js 24+ and pnpm:
 
-Its [Knowledge repository](https://github.com/TeblaDotNet/open-sauce-food-knowledge/blob/main/README.md) provides optional articles, sources, photographs, browsing categories and measurements. The [Corpus](https://github.com/TeblaDotNet/open-sauce-food-corpus/blob/main/README.md) holds recipes, while the Site (private contributor path: `../site/README.md`) brings everything together for publication. Open Sauce Food is the recommended knowledge provider, not a requirement for using the language.
-
-## Develop and contribute
-
-Start with the [repository map and setup matrix](docs/ecosystem.md), [contribution guide](CONTRIBUTING.md), [API guide](docs/api.md) or [licensing notes](LICENSING.md). Links to sibling repositories assume a local checkout; Knowledge has not been published and Site source is private.
-
-Core development uses Node 24+ and pnpm:
 ```sh
 pnpm install --frozen-lockfile
 pnpm check
 pnpm build
 pnpm test
-pnpm corpus
-pnpm quality:audit
-pnpm docs:check
 ```
 
-Run `pnpm source:check` in a clean tracked-source export, not by deleting unrelated user files from a working copy. Installed users do not need TypeScript or pnpm.
-
-Most of the code has been written with AI tools under the maintainer's direction. The [development-process disclosure](CONTRIBUTING.md#development-process) describes the workflow and review limits; culinary content has its own review status.
-
-Recipe classification metadata is optional: a minimal recipe remains valid without category, dietary, cuisine or region labels. A dietary label is not a guarantee of suitability; check ingredients, substitutions and product labels. No corpus-wide dietary, cuisine or region inference is performed.
+See the [developer setup map](docs/ecosystem.md), [contributing](CONTRIBUTING.md), [roadmap](docs/roadmap.md) and [licences](LICENSING.md). This is an early `0.x` project; bug reports and contributions are welcome.

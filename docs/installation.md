@@ -1,38 +1,44 @@
-# Install and use Sauce Code
+# Installing Sauce Code
 
-Choose one entry point; editors are optional. No GUI or web editor is required.
+There are a few ways to use Sauce Code. For checking and rendering recipes, start with the command-line tool. For writing recipes in an editor, see the VS Code and Vim/Neovim options below.
 
-## Windows standalone
+## Windows command-line tool
 
-Download the Windows ZIP from [GitHub Releases](https://github.com/TeblaDotNet/sauce-code/releases/latest), verify it against SHA256SUMS.txt and retain its LICENSES and notices. Copy the distribution into a directory you own; [standalone instructions](standalone-cli.md) cover the existing installation paths and optional PATH setup.
+Download the Windows x64 distribution from [Sauce Code Releases](https://github.com/TeblaDotNet/sauce-code/releases/latest). Extract the archive, keep the accompanying licence files, and open PowerShell in the extracted folder.
 
-From the executable directory, with the README recipe saved as dough.opensauce:
+With the [README example](../README.md) saved as `dressing.opensauce`:
+
 ```powershell
-.\opensauce.exe --version
 .\opensauce.exe --help
-.\opensauce.exe check dough.opensauce
-.\opensauce.exe render dough.opensauce --format compact
-.\opensauce.exe render dough.opensauce --format code
-.\opensauce.exe render dough.opensauce --format html --theme light
-.\opensauce.exe render dough.opensauce --format html --theme dark
-.\opensauce.exe render dough.opensauce --format html --theme auto --embed-images
-.\opensauce.exe render dough.opensauce --format code-html --servings 4
+.\opensauce.exe check dressing.opensauce
+.\opensauce.exe render dressing.opensauce --format compact
+.\opensauce.exe render dressing.opensauce --format code
+.\opensauce.exe render dressing.opensauce --format html --theme auto --output dressing.html
+.\opensauce.exe render dressing.opensauce --format code-html --servings 4 --output dressing-code.html
 ```
 
-Output goes to stdout unless an output option is supplied; diagnostics go to stderr. Check errors prevent render. HTML without a theme is a fragment; themed HTML is a styled Compact document. code-html is a syntax-highlighted document. Original source is not rewritten. Scaling needs a single positive numeric serves value and supported ingredient quantities; inspect warnings for unscaled expressions. It does not scale cooking times or equipment.
+`check` reports syntax problems. `render` writes to the terminal unless you give an output file. It doesn't edit the recipe you opened. The HTML options, image embedding and scaling limits are covered in the [export guide](cli-export.md).
 
-Embedding accepts bounded local raster images relative to the input recipe; remote URLs and SVG are not embedded. Warnings and retained URLs can mean the result is not fully offline. See [export limits and options](cli-export.md). Embedding does not grant image rights.
+You can add the executable's folder to your user `PATH` to run `opensauce` from elsewhere. See the [standalone CLI guide](standalone-cli.md) for platform status and details.
 
-Windows executable execution has been tested. Linux/macOS target compilation alone is not native runtime validation.
+## Node.js package
 
-## Node package
+If you're developing a JavaScript application or want to use the Core library, start with the [API guide](api.md).
 
-Requires Node 24+. From a Core checkout with development dependencies installed, `npm pack` creates the local package. Outside the repository, install its actual tarball path with `npm install -g <path-to-open-sauce-core-0.1.0.tgz>`. Replace the placeholder with the produced path; this is not a registry-install claim. Run `opensauce --help`. The installed package needs Node and its bundled/package runtime dependencies, not pnpm, TypeScript, Corpus or Site. Library users can install the same tarball locally and import `@open-sauce/core`; see [API examples](api.md).
+The package is called `@open-sauce/core` and requires Node.js 24+. To make a package from source, install Core's development dependencies and run `npm pack`. Install the resulting tarball from its actual path:
+
+```sh
+npm install -g /path/to/open-sauce-core-0.1.0.tgz
+opensauce --help
+```
+
+That command installs a **locally built tarball**, not a package from npm's public registry. The same tarball can be installed in an application that imports `@open-sauce/core`.
 
 ## Editors
 
-[VS Code](https://github.com/TeblaDotNet/sauce-code-vscode/blob/main/README.md): use Extensions → Install from VSIX, selecting sauce-code-vscode-v0.3.1.vsix from its [GitHub Releases](https://github.com/TeblaDotNet/sauce-code-vscode/releases/latest). The identifier remains `tebla-local.open-sauce-food`. Syntax support and bundled completion are implemented; preview, diagnostics, formatting and navigation are not claimed. No external Core/Node installation is needed for the packaged extension.
+- **[VS Code](https://github.com/TeblaDotNet/sauce-code-vscode):** syntax highlighting, editor shortcuts and autocomplete. Download a VSIX from its [Releases page](https://github.com/TeblaDotNet/sauce-code-vscode/releases/latest) and choose *Extensions → Install from VSIX*.
+- **[Vim / Neovim](https://github.com/TeblaDotNet/sauce-code-vim):** highlighting, comments and indentation. Autocomplete is available separately through the [Sauce Code Language Server](https://github.com/TeblaDotNet/sauce-code-language-server).
 
-[Vim/Neovim](https://github.com/TeblaDotNet/sauce-code-vim/blob/main/README.md): install the runtime directory using native package loading; syntax, comments and basic indentation need no external software. The [standalone LSP](https://github.com/TeblaDotNet/sauce-code-language-server/blob/main/README.md) is optional for completion. Neovim's native LSP configuration requires the documented supported version; Vim syntax itself is not an LSP client.
+## Other platforms
 
-No package publication or editor installation into your normal profile is performed by reading this guide.
+Standalone builds have been produced for Linux and macOS, but the established native execution tests were on Windows x64. Check the notes for the particular release before relying on another platform's binary.
