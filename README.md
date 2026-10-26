@@ -4,6 +4,8 @@ Sauce Code is a plain-text recipe language. It gives ingredients, equipment and 
 
 You can check a recipe, turn it into a reading-friendly version, render it as HTML or adjust supported ingredient quantities for a different number of servings.
 
+**Related repositories:** [VS Code](https://github.com/TeblaDotNet/sauce-code-vscode) · [Vim/Neovim](https://github.com/TeblaDotNet/sauce-code-vim) · [Language Server](https://github.com/TeblaDotNet/sauce-code-language-server) · [Recipes](https://github.com/TeblaDotNet/open-sauce-food-corpus) · [Knowledge](https://github.com/TeblaDotNet/open-sauce-food-knowledge)
+
 ## Example
 
 Save this small lemon dressing as `dressing.opensauce`:
